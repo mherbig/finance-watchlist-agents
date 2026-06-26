@@ -20,6 +20,22 @@ def _latest_raw(symbol_dir: Path) -> Path | None:
     return files[-1] if files else None
 
 
+def _load_prior(out_dir: Path, date: str) -> dict | None:
+    """Laedt den zuvor geschriebenen Report (Ziel-Datum, sonst neuester),
+    damit ein bestehender agent_analysis-Block beim Refresh erhalten bleibt."""
+    target = out_dir / f"{date}.json"
+    path = target if target.exists() else None
+    if path is None:
+        existing = sorted(out_dir.glob("*.json"))
+        path = existing[-1] if existing else None
+    if path is None:
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     settings = json.loads((root / "config" / "settings.json").read_text(encoding="utf-8"))
@@ -42,10 +58,12 @@ def main() -> None:
         if raw_path is None:
             continue
         raw = json.loads(raw_path.read_text(encoding="utf-8"))
-        report = build_report(raw, generated_at)
-        reports.append(report)
 
         out_dir = reports_dir / sname
+        prior = _load_prior(out_dir, raw.get("date")) if out_dir.is_dir() else None
+        report = build_report(raw, generated_at, prior=prior)
+        reports.append(report)
+
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / f"{report['date']}.json").write_text(
             json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")

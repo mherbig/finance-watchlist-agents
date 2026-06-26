@@ -55,6 +55,37 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
+// Kleines, sicheres Markdown-ish-Rendering: HTML wird ZUERST escaped, dann
+// werden nur **bold**, Bullet-Listen und Absaetze auf erlaubte Tags abgebildet.
+function renderAgentBody(text) {
+  const blocks = String(text == null ? "" : text).split(/\n{2,}/);
+  const out = [];
+  for (const block of blocks) {
+    const lines = block.split(/\n/);
+    const isList = lines.every((l) => /^\s*[-*]\s+/.test(l) && l.trim() !== "");
+    if (isList) {
+      const items = lines
+        .map((l) => `<li>${inlineMd(l.replace(/^\s*[-*]\s+/, ""))}</li>`)
+        .join("");
+      out.push(`<ul>${items}</ul>`);
+    } else {
+      // Einzel-Zeilenumbrueche innerhalb eines Absatzes als <br> erhalten.
+      const para = lines.map((l) => inlineMd(l)).join("<br>");
+      out.push(`<p>${para}</p>`);
+    }
+  }
+  return out.join("");
+}
+
+// Inline-Markdown auf bereits-escaptem Text: nur **bold**.
+function inlineMd(line) {
+  return escapeHtml(line).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+}
+
+function agentBadge() {
+  return ` <span class="agent-badge" title="Agent-Analyse vorhanden">🤖 Agent</span>`;
+}
+
 function renderGrid(rows) {
   const root = document.getElementById("grid");
   root.innerHTML = "";
@@ -82,9 +113,11 @@ function renderGrid(rows) {
       const el = document.createElement("div");
       el.className = "row" + (r.available ? "" : " unavailable");
 
+      const badge = r.has_agent_analysis ? agentBadge() : "";
+
       if (!r.available) {
         el.innerHTML = `
-          <div class="col-label">${escapeHtml(r.display)}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
+          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
           <div class="col-price">–</div>
           <div class="col-change">–</div>
           <div class="chip chip-na">n/v</div>
@@ -92,7 +125,7 @@ function renderGrid(rows) {
           <div class="col-headline">Daten n/v</div>`;
       } else {
         el.innerHTML = `
-          <div class="col-label">${escapeHtml(r.display)}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
+          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
           <div class="col-price">${fmtNum(r.price)}</div>
           <div class="col-change ${changeClass(r.change_pct)}">${fmtPct(r.change_pct)}</div>
           <div>${trendChip(r.trend)}</div>
@@ -105,6 +138,44 @@ function renderGrid(rows) {
     group.appendChild(rowsWrap);
     root.appendChild(group);
   }
+}
+
+function renderAgentAnalysis(aa) {
+  if (!aa || typeof aa !== "object") {
+    return `<div class="agent-none">Noch keine Agent-Analyse.</div>`;
+  }
+
+  const sections = Array.isArray(aa.sections) ? aa.sections : [];
+  const sectionsHtml = sections
+    .map(
+      (s) => `
+      <div class="agent-section">
+        <h5>${escapeHtml(s.title || "")}</h5>
+        <div class="agent-body">${renderAgentBody(s.body || "")}</div>
+      </div>`
+    )
+    .join("");
+
+  const agentsRun = Array.isArray(aa.agents_run) ? aa.agents_run : [];
+  const agentsStr = agentsRun.map((a) => escapeHtml(a)).join(", ");
+  let stamp = aa.generated_at || "";
+  if (stamp) {
+    const d = new Date(stamp);
+    if (!Number.isNaN(d.getTime())) stamp = d.toLocaleString("de-DE");
+  }
+  const metaParts = [];
+  if (agentsStr) metaParts.push(`Agenten: ${agentsStr}`);
+  if (stamp) metaParts.push(`erstellt ${escapeHtml(stamp)}`);
+  if (aa.model) metaParts.push(`Modell ${escapeHtml(aa.model)}`);
+
+  return `
+    <div class="agent-analysis">
+      <h4 class="agent-title">🤖 Agent-Analyse</h4>
+      <div class="agent-summary">${escapeHtml(aa.summary || "")}</div>
+      ${sectionsHtml}
+      <div class="agent-meta">${metaParts.join(" · ")}</div>
+      <div class="agent-disclaimer">${escapeHtml(aa.disclaimer || "")}</div>
+    </div>`;
 }
 
 async function openDetail(row) {
@@ -172,6 +243,8 @@ async function openDetail(row) {
   } else {
     html += `<div class="detail-section"><p class="error">Keine technischen Daten verfügbar.</p></div>`;
   }
+
+  html += renderAgentAnalysis(rep.agent_analysis);
 
   html += `
     <div class="headline-box">${escapeHtml(rep.headline || "")}</div>

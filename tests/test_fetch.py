@@ -27,6 +27,7 @@ def test_fetch_symbol_unavailable():
     rec = fetch.fetch_symbol(FakeClient(fail_symbols={"UKX"}), _entry("FTSE100", "UKX", "index", "technical"), "2026-06-26")
     assert rec["available"] is False
     assert "unsupported" in rec["error"]
+    assert rec["error"].startswith("RuntimeError:")
 
 def test_fetch_all_writes_and_coverage(tmp_path):
     wl = [_entry("EUR/USD", "EUR/USD", "forex", "technical"),

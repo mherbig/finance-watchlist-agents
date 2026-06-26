@@ -16,7 +16,7 @@ def fetch_symbol(client, entry, today):
         rec["time_series"] = client.time_series(entry["td_symbol"], exchange=entry.get("exchange"))
     except Exception as ex:  # Tier-/Symbol-Luecke -> markieren, nicht abbrechen
         rec["available"] = False
-        rec["error"] = str(ex)
+        rec["error"] = f"{type(ex).__name__}: {ex}"
     return rec
 
 def fetch_all(watchlist, client, out_dir, today):

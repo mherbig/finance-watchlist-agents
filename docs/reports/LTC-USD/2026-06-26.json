@@ -1,0 +1,48 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 178.92,
+    "change_pct": -2.1493,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 178.92,
+    "change_pct": -2.149302707137001,
+    "sma20": 180.009,
+    "sma50": 183.3212,
+    "sma200": 185.9931,
+    "rsi14": 47.35,
+    "macd": {
+      "macd": -0.1979,
+      "signal": -0.609,
+      "hist": 0.4111
+    },
+    "atr14": 3.9893,
+    "high_52w": 199.54,
+    "low_52w": 175.83,
+    "pct_from_high": -10.33,
+    "pct_from_low": 1.76,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 183.75
+      },
+      {
+        "type": "support",
+        "price": 175.83
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 47 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

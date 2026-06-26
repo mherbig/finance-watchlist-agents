@@ -1,0 +1,48 @@
+{
+  "symbol": "NEO/USD",
+  "display": "NEO/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 252.74,
+    "change_pct": 2.5647,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 252.74,
+    "change_pct": 2.5647268890512223,
+    "sma20": 237.414,
+    "sma50": 236.5134,
+    "sma200": 243.0465,
+    "rsi14": 75.74,
+    "macd": {
+      "macd": 4.1728,
+      "signal": 2.5341,
+      "hist": 1.6387
+    },
+    "atr14": 7.68,
+    "high_52w": 273.33,
+    "low_52w": 214.11,
+    "pct_from_high": -7.53,
+    "pct_from_low": 18.04,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 252.74
+      },
+      {
+        "type": "support",
+        "price": 225.56
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 76 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

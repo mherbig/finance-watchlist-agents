@@ -1,0 +1,48 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2381.13,
+    "change_pct": 0.3858,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2381.13,
+    "change_pct": 0.38575367414565426,
+    "sma20": 2335.403,
+    "sma50": 2302.0504,
+    "sma200": 2319.006,
+    "rsi14": 79.69,
+    "macd": {
+      "macd": 20.898,
+      "signal": 17.4639,
+      "hist": 3.4342
+    },
+    "atr14": 37.2486,
+    "high_52w": 2426.79,
+    "low_52w": 2178.56,
+    "pct_from_high": -1.88,
+    "pct_from_low": 9.3,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2381.13
+      },
+      {
+        "type": "support",
+        "price": 2266.71
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 80 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

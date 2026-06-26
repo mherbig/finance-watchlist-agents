@@ -1,0 +1,48 @@
+{
+  "symbol": "DASH/USD",
+  "display": "DASH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 383.26,
+    "change_pct": 0.6381,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 383.26,
+    "change_pct": 0.638079983194603,
+    "sma20": 362.748,
+    "sma50": 351.4084,
+    "sma200": 369.2082,
+    "rsi14": 85.13,
+    "macd": {
+      "macd": 9.1163,
+      "signal": 6.7629,
+      "hist": 2.3535
+    },
+    "atr14": 8.0693,
+    "high_52w": 464.2,
+    "low_52w": 338.07,
+    "pct_from_high": -17.44,
+    "pct_from_low": 13.37,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 383.26
+      },
+      {
+        "type": "support",
+        "price": 347.35
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 85 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

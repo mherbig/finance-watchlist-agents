@@ -1,0 +1,48 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 946.97,
+    "change_pct": -1.9893,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 946.97,
+    "change_pct": -1.9892567714424727,
+    "sma20": 896.392,
+    "sma50": 856.9082,
+    "sma200": 690.6951,
+    "rsi14": 70.26,
+    "macd": {
+      "macd": 30.2909,
+      "signal": 26.4786,
+      "hist": 3.8123
+    },
+    "atr14": 42.96,
+    "high_52w": 966.19,
+    "low_52w": 502.8,
+    "pct_from_high": -1.99,
+    "pct_from_low": 88.34,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 966.19
+      },
+      {
+        "type": "support",
+        "price": 795.93
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

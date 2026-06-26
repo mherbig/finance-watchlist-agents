@@ -1,0 +1,48 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.307,
+    "change_pct": 1.7857,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1.307,
+    "change_pct": 1.785728192388257,
+    "sma20": 1.2977,
+    "sma50": 1.3207,
+    "sma200": 1.1677,
+    "rsi14": 45.16,
+    "macd": {
+      "macd": -0.0104,
+      "signal": -0.0122,
+      "hist": 0.0018
+    },
+    "atr14": 0.0485,
+    "high_52w": 1.39227,
+    "low_52w": 0.84407,
+    "pct_from_high": -6.12,
+    "pct_from_low": 54.84,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3811
+      },
+      {
+        "type": "support",
+        "price": 1.2295
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

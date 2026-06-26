@@ -1,0 +1,48 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.75261,
+    "change_pct": 0.2985,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.75261,
+    "change_pct": 0.2985193970974346,
+    "sma20": 0.7549,
+    "sma50": 0.7441,
+    "sma200": 0.7995,
+    "rsi14": 46.57,
+    "macd": {
+      "macd": 0.0026,
+      "signal": 0.0037,
+      "hist": -0.0011
+    },
+    "atr14": 0.0131,
+    "high_52w": 1.00076,
+    "low_52w": 0.70859,
+    "pct_from_high": -24.8,
+    "pct_from_low": 6.21,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7761
+      },
+      {
+        "type": "support",
+        "price": 0.7403
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

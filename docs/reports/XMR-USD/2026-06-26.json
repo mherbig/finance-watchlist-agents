@@ -1,0 +1,48 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 57.08,
+    "change_pct": 0.1579,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 57.08,
+    "change_pct": 0.15792244253377136,
+    "sma20": 58.513,
+    "sma50": 59.2882,
+    "sma200": 64.1776,
+    "rsi14": 19.64,
+    "macd": {
+      "macd": -0.6757,
+      "signal": -0.5262,
+      "hist": -0.1495
+    },
+    "atr14": 0.8564,
+    "high_52w": 72.16,
+    "low_52w": 56.77,
+    "pct_from_high": -20.9,
+    "pct_from_low": 0.55,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 60.17
+      },
+      {
+        "type": "support",
+        "price": 56.77
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 20 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

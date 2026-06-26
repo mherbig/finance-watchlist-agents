@@ -1,0 +1,48 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29.02,
+    "change_pct": -1.4936,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29.02,
+    "change_pct": -1.4935505770536364,
+    "sma20": 30.84,
+    "sma50": 30.9434,
+    "sma200": 34.2203,
+    "rsi14": 36.9,
+    "macd": {
+      "macd": -0.4542,
+      "signal": -0.2452,
+      "hist": -0.209
+    },
+    "atr14": 1.2171,
+    "high_52w": 41.97,
+    "low_52w": 29.02,
+    "pct_from_high": -30.86,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 32.07
+      },
+      {
+        "type": "support",
+        "price": 29.02
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

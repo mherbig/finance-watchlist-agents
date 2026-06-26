@@ -1,0 +1,48 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.60196,
+    "change_pct": -0.9853,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.60196,
+    "change_pct": -0.9852783946048096,
+    "sma20": 0.6003,
+    "sma50": 0.5952,
+    "sma200": 0.638,
+    "rsi14": 48.83,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0013,
+      "hist": 0.0009
+    },
+    "atr14": 0.0093,
+    "high_52w": 0.70762,
+    "low_52w": 0.57696,
+    "pct_from_high": -14.93,
+    "pct_from_low": 4.33,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.6112
+      },
+      {
+        "type": "support",
+        "price": 0.5911
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 49 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

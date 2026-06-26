@@ -1,0 +1,48 @@
+{
+  "symbol": "USD/JPY",
+  "display": "USD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.2779,
+    "change_pct": 2.0826,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1.2779,
+    "change_pct": 2.082551145123542,
+    "sma20": 1.2778,
+    "sma50": 1.2969,
+    "sma200": 1.2846,
+    "rsi14": 48.24,
+    "macd": {
+      "macd": -0.0051,
+      "signal": -0.005,
+      "hist": -0.0
+    },
+    "atr14": 0.0628,
+    "high_52w": 1.54494,
+    "low_52w": 1.05314,
+    "pct_from_high": -17.28,
+    "pct_from_low": 21.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3157
+      },
+      {
+        "type": "support",
+        "price": 1.2346
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

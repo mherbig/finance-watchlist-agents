@@ -1,0 +1,48 @@
+{
+  "symbol": "QCOM",
+  "display": "QCOM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 112.58,
+    "change_pct": 2.5132,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 112.58,
+    "change_pct": 2.513203423784379,
+    "sma20": 109.534,
+    "sma50": 109.8428,
+    "sma200": 119.7886,
+    "rsi14": 62.89,
+    "macd": {
+      "macd": 0.3856,
+      "signal": 0.0225,
+      "hist": 0.3631
+    },
+    "atr14": 3.1221,
+    "high_52w": 142.31,
+    "low_52w": 105.81,
+    "pct_from_high": -20.89,
+    "pct_from_low": 6.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 112.58
+      },
+      {
+        "type": "support",
+        "price": 107.48
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 63 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

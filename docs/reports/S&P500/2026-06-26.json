@@ -1,0 +1,48 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 9460.06,
+    "change_pct": -1.7322,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 9460.06,
+    "change_pct": -1.7322438770019613,
+    "sma20": 10090.442,
+    "sma50": 11040.682,
+    "sma200": 11945.0587,
+    "rsi14": 21.74,
+    "macd": {
+      "macd": -407.4681,
+      "signal": -397.3447,
+      "hist": -10.1234
+    },
+    "atr14": 358.8036,
+    "high_52w": 13804.36,
+    "low_52w": 9460.06,
+    "pct_from_high": -31.47,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 10508.49
+      },
+      {
+        "type": "support",
+        "price": 9460.06
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 22 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

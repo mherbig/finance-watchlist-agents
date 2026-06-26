@@ -1,0 +1,48 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 100.64,
+    "change_pct": 2.2764,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 100.64,
+    "change_pct": 2.276422764227637,
+    "sma20": 98.6525,
+    "sma50": 95.7324,
+    "sma200": 92.6826,
+    "rsi14": 63.46,
+    "macd": {
+      "macd": 1.2221,
+      "signal": 1.5467,
+      "hist": -0.3246
+    },
+    "atr14": 3.5164,
+    "high_52w": 102.73,
+    "low_52w": 76.01,
+    "pct_from_high": -2.03,
+    "pct_from_low": 32.4,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 102.73
+      },
+      {
+        "type": "support",
+        "price": 95.65
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 155.86,
+    "change_pct": 0.8346,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 155.86,
+    "change_pct": 0.8345733324707385,
+    "sma20": 152.425,
+    "sma50": 154.587,
+    "sma200": 150.9702,
+    "rsi14": 63.66,
+    "macd": {
+      "macd": -0.2445,
+      "signal": -0.6126,
+      "hist": 0.368
+    },
+    "atr14": 4.7271,
+    "high_52w": 161.07,
+    "low_52w": 135.42,
+    "pct_from_high": -3.23,
+    "pct_from_low": 15.09,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 155.86
+      },
+      {
+        "type": "support",
+        "price": 148.66
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

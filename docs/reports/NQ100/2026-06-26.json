@@ -1,0 +1,48 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 16953.7,
+    "change_pct": 0.3648,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 16953.7,
+    "change_pct": 0.3647863377393369,
+    "sma20": 16738.994,
+    "sma50": 18330.5876,
+    "sma200": 19523.0539,
+    "rsi14": 61.24,
+    "macd": {
+      "macd": -503.2999,
+      "signal": -647.1622,
+      "hist": 143.8623
+    },
+    "atr14": 743.2343,
+    "high_52w": 21266.69,
+    "low_52w": 15921.28,
+    "pct_from_high": -20.28,
+    "pct_from_low": 6.48,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 17990.44
+      },
+      {
+        "type": "support",
+        "price": 15921.28
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 55257.48,
+    "change_pct": -2.4663,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 55257.48,
+    "change_pct": -2.466306449802274,
+    "sma20": 56024.803,
+    "sma50": 54972.4802,
+    "sma200": 51883.5755,
+    "rsi14": 50.72,
+    "macd": {
+      "macd": 357.5563,
+      "signal": 461.1528,
+      "hist": -103.5966
+    },
+    "atr14": 1462.58,
+    "high_52w": 59357.17,
+    "low_52w": 46757.34,
+    "pct_from_high": -6.91,
+    "pct_from_low": 18.18,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 56917.8
+      },
+      {
+        "type": "support",
+        "price": 55114.6
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

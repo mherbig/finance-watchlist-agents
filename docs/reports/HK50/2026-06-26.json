@@ -1,0 +1,48 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4193.74,
+    "change_pct": 0.0043,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 4193.74,
+    "change_pct": 0.004292295805935328,
+    "sma20": 4080.444,
+    "sma50": 4022.4596,
+    "sma200": 4159.6563,
+    "rsi14": 87.72,
+    "macd": {
+      "macd": 50.5069,
+      "signal": 37.3989,
+      "hist": 13.108
+    },
+    "atr14": 62.445,
+    "high_52w": 4333.93,
+    "low_52w": 3895.74,
+    "pct_from_high": -3.23,
+    "pct_from_low": 7.65,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4193.74
+      },
+      {
+        "type": "support",
+        "price": 3963.75
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 88 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 258.59,
+    "change_pct": -0.6684,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 258.59,
+    "change_pct": -0.6683824376752618,
+    "sma20": 266.221,
+    "sma50": 268.9318,
+    "sma200": 291.9171,
+    "rsi14": 30.17,
+    "macd": {
+      "macd": -2.6794,
+      "signal": -2.1083,
+      "hist": -0.571
+    },
+    "atr14": 5.1307,
+    "high_52w": 331.53,
+    "low_52w": 258.59,
+    "pct_from_high": -22.0,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 273.26
+      },
+      {
+        "type": "support",
+        "price": 258.59
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

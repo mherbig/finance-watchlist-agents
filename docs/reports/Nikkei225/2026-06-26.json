@@ -1,0 +1,48 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4309.96,
+    "change_pct": -0.6942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 4309.96,
+    "change_pct": -0.6942252349605678,
+    "sma20": 4553.2145,
+    "sma50": 4746.0842,
+    "sma200": 5539.6431,
+    "rsi14": 32.31,
+    "macd": {
+      "macd": -114.1356,
+      "signal": -99.2103,
+      "hist": -14.9254
+    },
+    "atr14": 162.4186,
+    "high_52w": 6552.86,
+    "low_52w": 4309.96,
+    "pct_from_high": -34.23,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4814.44
+      },
+      {
+        "type": "support",
+        "price": 4309.96
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

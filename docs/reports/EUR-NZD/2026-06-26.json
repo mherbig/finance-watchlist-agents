@@ -1,0 +1,48 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.5867,
+    "change_pct": -0.4498,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1.5867,
+    "change_pct": -0.4498484819966433,
+    "sma20": 1.5688,
+    "sma50": 1.5188,
+    "sma200": 1.4589,
+    "rsi14": 52.25,
+    "macd": {
+      "macd": 0.0148,
+      "signal": 0.0165,
+      "hist": -0.0017
+    },
+    "atr14": 0.0268,
+    "high_52w": 1.59387,
+    "low_52w": 1.37776,
+    "pct_from_high": -0.45,
+    "pct_from_low": 15.17,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.5939
+      },
+      {
+        "type": "support",
+        "price": 1.5423
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 52 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

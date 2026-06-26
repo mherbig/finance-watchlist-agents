@@ -1,0 +1,48 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 383.57,
+    "change_pct": -0.0547,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 383.57,
+    "change_pct": -0.05471884934076282,
+    "sma20": 394.5135,
+    "sma50": 387.0962,
+    "sma200": 357.0301,
+    "rsi14": 33.92,
+    "macd": {
+      "macd": -1.4429,
+      "signal": 0.8919,
+      "hist": -2.3347
+    },
+    "atr14": 13.8936,
+    "high_52w": 489.2,
+    "low_52w": 293.5,
+    "pct_from_high": -21.59,
+    "pct_from_low": 30.69,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 410.43
+      },
+      {
+        "type": "support",
+        "price": 381.37
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

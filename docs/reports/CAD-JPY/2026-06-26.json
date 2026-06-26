@@ -1,0 +1,48 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92687,
+    "change_pct": -0.0377,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.92687,
+    "change_pct": -0.03774724445116288,
+    "sma20": 0.9575,
+    "sma50": 1.0355,
+    "sma200": 0.9854,
+    "rsi14": 29.23,
+    "macd": {
+      "macd": -0.0387,
+      "signal": -0.0404,
+      "hist": 0.0017
+    },
+    "atr14": 0.0335,
+    "high_52w": 1.2165,
+    "low_52w": 0.75079,
+    "pct_from_high": -23.81,
+    "pct_from_low": 23.45,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.0554
+      },
+      {
+        "type": "support",
+        "price": 0.8929
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 29 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

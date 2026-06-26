@@ -1,0 +1,48 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 12073.92,
+    "change_pct": 0.4017,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 12073.92,
+    "change_pct": 0.401725983130997,
+    "sma20": 12097.9485,
+    "sma50": 12552.467,
+    "sma200": 11817.9405,
+    "rsi14": 58.58,
+    "macd": {
+      "macd": -113.9071,
+      "signal": -127.4396,
+      "hist": 13.5325
+    },
+    "atr14": 315.8986,
+    "high_52w": 13560.78,
+    "low_52w": 9496.16,
+    "pct_from_high": -10.96,
+    "pct_from_low": 27.15,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 12370.95
+      },
+      {
+        "type": "support",
+        "price": 11790.99
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 59 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

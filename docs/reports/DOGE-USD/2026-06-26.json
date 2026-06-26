@@ -1,0 +1,48 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 575.72,
+    "change_pct": 0.2857,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 575.72,
+    "change_pct": 0.2856744704570768,
+    "sma20": 564.6515,
+    "sma50": 558.9926,
+    "sma200": 568.1175,
+    "rsi14": 65.81,
+    "macd": {
+      "macd": 3.6585,
+      "signal": 2.4721,
+      "hist": 1.1864
+    },
+    "atr14": 5.8907,
+    "high_52w": 629.49,
+    "low_52w": 548.92,
+    "pct_from_high": -8.54,
+    "pct_from_low": 4.88,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 575.72
+      },
+      {
+        "type": "support",
+        "price": 556.86
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

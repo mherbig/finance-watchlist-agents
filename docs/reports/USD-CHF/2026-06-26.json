@@ -1,0 +1,48 @@
+{
+  "symbol": "USD/CHF",
+  "display": "USD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81762,
+    "change_pct": -1.0085,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.81762,
+    "change_pct": -1.0085356256431925,
+    "sma20": 0.8424,
+    "sma50": 0.9275,
+    "sma200": 0.9093,
+    "rsi14": 26.85,
+    "macd": {
+      "macd": -0.0303,
+      "signal": -0.0326,
+      "hist": 0.0023
+    },
+    "atr14": 0.0267,
+    "high_52w": 1.03332,
+    "low_52w": 0.79309,
+    "pct_from_high": -20.87,
+    "pct_from_low": 3.09,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8802
+      },
+      {
+        "type": "support",
+        "price": 0.8163
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 27 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

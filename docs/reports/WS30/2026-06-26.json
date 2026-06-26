@@ -1,0 +1,48 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 19533.11,
+    "change_pct": -2.0328,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 19533.11,
+    "change_pct": -2.032759884062968,
+    "sma20": 20156.863,
+    "sma50": 19917.4072,
+    "sma200": 18845.7205,
+    "rsi14": 51.22,
+    "macd": {
+      "macd": 131.8083,
+      "signal": 220.6374,
+      "hist": -88.829
+    },
+    "atr14": 799.3021,
+    "high_52w": 20958.52,
+    "low_52w": 15133.66,
+    "pct_from_high": -6.8,
+    "pct_from_low": 29.07,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 20958.52
+      },
+      {
+        "type": "support",
+        "price": 19119.27
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

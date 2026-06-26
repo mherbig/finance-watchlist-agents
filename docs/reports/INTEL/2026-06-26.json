@@ -1,0 +1,48 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 177.54,
+    "change_pct": 0.7491,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 177.54,
+    "change_pct": 0.7490636704119811,
+    "sma20": 175.773,
+    "sma50": 172.5022,
+    "sma200": 191.4413,
+    "rsi14": 59.01,
+    "macd": {
+      "macd": 1.2074,
+      "signal": 1.0133,
+      "hist": 0.1941
+    },
+    "atr14": 6.0043,
+    "high_52w": 229.52,
+    "low_52w": 165.64,
+    "pct_from_high": -22.65,
+    "pct_from_low": 7.18,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 179.82
+      },
+      {
+        "type": "support",
+        "price": 172.32
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.07793,
+    "change_pct": -1.3409,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1.07793,
+    "change_pct": -1.340862911640342,
+    "sma20": 1.0954,
+    "sma50": 1.0703,
+    "sma200": 1.0492,
+    "rsi14": 49.91,
+    "macd": {
+      "macd": 0.0043,
+      "signal": 0.0062,
+      "hist": -0.0019
+    },
+    "atr14": 0.0348,
+    "high_52w": 1.13634,
+    "low_52w": 0.93288,
+    "pct_from_high": -5.14,
+    "pct_from_low": 15.55,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1363
+      },
+      {
+        "type": "support",
+        "price": 1.0697
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

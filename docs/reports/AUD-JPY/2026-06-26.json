@@ -1,0 +1,48 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.82686,
+    "change_pct": -0.0689,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.82686,
+    "change_pct": -0.06888800261048783,
+    "sma20": 0.8272,
+    "sma50": 0.8241,
+    "sma200": 0.8385,
+    "rsi14": 44.59,
+    "macd": {
+      "macd": 0.0008,
+      "signal": 0.0014,
+      "hist": -0.0006
+    },
+    "atr14": 0.0086,
+    "high_52w": 0.88823,
+    "low_52w": 0.79635,
+    "pct_from_high": -6.91,
+    "pct_from_low": 3.83,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8357
+      },
+      {
+        "type": "support",
+        "price": 0.8156
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

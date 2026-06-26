@@ -1,0 +1,48 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 12792.1,
+    "change_pct": -0.9534,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 12792.1,
+    "change_pct": -0.953370555537913,
+    "sma20": 13306.07,
+    "sma50": 13261.0528,
+    "sma200": 13121.9934,
+    "rsi14": 26.5,
+    "macd": {
+      "macd": -140.2638,
+      "signal": -76.7718,
+      "hist": -63.492
+    },
+    "atr14": 385.5907,
+    "high_52w": 14354.76,
+    "low_52w": 11637.38,
+    "pct_from_high": -10.89,
+    "pct_from_low": 9.92,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 13926.78
+      },
+      {
+        "type": "support",
+        "price": 12733.97
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 26 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

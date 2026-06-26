@@ -1,0 +1,48 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 363.91,
+    "change_pct": -0.3177,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 363.91,
+    "change_pct": -0.31774728134329533,
+    "sma20": 360.428,
+    "sma50": 357.4412,
+    "sma200": 422.8503,
+    "rsi14": 50.01,
+    "macd": {
+      "macd": 1.9231,
+      "signal": 1.1492,
+      "hist": 0.774
+    },
+    "atr14": 16.1843,
+    "high_52w": 546.97,
+    "low_52w": 331.96,
+    "pct_from_high": -33.47,
+    "pct_from_low": 9.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 366.44
+      },
+      {
+        "type": "support",
+        "price": 349.72
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

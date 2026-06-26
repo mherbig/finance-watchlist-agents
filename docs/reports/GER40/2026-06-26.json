@@ -1,0 +1,48 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21657.93,
+    "change_pct": 0.962,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21657.93,
+    "change_pct": 0.9620279364297932,
+    "sma20": 21209.358,
+    "sma50": 20791.2392,
+    "sma200": 18888.2154,
+    "rsi14": 72.95,
+    "macd": {
+      "macd": 240.7701,
+      "signal": 220.2155,
+      "hist": 20.5546
+    },
+    "atr14": 317.6893,
+    "high_52w": 21657.93,
+    "low_52w": 16974.08,
+    "pct_from_high": 0.0,
+    "pct_from_low": 27.59,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21657.93
+      },
+      {
+        "type": "support",
+        "price": 20911.49
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

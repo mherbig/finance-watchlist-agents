@@ -1,0 +1,48 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 426.83,
+    "change_pct": 0.4897,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 426.83,
+    "change_pct": 0.48969982342554075,
+    "sma20": 409.6505,
+    "sma50": 415.4646,
+    "sma200": 425.6921,
+    "rsi14": 76.31,
+    "macd": {
+      "macd": 1.8906,
+      "signal": -0.8911,
+      "hist": 2.7817
+    },
+    "atr14": 11.3479,
+    "high_52w": 485.78,
+    "low_52w": 401.04,
+    "pct_from_high": -12.14,
+    "pct_from_low": 6.43,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 426.83
+      },
+      {
+        "type": "support",
+        "price": 401.04
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 76 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

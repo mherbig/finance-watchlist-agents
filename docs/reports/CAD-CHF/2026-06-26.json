@@ -1,0 +1,48 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.99873,
+    "change_pct": -1.2654,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.99873,
+    "change_pct": -1.2654098247209704,
+    "sma20": 1.0301,
+    "sma50": 1.0108,
+    "sma200": 1.0043,
+    "rsi14": 25.39,
+    "macd": {
+      "macd": 0.0008,
+      "signal": 0.0054,
+      "hist": -0.0046
+    },
+    "atr14": 0.0186,
+    "high_52w": 1.05853,
+    "low_52w": 0.95225,
+    "pct_from_high": -5.65,
+    "pct_from_low": 4.88,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.0416
+      },
+      {
+        "type": "support",
+        "price": 0.9987
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 25 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

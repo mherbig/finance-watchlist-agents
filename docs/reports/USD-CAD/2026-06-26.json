@@ -1,0 +1,48 @@
+{
+  "symbol": "USD/CAD",
+  "display": "USD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.66839,
+    "change_pct": -0.3964,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.66839,
+    "change_pct": -0.3963937113478869,
+    "sma20": 0.6642,
+    "sma50": 0.6671,
+    "sma200": 0.6835,
+    "rsi14": 58.05,
+    "macd": {
+      "macd": -0.0003,
+      "signal": -0.0015,
+      "hist": 0.0013
+    },
+    "atr14": 0.0108,
+    "high_52w": 0.72244,
+    "low_52w": 0.65235,
+    "pct_from_high": -7.48,
+    "pct_from_low": 2.46,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.6731
+      },
+      {
+        "type": "support",
+        "price": 0.6523
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 58 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

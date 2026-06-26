@@ -1,0 +1,48 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 515.79,
+    "change_pct": 1.3002,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 515.79,
+    "change_pct": 1.3001551544670635,
+    "sma20": 505.345,
+    "sma50": 482.339,
+    "sma200": 477.0718,
+    "rsi14": 59.74,
+    "macd": {
+      "macd": 8.5364,
+      "signal": 8.5946,
+      "hist": -0.0582
+    },
+    "atr14": 13.5779,
+    "high_52w": 524.33,
+    "low_52w": 419.86,
+    "pct_from_high": -1.63,
+    "pct_from_low": 22.85,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 519.37
+      },
+      {
+        "type": "support",
+        "price": 482.38
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

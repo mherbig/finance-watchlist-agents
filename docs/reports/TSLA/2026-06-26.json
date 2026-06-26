@@ -1,0 +1,48 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 370.13,
+    "change_pct": -1.1035,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 370.13,
+    "change_pct": -1.1035109282317095,
+    "sma20": 384.1885,
+    "sma50": 382.0778,
+    "sma200": 387.9257,
+    "rsi14": 28.36,
+    "macd": {
+      "macd": -2.9015,
+      "signal": -0.825,
+      "hist": -2.0766
+    },
+    "atr14": 7.1586,
+    "high_52w": 411.75,
+    "low_52w": 322.09,
+    "pct_from_high": -10.11,
+    "pct_from_low": 14.92,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 394.07
+      },
+      {
+        "type": "support",
+        "price": 370.13
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 28 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

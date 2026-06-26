@@ -1,0 +1,48 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 240.95,
+    "change_pct": -2.4968,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 240.95,
+    "change_pct": -2.4967627063774747,
+    "sma20": 249.846,
+    "sma50": 255.4596,
+    "sma200": 290.6119,
+    "rsi14": 40.9,
+    "macd": {
+      "macd": -3.1262,
+      "signal": -2.9396,
+      "hist": -0.1866
+    },
+    "atr14": 9.4579,
+    "high_52w": 327.44,
+    "low_52w": 240.95,
+    "pct_from_high": -26.41,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 255.53
+      },
+      {
+        "type": "support",
+        "price": 240.95
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

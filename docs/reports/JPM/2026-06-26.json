@@ -1,0 +1,48 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 54.6,
+    "change_pct": -0.8895,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 54.6,
+    "change_pct": -0.8894536213468905,
+    "sma20": 53.891,
+    "sma50": 54.6856,
+    "sma200": 55.7769,
+    "rsi14": 58.95,
+    "macd": {
+      "macd": 0.1001,
+      "signal": -0.1284,
+      "hist": 0.2286
+    },
+    "atr14": 1.5514,
+    "high_52w": 61.31,
+    "low_52w": 50.96,
+    "pct_from_high": -10.94,
+    "pct_from_low": 7.14,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 55.62
+      },
+      {
+        "type": "support",
+        "price": 52.55
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

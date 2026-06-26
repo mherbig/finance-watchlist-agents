@@ -1,0 +1,48 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 428.57,
+    "change_pct": 0.6789,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 428.57,
+    "change_pct": 0.6789137380191661,
+    "sma20": 428.1355,
+    "sma50": 426.1932,
+    "sma200": 440.0464,
+    "rsi14": 44.91,
+    "macd": {
+      "macd": 0.1509,
+      "signal": 0.3497,
+      "hist": -0.1988
+    },
+    "atr14": 7.2479,
+    "high_52w": 480.9,
+    "low_52w": 416.8,
+    "pct_from_high": -10.88,
+    "pct_from_low": 2.82,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 431.26
+      },
+      {
+        "type": "support",
+        "price": 424.09
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 45 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

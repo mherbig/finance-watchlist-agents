@@ -1,0 +1,48 @@
+{
+  "symbol": "UKX",
+  "display": "FTSE100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 14105.05,
+    "change_pct": 0.9063,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 14105.05,
+    "change_pct": 0.906329497881001,
+    "sma20": 14434.2835,
+    "sma50": 14532.4472,
+    "sma200": 15968.3769,
+    "rsi14": 40.12,
+    "macd": {
+      "macd": -107.626,
+      "signal": -70.2967,
+      "hist": -37.3293
+    },
+    "atr14": 346.605,
+    "high_52w": 19034.14,
+    "low_52w": 13978.36,
+    "pct_from_high": -25.9,
+    "pct_from_low": 0.91,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 14649.67
+      },
+      {
+        "type": "support",
+        "price": 13978.36
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

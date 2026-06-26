@@ -1,0 +1,48 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 512.65,
+    "change_pct": 0.6815,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 512.65,
+    "change_pct": 0.6814878824777035,
+    "sma20": 509.026,
+    "sma50": 482.442,
+    "sma200": 468.9043,
+    "rsi14": 38.25,
+    "macd": {
+      "macd": 5.1373,
+      "signal": 6.7544,
+      "hist": -1.6171
+    },
+    "atr14": 11.455,
+    "high_52w": 525.04,
+    "low_52w": 421.67,
+    "pct_from_high": -2.36,
+    "pct_from_low": 21.58,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 525.04
+      },
+      {
+        "type": "support",
+        "price": 499.3
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 38 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

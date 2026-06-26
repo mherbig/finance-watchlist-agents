@@ -1,0 +1,48 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.41048,
+    "change_pct": -0.3254,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.41048,
+    "change_pct": -0.32538487688796264,
+    "sma20": 0.434,
+    "sma50": 0.4298,
+    "sma200": 0.5183,
+    "rsi14": 16.45,
+    "macd": {
+      "macd": -0.0065,
+      "signal": -0.003,
+      "hist": -0.0034
+    },
+    "atr14": 0.0129,
+    "high_52w": 0.76555,
+    "low_52w": 0.41048,
+    "pct_from_high": -46.38,
+    "pct_from_low": 0.0,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4624
+      },
+      {
+        "type": "support",
+        "price": 0.4105
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 16 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

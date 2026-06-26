@@ -1,0 +1,48 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 131.05,
+    "change_pct": -0.274,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 131.05,
+    "change_pct": -0.2739517540521918,
+    "sma20": 131.871,
+    "sma50": 132.748,
+    "sma200": 132.0368,
+    "rsi14": 33.01,
+    "macd": {
+      "macd": -1.3499,
+      "signal": -1.3273,
+      "hist": -0.0226
+    },
+    "atr14": 3.1729,
+    "high_52w": 140.75,
+    "low_52w": 122.61,
+    "pct_from_high": -6.89,
+    "pct_from_low": 6.88,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 137.71
+      },
+      {
+        "type": "support",
+        "price": 124.99
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 33 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

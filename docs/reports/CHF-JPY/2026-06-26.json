@@ -1,0 +1,48 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.67102,
+    "change_pct": -1.309,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 0.67102,
+    "change_pct": -1.3089775267678578,
+    "sma20": 0.68,
+    "sma50": 0.6882,
+    "sma200": 0.7228,
+    "rsi14": 42.13,
+    "macd": {
+      "macd": -0.0011,
+      "signal": -0.0011,
+      "hist": -0.0
+    },
+    "atr14": 0.019,
+    "high_52w": 0.82747,
+    "low_52w": 0.66461,
+    "pct_from_high": -18.91,
+    "pct_from_low": 0.96,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.697
+      },
+      {
+        "type": "support",
+        "price": 0.671
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 42 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

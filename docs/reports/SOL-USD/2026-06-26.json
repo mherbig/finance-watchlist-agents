@@ -1,0 +1,48 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 134.29,
+    "change_pct": 0.0894,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 134.29,
+    "change_pct": 0.08943877170753861,
+    "sma20": 133.657,
+    "sma50": 135.081,
+    "sma200": 145.2418,
+    "rsi14": 42.0,
+    "macd": {
+      "macd": -0.5259,
+      "signal": -0.7872,
+      "hist": 0.2613
+    },
+    "atr14": 2.1429,
+    "high_52w": 163.81,
+    "low_52w": 130.0,
+    "pct_from_high": -18.02,
+    "pct_from_low": 3.3,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 136.19
+      },
+      {
+        "type": "support",
+        "price": 130.0
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 42 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

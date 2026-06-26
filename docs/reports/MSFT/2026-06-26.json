@@ -1,0 +1,48 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 45.88,
+    "change_pct": -2.2582,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 45.88,
+    "change_pct": -2.2582019599488605,
+    "sma20": 44.231,
+    "sma50": 44.9822,
+    "sma200": 42.9424,
+    "rsi14": 73.66,
+    "macd": {
+      "macd": 0.5652,
+      "signal": 0.2356,
+      "hist": 0.3296
+    },
+    "atr14": 1.8993,
+    "high_52w": 49.66,
+    "low_52w": 38.34,
+    "pct_from_high": -7.61,
+    "pct_from_low": 19.67,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 46.94
+      },
+      {
+        "type": "support",
+        "price": 41.75
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 74 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

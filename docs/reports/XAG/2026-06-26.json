@@ -1,0 +1,48 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 179.3,
+    "change_pct": -0.5215,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 179.3,
+    "change_pct": -0.5215268530847745,
+    "sma20": 188.351,
+    "sma50": 184.7808,
+    "sma200": 166.7742,
+    "rsi14": 23.0,
+    "macd": {
+      "macd": -1.6992,
+      "signal": -0.1156,
+      "hist": -1.5836
+    },
+    "atr14": 6.1943,
+    "high_52w": 196.81,
+    "low_52w": 142.16,
+    "pct_from_high": -8.9,
+    "pct_from_low": 26.13,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 195.72
+      },
+      {
+        "type": "support",
+        "price": 179.3
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 23 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

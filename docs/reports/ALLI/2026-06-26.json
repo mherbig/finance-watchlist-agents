@@ -1,0 +1,48 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 396.61,
+    "change_pct": -1.4585,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 396.61,
+    "change_pct": -1.458457563108727,
+    "sma20": 406.79,
+    "sma50": 413.9246,
+    "sma200": 397.0055,
+    "rsi14": 41.18,
+    "macd": {
+      "macd": -2.6851,
+      "signal": -2.1077,
+      "hist": -0.5773
+    },
+    "atr14": 10.8036,
+    "high_52w": 439.98,
+    "low_52w": 340.5,
+    "pct_from_high": -9.86,
+    "pct_from_low": 16.48,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 414.07
+      },
+      {
+        "type": "support",
+        "price": 396.61
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

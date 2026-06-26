@@ -1,0 +1,48 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 463.81,
+    "change_pct": 1.1581,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 463.81,
+    "change_pct": 1.1581243184296626,
+    "sma20": 469.089,
+    "sma50": 443.1322,
+    "sma200": 442.1313,
+    "rsi14": 50.68,
+    "macd": {
+      "macd": 5.8193,
+      "signal": 8.9166,
+      "hist": -3.0973
+    },
+    "atr14": 12.2529,
+    "high_52w": 485.7,
+    "low_52w": 413.2,
+    "pct_from_high": -4.51,
+    "pct_from_low": 12.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 485.7
+      },
+      {
+        "type": "support",
+        "price": 454.07
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

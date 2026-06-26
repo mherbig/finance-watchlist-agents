@@ -1,0 +1,48 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 110.33,
+    "change_pct": -1.7105,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 110.33,
+    "change_pct": -1.7104677060133646,
+    "sma20": 114.368,
+    "sma50": 118.495,
+    "sma200": 114.6335,
+    "rsi14": 19.74,
+    "macd": {
+      "macd": -1.9571,
+      "signal": -1.9202,
+      "hist": -0.037
+    },
+    "atr14": 3.33,
+    "high_52w": 128.65,
+    "low_52w": 88.27,
+    "pct_from_high": -14.24,
+    "pct_from_low": 24.99,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 119.46
+      },
+      {
+        "type": "support",
+        "price": 110.33
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 20 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

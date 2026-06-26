@@ -1,0 +1,48 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 104.84,
+    "change_pct": -1.734,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 104.84,
+    "change_pct": -1.7339956884431476,
+    "sma20": 104.6045,
+    "sma50": 109.6378,
+    "sma200": 122.6385,
+    "rsi14": 55.5,
+    "macd": {
+      "macd": -0.9718,
+      "signal": -1.4563,
+      "hist": 0.4845
+    },
+    "atr14": 3.165,
+    "high_52w": 144.65,
+    "low_52w": 101.38,
+    "pct_from_high": -27.52,
+    "pct_from_low": 3.41,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 109.68
+      },
+      {
+        "type": "support",
+        "price": 101.69
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56 – Beobachtung, keine Empfehlung.",
+  "flags": [],
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+}

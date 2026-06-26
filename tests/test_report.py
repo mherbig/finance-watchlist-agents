@@ -79,8 +79,10 @@ def test_build_index_rows():
     row = index[0]
     expected_keys = {"symbol", "display", "asset_class", "track", "date",
                      "available", "price", "change_pct", "trend", "rsi",
-                     "bias", "headline"}
+                     "bias", "headline", "has_agent_analysis", "agents_run"}
     assert set(row.keys()) == expected_keys
+    assert row["has_agent_analysis"] is False
+    assert row["agents_run"] == []
     assert row["display"] == "APPLE"
     assert row["price"] == 159.0
     assert row["trend"] in ("up", "down", "side")
@@ -92,3 +94,47 @@ def test_build_index_rows():
     assert urow["trend"] is None
     assert urow["rsi"] is None
     assert urow["bias"] is None
+
+
+def _agent_block():
+    return {
+        "generated_at": "2026-06-26T22:00:00Z",
+        "model": "claude-opus-4-8",
+        "track": "fundamental",
+        "agents_run": ["market-researcher", "earnings-reviewer"],
+        "summary": "Synthese.",
+        "sections": [{"agent": "market-researcher", "title": "Markt", "body": "x"}],
+        "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung.",
+    }
+
+
+def test_build_report_carries_prior_agent_analysis():
+    prior = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    prior["agent_analysis"] = _agent_block()
+
+    rep = build_report(_raw_available(), "2026-06-27T22:31:00+00:00", prior=prior)
+    # Agent-Analyse wird unveraendert uebernommen, Refresh ueberschreibt sie nicht
+    assert rep["agent_analysis"] == _agent_block()
+    # uebrige Felder werden frisch gebaut
+    assert rep["generated_at"] == "2026-06-27T22:31:00+00:00"
+
+
+def test_build_report_without_prior_has_no_agent_analysis():
+    rep = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    assert "agent_analysis" not in rep
+
+    # prior ohne agent_analysis fuegt nichts hinzu
+    rep2 = build_report(_raw_available(), "2026-06-26T22:31:00+00:00", prior=rep)
+    assert "agent_analysis" not in rep2
+
+
+def test_build_index_exposes_agent_flags():
+    rep = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    rep["agent_analysis"] = _agent_block()
+    plain = build_report(_raw_unavailable(), "2026-06-26T22:31:00+00:00")
+
+    index = build_index([rep, plain])
+    assert index[0]["has_agent_analysis"] is True
+    assert index[0]["agents_run"] == ["market-researcher", "earnings-reviewer"]
+    assert index[1]["has_agent_analysis"] is False
+    assert index[1]["agents_run"] == []

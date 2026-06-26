@@ -17,13 +17,18 @@ def _headline(technical: dict | None, available: bool) -> str:
     return f"Trend {trend}, RSI {rsi_str} – Beobachtung, keine Empfehlung."
 
 
-def build_report(raw: dict, generated_at: str) -> dict:
-    """Erzeugt den Per-Symbol-Report gemaess Spec §7."""
+def build_report(raw: dict, generated_at: str, prior: dict | None = None) -> dict:
+    """Erzeugt den Per-Symbol-Report gemaess Spec §7.
+
+    Wenn ``prior`` (der zuvor geschriebene Report) ein ``agent_analysis``-Feld
+    enthaelt, wird dieser Block unveraendert uebernommen, damit ein
+    Daten-Refresh die qualitative Agenten-Analyse nicht ueberschreibt.
+    """
     available = bool(raw.get("available"))
     technical = compute_technical(raw.get("time_series") or []) if available else None
     snapshot = raw.get("snapshot")
 
-    return {
+    report = {
         "symbol": raw.get("td_symbol"),
         "display": raw.get("display"),
         "asset_class": raw.get("asset_class"),
@@ -39,6 +44,11 @@ def build_report(raw: dict, generated_at: str) -> dict:
         "disclaimer": DISCLAIMER,
     }
 
+    if isinstance(prior, dict) and prior.get("agent_analysis"):
+        report["agent_analysis"] = prior["agent_analysis"]
+
+    return report
+
 
 def build_index(reports: list[dict]) -> list[dict]:
     """Eine kompakte Zeile je Report fuer das Grid (None-safe)."""
@@ -48,6 +58,9 @@ def build_index(reports: list[dict]) -> list[dict]:
         technical = rep.get("technical") or {}
         price = snapshot.get("price") if isinstance(snapshot, dict) else None
         change_pct = snapshot.get("change_pct") if isinstance(snapshot, dict) else None
+        agent = rep.get("agent_analysis")
+        has_agent = isinstance(agent, dict) and bool(agent)
+        agents_run = agent.get("agents_run", []) if has_agent else []
         rows.append({
             "symbol": rep.get("symbol"),
             "display": rep.get("display"),
@@ -61,5 +74,7 @@ def build_index(reports: list[dict]) -> list[dict]:
             "rsi": technical.get("rsi14") if technical else None,
             "bias": technical.get("bias") if technical else None,
             "headline": rep.get("headline"),
+            "has_agent_analysis": has_agent,
+            "agents_run": agents_run if isinstance(agents_run, list) else [],
         })
     return rows

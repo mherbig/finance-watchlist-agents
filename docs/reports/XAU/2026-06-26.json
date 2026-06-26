@@ -44,5 +44,27 @@
   "fundamental": null,
   "headline": "Trend down, RSI 38 – Beobachtung, keine Empfehlung.",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Gold notiert bei rund 4.072 USD nach einer scharfen Korrektur von ueber 23% unter dem 52W-Hoch (5.331), trotz +1,1% am Tag. Der Trend ist klar abwaerts gerichtet: Preis unter allen drei SMAs, RSI bei 38, MACD negativ. Entwurf zur Pruefung, keine Empfehlung.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend abwaerts**: Der Kurs (4.072) liegt unter SMA20 (4.192), SMA50 (4.405) und SMA200 (4.658) – die gleitenden Durchschnitte sind bearisch gestaffelt. **Momentum**: RSI14 bei 38 (naehert sich ueberverkauft, ohne Bodensignal), MACD negativ (-96,9) unter der Signallinie, Histogramm leicht negativ. **Level**: Naechster Support bei ~4.001 (psychologische 4.000er-Marke knapp darunter), Widerstand bei ~4.331. **ATR14** ~80 zeigt erhoehte Volatilitaet. Abstand zum 52W-Hoch -23,6%, nur +3,6% ueber dem 52W-Tief (3.931) – die Unterseite bleibt anfaellig."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Realzinsen/USD** dominieren: Ein hawkisher Fed-Pfad nach CPI ~4,2% und starke US-Jobdaten (Mai +172k) haben Zinssenkungs-Hoffnungen geloescht, Realrenditen (~4,5%) und Dollar gestuetzt – beides belastet Gold. **Safe-Haven** wirkt paradox schwach: Trotz Nahost-Eskalation drueckt oelgetriebene Inflation auf die Notierung. **Zentralbankkaeufe** bleiben struktureller Anker (Q1 2026 netto 244 t laut WGC; PBoC zuletzt wieder aktiver). **Risiken**: Tagesschluss unter 4.000 koennte Abverkauf vertiefen. Entwurf, keine Empfehlung."
+      }
+    ],
+    "generated_at": "2026-06-26T21:04:20.759169+00:00",
+    "model": "claude-opus-4-8",
+    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+  }
 }

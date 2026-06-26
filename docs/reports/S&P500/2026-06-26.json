@@ -44,5 +44,27 @@
   "fundamental": null,
   "headline": "Trend side, RSI 48 – Beobachtung, keine Empfehlung.",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
+  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der S&P500 notiert bei 7.354 Punkten in einer Seitwaerts-Konsolidierung knapp unter dem 52W-Hoch (-3,4%), mit neutralem RSI (48) und negativem MACD-Histogramm. Das Bild zeigt eine Verschnaufpause nach starkem Anstieg, waehrend der makroökonomische Hintergrund durch eine hawkische Fed-Wende gepraegt ist. Dies ist ein Analyse-Entwurf zur Pruefung, keine Anlageempfehlung.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Index (**7.354**) handelt **seitwaerts**: knapp unter der SMA20 (7.455), praktisch auf der SMA50 (7.363) und klar ueber der SMA200 (6.925) — der uebergeordnete Aufwaertstrend bleibt intakt, kurzfristig fehlt Momentum. **RSI14 bei 48** ist neutral, das **MACD-Histogramm (-24,2)** mit Linie unter Signal signalisiert nachlassenden Schwung. Schluessel-Level: Unterstuetzung **7.267**, Widerstand am 52W-Hoch **7.610**. Der **ATR14 (~115)** zeigt moderate Tagesschwankung. Abstand zum 52W-Hoch **-3,4%**, zum 52W-Tief **+18,7%** — die Range zwischen 7.267 und 7.610 grenzt die naehere Beobachtungszone ein."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **Fed** hielt am 17.06.2026 den Leitzins bei **3,50-3,75%** (einstimmig, erstes Meeting unter Chair Warsh), hob aber die Inflationsprognose 2026 auf **3,6% (Kern 3,3%)** an; der neue Dot-Plot impliziert eher eine **Anhebung** statt Senkung — hawkische Wende. Treiber bleibt das KI-getriebene Gewinnwachstum (Goldman: EPS ~340 USD, Ziel 8.000). **Risiken**: hartnaeckige Inflation, geopolitische Spannungen (Nahost), gestreckte Bewertungen (~21x) und enge Marktbreite. *Entwurf, keine Empfehlung.*"
+      }
+    ],
+    "generated_at": "2026-06-26T21:04:20.759169+00:00",
+    "model": "claude-opus-4-8",
+    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+  }
 }

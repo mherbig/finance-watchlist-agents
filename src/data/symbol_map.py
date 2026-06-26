@@ -68,6 +68,18 @@ EXCHANGE: dict[str, str] = {
 def td_symbol_for(display: str) -> str:
     return MAPPING.get(display, display)
 
+# Auf dem Twelve-Data-Free-Tarif nicht verfuegbar: Indizes und Energie brauchen
+# einen Pro/Venture-Plan, EU-Aktien liefern 404. Deshalb standardmaessig
+# enabled=False (in der Config reaktivierbar nach einem Tarif-Upgrade).
+FREE_TIER_UNSUPPORTED_CLASSES = {"index", "energy"}
+
+def _enabled_for(display: str, asset_class: str) -> bool:
+    if asset_class in FREE_TIER_UNSUPPORTED_CLASSES:
+        return False
+    if asset_class == "stock" and display in EXCHANGE:  # EU-Aktien -> Plan noetig
+        return False
+    return True
+
 def build_watchlist_entries() -> list[dict]:
     entries: list[dict] = []
     for asset_class, displays in RAW.items():
@@ -78,7 +90,7 @@ def build_watchlist_entries() -> list[dict]:
                 "asset_class": asset_class,
                 "track": track_for(asset_class),
                 "exchange": EXCHANGE.get(display),
-                "enabled": True,
+                "enabled": _enabled_for(display, asset_class),
             })
     return entries
 

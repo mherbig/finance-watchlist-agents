@@ -5,7 +5,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "FTSE100",
@@ -13,7 +13,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "NQ100",
@@ -21,7 +21,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "WS30",
@@ -29,7 +29,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "S&P500",
@@ -37,7 +37,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "ASX200",
@@ -45,7 +45,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "FRA40",
@@ -53,7 +53,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "Nikkei225",
@@ -61,7 +61,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "HK50",
@@ -69,7 +69,7 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "AUD/CAD",
@@ -389,7 +389,7 @@
     "asset_class": "energy",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "NATGAS",
@@ -397,7 +397,7 @@
     "asset_class": "energy",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "XAG",
@@ -597,7 +597,7 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "Euronext Paris",
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "ALLI",
@@ -605,7 +605,7 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "BAYER",
@@ -613,7 +613,7 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "IBER",
@@ -621,7 +621,7 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "BME",
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "LVMH",
@@ -629,7 +629,7 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "Euronext Paris",
-    "enabled": true
+    "enabled": false
   },
   {
     "display": "VOWGE",
@@ -637,6 +637,6 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": true
+    "enabled": false
   }
 ]

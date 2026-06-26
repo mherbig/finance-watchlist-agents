@@ -43,8 +43,8 @@ def test_source_routing_counts():
     by_source = {}
     for e in entries:
         by_source[e["source"]] = by_source.get(e["source"], 0) + 1
-    assert by_source["yahoo"] == 17
-    assert by_source["twelvedata"] == 63
+    assert by_source["yahoo"] == 20  # 9 Indizes + 2 Energie + 6 EU-Aktien + 3 Metalle
+    assert by_source["twelvedata"] == 60
 
 def test_source_and_api_symbol_for_yahoo_index():
     by_display = {e["display"]: e for e in sm.build_watchlist_entries()}

@@ -78,13 +78,20 @@ YAHOO_SYMBOL: dict[str, str] = {
     "BRENT": "BZ=F", "NATGAS": "NG=F",
     "AIR": "AIR.PA", "ALLI": "ALV.DE", "BAYER": "BAYN.DE", "IBER": "IBE.MC",
     "LVMH": "MC.PA", "VOWGE": "VOW3.DE",
+    # Metalle, die der TD-Free-Tarif nicht liefert (nur Gold/XAU laeuft dort)
+    "XAG": "SI=F", "XPT": "PL=F", "XPD": "PA=F",
 }
 
+# Metalle ausser Gold liefert der TD-Free-Tarif nicht -> Yahoo (Futures)
+YAHOO_ONLY_METALS = {"XAG", "XPT", "XPD"}
+
 def _source_for(display: str, asset_class: str) -> str:
-    """Indizes/Energie und EU-Aktien -> Yahoo, alles andere -> Twelve Data."""
+    """Indizes/Energie, EU-Aktien und Nicht-Gold-Metalle -> Yahoo, sonst Twelve Data."""
     if asset_class in {"index", "energy"}:
         return "yahoo"
     if asset_class == "stock" and display in EXCHANGE:  # EU-Aktien
+        return "yahoo"
+    if display in YAHOO_ONLY_METALS:
         return "yahoo"
     return "twelvedata"
 

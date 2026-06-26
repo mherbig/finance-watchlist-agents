@@ -4,45 +4,45 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "generated_at": "2026-06-26T20:14:13.839849+00:00",
   "available": true,
   "snapshot": {
-    "price": 4193.74,
-    "change_pct": 0.0043,
-    "currency": "USD"
+    "price": 22671.86,
+    "change_pct": -6.7976,
+    "currency": "HKD"
   },
   "technical": {
-    "last_close": 4193.74,
-    "change_pct": 0.004292295805935328,
-    "sma20": 4080.444,
-    "sma50": 4022.4596,
-    "sma200": 4159.6563,
-    "rsi14": 87.72,
+    "last_close": 23076.91015625,
+    "change_pct": -1.4320304035125948,
+    "sma20": 24561.97,
+    "sma50": 25435.6017,
+    "sma200": 25954.0681,
+    "rsi14": 19.04,
     "macd": {
-      "macd": 50.5069,
-      "signal": 37.3989,
-      "hist": 13.108
+      "macd": -589.2937,
+      "signal": -448.4833,
+      "hist": -140.8104
     },
-    "atr14": 62.445,
-    "high_52w": 4333.93,
-    "low_52w": 3895.74,
-    "pct_from_high": -3.23,
-    "pct_from_low": 7.65,
-    "trend": "up",
+    "atr14": 423.2532,
+    "high_52w": 27968.08984375,
+    "low_52w": 23076.91015625,
+    "pct_from_high": -17.49,
+    "pct_from_low": 0.0,
+    "trend": "down",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 4193.74
+        "price": 26038.3203
       },
       {
         "type": "support",
-        "price": 3963.75
+        "price": 23076.9102
       }
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 88 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 19 – Beobachtung, keine Empfehlung.",
   "flags": [],
   "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
 }

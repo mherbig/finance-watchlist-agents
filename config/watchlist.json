@@ -506,8 +506,8 @@
     "track": "technical",
     "exchange": null,
     "enabled": true,
-    "source": "twelvedata",
-    "api_symbol": "XAG/USD"
+    "source": "yahoo",
+    "api_symbol": "SI=F"
   },
   {
     "display": "XAU",
@@ -526,8 +526,8 @@
     "track": "technical",
     "exchange": null,
     "enabled": true,
-    "source": "twelvedata",
-    "api_symbol": "XPT/USD"
+    "source": "yahoo",
+    "api_symbol": "PL=F"
   },
   {
     "display": "XPD",
@@ -536,8 +536,8 @@
     "track": "technical",
     "exchange": null,
     "enabled": true,
-    "source": "twelvedata",
-    "api_symbol": "XPD/USD"
+    "source": "yahoo",
+    "api_symbol": "PA=F"
   },
   {
     "display": "QCOM",

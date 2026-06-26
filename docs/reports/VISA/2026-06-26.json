@@ -4,45 +4,45 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "generated_at": "2026-06-26T20:14:13.839849+00:00",
   "available": true,
   "snapshot": {
-    "price": 515.79,
-    "change_pct": 1.3002,
+    "price": 335.565,
+    "change_pct": 1.52639,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 515.79,
-    "change_pct": 1.3001551544670635,
-    "sma20": 505.345,
-    "sma50": 482.339,
-    "sma200": 477.0718,
-    "rsi14": 59.74,
+    "last_close": 335.565,
+    "change_pct": 1.5263857414494022,
+    "sma20": 324.9837,
+    "sma50": 323.1179,
+    "sma200": 328.7025,
+    "rsi14": 62.43,
     "macd": {
-      "macd": 8.5364,
-      "signal": 8.5946,
-      "hist": -0.0582
+      "macd": 2.6386,
+      "signal": 1.7457,
+      "hist": 0.893
     },
-    "atr14": 13.5779,
-    "high_52w": 524.33,
-    "low_52w": 419.86,
-    "pct_from_high": -1.63,
-    "pct_from_low": 22.85,
+    "atr14": 6.9629,
+    "high_52w": 358.85999,
+    "low_52w": 295.51999,
+    "pct_from_high": -6.49,
+    "pct_from_low": 13.55,
     "trend": "up",
     "bias": "bullish",
     "levels": [
       {
         "type": "resistance",
-        "price": 519.37
+        "price": 335.565
       },
       {
         "type": "support",
-        "price": 482.38
+        "price": 312.4
       }
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 60 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend up, RSI 62 – Beobachtung, keine Empfehlung.",
   "flags": [],
   "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
 }

@@ -4,45 +4,45 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T19:31:07.172757+00:00",
+  "generated_at": "2026-06-26T20:14:13.839849+00:00",
   "available": true,
   "snapshot": {
-    "price": 2381.13,
-    "change_pct": 0.3858,
+    "price": 1216.0,
+    "change_pct": 6.9199,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 2381.13,
-    "change_pct": 0.38575367414565426,
-    "sma20": 2335.403,
-    "sma50": 2302.0504,
-    "sma200": 2319.006,
-    "rsi14": 79.69,
+    "last_close": 1216.0,
+    "change_pct": 3.0333884349493045,
+    "sma20": 1275.265,
+    "sma50": 1394.946,
+    "sma200": 1516.7365,
+    "rsi14": 46.55,
     "macd": {
-      "macd": 20.898,
-      "signal": 17.4639,
-      "hist": 3.4342
+      "macd": -50.9699,
+      "signal": -47.5264,
+      "hist": -3.4435
     },
-    "atr14": 37.2486,
-    "high_52w": 2426.79,
-    "low_52w": 2178.56,
-    "pct_from_high": -1.88,
-    "pct_from_low": 9.3,
-    "trend": "up",
-    "bias": "neutral",
+    "atr14": 34.8928,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -43.96,
+    "pct_from_low": 12.38,
+    "trend": "down",
+    "bias": "bearish",
     "levels": [
       {
         "type": "resistance",
-        "price": 2381.13
+        "price": 1373.1
       },
       {
         "type": "support",
-        "price": 2266.71
+        "price": 1161.3
       }
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 80 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 47 – Beobachtung, keine Empfehlung.",
   "flags": [],
   "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung."
 }

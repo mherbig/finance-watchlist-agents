@@ -5,7 +5,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^GDAXI"
   },
   {
     "display": "FTSE100",
@@ -13,7 +15,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^FTSE"
   },
   {
     "display": "NQ100",
@@ -21,7 +25,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^NDX"
   },
   {
     "display": "WS30",
@@ -29,7 +35,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^DJI"
   },
   {
     "display": "S&P500",
@@ -37,7 +45,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^GSPC"
   },
   {
     "display": "ASX200",
@@ -45,7 +55,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^AXJO"
   },
   {
     "display": "FRA40",
@@ -53,7 +65,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^FCHI"
   },
   {
     "display": "Nikkei225",
@@ -61,7 +75,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^N225"
   },
   {
     "display": "HK50",
@@ -69,7 +85,9 @@
     "asset_class": "index",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "^HSI"
   },
   {
     "display": "AUD/CAD",
@@ -77,7 +95,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AUD/CAD"
   },
   {
     "display": "AUD/CHF",
@@ -85,7 +105,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AUD/CHF"
   },
   {
     "display": "AUD/JPY",
@@ -93,7 +115,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AUD/JPY"
   },
   {
     "display": "AUD/NZD",
@@ -101,7 +125,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AUD/NZD"
   },
   {
     "display": "AUD/USD",
@@ -109,7 +135,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AUD/USD"
   },
   {
     "display": "CAD/CHF",
@@ -117,7 +145,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "CAD/CHF"
   },
   {
     "display": "CAD/JPY",
@@ -125,7 +155,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "CAD/JPY"
   },
   {
     "display": "CHF/JPY",
@@ -133,7 +165,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "CHF/JPY"
   },
   {
     "display": "EUR/AUD",
@@ -141,7 +175,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/AUD"
   },
   {
     "display": "EUR/CAD",
@@ -149,7 +185,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/CAD"
   },
   {
     "display": "EUR/CHF",
@@ -157,7 +195,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/CHF"
   },
   {
     "display": "EUR/GBP",
@@ -165,7 +205,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/GBP"
   },
   {
     "display": "EUR/JPY",
@@ -173,7 +215,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/JPY"
   },
   {
     "display": "EUR/NZD",
@@ -181,7 +225,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/NZD"
   },
   {
     "display": "EUR/USD",
@@ -189,7 +235,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "EUR/USD"
   },
   {
     "display": "GBP/AUD",
@@ -197,7 +245,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/AUD"
   },
   {
     "display": "GBP/CAD",
@@ -205,7 +255,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/CAD"
   },
   {
     "display": "GBP/CHF",
@@ -213,7 +265,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/CHF"
   },
   {
     "display": "GBP/JPY",
@@ -221,7 +275,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/JPY"
   },
   {
     "display": "GBP/NZD",
@@ -229,7 +285,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/NZD"
   },
   {
     "display": "GBP/USD",
@@ -237,7 +295,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GBP/USD"
   },
   {
     "display": "NZD/CAD",
@@ -245,7 +305,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NZD/CAD"
   },
   {
     "display": "NZD/CHF",
@@ -253,7 +315,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NZD/CHF"
   },
   {
     "display": "NZD/JPY",
@@ -261,7 +325,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NZD/JPY"
   },
   {
     "display": "NZD/USD",
@@ -269,7 +335,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NZD/USD"
   },
   {
     "display": "USD/CAD",
@@ -277,7 +345,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "USD/CAD"
   },
   {
     "display": "USD/CHF",
@@ -285,7 +355,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "USD/CHF"
   },
   {
     "display": "USD/JPY",
@@ -293,7 +365,9 @@
     "asset_class": "forex",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "USD/JPY"
   },
   {
     "display": "ADA/USD",
@@ -301,7 +375,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "ADA/USD"
   },
   {
     "display": "BNB/USD",
@@ -309,7 +385,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "BNB/USD"
   },
   {
     "display": "BTC/USD",
@@ -317,7 +395,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "BTC/USD"
   },
   {
     "display": "ETH/USD",
@@ -325,7 +405,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "ETH/USD"
   },
   {
     "display": "LTC/USD",
@@ -333,7 +415,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "LTC/USD"
   },
   {
     "display": "SOL/USD",
@@ -341,7 +425,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "SOL/USD"
   },
   {
     "display": "XRP/USD",
@@ -349,7 +435,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XRP/USD"
   },
   {
     "display": "DOGE/USD",
@@ -357,7 +445,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "DOGE/USD"
   },
   {
     "display": "XMR/USD",
@@ -365,7 +455,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XMR/USD"
   },
   {
     "display": "DASH/USD",
@@ -373,7 +465,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "DASH/USD"
   },
   {
     "display": "NEO/USD",
@@ -381,7 +475,9 @@
     "asset_class": "crypto",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NEO/USD"
   },
   {
     "display": "BRENT",
@@ -389,7 +485,9 @@
     "asset_class": "energy",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "BZ=F"
   },
   {
     "display": "NATGAS",
@@ -397,7 +495,9 @@
     "asset_class": "energy",
     "track": "technical",
     "exchange": null,
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "NG=F"
   },
   {
     "display": "XAG",
@@ -405,7 +505,9 @@
     "asset_class": "metal",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XAG/USD"
   },
   {
     "display": "XAU",
@@ -413,7 +515,9 @@
     "asset_class": "metal",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XAU/USD"
   },
   {
     "display": "XPT",
@@ -421,7 +525,9 @@
     "asset_class": "metal",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XPT/USD"
   },
   {
     "display": "XPD",
@@ -429,7 +535,9 @@
     "asset_class": "metal",
     "track": "technical",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "XPD/USD"
   },
   {
     "display": "QCOM",
@@ -437,7 +545,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "QCOM"
   },
   {
     "display": "JPM",
@@ -445,7 +555,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "JPM"
   },
   {
     "display": "MICRON",
@@ -453,7 +565,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "MU"
   },
   {
     "display": "AMD",
@@ -461,7 +575,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AMD"
   },
   {
     "display": "INTEL",
@@ -469,7 +585,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "INTC"
   },
   {
     "display": "ATNT",
@@ -477,7 +595,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "T"
   },
   {
     "display": "FERRARI",
@@ -485,7 +605,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "RACE"
   },
   {
     "display": "PFIZER",
@@ -493,7 +615,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "PFE"
   },
   {
     "display": "TSLA",
@@ -501,7 +625,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "TSLA"
   },
   {
     "display": "VISA",
@@ -509,7 +635,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "V"
   },
   {
     "display": "ZM",
@@ -517,7 +645,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "ZM"
   },
   {
     "display": "META",
@@ -525,7 +655,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "META"
   },
   {
     "display": "MSFT",
@@ -533,7 +665,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "MSFT"
   },
   {
     "display": "NETFLIX",
@@ -541,7 +675,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NFLX"
   },
   {
     "display": "NVIDIA",
@@ -549,7 +685,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "NVDA"
   },
   {
     "display": "ALIBABA",
@@ -557,7 +695,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "BABA"
   },
   {
     "display": "AMAZON",
@@ -565,7 +705,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AMZN"
   },
   {
     "display": "APPLE",
@@ -573,7 +715,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "AAPL"
   },
   {
     "display": "BOA",
@@ -581,7 +725,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "BAC"
   },
   {
     "display": "GOOGLE",
@@ -589,7 +735,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": null,
-    "enabled": true
+    "enabled": true,
+    "source": "twelvedata",
+    "api_symbol": "GOOGL"
   },
   {
     "display": "AIR",
@@ -597,7 +745,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "Euronext Paris",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "AIR.PA"
   },
   {
     "display": "ALLI",
@@ -605,7 +755,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "ALV.DE"
   },
   {
     "display": "BAYER",
@@ -613,7 +765,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "BAYN.DE"
   },
   {
     "display": "IBER",
@@ -621,7 +775,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "BME",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "IBE.MC"
   },
   {
     "display": "LVMH",
@@ -629,7 +785,9 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "Euronext Paris",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "MC.PA"
   },
   {
     "display": "VOWGE",
@@ -637,6 +795,8 @@
     "asset_class": "stock",
     "track": "fundamental",
     "exchange": "XETRA",
-    "enabled": false
+    "enabled": true,
+    "source": "yahoo",
+    "api_symbol": "VOW3.DE"
   }
 ]

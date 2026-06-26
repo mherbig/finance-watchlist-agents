@@ -60,8 +60,15 @@ class YahooClient:
         result = self._get(symbol)
         meta = result["meta"]
         price = float(meta["regularMarketPrice"])
-        prev = meta.get("chartPreviousClose")
-        change_pct = round((price - prev) / prev * 100, 4) if prev else 0.0
+        # Tagesaenderung aus den letzten zwei Tageskerzen (konsistent mit
+        # time_series/technical). NICHT meta.chartPreviousClose: das ist bei
+        # range=1y der Schluss VOR dem Jahresfenster -> ergaebe die Jahresaenderung.
+        prev = meta.get("previousClose")
+        if not prev:
+            ts = self.time_series(symbol, outputsize=2)
+            if len(ts) >= 2 and ts[1]["close"]:
+                prev = float(ts[1]["close"])
+        change_pct = round((price - float(prev)) / float(prev) * 100, 4) if prev else 0.0
         return {
             "price": price,
             "change_pct": change_pct,

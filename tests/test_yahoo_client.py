@@ -79,15 +79,34 @@ def test_error_not_cached(tmp_path):
     assert len(c.session.calls) == 2
 
 def test_quote_parses_price_change_currency(tmp_path):
+    # Tagesaenderung aus den letzten zwei Tageskerzen (100 -> 110 = +10%).
     payload = _chart(
-        meta={"regularMarketPrice": 110.0, "chartPreviousClose": 100.0, "currency": "EUR"},
-        timestamps=[1], quote={"close": [110.0]},
+        meta={"regularMarketPrice": 110.0, "currency": "EUR"},
+        timestamps=[1, 2], quote={"close": [100.0, 110.0]},
     )
     c, _ = _client(tmp_path, [FakeResponse(payload)])
     q = c.quote("ALV.DE")
     assert q["price"] == 110.0
     assert q["change_pct"] == 10.0
     assert q["currency"] == "EUR"
+
+def test_quote_ignores_chart_previous_close(tmp_path):
+    # Regression: bei range=1y ist chartPreviousClose der Schluss vor 1 Jahr.
+    # change_pct MUSS aus den letzten zwei Tageskerzen kommen (+10%), nicht +120%.
+    payload = _chart(
+        meta={"regularMarketPrice": 110.0, "chartPreviousClose": 50.0, "currency": "USD"},
+        timestamps=[1, 2], quote={"close": [100.0, 110.0]},
+    )
+    c, _ = _client(tmp_path, [FakeResponse(payload)])
+    assert c.quote("X")["change_pct"] == 10.0
+
+def test_quote_uses_meta_previous_close_when_present(tmp_path):
+    payload = _chart(
+        meta={"regularMarketPrice": 110.0, "previousClose": 100.0, "currency": "USD"},
+        timestamps=[1, 2], quote={"close": [1.0, 2.0]},
+    )
+    c, _ = _client(tmp_path, [FakeResponse(payload)])
+    assert c.quote("X")["change_pct"] == 10.0
 
 def test_quote_change_pct_zero_when_prev_falsy(tmp_path):
     payload = _chart(

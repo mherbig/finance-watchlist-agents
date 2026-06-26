@@ -1,0 +1,642 @@
+[
+  {
+    "display": "GER40",
+    "td_symbol": "DAX",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "FTSE100",
+    "td_symbol": "UKX",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NQ100",
+    "td_symbol": "NDX",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "WS30",
+    "td_symbol": "DJI",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "S&P500",
+    "td_symbol": "SPX",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ASX200",
+    "td_symbol": "AS51",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "FRA40",
+    "td_symbol": "CAC40",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "Nikkei225",
+    "td_symbol": "N225",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "HK50",
+    "td_symbol": "HSI",
+    "asset_class": "index",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AUD/CAD",
+    "td_symbol": "AUD/CAD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AUD/CHF",
+    "td_symbol": "AUD/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AUD/JPY",
+    "td_symbol": "AUD/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AUD/NZD",
+    "td_symbol": "AUD/NZD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AUD/USD",
+    "td_symbol": "AUD/USD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "CAD/CHF",
+    "td_symbol": "CAD/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "CAD/JPY",
+    "td_symbol": "CAD/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "CHF/JPY",
+    "td_symbol": "CHF/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/AUD",
+    "td_symbol": "EUR/AUD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/CAD",
+    "td_symbol": "EUR/CAD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/CHF",
+    "td_symbol": "EUR/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/GBP",
+    "td_symbol": "EUR/GBP",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/JPY",
+    "td_symbol": "EUR/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/NZD",
+    "td_symbol": "EUR/NZD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "EUR/USD",
+    "td_symbol": "EUR/USD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/AUD",
+    "td_symbol": "GBP/AUD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/CAD",
+    "td_symbol": "GBP/CAD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/CHF",
+    "td_symbol": "GBP/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/JPY",
+    "td_symbol": "GBP/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/NZD",
+    "td_symbol": "GBP/NZD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GBP/USD",
+    "td_symbol": "GBP/USD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NZD/CAD",
+    "td_symbol": "NZD/CAD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NZD/CHF",
+    "td_symbol": "NZD/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NZD/JPY",
+    "td_symbol": "NZD/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NZD/USD",
+    "td_symbol": "NZD/USD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "USD/CAD",
+    "td_symbol": "USD/CAD",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "USD/CHF",
+    "td_symbol": "USD/CHF",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "USD/JPY",
+    "td_symbol": "USD/JPY",
+    "asset_class": "forex",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ADA/USD",
+    "td_symbol": "ADA/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "BNB/USD",
+    "td_symbol": "BNB/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "BTC/USD",
+    "td_symbol": "BTC/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ETH/USD",
+    "td_symbol": "ETH/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "LTC/USD",
+    "td_symbol": "LTC/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "SOL/USD",
+    "td_symbol": "SOL/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XRP/USD",
+    "td_symbol": "XRP/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "DOGE/USD",
+    "td_symbol": "DOGE/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XMR/USD",
+    "td_symbol": "XMR/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "DASH/USD",
+    "td_symbol": "DASH/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NEO/USD",
+    "td_symbol": "NEO/USD",
+    "asset_class": "crypto",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "BRENT",
+    "td_symbol": "BRENT",
+    "asset_class": "energy",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NATGAS",
+    "td_symbol": "NATGAS",
+    "asset_class": "energy",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XAG",
+    "td_symbol": "XAG/USD",
+    "asset_class": "metal",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XAU",
+    "td_symbol": "XAU/USD",
+    "asset_class": "metal",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XPT",
+    "td_symbol": "XPT/USD",
+    "asset_class": "metal",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "XPD",
+    "td_symbol": "XPD/USD",
+    "asset_class": "metal",
+    "track": "technical",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "QCOM",
+    "td_symbol": "QCOM",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "JPM",
+    "td_symbol": "JPM",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "MICRON",
+    "td_symbol": "MU",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AMD",
+    "td_symbol": "AMD",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "INTEL",
+    "td_symbol": "INTC",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ATNT",
+    "td_symbol": "T",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "FERRARI",
+    "td_symbol": "RACE",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "PFIZER",
+    "td_symbol": "PFE",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "TSLA",
+    "td_symbol": "TSLA",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "VISA",
+    "td_symbol": "V",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ZM",
+    "td_symbol": "ZM",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "META",
+    "td_symbol": "META",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "MSFT",
+    "td_symbol": "MSFT",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NETFLIX",
+    "td_symbol": "NFLX",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "NVIDIA",
+    "td_symbol": "NVDA",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "ALIBABA",
+    "td_symbol": "BABA",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AMAZON",
+    "td_symbol": "AMZN",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "APPLE",
+    "td_symbol": "AAPL",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "BOA",
+    "td_symbol": "BAC",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "GOOGLE",
+    "td_symbol": "GOOGL",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": null,
+    "enabled": true
+  },
+  {
+    "display": "AIR",
+    "td_symbol": "AIR",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "Euronext Paris",
+    "enabled": true
+  },
+  {
+    "display": "ALLI",
+    "td_symbol": "ALV",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "XETRA",
+    "enabled": true
+  },
+  {
+    "display": "BAYER",
+    "td_symbol": "BAYN",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "XETRA",
+    "enabled": true
+  },
+  {
+    "display": "IBER",
+    "td_symbol": "IBE",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "BME",
+    "enabled": true
+  },
+  {
+    "display": "LVMH",
+    "td_symbol": "MC",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "Euronext Paris",
+    "enabled": true
+  },
+  {
+    "display": "VOWGE",
+    "td_symbol": "VOW3",
+    "asset_class": "stock",
+    "track": "fundamental",
+    "exchange": "XETRA",
+    "enabled": true
+  }
+]

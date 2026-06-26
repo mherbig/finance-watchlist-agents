@@ -31,3 +31,25 @@ def test_build_watchlist_tracks_correct():
 def test_build_watchlist_entry_shape():
     e = sm.build_watchlist_entries()[0]
     assert set(e) == {"display", "td_symbol", "asset_class", "track", "exchange", "enabled"}
+
+import json as _json
+
+def test_load_watchlist_filters_disabled(tmp_path):
+    p = tmp_path / "wl.json"
+    p.write_text(_json.dumps([
+        {"display": "A", "td_symbol": "A", "asset_class": "stock",
+         "track": "fundamental", "exchange": None, "enabled": True},
+        {"display": "B", "td_symbol": "B", "asset_class": "stock",
+         "track": "fundamental", "exchange": None, "enabled": False},
+    ]), encoding="utf-8")
+    wl = sm.load_watchlist(p)
+    assert [e["display"] for e in wl] == ["A"]
+
+def test_load_watchlist_rejects_missing_field(tmp_path):
+    p = tmp_path / "wl.json"
+    p.write_text(_json.dumps([{"display": "A", "enabled": True}]), encoding="utf-8")
+    try:
+        sm.load_watchlist(p)
+        assert False, "sollte ValueError werfen"
+    except ValueError:
+        pass

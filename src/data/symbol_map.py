@@ -81,3 +81,14 @@ def build_watchlist_entries() -> list[dict]:
                 "enabled": True,
             })
     return entries
+
+_REQUIRED = {"display", "td_symbol", "asset_class", "track", "exchange", "enabled"}
+
+def load_watchlist(path: str | Path) -> list[dict]:
+    """Liest watchlist.json, validiert Felder, gibt nur aktive Eintraege zurueck."""
+    entries = json.loads(Path(path).read_text(encoding="utf-8"))
+    for e in entries:
+        missing = _REQUIRED - set(e)
+        if missing:
+            raise ValueError(f"Watchlist-Eintrag {e.get('display','?')}: fehlende Felder {missing}")
+    return [e for e in entries if e.get("enabled")]

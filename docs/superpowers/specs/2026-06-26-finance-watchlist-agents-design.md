@@ -23,7 +23,9 @@ keine Order, keine Transaktion.
 | Agent-Strategie | **Zwei Spuren**: Fundamental-Agents für Aktien, Technical/Macro-Agent für den Rest |
 | Fundamental-Agents | Market Researcher, Earnings Reviewer, Model Builder, Valuation Reviewer, Pitch, Meeting Prep |
 | Datenquellen | Öffentlich (SEC EDGAR, News) + **Twelve Data API** (Key vorhanden) |
-| Takt | Täglich nach Börsenschluss (~22:30 UTC, ein fixer Lauf) |
+| Takt | Täglich nach Börsenschluss (~22:30 UTC, ein fixer Lauf) — **beide Spuren täglich** |
+| Anzeige | Dashboard zeigt **Nutzer-Kürzel** (z. B. `GER40`, `MICRON`), nicht die TD-Ticker |
+| Pitch/Meeting Prep | **Bleibt** Teil der Fundamental-Spur |
 | Speicher/Brücke | **Privates GitHub-Repo** (Cloud schreibt → Pages rendert) |
 | Dashboard | **GitHub Pages** (öffentliche URL), optionaler Frontend-PIN |
 | Secret-Handling | API-Key + GitHub-Push-Token als Cloud-Secrets; lokal `.env` (gitignored) |
@@ -190,7 +192,8 @@ date) fürs Grid.
 
 Eigenständig (Vanilla JS + minimal CSS, keine Build-Tools). Lädt `reports/index.json`.
 - **Grid**, gruppiert nach Assetklasse (Indizes, Forex, Crypto, Energie, Metalle,
-  US-Aktien, EU-Aktien): Symbol, Preis, Tages-%, Trend-Chip, RSI, Ein-Zeilen-Take.
+  US-Aktien, EU-Aktien): **Nutzer-Kürzel** (`display`) als Label, Preis, Tages-%,
+  Trend-Chip, RSI, Ein-Zeilen-Take. (TD-Ticker nur intern; optional als Tooltip.)
 - **Detail** (Klick): Snapshot, technische Lesart, (bei Aktien) Fundamental-Sektionen,
   Level, Flags, **Datums-Historie**-Dropdown (lädt ältere `<datum>.json`).
 - **Disclaimer-Banner** dauerhaft sichtbar.
@@ -210,7 +213,7 @@ Benötigte Cloud-Secrets: `TWELVEDATA_API_KEY`, GitHub-Push-Token (mit Repo-Schr
 
 ## 10. Kosten & Limits
 - Technical-Spur billig (meist deterministisch + 1 Agent-Pass).
-- Fundamental nur 26 Aktien, Earnings-gated; per `settings.json` auf **wöchentlich** drosselbar.
+- Fundamental nur 26 Aktien, Earnings-gated; **Standard-Takt täglich** (per `settings.json` optional auf wöchentlich drosselbar, falls Tokens zu hoch).
 - Twelve-Data-Client: Rate-Limit-bewusst (Free: 8/min, 800/Tag), On-Disk-Cache.
 - Fehlt Daten im Tier (Indizes/Rohstoffe oft Paid): Symbol als „Daten nicht verfügbar"
   markieren statt Lauf abzubrechen.

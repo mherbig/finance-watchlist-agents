@@ -13,6 +13,6 @@ class FakeSession:
     def __init__(self, responses):
         self._responses = list(responses)
         self.calls = []
-    def get(self, url, params=None, timeout=None):
+    def get(self, url, params=None, timeout=None, headers=None):
         self.calls.append((url, params))
         return self._responses.pop(0)

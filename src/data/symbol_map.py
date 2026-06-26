@@ -68,33 +68,46 @@ EXCHANGE: dict[str, str] = {
 def td_symbol_for(display: str) -> str:
     return MAPPING.get(display, display)
 
-# Auf dem Twelve-Data-Free-Tarif nicht verfuegbar: Indizes und Energie brauchen
-# einen Pro/Venture-Plan, EU-Aktien liefern 404. Deshalb standardmaessig
-# enabled=False (in der Config reaktivierbar nach einem Tarif-Upgrade).
-FREE_TIER_UNSUPPORTED_CLASSES = {"index", "energy"}
+# --- Anzeige -> Yahoo-Finance-Symbol (zweite Datenquelle) ---
+# Diese 17 Instrumente liefert der Twelve-Data-Free-Tarif nicht (Indizes/Energie
+# brauchen einen Pro-Plan, EU-Aktien liefern 404). Yahoo deckt sie ab.
+YAHOO_SYMBOL: dict[str, str] = {
+    "GER40": "^GDAXI", "FTSE100": "^FTSE", "NQ100": "^NDX", "WS30": "^DJI",
+    "S&P500": "^GSPC", "ASX200": "^AXJO", "FRA40": "^FCHI", "Nikkei225": "^N225",
+    "HK50": "^HSI",
+    "BRENT": "BZ=F", "NATGAS": "NG=F",
+    "AIR": "AIR.PA", "ALLI": "ALV.DE", "BAYER": "BAYN.DE", "IBER": "IBE.MC",
+    "LVMH": "MC.PA", "VOWGE": "VOW3.DE",
+}
 
-def _enabled_for(display: str, asset_class: str) -> bool:
-    if asset_class in FREE_TIER_UNSUPPORTED_CLASSES:
-        return False
-    if asset_class == "stock" and display in EXCHANGE:  # EU-Aktien -> Plan noetig
-        return False
-    return True
+def _source_for(display: str, asset_class: str) -> str:
+    """Indizes/Energie und EU-Aktien -> Yahoo, alles andere -> Twelve Data."""
+    if asset_class in {"index", "energy"}:
+        return "yahoo"
+    if asset_class == "stock" and display in EXCHANGE:  # EU-Aktien
+        return "yahoo"
+    return "twelvedata"
 
 def build_watchlist_entries() -> list[dict]:
     entries: list[dict] = []
     for asset_class, displays in RAW.items():
         for display in displays:
+            source = _source_for(display, asset_class)
+            api_symbol = YAHOO_SYMBOL[display] if source == "yahoo" else td_symbol_for(display)
             entries.append({
                 "display": display,
                 "td_symbol": td_symbol_for(display),
                 "asset_class": asset_class,
                 "track": track_for(asset_class),
                 "exchange": EXCHANGE.get(display),
-                "enabled": _enabled_for(display, asset_class),
+                "enabled": True,
+                "source": source,
+                "api_symbol": api_symbol,
             })
     return entries
 
-_REQUIRED = {"display", "td_symbol", "asset_class", "track", "exchange", "enabled"}
+_REQUIRED = {"display", "td_symbol", "asset_class", "track", "exchange",
+             "enabled", "source", "api_symbol"}
 
 def load_watchlist(path: str | Path) -> list[dict]:
     """Liest watchlist.json, validiert Felder, gibt nur aktive Eintraege zurueck."""

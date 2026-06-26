@@ -30,7 +30,51 @@ def test_build_watchlist_tracks_correct():
 
 def test_build_watchlist_entry_shape():
     e = sm.build_watchlist_entries()[0]
-    assert set(e) == {"display", "td_symbol", "asset_class", "track", "exchange", "enabled"}
+    assert set(e) == {"display", "td_symbol", "asset_class", "track",
+                      "exchange", "enabled", "source", "api_symbol"}
+
+def test_all_entries_enabled():
+    entries = sm.build_watchlist_entries()
+    assert all(e["enabled"] for e in entries)
+    assert len(entries) == 80
+
+def test_source_routing_counts():
+    entries = sm.build_watchlist_entries()
+    by_source = {}
+    for e in entries:
+        by_source[e["source"]] = by_source.get(e["source"], 0) + 1
+    assert by_source["yahoo"] == 17
+    assert by_source["twelvedata"] == 63
+
+def test_source_and_api_symbol_for_yahoo_index():
+    by_display = {e["display"]: e for e in sm.build_watchlist_entries()}
+    e = by_display["GER40"]
+    assert e["source"] == "yahoo"
+    assert e["api_symbol"] == "^GDAXI"
+    assert e["td_symbol"] == "DAX"  # td_symbol unveraendert
+
+def test_source_and_api_symbol_for_yahoo_eu_stock():
+    by_display = {e["display"]: e for e in sm.build_watchlist_entries()}
+    e = by_display["LVMH"]
+    assert e["source"] == "yahoo"
+    assert e["api_symbol"] == "MC.PA"
+
+def test_energy_routes_to_yahoo():
+    by_display = {e["display"]: e for e in sm.build_watchlist_entries()}
+    assert by_display["BRENT"]["source"] == "yahoo"
+    assert by_display["BRENT"]["api_symbol"] == "BZ=F"
+
+def test_us_stock_stays_twelvedata():
+    by_display = {e["display"]: e for e in sm.build_watchlist_entries()}
+    e = by_display["APPLE"]
+    assert e["source"] == "twelvedata"
+    assert e["api_symbol"] == "AAPL"
+
+def test_forex_stays_twelvedata():
+    by_display = {e["display"]: e for e in sm.build_watchlist_entries()}
+    e = by_display["EUR/USD"]
+    assert e["source"] == "twelvedata"
+    assert e["api_symbol"] == "EUR/USD"
 
 import json as _json
 
@@ -38,9 +82,11 @@ def test_load_watchlist_filters_disabled(tmp_path):
     p = tmp_path / "wl.json"
     p.write_text(_json.dumps([
         {"display": "A", "td_symbol": "A", "asset_class": "stock",
-         "track": "fundamental", "exchange": None, "enabled": True},
+         "track": "fundamental", "exchange": None, "enabled": True,
+         "source": "twelvedata", "api_symbol": "A"},
         {"display": "B", "td_symbol": "B", "asset_class": "stock",
-         "track": "fundamental", "exchange": None, "enabled": False},
+         "track": "fundamental", "exchange": None, "enabled": False,
+         "source": "twelvedata", "api_symbol": "B"},
     ]), encoding="utf-8")
     wl = sm.load_watchlist(p)
     assert [e["display"] for e in wl] == ["A"]

@@ -29,3 +29,19 @@ def test_get_raises_on_api_error(tmp_path):
         assert False, "sollte werfen"
     except RuntimeError as ex:
         assert "nope" in str(ex)
+
+def test_quote_returns_parsed(tmp_path):
+    payload = {"symbol": "AAPL", "close": "201.5", "percent_change": "1.2",
+               "currency": "USD"}
+    c, _ = _client(tmp_path, [FakeResponse(payload)])
+    q = c.quote("AAPL")
+    assert q["price"] == 201.5
+    assert q["change_pct"] == 1.2
+    assert q["currency"] == "USD"
+
+def test_time_series_returns_values(tmp_path):
+    payload = {"values": [{"datetime": "2026-06-26", "close": "10"},
+                          {"datetime": "2026-06-25", "close": "9"}]}
+    c, _ = _client(tmp_path, [FakeResponse(payload)])
+    ts = c.time_series("AAPL", outputsize=2)
+    assert [v["close"] for v in ts] == ["10", "9"]

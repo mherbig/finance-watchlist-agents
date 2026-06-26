@@ -45,3 +45,21 @@ class TwelveDataClient:
             raise RuntimeError(f"Twelve Data Fehler: {data.get('message')}")
         cp.write_text(json.dumps(data), encoding="utf-8")
         return data
+
+    def quote(self, symbol, exchange=None):
+        params = {"symbol": symbol}
+        if exchange:
+            params["exchange"] = exchange
+        d = self._get("quote", params)
+        return {
+            "price": float(d["close"]),
+            "change_pct": float(d.get("percent_change", 0) or 0),
+            "currency": d.get("currency"),
+        }
+
+    def time_series(self, symbol, interval="1day", outputsize=250, exchange=None):
+        params = {"symbol": symbol, "interval": interval, "outputsize": outputsize}
+        if exchange:
+            params["exchange"] = exchange
+        d = self._get("time_series", params)
+        return d.get("values", [])

@@ -53,3 +53,10 @@ def test_load_watchlist_rejects_missing_field(tmp_path):
         assert False, "sollte ValueError werfen"
     except ValueError:
         pass
+
+def test_committed_watchlist_matches_builder():
+    import json as _json
+    from pathlib import Path
+    p = Path(__file__).resolve().parents[1] / "config" / "watchlist.json"
+    on_disk = _json.loads(p.read_text(encoding="utf-8"))
+    assert on_disk == sm.build_watchlist_entries()

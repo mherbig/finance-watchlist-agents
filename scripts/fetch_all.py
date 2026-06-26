@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from dotenv import load_dotenv  # noqa: E402
 from src.data.symbol_map import load_watchlist  # noqa: E402
 from src.data.twelvedata_client import TwelveDataClient  # noqa: E402
+from src.data.yahoo_client import YahooClient  # noqa: E402
 from src.data.fetch import fetch_all  # noqa: E402
 
 def main() -> None:
@@ -21,10 +22,12 @@ def main() -> None:
     settings = json.loads((root / "config" / "settings.json").read_text(encoding="utf-8"))
     today = date.today().isoformat()
     wl = load_watchlist(root / "config" / "watchlist.json")
-    client = TwelveDataClient(
+    td = TwelveDataClient(
         api_key=key, cache_dir=root / settings["cache_dir"],
         min_interval_s=settings["twelvedata"]["min_interval_seconds"], today=today)
-    coverage = fetch_all(wl, client, root / settings["data_dir"], today)
+    yh = YahooClient(cache_dir=root / settings["cache_dir"], today=today)
+    coverage = fetch_all(wl, {"twelvedata": td, "yahoo": yh},
+                         root / settings["data_dir"], today)
     ok = [d for d, v in coverage.items() if v]
     bad = [d for d, v in coverage.items() if not v]
     print(f"\nCoverage {today}: {len(ok)}/{len(coverage)} verfuegbar")

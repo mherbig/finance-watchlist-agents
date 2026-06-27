@@ -79,10 +79,14 @@ def test_build_index_rows():
     row = index[0]
     expected_keys = {"symbol", "display", "asset_class", "track", "date",
                      "generated_at", "available", "price", "change_pct", "trend",
-                     "rsi", "bias", "headline", "has_agent_analysis", "agents_run"}
+                     "rsi", "bias", "headline", "has_agent_analysis", "agents_run",
+                     "direction", "conviction", "has_signal"}
     assert set(row.keys()) == expected_keys
     assert row["has_agent_analysis"] is False
     assert row["agents_run"] == []
+    assert row["has_signal"] is False
+    assert row["direction"] is None
+    assert row["conviction"] is None
     assert row["display"] == "APPLE"
     assert row["price"] == 159.0
     assert row["trend"] in ("up", "down", "side")
@@ -126,6 +130,53 @@ def test_build_report_without_prior_has_no_agent_analysis():
     # prior ohne agent_analysis fuegt nichts hinzu
     rep2 = build_report(_raw_available(), "2026-06-26T22:31:00+00:00", prior=rep)
     assert "agent_analysis" not in rep2
+
+
+def _signal_block():
+    return {
+        "generated_at": "2026-06-27T00:00:00+00:00",
+        "model": "claude-opus-4-8",
+        "direction": "LONG",
+        "conviction": 4,
+        "entry_type": "market",
+        "horizon_days": 10,
+        "rationale": "test",
+        "entry": 100.0,
+        "stop_loss": 96.4,
+        "take_profit": 107.2,
+        "take_profit_2": 110.0,
+        "rr": 2.0,
+    }
+
+
+def test_build_report_carries_prior_signal():
+    prior = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    prior["signal"] = _signal_block()
+
+    rep = build_report(_raw_available(), "2026-06-27T22:31:00+00:00", prior=prior)
+    assert rep["signal"] == _signal_block()
+    assert rep["generated_at"] == "2026-06-27T22:31:00+00:00"
+
+
+def test_build_report_without_prior_has_no_signal():
+    rep = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    assert "signal" not in rep
+    rep2 = build_report(_raw_available(), "2026-06-26T22:31:00+00:00", prior=rep)
+    assert "signal" not in rep2
+
+
+def test_build_index_exposes_signal_flags():
+    rep = build_report(_raw_available(), "2026-06-26T22:31:00+00:00")
+    rep["signal"] = _signal_block()
+    plain = build_report(_raw_unavailable(), "2026-06-26T22:31:00+00:00")
+
+    index = build_index([rep, plain])
+    assert index[0]["has_signal"] is True
+    assert index[0]["direction"] == "LONG"
+    assert index[0]["conviction"] == 4
+    assert index[1]["has_signal"] is False
+    assert index[1]["direction"] is None
+    assert index[1]["conviction"] is None
 
 
 def test_build_index_exposes_agent_flags():

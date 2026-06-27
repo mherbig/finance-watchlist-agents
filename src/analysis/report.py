@@ -44,6 +44,10 @@ def build_report(raw: dict, generated_at: str, prior: dict | None = None) -> dic
     if isinstance(prior, dict) and prior.get("agent_analysis"):
         report["agent_analysis"] = prior["agent_analysis"]
 
+    # Signal-Block (Agenten-Entscheidung) ueber Daten-Refreshes erhalten.
+    if isinstance(prior, dict) and prior.get("signal"):
+        report["signal"] = prior["signal"]
+
     return report
 
 
@@ -58,6 +62,13 @@ def build_index(reports: list[dict]) -> list[dict]:
         agent = rep.get("agent_analysis")
         has_agent = isinstance(agent, dict) and bool(agent)
         agents_run = agent.get("agents_run", []) if has_agent else []
+        signal = rep.get("signal")
+        has_signal = (
+            isinstance(signal, dict)
+            and signal.get("direction") in ("LONG", "SHORT", "FLAT")
+        )
+        direction = signal.get("direction") if has_signal else None
+        conviction = signal.get("conviction") if has_signal else None
         rows.append({
             "symbol": rep.get("symbol"),
             "display": rep.get("display"),
@@ -74,5 +85,8 @@ def build_index(reports: list[dict]) -> list[dict]:
             "headline": rep.get("headline"),
             "has_agent_analysis": has_agent,
             "agents_run": agents_run if isinstance(agents_run, list) else [],
+            "direction": direction,
+            "conviction": conviction,
+            "has_signal": has_signal,
         })
     return rows

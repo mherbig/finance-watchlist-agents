@@ -384,8 +384,253 @@ async function renderTrackRecord() {
     `Forward-Test: ${agg.resolved} Signale · Trefferquote ${hit} · Ø R ${avgR}`;
 }
 
+// ---------------------------------------------------------------------------
+// Tab 2: "Signale & Depot" — Depot-Kopf, Equity-Kurve, Signal-Liste, Historie.
+// Daten aus signals/portfolio.json (von scripts/build_portfolio.py erzeugt).
+// ---------------------------------------------------------------------------
+
+function fmtMoney(x) {
+  if (x === null || x === undefined || Number.isNaN(Number(x))) return "–";
+  return Number(x).toLocaleString("de-DE", {
+    minimumFractionDigits: 0, maximumFractionDigits: 0,
+  });
+}
+
+function dirChip(dir) {
+  if (dir !== "LONG" && dir !== "SHORT") return '<span class="chip chip-na">–</span>';
+  const cls = dir === "LONG" ? "sig-long" : "sig-short";
+  const arrow = dir === "LONG" ? "▲" : "▼";
+  return `<span class="signal-chip ${cls}">${dir} ${arrow}</span>`;
+}
+
+const ASSET_RANK = {
+  index: 0, forex: 1, crypto: 2, energy: 3, metal: 4, stock: 5,
+};
+
+// Einfacher Inline-SVG-Linienchart der Equity-Kurve. Keine Libs.
+function renderEquityChart(curve) {
+  const pts = Array.isArray(curve) ? curve.filter((p) => p && typeof p.equity === "number") : [];
+  const W = 720, H = 200, padL = 64, padR = 16, padT = 16, padB = 24;
+  const innerW = W - padL - padR;
+  const innerH = H - padT - padB;
+
+  let values = pts.map((p) => p.equity);
+  // Tag 1 (0-1 Punkte / flach): Baseline bei 100k zeichnen.
+  if (values.length === 0) values = [100000];
+  let min = Math.min(...values);
+  let max = Math.max(...values);
+  if (min === max) { min -= min * 0.001 || 1; max += max * 0.001 || 1; }
+  const span = max - min;
+  // Y-Achse leicht padden.
+  min -= span * 0.1; max += span * 0.1;
+
+  const n = Math.max(values.length, 2);
+  const x = (i) => padL + (n === 1 ? innerW / 2 : (i * innerW) / (n - 1));
+  const y = (v) => padT + innerH - ((v - min) / (max - min)) * innerH;
+
+  let path = "";
+  if (values.length <= 1) {
+    // Flache Baseline ueber die volle Breite.
+    const yv = y(values[0]);
+    path = `M ${padL} ${yv} L ${W - padR} ${yv}`;
+  } else {
+    path = values
+      .map((v, i) => `${i === 0 ? "M" : "L"} ${x(i).toFixed(1)} ${y(v).toFixed(1)}`)
+      .join(" ");
+  }
+
+  const startVal = values[0];
+  const curVal = values[values.length - 1];
+  const startLbl = pts.length ? (pts[0].date || "Start") : "Start";
+  const yTop = padT, yBot = padT + innerH;
+
+  return `
+    <svg class="equity-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Equity-Kurve">
+      <line x1="${padL}" y1="${yTop}" x2="${padL}" y2="${yBot}" class="eq-axis" />
+      <line x1="${padL}" y1="${yBot}" x2="${W - padR}" y2="${yBot}" class="eq-axis" />
+      <text x="${padL - 6}" y="${yTop + 4}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(max))}</text>
+      <text x="${padL - 6}" y="${yBot}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(min))}</text>
+      <path d="${path}" class="eq-line" fill="none" />
+      <circle cx="${x(0).toFixed(1)}" cy="${y(startVal).toFixed(1)}" r="3" class="eq-dot" />
+      <circle cx="${x(values.length - 1).toFixed(1)}" cy="${y(curVal).toFixed(1)}" r="3" class="eq-dot" />
+      <text x="${padL}" y="${yBot + 16}" class="eq-axis-lbl" text-anchor="start">${escapeHtml(String(startLbl))} · ${escapeHtml(fmtMoney(startVal))} $</text>
+      <text x="${W - padR}" y="${yBot + 16}" class="eq-axis-lbl" text-anchor="end">aktuell ${escapeHtml(fmtMoney(curVal))} $</text>
+    </svg>`;
+}
+
+function renderOpenSignals(open) {
+  const rows = Array.isArray(open) ? open.slice() : [];
+  rows.sort((a, b) => {
+    const c = (Number(b.conviction) || 0) - (Number(a.conviction) || 0);
+    if (c !== 0) return c;
+    return 0; // asset_class steht in open nicht zur Verfuegung -> stabil nach Konv.
+  });
+
+  if (rows.length === 0) {
+    return `<p class="muted">Keine offenen Signale.</p>`;
+  }
+
+  const body = rows.map((o) => {
+    const dots = convictionDots(o.conviction);
+    return `<tr class="sig-row" data-display="${escapeHtml(o.display)}" data-date="${escapeHtml(o.date || "")}">
+      <td>${escapeHtml(o.display)}</td>
+      <td>${dirChip(o.direction)}</td>
+      <td><span class="sig-dots" title="Konviktion ${escapeHtml(String(o.conviction))}/5">${dots}</span></td>
+      <td class="num">${fmtNum(o.entry)}</td>
+      <td class="num">${fmtNum(o.stop_loss)}</td>
+      <td class="num">${fmtNum(o.take_profit)}</td>
+      <td class="num">${o.rr == null ? "–" : fmtNum(o.rr, 2)}</td>
+      <td class="num">${o.risk_amount == null ? "–" : fmtMoney(o.risk_amount) + " $"}</td>
+      <td class="num">${o.units == null ? "–" : fmtNum(o.units)}</td>
+      <td class="num">${o.horizon_days == null ? "–" : escapeHtml(String(o.horizon_days)) + " T"}</td>
+    </tr>`;
+  }).join("");
+
+  return `
+    <table class="ptable">
+      <thead><tr>
+        <th>Symbol</th><th>Richtung</th><th>Konv</th><th>Entry</th><th>SL</th>
+        <th>TP</th><th>R:R</th><th>Risiko</th><th>Größe</th><th>Horizont</th>
+      </tr></thead>
+      <tbody>${body}</tbody>
+    </table>`;
+}
+
+function renderClosedTrades(closed) {
+  const rows = Array.isArray(closed) ? closed : [];
+  if (rows.length === 0) {
+    return `<p class="muted">Noch keine abgeschlossenen Trades.</p>`;
+  }
+  const body = rows.map((c) => {
+    const pnlCls = c.pnl > 0 ? "up-text" : c.pnl < 0 ? "down-text" : "";
+    const resCls = c.win ? "res-win" : "res-loss";
+    const resLbl = c.win ? "Win" : "Loss";
+    const sign = c.pnl > 0 ? "+" : "";
+    return `<tr>
+      <td>${escapeHtml(c.display || c.symbol || "")}</td>
+      <td>${dirChip(c.direction)}</td>
+      <td class="num">${fmtNum(c.entry)}</td>
+      <td class="num">${fmtNum(c.exit_price)}</td>
+      <td class="num">${c.realized_R == null ? "–" : fmtNum(c.realized_R, 2)}</td>
+      <td class="num ${pnlCls}">${sign}${fmtMoney(c.pnl)} $</td>
+      <td><span class="res-chip ${resCls}">${resLbl}</span></td>
+    </tr>`;
+  }).join("");
+
+  return `
+    <table class="ptable">
+      <thead><tr>
+        <th>Symbol</th><th>Richtung</th><th>Entry</th><th>Exit</th>
+        <th>R</th><th>P&amp;L</th><th>Ergebnis</th>
+      </tr></thead>
+      <tbody>${body}</tbody>
+    </table>`;
+}
+
+function renderPortfolioHead(summary) {
+  const s = summary || {};
+  const equity = s.current_equity == null ? "–" : fmtMoney(s.current_equity);
+  const ret = s.return_pct == null ? "–" : fmtNum(s.return_pct, 2);
+  const wr = s.win_rate == null ? 0 : Math.round(Number(s.win_rate) * 100);
+  const meta = `Start 100.000 $ · Rendite ${ret} % · ${s.closed_count || 0} Trades `
+    + `(${s.wins || 0}W/${s.losses || 0}L, Trefferquote ${wr} %) · ${s.open_count || 0} offen`;
+  return `
+    <div class="depot-head">
+      <div class="depot-equity">Depot: ${escapeHtml(equity)} $</div>
+      <div class="depot-meta">${escapeHtml(meta)}</div>
+    </div>`;
+}
+
+async function renderPortfolio() {
+  const root = document.getElementById("portfolio-view");
+  if (!root) return;
+  if (root.dataset.loaded === "1") return; // nur einmal laden
+  root.dataset.loaded = "1";
+
+  let pf = null;
+  try {
+    const res = await fetch("signals/portfolio.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    pf = await res.json();
+  } catch (err) {
+    pf = null;
+  }
+
+  const summary = pf && pf.summary ? pf.summary : null;
+  const closed = pf && Array.isArray(pf.closed) ? pf.closed : [];
+  const open = pf && Array.isArray(pf.open) ? pf.open : [];
+  const curve = pf && Array.isArray(pf.equity_curve) ? pf.equity_curve : [];
+
+  if (!summary || (summary.closed_count || 0) === 0) {
+    // Tag 1 / kein Depot: Hinweis statt Kennzahlen, aber Liste trotzdem zeigen.
+    const head = summary
+      ? renderPortfolioHead(summary)
+      : `<div class="depot-head"><div class="depot-equity">Depot: 100.000 $</div></div>`;
+    root.innerHTML = `
+      ${head}
+      <p class="depot-note">Forward-Test läuft seit heute — Trades schließen, sobald neue Kurse vorliegen.</p>
+      <div class="pcard">
+        <h3>Equity-Kurve</h3>
+        ${renderEquityChart(curve)}
+      </div>
+      <div class="pcard">
+        <h3>Aktive Signale</h3>
+        ${renderOpenSignals(open)}
+      </div>
+      <div class="pcard">
+        <h3>Trade-Historie</h3>
+        ${renderClosedTrades(closed)}
+      </div>`;
+  } else {
+    root.innerHTML = `
+      ${renderPortfolioHead(summary)}
+      <div class="pcard">
+        <h3>Equity-Kurve</h3>
+        ${renderEquityChart(curve)}
+      </div>
+      <div class="pcard">
+        <h3>Aktive Signale</h3>
+        ${renderOpenSignals(open)}
+      </div>
+      <div class="pcard">
+        <h3>Trade-Historie</h3>
+        ${renderClosedTrades(closed)}
+      </div>`;
+  }
+
+  // Zeilen-Klick -> bestehendes Detail-Modal (per display + date).
+  root.querySelectorAll(".sig-row").forEach((tr) => {
+    tr.addEventListener("click", () => {
+      openDetail({ display: tr.dataset.display, date: tr.dataset.date });
+    });
+  });
+}
+
+function wireTabs() {
+  const tabOverview = document.getElementById("tab-overview");
+  const tabPortfolio = document.getElementById("tab-portfolio");
+  const gridView = document.getElementById("grid");
+  const pfView = document.getElementById("portfolio-view");
+  if (!tabOverview || !tabPortfolio) return;
+
+  function activate(which) {
+    const isOverview = which === "overview";
+    gridView.hidden = !isOverview;
+    pfView.hidden = isOverview;
+    tabOverview.classList.toggle("is-active", isOverview);
+    tabPortfolio.classList.toggle("is-active", !isOverview);
+    tabOverview.setAttribute("aria-selected", String(isOverview));
+    tabPortfolio.setAttribute("aria-selected", String(!isOverview));
+    if (!isOverview) renderPortfolio();
+  }
+
+  tabOverview.addEventListener("click", () => activate("overview"));
+  tabPortfolio.addEventListener("click", () => activate("portfolio"));
+}
+
 async function init() {
   wireModal();
+  wireTabs();
   const root = document.getElementById("grid");
   try {
     const res = await fetch("reports/index.json");

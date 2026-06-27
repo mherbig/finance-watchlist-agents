@@ -66,16 +66,16 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "generated_at": "2026-06-27T20:16:08.871981+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
-    "entry_type": "pullback",
+    "entry_type": "market",
     "horizon_days": 14,
     "rationale": "Der Abwaertstrend ist intakt: Der Kurs (1.3202) liegt unter SMA20/50/200 und der MACD bleibt negativ ohne Aufwaertsdrehung, gestuetzt durch eine klare Dollar-Staerke-Story nach der hawkischen Fed sowie politische Unsicherheit in UK. Mit RSI14 bei 29.58 ist das Paar jedoch leicht ueberverkauft und nur 1.44% ueber dem 52W-Tief (1.30152), weshalb ein Einstieg auf einen Pullback Richtung Resistance 1.3427 / SMA50-Zone sinnvoller ist als ein sofortiges Nachlaufen. Die mehrfach bestaetigte baerische Lage rechtfertigt Conviction 3, das ueberverkaufte Momentum dicht ueber Support haelt sie aber unter 4.",
-    "entry": 1.3427,
-    "stop_loss": 1.3553,
-    "take_profit": 1.3238,
+    "entry": 1.3201,
+    "stop_loss": 1.3328,
+    "take_profit": 1.3009,
     "take_profit_2": 1.317,
     "rr": 1.5
   }

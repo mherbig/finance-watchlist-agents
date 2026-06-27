@@ -154,6 +154,71 @@ def test_short_pullback_no_resistance_uses_price_plus_half_atr():
     assert r["entry"] == 101.0  # 100 + 0.5*2
 
 
+# --- compute_levels: pullback degeneracy fallback ------------------------
+
+def test_long_pullback_degenerate_tp_falls_back_to_market():
+    # Nearest support far below price so the pullback entry would push the TP
+    # at/below the current price (degenerate). Must fall back to a MARKET entry
+    # computed from price, with TP strictly above price.
+    # price=100, atr=2, conviction=1 (rt=1.5). support at 90 (far below).
+    # pullback entry=90, atr_stop=90-3.6=86.4 -> risk=3.6 -> tp=90+1.5*3.6=95.4
+    #   -> tp(95.4) <= price(100) => degenerate -> fall back to market.
+    r = compute_levels(100.0, 2.0, _levels([90.0], []),
+                       "LONG", 1, "pullback")
+    assert r["entry"] == 100.0  # market entry = price
+    assert r["take_profit"] > 100.0  # TP beyond current price
+    # market stop = atr_stop = 100 - 1.8*2 = 96.4 (no support below entry near)
+    assert r["stop_loss"] == round(100.0 - K_SL * 2.0, 4)
+
+
+def test_short_pullback_degenerate_tp_falls_back_to_market():
+    # SHORT mirror: resistance far above price so pullback TP would be at/above
+    # price. Falls back to market entry computed from price.
+    # price=100, atr=2, conviction=1. resistance at 110 (far above).
+    # pullback entry=110, atr_stop=110+3.6=113.6, risk=3.6, tp=110-5.4=104.6
+    #   -> tp(104.6) >= price(100) => degenerate -> market fallback.
+    r = compute_levels(100.0, 2.0, _levels([], [110.0]),
+                       "SHORT", 1, "pullback")
+    assert r["entry"] == 100.0
+    assert r["take_profit"] < 100.0  # TP beyond current price (downside)
+    assert r["stop_loss"] == round(100.0 + K_SL * 2.0, 4)
+
+
+def test_long_pullback_non_degenerate_stays_pullback():
+    # Support just below price -> pullback entry leaves TP above price -> kept.
+    # price=100, atr=2, support 98 -> entry=98, atr_stop=94.4, risk=3.6,
+    # tp=98+1.5*3.6=103.4 > price(100) -> non-degenerate -> stays pullback.
+    r = compute_levels(100.0, 2.0, _levels([98.0], []),
+                       "LONG", 1, "pullback")
+    assert r["entry"] == 98.0
+    assert r["take_profit"] > 100.0
+
+
+def test_build_signal_pullback_fallback_sets_entry_type_market():
+    # When compute_levels falls back to market, build_signal must reflect the
+    # effective entry_type so resolution treats the fill as immediate.
+    decision = _good_decision(direction="LONG", conviction=1,
+                              entry_type="pullback")
+    technical = {"atr14": 2.0, "levels": _levels([90.0], [])}
+    snapshot = {"price": 100.0}
+    sig = build_signal(decision, technical, snapshot,
+                       generated_at="t", model="m")
+    assert sig["entry"] == 100.0
+    assert sig["entry_type"] == "market"
+    assert sig["take_profit"] > 100.0
+
+
+def test_build_signal_pullback_kept_keeps_entry_type_pullback():
+    decision = _good_decision(direction="LONG", conviction=1,
+                              entry_type="pullback")
+    technical = {"atr14": 2.0, "levels": _levels([98.0], [])}
+    snapshot = {"price": 100.0}
+    sig = build_signal(decision, technical, snapshot,
+                       generated_at="t", model="m")
+    assert sig["entry"] == 98.0
+    assert sig["entry_type"] == "pullback"
+
+
 # --- compute_levels: FLAT / leere Faelle ---------------------------------
 
 def test_flat_all_none():

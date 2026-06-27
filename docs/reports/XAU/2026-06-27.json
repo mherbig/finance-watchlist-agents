@@ -66,16 +66,16 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "generated_at": "2026-06-27T20:16:08.871981+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
-    "entry_type": "pullback",
+    "entry_type": "market",
     "horizon_days": 14,
     "rationale": "Stimmiges bearisches Bild: Preis (4.072) unter SMA20/50/200 (bearisch gestaffelt), Abwaertstrend, MACD negativ unter Signallinie, dazu Makro-Gegenwind aus hohen Realzinsen und festem USD. RSI bei 38 naehert sich jedoch ueberverkauft und der Kurs steht knapp ueber Support ~4.001 (52W-Tief 3.931), daher Einstieg auf Pullback statt Nachjagen. Conviction nur 3, weil strukturelle Zentralbankkaeufe die Unterseite teilweise abfedern.",
-    "entry": 4331.3695,
-    "stop_loss": 4475.6564,
-    "take_profit": 4114.9391,
+    "entry": 4080.9128,
+    "stop_loss": 4225.7764,
+    "take_profit": 3863.6173,
     "take_profit_2": 4001.1152,
     "rr": 1.5
   }

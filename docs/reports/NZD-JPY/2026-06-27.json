@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T21:12:02.397085+00:00",
+  "generated_at": "2026-06-27T23:49:03.835251+00:00",
   "available": true,
   "snapshot": {
-    "price": 91.26165,
-    "change_pct": 0.059216531,
+    "price": 91.1988,
+    "change_pct": -0.066141306,
     "currency": null
   },
   "technical": {
-    "last_close": 91.26165,
-    "change_pct": 0.05921653054503463,
-    "sma20": 92.624,
-    "sma50": 93.2243,
-    "sma200": 92.5126,
-    "rsi14": 16.86,
+    "last_close": 91.1988,
+    "change_pct": -0.06614130570562851,
+    "sma20": 92.5311,
+    "sma50": 93.1787,
+    "sma200": 92.52,
+    "rsi14": 14.41,
     "macd": {
-      "macd": -0.5786,
-      "signal": -0.3994,
-      "hist": -0.1792
+      "macd": -0.6009,
+      "signal": -0.4398,
+      "hist": -0.1611
     },
-    "atr14": 0.6666,
+    "atr14": 0.641,
     "high_52w": 95.37972,
     "low_52w": 86.085999,
-    "pct_from_high": -4.32,
-    "pct_from_low": 6.01,
+    "pct_from_high": -4.38,
+    "pct_from_low": 5.94,
     "trend": "down",
     "bias": "neutral",
     "levels": [
@@ -37,12 +37,12 @@
       },
       {
         "type": "support",
-        "price": 91.2076
+        "price": 91.1988
       }
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 17",
+  "headline": "Trend down, RSI 14",
   "flags": [],
   "agent_analysis": {
     "track": "technical",

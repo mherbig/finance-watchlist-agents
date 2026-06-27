@@ -4,30 +4,30 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T21:12:02.397085+00:00",
+  "generated_at": "2026-06-27T23:49:03.835251+00:00",
   "available": true,
   "snapshot": {
     "price": 8764.2,
-    "change_pct": -0.5018,
+    "change_pct": 0.1772,
     "currency": "AUD"
   },
   "technical": {
-    "last_close": 8748.7001953125,
-    "change_pct": -0.677764323429716,
-    "sma20": 8763.4,
-    "sma50": 8741.534,
-    "sma200": 8782.799,
-    "rsi14": 54.2,
+    "last_close": 8764.2001953125,
+    "change_pct": 0.1771691754656858,
+    "sma20": 8771.965,
+    "sma50": 8737.718,
+    "sma200": 8782.468,
+    "rsi14": 59.95,
     "macd": {
-      "macd": 31.5536,
-      "signal": 32.6959,
-      "hist": -1.1424
+      "macd": 26.601,
+      "signal": 31.4769,
+      "hist": -4.8759
     },
-    "atr14": 94.0786,
+    "atr14": 92.2858,
     "high_52w": 9198.599609375,
     "low_52w": 8365.900390625,
-    "pct_from_high": -4.89,
-    "pct_from_low": 4.58,
+    "pct_from_high": -4.72,
+    "pct_from_low": 4.76,
     "trend": "side",
     "bias": "neutral",
     "levels": [
@@ -37,12 +37,12 @@
       },
       {
         "type": "support",
-        "price": 8592.9004
+        "price": 8604.2002
       }
     ]
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 54",
+  "headline": "Trend side, RSI 60",
   "flags": [],
   "agent_analysis": {
     "track": "technical",

@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 559.38,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Vollständig bärische Struktur: Kurs (559,38) unter SMA20/50/200, MACD negativ und Trend klar abwärts, gestützt durch ein risk-off Makroumfeld (hawkische Fed, BTC-Schwäche, MiCA-Risiko). RSI14 von 27,5 ist jedoch stark überverkauft und der Kurs sitzt exakt auf dem 52W-Tief/der 560er-Schlüsselunterstützung, was eine technische Gegenbewegung wahrscheinlich macht. Daher Short erst auf Pullback Richtung SMA20/Widerstand 617,87 statt sofort am Tief.",
+    "rationale": "Vollstaendig baerische Struktur: Kurs (559,38) liegt unter SMA20/50/200, MACD negativ und Trend klar abwaerts, gestuetzt durch ein risk-off Makroumfeld (hawkische Fed, BTC-Schwaeche, MiCA-Risiko). RSI14 von 27,5 ist jedoch stark ueberverkauft und der Kurs sitzt exakt auf dem 52W-Tief/der 560er-Schluesselunterstuetzung, was eine technische Gegenbewegung wahrscheinlich macht. Daher Short erst auf Pullback Richtung SMA20/Widerstand 617,87 statt am Tief.",
     "entry": 559.38,
     "stop_loss": 594.2498,
     "take_profit": 507.0753,

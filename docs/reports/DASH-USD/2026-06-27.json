@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 33.49,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar bearisch (Kurs 33,49 unter SMA20/50/200, -73,6 % vom 52W-Hoch, bias bearish), doch der RSI mit 43,64 ist neutral und der Kurs klebt direkt am Support 33,49 knapp über dem 52W-Tief. Das MACD-Histogramm dreht mit -0,0433 wieder leicht negativ, während die Analyse widersprüchliche Treiber zeigt (regulatorischer Gegenwind vs. positive Privacy-/Evolution-Katalysatoren). Ohne stimmiges Setup und bestätigten Bruch über 38,25 oder unter 33,49 bleibt das Urteil FLAT.",
+    "rationale": "Der Trend ist klar bearisch (Kurs 33,49 unter SMA20/50/200, -73,6 % vom 52W-Hoch, bias bearish), doch der RSI mit 43,64 ist neutral und der Kurs klebt direkt am Support 33,49 knapp über dem 52W-Tief (29,87). Das MACD-Histogramm dreht mit -0,0433 wieder leicht negativ, und die Analyse zeigt widersprüchliche Treiber (regulatorischer Gegenwind vs. positive Privacy-/Evolution-Katalysatoren). Ohne stimmiges Setup und ohne bestätigten Bruch über 38,25 oder unter 33,49 bleibt das Urteil FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

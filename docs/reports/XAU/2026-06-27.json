@@ -4,7 +4,7 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 4080.86431,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Stimmig bearisches Bild: Preis (4.081) unter SMA20 (4.180), SMA50 (4.392) und SMA200 (4.657), bearisch gestaffelt, klarer Abwaertstrend, MACD negativ unter der Signallinie, plus Makro-Gegenwind aus hohen Realzinsen und festem USD. RSI bei 39 naehert sich jedoch ueberverkauft und der Kurs steht knapp ueber Support ~4.001 (52W-Tief 3.931), daher Einstieg auf Pullback statt Nachjagen. Conviction nur 3, weil strukturelle Zentralbankkaeufe die Unterseite teilweise abfedern.",
+    "rationale": "Stimmig bearisches Bild: Kurs (4.081) liegt unter SMA20 (4.180), SMA50 (4.392) und SMA200 (4.657) bei bearisch gestaffelten Durchschnitten, klarer Abwaertstrend und negativer MACD unter der Signallinie, verstaerkt durch Makro-Gegenwind aus hohen Realzinsen und festem USD. RSI bei 39 naehert sich jedoch ueberverkauft und der Kurs steht knapp ueber Support ~4.001 (52W-Tief 3.931), daher Einstieg auf Pullback statt Nachjagen. Conviction nur 3, da strukturelle Zentralbankkaeufe die Unterseite teilweise abfedern.",
     "entry": 4080.8643,
     "stop_loss": 4225.7279,
     "take_profit": 3863.5689,

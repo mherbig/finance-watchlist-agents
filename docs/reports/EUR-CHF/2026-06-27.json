@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 0.92185,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Kurs (0,92185) klemmt zwischen den nahezu deckungsgleichen SMA20 (0,9223) und SMA200 (0,9195), RSI14 bei 48,77 und ein leicht negatives MACD-Histogramm (-0,0004) signalisieren neutrales Momentum ohne Trendimpuls. Die enge ATR14 (0,0034) und das Seitwärtsbild lassen keine stimmige Richtung zu; erst ein Ausbruch über Widerstand 0,9262 oder unter Unterstützung 0,9199 gäbe ein Signal. Bis dahin überwiegt mit SNB-Nullzins und Interventionsbereitschaft als Boden ein abwartendes Bild.",
+    "rationale": "Der Kurs (0,92185) klemmt zwischen den nahezu deckungsgleichen SMA20 (0,9223) und SMA200 (0,9195), RSI14 bei 48,77 und ein leicht negatives MACD-Histogramm (-0,0004) signalisieren neutrales Momentum ohne Trendimpuls. Die enge ATR14 (0,0034) und das Seitwaertsbild (trend side, bias neutral) lassen keine stimmige Richtung zu; erst ein Ausbruch ueber Widerstand 0,9262 oder unter Unterstuetzung 0,9199 gaebe ein Signal. Bis dahin stuetzen SNB-Nullzins und Interventionsbereitschaft den Boden, rechtfertigen aber kein Engagement.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 1.65193,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Kurzfristig bullisch: Kurs ueber SMA20/50, Trend up, RSI14 60.64 konstruktiv und MACD positiv ueber der Signallinie (Hist +0.0011) stuetzen das Momentum, gestuetzt vom Zinsdifferenzial (hawkische RBA gegen nachhinkende ECB). Der Kurs steht jedoch exakt an der Resistance 1.6519 mit noch offenem Ausbruch, waehrend die SMA200 (1.6732) als uebergeordnete Huerde deckelt. Daher nur moderate Ueberzeugung und Einstieg auf Pullback Richtung 1.6324/SMA50 statt Kauf direkt am Widerstand.",
+    "rationale": "Stimmig bullisch: Kurs ueber SMA20/50, Trend up, RSI14 60.64 konstruktiv und MACD positiv ueber der Signallinie (Hist +0.0011), gestuetzt vom Zinsdifferenzial (hawkische RBA gegen nachhinkende ECB). Der Kurs steht jedoch exakt an der Resistance 1.6519 mit noch offenem Ausbruch, waehrend die SMA200 (1.6732) als uebergeordnete Huerde deckelt. Daher nur moderate Ueberzeugung und Einstieg auf Pullback Richtung 1.6324/SMA50 statt Kauf direkt am Widerstand.",
     "entry": 1.6324,
     "stop_loss": 1.6189,
     "take_profit": 1.6527,

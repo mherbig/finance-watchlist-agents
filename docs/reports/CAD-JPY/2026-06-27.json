@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 113.96465,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Trend und Bias sind abwaerts: Der Kurs (113,96) liegt unter SMA20/50/200 (114,3-114,9), MACD ist negativ und RSI 38 bestaetigt die Schwaeche, ohne dass das Paar bereits ueberverkauft waere - das Bild ist stimmig bearisch und wird durch die Zins-Divergenz (BoJ 1,0 %, BoC stabil 2,25 %) und fallendes Oel als CAD-Belastung gestuetzt. Da der Kurs nur ~0,3 Punkte ueber der Schluesselunterstuetzung 113,69 steht, ist ein Pullback in die Widerstandszone 114,3-114,9 der bessere Einstieg als ein Verkauf direkt am Support. Conviction 3, weil ein Oel-Rebound oder BoC-Hawkishness den Support verteidigen koennte.",
+    "rationale": "Der Kurs (113,96) liegt unter SMA20/50/200 (114,3-114,9), Trend und Bias sind abwaerts, MACD negativ und RSI 38 bestaetigt die Schwaeche, ohne dass das Paar bereits ueberverkauft waere - ein stimmig bearisches Bild, gestuetzt durch die Zins-Divergenz (BoJ 1,0 %, BoC stabil 2,25 %) und fallendes Oel als CAD-Belastung. Da der Kurs nur ~0,3 Punkte ueber der Schluesselunterstuetzung 113,69 steht, ist ein Pullback in die Widerstandszone 114,3-114,9 der bessere Einstieg als ein Verkauf direkt am Support. Conviction 3, da ein Oel-Rebound oder BoC-Hawkishness den Support verteidigen koennte.",
     "entry": 115.1511,
     "stop_loss": 115.9987,
     "take_profit": 113.8797,

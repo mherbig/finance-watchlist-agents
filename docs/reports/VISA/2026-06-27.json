@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 336.23001,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 4,
     "entry_type": "pullback",
     "horizon_days": 21,
-    "rationale": "Technik und Analyse decken sich stimmig bullisch: Kurs über SMA20/50/200, RSI 63 und positiver MACD (Hist +0,94) im intakten Aufwärtstrend, fundamental gestützt durch Q2 FY26 (+17% Umsatz, +20% EPS) und Analystenziele (~388 USD) klar über dem aktuellen Kurs von 336,23. Da der Kurs direkt am Widerstand notiert, ist ein Pullback Richtung SMA20/Support 312,4 der sauberere Einstieg als ein sofortiger Markteinstieg.",
+    "rationale": "Technik und Analyse decken sich stimmig bullisch: Kurs (336,23 USD) über SMA20/50/200, RSI 63 und positiver MACD (Hist +0,94) im intakten Aufwärtstrend, fundamental gestützt durch starke Q2 FY26 (+17% Umsatz, +20% EPS) und Analystenziele (~388 USD) klar über dem aktuellen Kurs. Da der Kurs direkt am Widerstand notiert, ist ein Pullback Richtung SMA20/Support 312,4 der sauberere Einstieg als ein sofortiger Markteinstieg.",
     "entry": 312.4,
     "stop_loss": 299.8643,
     "take_profit": 337.4715,

@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 42.33,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar bearisch unter SMA20/50/200, doch RSI um 39 und ein positiv gedrehtes MACD-Histogramm (+0,09) deuten auf nachlassenden Abwartsdruck - ein widerspruchliches Bild direkt am 52W-Tief. Der Kurs (42,33) klebt nur knapp uber dem entscheidenden Support 40,92; ohne Bruch nach unten oder Ruckeroberung der Resistance 45,76 fehlt ein stimmiges Setup. Schwache ETF-Adoption und fehlende Katalysatoren rechtfertigen Abwarten statt Positionierung.",
+    "rationale": "Der Trend ist klar bearisch unter SMA20/50/200 mit MACD unter Signallinie, doch RSI 39 und ein positiv gedrehtes MACD-Histogramm (+0,09) deuten auf nachlassenden Abwartsdruck - ein widerspruchliches Bild direkt am 52W-Tief. Der Kurs (42,33) klebt nur knapp uber dem entscheidenden Support 40,92; ohne Bruch nach unten oder Ruckeroberung der Resistance 45,76 fehlt ein stimmiges Setup. Schwache ETF-Adoption und fehlende Katalysatoren rechtfertigen Abwarten statt Positionierung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

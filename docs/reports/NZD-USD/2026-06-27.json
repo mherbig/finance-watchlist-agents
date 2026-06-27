@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 0.56421,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts (Kurs 0,5642 unter allen SMAs, MACD negativ), doch der RSI14 von ~6 signalisiert eine extreme Überverkauftheit direkt auf dem Support 0,5642 nahe dem 52W-Tief (0,55947) - ein Short ist hier wegen drohender technischer Gegenbewegung riskant. Das Makro-Bild ist widersprüchlich: kurzfristige USD-Stärke wirkt bärisch, während ein hawkisher RBNZ-Pfad und institutionelle Ziele Richtung 0,60 mittelfristig stützen. Bei diesem Widerspruch und ohne klaren Trigger ist FLAT die disziplinierte Wahl.",
+    "rationale": "Der Trend ist klar abwärts (Kurs 0,5642 unter SMA20/50/200, MACD negativ), doch der RSI14 von ~6 zeigt eine extreme Überverkauftheit direkt auf dem Support 0,5642 nahe dem 52W-Tief (0,55947) - ein Short ist hier wegen drohender technischer Gegenbewegung riskant. Das Makro-Bild ist widersprüchlich: kurzfristige USD-Stärke bärisch, hawkisher RBNZ-Pfad und institutionelle Ziele Richtung 0,60 mittelfristig stützend. Bei diesem Widerspruch ohne klaren Trigger ist FLAT die disziplinierte Wahl.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

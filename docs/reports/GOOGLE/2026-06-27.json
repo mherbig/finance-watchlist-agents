@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 337.39001,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Fundamental ist das Bild stark (Umsatz +22%, EPS +82%, Cloud +63%, Bewertung unter Hyperscaler-Schnitt, Analysten-Median ~28% über Kurs) und RSI 29 signalisiert Überverkauftheit direkt am Support 337,39. Dem steht ein klarer technischer Abwärtstrend gegenüber: Kurs unter SMA20 (360,8) und SMA50 (369,3), MACD deutlich negativ, Bias neutral. Dieser Widerspruch zwischen bullischer These und bearischer Technik plus Capex-/Verwässerungs- und Antitrust-Risiken rechtfertigt kein gerichtetes Setup; erst eine Stabilisierung über SMA20 oder ein bestätigter Reversal am Support würde einen Long tragen.",
+    "rationale": "Fundamental ist das Bild stark (Umsatz +22%, EPS +82%, Cloud +63%, Bewertung unter Hyperscaler-Schnitt, Analysten-Median ~28% ueber Kurs) und RSI 29 signalisiert Ueberverkauftheit direkt am Support 337,39. Dem steht ein klarer technischer Abwaertstrend gegenueber: Kurs unter SMA20 (360,8) und SMA50 (369,3), MACD deutlich negativ, Bias neutral. Dieser Widerspruch zwischen bullischer These und bearischer Technik plus Capex-, Verwaesserungs- und Antitrust-Risiken rechtfertigt kein gerichtetes Setup; erst eine Stabilisierung ueber SMA20 oder ein bestaetigter Reversal am Support wuerde einen Long tragen.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

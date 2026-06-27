@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 161.75359,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Aufwaertstrend ist intakt (Kurs ueber SMA20/50/200, MACD positiv), doch der RSI14 von 88,5 ist extrem ueberkauft und der Kurs klebt mit nur -0,04% Abstand direkt am 52-Wochen-Hoch (161,82). Unmittelbar darueber liegt mit der 162er-Marke die von ING markierte Interventionsschwelle, was das Aufwaertspotenzial kappt und das Abwaertsrisiko sprunghaft erhoeht. Bullisches Momentum und akutes Ueberdehnungs-/Interventionsrisiko widersprechen sich - kein sauberes Setup, daher FLAT.",
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs 161,76 ueber SMA20/50/200, MACD positiv), doch der RSI14 von 88,5 ist extrem ueberkauft und der Kurs klebt mit nur -0,04% Abstand direkt am 52-Wochen-Hoch (161,82). Unmittelbar darueber liegt mit der 162er-Marke die von ING markierte Interventionsschwelle, die das Aufwaertspotenzial kappt und das Abwaertsrisiko sprunghaft erhoeht. Bullisches Momentum und akutes Ueberdehnungs-/Interventionsrisiko widersprechen sich klar - kein sauberes Setup, daher FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

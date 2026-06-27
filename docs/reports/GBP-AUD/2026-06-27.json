@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 1.91434,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Kurzfristig bullisches Momentum (Kurs 1,9143 ueber SMA20/50, RSI 57, MACD positiv), doch der Kurs steht exakt an der Resistance 1,9143, die mit der fallenden SMA200 (1,9268) zusammenfaellt - eine Erholung innerhalb eines uebergeordneten Abwaertstrends. Die geldpolitische Divergenz BoE vs. RBA ist ergebnisoffen, sodass Technik und Makro kein stimmiges Bild ergeben. Erst ein nachhaltiger Bruch ueber 1,9268 wuerde ein Long rechtfertigen.",
+    "rationale": "Kurzfristig bullisches Momentum (Kurs 1,9143 ueber SMA20/50, RSI 57, MACD positiv), aber der Kurs steht exakt an der Resistance 1,9143, die mit der fallenden SMA200 (1,9268) zusammenfaellt - eine Erholung innerhalb eines uebergeordneten Abwaertstrends. Die geldpolitische Divergenz BoE vs. RBA ist ergebnisoffen, sodass Technik und Makro kein stimmiges Bild ergeben. Erst ein nachhaltiger Bruch ueber 1,9268 wuerde ein Long rechtfertigen.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

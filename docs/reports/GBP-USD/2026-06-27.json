@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 1.31966,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Abwaertstrend ist intakt: Der Kurs (1.31966) liegt unter SMA20 (1.3296), SMA50 (1.3383) und SMA200 (1.3444), und der MACD bleibt negativ ohne Aufwaertsdrehung, getrieben von einer klaren Dollar-Staerke-Story nach der hawkischen Fed sowie politischer Unsicherheit in UK. Mit RSI14 bei 28.67 ist das Paar jedoch leicht ueberverkauft und nur 1.39% ueber dem 52W-Tief (1.30152), weshalb ein Einstieg auf einen Pullback Richtung Resistance 1.3427 / SMA50-Zone vorzuziehen ist. Die stimmig baerische Lage rechtfertigt Conviction 3, das ueberverkaufte Momentum dicht ueber Support haelt sie aber unter 4.",
+    "rationale": "Der Abwaertstrend ist intakt: Der Kurs (1.31966) liegt unter SMA20 (1.3296), SMA50 (1.3383) und SMA200 (1.3444), MACD bleibt negativ ohne Aufwaertsdrehung, getrieben von klarer Dollar-Staerke nach hawkischer Fed und politischer Unsicherheit in UK. Mit RSI14 bei 28.67 ist das Paar jedoch ueberverkauft und nur 1.39% ueber dem 52W-Tief (1.30152), weshalb ein Pullback Richtung Resistance 1.3427 / SMA50-Zone als Einstieg vorzuziehen ist. Die stimmig baerische Lage rechtfertigt Conviction 3; das ueberverkaufte Momentum dicht ueber Support haelt sie unter 4.",
     "entry": 1.3197,
     "stop_loss": 1.3324,
     "take_profit": 1.3005,

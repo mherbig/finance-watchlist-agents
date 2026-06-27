@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 213.45833,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Kurs konsolidiert seitwaerts knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,21); mit RSI 40 und negativem MACD ist das kurzfristige Momentum verhalten. Bullisches Strukturbild und bearisches Momentum samt BoJ-Zinswende (Leitzins 1,00 %, schwindendes Carry-Polster) widersprechen sich. Solange der Kurs in der Range 212,80-215,47 gefangen ist, ist FLAT diszipliniert bis zum Ausbruch.",
+    "rationale": "Der Kurs konsolidiert seitwaerts in der Range 212,80-215,47, knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,21). RSI 40 und negativer MACD signalisieren verhaltenes Momentum, das dem konstruktiven mittelfristigen Strukturbild widerspricht; zusaetzlich untergraebt die BoJ-Zinswende (Leitzins 1,00 %) das Carry-Polster. Bei diesem Widerspruch ohne Ausbruch ist FLAT diszipliniert.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

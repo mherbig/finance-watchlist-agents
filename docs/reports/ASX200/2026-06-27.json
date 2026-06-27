@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 8764.2,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der ASX200 steckt in einer engen Seitwärtsspanne: SMA20/50/200 liegen dicht beieinander, der Index notiert praktisch auf dem SMA20 und mittig in der 52W-Range. RSI 54 ist neutral und das MACD-Histogramm leicht negativ (-1,14, MACD unter Signal) – nachlassendes Momentum ohne Richtung. Belastende Makrofaktoren (Eisenerz unter 100 USD/t, starker USD nach hawkishem FOMC) und ein robuster Arbeitsmarkt heben sich auf; erst ein Bruch über 8.966 oder unter 8.593 liefert ein Signal.",
+    "rationale": "Der ASX200 steckt in einer engen Seitwärtsspanne: SMA20/50/200 liegen dicht beieinander, der Index notiert praktisch auf dem SMA20 und mittig in der 52W-Range. RSI 54 ist neutral und das MACD-Histogramm leicht negativ (-1,14, MACD unter Signal) – nachlassendes Momentum ohne klare Richtung. Belastende Makrofaktoren (Eisenerz unter 100 USD/t, starker USD nach hawkishem FOMC) und ein robuster Arbeitsmarkt heben sich auf; erst ein Bruch über 8.966 oder unter 8.593 liefert ein Signal.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

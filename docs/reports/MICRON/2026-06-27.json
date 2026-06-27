@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 1132.32996,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 4,
     "entry_type": "pullback",
     "horizon_days": 21,
-    "rationale": "Stimmig bullisches Bild: Kurs klar ueber SMA20/50/200, RSI 63 mit Luft, gestuetzt durch Rekord-FQ3 und starke Q4-Guidance (~50 Mrd. USD, ~86% Marge) im KI-getriebenen HBM/DRAM-Supercycle mit 2026 ausverkaufter Kapazitaet. Der -6,7%-Tag ist eine 'Sell-the-News'-Korrektur, kein Fundamentalbruch; bei hoher Volatilitaet (ATR ~9,5%) ist ein Pullback-Einstieg Richtung Support 864 USD sinnvoller als Markt. Zyklus- bzw. Peak-Margen-Risiko (~86%) begrenzt die Conviction auf 4.",
+    "rationale": "Stimmig bullisches Bild: Kurs klar ueber SMA20/50/200, RSI 63 mit Luft nach oben, gestuetzt durch Rekord-FQ3 (Umsatz +346% YoY, Bruttomarge 84,6%) und starke Q4-Guidance (~50 Mrd. USD, ~86% Marge) im KI-getriebenen HBM/DRAM-Supercycle mit 2026 ausverkaufter Kapazitaet. Der -6,7%-Tag ist eine 'Sell-the-News'-Korrektur, kein Fundamentalbruch; bei hoher Volatilitaet (ATR ~9,5% des Kurses) ist ein Pullback-Einstieg Richtung Support 864 USD sinnvoller als Markt. Das Zyklus- bzw. Peak-Margen-Risiko (~86%) begrenzt die Conviction auf 4.",
     "entry": 864.01,
     "stop_loss": 671.0655,
     "take_profit": 1249.899,

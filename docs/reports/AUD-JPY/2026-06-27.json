@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 111.50934,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Trend, Momentum und Makro stimmen bearisch ueberein: Kurs unter fallenden SMA20 (112,64) und SMA50 (113,34), RSI 33 und negativer MACD, getrieben von der BOJ-Anhebung auf 1,0%, die den Carry-Vorteil des Paares verengt. Da der Kurs exakt auf der Unterstuetzung 111,50 mit SMA200 (110,24) knapp darunter sitzt, ist ein Pullback Richtung 112,6 der sauberere Short-Einstieg. Ein Bruch unter 111,50 oeffnet erst Raum nach unten.",
+    "rationale": "Trend, Momentum und Makro stimmen bearisch ueberein: Kurs 111,51 unter fallenden SMA20 (112,64) und SMA50 (113,34), RSI 33 und negativer MACD, getrieben von der BOJ-Anhebung auf 1,0%, die den Carry-Vorteil verengt. Da der Kurs exakt auf der Unterstuetzung 111,50 sitzt und SMA200 (110,24) knapp darunter stuetzt, ist ein Pullback Richtung 112,6 der sauberere Short-Einstieg. Ein Bruch unter 111,50 oeffnet erst Raum nach unten.",
     "entry": 111.5093,
     "stop_loss": 112.6783,
     "take_profit": 109.756,

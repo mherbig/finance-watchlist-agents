@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 1.87307,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Aufwaertstrend ist intakt (Kurs ueber SMA20/50/200, ~150 Bp BoE-Zinsvorteil), doch das Momentum hat gedreht: RSI 46 unter 50 und ein leicht negatives MACD-Histogramm signalisieren Konsolidierung in der Spanne ~1,859-1,879. Mit nur 0,8 % Abstand zum 52W-Hoch und Widerstand bei 1,8791 fehlt unmittelbares Aufwaertspotenzial, waehrend Oelpreis-Risiken (Hormuz) den CAD staerken koennen. Bei diesem widerspruechlichen Bild ist FLAT diszipliniert; ein Long-Einstieg waere erst nach Pullback an Support 1,8592 (SMA50) reizvoll.",
+    "rationale": "Der Aufwaertstrend bleibt intakt (Kurs ueber SMA20/50/200, ~150 Bp BoE-Zinsvorteil), doch das Momentum hat gedreht: RSI 46 unter 50 und ein leicht negatives MACD-Histogramm signalisieren Konsolidierung in der Spanne ~1,859-1,879. Mit nur 0,8 % Abstand zum 52W-Hoch und Widerstand bei 1,8791 fehlt unmittelbares Aufwaertspotenzial, waehrend Oelpreis-Risiken (Hormuz) den CAD staerken koennen. Bei diesem widerspruechlichen Bild ist FLAT diszipliniert; ein Long-Einstieg waere erst nach Pullback an Support 1,8592 (SMA50) reizvoll.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

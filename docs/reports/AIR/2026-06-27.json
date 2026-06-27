@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:55:23.323043+00:00",
+  "generated_at": "2026-06-27T21:12:02.397085+00:00",
   "available": true,
   "snapshot": {
     "price": 191.9,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T21:01:13.831519+00:00",
+    "generated_at": "2026-06-27T21:17:48.004959+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 21,
-    "rationale": "Intakter Aufwärtstrend über allen SMAs (20/50/200) mit positivem MACD (Hist +1,14), Rekord-Backlog >9.000 Flugzeugen und bestätigter FY26-Guidance stützen ein stimmig bullisches Bild. Allerdings ist der RSI14 mit 74,6 deutlich überkauft und der Kurs (191,90) klemmt direkt unter Widerstand 195,10, weshalb ein Sofort-Einstieg unattraktiv ist. Daher LONG auf Pullback (Richtung SMA200 ~189,8) mit moderater Überzeugung, da der A320-Hochlauf vom unkontrollierten Pratt-&-Whitney-Engpass abhängt.",
+    "rationale": "Intakter Aufwärtstrend über allen SMAs (20/50/200), positiver MACD (Hist +1,14), Rekord-Backlog >9.000 Flugzeuge und bestätigte FY26-Guidance zeichnen ein stimmig bullisches Bild. Allerdings ist der RSI14 mit 74,6 deutlich überkauft und der Kurs (191,90) klemmt direkt unter Widerstand 195,10, weshalb ein Sofort-Einstieg unattraktiv ist. Daher LONG auf Pullback (Richtung SMA200 ~189,8) mit moderater Überzeugung, da der A320-Hochlauf vom unkontrollierten Pratt-&-Whitney-Engpass abhängt.",
     "entry": 191.9,
     "stop_loss": 182.9205,
     "take_profit": 205.3692,

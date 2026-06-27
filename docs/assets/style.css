@@ -45,6 +45,8 @@ body {
 }
 .page-header h1 { margin: 0 0 4px; font-size: 22px; }
 .subtitle { margin: 0; color: var(--text-dim); font-size: 14px; }
+.legend { margin: 8px 0 0; font-size: 12px; color: var(--text-dim); }
+.legend .agent-badge { margin-left: 0; }
 
 .grid-root {
   max-width: 1200px;
@@ -99,6 +101,17 @@ body {
   background: rgba(88,166,255,.18);
   color: var(--accent);
   border: 1px solid rgba(88,166,255,.35);
+}
+/* Fundamental-Panel (Aktien) = lila, Technical/Macro = gruen */
+.agent-badge-panel {
+  background: rgba(163,113,247,.18);
+  color: #a371f7;
+  border-color: rgba(163,113,247,.40);
+}
+.agent-badge-tech {
+  background: rgba(63,185,80,.16);
+  color: var(--green);
+  border-color: rgba(63,185,80,.38);
 }
 .col-price { font-variant-numeric: tabular-nums; }
 .col-change { font-variant-numeric: tabular-nums; font-weight: 600; }

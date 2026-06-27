@@ -98,8 +98,15 @@ function inlineMd(line) {
   return escapeHtml(line).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
 
-function agentBadge() {
-  return ` <span class="agent-badge" title="Agent-Analyse vorhanden">🤖 Agent</span>`;
+function agentBadge(r) {
+  if (!r.has_agent_analysis) return "";
+  const agents = Array.isArray(r.agents_run) ? r.agents_run : [];
+  if (r.track === "fundamental") {
+    const tip = "Volles Fundamental-Panel: " + agents.join(", ");
+    return ` <span class="agent-badge agent-badge-panel" title="${escapeHtml(tip)}">🧩 Fundamental · ${agents.length}</span>`;
+  }
+  const tip = "Technical/Macro-Agent";
+  return ` <span class="agent-badge agent-badge-tech" title="${escapeHtml(tip)}">📈 Technisch</span>`;
 }
 
 function renderGrid(rows) {
@@ -129,7 +136,7 @@ function renderGrid(rows) {
       const el = document.createElement("div");
       el.className = "row" + (r.available ? "" : " unavailable");
 
-      const badge = r.has_agent_analysis ? agentBadge() : "";
+      const badge = agentBadge(r);
       const dataDate = r.date
         ? `<span class="col-time">Datenstand: ${escapeHtml(fmtDate(r.date))}</span>`
         : "";

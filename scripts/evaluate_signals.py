@@ -101,30 +101,35 @@ def _evaluate_one(sig, report) -> dict:
     if not bars:
         return result  # noch keine Bars nach Signal -> open
 
-    for i, bar in enumerate(bars):
-        if i >= horizon:
-            break
-        result["bars_used"] = i + 1
+    window = bars[:horizon]  # nur die ersten horizon Bars zaehlen
+    hit = False
+    for bar in window:
+        result["bars_used"] += 1
         if direction == "LONG":
             if bar["low"] <= stop_loss:
                 result.update(outcome="sl", exit_price=stop_loss, exit_date=bar["datetime"])
+                hit = True
                 break
             if bar["high"] >= take_profit:
                 result.update(outcome="tp", exit_price=take_profit, exit_date=bar["datetime"])
+                hit = True
                 break
         else:  # SHORT
             if bar["high"] >= stop_loss:
                 result.update(outcome="sl", exit_price=stop_loss, exit_date=bar["datetime"])
+                hit = True
                 break
             if bar["low"] <= take_profit:
                 result.update(outcome="tp", exit_price=take_profit, exit_date=bar["datetime"])
+                hit = True
                 break
-    else:
-        # Schleife regulaer beendet: wenn wir den Horizont voll ausgeschoepft
-        # haben -> expired (realized R aus letztem Close). Sonst noch open
-        # (zu wenige Bars, um den Horizont abzudecken).
-        if result["bars_used"] >= horizon and bars:
-            last = bars[min(horizon, len(bars)) - 1]
+
+    if not hit:
+        # Kein SL/TP getroffen. Deckt das Fenster den vollen Horizont ab
+        # (>= horizon Bars vorhanden) -> "expired" mit realized R aus letztem
+        # Close. Sonst zu wenige Bars -> bleibt "open".
+        if len(bars) >= horizon and window:
+            last = window[-1]
             result.update(outcome="expired", exit_price=last["close"],
                           exit_date=last["datetime"])
 

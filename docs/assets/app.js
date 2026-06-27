@@ -98,6 +98,28 @@ function inlineMd(line) {
   return escapeHtml(line).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
 
+// Konviktion 1..5 als gefuellte/leere Punkte (●●●○○ fuer 3/5).
+function convictionDots(conviction) {
+  const n = Number(conviction);
+  if (!Number.isFinite(n) || n < 1) return "";
+  const filled = Math.max(0, Math.min(5, Math.round(n)));
+  return "●".repeat(filled) + "○".repeat(5 - filled);
+}
+
+// Signal-Chip fuer das Grid: LONG ▲ (gruen) / SHORT ▼ (rot) + Konviktions-Punkte.
+function signalChip(r) {
+  if (!r.has_signal) return "";
+  const dir = r.direction;
+  if (dir !== "LONG" && dir !== "SHORT") return ""; // FLAT -> kein Chip
+  const cls = dir === "LONG" ? "sig-long" : "sig-short";
+  const arrow = dir === "LONG" ? "▲" : "▼";
+  const dots = convictionDots(r.conviction);
+  const dotsHtml = dots
+    ? ` <span class="sig-dots" title="Konviktion ${escapeHtml(String(r.conviction))}/5">${dots}</span>`
+    : "";
+  return `<span class="signal-chip ${cls}">${dir} ${arrow}${dotsHtml}</span> `;
+}
+
 function agentBadge(r) {
   if (!r.has_agent_analysis) return "";
   const agents = Array.isArray(r.agents_run) ? r.agents_run : [];
@@ -160,7 +182,7 @@ function renderGrid(rows) {
           <div class="col-change ${changeClass(r.change_pct)}">${fmtPct(r.change_pct)}</div>
           <div>${trendChip(r.trend)}</div>
           <div class="col-rsi">RSI ${r.rsi == null ? "–" : fmtNum(r.rsi, 1)}</div>
-          <div class="col-headline">${escapeHtml(r.headline || "")}</div>`;
+          <div class="col-headline">${signalChip(r)}${escapeHtml(r.headline || "")}</div>`;
         el.addEventListener("click", () => openDetail(r));
       }
       rowsWrap.appendChild(el);
@@ -204,6 +226,44 @@ function renderAgentAnalysis(aa) {
       <div class="agent-summary">${escapeHtml(aa.summary || "")}</div>
       ${sectionsHtml}
       <div class="agent-meta">${metaParts.join(" · ")}</div>
+    </div>`;
+}
+
+function renderSignal(sig) {
+  if (!sig || typeof sig !== "object" || !sig.direction) {
+    return `<div class="signal-none">Noch kein Signal.</div>`;
+  }
+  const dir = sig.direction;
+  const dirCls = dir === "LONG" ? "up-text" : dir === "SHORT" ? "down-text" : "";
+  const arrow = dir === "LONG" ? " ▲" : dir === "SHORT" ? " ▼" : "";
+  const dots = convictionDots(sig.conviction);
+  const entryType = sig.entry_type === "pullback" ? "Pullback" : "Market";
+
+  let rows = "";
+  if (dir === "FLAT") {
+    rows = `<div class="signal-flat">Kein aktiver Trade (FLAT).</div>`;
+  } else {
+    rows = `
+      <div class="kv">
+        <div><div class="k">Einstiegsart</div><div class="v">${escapeHtml(entryType)}</div></div>
+        <div><div class="k">Entry</div><div class="v">${fmtNum(sig.entry)}</div></div>
+        <div><div class="k">Stop-Loss</div><div class="v">${fmtNum(sig.stop_loss)}</div></div>
+        <div><div class="k">Take-Profit</div><div class="v">${fmtNum(sig.take_profit)}</div></div>
+        <div><div class="k">Take-Profit 2</div><div class="v">${sig.take_profit_2 == null ? "–" : fmtNum(sig.take_profit_2)}</div></div>
+        <div><div class="k">R:R</div><div class="v">${sig.rr == null ? "–" : fmtNum(sig.rr, 2)}</div></div>
+        <div><div class="k">Horizont</div><div class="v">${sig.horizon_days == null ? "–" : escapeHtml(String(sig.horizon_days)) + " Tage"}</div></div>
+      </div>`;
+  }
+
+  return `
+    <div class="signal-box">
+      <h4 class="signal-title">📍 Signal</h4>
+      <div class="signal-head">
+        <span class="signal-dir ${dirCls}">${escapeHtml(dir)}${arrow}</span>
+        ${dots ? `<span class="sig-dots" title="Konviktion">${dots}</span>` : ""}
+      </div>
+      ${rows}
+      ${sig.rationale ? `<div class="signal-rationale">${escapeHtml(sig.rationale)}</div>` : ""}
     </div>`;
 }
 
@@ -273,6 +333,8 @@ async function openDetail(row) {
     html += `<div class="detail-section"><p class="error">Keine technischen Daten verfügbar.</p></div>`;
   }
 
+  html += renderSignal(rep.signal);
+
   html += renderAgentAnalysis(rep.agent_analysis);
 
   html += `
@@ -296,6 +358,30 @@ function wireModal() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") hideModal();
   });
+}
+
+// Forward-Test-Zusammenfassung (optional; track_record.json kann fehlen).
+async function renderTrackRecord() {
+  const el = document.getElementById("track-record");
+  if (!el) return;
+  let tr;
+  try {
+    const res = await fetch("signals/track_record.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    tr = await res.json();
+  } catch (err) {
+    el.textContent = "Forward-Test startet — noch keine Historie.";
+    return;
+  }
+  const agg = (tr && tr.aggregates) || {};
+  if (!agg.resolved) {
+    el.textContent = "Forward-Test startet — noch keine Historie.";
+    return;
+  }
+  const hit = agg.hit_rate == null ? "–" : Math.round(agg.hit_rate * 100) + " %";
+  const avgR = agg.avg_R == null ? "–" : fmtNum(agg.avg_R, 2);
+  el.textContent =
+    `Forward-Test: ${agg.resolved} Signale · Trefferquote ${hit} · Ø R ${avgR}`;
 }
 
 async function init() {
@@ -325,6 +411,7 @@ async function init() {
       })
       .catch(() => {});
 
+    renderTrackRecord();
     renderGrid(rows);
   } catch (err) {
     root.innerHTML = `<p class="error">index.json konnte nicht geladen werden: ${escapeHtml(err.message)}.<br>

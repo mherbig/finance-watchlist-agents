@@ -287,19 +287,23 @@ def resolve_symbol_trades(signals: list, time_series: list,
         last_in_horizon_close = None
         last_in_horizon_date = None
         bars_scanned = 0
+        horizon_stopped = False
 
         for bar in future:
-            # Flip hat Vorrang ab dem Flip-Datum: wird ein Bar AM oder NACH
-            # dem Flip-Datum erreicht, ohne dass vorher SL/TP zuschlug, dann
-            # schliesst der Flip am Flip-Datums-Bar (oder letztem Bar davor).
-            if flip_date is not None and bar["date"] >= flip_date:
+            # Bars NACH dem Flip-Datum sind irrelevant: bis dahin haette ein
+            # Flip laengst geschlossen.
+            if flip_date is not None and bar["date"] > flip_date:
                 break
+            # Horizont vor dem Flip ausgeschoepft -> Time-Stop hat Vorrang.
             if horizon and bars_scanned >= horizon:
+                horizon_stopped = True
                 break
             bars_scanned += 1
             last_in_horizon_close = bar["close"]
             last_in_horizon_date = bar["date"]
 
+            # SL/TP wird INTRABAR geprueft — auch AM Flip-Datum. Das taegliche
+            # Signal entsteht erst nach dem Close, der intraday-Stop also davor.
             if direction == "LONG":
                 if bar["low"] <= stop_loss:
                     resolved_status = "sl"
@@ -323,9 +327,16 @@ def resolve_symbol_trades(signals: list, time_series: list,
                     exit_date = bar["date"]
                     break
 
-        if resolved_status is None and flip_date is not None:
-            # SL/TP wurde vor dem Flip nicht getroffen -> Bias-Flip-Exit.
-            # Close am Flip-Datums-Bar, sonst letzter Bar-Close davor.
+            # Flip-Datum ohne SL/TP-Treffer erreicht -> Bias-Flip am Close.
+            if flip_date is not None and bar["date"] == flip_date:
+                resolved_status = "flip"
+                exit_date = flip_date
+                exit_price = bar["close"]
+                break
+
+        if resolved_status is None and flip_date is not None and not horizon_stopped:
+            # Flip-Datum hat keinen Bar (Wochenende/Luecke) und der Horizont kam
+            # nicht zuvor: am letzten Bar-Close davor schliessen.
             on_or_before = [b for b in bars if b["date"] <= flip_date]
             if on_or_before:
                 resolved_status = "flip"

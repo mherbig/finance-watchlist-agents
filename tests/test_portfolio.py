@@ -236,6 +236,26 @@ def test_sl_before_flip_wins():
     assert trades[0]["exit_price"] == 95.0
 
 
+def test_sl_on_flip_date_wins_over_flip():
+    # SL is touched intraday on the SAME day as the opposing signal. The daily
+    # signal is computed after the close, so the intraday SL happens first and
+    # must win over the bias-flip.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "SHORT", 90.0, 95.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 94, 96),  # flip day, but low 94 <= SL 95
+        _bar("2026-01-04", 96, 108, 101, 107),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "sl"
+    assert trades[0]["exit_date"] == "2026-01-03"
+    assert trades[0]["exit_price"] == 95.0
+    assert trades[0]["realized_R"] == -1.0
+
+
 def test_tp_before_flip_wins():
     signals = [
         _sig("2026-01-01", "LONG", 100.0, 95.0, 110.0, horizon_days=20),

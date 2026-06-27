@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 191.87,
@@ -42,9 +42,8 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 38 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 38",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "fundamental",
     "agents_run": [
@@ -55,12 +54,12 @@
       "pitch",
       "meeting-prep"
     ],
-    "summary": "NVIDIA bleibt operativ der dominante Profiteur des KI-/Rechenzentrums-Booms (Rekord-Q1 FY27 am 20.05.2026: 81,6 Mrd. USD Umsatz, +85% YoY), notiert technisch aber bei 191,87 USD im Abwaertstrend (RSI 38, MACD negativ, unter SMA20/50, knapp ueber SMA200). Die Aktie ist 2026 YTD nur leicht im Plus und einer der schwaechsten grossen Halbleiterwerte trotz starker Fundamentaldaten, belastet v.a. durch China-Exportthemen und Bewertungsdebatte. Dieser Entwurf dient ausschliesslich der Pruefung und ist keine Anlageempfehlung.",
+    "summary": "NVIDIA bleibt operativ der dominante Profiteur des KI-/Rechenzentrums-Booms (Rekord-Q1 FY27 am 20.05.2026: 81,6 Mrd. USD Umsatz, +85% YoY), notiert technisch aber bei 191,87 USD im Abwaertstrend (RSI 38, MACD negativ, unter SMA20/50, knapp ueber SMA200). Die Aktie ist 2026 YTD nur leicht im Plus und einer der schwaechsten grossen Halbleiterwerte trotz starker Fundamentaldaten, belastet v.a. durch China-Exportthemen und Bewertungsdebatte.",
     "sections": [
       {
         "agent": "market-researcher",
         "title": "Markt & Sektor",
-        "body": "**Sektor:** KI-Beschleuniger / Rechenzentrums-Halbleiter, weiterhin einer der staerksten Marktbereiche 2026.\n\n**Marktstellung:** NVIDIA haelt geschaetzt **85-92%** Anteil am Markt fuer KI-Beschleuniger. Management nennt einen Auftrags-/Pipeline-Umfang von ca. **1 Bio. USD** fuer Blackwell- und Vera-Rubin-Prozessoren (2026/27) und erwartet Hyperscaler-Capex von rund **1 Bio. USD in 2027**.\n\n**Wettbewerb / Peers:** AMD (MI300-Serie, 2026 YTD ca. +138%, deutlich staerker als NVDA), Intel (Gaudi) sowie Custom-Silicon der Hyperscaler - Amazon (Trainium), Google (TPU), Microsoft (Maia).\n\n**Trends:** Anhaltend hohe GPU-Nachfrage, Ausbau Rechenzentren; Gegenwind durch US-Exportkontrollen Richtung China und lokalen Wettbewerb. NVIDIA versucht ueber Vera-CPUs (geringere Regulierung) einen Weg zurueck in den China-Markt."
+        "body": "**Sektor:** KI-Beschleuniger / Rechenzentrums-Halbleiter, weiterhin einer der staerksten Marktbereiche 2026. **Marktstellung:** NVIDIA haelt geschaetzt **85-92%** Anteil am Markt fuer KI-Beschleuniger. Management nennt einen Auftrags-/Pipeline-Umfang von ca. **1 Bio. USD** fuer Blackwell- und Vera-Rubin-Prozessoren (2026/27) und erwartet Hyperscaler-Capex von rund **1 Bio. USD in 2027**. **Wettbewerb / Peers:** AMD (MI300-Serie, 2026 YTD ca. +138%, deutlich staerker als NVDA), Intel (Gaudi) sowie Custom-Silicon der Hyperscaler - Amazon (Trainium), Google (TPU), Microsoft (Maia). **Trends:** Anhaltend hohe GPU-Nachfrage, Ausbau Rechenzentren; Gegenwind durch US-Exportkontrollen Richtung China und lokalen Wettbewerb. NVIDIA versucht ueber Vera-CPUs (geringere Regulierung) einen Weg zurueck in den China-Markt."
       },
       {
         "agent": "earnings-reviewer",
@@ -70,12 +69,12 @@
       {
         "agent": "model-builder",
         "title": "Modell (DCF/Comps)",
-        "body": "**Hinweis: grobe Schaetzung, keine praezise Bewertung.**\n\n**Multiples:** NVDA notierte im Mai 2026 bei rund 33x P/E (trailing) bzw. ca. **45x Forward-EPS** - Aufschlag gegenueber Halbleiter-Peers, gerechtfertigt nur bei fortgesetzt hohem Wachstum.\n\n**Comps-Logik:** Bei Non-GAAP-EPS-Run-Rate von ~1,87 USD/Quartal (Q1 FY27) und weiterem Wachstum impliziert ein Forward-EPS im Bereich ~8-9 USD (annualisiert/steigend, grobe Annahme). \n\n**Grobe Fair-Value-Spanne (illustrativ):**\n- Bear ~30x Forward-EPS -> ca. **150-170 USD**\n- Base ~40x -> ca. **200-230 USD**\n- Bull ~50x bei Pipeline-Realisierung -> ca. **260-300 USD**\n\nDie Spanne deckt sich grob mit Analysten-Kurszielen (Konsens ~269-299 USD lt. oeffentlichen Aggregatoren). **Annahmen:** anhaltender Hyperscaler-Capex, Margen ~75%, kein materieller China-Totalausfall. Sensitiv ggü. Multiple-Kontraktion."
+        "body": "**Hinweis: grobe Schaetzung, keine praezise Bewertung.**\n\n**Multiples:** NVDA notierte im Mai 2026 bei rund 33x P/E (trailing) bzw. ca. **45x Forward-EPS** - Aufschlag gegenueber Halbleiter-Peers, gerechtfertigt nur bei fortgesetzt hohem Wachstum. **Comps-Logik:** Bei Non-GAAP-EPS-Run-Rate von ~1,87 USD/Quartal (Q1 FY27) und weiterem Wachstum impliziert ein Forward-EPS im Bereich ~8-9 USD (annualisiert/steigend, grobe Annahme). **Grobe Fair-Value-Spanne (illustrativ):**\n- Bear ~30x Forward-EPS -> ca. **150-170 USD**\n- Base ~40x -> ca. **200-230 USD**\n- Bull ~50x bei Pipeline-Realisierung -> ca. **260-300 USD**\n\nDie Spanne deckt sich grob mit Analysten-Kurszielen (Konsens ~269-299 USD lt. oeffentlichen Aggregatoren). **Annahmen:** anhaltender Hyperscaler-Capex, Margen ~75%, kein materieller China-Totalausfall. Sensitiv ggü. Multiple-Kontraktion."
       },
       {
         "agent": "valuation-reviewer",
         "title": "Bewertungs-Check",
-        "body": "**Plausibilitaet vs. Comps:** Forward-Multiple ~45x liegt ueber dem Halbleiterdurchschnitt; angesichts +85% Umsatzwachstum und 75% Bruttomarge ist die Praemie fundamental teils gedeckt, laesst aber wenig Puffer fuer Wachstumsverlangsamung.\n\n**Technische Diskrepanz:** Trotz Rekordzahlen ist NVDA 2026 YTD nur leicht im Plus und laut Quellen einer der schwaechsten grossen Halbleiterwerte - der Markt preist offenbar Risiken/Peak-Cycle-Sorgen ein. Kurs 191,87 USD liegt **-18,6%** unter 52W-Hoch (235,74) und nur knapp ueber SMA200 (190,64).\n\n**Risiken:** (1) China-Export/-Wettbewerb (5,5-16 Mrd. USD Gegenwind), (2) Multiple-Kontraktion bei Capex-Verlangsamung, (3) Custom-Silicon der Hyperscaler erodiert langfristig Anteil, (4) Konzentrationsrisiko (~50% Umsatz bei Hyperscalern), (5) zyklische Ueberbau-Gefahr."
+        "body": "**Plausibilitaet vs. Comps:** Forward-Multiple ~45x liegt ueber dem Halbleiterdurchschnitt; angesichts +85% Umsatzwachstum und 75% Bruttomarge ist die Praemie fundamental teils gedeckt, laesst aber wenig Puffer fuer Wachstumsverlangsamung. **Technische Diskrepanz:** Trotz Rekordzahlen ist NVDA 2026 YTD nur leicht im Plus und laut Quellen einer der schwaechsten grossen Halbleiterwerte - der Markt preist offenbar Risiken/Peak-Cycle-Sorgen ein. Kurs 191,87 USD liegt **-18,6%** unter 52W-Hoch (235,74) und nur knapp ueber SMA200 (190,64). **Risiken:** (1) China-Export/-Wettbewerb (5,5-16 Mrd. USD Gegenwind), (2) Multiple-Kontraktion bei Capex-Verlangsamung, (3) Custom-Silicon der Hyperscaler erodiert langfristig Anteil, (4) Konzentrationsrisiko (~50% Umsatz bei Hyperscalern), (5) zyklische Ueberbau-Gefahr."
       },
       {
         "agent": "pitch",
@@ -85,11 +84,10 @@
       {
         "agent": "meeting-prep",
         "title": "Meeting-Briefing",
-        "body": "- **Kurs/Technik:** 191,87 USD (-1,98% Tag), Abwaertstrend, RSI 38, MACD negativ; Support 191,87 / SMA200 190,64, Widerstand 224,36; -18,6% unter 52W-Hoch (235,74), +25,2% ueber 52W-Tief (153,30).\n\n- **Letzte Earnings (20.05.2026):** Rekord 81,6 Mrd. USD Umsatz (+85%), Data Center 75,2 Mrd. (+92%), EPS Non-GAAP 1,87 USD, 80 Mrd. Rueckkauf, Dividende auf 0,25 USD.\n\n- **Katalysator China:** US-Commerce schliesst Juni 2026 Schlupfloch fuer Rubin/Blackwell; NVIDIA pusht Vera-CPU nach China (ggf. ab August). Headwind-Schaetzung 5,5-16 Mrd. USD.\n\n- **Wettbewerb beobachten:** AMD YTD ca. +138% vs. NVDA leicht positiv; Custom-Silicon der Hyperscaler.\n\n- **Naechste Termine/Trigger:** Q2-FY27-Earnings (ca. August 2026), Vera-Rubin-Ramp-Updates, Hyperscaler-Capex-Guidance, weitere Exportregel-Entscheidungen. **Entwurf, keine Empfehlung.**"
+        "body": "- **Kurs/Technik:** 191,87 USD (-1,98% Tag), Abwaertstrend, RSI 38, MACD negativ; Support 191,87 / SMA200 190,64, Widerstand 224,36; -18,6% unter 52W-Hoch (235,74), +25,2% ueber 52W-Tief (153,30). - **Letzte Earnings (20.05.2026):** Rekord 81,6 Mrd. USD Umsatz (+85%), Data Center 75,2 Mrd. (+92%), EPS Non-GAAP 1,87 USD, 80 Mrd. Rueckkauf, Dividende auf 0,25 USD. - **Katalysator China:** US-Commerce schliesst Juni 2026 Schlupfloch fuer Rubin/Blackwell; NVIDIA pusht Vera-CPU nach China (ggf. ab August). Headwind-Schaetzung 5,5-16 Mrd. USD. - **Wettbewerb beobachten:** AMD YTD ca. +138% vs. NVDA leicht positiv; Custom-Silicon der Hyperscaler. - **Naechste Termine/Trigger:** Q2-FY27-Earnings (ca. August 2026), Vera-Rubin-Ramp-Updates, Hyperscaler-Capex-Guidance, weitere Exportregel-Entscheidungen."
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

@@ -4,7 +4,7 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 4071.73118,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 38 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 38",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "Gold notiert bei rund 4.072 USD nach einer scharfen Korrektur von ueber 23% unter dem 52W-Hoch (5.331), trotz +1,1% am Tag. Der Trend ist klar abwaerts gerichtet: Preis unter allen drei SMAs, RSI bei 38, MACD negativ. Entwurf zur Pruefung, keine Empfehlung.",
+    "summary": "Gold notiert bei rund 4.072 USD nach einer scharfen Korrektur von ueber 23% unter dem 52W-Hoch (5.331), trotz +1,1% am Tag. Der Trend ist klar abwaerts gerichtet: Preis unter allen drei SMAs, RSI bei 38, MACD negativ.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -60,11 +59,10 @@
       {
         "agent": "technical-macro",
         "title": "Makro & Katalysatoren",
-        "body": "**Realzinsen/USD** dominieren: Ein hawkisher Fed-Pfad nach CPI ~4,2% und starke US-Jobdaten (Mai +172k) haben Zinssenkungs-Hoffnungen geloescht, Realrenditen (~4,5%) und Dollar gestuetzt – beides belastet Gold. **Safe-Haven** wirkt paradox schwach: Trotz Nahost-Eskalation drueckt oelgetriebene Inflation auf die Notierung. **Zentralbankkaeufe** bleiben struktureller Anker (Q1 2026 netto 244 t laut WGC; PBoC zuletzt wieder aktiver). **Risiken**: Tagesschluss unter 4.000 koennte Abverkauf vertiefen. Entwurf, keine Empfehlung."
+        "body": "**Realzinsen/USD** dominieren: Ein hawkisher Fed-Pfad nach CPI ~4,2% und starke US-Jobdaten (Mai +172k) haben Zinssenkungs-Hoffnungen geloescht, Realrenditen (~4,5%) und Dollar gestuetzt – beides belastet Gold. **Safe-Haven** wirkt paradox schwach: Trotz Nahost-Eskalation drueckt oelgetriebene Inflation auf die Notierung. **Zentralbankkaeufe** bleiben struktureller Anker (Q1 2026 netto 244 t laut WGC; PBoC zuletzt wieder aktiver). **Risiken**: Tagesschluss unter 4.000 koennte Abverkauf vertiefen."
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 1.13893,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 27 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 27",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "EUR/USD notiert bei 1.1389 am unteren Rand der Jahresspanne, unmittelbar ueber dem 52-Wochen-Tief (1.1359). Trend abwaerts unter allen SMAs, RSI mit 27 tief im ueberverkauften Bereich. Beide Notenbanken hawkish – Entwurf zur Pruefung, kein Signal.",
+    "summary": "EUR/USD notiert bei 1.1389 am unteren Rand der Jahresspanne, unmittelbar ueber dem 52-Wochen-Tief (1.1359). Trend abwaerts unter allen SMAs, RSI mit 27 tief im ueberverkauften Bereich.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -64,7 +63,6 @@
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

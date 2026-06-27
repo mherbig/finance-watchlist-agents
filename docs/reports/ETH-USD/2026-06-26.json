@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 1579.21,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 41 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 41",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "ETH notiert bei ~1.579 USD und damit knapp ueber dem 52-Wochen-Tief (1.568) sowie rund 62 % unter dem Hoch (4.159). Trend und Bias bleiben abwaerts, alle SMAs liegen deutlich oberhalb des Kurses. Entwurf zur Pruefung, keine Empfehlung.",
+    "summary": "ETH notiert bei ~1.579 USD und damit knapp ueber dem 52-Wochen-Tief (1.568) sowie rund 62 % unter dem Hoch (4.159). Trend und Bias bleiben abwaerts, alle SMAs liegen deutlich oberhalb des Kurses.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -64,7 +63,6 @@
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

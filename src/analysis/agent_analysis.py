@@ -6,7 +6,6 @@ Keine Netzwerkaufrufe.
 """
 from __future__ import annotations
 
-AGENT_DISCLAIMER = "Entwurf zur Pruefung. Keine Anlageempfehlung."
 _VALID_TRACKS = {"fundamental", "technical"}
 _SECTION_FIELDS = ("agent", "title", "body")
 
@@ -53,17 +52,15 @@ def validate_agent_analysis(d: dict) -> None:
 def attach(report: dict, analysis: dict, generated_at: str, model: str) -> dict:
     """Validiert analysis und setzt report['agent_analysis'] mit Stempelung.
 
-    generated_at, model und disclaimer werden immer mit den uebergebenen Werten
-    gestempelt (vorhandene Werte in analysis werden ueberschrieben). Andere
-    Report-Felder bleiben unangetastet. Gibt den (in-place geaenderten) Report
-    zurueck.
+    generated_at und model werden immer mit den uebergebenen Werten gestempelt
+    (vorhandene Werte in analysis werden ueberschrieben). Andere Report-Felder
+    bleiben unangetastet. Gibt den (in-place geaenderten) Report zurueck.
     """
     validate_agent_analysis(analysis)
 
     block = dict(analysis)
     block["generated_at"] = generated_at
     block["model"] = model
-    block["disclaimer"] = AGENT_DISCLAIMER
 
     report["agent_analysis"] = block
     return report

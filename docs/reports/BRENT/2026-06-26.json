@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 72.76,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 17 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 17",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "Brent notiert bei 72,76 USD nach einem heftigen Rutsch (Tagesveraenderung -3,3 %), tief unter allen gleitenden Durchschnitten und mit einem extrem ueberverkauften RSI von 17. Das Bild bleibt charttechnisch klar abwaerts gerichtet, wobei die Schnelligkeit der Bewegung an eine moegliche Gegenbewegung denken laesst. Der Verfall des frueheren Kriegs-Risikoaufschlags durch US-Iran-Entspannung steht hohen Lagerabbau-Daten gegenueber. Entwurf zur Pruefung, kein Signal.",
+    "summary": "Brent notiert bei 72,76 USD nach einem heftigen Rutsch (Tagesveraenderung -3,3 %), tief unter allen gleitenden Durchschnitten und mit einem extrem ueberverkauften RSI von 17. Das Bild bleibt charttechnisch klar abwaerts gerichtet, wobei die Schnelligkeit der Bewegung an eine moegliche Gegenbewegung denken laesst. Der Verfall des frueheren Kriegs-Risikoaufschlags durch US-Iran-Entspannung steht hohen Lagerabbau-Daten gegenueber.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -64,7 +63,6 @@
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

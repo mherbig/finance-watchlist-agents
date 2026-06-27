@@ -46,7 +46,7 @@ def test_build_report_available_stock():
     assert rep["fundamental"] is None
     assert isinstance(rep["headline"], str) and rep["headline"]
     assert rep["flags"] == []
-    assert "Keine Anlageempfehlung" in rep["disclaimer"]
+    assert "disclaimer" not in rep
 
 
 def test_build_report_unavailable():
@@ -57,7 +57,7 @@ def test_build_report_unavailable():
     assert rep["technical"] is None
     assert rep["fundamental"] is None
     assert isinstance(rep["headline"], str)
-    assert "Keine Anlageempfehlung" in rep["disclaimer"]
+    assert "disclaimer" not in rep
 
 
 def test_build_report_headline_handles_none_rsi():
@@ -78,8 +78,8 @@ def test_build_index_rows():
 
     row = index[0]
     expected_keys = {"symbol", "display", "asset_class", "track", "date",
-                     "available", "price", "change_pct", "trend", "rsi",
-                     "bias", "headline", "has_agent_analysis", "agents_run"}
+                     "generated_at", "available", "price", "change_pct", "trend",
+                     "rsi", "bias", "headline", "has_agent_analysis", "agents_run"}
     assert set(row.keys()) == expected_keys
     assert row["has_agent_analysis"] is False
     assert row["agents_run"] == []

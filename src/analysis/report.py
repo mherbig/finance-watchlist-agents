@@ -4,17 +4,15 @@ from __future__ import annotations
 
 from .technical import compute_technical
 
-DISCLAIMER = "Entwurf zur Prüfung. Keine Anlageempfehlung."
-
 
 def _headline(technical: dict | None, available: bool) -> str:
     """Deterministischer, kurzer deutscher Take. Keine Empfehlung."""
     if not available or technical is None:
-        return "Daten nicht verfügbar – keine Analyse."
+        return "Daten nicht verfügbar."
     trend = technical.get("trend", "side")
     rsi = technical.get("rsi14")
     rsi_str = "n/v" if rsi is None else f"{rsi:.0f}"
-    return f"Trend {trend}, RSI {rsi_str} – Beobachtung, keine Empfehlung."
+    return f"Trend {trend}, RSI {rsi_str}"
 
 
 def build_report(raw: dict, generated_at: str, prior: dict | None = None) -> dict:
@@ -41,7 +39,6 @@ def build_report(raw: dict, generated_at: str, prior: dict | None = None) -> dic
         "fundamental": None,  # Platzhalter fuer die kuenftige Fundamental-Spur
         "headline": _headline(technical, available),
         "flags": [],
-        "disclaimer": DISCLAIMER,
     }
 
     if isinstance(prior, dict) and prior.get("agent_analysis"):
@@ -67,6 +64,7 @@ def build_index(reports: list[dict]) -> list[dict]:
             "asset_class": rep.get("asset_class"),
             "track": rep.get("track"),
             "date": rep.get("date"),
+            "generated_at": rep.get("generated_at"),
             "available": rep.get("available"),
             "price": price,
             "change_pct": change_pct,

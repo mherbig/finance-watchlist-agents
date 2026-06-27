@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 495.75,
@@ -42,9 +42,8 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 57 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend up, RSI 57",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "fundamental",
     "agents_run": [
@@ -55,7 +54,7 @@
       "pitch",
       "meeting-prep"
     ],
-    "summary": "LVMH notiert bei **495,75 EUR** (Stand 26.06.2026), rund **-24% unter dem 52W-Hoch** von 652 EUR und unter der SMA200 (542) - der Sektor ist 2026 unter Druck, zeigt aber Stabilisierung. Q1 2026 brachte nur **+1% organisches Wachstum** (Fashion & Leather Goods -2%), belastet durch den Nahost-Konflikt, bei sich bessernder China- und US-Nachfrage. Dies ist ein analytischer Entwurf zur menschlichen Pruefung, **keine Anlageempfehlung**.",
+    "summary": "LVMH notiert bei **495,75 EUR** (Stand 26.06.2026), rund **-24% unter dem 52W-Hoch** von 652 EUR und unter der SMA200 (542) - der Sektor ist 2026 unter Druck, zeigt aber Stabilisierung. Q1 2026 brachte nur **+1% organisches Wachstum** (Fashion & Leather Goods -2%), belastet durch den Nahost-Konflikt, bei sich bessernder China- und US-Nachfrage.",
     "sections": [
       {
         "agent": "market-researcher",
@@ -80,16 +79,15 @@
       {
         "agent": "pitch",
         "title": "Investment-Case",
-        "body": "**Neutrale Gegenueberstellung - keine Empfehlung.** **Bull-Punkte:** marktfuehrendes, diversifiziertes Luxus-Portfolio mit Pricing-Power; Bewertung unter eigenem 10-J.-Schnitt und mit Abschlag zu Hermes; China-Erholung seit H2/2025 sichtbar (Asien ex-Japan +7%); starke nicht-Mode-Sparten (W&J +7%, W&S +5%); potenzieller Geopolitik-Rueckenwind (Nahost-Deeskalation). **Bear-Punkte:** groesste Sparte (Fashion & Leather Goods) noch organisch ruecklaeufig; Europa/Japan schwach; FX-Gegenwind; Turnaround von Dior/Givenchy/Celine unbewiesen; Kurs unter SMA200 (542) - technisch noch nicht im Aufwaertstrend bestaetigt; Sektor-Sentiment fragil. **Technisch:** Trend \"up\", RSI 57, MACD-Histogramm leicht negativ; Support ~461, Widerstand ~520."
+        "body": "**Bear-Punkte:** groesste Sparte (Fashion & Leather Goods) noch organisch ruecklaeufig; Europa/Japan schwach; FX-Gegenwind; Turnaround von Dior/Givenchy/Celine unbewiesen; Kurs unter SMA200 (542) - technisch noch nicht im Aufwaertstrend bestaetigt; Sektor-Sentiment fragil. **Technisch:** Trend \"up\", RSI 57, MACD-Histogramm leicht negativ; Support ~461, Widerstand ~520."
       },
       {
         "agent": "meeting-prep",
         "title": "Meeting-Briefing",
-        "body": "- **Naechster Katalysator:** **H1-2026-Ergebnisse am 28.07.2026** - Fokus auf Q2-Organik (Barclays erwartet ~+5%) und Fashion-&-Leather-Goods-Trendwende.\n- **China im Blick:** Asien ex-Japan +7% in Q1 - Nachhaltigkeit der Erholung ist Schluesselfrage fuer die These.\n- **Bewertung:** EV/EBITDA ~10-11x (28% unter 10-J.-Median), KGV ~22x; klarer Abschlag zu Hermes (~37x).\n- **Technik/Levels:** Kurs 495,75 EUR, unter SMA200 (542); Support ~461, Widerstand ~520; -24% unter 52W-Hoch (652).\n- **Hauptrisiken:** China-Fragilitaet, Konsum Europa/Japan, FX (starker Euro), Nahost-Geopolitik, Dior-Turnaround.\n- *Entwurf zur Pruefung - keine Anlageempfehlung.*"
+        "body": "- **Naechster Katalysator:** **H1-2026-Ergebnisse am 28.07.2026** - Fokus auf Q2-Organik (Barclays erwartet ~+5%) und Fashion-&-Leather-Goods-Trendwende. - **China im Blick:** Asien ex-Japan +7% in Q1 - Nachhaltigkeit der Erholung ist Schluesselfrage fuer die These. - **Bewertung:** EV/EBITDA ~10-11x (28% unter 10-J.-Median), KGV ~22x; klarer Abschlag zu Hermes (~37x). - **Technik/Levels:** Kurs 495,75 EUR, unter SMA200 (542); Support ~461, Widerstand ~520; -24% unter 52W-Hoch (652). - **Hauptrisiken:** China-Fragilitaet, Konsum Europa/Japan, FX (starker Euro), Nahost-Geopolitik, Dior-Turnaround."
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

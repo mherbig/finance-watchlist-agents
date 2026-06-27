@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 7354.02,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 48 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend side, RSI 48",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "Der S&P500 notiert bei 7.354 Punkten in einer Seitwaerts-Konsolidierung knapp unter dem 52W-Hoch (-3,4%), mit neutralem RSI (48) und negativem MACD-Histogramm. Das Bild zeigt eine Verschnaufpause nach starkem Anstieg, waehrend der makroökonomische Hintergrund durch eine hawkische Fed-Wende gepraegt ist. Dies ist ein Analyse-Entwurf zur Pruefung, keine Anlageempfehlung.",
+    "summary": "Der S&P500 notiert bei 7.354 Punkten in einer Seitwaerts-Konsolidierung knapp unter dem 52W-Hoch (-3,4%), mit neutralem RSI (48) und negativem MACD-Histogramm. Das Bild zeigt eine Verschnaufpause nach starkem Anstieg, waehrend der makroökonomische Hintergrund durch eine hawkische Fed-Wende gepraegt ist.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -60,11 +59,10 @@
       {
         "agent": "technical-macro",
         "title": "Makro & Katalysatoren",
-        "body": "Die **Fed** hielt am 17.06.2026 den Leitzins bei **3,50-3,75%** (einstimmig, erstes Meeting unter Chair Warsh), hob aber die Inflationsprognose 2026 auf **3,6% (Kern 3,3%)** an; der neue Dot-Plot impliziert eher eine **Anhebung** statt Senkung — hawkische Wende. Treiber bleibt das KI-getriebene Gewinnwachstum (Goldman: EPS ~340 USD, Ziel 8.000). **Risiken**: hartnaeckige Inflation, geopolitische Spannungen (Nahost), gestreckte Bewertungen (~21x) und enge Marktbreite. *Entwurf, keine Empfehlung.*"
+        "body": "Die **Fed** hielt am 17.06.2026 den Leitzins bei **3,50-3,75%** (einstimmig, erstes Meeting unter Chair Warsh), hob aber die Inflationsprognose 2026 auf **3,6% (Kern 3,3%)** an; der neue Dot-Plot impliziert eher eine **Anhebung** statt Senkung — hawkische Wende. Treiber bleibt das KI-getriebene Gewinnwachstum (Goldman: EPS ~340 USD, Ziel 8.000). **Risiken**: hartnaeckige Inflation, geopolitische Spannungen (Nahost), gestreckte Bewertungen (~21x) und enge Marktbreite."
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

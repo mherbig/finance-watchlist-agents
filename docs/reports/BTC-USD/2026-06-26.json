@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 59655.5,
@@ -42,15 +42,14 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 36 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend down, RSI 36",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "technical",
     "agents_run": [
       "technical-macro"
     ],
-    "summary": "BTC notiert bei rund 59.656 USD und damit etwa 48 % unter dem 52-Wochen-Hoch (114.548) sowie exakt auf dem 52-Wochen-Tief. Trend und Bias sind klar abwaerts: Kurs unter allen SMAs, RSI bei 36, MACD negativ. Hintergrund sind rekordhohe US-Spot-ETF-Abfluesse, eine hawkische Fed und ein Leverage-Flush. Entwurf zur Pruefung, keine Anlageempfehlung.",
+    "summary": "BTC notiert bei rund 59.656 USD und damit etwa 48 % unter dem 52-Wochen-Hoch (114.548) sowie exakt auf dem 52-Wochen-Tief. Trend und Bias sind klar abwaerts: Kurs unter allen SMAs, RSI bei 36, MACD negativ. Hintergrund sind rekordhohe US-Spot-ETF-Abfluesse, eine hawkische Fed und ein Leverage-Flush.",
     "sections": [
       {
         "agent": "technical-macro",
@@ -64,7 +63,6 @@
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

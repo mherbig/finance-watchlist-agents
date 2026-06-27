@@ -36,6 +36,12 @@ function fmtPct(x, digits) {
   return sign + n.toFixed(d) + " %";
 }
 
+function fmtStamp(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return Number.isNaN(d.getTime()) ? String(iso) : d.toLocaleString("de-DE");
+}
+
 function trendChip(trend) {
   if (!trend) return '<span class="chip chip-na">n/v</span>';
   const cls = trend === "up" ? "chip-up" : trend === "down" ? "chip-down" : "chip-side";
@@ -114,10 +120,13 @@ function renderGrid(rows) {
       el.className = "row" + (r.available ? "" : " unavailable");
 
       const badge = r.has_agent_analysis ? agentBadge() : "";
+      const time = r.generated_at
+        ? `<span class="col-time">akt. ${escapeHtml(fmtStamp(r.generated_at))}</span>`
+        : "";
 
       if (!r.available) {
         el.innerHTML = `
-          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
+          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span>${time}</div>
           <div class="col-price">–</div>
           <div class="col-change">–</div>
           <div class="chip chip-na">n/v</div>
@@ -125,7 +134,7 @@ function renderGrid(rows) {
           <div class="col-headline">Daten n/v</div>`;
       } else {
         el.innerHTML = `
-          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span></div>
+          <div class="col-label">${escapeHtml(r.display)}${badge}<span class="col-sub">${escapeHtml(r.symbol || "")}</span>${time}</div>
           <div class="col-price">${fmtNum(r.price)}</div>
           <div class="col-change ${changeClass(r.change_pct)}">${fmtPct(r.change_pct)}</div>
           <div>${trendChip(r.trend)}</div>
@@ -174,7 +183,6 @@ function renderAgentAnalysis(aa) {
       <div class="agent-summary">${escapeHtml(aa.summary || "")}</div>
       ${sectionsHtml}
       <div class="agent-meta">${metaParts.join(" · ")}</div>
-      <div class="agent-disclaimer">${escapeHtml(aa.disclaimer || "")}</div>
     </div>`;
 }
 
@@ -247,8 +255,7 @@ async function openDetail(row) {
   html += renderAgentAnalysis(rep.agent_analysis);
 
   html += `
-    <div class="headline-box">${escapeHtml(rep.headline || "")}</div>
-    <div class="disclaimer-box">${escapeHtml(rep.disclaimer || "")}</div>`;
+    <div class="headline-box">${escapeHtml(rep.headline || "")}</div>`;
 
   body.innerHTML = html;
 }

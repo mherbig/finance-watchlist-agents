@@ -22,7 +22,6 @@ def _base_report():
         "display": "APPLE",
         "asset_class": "stock",
         "headline": "unveraendert",
-        "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung.",
     }
 
 
@@ -140,7 +139,7 @@ def test_attach_sets_block_and_stamps():
     aa = out["agent_analysis"]
     assert aa["generated_at"] == "2026-06-26T22:00:00Z"
     assert aa["model"] == "claude-opus-4-8"
-    assert aa["disclaimer"] == "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    assert "disclaimer" not in aa  # Disclaimer wird nicht mehr gestempelt
     assert aa["track"] == "fundamental"
     assert aa["agents_run"] == ["market-researcher", "earnings-reviewer"]
     assert aa["summary"] == "Kurze Synthese ohne Empfehlung."
@@ -155,7 +154,7 @@ def test_attach_returns_report_and_preserves_other_fields():
     assert out["symbol"] == "AAPL"
     assert out["display"] == "APPLE"
     assert out["headline"] == "unveraendert"
-    assert out["disclaimer"] == "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    assert out["asset_class"] == "stock"
 
 
 def test_attach_always_stamps_passed_values_over_existing():

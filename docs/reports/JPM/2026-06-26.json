@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T21:07:09.866504+00:00",
+  "generated_at": "2026-06-27T06:13:38.270495+00:00",
   "available": true,
   "snapshot": {
     "price": 328.28,
@@ -42,9 +42,8 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 63 – Beobachtung, keine Empfehlung.",
+  "headline": "Trend up, RSI 63",
   "flags": [],
-  "disclaimer": "Entwurf zur Prüfung. Keine Anlageempfehlung.",
   "agent_analysis": {
     "track": "fundamental",
     "agents_run": [
@@ -55,7 +54,7 @@
       "pitch",
       "meeting-prep"
     ],
-    "summary": "JPMorgan notiert am 26.06.2026 bei **328,28 USD** (-2,0% am Tag), knapp unter dem 52-Wochen-Hoch (335,12) und in intaktem Aufwaertstrend (Kurs ueber SMA20/50/200, RSI 63, MACD positiv). Fundamental untermauert ein starkes Q1 2026 (EPS 5,94 USD, +17% YoY; Rekord-Markets, robustes IB) die Premium-Bewertung; gleichzeitig druecken eine leicht gesenkte NII-Guidance (~103 Mrd. USD) und ein hoeher-fuer-laenger-Zinsumfeld unter dem neuen Fed-Chair Warsh auf die Erwartungen. Dies ist ein Analyse-Entwurf zur menschlichen Pruefung, keine Anlageempfehlung.",
+    "summary": "JPMorgan notiert am 26.06.2026 bei **328,28 USD** (-2,0% am Tag), knapp unter dem 52-Wochen-Hoch (335,12) und in intaktem Aufwaertstrend (Kurs ueber SMA20/50/200, RSI 63, MACD positiv). Fundamental untermauert ein starkes Q1 2026 (EPS 5,94 USD, +17% YoY; Rekord-Markets, robustes IB) die Premium-Bewertung; gleichzeitig druecken eine leicht gesenkte NII-Guidance (~103 Mrd. USD) und ein hoeher-fuer-laenger-Zinsumfeld unter dem neuen Fed-Chair Warsh auf die Erwartungen.",
     "sections": [
       {
         "agent": "market-researcher",
@@ -80,16 +79,15 @@
       {
         "agent": "pitch",
         "title": "Investment-Case",
-        "body": "**Bull:** Marktfuehrer in IB/Markets mit Rekord-Q1; bestes ROTCE der Grossbanken; Festungsbilanz (CET1 14,3%) und aggressive Kapitalrueckgabe (Dividendenerhoehung auf 1,65 USD, 50-Mrd.-USD-Rueckkauf, angekuendigt 24.06.2026); hoehere-fuer-laenger-Zinsen stuetzen NIM; AI-/Retail-Expansion als langfristige Optionen. **Bear:** Bewertung nahe Allzeithoch lae sst wenig Spielraum; NII-Guidance gesenkt; Markets-Staerke ist zyklisch und schwer fortschreibbar; Kreditkosten koennen normalisieren; regulatorische Kapital-Unsicherheit; bei Konjunktureintruebung wirkt JPM als Sektor-Proxy mit hohem Beta zum Zins-/Kreditzyklus. **Neutral gehalten** - beide Seiten sind real; keine Empfehlung."
+        "body": "**Bull:** Marktfuehrer in IB/Markets mit Rekord-Q1; bestes ROTCE der Grossbanken; Festungsbilanz (CET1 14,3%) und aggressive Kapitalrueckgabe (Dividendenerhoehung auf 1,65 USD, 50-Mrd.-USD-Rueckkauf, angekuendigt 24.06.2026); hoehere-fuer-laenger-Zinsen stuetzen NIM; AI-/Retail-Expansion als langfristige Optionen. **Bear:** Bewertung nahe Allzeithoch lae sst wenig Spielraum; NII-Guidance gesenkt; Markets-Staerke ist zyklisch und schwer fortschreibbar; Kreditkosten koennen normalisieren; regulatorische Kapital-Unsicherheit; bei Konjunktureintruebung wirkt JPM als Sektor-Proxy mit hohem Beta zum Zins-/Kreditzyklus."
       },
       {
         "agent": "meeting-prep",
         "title": "Meeting-Briefing",
-        "body": "- **Kurs/Technik:** 328,28 USD (-2,0% Tag), Aufwaertstrend (ueber SMA20/50/200), RSI 63, MACD positiv; Widerstand 335,12 (52W-Hoch), Support ~296,58.\n- **Letzte Earnings (Q1 2026, 21.04.):** EPS 5,94 USD (+17% YoY), Umsatz 49,8 Mrd., Rekord-Markets +20%, NII 25,5 Mrd.\n- **Katalysator/Risiko NII:** FY2026-Guidance auf ~103 Mrd. USD gesenkt; sensitiv zum Fed-Pfad (Warsh hawkish, Leitzins 3,50-3,75%).\n- **Kapitalrueckgabe:** Dividende auf 1,65 USD erhoeht, 50-Mrd.-USD-Rueckkauf (24.06.2026) - positiver Stuetzfaktor.\n- **Naechste Termine/Beobachtung:** Q2-2026-Earnings (Mitte Juli erwartet), naechste Fed-Sitzung, Kreditkosten-Trend, Basel-Endgame-/Regulierungsnachrichten. _Entwurf zur Pruefung, keine Anlageempfehlung._"
+        "body": "- **Kurs/Technik:** 328,28 USD (-2,0% Tag), Aufwaertstrend (ueber SMA20/50/200), RSI 63, MACD positiv; Widerstand 335,12 (52W-Hoch), Support ~296,58. - **Letzte Earnings (Q1 2026, 21.04.):** EPS 5,94 USD (+17% YoY), Umsatz 49,8 Mrd., Rekord-Markets +20%, NII 25,5 Mrd. - **Katalysator/Risiko NII:** FY2026-Guidance auf ~103 Mrd. USD gesenkt; sensitiv zum Fed-Pfad (Warsh hawkish, Leitzins 3,50-3,75%). - **Kapitalrueckgabe:** Dividende auf 1,65 USD erhoeht, 50-Mrd.-USD-Rueckkauf (24.06.2026) - positiver Stuetzfaktor. - **Naechste Termine/Beobachtung:** Q2-2026-Earnings (Mitte Juli erwartet), naechste Fed-Sitzung, Kreditkosten-Trend, Basel-Endgame-/Regulierungsnachrichten."
       }
     ],
     "generated_at": "2026-06-26T21:04:20.759169+00:00",
-    "model": "claude-opus-4-8",
-    "disclaimer": "Entwurf zur Pruefung. Keine Anlageempfehlung."
+    "model": "claude-opus-4-8"
   }
 }

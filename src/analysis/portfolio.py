@@ -14,6 +14,11 @@ mit direction_sign +1 fuer LONG, -1 fuer SHORT.
 """
 from __future__ import annotations
 
+# Ob ein spaeteres FLAT-Signal eine offene Position schliesst (Bias-Flip auf
+# FLAT). True = FLAT zaehlt als Gegen-Signal; False = nur die echte
+# Gegenrichtung schliesst.
+FLAT_CLOSES = True
+
 
 def position_size(risk_amount, entry, stop_loss):
     """Stueckzahl = risk_amount / |entry - stop_loss|.
@@ -144,6 +149,231 @@ def resolve_trade(log_entry: dict, time_series: list) -> dict:
         base["realized_R"] = _realized_r(direction, base["exit_price"],
                                           entry, stop_loss)
     return base
+
+
+def _ascending_bars(time_series: list) -> list:
+    """time_series (neueste zuerst, String-OHLC) -> aufsteigende Floatbars.
+
+    Liefert ``[{date, open, high, low, close}]`` sortiert aeltest -> neuest.
+    Unvollstaendige Bars werden uebersprungen.
+    """
+    if not isinstance(time_series, list):
+        return []
+    bars = []
+    for b in time_series:
+        if not isinstance(b, dict):
+            continue
+        dt = b.get("datetime") or b.get("date")
+        if dt is None:
+            continue
+        try:
+            bars.append({
+                "date": str(dt),
+                "open": float(b["open"]),
+                "high": float(b["high"]),
+                "low": float(b["low"]),
+                "close": float(b["close"]),
+            })
+        except (KeyError, TypeError, ValueError):
+            continue
+    bars.sort(key=lambda x: x["date"])
+    return bars
+
+
+def _is_actionable(sig: dict) -> bool:
+    """LONG/SHORT mit gesetztem entry UND stop_loss -> handelbar."""
+    return (sig.get("direction") in ("LONG", "SHORT")
+            and sig.get("entry") is not None
+            and sig.get("stop_loss") is not None)
+
+
+def _opposes(open_direction: str, sig_direction: str, flat_closes: bool) -> bool:
+    """Ob ``sig_direction`` die offene Position bias-flippt.
+
+    Gegenrichtung schliesst immer; FLAT nur wenn ``flat_closes``.
+    """
+    if open_direction == "LONG":
+        if sig_direction == "SHORT":
+            return True
+    elif open_direction == "SHORT":
+        if sig_direction == "LONG":
+            return True
+    if sig_direction == "FLAT" and flat_closes:
+        return True
+    return False
+
+
+def resolve_symbol_trades(signals: list, time_series: list,
+                          flat_closes: bool = FLAT_CLOSES) -> list:
+    """Loest die taegliche Signalfolge EINES Symbols zu Trades auf.
+
+    ``signals``: alle Log-Eintraege eines Symbols (unsortiert erlaubt).
+    ``time_series``: dessen taegliche Bars, neueste zuerst (String-OHLC).
+
+    Simuliert hoechstens EINE offene Position gleichzeitig. Pro offener
+    Position ist der Exit das FRUEHESTE aus:
+
+    1. SL/TP intrabar (wie ``resolve_trade``),
+    2. Bias-Flip: das frueheste spaetere Signal mit Gegenrichtung
+       (FLAT zaehlt nur bei ``flat_closes``) -> Close am Flip-Datum
+       (oder letzter Close davor, falls kein Bar), Status "flip",
+    3. Horizont/Time-Stop -> "expired" am letzten In-Horizont-Bar,
+    4. sonst "open".
+
+    Nach einem Exit kann das ausloesende (Flip-)Signal bzw. das naechste
+    handelbare Signal eine neue Position eroeffnen.
+    """
+    sigs = sorted(
+        (s for s in signals if isinstance(s, dict)),
+        key=lambda s: str(s.get("date")),
+    )
+    bars = _ascending_bars(time_series)
+
+    trades: list[dict] = []
+    i = 0
+    n = len(sigs)
+    while i < n:
+        sig = sigs[i]
+        if not _is_actionable(sig):
+            i += 1
+            continue
+
+        direction = sig["direction"]
+        entry = float(sig["entry"])
+        stop_loss = float(sig["stop_loss"])
+        take_profit = sig.get("take_profit")
+        take_profit = float(take_profit) if take_profit is not None else None
+        horizon = sig.get("horizon_days") or 0
+        entry_date = str(sig.get("date"))
+
+        # Frueheste spaetere Gegen-Signal-Position bestimmen.
+        flip_date = None
+        flip_index = None
+        for j in range(i + 1, n):
+            cand = sigs[j]
+            cdate = str(cand.get("date"))
+            if cdate <= entry_date:
+                continue
+            if _opposes(direction, cand.get("direction"), flat_closes):
+                flip_date = cdate
+                flip_index = j
+                break
+
+        trade = {
+            "symbol": sig.get("symbol"),
+            "display": sig.get("display"),
+            "direction": direction,
+            "conviction": sig.get("conviction"),
+            "entry": entry,
+            "stop_loss": stop_loss,
+            "take_profit": take_profit,
+            "horizon_days": horizon,
+            "date": entry_date,
+            "status": "open",
+            "exit_date": None,
+            "exit_price": None,
+            "realized_R": None,
+        }
+        if "take_profit_2" in sig:
+            trade["take_profit_2"] = sig.get("take_profit_2")
+        if "rr" in sig:
+            trade["rr"] = sig.get("rr")
+
+        future = [b for b in bars if b["date"] > entry_date]
+
+        resolved_status = None
+        exit_date = None
+        exit_price = None
+        last_in_horizon_close = None
+        last_in_horizon_date = None
+        bars_scanned = 0
+        horizon_stopped = False
+
+        for bar in future:
+            # Bars NACH dem Flip-Datum sind irrelevant: bis dahin haette ein
+            # Flip laengst geschlossen.
+            if flip_date is not None and bar["date"] > flip_date:
+                break
+            # Horizont vor dem Flip ausgeschoepft -> Time-Stop hat Vorrang.
+            if horizon and bars_scanned >= horizon:
+                horizon_stopped = True
+                break
+            bars_scanned += 1
+            last_in_horizon_close = bar["close"]
+            last_in_horizon_date = bar["date"]
+
+            # SL/TP wird INTRABAR geprueft — auch AM Flip-Datum. Das taegliche
+            # Signal entsteht erst nach dem Close, der intraday-Stop also davor.
+            if direction == "LONG":
+                if bar["low"] <= stop_loss:
+                    resolved_status = "sl"
+                    exit_price = stop_loss
+                    exit_date = bar["date"]
+                    break
+                if take_profit is not None and bar["high"] >= take_profit:
+                    resolved_status = "tp"
+                    exit_price = take_profit
+                    exit_date = bar["date"]
+                    break
+            else:  # SHORT
+                if bar["high"] >= stop_loss:
+                    resolved_status = "sl"
+                    exit_price = stop_loss
+                    exit_date = bar["date"]
+                    break
+                if take_profit is not None and bar["low"] <= take_profit:
+                    resolved_status = "tp"
+                    exit_price = take_profit
+                    exit_date = bar["date"]
+                    break
+
+            # Flip-Datum ohne SL/TP-Treffer erreicht -> Bias-Flip am Close.
+            if flip_date is not None and bar["date"] == flip_date:
+                resolved_status = "flip"
+                exit_date = flip_date
+                exit_price = bar["close"]
+                break
+
+        if resolved_status is None and flip_date is not None and not horizon_stopped:
+            # Flip-Datum hat keinen Bar (Wochenende/Luecke) und der Horizont kam
+            # nicht zuvor: am letzten Bar-Close davor schliessen.
+            on_or_before = [b for b in bars if b["date"] <= flip_date]
+            if on_or_before:
+                resolved_status = "flip"
+                exit_date = flip_date
+                exit_price = on_or_before[-1]["close"]
+
+        if resolved_status is None:
+            # Kein SL/TP, kein Flip-Close. Horizont ausgeschoepft -> expired.
+            if horizon and len(future) >= horizon and last_in_horizon_close is not None:
+                resolved_status = "expired"
+                exit_price = last_in_horizon_close
+                exit_date = last_in_horizon_date
+
+        if resolved_status is not None:
+            trade["status"] = resolved_status
+            trade["exit_date"] = exit_date
+            trade["exit_price"] = exit_price
+            trade["realized_R"] = _realized_r(direction, exit_price, entry,
+                                              stop_loss)
+        trades.append(trade)
+
+        # Weiter nach dem Exit: das Flip-Signal (oder das naechste Signal nach
+        # dem Exit-Datum) darf eine neue Position eroeffnen.
+        if trade["status"] == "flip" and flip_index is not None:
+            i = flip_index
+        else:
+            # Naechstes Signal, dessen Datum strikt nach dem Exit-Datum liegt
+            # (oder nach dem Entry, falls die Position offen blieb).
+            boundary = exit_date if exit_date is not None else entry_date
+            nxt = i + 1
+            while nxt < n and str(sigs[nxt].get("date")) <= str(boundary):
+                nxt += 1
+            if nxt <= i:
+                nxt = i + 1
+            i = nxt
+
+    return trades
 
 
 def _is_tradeable(t: dict) -> bool:

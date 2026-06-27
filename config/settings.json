@@ -3,6 +3,7 @@
   "data_dir": "data",
   "reports_dir": "docs/reports",
   "twelvedata": { "min_interval_seconds": 8, "time_series_outputsize": 250 },
+  "signals": { "flat_closes_position": true },
   "fundamental_cadence": "daily",
   "run_time_utc": "22:30"
 }

@@ -46,8 +46,13 @@ def main() -> None:
         print(f"Kein Signal-Log gefunden ({log_path}). Nichts zu simulieren.")
         return
 
-    ts_cache: dict[str, list] = {}
-    trades = []
+    flat_closes = bool(
+        settings.get("signals", {}).get("flat_closes_position",
+                                        portfolio.FLAT_CLOSES))
+
+    # Log-Zeilen je Symbol gruppieren (Reihenfolge der Erstsichtung erhalten).
+    groups: dict[str, list] = {}
+    order: list[str] = []
     for line in log_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line:
@@ -57,14 +62,24 @@ def main() -> None:
         except json.JSONDecodeError:
             print(f"  WARN: ungueltige Log-Zeile uebersprungen: {line[:60]}")
             continue
+        key = entry.get("symbol") or entry.get("display")
+        if key is None:
+            continue
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(entry)
 
-        display = entry.get("display") or entry.get("symbol")
+    trades = []
+    for key in order:
+        symbol_signals = groups[key]
+        first = symbol_signals[0]
+        display = first.get("display") or first.get("symbol")
         safe = safe_name(str(display)) if display else None
-        if safe is not None and safe not in ts_cache:
-            ts_cache[safe] = _latest_raw_time_series(data_dir, safe)
-        time_series = ts_cache.get(safe, [])
-
-        trades.append(portfolio.resolve_trade(entry, time_series))
+        time_series = _latest_raw_time_series(data_dir, safe) if safe else []
+        trades.extend(
+            portfolio.resolve_symbol_trades(
+                symbol_signals, time_series, flat_closes=flat_closes))
 
     result = portfolio.simulate(trades)
 

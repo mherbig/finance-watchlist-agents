@@ -37,14 +37,43 @@ def _latest_report(symbol_dir: Path) -> Path | None:
 
 
 def _load_all_reports(reports_dir: Path) -> list[dict]:
+    """Nur die NEUESTE Report-Datei je Symbol (sonst zaehlt der Index alte
+    Datums-Dateien doppelt)."""
     reports = []
     for symbol_dir in sorted(p for p in reports_dir.iterdir() if p.is_dir()):
-        for path in sorted(symbol_dir.glob("*.json")):
-            try:
-                reports.append(json.loads(path.read_text(encoding="utf-8")))
-            except (json.JSONDecodeError, OSError) as exc:
-                print(f"  WARN: Report {path} nicht lesbar: {exc}")
+        path = _latest_report(symbol_dir)
+        if path is None:
+            continue
+        try:
+            reports.append(json.loads(path.read_text(encoding="utf-8")))
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"  WARN: Report {path} nicht lesbar: {exc}")
     return reports
+
+
+def _merge_log(existing_lines: list[str], new_lines: list[str]) -> list[str]:
+    """Fuegt neue Log-Zeilen idempotent ein: bestehende Zeilen mit gleicher
+    (date, display) wie eine neue Zeile werden ersetzt (kein Duplikat je Tag)."""
+    new_keys = set()
+    for line in new_lines:
+        try:
+            j = json.loads(line)
+            new_keys.add((j.get("date"), j.get("display")))
+        except json.JSONDecodeError:
+            continue
+    kept = []
+    for line in existing_lines:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            j = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if (j.get("date"), j.get("display")) in new_keys:
+            continue  # wird durch neue Zeile ersetzt
+        kept.append(line)
+    return kept + new_lines
 
 
 def main() -> None:
@@ -127,9 +156,10 @@ def main() -> None:
         }, ensure_ascii=False))
 
     if log_lines:
-        with log_path.open("a", encoding="utf-8") as fh:
-            for line in log_lines:
-                fh.write(line + "\n")
+        existing = (log_path.read_text(encoding="utf-8").splitlines()
+                    if log_path.exists() else [])
+        merged = _merge_log(existing, log_lines)
+        log_path.write_text("\n".join(merged) + "\n", encoding="utf-8")
 
     # index.json aus ALLEN Reports neu bauen, damit Signal-Chips erscheinen.
     all_reports = _load_all_reports(reports_dir)

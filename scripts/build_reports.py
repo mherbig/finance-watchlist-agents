@@ -65,8 +65,14 @@ def main() -> None:
         reports.append(report)
 
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / f"{report['date']}.json").write_text(
+        report_file = out_dir / f"{report['date']}.json"
+        report_file.write_text(
             json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+        # Alte Datums-Reports entfernen: nur der neueste bleibt (kein Repo-Wuchs,
+        # kein Doppelzaehlen im Index). Signal-Historie lebt in log.jsonl.
+        for old in out_dir.glob("*.json"):
+            if old != report_file:
+                old.unlink()
         written += 1
         if report["available"]:
             available_count += 1

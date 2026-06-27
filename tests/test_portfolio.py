@@ -154,6 +154,199 @@ def test_resolve_missing_sl_is_none():
 
 
 # --------------------------------------------------------------------------
+# resolve_symbol_trades — bias-flip exit
+# --------------------------------------------------------------------------
+def _sig(date, direction, entry=None, sl=None, tp=None, *, conviction=3,
+         horizon_days=5, display="AAA", symbol="AAA", tp2=None, rr=2.0):
+    s = {"date": date, "symbol": symbol, "display": display,
+         "direction": direction, "conviction": conviction, "entry": entry,
+         "stop_loss": sl, "take_profit": tp, "horizon_days": horizon_days,
+         "rr": rr}
+    if tp2 is not None:
+        s["take_profit_2"] = tp2
+    return s
+
+
+def test_flip_long_then_short_closes_at_flip_close():
+    # LONG opens 01-01; SHORT signal on 01-03 flips it; no SL/TP hit before.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "SHORT", 90.0, 95.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),  # flip day close=104
+        _bar("2026-01-04", 104, 108, 101, 107),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    long_trade = trades[0]
+    assert long_trade["status"] == "flip"
+    assert long_trade["exit_date"] == "2026-01-03"
+    assert long_trade["exit_price"] == 104.0
+    # realized_R = (104-100)/|100-95| = 0.8
+    assert long_trade["realized_R"] == 0.8
+
+
+def test_flip_to_flat_closes_when_flat_closes_true():
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "FLAT", None, None, None, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),
+        _bar("2026-01-04", 104, 108, 101, 107),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts, flat_closes=True)
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-03"
+    assert trades[0]["exit_price"] == 104.0
+
+
+def test_flip_to_flat_ignored_when_flat_closes_false():
+    # FLAT does not close; trade keeps scanning -> expired at horizon end.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=2),
+        _sig("2026-01-03", "FLAT", None, None, None, horizon_days=2),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),
+        _bar("2026-01-04", 104, 108, 101, 107),  # past horizon -> expired at 01-03
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts, flat_closes=False)
+    assert trades[0]["status"] == "expired"
+    assert trades[0]["exit_date"] == "2026-01-03"
+    assert trades[0]["exit_price"] == 104.0
+
+
+def test_sl_before_flip_wins():
+    # SL on 01-02 happens before the SHORT flip on 01-03.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "SHORT", 90.0, 95.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 94, 96),  # low 94 <= SL 95
+        _bar("2026-01-03", 96, 106, 100, 104),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "sl"
+    assert trades[0]["exit_date"] == "2026-01-02"
+    assert trades[0]["exit_price"] == 95.0
+
+
+def test_tp_before_flip_wins():
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 110.0, horizon_days=20),
+        _sig("2026-01-03", "SHORT", 90.0, 95.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 111, 99, 110),  # high 111 >= TP 110
+        _bar("2026-01-03", 110, 112, 108, 111),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "tp"
+    assert trades[0]["exit_date"] == "2026-01-02"
+    assert trades[0]["exit_price"] == 110.0
+
+
+def test_same_direction_signal_does_not_reset_position():
+    # Second LONG on 01-03 must NOT change entry/SL/TP of the open position.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "LONG", 200.0, 190.0, 260.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),
+        _bar("2026-01-04", 104, 108, 94, 96),  # low 94 <= original SL 95
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["entry"] == 100.0
+    assert trades[0]["stop_loss"] == 95.0
+    assert trades[0]["status"] == "sl"
+    assert trades[0]["exit_price"] == 95.0
+
+
+def test_reentry_after_flip_opens_new_position():
+    # LONG closes via flip to SHORT on 01-03, and the SHORT opens a new trade.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "SHORT", 104.0, 110.0, 90.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),  # flip close 104
+        _bar("2026-01-04", 104, 108, 101, 107),  # SHORT: high 108 >= SL 110? no
+        _bar("2026-01-05", 107, 111, 100, 102),  # high 111 >= SL 110 -> sl
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert len(trades) == 2
+    assert trades[0]["status"] == "flip"
+    assert trades[1]["direction"] == "SHORT"
+    assert trades[1]["date"] == "2026-01-03"
+    assert trades[1]["entry"] == 104.0
+    assert trades[1]["status"] == "sl"
+    assert trades[1]["exit_price"] == 110.0
+
+
+def test_no_future_bars_is_open():
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=5)]
+    trades = portfolio.resolve_symbol_trades(signals, [])
+    assert len(trades) == 1
+    assert trades[0]["status"] == "open"
+    assert trades[0]["exit_price"] is None
+    assert trades[0]["realized_R"] is None
+
+
+def test_single_signal_resolves_like_resolve_trade():
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 110.0, horizon_days=5)]
+    ts = _ts(
+        _bar("2026-01-02", 100, 102, 99, 101),
+        _bar("2026-01-03", 101, 111, 100, 110),  # TP
+        _bar("2026-01-04", 110, 112, 108, 111),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "tp"
+    assert trades[0]["exit_price"] == 110.0
+    assert trades[0]["exit_date"] == "2026-01-03"
+    assert trades[0]["realized_R"] == 2.0
+
+
+def test_flip_date_no_bar_uses_prior_close():
+    # Flip signal on 01-04 (a missing bar / weekend); use most recent prior close.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-04", "SHORT", 90.0, 95.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 103),  # prior bar close=103
+        _bar("2026-01-05", 103, 108, 101, 107),  # next bar after flip date
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-04"
+    assert trades[0]["exit_price"] == 103.0
+
+
+def test_actionable_after_non_actionable_first_signal():
+    # First signal FLAT (not actionable) -> no open; later LONG opens.
+    signals = [
+        _sig("2026-01-01", "FLAT", None, None, None, horizon_days=20),
+        _sig("2026-01-02", "LONG", 100.0, 95.0, 110.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-03", 100, 111, 99, 110),  # TP
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert len(trades) == 1
+    assert trades[0]["direction"] == "LONG"
+    assert trades[0]["status"] == "tp"
+
+
+# --------------------------------------------------------------------------
 # simulate
 # --------------------------------------------------------------------------
 def _trade(symbol, direction, entry, sl, tp, status, exit_date, exit_price,

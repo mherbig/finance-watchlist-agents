@@ -43,5 +43,26 @@
   },
   "fundamental": null,
   "headline": "Trend down, RSI 33",
-  "flags": []
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "AUD/JPY notiert bei 111,56 und steht unter Druck: Der Kurs liegt klar unter SMA20 (112,69) und SMA50 (113,39), nur SMA200 (110,19) stützt knapp von unten. RSI bei 33 und negativer MACD bestätigen den Abwärts-Bias, getrieben von der BOJ-Zinserhöhung auf 1,0% (16.06.), die den Carry-Vorteil des Paares verengt. Der Bereich um 111,56 ist die entscheidende Unterstützung.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der **Trend ist abwärts gerichtet**: Der Schlusskurs 111,56 liegt unter SMA20 (112,69) und SMA50 (113,39), die ihrerseits fallen – eine bearishe Stapelung der kurz-/mittelfristigen Durchschnitte. Einzig die **SMA200 bei 110,19** dient als nächster struktureller Halt. - **RSI14 = 33** signalisiert Schwäche nahe der überverkauften Zone, ohne sie zu erreichen. - **MACD** (-0,41) unter Signal (-0,27), Histogramm -0,14: Momentum bleibt negativ. - **Level:** Unterstützung exakt am Kurs (111,56), Widerstand 113,41; ein Bruch nach unten öffnet Richtung SMA200. - **ATR14 = 0,65** bedeutet moderate Tagesvolatilität (~0,6%). - Abstand zum **52W-Hoch -2,85%** (114,84), zum **52W-Tief +14,39%** (97,52) – Kurs im oberen Drittel der Jahresspanne, aber mit nachlassender Dynamik."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist die **Geldpolitik-Divergenz**: Die **BOJ hob am 16.06.2026 auf 1,0%** an (höchstes Niveau seit 1995, Votum 7:1), während die **RBA bei 4,10% pausiert** nach mehreren Hikes zuvor. Die verbleibende Zinsdifferenz (~310 bp) stützt den Carry-Trade weiterhin, doch jede weitere BOJ-Straffung verengt ihn und belastet AUD/JPY. - **Risiken:** Nahost-/Iran-Konflikt treibt Risk-off und Yen-Nachfrage als sicherer Hafen. - **Termine:** nächste BOJ-/RBA-Sitzungen, japanische CPI-Daten, australische Inflation (erwarteter Peak ~4,8% Mitte 2026). - Prognosespanne 2026 der Häuser: rund **109–117**."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  }
 }

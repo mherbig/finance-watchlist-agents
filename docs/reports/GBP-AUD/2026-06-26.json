@@ -43,5 +43,26 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 57",
-  "flags": []
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/AUD notiert bei 1,9137 und kämpft sich aus dem Frühjahrstief (+3,1% über dem 52W-Tief von 1,8561) zurück nach oben, bleibt aber 7,6% unter dem 52W-Hoch von 2,0717. Kurzfristiger Aufwärtstrend über SMA20/50, jedoch unter der fallenden SMA200 bei 1,9273 - das Bild ist eine Erholung innerhalb eines übergeordneten Abwärtstrends. Treiber bleibt die geldpolitische Divergenz zwischen einer pausierenden BoE und einer restriktiveren RBA.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (1,9137) liegt klar über **SMA20 (1,8991)** und **SMA50 (1,8857)**, aber unter der **SMA200 (1,9273)** - kurzfristig bullisch, übergeordnet noch im Abwärtstrend. Die SMA200 ist die nächste Hürde und deckt sich mit der ausgewiesenen **Resistance bei 1,9137**, exakt am aktuellen Niveau. - **RSI14 bei 57** - aufwärtsgerichtetes Momentum, aber noch nicht überkauft, Luft nach oben\n- **MACD positiv** (0,005 über Signal 0,0036, Histogramm +0,0014) - bestätigt die Aufwärtsdynamik\n- **ATR14 = 0,0091** (~0,5%) signalisiert moderate Volatilität\n\nStützzone bei **1,881** (SMA50-Bereich). Mit -7,63% zum 52W-Hoch und +3,1% zum 52W-Tief sitzt der Kurs in der unteren Hälfte der Jahresspanne. Ein nachhaltiger Bruch über 1,9273 würde das Bild zu neutral-bullisch drehen."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Zentraler Treiber ist die **Zinsdivergenz BoE vs. RBA**. Die BoE hielt am 17.06.2026 den Leitzins bei **3,75%** (7:2, zwei Mitglieder für Erhöhung). Die RBA pausierte im Juni nach drei Hikes in Folge bei einem Cash Rate um **4,10-4,35%** - höhere AUD-Zinsen verengen das zuvor pro-Sterling sprechende Differenzial und erklären den Rückgang von den 2025er Hochs. - **Risiken:** Australiens Kerninflation (~4,2%) bleibt über Ziel; Westpac sieht weitere Hikes, CBA/NAB/ANZ eher Cut im August - die Spanne der Erwartungen ist breit\n- **Öl/Energie:** Höhere Preise begünstigen den AUD (Nettoexporteur) gegenüber dem GBP (Nettoimporteur); ein US-Iran-Deal dämpfte zuletzt die Ölpreise\n- **Termine:** kommende AU-Inflationsdaten und BoE/RBA-Sitzungen sind die nächsten Katalysatoren"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  }
 }

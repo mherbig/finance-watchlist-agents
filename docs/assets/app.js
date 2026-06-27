@@ -16,6 +16,9 @@ const ASSET_ORDER = ["index", "forex", "crypto", "energy", "metal", "stock"];
 
 const TREND_LABELS = { up: "up", down: "down", side: "side" };
 
+// Lookup display -> index-Zeile (track/agents_run fuer Badges in der Signal-Liste).
+let INDEX_BY_DISPLAY = {};
+
 // safe_name muss src/data/symbol_map.safe_name spiegeln: display.replace("/", "-")
 function safeName(display) {
   return String(display).split("/").join("-");
@@ -472,8 +475,10 @@ function renderOpenSignals(open) {
 
   const body = rows.map((o) => {
     const dots = convictionDots(o.conviction);
+    const idxRow = INDEX_BY_DISPLAY[o.display];
+    const badge = idxRow ? agentBadge(idxRow) : "";
     return `<tr class="sig-row" data-display="${escapeHtml(o.display)}" data-date="${escapeHtml(o.date || "")}">
-      <td>${escapeHtml(o.display)}</td>
+      <td>${escapeHtml(o.display)}${badge}</td>
       <td>${dirChip(o.direction)}</td>
       <td><span class="sig-dots" title="Konviktion ${escapeHtml(String(o.conviction))}/5">${dots}</span></td>
       <td class="num">${fmtNum(o.entry)}</td>
@@ -641,6 +646,9 @@ async function init() {
       root.innerHTML = `<p class="error">Keine Reports gefunden. Bitte zuerst scripts/build_reports.py ausführen.</p>`;
       return;
     }
+
+    INDEX_BY_DISPLAY = {};
+    for (const r of rows) INDEX_BY_DISPLAY[r.display] = r;
 
     // "Zuletzt aktualisiert" aus dem ersten Report holen (generated_at liegt nicht im Index;
     // wir laden den ersten Detail-Report, um den Zeitstempel anzuzeigen).

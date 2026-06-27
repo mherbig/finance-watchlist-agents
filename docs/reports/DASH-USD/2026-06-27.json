@@ -1,0 +1,82 @@
+{
+  "symbol": "DASH/USD",
+  "display": "DASH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 33.37,
+    "change_pct": -2.39836,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 33.37,
+    "change_pct": -2.3983620941795856,
+    "sma20": 35.599,
+    "sma50": 39.5626,
+    "sma200": 40.5157,
+    "rsi14": 43.31,
+    "macd": {
+      "macd": -1.2643,
+      "signal": -1.2134,
+      "hist": -0.0509
+    },
+    "atr14": 2.5264,
+    "high_52w": 126.78,
+    "low_52w": 29.87,
+    "pct_from_high": -73.68,
+    "pct_from_low": 11.72,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 38.25
+      },
+      {
+        "type": "support",
+        "price": 33.37
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "DASH notiert bei 34,66 USD und liegt mit allen gleitenden Durchschnitten unter Wasser – der Trend bleibt klar abwärts gerichtet (-72,7 % vom 52W-Hoch bei 126,78). Der RSI um 51 und ein gerade positiv drehender MACD-Histogramm deuten auf eine Stabilisierung knapp über dem Support bei 33,60. Makro-Treiber sind das Privacy-Coin-Narrativ und der Evolution-Mainnet-Launch, dem jedoch regulatorischer Gegenwind (Philippinen-Bann für Privacy-Coins) entgegensteht.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (34,66 USD) liegt unter **SMA20 (35,79)**, **SMA50 (39,91)** und **SMA200 (40,60)** – die klassische Abwärtsstaffelung untermauert den **bearishen Trend**. Der **RSI14 bei 50,9** ist neutral, ohne Überverkauft-Signal. Der **MACD (-1,161) liegt unter seiner Signallinie (-1,193)**, doch das **Histogramm dreht mit +0,032 positiv** – ein erstes Anzeichen nachlassenden Abgabedrucks. Entscheidend ist die Zone zwischen **Support 33,60** und **Resistance 38,25**; ein ATR14 von 2,55 (~7,3 % des Kurses) signalisiert weiterhin hohe Volatilität. Der Abstand zum **52W-Hoch beträgt -72,7 %**, zum **52W-Tief (29,87) nur +16,0 %** – die Notierung klebt am unteren Jahresband."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber bleibt das **Privacy-Coin-Narrativ** (Monero auf ATH, Zcash mit dreistelligem Zuwachs), das DASH Aufmerksamkeit verschafft. Fundamental positiv: der **Evolution-Mainnet-Launch** mit Smart-Contracts/IBC sowie die geplante **Zcash-Orchard-Integration (Shielded Balances) im Juli 2026** und Zahlungs-Anbindungen (Dexsport-Partnerschaft, Alchemy Pay). Gegenwind: Die **philippinische Zentralbank verbot am 15. Juni Privacy-Coins** auf lizenzierten Börsen, plus breite Krypto-Schwäche durch institutionelle Abflüsse. Risiken: Regulierungsdruck, dünne Liquidität und ein Bruch des 33,60-Supports Richtung 52W-Tief."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar bearisch (Kurs unter SMA20/50/200, -72,7 % vom 52W-Hoch), doch der RSI bei 50,9 ist neutral und das MACD-Histogramm dreht mit +0,032 leicht positiv – ein Stabilisierungsversuch knapp über Support 33,60. Da die Technik (Abwärtsstaffelung) und die Analyse (regulatorischer Gegenwind vs. positive Privacy-/Evolution-Katalysatoren) sich widersprechen und kein stimmiges Setup vorliegt, bleibt das Urteil FLAT. Ein bestätigter Bruch über 38,25 oder unter 33,60 wäre nötig für eine gerichtete Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

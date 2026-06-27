@@ -1,0 +1,82 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1220.4,
+    "change_pct": 3.4062,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1209.0,
+    "change_pct": 2.440268600208643,
+    "sma20": 1274.915,
+    "sma50": 1394.806,
+    "sma200": 1516.7015,
+    "rsi14": 45.7,
+    "macd": {
+      "macd": -51.5283,
+      "signal": -47.638,
+      "hist": -3.8902
+    },
+    "atr14": 32.6643,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -44.28,
+    "pct_from_low": 11.74,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1373.1
+      },
+      {
+        "type": "support",
+        "price": 1161.3
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Palladium (XPD/USD) bei 1.216 USD trotz Tagesgewinn von +3,03% klar im Abwaertstrend: Kurs notiert unter allen Gleitenden Durchschnitten und liegt 43,96% unter dem 52-Wochen-Hoch. Die Stabilisierung knapp ueber dem 52W-Tief (1.082) und der Support-Zone (1.161) deutet auf eine technische Erholung in einem strukturell schwachen Markt, der mittelfristig von langsamerer EV-Adoption und sich verengendem Angebotsdefizit gepraegt ist.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwaerts** und der Bias **bearish**: Der Kurs (1.216) liegt unter SMA20 (1.275), SMA50 (1.395) und deutlich unter SMA200 (1.517) - eine perfekte bearishe Stapelung. Der heutige Sprung von **+3,03%** ist eine Gegenbewegung, kein Trendwechsel. - **RSI14 bei 46,5** - neutral, ohne ueberverkaufte Spannung, also Raum nach beiden Seiten. - **MACD** weiter negativ (-50,97) und unter Signal (-47,53), Histogramm leicht negativ (-3,44): Momentum bleibt schwach, aber die Talsohle flacht ab. - **Schluessel-Level:** Support 1.161 (knapp ueber 52W-Tief 1.082), Resistance 1.373. Ein Bruch unter 1.161 oeffnet das Tief. - **ATR14 ~34,9** (~2,9% des Kurses) signalisiert erhoehte Volatilitaet. Abstand zum 52W-Hoch: **-43,96%**, zum Tief nur **+12,38%**."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Palladium bezieht ueber **80% der Nachfrage** aus Autokatalysatoren. Die **Verlangsamung der EV-Adoption** verlaengert den Lebenszyklus von Verbrennern und Hybriden (die hoehere Palladium-Beladung tragen) und stuetzt die Nachfrage. - **Angebot:** Russland (~40%, Nornickel/Norilsk) und Suedafrika dominieren; Sanktionen lenken Metall ueber Armenien und Schweizer Zolllager um. - **Bilanz:** Nornickel projiziert fuer 2026 ein knappes Defizit (~100k Unzen); der WPIC sieht den Markt 2026 nahe Ausgleich/leichtem Ueberschuss. - **Treiber/Risiken:** moegliche US-Tarife auf russisches Palladium, Platin-Substitution (Platin im Defizit) und Fed-Zinspfad. Konsens-Prognosen 2026 streuen weit (~1.262-2.700 USD), Basis-Cases meist 1.300-1.600 USD."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Trend ist klar abwaerts (Kurs unter SMA20/50/200, MACD negativ und unter Signal), doch der RSI ist mit 46,5 neutral und der Kurs stabilisiert sich direkt auf der Support-Zone 1.161 knapp ueber dem 52W-Tief (1.082) - der +3,03%-Tag ist eine Gegenbewegung ohne Trendwechsel. Bearisher Trend und neutrales Momentum an wichtiger Unterstuetzung widersprechen sich, ein sauberes Setup fehlt. Erst ein Bruch unter 1.161 (Short) oder eine bestaetigte Erholung ueber den Abwaertsdruck wuerde ein Urteil rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92225,
+    "change_pct": 0.0,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92225,
+    "change_pct": 0.0,
+    "sma20": 0.9223,
+    "sma50": 0.9177,
+    "sma200": 0.9195,
+    "rsi14": 49.91,
+    "macd": {
+      "macd": 0.0014,
+      "signal": 0.0018,
+      "hist": -0.0003
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -1.78,
+    "pct_from_low": 2.3,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9262
+      },
+      {
+        "type": "support",
+        "price": 0.9199
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/CHF notiert bei 0,92194 in einer engen Seitwärtsspanne, eingeklemmt zwischen den nahezu deckungsgleichen SMA20 (0,9221) und SMA200 (0,9196). RSI um 50 und ein leicht negativer MACD-Histogramm signalisieren ein neutrales Gleichgewicht ohne klaren Impuls. Die Lage bleibt von der SNB-Nullzinspolitik und latentem Aufwertungsdruck auf den Franken geprägt.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (**0,92194**) liegt praktisch auf SMA20 (0,9221) und SMA200 (0,9196), während der SMA50 (0,9175) leicht darunter verläuft - ein klassisches Seitwärtsbild (`trend: side`). - **RSI14 bei 49,65** bestätigt das neutrale Momentum, weder überkauft noch überverkauft. - **MACD** leicht negativ (Hist -0,0003, MACD 0,0015 unter Signal 0,0018) - kein tragfähiger Trendimpuls. - **Schlüssel-Level:** Widerstand 0,9262, Unterstützung 0,9174 (nahe SMA50). Die **ATR14 von 0,0033** zeigt geringe Volatilität; die Spanne ist eng. Zum 52W-Hoch (0,93897) fehlen -1,81 %, zum Tief (0,90152) liegen +2,27 %. Ein Ausbruch über 0,9262 oder unter 0,9174 würde die Richtung vorgeben."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **SNB beließ am 18. Juni 2026 den Leitzins bei 0,00 %** bei nahezu null Inflation (rund 0,1-0,2 %, Jahresschnitt 2026 ~0,6 %) und signalisierte hohe Hürden für Negativzinsen, aber erhöhte Bereitschaft zu **Devisenmarkt-Interventionen** gegen eine zu rasche Franken-Aufwertung. - **EZB** agiert vorsichtig zwischen schwacher Eurozonen-Konjunktur (deutsche Industrieschwäche) und zäher Kerninflation. - Bankenkonsens (UBS, Citi, BofA, SEB) sieht EUR/CHF auf 12-24 Monate im Bereich **0,93-0,95**. - **Risiken:** geopolitische Spannungen (Nahost) als Safe-Haven-Treiber für den Franken; SNB-Interventionen als Boden."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0,92194) klemmt zwischen nahezu deckungsgleichen SMA20 (0,9221) und SMA200 (0,9196), RSI14 bei 49,65 und ein leicht negatives MACD-Histogramm signalisieren ein neutrales Momentum ohne Trendimpuls. Die ATR14 von 0,0033 belegt eine enge, impulslose Spanne; erst ein Ausbruch über Widerstand 0,9262 oder unter Unterstützung 0,9174 gäbe die Richtung vor. Bis dahin überwiegt mit SNB-Nullzins und Interventionsbereitschaft als Boden ein abwartendes Bild.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

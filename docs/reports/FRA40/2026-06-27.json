@@ -1,0 +1,82 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8384.87,
+    "change_pct": -0.0074,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8431.6103515625,
+    "change_pct": 0.5499990566852946,
+    "sma20": 8298.865,
+    "sma50": 8201.0918,
+    "sma200": 8126.9233,
+    "rsi14": 67.15,
+    "macd": {
+      "macd": 72.3519,
+      "signal": 66.3363,
+      "hist": 6.0156
+    },
+    "atr14": 101.1758,
+    "high_52w": 8620.9296875,
+    "low_52w": 7546.16015625,
+    "pct_from_high": -2.2,
+    "pct_from_low": 11.73,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8467.9805
+      },
+      {
+        "type": "support",
+        "price": 8146.5898
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 67",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der CAC 40 schloss am 26.06. bei 8.384,87 (-0,55%) im intakten Aufwärtstrend, nur 2,7% unter dem 52W-Hoch. Treiber bleibt ein globaler Tech-Sell-off (ArcelorMittal, STMicro, Safran schwach), während ECB-Zinsanhebung und nachlassende Nahost-Spannungen den Rahmen setzen. Solange 8.146 hält, bleibt die Struktur konstruktiv mit Widerstand bei 8.468.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Index steht klar im **Aufwärtstrend**: Kurs 8.384,87 notiert über SMA20 (8.309), SMA50 (8.204) und SMA200 (8.130) - eine sauber gestaffelte bullische Anordnung. **RSI14 bei 64,3** signalisiert Momentum ohne überkauft zu sein, der **MACD** liegt mit positivem Histogramm (+1,89) knapp über der Signallinie. Entscheidende Level: **Widerstand 8.468** (nahe 52W-Hoch 8.621, nur -2,74% entfernt) und **Support 8.147** (deckungsgleich mit dem SMA200-Bereich). Die **ATR14 von 99,7** Punkten (~1,2%) zeigt moderate Volatilität; der jüngste -0,55%-Tag liegt innerhalb der normalen Tagesspanne. Abstand zum 52W-Tief: +11,1%. Ein Bruch über 8.468 öffnet den Weg zum Hoch, unter 8.147 droht ein Trendtest."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Der Rücksetzer wurde von einem **globalen Tech-Sell-off** getrieben (aus Asien, Zweifel an KI-Investitionen); Schwergewichte wie **STMicroelectronics (-3,2%), ArcelorMittal (-3,2%) und Safran (-2,9%)** belasteten, Danone und Dassault Systemes stützten gegen. Makroseitig hob die **EZB die Leitzinsen am 17.06. um 25 Bp** an (Einlagensatz 2,25%) bei datenabhängiger Haltung - ein Gegenwind für Bewertungen. Stützend: Frankreichs **Konsumklima stieg im Juni auf 84** (von 82), und die **US-Iran-Waffenruhe** entspannt die Energiepreise (Hormus-Tankerverkehr). Risiken: erneute Tech-Schwäche, hawkische EZB-Signale, geopolitische Rückschläge."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 4,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der CAC 40 steht in einem sauber gestaffelten Aufwaertstrend (Kurs ueber SMA20/50/200), RSI 64,3 zeigt Momentum ohne Ueberkauftheit und der MACD liegt mit positivem Histogramm ueber der Signallinie - ein stimmiges bullisches Bild. Der -0,55%-Tag war ein normaler tech-getriebener Ruecksetzer; solange 8.147 haelt, bleibt die Struktur konstruktiv. Da der Kurs nur 2,7% unter dem 52W-Hoch direkt am Widerstand 8.468 notiert und die EZB hawkisch agiert, ist ein Einstieg auf Pullback dem Nachlaufen vorzuziehen.",
+    "entry": 8146.5898,
+    "stop_loss": 7967.0549,
+    "take_profit": 8505.6596,
+    "take_profit_2": 8467.9805,
+    "rr": 2.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "NEO/USD",
+  "display": "NEO/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.909,
+    "change_pct": -1.29266,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.909,
+    "change_pct": -1.2926577042399128,
+    "sma20": 2.1422,
+    "sma50": 2.5309,
+    "sma200": 2.9646,
+    "rsi14": 20.78,
+    "macd": {
+      "macd": -0.148,
+      "signal": -0.1376,
+      "hist": -0.0104
+    },
+    "atr14": 0.1044,
+    "high_52w": 5.763,
+    "low_52w": 1.909,
+    "pct_from_high": -66.87,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.291
+      },
+      {
+        "type": "support",
+        "price": 1.909
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 21",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "NEO notiert bei 1,939 USD und liegt mit -66 % deutlich unter dem 52W-Hoch von 5,76 USD, nur 1 % ueber dem 52W-Tief (1,919 USD). Der Trend ist klar abwaerts (Preis unter SMA20/50/200), doch RSI 28 signalisiert ueberverkaufte Bedingungen direkt an der Support-Zone. Das Setup ist von extremer Risk-off-Stimmung im gesamten Krypto-Markt gepraegt.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **klar bearish**: Der Kurs (1,939) liegt unter SMA20 (2,156), SMA50 (2,555) und SMA200 (2,977) - eine vollstaendig negative gestaffelte Reihenfolge ohne jegliche Trendwende-Bestaetigung. - **RSI14 bei 27,95** liegt im ueberverkauften Bereich und deutet auf kurzfristiges Erschoepfungspotenzial hin. - **MACD** bleibt negativ (-0,143) unter der Signallinie, das Histogramm (-0,008) zeigt nur schwach nachlassende Abwaertsdynamik. - **Schluessel-Level**: Support 1,919 (= 52W-Tief, hauchduenn unter dem Kurs), Widerstand 2,291. - **ATR14 0,105** entspricht ~5,4 % Tagesschwankung - hohe Volatilitaet. Mit **-66,35 % zum 52W-Hoch** und nur **+1,04 % zum 52W-Tief** steht NEO an einer entscheidenden Bruchstelle: Haelt 1,919 nicht, droht Preisfindung im Neuland."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Umfeld ist **stark risk-off**: Bitcoin fiel am 25.06.2026 unter 59.000 USD (Fast-2-Jahres-Tief), der Fear-&-Greed-Index steht bei 12 (\"extreme Angst\"), Spot-BTC-ETFs verzeichneten seit Mitte Mai >8,7 Mrd. USD Abfluesse. - **Makro-Bremse**: Fed hielt am 17.06. bei 3,50-3,75 % (vierter Hold, erste Sitzung unter Warsh) mit hawkishem Ton; Mai-CPI bei 4,2 % verzoegert Zinssenkungen. - **NEO-spezifisch**: Da Hongfeis Vorschlag zum Umbau der ~461 Mio. USD schweren Neo Foundation (Post-Founder-Governance) und Chainlink-CCIP-Integration auf Neo X sind potenzielle Eigenkatalysatoren gegen den Makro-Gegenwind."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar bearish (Kurs unter SMA20/50/200, MACD negativ), doch RSI 27,95 signalisiert ueberverkaufte Bedingungen exakt an der Support-Zone 1,919, die zugleich das 52W-Tief ist - ein widerspruechliches Bild ohne Trendwende-Bestaetigung. Das stark risk-off gepraegte Krypto-Umfeld (BTC nahe 2-Jahres-Tief, Fear-&-Greed 12) erhoeht das Risiko eines Bruchs ins Neuland, sodass weder ein sauberes Long noch ein Short mit Ueberzeugung tragbar ist. Bis 1,919 haelt und sich eine Bodenbildung bestaetigt, bleibt FLAT die disziplinierte Antwort.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

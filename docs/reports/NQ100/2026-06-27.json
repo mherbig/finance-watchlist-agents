@@ -1,0 +1,82 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29118.238,
+    "change_pct": -0.3485,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29440.3203125,
+    "change_pct": 0.7537964039179793,
+    "sma20": 29835.0509,
+    "sma50": 28822.7233,
+    "sma200": 25951.3196,
+    "rsi14": 43.85,
+    "macd": {
+      "macd": 212.1752,
+      "signal": 350.5927,
+      "hist": -138.4175
+    },
+    "atr14": 858.9004,
+    "high_52w": 30660.599609375,
+    "low_52w": 22478.130859375,
+    "pct_from_high": -3.98,
+    "pct_from_low": 30.97,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30660.5996
+      },
+      {
+        "type": "support",
+        "price": 28508.0293
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der Nasdaq-100 konsolidiert bei 29.118 Punkten (-1,1 %) nach dem Sprung über 30.000 Anfang Juni und liegt rund 5 % unter dem 52W-Hoch von 30.661. Der Trend ist seitwärts: Der Kurs steht über der SMA50/200, aber unter der SMA20, während RSI (51) und ein negatives MACD-Histogramm nachlassendes Momentum signalisieren. Treiber bleibt die Spannung zwischen dem ungebremsten KI-Capex-Zyklus und einer plötzlich hawkishen Fed unter Kevin Warsh.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend seitwärts.** Der Schlusskurs (29.118) liegt klar über der SMA200 (25.978, +12 %) und der SMA50 (28.881), aber **unter der SMA20 (29.780)** — die kurzfristige Dynamik hat gedreht. Der **RSI14 von 51** ist exakt neutral, das **MACD-Histogramm ist negativ** (-159; MACD 152 unter Signal 311), was den jüngsten Schwung nach unten bestätigt. - **Resistance:** 30.661 (52W-Hoch / Allzeithoch-Zone), zugleich Trigger für das Bull-Szenario\n- **Support:** 28.508; darunter rückt die SMA50 (28.881) als erste Auffanglinie in den Fokus\n\nDie **ATR14 von 793** (~2,7 % des Kurses) zeigt erhöhte Volatilität. Mit nur **-5 % zum 52W-Hoch** und **+29,5 % zum Tief** notiert der Index im oberen Bereich seiner Jahresspanne — eine Konsolidierung knapp unter dem Rekord."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Hawkishe Fed-Wende.** Am 17.06.2026 hielt die Fed unter dem neuen Vorsitzenden **Kevin Warsh** die Zinsen bei 3,50–3,75 %, signalisierte im Dot-Plot aber eine mögliche **Anhebung 2026** (9 von 18 Mitgliedern) — eine Kehrtwende gegenüber der zuvor erwarteten Senkung. Das belastet Tech-Bewertungen. Gegengewicht ist der **KI-Capex-Supercycle**: Nvidia meldete die Vollproduktion der nächsten Chip-Generation **Vera Rubin**; im Juni-Rebalancing kamen CoreWeave, Nebius, Astera Labs, Rocket Lab und Teradyne neu in den Index. **Risiken:** Sommer-Inflationsdaten als nächster Trigger, nachlassendes Mag-7-Gewinnwachstum (~18 %, schwächstes seit 2022) und Antitrust-Druck in USA/EU."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Index konsolidiert seitwärts knapp unter dem Allzeithoch: Kurs über SMA50/200, aber unter der SMA20, RSI exakt neutral (51) und negatives MACD-Histogramm signalisieren nachlassendes Momentum ohne klare Richtung. Die hawkishe Fed-Wende unter Warsh (mögliche Anhebung 2026) steht gegen den KI-Capex-Supercycle, was das Bild widersprüchlich macht. Erst ein Bruch über 30.661 (Long) bzw. unter 28.508 (Short) liefert ein stimmiges Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57038,
+    "change_pct": -0.040307741,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57038,
+    "change_pct": -0.04030774083874318,
+    "sma20": 0.57,
+    "sma50": 0.5697,
+    "sma200": 0.5719,
+    "rsi14": 52.71,
+    "macd": {
+      "macd": 0.0002,
+      "signal": 0.0,
+      "hist": 0.0002
+    },
+    "atr14": 0.0022,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -2.07,
+    "pct_from_low": 1.49,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5738
+      },
+      {
+        "type": "support",
+        "price": 0.5668
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 53",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "CAD/CHF notiert bei 0,57064 und handelt im oberen Drittel der 52-Wochen-Spanne (0,56198-0,58246), aber unter der SMA200 (0,572) - der mittelfristige Abwaertstrend ist noch nicht gebrochen. Kurzfristig ist das Bild leicht konstruktiv: Kurs ueber SMA20/50, RSI neutral-positiv bei 54 und MACD knapp im Plus. Treiber bleibt das Zinsdifferenzial (BoC 2,25% vs. SNB 0%) gegen die strukturelle CHF-Staerke und den schwachen kanadischen Konjunkturhintergrund.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (0,57064) liegt knapp ueber **SMA20 (0,5701)** und **SMA50 (0,5697)**, jedoch klar unter der **SMA200 (0,572)** - kurzfristig aufwaerts, mittelfristig noch nicht gedreht. **RSI14 bei 54** ist neutral-konstruktiv ohne Ueberhitzung; **MACD** liegt mit Histogramm +0,0002 minimal ueber der Signallinie - schwaches Momentum-Plus. Entscheidende Marken: **Widerstand 0,5738** (deckt sich faktisch mit der SMA200-Zone, der erste echte Test), darunter **Support 0,5668**. Mit **ATR14 von 0,0022** (~0,4%) ist die Volatilitaet gering; eine Tagesrange erreicht selten bis zu den Leveln. Abstand zum **52W-Hoch -2,03%**, zum **52W-Tief +1,54%** - der Kurs sitzt in der oberen Spannenhaelfte, der Ausbruch ueber 0,5738/SMA200 ist die Schluesselbedingung fuer eine echte Trendwende."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Paar wird vom **Zinsdifferenzial** dominiert: Die **BoC** hielt am 10.06.2026 zum fuenften Mal in Folge bei **2,25%**, die **SNB** beliess am 18.06.2026 ihren Satz bei **0,0%**. Der Carry spricht fuer CAD, doch die SNB signalisierte erneute **Interventionsbereitschaft gegen eine zu rasche CHF-Aufwertung** - ein Deckel fuer CHF-Staerke. Belastend fuer CAD: schwache kanadische Konjunktur, US-Handelsunsicherheit und Inflation nahe 3% durch erhoehte Oelpreise (Nahost-Konflikt, ~10 USD/bbl ueber BoC-April-Annahme). Hoehere Oelpreise stuetzen den Loonie tendenziell. Risiken: SNB-FX-Interventionen, BoC-Kommunikation/Daten, Oelpreis-Schocks und globale Risk-off-Phasen, die den CHF als sicheren Hafen begünstigen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist gemischt: Kurs ueber SMA20/50 mit RSI 54 und leicht positivem MACD, aber klar unter der SMA200 (0,572) - der mittelfristige Abwaertstrend ist nicht gebrochen. Erst ein Ausbruch ueber 0,5738/SMA200 wuerde eine echte Trendwende bestaetigen; bis dahin stehen positiver CAD-Carry und Oelpreis-Stuetze gegen strukturelle CHF-Staerke und SNB-Interventionsbereitschaft. Bei sehr geringer Volatilitaet (ATR ~0,4%) und widerspruechlichem Setup ueberwiegt Abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

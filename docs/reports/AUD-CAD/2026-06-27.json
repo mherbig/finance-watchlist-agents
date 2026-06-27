@@ -1,0 +1,82 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.97865,
+    "change_pct": -0.0071521988,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.97865,
+    "change_pct": -0.007152198790258143,
+    "sma20": 0.9857,
+    "sma50": 0.9868,
+    "sma200": 0.9616,
+    "rsi14": 36.02,
+    "macd": {
+      "macd": -0.0012,
+      "signal": 0.0001,
+      "hist": -0.0013
+    },
+    "atr14": 0.0045,
+    "high_52w": 0.99488,
+    "low_52w": 0.90537,
+    "pct_from_high": -1.63,
+    "pct_from_low": 8.09,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9939
+      },
+      {
+        "type": "support",
+        "price": 0.9757
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 36",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "AUD/CAD notiert bei 0,9786 und damit im Abwärtstrend: Der Kurs liegt unter SMA20 (0,9857) und SMA50 (0,9871), während die SMA200 (0,9613) noch klar darunter verläuft. RSI 36 und negativer MACD (Hist -0,0011) bestätigen das bärische Momentum, ohne überverkauft zu sein. Treiber ist das Spannungsfeld aus hohem RBA-CAD-Zinsvorsprung einerseits und einem durch hohe Ölpreise gestützten CAD andererseits.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwärts gerichtet**: Der Kurs (0,9786) liegt unter SMA20 (0,9857) und SMA50 (0,9871), beide flach bis fallend; die SMA200 (0,9613) wirkt als entfernter Boden. **RSI 36** signalisiert schwaches Momentum, aber noch keinen überverkauften Extremwert. Der **MACD ist negativ** (MACD -0,0007 unter Signal +0,0004, Hist -0,0011) und stützt die bärische Lesart. Entscheidende Marken: **Support 0,9757** (knapp unter Spot) und **Widerstand 0,9939** nahe dem 52W-Hoch (0,99488). Ein Bruch unter 0,9757 öffnet Richtung SMA200/0,9613. Die **ATR14 von 0,0045** (~46 Pips) deutet auf moderate Volatilität. Abstand zum 52W-Hoch -1,64 %, zum 52W-Tief (0,90537) +8,09 % - das Paar handelt im oberen Drittel seiner Jahresspanne."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Zentraler Treiber ist die **Zinsdifferenz**: Die RBA hielt im Juni bei **4,35 %** (mit hawkishem Restrisiko - Westpac sieht mögliche Anhebungen), die BoC verharrt zum fünften Mal bei **2,25 %**. Der nominale Carry begünstigt den AUD, doch der **CAD wird durch hohe Ölpreise gestützt**: Brent um ~90 USD wegen des Nahost-Konflikts, rund 10 USD über den BoC-April-Annahmen, was die kanadische Inflation nahe 3 % hält. Dieser Ölrückenwind für den Rohstoff-CAD erklärt den Abwärtsdruck im Paar. **Katalysatoren**: nächste RBA-/BoC-Sitzungen, australische CPI-/Arbeitsmarktdaten, Ölpreisentwicklung und China-/Risiko-Stimmung als AUD-Faktor."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmiges baerisches Bild: Kurs (0,9786) unter SMA20 und SMA50, RSI 36 und negativer MACD (Hist -0,0011) bestaetigen das schwache Momentum, ohne ueberverkauft zu sein. Makro stuetzt die Short-These, da der oelgestuetzte CAD trotz RBA-Zinsvorsprung Abwaertsdruck erzeugt. Ein Bruch unter Support 0,9757 oeffnet Richtung SMA200/0,9613; Vorbehalt bleibt der hawkishe RBA-Carry, daher Conviction 3.",
+    "entry": 0.9786,
+    "stop_loss": 0.9867,
+    "take_profit": 0.9665,
+    "take_profit_2": 0.9757,
+    "rr": 1.5
+  }
+}

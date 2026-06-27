@@ -157,11 +157,12 @@ def test_resolve_missing_sl_is_none():
 # resolve_symbol_trades — bias-flip exit
 # --------------------------------------------------------------------------
 def _sig(date, direction, entry=None, sl=None, tp=None, *, conviction=3,
-         horizon_days=5, display="AAA", symbol="AAA", tp2=None, rr=2.0):
+         horizon_days=5, display="AAA", symbol="AAA", tp2=None, rr=2.0,
+         entry_type="market"):
     s = {"date": date, "symbol": symbol, "display": display,
          "direction": direction, "conviction": conviction, "entry": entry,
          "stop_loss": sl, "take_profit": tp, "horizon_days": horizon_days,
-         "rr": rr}
+         "rr": rr, "entry_type": entry_type}
     if tp2 is not None:
         s["take_profit_2"] = tp2
     return s
@@ -367,6 +368,134 @@ def test_actionable_after_non_actionable_first_signal():
 
 
 # --------------------------------------------------------------------------
+# resolve_symbol_trades — entry-fill modeling (phantom-win regression)
+# --------------------------------------------------------------------------
+def test_pullback_short_entry_above_price_never_filled_is_no_fill():
+    # THE phantom-win bug: SHORT pullback, entry above price, TP basically at
+    # the current price. Future bars never trade UP to the entry, so the
+    # position is never filled -> "no_fill", no P&L.
+    signals = [
+        _sig("2026-01-01", "SHORT", entry=66276.0, sl=70281.0, tp=60269.0,
+             horizon_days=3, entry_type="pullback"),
+    ]
+    # Enough bars to exhaust the horizon; high never reaches the entry (66276),
+    # so the SHORT is never filled even though TP sits at the current price.
+    ts = _ts(
+        _bar("2026-01-02", 60200, 60500, 59900, 60100),  # high never >= 66276
+        _bar("2026-01-03", 60100, 60400, 59800, 60000),
+        _bar("2026-01-04", 60000, 60300, 59700, 59950),
+        _bar("2026-01-05", 59950, 60200, 59600, 59800),  # past horizon
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "no_fill"
+    assert trades[0]["realized_R"] is None
+    assert trades[0]["exit_price"] is None
+
+
+def test_pullback_long_fills_then_hits_tp():
+    # LONG pullback, entry below price. A later bar dips to entry (fill), then a
+    # subsequent bar hits TP -> "tp", realized_R = +R.
+    signals = [
+        _sig("2026-01-01", "LONG", entry=98.0, sl=94.0, tp=104.0,
+             horizon_days=20, entry_type="pullback"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 101, 99, 100),     # no fill (low 99 > 98)
+        _bar("2026-01-03", 100, 100, 97, 99),      # low 97 <= 98 -> FILL here
+        _bar("2026-01-04", 99, 105, 98, 104),      # high 105 >= TP 104 -> tp
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "tp"
+    assert trades[0]["exit_price"] == 104.0
+    assert trades[0]["exit_date"] == "2026-01-04"
+    # realized_R = (104-98)/|98-94| = 6/4 = 1.5
+    assert trades[0]["realized_R"] == 1.5
+
+
+def test_pullback_no_same_bar_sl_tp_as_fill():
+    # The fill bar itself must NOT be checked for SL/TP (no same-bar look-ahead).
+    # Bar 01-03 fills (low<=entry) AND its high >= TP, but TP must only count on
+    # a STRICTLY later bar.
+    signals = [
+        _sig("2026-01-01", "LONG", entry=98.0, sl=94.0, tp=104.0,
+             horizon_days=20, entry_type="pullback"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 101, 99, 100),
+        _bar("2026-01-03", 99, 105, 97, 100),   # fills (97<=98) AND high 105>=104
+        _bar("2026-01-04", 100, 101, 99, 100),  # nothing -> still open after fill
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    # TP on the fill bar is ignored; later bars don't hit TP/SL -> open.
+    assert trades[0]["status"] == "open"
+    assert trades[0]["realized_R"] is None
+
+
+def test_pullback_not_reached_within_horizon_is_no_fill():
+    signals = [
+        _sig("2026-01-01", "LONG", entry=90.0, sl=86.0, tp=100.0,
+             horizon_days=2, entry_type="pullback"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 101, 95, 99),   # low 95 > entry 90 -> no fill
+        _bar("2026-01-03", 99, 100, 94, 98),    # low 94 > 90 -> no fill
+        _bar("2026-01-04", 98, 99, 89, 90),     # dips to 89 but past horizon
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "no_fill"
+    assert trades[0]["realized_R"] is None
+
+
+def test_market_entry_hits_tp_unchanged():
+    # market entry fills immediately at the signal date; SL/TP on later bars.
+    signals = [
+        _sig("2026-01-01", "LONG", entry=100.0, sl=95.0, tp=110.0,
+             horizon_days=5, entry_type="market"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 102, 99, 101),
+        _bar("2026-01-03", 101, 111, 100, 110),  # high 111 >= TP 110 -> tp
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "tp"
+    assert trades[0]["exit_price"] == 110.0
+    assert trades[0]["realized_R"] == 2.0
+
+
+def test_pending_pullback_flip_before_fill_is_no_fill():
+    # A flip signal arrives while the pullback is still PENDING (unfilled).
+    # The trade was never real -> cancelled as "no_fill".
+    signals = [
+        _sig("2026-01-01", "LONG", entry=90.0, sl=86.0, tp=100.0,
+             horizon_days=20, entry_type="pullback"),
+        _sig("2026-01-03", "SHORT", entry=100.0, sl=105.0, tp=90.0,
+             horizon_days=20, entry_type="market"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 101, 95, 99),   # never dips to 90
+        _bar("2026-01-03", 99, 102, 96, 100),   # flip day; entry never reached
+        _bar("2026-01-04", 100, 103, 99, 102),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "no_fill"
+    assert trades[0]["realized_R"] is None
+    # the SHORT (market) opens after the cancel
+    assert any(t["direction"] == "SHORT" for t in trades)
+
+
+def test_default_entry_type_market_backward_compat():
+    # Log entries without entry_type default to "market" (immediate fill).
+    sig = {"date": "2026-01-01", "symbol": "AAA", "display": "AAA",
+           "direction": "LONG", "conviction": 3, "entry": 100.0,
+           "stop_loss": 95.0, "take_profit": 110.0, "horizon_days": 5}
+    ts = _ts(
+        _bar("2026-01-02", 100, 111, 99, 110),  # high 111 >= TP -> tp
+    )
+    trades = portfolio.resolve_symbol_trades([sig], ts)
+    assert trades[0]["status"] == "tp"
+
+
+# --------------------------------------------------------------------------
 # simulate
 # --------------------------------------------------------------------------
 def _trade(symbol, direction, entry, sl, tp, status, exit_date, exit_price,
@@ -462,6 +591,29 @@ def test_simulate_empty():
     assert s["current_equity"] == 100_000.0
     assert s["max_drawdown"] <= 0
     assert len(res["equity_curve"]) == 1  # just the start point
+
+
+def test_simulate_excludes_no_fill_from_stats():
+    # no_fill trades are NOT trades: excluded from wins/closed_count/win_rate
+    # and the equity curve. One real TP win + one no_fill.
+    trades = [
+        _trade("AAA", "LONG", 100.0, 95.0, 110.0, "tp",
+               "2026-01-05", 110.0, 2.0, date="2026-01-01"),
+        _trade("NOF", "SHORT", 66276.0, 70281.0, 60269.0, "no_fill",
+               None, None, None, date="2026-01-02"),
+    ]
+    res = portfolio.simulate(trades)
+    s = res["summary"]
+    assert s["closed_count"] == 1   # only the real TP
+    assert s["wins"] == 1
+    assert s["win_rate"] == 1.0
+    assert s["open_count"] == 0     # no_fill is NOT open either
+    assert s.get("no_fill_count") == 1
+    # equity curve: start + one close = 2 points (no_fill contributes nothing)
+    assert len(res["equity_curve"]) == 2
+    # no_fill must not appear in closed or open lists
+    assert all(c["symbol"] != "NOF" for c in res["closed"])
+    assert all(o["symbol"] != "NOF" for o in res["open"])
 
 
 def test_simulate_ignores_flat_and_missing_sl():

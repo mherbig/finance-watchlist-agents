@@ -245,6 +245,9 @@ def resolve_symbol_trades(signals: list, time_series: list,
         take_profit = float(take_profit) if take_profit is not None else None
         horizon = sig.get("horizon_days") or 0
         entry_date = str(sig.get("date"))
+        # Entry-Typ entscheidet ueber das Fill-Modell. Fehlt das Feld (Alt-Logs)
+        # -> "market" (sofortiger Fill am Signal-Datum), rueckwaertskompatibel.
+        entry_type = sig.get("entry_type") or "market"
 
         # Frueheste spaetere Gegen-Signal-Position bestimmen.
         flip_date = None
@@ -288,13 +291,19 @@ def resolve_symbol_trades(signals: list, time_series: list,
         last_in_horizon_date = None
         bars_scanned = 0
         horizon_stopped = False
+        # Fill-Modell: market ist sofort gefuellt (Fill am Signal-Datum); ein
+        # Pullback bleibt PENDING, bis ein Bar STRIKT NACH dem Signal-Datum
+        # durch den Entry handelt. SL/TP gelten erst auf Bars STRIKT NACH dem
+        # Fill-Bar (kein Same-Bar-Look-ahead).
+        filled = entry_type != "pullback"
 
         for bar in future:
             # Bars NACH dem Flip-Datum sind irrelevant: bis dahin haette ein
             # Flip laengst geschlossen.
             if flip_date is not None and bar["date"] > flip_date:
                 break
-            # Horizont vor dem Flip ausgeschoepft -> Time-Stop hat Vorrang.
+            # Horizont (ab Signal-Datum, fuer die gesamte Trade-Lebenszeit aus
+            # Pending + Open) ausgeschoepft -> Time-Stop hat Vorrang.
             if horizon and bars_scanned >= horizon:
                 horizon_stopped = True
                 break
@@ -302,8 +311,24 @@ def resolve_symbol_trades(signals: list, time_series: list,
             last_in_horizon_close = bar["close"]
             last_in_horizon_date = bar["date"]
 
-            # SL/TP wird INTRABAR geprueft — auch AM Flip-Datum. Das taegliche
-            # Signal entsteht erst nach dem Close, der intraday-Stop also davor.
+            if not filled:
+                # Position noch PENDING: prueft NUR, ob dieser Bar den Entry
+                # erreicht. SL/TP erst ab dem naechsten Bar.
+                if direction == "LONG":
+                    if bar["low"] <= entry:
+                        filled = True
+                else:  # SHORT
+                    if bar["high"] >= entry:
+                        filled = True
+                # Auch am Flip-Datum: wird der Pullback hier nicht gefuellt und
+                # ist es das Flip-Datum, war es nie ein echter Trade -> no_fill.
+                if not filled and flip_date is not None and bar["date"] == flip_date:
+                    resolved_status = "no_fill"
+                    break
+                # Fill-Bar selbst NICHT auf SL/TP pruefen -> naechster Bar.
+                continue
+
+            # --- gefuellt: SL/TP INTRABAR pruefen, auch am Flip-Datum ---
             if direction == "LONG":
                 if bar["low"] <= stop_loss:
                     resolved_status = "sl"
@@ -334,7 +359,14 @@ def resolve_symbol_trades(signals: list, time_series: list,
                 exit_price = bar["close"]
                 break
 
-        if resolved_status is None and flip_date is not None and not horizon_stopped:
+        # Flip waehrend noch PENDING (Flip-Datum hatte keinen Bar, oder Schleife
+        # endete vor dem Flip) -> der Trade war nie real -> no_fill.
+        if resolved_status is None and not filled and flip_date is not None \
+                and not horizon_stopped:
+            resolved_status = "no_fill"
+
+        if resolved_status is None and filled and flip_date is not None \
+                and not horizon_stopped:
             # Flip-Datum hat keinen Bar (Wochenende/Luecke) und der Horizont kam
             # nicht zuvor: am letzten Bar-Close davor schliessen.
             on_or_before = [b for b in bars if b["date"] <= flip_date]
@@ -344,8 +376,15 @@ def resolve_symbol_trades(signals: list, time_series: list,
                 exit_price = on_or_before[-1]["close"]
 
         if resolved_status is None:
-            # Kein SL/TP, kein Flip-Close. Horizont ausgeschoepft -> expired.
-            if horizon and len(future) >= horizon and last_in_horizon_close is not None:
+            if not filled:
+                # Pullback nie erreicht. Reicht das Fenster ueber den Horizont
+                # (genug Bars vorhanden) -> nie gehandelt -> "no_fill". Sonst zu
+                # wenige Bars -> noch "open" (koennte spaeter fuellen).
+                if horizon and len(future) >= horizon:
+                    resolved_status = "no_fill"
+            elif horizon and len(future) >= horizon \
+                    and last_in_horizon_close is not None:
+                # Kein SL/TP, kein Flip-Close. Horizont ausgeschoepft -> expired.
                 resolved_status = "expired"
                 exit_price = last_in_horizon_close
                 exit_date = last_in_horizon_date
@@ -377,7 +416,11 @@ def resolve_symbol_trades(signals: list, time_series: list,
 
 
 def _is_tradeable(t: dict) -> bool:
-    return t.get("direction") in ("LONG", "SHORT") and t.get("stop_loss") is not None
+    # "no_fill"/"none" sind KEINE Trades (nie gefuellt) -> aus der Simulation
+    # ausgeschlossen (Wins/Losses/Win-Rate/closed_count/Equity-Kurve).
+    return (t.get("direction") in ("LONG", "SHORT")
+            and t.get("stop_loss") is not None
+            and t.get("status") not in ("no_fill", "none"))
 
 
 def simulate(trades: list, start_equity: float = 100_000.0,
@@ -391,6 +434,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     pnl = risk_amount * realized_R verbucht.
     """
     tradeable = [t for t in trades if _is_tradeable(t)]
+    no_fill_count = sum(1 for t in trades if t.get("status") == "no_fill")
 
     # Events bauen: (date, order, kind, trade). order haelt stabile
     # Sortierung bei gleichem Datum.
@@ -488,6 +532,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         "current_equity": round(equity, 4),
         "return_pct": return_pct,
         "open_count": len(open_list),
+        "no_fill_count": no_fill_count,
         "closed_count": closed_count,
         "wins": wins,
         "losses": losses,

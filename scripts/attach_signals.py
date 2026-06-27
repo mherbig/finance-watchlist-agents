@@ -116,6 +116,7 @@ def main() -> None:
             "display": decision.get("display") or report.get("display"),
             "direction": signal["direction"],
             "conviction": signal["conviction"],
+            "entry_type": signal["entry_type"],
             "entry": signal["entry"],
             "stop_loss": signal["stop_loss"],
             "take_profit": signal["take_profit"],

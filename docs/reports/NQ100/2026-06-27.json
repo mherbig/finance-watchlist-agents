@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 29118.238,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Index konsolidiert seitwärts knapp unter dem Allzeithoch: Kurs über SMA50/200, aber unter der SMA20, RSI exakt neutral (51) und negatives MACD-Histogramm signalisieren nachlassendes Momentum ohne klare Richtung. Die hawkishe Fed-Wende unter Warsh (mögliche Anhebung 2026) steht gegen den KI-Capex-Supercycle, was das Bild widersprüchlich macht. Erst ein Bruch über 30.661 (Long) bzw. unter 28.508 (Short) liefert ein stimmiges Setup.",
+    "rationale": "Der Index konsolidiert seitwärts knapp unter dem Allzeithoch: Kurs über SMA50/200, aber unter der SMA20, RSI bei 44 und negatives MACD-Histogramm (-138) signalisieren nachlassendes Momentum ohne klare Richtung. Die hawkishe Fed-Wende unter Warsh steht gegen den KI-Capex-Supercycle, was das Bild widerspruechlich macht. Erst ein Bruch ueber 30.661 (Long) bzw. unter 28.508 (Short) liefert ein stimmiges Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

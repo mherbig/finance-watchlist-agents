@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 21.69,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Die Fundamentalthese ist bullisch (Q1-Nettogewinn +11%, Prognose auf >8% angehoben, Netzgeschaeft +9% EBITDA) und der Trend liegt ueber allen SMAs, doch der Kurs steht exakt am 52W-Hoch/Resistance (21,69 EUR) bei einem extrem ueberhitzten RSI14 von 96,6. Bewertung (Forward-KGV ~21) und Kurs liegen bereits ueber dem Analystenkonsens-Ziel (~19,9 EUR, Hold), sodass das fundamentale Aufwaertspotenzial begrenzt und das Rueckschlagrisiko hoch ist. Stimmiges bullisches Setup und akutes Ueberkauft-Risiko widersprechen sich, daher FLAT und ein besserer Einstieg erst nach Pullback Richtung Support 19,37 EUR.",
+    "rationale": "Die Fundamentalthese ist stimmig bullisch (Q1-Nettogewinn +11%, Jahresprognose auf >8% angehoben, Netzgeschaeft +9% EBITDA) und der Trend liegt ueber allen SMAs. Doch der Kurs steht exakt am 52W-Hoch und an der Resistance (21,69 EUR) bei einem extrem ueberhitzten RSI14 von 96,6, und liegt bereits ueber dem Analystenkonsens-Ziel (~19,9 EUR, Hold). Stimmiges bullisches Bild und akutes Ueberkauft-/Rueckschlagrisiko widersprechen sich, daher FLAT mit besserem Einstieg erst nach Pullback Richtung Support 19,37 EUR.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

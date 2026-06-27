@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 329.049988,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 20,
-    "rationale": "Technik und Analyse sind stimmig bullisch: intakter Aufwaertstrend (Kurs ueber SMA20/50/200), MACD positiv, RSI 63 sowie ein starkes Q1 2026 (EPS 5,94 USD, +17% YoY), fuehrendes ROTCE, Festungsbilanz und aggressive Kapitalrueckgabe (50-Mrd.-Rueckkauf, Dividendenerhoehung). Da der Kurs nur ~2% unter dem 52W-Hoch (335,12) notiert und der Bewertungspuffer duenn ist, drueckt die gesenkte NII-Guidance die Ueberzeugung auf 3 und favorisiert einen Einstieg im Pullback statt sofort am Hoch.",
+    "rationale": "Technik und Analyse sind stimmig bullisch: intakter Aufwaertstrend (Kurs 329 USD ueber SMA20/50/200), MACD positiv, RSI 64, gestuetzt durch ein starkes Q1 2026 (EPS 5,94 USD, +17% YoY), fuehrendes ROTCE, Festungsbilanz (CET1 14,3%) und aggressive Kapitalrueckgabe (50-Mrd.-Rueckkauf, Dividendenerhoehung). Da der Kurs nur ~1,8% unter dem 52W-Hoch (335,12) notiert und der Bewertungspuffer duenn ist, druecken die gesenkte NII-Guidance (~103 Mrd.) und das hawkische Fed-Umfeld die Ueberzeugung auf 3 und favorisieren einen Einstieg im Pullback statt sofort am Hoch.",
     "entry": 329.05,
     "stop_loss": 314.6937,
     "take_profit": 350.5844,

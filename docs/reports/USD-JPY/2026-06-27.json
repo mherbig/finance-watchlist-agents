@@ -4,24 +4,24 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 161.75258,
-    "change_pct": -0.00084696541,
+    "price": 161.75359,
+    "change_pct": -0.00022256025,
     "currency": null
   },
   "technical": {
-    "last_close": 161.75258,
-    "change_pct": -0.0008469654064142057,
+    "last_close": 161.75359,
+    "change_pct": -0.0002225602527793492,
     "sma20": 160.9462,
     "sma50": 159.7662,
-    "sma200": 157.8897,
-    "rsi14": 88.47,
+    "sma200": 157.8898,
+    "rsi14": 88.51,
     "macd": {
-      "macd": 0.5766,
+      "macd": 0.5767,
       "signal": 0.5434,
-      "hist": 0.0332
+      "hist": 0.0333
     },
     "atr14": 0.5553,
     "high_52w": 161.81499,
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 88",
+  "headline": "Trend up, RSI 89",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Aufwaertstrend ist zwar intakt (Kurs ueber allen SMAs, MACD positiv), doch der RSI14 von 88,9 ist extrem ueberkauft und der Kurs klebt mit nur -0,03% Abstand direkt am 52-Wochen-Hoch (161,82). Unmittelbar darueber liegt mit der 162er-Marke die von ING markierte Interventionsschwelle, was das Aufwaertspotenzial kappt und das Abwaertsrisiko sprunghaft erhoeht. Bullisches Momentum und akutes Interventions-/Ueberdehnungsrisiko widersprechen sich - kein sauberes Setup, daher FLAT.",
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs ueber SMA20/50/200, MACD positiv), doch der RSI14 von 88,5 ist extrem ueberkauft und der Kurs klebt mit nur -0,04% Abstand direkt am 52-Wochen-Hoch (161,82). Unmittelbar darueber liegt mit der 162er-Marke die von ING markierte Interventionsschwelle, was das Aufwaertspotenzial kappt und das Abwaertsrisiko sprunghaft erhoeht. Bullisches Momentum und akutes Ueberdehnungs-/Interventionsrisiko widersprechen sich - kein sauberes Setup, daher FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

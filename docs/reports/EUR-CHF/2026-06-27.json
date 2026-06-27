@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 0.92225,
-    "change_pct": 0.0,
+    "price": 0.92185,
+    "change_pct": -0.043372188,
     "currency": null
   },
   "technical": {
-    "last_close": 0.92225,
-    "change_pct": 0.0,
+    "last_close": 0.92185,
+    "change_pct": -0.043372187584718565,
     "sma20": 0.9223,
-    "sma50": 0.9177,
+    "sma50": 0.9176,
     "sma200": 0.9195,
-    "rsi14": 49.91,
+    "rsi14": 48.77,
     "macd": {
       "macd": 0.0014,
-      "signal": 0.0018,
-      "hist": -0.0003
+      "signal": 0.0017,
+      "hist": -0.0004
     },
     "atr14": 0.0034,
     "high_52w": 0.93897,
     "low_52w": 0.90152,
-    "pct_from_high": -1.78,
-    "pct_from_low": 2.3,
+    "pct_from_high": -1.82,
+    "pct_from_low": 2.26,
     "trend": "side",
     "bias": "neutral",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 50",
+  "headline": "Trend side, RSI 49",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Kurs (0,92194) klemmt zwischen nahezu deckungsgleichen SMA20 (0,9221) und SMA200 (0,9196), RSI14 bei 49,65 und ein leicht negatives MACD-Histogramm signalisieren ein neutrales Momentum ohne Trendimpuls. Die ATR14 von 0,0033 belegt eine enge, impulslose Spanne; erst ein Ausbruch über Widerstand 0,9262 oder unter Unterstützung 0,9174 gäbe die Richtung vor. Bis dahin überwiegt mit SNB-Nullzins und Interventionsbereitschaft als Boden ein abwartendes Bild.",
+    "rationale": "Der Kurs (0,92185) klemmt zwischen den nahezu deckungsgleichen SMA20 (0,9223) und SMA200 (0,9195), RSI14 bei 48,77 und ein leicht negatives MACD-Histogramm (-0,0004) signalisieren neutrales Momentum ohne Trendimpuls. Die enge ATR14 (0,0034) und das Seitwärtsbild lassen keine stimmige Richtung zu; erst ein Ausbruch über Widerstand 0,9262 oder unter Unterstützung 0,9199 gäbe ein Signal. Bis dahin überwiegt mit SNB-Nullzins und Interventionsbereitschaft als Boden ein abwartendes Bild.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

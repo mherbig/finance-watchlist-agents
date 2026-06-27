@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 407.9,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Fundamental solide (Rekord-Q1, bestätigter 17,4-Mrd.-Ausblick, 4,2 % Dividende plus Buyback), doch der Kurs notiert mit 407,90 EUR exakt am 52-Wochen-Hoch und am Analysten-Konsens (~394-406 EUR) - kaum Bewertungsluft. Technisch extrem überdehnt (RSI 94) bei nur neutralem Bias, was ein Konsolidierungs-/Rücksetzerrisiko nahelegt. Stimmiges Long-Setup fehlt; erst nach Rücksetzer Richtung SMA20 (~389,7) wieder interessant.",
+    "rationale": "Fundamental stark (Rekord-Q1, bestaetigter 17,4-Mrd.-Ausblick, ~4,2 % Dividende plus 2,5-Mrd.-Buyback), doch der Kurs notiert mit 407,90 EUR exakt am 52-Wochen-Hoch und am Analysten-Konsens (~394-406 EUR) - kaum Bewertungsluft. Technisch extrem ueberdehnt (RSI 94) bei nur neutralem Bias, was Konsolidierungs-/Ruecksetzerrisiko nahelegt. Stimmiges Long-Setup fehlt; erst nach Ruecksetzer Richtung SMA20 (~389,7) wieder interessant.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

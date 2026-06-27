@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 189.39,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Das Bild ist widersprüchlich: Die Technik ist kurzfristig schwach (Kurs unter SMA20/50, MACD-Hist -4,5, RSI 39,6, Trend seitwärts/neutral nach -7,9 % am Tag), während die Fundamentalthese im Übergang steckt - erodierendes Apple-Modem-Geschäft gegen eine Data-Center-Story, die erst ab 2028 material wird. Bei 188,62 USD notiert die Aktie am unteren Rand des Mittelszenarios (190-215) ohne stimmigen Trigger in eine Richtung, daher FLAT mit niedriger Überzeugung.",
+    "rationale": "Das Bild ist widerspruechlich: Die Technik ist kurzfristig schwach (Kurs 189,39 unter SMA20/50, MACD-Hist -4,45, RSI 39,84, Trend seitwaerts/neutral nach -7,57 % am Tag), waehrend die Fundamentalthese im Uebergang steckt - erodierendes Apple-Modem-Geschaeft gegen eine Data-Center-Story, die erst ab 2028 material wird. Bei 189,39 USD notiert die Aktie am unteren Rand des Mittelszenarios (190-215) ohne stimmigen Trigger in eine Richtung, daher FLAT mit niedriger Ueberzeugung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

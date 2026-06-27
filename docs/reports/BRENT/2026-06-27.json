@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 72.6,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 10,
-    "rationale": "Trend und Momentum sind klar bearish (Kurs unter SMA20/50/200, MACD negativ), doch der RSI von 17 signalisiert eine extreme Ueberverkauft-Lage, die eine technische Gegenbewegung wahrscheinlich macht - ein Short ins fallende Messer ist undiszipliniert. Die Makro-Lage ist widerspruechlich: abschmelzender Kriegs-Risikoaufschlag (US-Iran-Entspannung) gegen rekordhohen Lagerabbau, dazu offiziell neutraler Bias. Wegen des unklaren, gegenlaeufigen Bildes ist FLAT die disziplinierte Wahl.",
+    "rationale": "Trend und Momentum sind klar bearish (Kurs 72,6 unter SMA20/50/200, MACD -6,98 unter Signal), doch der extrem ueberverkaufte RSI von 17 macht eine technische Gegenbewegung wahrscheinlich - ein Short ins fallende Messer waere undiszipliniert. Die Makro-Lage ist gegenlaeufig: abschmelzender Kriegs-Risikoaufschlag (US-Iran-Entspannung) gegen rekordhohen Lagerabbau, dazu offiziell neutraler Bias. Wegen des widerspruechlichen Bildes ist FLAT die disziplinierte Wahl.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

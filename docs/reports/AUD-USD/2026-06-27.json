@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 0.68951,
-    "change_pct": -0.0014502843,
+    "price": 0.68937,
+    "change_pct": -0.021754264,
     "currency": null
   },
   "technical": {
-    "last_close": 0.68951,
-    "change_pct": -0.0014502842557236211,
-    "sma20": 0.6999,
+    "last_close": 0.68937,
+    "change_pct": -0.021754263835709404,
+    "sma20": 0.6998,
     "sma50": 0.7095,
     "sma200": 0.6982,
-    "rsi14": 19.27,
+    "rsi14": 19.16,
     "macd": {
-      "macd": -0.0053,
+      "macd": -0.0054,
       "signal": -0.0043,
       "hist": -0.001
     },
     "atr14": 0.0039,
     "high_52w": 0.72584,
     "low_52w": 0.64551,
-    "pct_from_high": -5.01,
-    "pct_from_low": 6.82,
+    "pct_from_high": -5.02,
+    "pct_from_low": 6.79,
     "trend": "down",
     "bias": "neutral",
     "levels": [
@@ -37,7 +37,7 @@
       },
       {
         "type": "support",
-        "price": 0.6895
+        "price": 0.6894
       }
     ]
   },
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwaerts (Kurs unter SMA20/50, MACD negativ), doch der extrem ueberverkaufte RSI von 19,6 und der Kurs exakt auf der Unterstuetzung 0,6898 (deckungsgleich mit SMA200) signalisieren eine ueberfaellige Erholung - ein Short hier ist auf gestrecktem Niveau riskant. Da bearisches Momentum und ueberverkaufte Bounce-Gefahr sich widersprechen und kein bestaetigter Bruch unter 0,6898 vorliegt, ist FLAT diszipliniert; erst ein Tagesschluss unter 0,6898 oder ueber 0,7071 klaert das Bild.",
+    "rationale": "Der Trend ist klar abwaerts (Kurs 0,6894 unter SMA20/50, MACD negativ), doch der extrem ueberverkaufte RSI von 19 und der Kurs exakt auf der Unterstuetzung 0,6894 (deckungsgleich mit SMA200) signalisieren eine ueberfaellige Erholung - ein Short auf diesem gestreckten Niveau ist riskant. Da bearisches Momentum und Bounce-Gefahr sich widersprechen und kein bestaetigter Bruch vorliegt, ist FLAT diszipliniert; erst ein Tagesschluss unter 0,6894 oder ueber 0,7071 klaert das Bild.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

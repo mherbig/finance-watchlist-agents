@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 22671.86,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts (Kurs unter SMA20/50/200, fallend, negatives MACD-Momentum), doch mit RSI 19 am frischen 52-Wochen-Tief ist der Index extrem überverkauft - ein Setup, das laut Analyse zu scharfen, kurzlebigen Mean-Reversion-Rallyes neigt. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem intakten Abwärtstrend; das Bild ist daher widersprüchlich. FLAT, bis sich entweder ein Bruch unter 23.000 mit Folgeschwäche bestätigt oder eine belastbare Bodenbildung zeigt.",
+    "rationale": "Der Abwärtstrend ist intakt (Kurs unter SMA20/50/200, alle fallend, MACD negativ bei -589 vs. Signal -448), doch mit RSI 19 am frischen 52-Wochen-Tief ist der Index extrem überverkauft - ein Setup, das laut Analyse zu scharfen, aber kurzlebigen Mean-Reversion-Rallyes neigt. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem klaren Abwärtstrend; das Bild ist widersprüchlich. FLAT, bis sich entweder ein bestätigter Bruch unter 23.000 mit Folgeschwäche oder eine belastbare Bodenbildung zeigt.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

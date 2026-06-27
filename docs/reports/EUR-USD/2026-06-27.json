@@ -4,20 +4,20 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 1.13919,
-    "change_pct": 0.048303239,
+    "price": 1.13878,
+    "change_pct": 0.01229537,
     "currency": null
   },
   "technical": {
-    "last_close": 1.13919,
-    "change_pct": 0.04830323895171682,
+    "last_close": 1.13878,
+    "change_pct": 0.012295369914969344,
     "sma20": 1.1489,
-    "sma50": 1.1581,
+    "sma50": 1.158,
     "sma200": 1.1673,
-    "rsi14": 26.76,
+    "rsi14": 25.96,
     "macd": {
       "macd": -0.006,
       "signal": -0.005,
@@ -26,8 +26,8 @@
     "atr14": 0.0057,
     "high_52w": 1.19773,
     "low_52w": 1.13586,
-    "pct_from_high": -4.89,
-    "pct_from_low": 0.29,
+    "pct_from_high": -4.92,
+    "pct_from_low": 0.26,
     "trend": "down",
     "bias": "neutral",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 27",
+  "headline": "Trend down, RSI 26",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Trend und Momentum sind bearish (Kurs unter allen SMAs, MACD negativ unter Signal), doch der RSI bei 26.7 ist tief ueberverkauft und der Kurs steht nur 0.27% ueber der zentralen Unterstuetzung bei 1.1359 (zugleich 52W-Tief). Makro ist beidseitig hawkish und range-gebunden (Konsens 1.13-1.21), die technische Lage damit widerspruechlich an einer Schluesselmarke. Kein stimmiges Setup fuer Short oder Long, daher FLAT bis zum Bruch oder einer bestaetigten Bodenbildung.",
+    "rationale": "Trend und Momentum sind klar bearish (Kurs 1.1388 unter SMA20/50/200, MACD negativ unter Signal), doch der RSI14 bei 26 ist tief ueberverkauft und der Kurs steht nur 0.26% ueber der zentralen Unterstuetzung 1.1359 (zugleich 52W-Tief). Makro ist beidseitig hawkish und range-gebunden (Konsens 1.13-1.21), die Lage damit widerspruechlich an einer Schluesselmarke. Kein stimmiges Setup fuer Short oder Long, daher FLAT bis zum Bruch unter 1.1359 oder einer bestaetigten Bodenbildung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

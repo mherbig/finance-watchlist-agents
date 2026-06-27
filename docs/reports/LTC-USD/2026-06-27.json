@@ -4,30 +4,30 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 42.4,
-    "change_pct": 1.16917,
+    "price": 42.33,
+    "change_pct": 1.0021475,
     "currency": null
   },
   "technical": {
-    "last_close": 42.4,
-    "change_pct": 1.1691720353137725,
-    "sma20": 43.4765,
-    "sma50": 48.9332,
-    "sma200": 59.0327,
-    "rsi14": 39.59,
+    "last_close": 42.34,
+    "change_pct": 1.0260081126223022,
+    "sma20": 43.4735,
+    "sma50": 48.932,
+    "sma200": 59.0323,
+    "rsi14": 39.2,
     "macd": {
-      "macd": -1.7306,
-      "signal": -1.8252,
-      "hist": 0.0946
+      "macd": -1.7354,
+      "signal": -1.8261,
+      "hist": 0.0907
     },
     "atr14": 1.9129,
     "high_52w": 110.31,
     "low_52w": 40.92,
-    "pct_from_high": -61.56,
-    "pct_from_low": 3.62,
+    "pct_from_high": -61.62,
+    "pct_from_low": 3.47,
     "trend": "down",
     "bias": "bearish",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 40",
+  "headline": "Trend down, RSI 39",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar bearisch unter SMA20/50/200, doch RSI um 45 und ein gerade positiv gedrehtes MACD-Histogramm signalisieren nachlassenden Abwartsdruck - ein widerspruchliches Bild direkt am 52W-Tief. Der Kurs (41,97) klebt nur +2,57% uber dem entscheidenden Support 40,92; ohne Bruch oder Ruckeroberung der 45,76-Resistance fehlt ein stimmiges Setup. Schwache ETF-Adoption und Krypto-Risikoaversion liefern keinen klaren Katalysator, daher abwarten.",
+    "rationale": "Der Trend ist klar bearisch unter SMA20/50/200, doch RSI um 39 und ein positiv gedrehtes MACD-Histogramm (+0,09) deuten auf nachlassenden Abwartsdruck - ein widerspruchliches Bild direkt am 52W-Tief. Der Kurs (42,33) klebt nur knapp uber dem entscheidenden Support 40,92; ohne Bruch nach unten oder Ruckeroberung der Resistance 45,76 fehlt ein stimmiges Setup. Schwache ETF-Adoption und fehlende Katalysatoren rechtfertigen Abwarten statt Positionierung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 184.26871,
-    "change_pct": 0.048952497,
+    "price": 184.20218,
+    "change_pct": 0.012829941,
     "currency": null
   },
   "technical": {
-    "last_close": 184.26871,
-    "change_pct": 0.04895249745423523,
-    "sma20": 184.9126,
-    "sma50": 185.0016,
-    "sma200": 184.2886,
-    "rsi14": 37.82,
+    "last_close": 184.20218,
+    "change_pct": 0.012829941380251475,
+    "sma20": 184.9093,
+    "sma50": 185.0002,
+    "sma200": 184.2883,
+    "rsi14": 36.9,
     "macd": {
-      "macd": -0.2948,
-      "signal": -0.173,
-      "hist": -0.1218
+      "macd": -0.3001,
+      "signal": -0.1741,
+      "hist": -0.126
     },
     "atr14": 0.9356,
     "high_52w": 187.58855,
     "low_52w": 175.422,
-    "pct_from_high": -1.77,
-    "pct_from_low": 5.04,
+    "pct_from_high": -1.81,
+    "pct_from_low": 5.01,
     "trend": "down",
     "bias": "bearish",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 38",
+  "headline": "Trend down, RSI 37",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Technik und Analyse zeichnen ein stimmiges bearisches Bild: Kurs (184,18) unter SMA20/50, RSI14 bei 37 und negatives MACD-Histogramm bestaetigen das Abwaertsmomentum, gestuetzt durch die strukturelle Zinsdivergenz einer hawkishen BoJ. Da das Paar exakt an der SMA200 (184,27) als Pivot kaempft und der Support bei 183,80 nahe liegt, ist die Ueberzeugung moderat und ein Pullback Richtung Widerstand (186,28) der sauberere Short-Einstieg.",
+    "rationale": "Technik und Analyse zeichnen ein stimmig bearisches Bild: Der Kurs (184,20) liegt unter SMA20 (184,91) und SMA50 (185,00), RSI14 bei 37 und ein negatives MACD-Histogramm bestaetigen das Abwaertsmomentum, gestuetzt durch die strukturelle Zinsdivergenz einer hawkishen BoJ gegenueber der ECB. Da das Paar exakt an der SMA200 (184,29) als Pivot kaempft und der Support bei 183,80 nahe liegt, bleibt die Ueberzeugung moderat und ein Pullback Richtung Widerstand (186,28) ist der sauberere Short-Einstieg.",
     "entry": 186.2828,
     "stop_loss": 187.9669,
     "take_profit": 183.7567,

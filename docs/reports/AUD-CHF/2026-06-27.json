@@ -4,20 +4,20 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 0.55822,
-    "change_pct": -0.048344644,
+    "price": 0.55807,
+    "change_pct": -0.075202779,
     "currency": null
   },
   "technical": {
-    "last_close": 0.55822,
-    "change_pct": -0.04834464359254283,
+    "last_close": 0.55807,
+    "change_pct": -0.07520277892175097,
     "sma20": 0.5618,
     "sma50": 0.5622,
     "sma200": 0.5499,
-    "rsi14": 40.88,
+    "rsi14": 40.54,
     "macd": {
       "macd": -0.0005,
       "signal": 0.0001,
@@ -26,8 +26,8 @@
     "atr14": 0.0027,
     "high_52w": 0.56745,
     "low_52w": 0.51403999,
-    "pct_from_high": -1.63,
-    "pct_from_low": 8.59,
+    "pct_from_high": -1.65,
+    "pct_from_low": 8.57,
     "trend": "down",
     "bias": "bearish",
     "levels": [
@@ -37,7 +37,7 @@
       },
       {
         "type": "support",
-        "price": 0.5582
+        "price": 0.5581
       }
     ]
   },
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Kurzfristige Technik ist abwärtsgerichtet (Kurs unter SMA20/SMA50, MACD negativ, RSI 41,5), während der mittelfristige Aufwärtskontext über der steigenden SMA200 und der strukturelle Carry-Vorteil der RBA (4,35 % vs. SNB 0 %) bullisch wirken - das Bild ist widerspruchlich. Der Kurs sitzt exakt auf dem Support 0,5584; ein Bruch oeffnet Richtung SMA200 (0,5498), ein Halten wäre konstruktiv, doch ohne klare Richtung. Kein stimmiges Setup, daher FLAT bis sich der Support-Test aufgeloest hat.",
+    "rationale": "Das Bild ist widerspruechlich: Kurzfristige Technik ist abwaertsgerichtet (Kurs 0,55807 unter SMA20/SMA50, MACD negativ mit Hist -0,0006, RSI14 bei 40,5), waehrend der intakte mittelfristige Aufwaertskontext ueber der steigenden SMA200 (0,5499) und der strukturelle Carry-Vorteil der RBA (4,35 % vs. SNB 0 %) bullisch wirken. Der Kurs sitzt nahezu exakt auf dem Support 0,5581 - ein Bruch oeffnet Richtung SMA200, ein Halten waere konstruktiv, doch ohne klare Richtung. Kein stimmiges Setup, daher FLAT bis sich der Support-Test aufloest.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

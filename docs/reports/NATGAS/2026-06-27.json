@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 3.279,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Das Bild ist widersprüchlich: Der Kurs hält sich zwar über SMA20/50, bleibt aber klar unter dem SMA200, während RSI (53,6) neutral und der MACD praktisch ausgeglichen ist - kein klares Momentum. Bullische Treiber (Hitze-Wetter, Rekord-LNG-Feedgas) stehen reichlichen Lagerbeständen und starkem Förderwachstum gegenüber, und der Kurs ringt direkt am Widerstand 3,343 USD. Erst ein bestätigter Ausbruch über 3,343 (Richtung SMA200) oder ein Bruch unter den Support 3,087 würde ein gerichtetes Setup rechtfertigen.",
+    "rationale": "Das Bild ist widersprüchlich: Der Kurs hält sich über SMA20/50, bleibt aber klar unter dem SMA200, während RSI14 (50,1) neutral und der MACD leicht negativ ist (Histogramm -0,0034) - kein klares Momentum. Bullische Treiber (Hitze-Wetter, Rekord-LNG-Feedgas) stehen reichlichen Lagerbeständen und starkem Förderwachstum gegenüber, und der Kurs ringt nach -1,9 % am Tag direkt am Widerstand 3,343 USD. Erst ein bestätigter Ausbruch über 3,343 (Richtung SMA200) oder ein Bruch unter den Support 3,087 rechtfertigt ein gerichtetes Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

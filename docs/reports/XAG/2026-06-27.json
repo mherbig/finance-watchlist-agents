@@ -4,7 +4,7 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 59.674,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Stimmiges Bärenbild: Kurs unter SMA20/50/200, MACD klar negativ und Trend abwärts, gestützt von Fed-Falkenhaftigkeit und starkem Dollar. RSI 31,5 nahe überverkauft und der direkte Test der Unterstützung 58,05 sprechen jedoch für einen kurzfristigen Reflex-Rebound, weshalb ein Short eher auf einen Pullback Richtung 75,62 statt am Support gesucht wird. Bruch unter 58 öffnet Raum zum 52W-Tief (36,08).",
+    "rationale": "Stimmiges Bärenbild: Kurs unter SMA20/50/200, MACD tief negativ und Trend abwärts, gestützt durch Fed-Falkenhaftigkeit und starken Dollar. RSI14 bei 31 nahe überverkauft und der direkte Test der Unterstützung 58,05 sprechen für einen kurzfristigen Reflex-Rebound, weshalb der Short eher auf einem Pullback Richtung 75,62 statt am Support gesucht wird. Ein Bruch unter 58 öffnet Raum zum 52W-Tief (36,08).",
     "entry": 59.674,
     "stop_loss": 63.7148,
     "take_profit": 53.6128,

@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 47.0,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Fundamental hat sich das Bild durch das Supreme-Court-Urteil (7-2 pro Bayer) und das Q1-Beat klar aufgehellt, doch technisch ist die Aktie nach +17% extrem ueberkauft (RSI 91, nur -4,7% unter 52W-Hoch, Trend seitwaerts/neutral). Analyse-Bull und Technik-Ueberhitzung widersprechen sich, und ein Grossteil des Re-Ratings duerfte bereits eingepreist sein. Daher kein sauberes Swing-Setup auf Tagesbasis; erst nach Abkuehlung Richtung Support waere ein Long zu erwaegen.",
+    "rationale": "Fundamental hat sich das Bild durch das Supreme-Court-Urteil (7-2 pro Bayer) und das Q1-Beat klar aufgehellt, doch technisch ist die Aktie nach +17% extrem ueberkauft (RSI 91, nur -4,7% unter dem 52W-Hoch, Trend seitwaerts/neutral). Bullischer Analyse-Case und technische Ueberhitzung widersprechen sich, und ein Grossteil des Re-Ratings duerfte bereits eingepreist sein. Daher kein sauberes Swing-Setup auf Tagesbasis; erst nach Abkuehlung Richtung Support waere ein Long zu erwaegen.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

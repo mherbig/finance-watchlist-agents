@@ -4,36 +4,36 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 2.02023,
-    "change_pct": 0.037138273,
+    "price": 2.01843,
+    "change_pct": -0.051993583,
     "currency": null
   },
   "technical": {
-    "last_close": 2.02023,
-    "change_pct": 0.03713827321884982,
-    "sma20": 1.9966,
+    "last_close": 2.01845,
+    "change_pct": -0.05100322855388943,
+    "sma20": 1.9965,
     "sma50": 1.9847,
     "sma200": 1.9923,
-    "rsi14": 89.36,
+    "rsi14": 87.18,
     "macd": {
-      "macd": 0.0094,
+      "macd": 0.0092,
       "signal": 0.0067,
-      "hist": 0.0027
+      "hist": 0.0025
     },
     "atr14": 0.0117,
     "high_52w": 2.06036,
     "low_52w": 1.94714,
-    "pct_from_high": -1.95,
-    "pct_from_low": 3.75,
+    "pct_from_high": -2.03,
+    "pct_from_low": 3.66,
     "trend": "up",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 2.0202
+        "price": 2.0195
       },
       {
         "type": "support",
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 89",
+  "headline": "Trend up, RSI 87",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,17 +66,17 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der uebergeordnete Trend ist klar aufwaerts: Kurs ueber SMA20/50/200 (bullische Stapelung), MACD mit positivem Histogramm, getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Mit RSI 89,2 ist das Paar jedoch extrem ueberkauft und mit Widerstand quasi am Kurs (2,0191) nur 2 % unter dem 52W-Hoch, sodass ein direkter Einstieg riskant ist. Daher LONG, aber per Pullback Richtung SMA20/1,99 statt der ausgereizten Bewegung hinterherzulaufen.",
-    "entry": 2.0202,
-    "stop_loss": 1.9992,
-    "take_profit": 2.0518,
-    "take_profit_2": null,
+    "rationale": "Der uebergeordnete Trend ist klar aufwaerts: Kurs ueber SMA20/50/200 (bullische Stapelung) und positives MACD-Histogramm, getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Mit RSI ~87 ist das Paar jedoch extrem ueberkauft und nur ~2 % unter dem 52W-Hoch, mit Widerstand quasi am Kurs (2,0195). Daher LONG, aber per Pullback Richtung SMA20/1,99 statt der ausgereizten Bewegung hinterherzulaufen.",
+    "entry": 2.0184,
+    "stop_loss": 1.9974,
+    "take_profit": 2.05,
+    "take_profit_2": 2.0195,
     "rr": 1.5
   }
 }

@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 113.96515,
-    "change_pct": -0.0044485305,
+    "price": 113.96465,
+    "change_pct": -0.0048872416,
     "currency": null
   },
   "technical": {
-    "last_close": 113.96515,
-    "change_pct": -0.004448530502093846,
-    "sma20": 114.2757,
+    "last_close": 113.96141,
+    "change_pct": -0.007730089491796082,
+    "sma20": 114.2755,
     "sma50": 114.8617,
     "sma200": 114.6274,
-    "rsi14": 38.45,
+    "rsi14": 38.39,
     "macd": {
-      "macd": -0.3223,
-      "signal": -0.3234,
-      "hist": 0.0011
+      "macd": -0.3226,
+      "signal": -0.3235,
+      "hist": 0.0008
     },
     "atr14": 0.4709,
     "high_52w": 117.24469,
     "low_52w": 107.042999,
     "pct_from_high": -2.8,
-    "pct_from_low": 6.47,
+    "pct_from_low": 6.46,
     "trend": "down",
     "bias": "bearish",
     "levels": [
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Trend und Bias sind abwaerts, der Kurs (113,99) liegt unter SMA20/50/200 (114,3-114,9), MACD negativ und RSI 39 - das technische Bild ist stimmig bearisch und wird durch die Zins-Divergenz (BoJ steigt auf 1,0 %, BoC stabil 2,25 %) sowie fallendes Oel als CAD-Belastung gestuetzt. Da der Kurs nur ~0,3 Punkte ueber der Schluesselunterstuetzung 113,69 steht, ist ein Pullback Richtung Widerstandszone 114,3-114,9 der bessere Einstieg statt eines Einstiegs direkt am Support. Conviction nur 3, weil das Paar noch nicht ueberverkauft ist und ein Oel-Rebound oder BoC-Hawkishness den Support verteidigen koennte.",
+    "rationale": "Trend und Bias sind abwaerts: Der Kurs (113,96) liegt unter SMA20/50/200 (114,3-114,9), MACD ist negativ und RSI 38 bestaetigt die Schwaeche, ohne dass das Paar bereits ueberverkauft waere - das Bild ist stimmig bearisch und wird durch die Zins-Divergenz (BoJ 1,0 %, BoC stabil 2,25 %) und fallendes Oel als CAD-Belastung gestuetzt. Da der Kurs nur ~0,3 Punkte ueber der Schluesselunterstuetzung 113,69 steht, ist ein Pullback in die Widerstandszone 114,3-114,9 der bessere Einstieg als ein Verkauf direkt am Support. Conviction 3, weil ein Oel-Rebound oder BoC-Hawkishness den Support verteidigen koennte.",
     "entry": 115.1511,
     "stop_loss": 115.9987,
     "take_profit": 113.8797,

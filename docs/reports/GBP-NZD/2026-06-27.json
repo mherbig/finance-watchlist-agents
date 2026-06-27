@@ -4,36 +4,36 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
-    "price": 2.34091,
-    "change_pct": 0.0059809379,
+    "price": 2.33896,
+    "change_pct": -0.077324983,
     "currency": null
   },
   "technical": {
-    "last_close": 2.34096,
-    "change_pct": 0.00811698714525188,
-    "sma20": 2.3107,
+    "last_close": 2.33896,
+    "change_pct": -0.07732498280479788,
+    "sma20": 2.3106,
     "sma50": 2.2937,
-    "sma200": 2.2945,
-    "rsi14": 76.41,
+    "sma200": 2.2944,
+    "rsi14": 74.64,
     "macd": {
-      "macd": 0.0123,
-      "signal": 0.0086,
-      "hist": 0.0037
+      "macd": 0.0121,
+      "signal": 0.0085,
+      "hist": 0.0036
     },
     "atr14": 0.0143,
     "high_52w": 2.34865,
     "low_52w": 2.24234,
-    "pct_from_high": -0.33,
-    "pct_from_low": 4.4,
+    "pct_from_high": -0.41,
+    "pct_from_low": 4.31,
     "trend": "up",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 2.341
+        "price": 2.3408
       },
       {
         "type": "support",
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 76",
+  "headline": "Trend up, RSI 75",
   "flags": [],
   "agent_analysis": {
     "track": "technical",
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 10,
-    "rationale": "Der Aufwaertstrend ist zwar intakt (Kurs ueber allen SMAs, MACD positiv), doch der RSI von 76 signalisiert klare Ueberkauftheit direkt am Widerstand und 52W-Hoch (2.3404/2.34865) — teure Anschlusskaeufe ohne Sicherheitsmarge. Das hawkishe RBNZ-Risiko (drohende Zinserhoehung, steigende NZ-Inflation) steht dem GBP-Zinsvorteil entgegen und erzeugt ein widerspruechliches Bild. Long ist erst nach einem Pullback Richtung SMA50/Unterstuetzung (2.295) attraktiv; aktuell kein stimmiges Setup.",
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs ueber SMA20/50/200, MACD positiv), doch der RSI von 74.6 signalisiert klare Ueberkauftheit direkt am Widerstand und 52W-Hoch (2.3408/2.34865) — Anschlusskaeufe ohne Sicherheitsmarge sind teuer. Das hawkishe RBNZ-Risiko (drohende Zinserhoehung, steigende NZ-Inflation) steht dem GBP-Zinsvorteil entgegen und erzeugt ein widerspruechliches Bild. Long wird erst nach einem Pullback Richtung SMA50/Unterstuetzung (2.295) attraktiv; aktuell kein stimmiges Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

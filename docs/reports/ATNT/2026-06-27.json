@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 22.72,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Technik und Fundamentaldaten widersprechen sich klar: Der Kurs steht im Abwaertstrend unter SMA20/50/200, rund 23% unter dem 52W-Hoch und nur knapp ueber dem 52W-Tief (22,01), waehrend Q1-Beat, bestaetigte Guidance und solide Dividende fundamental stuetzen. RSI 49,5 ist neutral und das MACD-Histogramm dreht nur zaghaft ins Positive, ohne Trendbruch. Ohne stimmiges Richtungsbild und mit dem Risiko eines Bruchs unter 22,01 ist FLAT die disziplinierte Wahl.",
+    "rationale": "Technik und Fundamentaldaten widersprechen sich klar: Der Kurs steht im Abwaertstrend unter SMA20/50/200, rund 23% unter dem 52W-Hoch und nur knapp ueber dem 52W-Tief (22,01), waehrend Q1-Beat, bestaetigte Guidance und solide Dividende fundamental stuetzen. RSI 49,7 ist neutral und das MACD-Histogramm dreht nur zaghaft ins Positive, ohne Trendbruch. Ohne stimmiges Richtungsbild und mit dem Risiko eines Bruchs unter 22,01 ist FLAT die disziplinierte Wahl.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T19:38:38.874805+00:00",
+  "generated_at": "2026-06-27T20:55:23.323043+00:00",
   "available": true,
   "snapshot": {
     "price": 24671.22,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-27T20:16:08.871981+00:00",
+    "generated_at": "2026-06-27T21:01:13.831519+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der GER40 steckt bei 24.671 in einer Seitwaerts-Phase: zwar ueber SMA50/SMA200, aber unter der SMA20, RSI 51 neutral und ein negatives MACD-Histogramm (-19,7) signalisieren nachlassendes Momentum ohne klare Richtung. Nahe dem 52W-Hoch (-2,95%) ist die Luft nach unten groesser als nach oben, und das Makro-Bild ist gemischt (ECB-Zinserhoehung plus starker Euro belastet exportlastige Schwergewichte). Da Analyse und Technik kein stimmiges Long- oder Short-Setup ergeben, bleibt das Urteil FLAT.",
+    "rationale": "Der GER40 notiert bei 24.671 in einer Seitwaerts-Phase: zwar ueber SMA50 (24.593) und SMA200 (24.233), aber unter der SMA20 (24.817), mit RSI14 um 55 (neutral) und einem negativen MACD-Histogramm (-1,27) als Zeichen nachlassenden Schwungs. Nahe dem 52W-Hoch (-1,68%) ist die Luft nach unten groesser als nach oben, und das Makro-Bild bleibt gemischt (ECB-Zinserhoehung plus starker Euro belastet exportlastige Indexschwergewichte). Da Analyse und Technik kein stimmiges Long- oder Short-Setup ergeben, lautet das Urteil FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

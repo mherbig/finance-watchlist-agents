@@ -16,7 +16,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AIR",
@@ -40,7 +43,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "BABA",
@@ -64,7 +70,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "ALV",
@@ -88,7 +97,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AMZN",
@@ -112,7 +124,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AMD",
@@ -136,7 +151,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "AAPL",
@@ -160,7 +178,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AS51",
@@ -179,7 +200,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "T",
@@ -203,7 +227,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AUD/CAD",
@@ -222,7 +249,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "AUD/CHF",
@@ -241,7 +271,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "AUD/JPY",
@@ -260,7 +293,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "AUD/NZD",
@@ -279,7 +315,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "AUD/USD",
@@ -298,7 +337,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "BAYN",
@@ -322,7 +364,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "BNB/USD",
@@ -341,7 +386,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "BAC",
@@ -365,7 +413,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "BRENT",
@@ -384,7 +435,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "BTC/USD",
@@ -403,7 +457,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "CAD/CHF",
@@ -422,7 +479,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "CAD/JPY",
@@ -441,7 +501,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "CHF/JPY",
@@ -460,7 +523,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "DASH/USD",
@@ -479,7 +545,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "DOGE/USD",
@@ -498,7 +567,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "ETH/USD",
@@ -517,7 +589,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "EUR/AUD",
@@ -536,7 +611,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "EUR/CAD",
@@ -555,7 +633,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "EUR/CHF",
@@ -574,7 +655,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "EUR/GBP",
@@ -593,7 +677,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "EUR/JPY",
@@ -612,7 +699,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "EUR/NZD",
@@ -631,7 +721,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "EUR/USD",
@@ -650,7 +743,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "RACE",
@@ -674,7 +770,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "CAC40",
@@ -693,7 +792,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 4,
+    "has_signal": true
   },
   {
     "symbol": "UKX",
@@ -712,7 +814,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 4,
+    "has_signal": true
   },
   {
     "symbol": "GBP/AUD",
@@ -731,7 +836,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "GBP/CAD",
@@ -750,7 +858,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "GBP/CHF",
@@ -769,7 +880,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "GBP/JPY",
@@ -788,7 +902,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "GBP/NZD",
@@ -807,7 +924,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "GBP/USD",
@@ -826,7 +946,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "DAX",
@@ -845,7 +968,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "GOOGL",
@@ -869,7 +995,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "HSI",
@@ -888,7 +1017,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "IBE",
@@ -912,7 +1044,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "INTC",
@@ -936,7 +1071,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "JPM",
@@ -960,7 +1098,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "LTC/USD",
@@ -979,7 +1120,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "MC",
@@ -1003,7 +1147,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "META",
@@ -1027,7 +1174,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "MU",
@@ -1051,7 +1201,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 4,
+    "has_signal": true
   },
   {
     "symbol": "MSFT",
@@ -1075,7 +1228,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NATGAS",
@@ -1094,7 +1250,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NEO/USD",
@@ -1113,7 +1272,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NFLX",
@@ -1137,7 +1299,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "N225",
@@ -1156,7 +1321,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 4,
+    "has_signal": true
   },
   {
     "symbol": "NDX",
@@ -1175,7 +1343,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NVDA",
@@ -1199,7 +1370,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NZD/CAD",
@@ -1218,7 +1392,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NZD/CHF",
@@ -1237,7 +1414,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NZD/JPY",
@@ -1256,7 +1436,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "NZD/USD",
@@ -1275,7 +1458,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "PFE",
@@ -1299,7 +1485,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "QCOM",
@@ -1323,7 +1512,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "SPX",
@@ -1342,7 +1534,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "SOL/USD",
@@ -1361,7 +1556,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "TSLA",
@@ -1385,7 +1583,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "USD/CAD",
@@ -1404,7 +1605,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "USD/CHF",
@@ -1423,7 +1627,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "USD/JPY",
@@ -1442,7 +1649,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "V",
@@ -1466,7 +1676,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 4,
+    "has_signal": true
   },
   {
     "symbol": "VOW3",
@@ -1490,7 +1703,10 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "DJI",
@@ -1509,7 +1725,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "LONG",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "XAG/USD",
@@ -1528,7 +1747,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "XAU/USD",
@@ -1547,7 +1769,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "XMR/USD",
@@ -1566,7 +1791,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "XPD/USD",
@@ -1585,7 +1813,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "XPT/USD",
@@ -1604,7 +1835,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   },
   {
     "symbol": "XRP/USD",
@@ -1623,7 +1857,10 @@
     "has_agent_analysis": true,
     "agents_run": [
       "technical-macro"
-    ]
+    ],
+    "direction": "SHORT",
+    "conviction": 3,
+    "has_signal": true
   },
   {
     "symbol": "ZM",
@@ -1647,6 +1884,9 @@
       "valuation-reviewer",
       "pitch",
       "meeting-prep"
-    ]
+    ],
+    "direction": "FLAT",
+    "conviction": 2,
+    "has_signal": true
   }
 ]

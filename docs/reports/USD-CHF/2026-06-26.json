@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Intakter Aufwärtstrend mit Kurs über sauber gestaffelten SMAs und positivem MACD, fundamental gestützt durch die ausgeweitete Zinsdifferenz (hawkishe Fed, SNB bei 0,00% mit Interventionsbereitschaft). Der RSI bei 74 signalisiert jedoch eine überkaufte Lage direkt unter dem 52-Wochen-Hoch (0,8123), weshalb ein Einstieg auf Pullback Richtung SMA20/0,7933-Support dem Nachkaufen am Hoch vorzuziehen ist. Stimmiges bullisches Bild, aber begrenztes Aufwärtspotenzial bis zum Widerstand rechtfertigt nur moderate Überzeugung.",
+    "entry": 0.7933,
+    "stop_loss": 0.7857,
+    "take_profit": 0.8046,
+    "take_profit_2": 0.8123,
+    "rr": 1.5
   }
 }

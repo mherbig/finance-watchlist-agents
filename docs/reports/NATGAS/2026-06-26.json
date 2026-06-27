@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widersprüchlich: Der Kurs hält sich zwar über SMA20/50, bleibt aber klar unter dem SMA200, während RSI (53,6) neutral und der MACD praktisch ausgeglichen ist - kein klares Momentum. Bullische Treiber (Hitze-Wetter, Rekord-LNG-Feedgas) stehen reichlichen Lagerbeständen und starkem Förderwachstum gegenüber, und der Kurs ringt direkt am Widerstand 3,343 USD. Erst ein bestätigter Ausbruch über 3,343 (Richtung SMA200) oder ein Bruch unter den Support 3,087 würde ein gerichtetes Setup rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

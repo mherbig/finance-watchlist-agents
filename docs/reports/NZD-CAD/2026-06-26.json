@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwärts (Kurs unter SMA20/50/200, MACD negativ), doch der RSI14 von 12,9 ist extrem überverkauft direkt an der psychologischen Marke 0,80 – die Analyse selbst warnt vor einer technischen Gegenbewegung Richtung SMA20/50 (~0,81). Die hawkishere RBNZ-Guidance bildet ein fundamentales Gegengewicht zur kurzfristigen Schwäche, sodass sich bärisches Momentum und Bounce-Risiko widersprechen. Kein stimmiges Setup für LONG oder SHORT, daher FLAT bis zur Klärung an Support 0,80 oder Resistance 0,8163.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

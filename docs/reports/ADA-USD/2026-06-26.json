@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar bearish (Kurs unter SMA20/50/200, -78% vom 52W-Hoch), doch ADA sitzt mit RSI 33 und einem minimal drehenden MACD direkt auf dem kritischen Support 0,1437 (= 52W-Tief) - ueberverkaufte Stabilisierung, aber keine bestaetigte Trendwende. Das belastende Fundamentalbild (Summit-Absage, TVL-Schwund, Wallet-Hack) steht den Katalysatoren (Leios-Testnet, ETF-Filings) gegenueber. Bearischer Trend gegen ueberverkauften Bounce an einer Messers-Schneide-Marke ergibt ein unklares Bild, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

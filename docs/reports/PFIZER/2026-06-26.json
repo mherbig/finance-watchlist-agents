@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technik klar bearisch: Kurs unter SMA20/50/200, MACD negativ und unter Signal, nur 4,3% über dem 52W-Tief - das spricht gegen LONG. Gleichzeitig RSI 30 (überverkauft) nahe Support 23,67 plus Value-/Dividenden-These (~8-9x KGV, ~6,6% Rendite) gegen Patent-Cliff 2026-2030 - das spricht gegen SHORT. Widersprüchliches Bild ohne stimmiges Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

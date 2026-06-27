@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Technisch klar bearisch (Abwaertstrend unter SMA20/50/200, MACD negativ -8,0), doch der Kurs sitzt direkt auf Support 375,12 bei neutralem RSI 45,6, was einen Short ohne Bestaetigung riskant macht. Fundamental ist TSLA eine reine Narrativ-Wette (Robotaxi/Optimus) mit negativem FCF und Spot nahe Strassen-Median (~408), also weder klares Long-Upside noch stimmiges bearisches Gesamtbild. Vor den Q2-Auslieferungen (~2. Juli) und Earnings (22. Juli) ueberwiegt die Unsicherheit, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

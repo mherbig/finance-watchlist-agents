@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs konsolidiert seitwaerts knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,21) - mit RSI 41 und negativem MACD ist das kurzfristige Momentum verhalten, ohne klares Setup. Das mittelfristige Bild bleibt konstruktiv, doch die BoJ-Zinswende (Leitzins 1,00 %) untergraebt das Carry-Polster und erzeugt einen leichten Abwaerts-Bias. Da bullisches Strukturbild und bearisches Momentum/Makro sich widersprechen und der Kurs in der Range 212,80-215,47 gefangen ist, ist FLAT diszipliniert bis zum Range-Ausbruch.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

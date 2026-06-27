@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwärts gerichtet (Kurs unter SMA20/50/200, MACD negativ), was gegen Long spricht, doch RSI 23 signalisiert eine stark überverkaufte Lage direkt auf der Schlüsselunterstützung 0,0748 (52W-Tief) — ein Short auf diesem Niveau hat ein schlechtes Chance-Risiko-Verhältnis. Bärischer Trend und überverkauftes Kontra-Setup widersprechen sich, sodass kein stimmiges Bild vorliegt. Erst ein bestätigter Bruch unter 0,0748 oder eine Rückeroberung Richtung 0,0888 liefern ein handelbares Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

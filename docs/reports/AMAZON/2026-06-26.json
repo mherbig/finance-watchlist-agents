@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Operativ starkes Bild (AWS +28%, Werbung +24%, Rekord-Op-Income) steht einem klaren technischen Abwärtstrend gegenüber: Kurs unter SMA20/50, Bias bearish, MACD negativ, nur knapp über SMA200 und kritischem Support 227. Analyse (bullisch) und Technik (bearisch) widersprechen sich, das Sentiment ist nach dem Capex-Schock fragil, RSI 38 zeigt keine bestätigte Wende - daher FLAT bis ~227 hält oder ein klarer Trendbruch erfolgt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

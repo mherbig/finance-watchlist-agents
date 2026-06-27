@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der GER40 steckt bei 24.671 in einer Seitwaerts-Phase: zwar ueber SMA50/SMA200, aber unter der SMA20, RSI 51 neutral und ein negatives MACD-Histogramm (-19,7) signalisieren nachlassendes Momentum ohne klare Richtung. Nahe dem 52W-Hoch (-2,95%) ist die Luft nach unten groesser als nach oben, und das Makro-Bild ist gemischt (ECB-Zinserhoehung plus starker Euro belastet exportlastige Schwergewichte). Da Analyse und Technik kein stimmiges Long- oder Short-Setup ergeben, bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

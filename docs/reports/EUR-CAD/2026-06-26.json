@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Übergeordnet aufwärtsgestaffelt (Kurs über SMA50/200), doch Trend ist seitwärts und Bias neutral: RSI 45,6 leicht defensiv und MACD-Histogramm negativ (-0,0011) signalisieren nachlassendes Momentum innerhalb der engen Spanne 1,6059–1,6256. Da langfristiges Bild und kurzfristige Technik auseinanderlaufen und die Bewegung primär von CAD-Schwäche samt Ölpreisrisiko abhängt, fehlt ein stimmiges Setup. Erst ein Bruch über 1,6256 (Long) bzw. unter 1,6059 (Short) würde ein klares Urteil rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

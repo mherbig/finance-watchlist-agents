@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Die Struktur ist bullisch: Kurs (1,2230) ueber SMA20/50/200, MACD positiv und intakt, getragen von klarer Zinsdivergenz (RBA strafft, RBNZ haelt OCR bei 2,25 %). Allerdings notiert das Paar mit RSI 72 ueberkauft direkt am Widerstand 1,2255 / 52W-Hoch (1,22792), weshalb ein sofortiger Einstieg ungueneig ist. Daher LONG-Bias mit Pullback-Entry und gedaempfter Ueberzeugung, zumal Hausprognosen mittelfristig Richtung 1,20 zeigen.",
+    "entry": 1.2072,
+    "stop_loss": 1.1957,
+    "take_profit": 1.2245,
+    "take_profit_2": 1.2255,
+    "rr": 1.5
   }
 }

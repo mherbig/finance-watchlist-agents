@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmiges baerisches Bild: Kurs (0,9786) unter SMA20 und SMA50, RSI 36 und negativer MACD (Hist -0,0011) bestaetigen das schwache Momentum, ohne ueberverkauft zu sein. Makro stuetzt die Short-These, da der oelgestuetzte CAD trotz RBA-Zinsvorsprung Abwaertsdruck erzeugt. Ein Bruch unter Support 0,9757 oeffnet Richtung SMA200/0,9613; Vorbehalt bleibt der hawkishe RBA-Carry, daher Conviction 3.",
+    "entry": 0.9786,
+    "stop_loss": 0.9867,
+    "take_profit": 0.9665,
+    "take_profit_2": 0.9757,
+    "rr": 1.5
   }
 }

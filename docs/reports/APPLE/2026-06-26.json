@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technik und Fundamentaldaten widersprechen sich: Der Kurs (282 USD) steht im Seitwaerts-Trend unter SMA20/50 (298/291) mit negativem MACD (Hist -2,87) und neutralem Bias, waehrend RSI 32 ueberverkauft signalisiert und das Rekord-Q2 (+17%) plus 'Siri AI' fundamental stuetzen. Da das kurzfristige Momentum schwach bleibt, die AI-Story nach dem 'Sell-the-news' nach WWDC unbewiesen ist und das ~32x-Multiple wenig Spielraum laesst, ist das Bild zu unklar fuer eine gerichtete Position. Erst eine Stabilisierung ueber SMA50 oder ein Rebound vom Support ~275 wuerde ein LONG-Setup rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

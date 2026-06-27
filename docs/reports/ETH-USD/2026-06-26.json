@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Bias sind klar bearish (Kurs 1.579 unter SMA20/50/200, MACD negativ), doch der Kurs sitzt nur 0,7 % ueber dem 52W-Tief und der Hauptunterstuetzung 1.568 - ein kritischer Entscheidungsbereich. RSI 40,8 ist noch nicht ueberverkauft und das leicht positive MACD-Histogramm (+0,47) deutet nachlassendes Abwaertsmomentum an, sodass Short-Fortsetzung und Bodenbildungs-Bounce gleich wahrscheinlich sind. Dieser Konflikt direkt an einer Schluessellinie rechtfertigt Abwarten bis 1.568 bricht (Short) oder 1.796 zurueckerobert wird (Long).",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

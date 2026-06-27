@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Starke Fundamentaldaten (Rekord-Q1 FY27, +85% Umsatz, 75% Bruttomarge, 80 Mrd. Rueckkauf) stehen einem klar bearischen technischen Bild gegenueber: Abwaertstrend, RSI 38, MACD negativ, Kurs unter SMA20/50 und nur knapp ueber SMA200. Der Kurs liegt mit 191,87 USD exakt auf der Unterstuetzung (=SMA200), waehrend NVDA trotz Rekordzahlen 2026 YTD einer der schwaechsten grossen Halbleiterwerte ist (China-Export- und Bewertungsrisiken). Analyse und Technik widersprechen sich deutlich, das Setup ist nicht stimmig -> kein Trade.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

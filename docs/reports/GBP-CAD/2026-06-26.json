@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend ist zwar intakt (Kurs ueber SMA20/50/200, Zinsvorteil der BoE von ~150 Bp), doch das Momentum hat gedreht: RSI 46 unter 50 und MACD-Histogramm leicht negativ deuten auf eine Konsolidierung. Mit nur 0,8 % Abstand zum 52W-Hoch und Widerstand bei 1,8791 fehlt unmittelbares Aufwaertspotenzial, waehrend Oelpreis-Risiken (Hormuz) den CAD staerken koennen. Bei widerspruechlichem Bild ist FLAT diszipliniert; ein konstruktiver Long-Einstieg waere erst nach Pullback an Support 1,8592 (SMA50) reizvoll.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

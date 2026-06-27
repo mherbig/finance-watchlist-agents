@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technik und Fundamentaldaten widersprechen sich: Der Kurs (86,46 USD) steht unter SMA20/50/200 mit negativem MACD und klarem Abwaertstrend, waehrend Fundamental (Forward-KGV ~12-13, ~7,7 Mrd. USD Net Cash, angehobene FY27-Guidance, 1-Mrd.-Rueckkauf) eine Unterbewertung nahelegt. RSI14 25 und der +4,3 %-Tag nahe Support 82,88 USD/SMA200 deuten zwar eine ueberverkaufte Gegenbewegung an, doch ohne Trendbestaetigung und bei NDR <100 % bleibt das Bild unklar - ein Long waere ein Griff ins fallende Messer. Erst eine Stabilisierung ueber SMA200 oder der Q2-FY27-Bericht (ca. August) liefert das fehlende Bestaetigungssignal.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Charttechnik und Analyse widersprechen sich: Der Kurs steht exakt am 52-Wochen-Tief (94,91 USD) im klaren Abwaertstrend unter SMA20/50/200 mit negativem MACD (-8,52 unter Signal), ohne bestaetigten Boden. Fundamental ist die KI-Cloud-Story (extern +40%) intakt, wird aber durch hohe Capex, negativen FCF, Adj. EBITDA -14% sowie China-/ADR-Risiken belastet. Ohne technische Bodenbildung und bei neutralem Bias ueberwiegt die Unsicherheit, daher kein Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

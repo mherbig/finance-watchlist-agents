@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist gemischt: Kurs ueber SMA20/50 mit RSI 54 und leicht positivem MACD, aber klar unter der SMA200 (0,572) - der mittelfristige Abwaertstrend ist nicht gebrochen. Erst ein Ausbruch ueber 0,5738/SMA200 wuerde eine echte Trendwende bestaetigen; bis dahin stehen positiver CAD-Carry und Oelpreis-Stuetze gegen strukturelle CHF-Staerke und SNB-Interventionsbereitschaft. Bei sehr geringer Volatilitaet (ATR ~0,4%) und widerspruechlichem Setup ueberwiegt Abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Kurzfristiges Momentum (RSI 62, frisches MACD-Cross, SMA20 zurückerobert) steht der intakt bärischen Mittelfrist-Struktur (Kurs unter SMA50/SMA200, 63 % unter 52W-Hoch, Trend seitwärts) entgegen – ein widersprüchliches Bild ohne stimmige Richtung. Der Kurs steckt direkt am Widerstand 73,93 fest; erst ein Tagesschluss klar darüber Richtung SMA50 ~78 würde ein Long rechtfertigen, ein Wochenschluss unter 60–65 öffnet erhebliches Abwärtsrisiko. Bis zu einem dieser Auslöser ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

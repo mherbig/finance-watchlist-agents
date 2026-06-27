@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Kurzfristig bullisches Momentum (Kurs über SMA20/50, RSI 57, MACD positiv), doch der Kurs steht exakt an der Resistance 1,9137, die mit der fallenden SMA200 (1,9273) zusammenfällt - eine Erholung innerhalb eines übergeordneten Abwärtstrends. Die geldpolitische Divergenz BoE vs. RBA ist ergebnisoffen (breite Spanne der RBA-Erwartungen), sodass Technik und Makro kein stimmiges Bild ergeben. Erst ein nachhaltiger Bruch über 1,9273 würde ein Long rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

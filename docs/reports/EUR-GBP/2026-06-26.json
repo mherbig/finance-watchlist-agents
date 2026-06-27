@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Stimmiges bearisches Bild: EUR/GBP handelt unter SMA20/50/200 mit fallender Staffelung, negativem MACD und neutralem RSI (49) - der Abwaertstrend ist intakt und das Pfund behaelt durch das 150-Bp-Zinsgefaelle den Carry-Vorteil. Da der Kurs nur 0,08 % ueber dem 52W-Tief/Support 0,862 steht, bietet ein Pullback Richtung 0,869 den besseren Einstieg statt einer Verfolgung am Tief.",
+    "entry": 0.869,
+    "stop_loss": 0.8746,
+    "take_profit": 0.8606,
+    "take_profit_2": 0.862,
+    "rr": 1.5
   }
 }

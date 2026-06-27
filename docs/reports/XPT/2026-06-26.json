@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technisch klar abwärtsgerichtet: Kurs unter SMA20/50/200, Bias bearish, MACD negativ; der RSI14 von 36,6 ist schwach, aber nicht überverkauft, und das +2,34 %-Tagesplus wirkt als technische Gegenbewegung am Support 1.580. Die fundamental stützende These (viertes Defizitjahr, niedrige Bestände) widerspricht dem kurzfristig verkäuferdominierten Momentum, sodass das Bild unklar bleibt. Erst ein Schluss über dem Widerstand 1.937 (LONG) bzw. unter 1.580 (SHORT) würde ein stimmiges Setup liefern.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

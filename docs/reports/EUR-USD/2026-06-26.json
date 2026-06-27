@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Momentum sind bearish (Kurs unter allen SMAs, MACD negativ unter Signal), doch der RSI bei 26.7 ist tief ueberverkauft und der Kurs steht nur 0.27% ueber der zentralen Unterstuetzung bei 1.1359 (zugleich 52W-Tief). Makro ist beidseitig hawkish und range-gebunden (Konsens 1.13-1.21), die technische Lage damit widerspruechlich an einer Schluesselmarke. Kein stimmiges Setup fuer Short oder Long, daher FLAT bis zum Bruch oder einer bestaetigten Bodenbildung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

@@ -89,5 +89,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist gemischt: kurzfristiger Trend 'up' und Kurs ueber SMA20/50, aber weiterhin unter SMA200 (542) und MACD-Histogramm leicht negativ - kein bestaetigter Aufwaertstrend. Fundamental belastet die noch organisch ruecklaeufige Kernsparte (Fashion & Leather Goods -2%), schwaches Europa/Japan, FX-Gegenwind und eine fragile China-Erholung den bullischen Case. Vor den H1-Ergebnissen am 28.07. ueberwiegt die Unsicherheit, daher FLAT mit niedriger Ueberzeugung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

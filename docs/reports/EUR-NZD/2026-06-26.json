@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Trend ist klar aufwaerts: Kurs ueber SMA20/50/200 (bullische Stapelung), MACD mit positivem Histogramm, getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Mit RSI 89,2 ist das Paar jedoch extrem ueberkauft und mit Widerstand quasi am Kurs (2,0191) nur 2 % unter dem 52W-Hoch, sodass ein direkter Einstieg riskant ist. Daher LONG, aber per Pullback Richtung SMA20/1,99 statt der ausgereizten Bewegung hinterherzulaufen.",
+    "entry": 1.9833,
+    "stop_loss": 1.9626,
+    "take_profit": 2.0143,
+    "take_profit_2": 2.0191,
+    "rr": 1.5
   }
 }

@@ -64,5 +64,19 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-27T18:14:39.564351+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwärts (Kurs unter SMA20/50/200, fallend, negatives MACD-Momentum), doch mit RSI 19 am frischen 52-Wochen-Tief ist der Index extrem überverkauft - ein Setup, das laut Analyse zu scharfen, kurzlebigen Mean-Reversion-Rallyes neigt. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem intakten Abwärtstrend; das Bild ist daher widersprüchlich. FLAT, bis sich entweder ein Bruch unter 23.000 mit Folgeschwäche bestätigt oder eine belastbare Bodenbildung zeigt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
   }
 }

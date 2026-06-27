@@ -39,7 +39,17 @@ function fmtPct(x, digits) {
 function fmtStamp(iso) {
   if (!iso) return "";
   const d = new Date(iso);
-  return Number.isNaN(d.getTime()) ? String(iso) : d.toLocaleString("de-DE");
+  if (Number.isNaN(d.getTime())) return String(iso);
+  return d.toLocaleString("de-DE", {
+    day: "numeric", month: "numeric", year: "numeric",
+    hour: "2-digit", minute: "2-digit",
+  });
+}
+
+function fmtDate(d) {
+  if (!d) return "";
+  const dt = new Date(d);
+  return Number.isNaN(dt.getTime()) ? String(d) : dt.toLocaleDateString("de-DE");
 }
 
 function trendChip(trend) {
@@ -120,9 +130,13 @@ function renderGrid(rows) {
       el.className = "row" + (r.available ? "" : " unavailable");
 
       const badge = r.has_agent_analysis ? agentBadge() : "";
-      const time = r.generated_at
-        ? `<span class="col-time">akt. ${escapeHtml(fmtStamp(r.generated_at))}</span>`
+      const dataDate = r.date
+        ? `<span class="col-time">Datenstand: ${escapeHtml(fmtDate(r.date))}</span>`
         : "";
+      const anaTime = r.generated_at
+        ? `<span class="col-time">Analyse: ${escapeHtml(fmtStamp(r.generated_at))}</span>`
+        : "";
+      const time = dataDate + anaTime;
 
       if (!r.available) {
         el.innerHTML = `

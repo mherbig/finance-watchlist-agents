@@ -1,9 +1,10 @@
 # scripts/evaluate_signals.py
 """Forward-Test-Evaluator fuer geloggte Signale.
 
-Liest docs/signals/log.jsonl. Fuer jedes Signal wird der neueste Report des
-Symbols geladen und dessen ``time_series`` (taegliche Bars, neueste zuerst)
-STRIKT NACH dem Signal-Datum durchlaufen (aelteste -> neueste):
+Liest docs/signals/log.jsonl. Fuer jedes Signal wird die neueste Rohdatei
+data/<safe>/raw-*.json geladen und deren ``time_series`` (taegliche Bars,
+neueste zuerst) ueber portfolio.resolve_trade STRIKT NACH dem Signal-Datum
+ausgewertet:
 
 - LONG:  Bar-low  <= stop_loss   -> "sl"
          sonst Bar-high >= take_profit -> "tp"
@@ -12,7 +13,7 @@ STRIKT NACH dem Signal-Datum durchlaufen (aelteste -> neueste):
 
 Wird innerhalb von ``horizon_days`` Bars keins getroffen -> "expired"
 (realized R aus dem letzten Close). Sind noch keine Bars nach dem Signal-Datum
-vorhanden (oder fehlt time_series), bleibt das Signal "open".
+vorhanden (oder fehlt die Rohdatei), bleibt das Signal "open".
 
 realized_R = sign * (exit - entry) / abs(entry - stop_loss)
 (sign = +1 LONG, -1 SHORT).
@@ -25,11 +26,18 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from src.analysis import portfolio  # noqa: E402
 from src.data.symbol_map import safe_name  # noqa: E402
 
+# resolve_trade-Status -> Track-Record-Outcome.
+_STATUS_TO_OUTCOME = {
+    "tp": "tp", "sl": "sl", "expired": "expired",
+    "open": "open", "none": "open",
+}
 
-def _latest_report(symbol_dir: Path) -> dict | None:
-    files = sorted(symbol_dir.glob("*.json"))
+
+def _latest_raw_report(symbol_dir: Path) -> dict | None:
+    files = sorted(symbol_dir.glob("raw-*.json"))
     if not files:
         return None
     try:
@@ -38,107 +46,18 @@ def _latest_report(symbol_dir: Path) -> dict | None:
         return None
 
 
-def _bars_after(time_series, signal_date):
-    """Bars STRIKT nach signal_date, sortiert aeltest -> neuest.
-
-    time_series-Bars sind dicts mit datetime/open/high/low/close (Strings).
-    """
-    if not isinstance(time_series, list):
-        return []
-    bars = []
-    for b in time_series:
-        if not isinstance(b, dict):
-            continue
-        dt = b.get("datetime")
-        if dt is None or signal_date is None or str(dt) <= str(signal_date):
-            continue
-        try:
-            bars.append({
-                "datetime": str(dt),
-                "high": float(b["high"]),
-                "low": float(b["low"]),
-                "close": float(b["close"]),
-            })
-        except (KeyError, TypeError, ValueError):
-            continue
-    bars.sort(key=lambda x: x["datetime"])
-    return bars
-
-
-def _realized_r(direction, exit_price, entry, stop_loss):
-    if entry is None or stop_loss is None or exit_price is None:
-        return None
-    denom = abs(entry - stop_loss)
-    if denom == 0:
-        return None
-    sign = 1.0 if direction == "LONG" else -1.0
-    return round(sign * (exit_price - entry) / denom, 4)
-
-
-def _evaluate_one(sig, report) -> dict:
-    """Liefert {outcome, exit_price, exit_date, bars_used, realized_R}."""
-    direction = sig.get("direction")
-    entry = sig.get("entry")
-    stop_loss = sig.get("stop_loss")
-    take_profit = sig.get("take_profit")
-    horizon = sig.get("horizon_days") or 0
-
-    result = {
-        "outcome": "open",
-        "exit_price": None,
-        "exit_date": None,
-        "bars_used": 0,
-        "realized_R": None,
+def _evaluate_one(sig, time_series) -> dict:
+    """Liefert {outcome, exit_price, exit_date, realized_R} via resolve_trade."""
+    resolved = portfolio.resolve_trade(sig, time_series or [])
+    return {
+        "outcome": _STATUS_TO_OUTCOME.get(resolved["status"], "open"),
+        "exit_price": resolved["exit_price"],
+        "exit_date": resolved["exit_date"],
+        "realized_R": resolved["realized_R"],
     }
 
-    # FLAT oder fehlende Zahlen -> nicht auswertbar, bleibt open.
-    if direction not in ("LONG", "SHORT") or entry is None or stop_loss is None \
-            or take_profit is None:
-        return result
 
-    time_series = (report or {}).get("time_series")
-    bars = _bars_after(time_series, sig.get("date"))
-    if not bars:
-        return result  # noch keine Bars nach Signal -> open
-
-    window = bars[:horizon]  # nur die ersten horizon Bars zaehlen
-    hit = False
-    for bar in window:
-        result["bars_used"] += 1
-        if direction == "LONG":
-            if bar["low"] <= stop_loss:
-                result.update(outcome="sl", exit_price=stop_loss, exit_date=bar["datetime"])
-                hit = True
-                break
-            if bar["high"] >= take_profit:
-                result.update(outcome="tp", exit_price=take_profit, exit_date=bar["datetime"])
-                hit = True
-                break
-        else:  # SHORT
-            if bar["high"] >= stop_loss:
-                result.update(outcome="sl", exit_price=stop_loss, exit_date=bar["datetime"])
-                hit = True
-                break
-            if bar["low"] <= take_profit:
-                result.update(outcome="tp", exit_price=take_profit, exit_date=bar["datetime"])
-                hit = True
-                break
-
-    if not hit:
-        # Kein SL/TP getroffen. Deckt das Fenster den vollen Horizont ab
-        # (>= horizon Bars vorhanden) -> "expired" mit realized R aus letztem
-        # Close. Sonst zu wenige Bars -> bleibt "open".
-        if len(bars) >= horizon and window:
-            last = window[-1]
-            result.update(outcome="expired", exit_price=last["close"],
-                          exit_date=last["datetime"])
-
-    if result["outcome"] in ("sl", "tp", "expired"):
-        result["realized_R"] = _realized_r(direction, result["exit_price"], entry, stop_loss)
-    return result
-
-
-def _aggregate(results, reports_by_symbol) -> dict:
+def _aggregate(results) -> dict:
     total = len(results)
     open_n = sum(1 for r in results if r["outcome"] == "open")
     resolved = [r for r in results if r["outcome"] in ("tp", "sl", "expired")]
@@ -194,6 +113,7 @@ def _aggregate(results, reports_by_symbol) -> dict:
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     settings = json.loads((root / "config" / "settings.json").read_text(encoding="utf-8"))
+    data_dir = root / settings["data_dir"]
     reports_dir = root / settings["reports_dir"]
     log_path = root / "docs" / "signals" / "log.jsonl"
     out_path = root / "docs" / "signals" / "track_record.json"
@@ -203,7 +123,8 @@ def main() -> None:
         return
 
     results = []
-    report_cache: dict[str, dict | None] = {}
+    raw_cache: dict[str, dict | None] = {}
+    asset_cache: dict[str, str | None] = {}
     for line in log_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line:
@@ -216,19 +137,37 @@ def main() -> None:
 
         display = sig.get("display") or sig.get("symbol")
         safe = safe_name(str(display)) if display else None
-        report = None
+        time_series = None
+        asset_class = None
         if safe is not None:
-            if safe not in report_cache:
-                sym_dir = reports_dir / safe
-                report_cache[safe] = _latest_report(sym_dir) if sym_dir.is_dir() else None
-            report = report_cache[safe]
+            if safe not in raw_cache:
+                sym_dir = data_dir / safe
+                raw = _latest_raw_report(sym_dir) if sym_dir.is_dir() else None
+                raw_cache[safe] = raw
+                # asset_class kommt aus dem Roh-Report (oder dem Report-Verz.).
+                ac = (raw or {}).get("asset_class")
+                if ac is None:
+                    rep_dir = reports_dir / safe
+                    if rep_dir.is_dir():
+                        rep_files = sorted(rep_dir.glob("*.json"))
+                        if rep_files:
+                            try:
+                                ac = json.loads(
+                                    rep_files[-1].read_text(encoding="utf-8")
+                                ).get("asset_class")
+                            except (json.JSONDecodeError, OSError):
+                                ac = None
+                asset_cache[safe] = ac
+            raw = raw_cache[safe]
+            time_series = (raw or {}).get("time_series")
+            asset_class = asset_cache.get(safe)
 
-        ev = _evaluate_one(sig, report)
+        ev = _evaluate_one(sig, time_series)
         results.append({
             "date": sig.get("date"),
             "symbol": sig.get("symbol"),
             "display": display,
-            "asset_class": (report or {}).get("asset_class"),
+            "asset_class": asset_class,
             "direction": sig.get("direction"),
             "conviction": sig.get("conviction"),
             "entry": sig.get("entry"),
@@ -238,14 +177,13 @@ def main() -> None:
             **ev,
         })
 
-    aggregates = _aggregate(results, report_cache)
+    aggregates = _aggregate(results)
+    from datetime import datetime, timezone
     track_record = {
-        "generated_at": None,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "signals": results,
         "aggregates": aggregates,
     }
-    from datetime import datetime, timezone
-    track_record["generated_at"] = datetime.now(timezone.utc).isoformat()
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Multi-Asset Watchlist-Analyse</title>
-  <link rel="stylesheet" href="assets/style.css?v=20260628a" />
+  <link rel="stylesheet" href="assets/style.css?v=20260628b" />
 </head>
 <body>
   <div id="banner" class="banner">
@@ -22,9 +22,18 @@
     <p id="track-record" class="track-record"></p>
   </header>
 
-  <main id="grid" class="grid-root">
+  <nav class="tabs" role="tablist">
+    <button id="tab-overview" class="tab-btn is-active" role="tab" aria-selected="true">Übersicht</button>
+    <button id="tab-portfolio" class="tab-btn" role="tab" aria-selected="false">Signale &amp; Depot</button>
+  </nav>
+
+  <main id="grid" class="grid-root" data-tab="overview">
     <p id="loading" class="loading">Lade Reports …</p>
   </main>
+
+  <section id="portfolio-view" class="portfolio-view" data-tab="portfolio" hidden>
+    <p class="loading">Lade Depot …</p>
+  </section>
 
   <!-- Detail-Modal -->
   <div id="modal" class="modal-overlay" hidden>
@@ -34,6 +43,6 @@
     </div>
   </div>
 
-  <script src="assets/app.js?v=20260628a"></script>
+  <script src="assets/app.js?v=20260628b"></script>
 </body>
 </html>

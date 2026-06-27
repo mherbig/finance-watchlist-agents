@@ -113,6 +113,31 @@ body {
   color: var(--green);
   border-color: rgba(63,185,80,.38);
 }
+/* Signal-Chip im Grid (Headline-Spalte) */
+.signal-chip {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  vertical-align: middle;
+}
+.signal-chip.sig-long {
+  background: rgba(63,185,80,.18);
+  color: var(--green);
+  border: 1px solid rgba(63,185,80,.40);
+}
+.signal-chip.sig-short {
+  background: rgba(248,81,73,.18);
+  color: var(--red);
+  border: 1px solid rgba(248,81,73,.40);
+}
+.sig-dots { font-size: 10px; letter-spacing: 1px; opacity: .9; }
+
+/* Forward-Test-Zeile im Header */
+.track-record { margin: 8px 0 0; font-size: 12px; color: var(--text-dim); }
+
 .col-price { font-variant-numeric: tabular-nums; }
 .col-change { font-variant-numeric: tabular-nums; font-weight: 600; }
 .col-rsi { font-variant-numeric: tabular-nums; color: var(--text-dim); }
@@ -209,6 +234,51 @@ body {
   border-radius: 6px;
   font-size: 13px;
   color: #f0c674;
+}
+
+/* Signal-Block im Detail-Modal */
+.signal-box {
+  margin-top: 22px;
+  padding: 16px 16px 18px;
+  background: var(--bg-elev2);
+  border: 1px solid rgba(210,153,34,.45);
+  border-left: 4px solid var(--amber);
+  border-radius: 10px;
+}
+.signal-box .signal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--amber);
+}
+.signal-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.signal-dir { font-size: 18px; font-weight: 700; }
+.signal-rationale {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: rgba(210,153,34,.08);
+  border-left: 3px solid var(--amber);
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.signal-flat { font-size: 14px; color: var(--text-dim); }
+.signal-none {
+  margin-top: 22px;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
 }
 
 /* Agent-Analyse im Detail-Modal */

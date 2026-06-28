@@ -24,6 +24,12 @@ function safeName(display) {
   return String(display).split("/").join("-");
 }
 
+// Cache-Busting fuer Daten-JSONs: erzwingt frische index/report/portfolio-Dateien,
+// damit nach einem Push kein veralteter Index auf eine geprunte Report-Datei zeigt (404).
+function noCache(url) {
+  return url + (url.includes("?") ? "&" : "?") + "_=" + Date.now();
+}
+
 function fmtNum(x, digits) {
   if (x === null || x === undefined || Number.isNaN(x)) return "–";
   const n = Number(x);
@@ -278,7 +284,7 @@ async function openDetail(row) {
 
   let rep;
   try {
-    const res = await fetch(url);
+    const res = await fetch(noCache(url));
     if (!res.ok) throw new Error("HTTP " + res.status);
     rep = await res.json();
   } catch (err) {
@@ -369,7 +375,7 @@ async function renderTrackRecord() {
   if (!el) return;
   let tr;
   try {
-    const res = await fetch("signals/track_record.json");
+    const res = await fetch(noCache("signals/track_record.json"));
     if (!res.ok) throw new Error("HTTP " + res.status);
     tr = await res.json();
   } catch (err) {
@@ -554,7 +560,7 @@ async function renderPortfolio() {
 
   let pf = null;
   try {
-    const res = await fetch("signals/portfolio.json");
+    const res = await fetch(noCache("signals/portfolio.json"));
     if (!res.ok) throw new Error("HTTP " + res.status);
     pf = await res.json();
   } catch (err) {
@@ -638,7 +644,7 @@ async function init() {
   wireTabs();
   const root = document.getElementById("grid");
   try {
-    const res = await fetch("reports/index.json");
+    const res = await fetch(noCache("reports/index.json"));
     if (!res.ok) throw new Error("HTTP " + res.status);
     const rows = await res.json();
 
@@ -653,7 +659,7 @@ async function init() {
     // "Zuletzt aktualisiert" aus dem ersten Report holen (generated_at liegt nicht im Index;
     // wir laden den ersten Detail-Report, um den Zeitstempel anzuzeigen).
     const first = rows[0];
-    fetch(`reports/${safeName(first.display)}/${first.date}.json`)
+    fetch(noCache(`reports/${safeName(first.display)}/${first.date}.json`))
       .then((r) => (r.ok ? r.json() : null))
       .then((rep) => {
         if (rep && rep.generated_at) {

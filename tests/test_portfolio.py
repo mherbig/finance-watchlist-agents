@@ -368,6 +368,104 @@ def test_actionable_after_non_actionable_first_signal():
 
 
 # --------------------------------------------------------------------------
+# resolve_symbol_trades — at-most-one-open-position invariant (60-vs-30 bug)
+# --------------------------------------------------------------------------
+def test_two_consecutive_long_signals_unresolved_is_one_open_trade():
+    # THE 60-vs-30 bug: day1 LONG never resolves (no bar after day2), then a
+    # day2 LONG arrives. The open position must HOLD, not open a second trade.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),  # only one bar, none after day2
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert len(trades) == 1
+    assert trades[0]["status"] == "open"
+    assert trades[0]["entry"] == 100.0
+    assert trades[0]["stop_loss"] == 95.0
+
+
+def test_three_consecutive_long_signals_unresolved_is_one_open_trade():
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-03", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert len(trades) == 1
+    assert trades[0]["status"] == "open"
+
+
+def test_unresolved_long_then_short_flips_then_one_open():
+    # day1 LONG never resolves before day2; day2 SHORT flips it closed, then
+    # the SHORT opens (and stays open). At most one open position at the end.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "SHORT", 102.0, 110.0, 80.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),  # flip day close=102, no bar after
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    # day1 LONG flips closed at the day2 bar (it was filled/market).
+    assert trades[0]["direction"] == "LONG"
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-02"
+    # day2 SHORT opens; with no bar after day2 it stays open.
+    short_trades = [t for t in trades if t["direction"] == "SHORT"]
+    assert len(short_trades) == 1
+    assert short_trades[0]["status"] == "open"
+    # invariant: at most one open position at the end.
+    assert sum(1 for t in trades if t["status"] == "open") <= 1
+
+
+def test_long_tp_before_day2_then_day2_opens_sequentially():
+    # day1 LONG fills + hits TP on a bar before day2; THEN day2 LONG opens a
+    # new position sequentially (not concurrently). One open at the end.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 104.0, horizon_days=20),
+        _sig("2026-01-03", "LONG", 110.0, 105.0, 130.0, horizon_days=20),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 104),  # high 105 >= TP 104 -> tp, before day2
+        _bar("2026-01-03", 104, 108, 101, 107),  # day2 opens here
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert len(trades) == 2
+    assert trades[0]["status"] == "tp"
+    assert trades[0]["exit_date"] == "2026-01-02"
+    assert trades[1]["date"] == "2026-01-03"
+    assert trades[1]["entry"] == 110.0
+    assert trades[1]["status"] == "open"
+    assert sum(1 for t in trades if t["status"] == "open") <= 1
+
+
+def test_simulate_open_count_one_per_symbol_all_open():
+    # Build the all-open 2-day scenario for many symbols and confirm
+    # open_count == number of symbols (not 2x).
+    n_symbols = 30
+    ts = _ts(_bar("2026-01-02", 100, 105, 99, 102))  # no bar after day2
+    all_trades = []
+    for k in range(n_symbols):
+        sym = f"S{k:03d}"
+        signals = [
+            _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20,
+                 symbol=sym, display=sym),
+            _sig("2026-01-02", "LONG", 100.0, 95.0, 130.0, horizon_days=20,
+                 symbol=sym, display=sym),
+        ]
+        all_trades.extend(portfolio.resolve_symbol_trades(signals, ts))
+    res = portfolio.simulate(all_trades)
+    assert res["summary"]["open_count"] == n_symbols
+
+
+# --------------------------------------------------------------------------
 # resolve_symbol_trades — entry-fill modeling (phantom-win regression)
 # --------------------------------------------------------------------------
 def test_pullback_short_entry_above_price_never_filled_is_no_fill():

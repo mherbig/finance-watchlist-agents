@@ -277,7 +277,13 @@ function renderSignal(sig) {
 }
 
 async function openDetail(row) {
-  const url = `reports/${safeName(row.display)}/${row.date}.json`;
+  // Immer den neuesten Report des Symbols laden. Aufrufer (z. B. die Depot-
+  // Tabelle) uebergeben teils das Einstiegsdatum eines offenen Trades, fuer das
+  // keine Report-Datei mehr existiert (nur der aktuelle Stand wird vorgehalten)
+  // -> sonst HTTP 404. Datum daher aus dem Index aufloesen, Fallback row.date.
+  const idxRow = INDEX_BY_DISPLAY[row.display];
+  const date = (idxRow && idxRow.date) || row.date;
+  const url = `reports/${safeName(row.display)}/${date}.json`;
   const body = document.getElementById("modal-body");
   body.innerHTML = `<p class="loading">Lade Detail …</p>`;
   showModal();

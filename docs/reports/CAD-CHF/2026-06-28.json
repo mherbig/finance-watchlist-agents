@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T23:51:57.460916+00:00",
   "available": true,
   "snapshot": {
-    "price": 0.57042,
-    "change_pct": 0.0,
+    "price": 0.57092,
+    "change_pct": -0.0052544006,
     "currency": null
   },
   "technical": {
-    "last_close": 0.57042,
-    "change_pct": 0.0,
+    "last_close": 0.57092,
+    "change_pct": -0.0052544005604649256,
     "sma20": 0.5699,
     "sma50": 0.5698,
-    "sma200": 0.5719,
-    "rsi14": 54.6,
+    "sma200": 0.5718,
+    "rsi14": 65.29,
     "macd": {
-      "macd": 0.0002,
-      "signal": 0.0,
-      "hist": 0.0001
+      "macd": 0.0003,
+      "signal": 0.0001,
+      "hist": 0.0002
     },
-    "atr14": 0.0022,
+    "atr14": 0.002,
     "high_52w": 0.58246,
     "low_52w": 0.56198,
-    "pct_from_high": -2.07,
-    "pct_from_low": 1.5,
+    "pct_from_high": -1.98,
+    "pct_from_low": 1.59,
     "trend": "up",
     "bias": "bullish",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 55",
+  "headline": "Trend up, RSI 65",
   "flags": [],
   "agent_analysis": {
     "track": "technical",

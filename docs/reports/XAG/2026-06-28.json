@@ -4,36 +4,36 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T23:51:57.460916+00:00",
   "available": true,
   "snapshot": {
-    "price": 59.674,
-    "change_pct": 2.2726,
+    "price": 59.015,
+    "change_pct": -0.3411,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 59.67399978637695,
-    "change_pct": 2.2725718505047667,
-    "sma20": 67.6265,
-    "sma50": 73.5902,
-    "sma200": 68.2659,
-    "rsi14": 32.49,
+    "last_close": 59.01499938964844,
+    "change_pct": -0.3411176985219908,
+    "sma20": 66.7736,
+    "sma50": 73.1893,
+    "sma200": 68.3531,
+    "rsi14": 31.69,
     "macd": {
-      "macd": -3.9817,
-      "signal": -3.1239,
-      "hist": -0.8578
+      "macd": -4.1282,
+      "signal": -3.3306,
+      "hist": -0.7976
     },
-    "atr14": 2.4592,
+    "atr14": 2.1686,
     "high_52w": 115.08000183105469,
-    "low_52w": 36.082000732421875,
-    "pct_from_high": -48.15,
-    "pct_from_low": 65.38,
+    "low_52w": 36.35100173950195,
+    "pct_from_high": -48.72,
+    "pct_from_low": 62.35,
     "trend": "down",
     "bias": "bearish",
     "levels": [
       {
         "type": "resistance",
-        "price": 75.616
+        "price": 75.311
       },
       {
         "type": "support",

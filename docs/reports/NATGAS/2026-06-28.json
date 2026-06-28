@@ -4,30 +4,30 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T23:51:57.460916+00:00",
   "available": true,
   "snapshot": {
-    "price": 3.279,
-    "change_pct": -1.9144,
+    "price": 3.296,
+    "change_pct": 2.0118,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 3.2790000438690186,
-    "change_pct": -1.914444885511296,
-    "sma20": 3.2051,
-    "sma50": 2.9728,
-    "sma200": 3.4549,
-    "rsi14": 52.63,
+    "last_close": 3.2960000038146973,
+    "change_pct": 2.0117628689215805,
+    "sma20": 3.203,
+    "sma50": 2.9848,
+    "sma200": 3.456,
+    "rsi14": 57.58,
     "macd": {
-      "macd": 0.0698,
-      "signal": 0.0701,
-      "hist": -0.0003
+      "macd": 0.0679,
+      "signal": 0.0691,
+      "hist": -0.0012
     },
-    "atr14": 0.1329,
+    "atr14": 0.138,
     "high_52w": 7.460000038146973,
     "low_52w": 2.5230000019073486,
-    "pct_from_high": -56.05,
-    "pct_from_low": 29.96,
+    "pct_from_high": -55.82,
+    "pct_from_low": 30.64,
     "trend": "up",
     "bias": "bullish",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 53",
+  "headline": "Trend up, RSI 58",
   "flags": [],
   "agent_analysis": {
     "track": "technical",

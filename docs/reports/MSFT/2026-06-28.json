@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 372.97,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Fundamental ueberzeugend (Azure +40% kkw, AI-ARR +123% YoY, Forward-KGV ~21-22x historisch guenstig, Konsens ~31% Upside), doch die Technik ist klar bearish: Kurs unter SMA20/50/200, MACD negativ, Trend down und kein bestaetigter Boden trotz ueberverkauftem RSI 31 direkt am kritischen 52W-Support 352,83 USD. These und Charttechnik widersprechen sich; ein Long ist erst nach Bodenbestaetigung (Stabilisierung ueber Support, MACD-Drehung) sinnvoll - bis dahin FLAT.",
+    "rationale": "Fundamental ueberzeugend (Azure +40% kkw, AI-ARR +123% YoY, Forward-KGV ~21-22x historisch guenstig, Konsens ~31% Upside), doch die Technik bleibt klar bearish: Kurs unter SMA20/50/200, MACD negativ, Trend down und kein bestaetigter Boden trotz ueberverkauftem RSI 31 direkt am kritischen 52W-Support 352,83 USD. These und Charttechnik widersprechen sich; ein Long ist erst nach Bodenbestaetigung (Stabilisierung ueber Support, MACD-Drehung) sinnvoll - bis dahin FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

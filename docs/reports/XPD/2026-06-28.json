@@ -4,7 +4,7 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 1220.4,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der uebergeordnete Trend ist klar abwaerts (Kurs 1.220 unter SMA20/50/200, MACD -50,6 negativ und unter Signal), doch der RSI14 ist mit 47 neutral und der Kurs stabilisiert sich direkt auf der Support-Zone 1.161 knapp ueber dem 52W-Tief (1.082); der +3,4%-Tag ist nur eine Gegenbewegung ohne Trendwechsel. Bearischer Trend und neutrales Momentum an wichtiger Unterstuetzung widersprechen sich, ein sauberes Swing-Setup fehlt. Erst ein Bruch unter 1.161 (Short) oder eine bestaetigte Erholung ueber den SMA20 wuerde ein Urteil rechtfertigen.",
+    "rationale": "Der uebergeordnete Trend ist klar abwaerts (Kurs 1.220 unter SMA20/50/200, MACD -50,6 negativ und unter Signal), doch der RSI14 ist mit 47 neutral und der Kurs stabilisiert sich direkt auf der Support-Zone 1.161 knapp ueber dem 52W-Tief (1.082). Der +3,4%-Tag ist nur eine Gegenbewegung ohne Trendwechsel; bearischer Trend und neutrales Momentum an wichtiger Unterstuetzung widersprechen sich, ein sauberes Swing-Setup fehlt. Erst ein Bruch unter 1.161 (Short) oder eine bestaetigte Erholung ueber den SMA20 wuerde ein Urteil rechtfertigen.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

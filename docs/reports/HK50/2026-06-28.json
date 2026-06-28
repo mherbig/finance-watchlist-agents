@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 22671.86,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Abwärtstrend ist intakt: Kurs 22.672 unter SMA20/50/200 (alle fallend), MACD -653 unter Signal -489 mit negativem Histogramm. Doch mit RSI14 18,4 am frischen 52-Wochen-Tief ist der Index extrem überverkauft - laut Analyse ein Setup für scharfe, aber kurzlebige Mean-Reversion-Rallyes. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem klaren Trend; das Bild ist widersprüchlich, daher FLAT bis zu einem bestätigten Bruch unter die 22.672er-Unterstützung mit Folgeschwäche oder einer belastbaren Bodenbildung.",
+    "rationale": "Der Abwaertstrend ist intakt: Kurs 22.672 unter SMA20/50/200 (alle fallend), MACD -653 unter Signal -489 mit negativem Histogramm. Doch mit RSI14 18,4 am frischen 52-Wochen-Tief ist der Index extrem ueberverkauft - laut Analyse ein Setup fuer scharfe, aber kurzlebige Mean-Reversion-Rallyes. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem klaren Trend; das Bild ist widerspruechlich, daher FLAT bis zu einem bestaetigten Bruch unter 22.672 mit Folgeschwaeche oder einer belastbaren Bodenbildung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

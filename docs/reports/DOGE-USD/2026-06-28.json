@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 0.07353,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts (Kurs 0,07353 unter SMA20/50/200, MACD negativ, trend 'down'), was gegen einen Long spricht; zugleich sitzt der Kurs mit RSI 7,02 extrem überverkauft exakt auf der Schlüsselunterstützung 0,0735, die identisch mit dem 52W-Tief ist, sodass ein Short ein schlechtes Chance-Risiko-Verhältnis hätte. Bärischer Trend und überverkauftes Kontra-Setup widersprechen sich, daher kein stimmiges Bild und FLAT. Erst ein bestätigter Bruch unter 0,0735 oder eine Rückeroberung Richtung Resistance 0,0888 liefert ein handelbares Setup.",
+    "rationale": "Der Trend ist klar abwärts: Der Kurs (0,07353) liegt unter SMA20/50/200, MACD ist negativ und trend steht auf 'down', was gegen einen Long spricht. Zugleich ist der Markt mit RSI 7,02 extrem überverkauft und sitzt exakt auf der Schlüsselunterstützung 0,0735, die mit dem 52W-Tief identisch ist, sodass ein Short ein schlechtes Chance-Risiko-Verhältnis hätte. Bärischer Trend und überverkauftes Kontra-Setup widersprechen sich, daher kein stimmiges Bild und FLAT; erst ein bestätigter Bruch unter 0,0735 oder eine Rückeroberung Richtung Resistance 0,0888 liefert ein handelbares Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

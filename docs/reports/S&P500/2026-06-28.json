@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 7354.02,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt (klar ueber SMA200), doch kurzfristig handelt der Index seitwaerts knapp unter SMA20 und praktisch auf SMA50, mit neutralem RSI14 (48) und negativem MACD-Histogramm (-24,2) als Zeichen nachlassenden Schwungs. Hawkische Fed-Wende, gestreckte Bewertungen (~21x) und enge Marktbreite stehen dem KI-Gewinnwachstum entgegen — ein widerspruechliches Bild ohne stimmiges Setup. Daher FLAT bis zum Bruch aus der Range 7.267-7.610.",
+    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt (Kurs 7.354 klar ueber SMA200 bei 6.925), doch kurzfristig handelt der Index seitwaerts knapp unter SMA20 (7.455) und praktisch auf SMA50 (7.363), mit neutralem RSI14 (48) und negativem MACD-Histogramm (-24,2) als Zeichen nachlassenden Schwungs. Die hawkische Fed-Wende, gestreckte Bewertungen (~21x) und enge Marktbreite stehen dem KI-Gewinnwachstum entgegen — ein widerspruechliches Bild ohne stimmiges Setup. Daher FLAT bis zum Bruch aus der Range 7.267-7.610.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

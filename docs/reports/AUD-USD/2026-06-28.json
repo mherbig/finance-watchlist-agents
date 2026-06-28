@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 0.68933,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwaerts (Kurs 0,68933 unter SMA20/50, MACD negativ und unter Signal), doch der extrem ueberverkaufte RSI von 19,6 trifft auf den Kurs exakt an der Unterstuetzung 0,6893, die deckungsgleich mit der SMA200 ist - ein Short auf diesem gestreckten Niveau ist riskant, eine technische Erholung ueberfaellig. Da bearisches Momentum und Bounce-Gefahr sich widersprechen und kein bestaetigter Bruch vorliegt, ist FLAT diszipliniert; erst ein Tagesschluss unter 0,6893 oder ueber 0,7071 klaert das Bild.",
+    "rationale": "Der Trend ist klar abwaerts (Kurs 0,68933 unter SMA20/50, MACD negativ und unter Signal), doch der extrem ueberverkaufte RSI von 19,6 trifft auf den Kurs exakt an der Unterstuetzung 0,6893, die deckungsgleich mit der SMA200 ist - ein Short auf diesem gestreckten Niveau ist riskant, eine technische Erholung ueberfaellig. Da bearisches Momentum und akute Bounce-Gefahr sich widersprechen und kein bestaetigter Bruch vorliegt, ist FLAT diszipliniert; erst ein Tagesschluss unter 0,6893 oder ueber 0,7071 klaert das Bild.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

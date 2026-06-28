@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 24.29,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Die Technik ist klar bearisch: Kurs (24,29 USD) unter SMA20/50/200, MACD negativ und unter Signal, intakter Abwaertstrend nur 4,3% ueber dem 52W-Tief - das spricht gegen LONG. Dagegen stehen RSI 30 (ueberverkauft) nahe Support 23,67 sowie die Value-/Dividenden-These (~8-9x Forward-KGV, ~6,6% Rendite) gegen den Patent-Cliff 2026-2030 - das spricht gegen SHORT. Widerspruechliches Bild ohne stimmiges Setup, daher FLAT mit niedriger Ueberzeugung.",
+    "rationale": "Die Technik ist klar bearisch: Kurs (24,29 USD) unter SMA20/50/200, MACD negativ und unter Signal, intakter Abwaertstrend nur 4,3% ueber dem 52W-Tief - das spricht gegen LONG. Dagegen stehen RSI 30 (ueberverkauft) direkt am Support 23,67 sowie die Value-/Dividenden-These (~8-9x Forward-KGV, ~6,6% Rendite, bestaetigte Guidance) gegen den Patent-Cliff 2026-2030 - das spricht gegen SHORT. Widerspruechliches Bild ohne stimmiges Setup, daher FLAT mit niedriger Ueberzeugung.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

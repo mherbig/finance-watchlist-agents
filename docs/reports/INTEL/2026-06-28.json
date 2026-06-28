@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 128.32001,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar bullish (Kurs ueber SMA20/50/200, MACD positiv) und operativ stuetzen Q1-Beat (+22 % DCAI) sowie 18A-P in Risk Production das Momentum. Die gestreckte Bewertung (~147x Forward-KGV, weit ueber DCF-Fair-Value ~45-60 USD), RSI 67 nahe ueberkauft und das flache MACD-Histogramm mahnen nach +450 % YTD jedoch zur Zurueckhaltung. Daher LONG mit massvoller Conviction und Pullback-Einstieg Richtung SMA20 ~119,4; naechster Pruefstein sind die Q2-Earnings am ~22.07.",
+    "rationale": "Der Trend ist klar bullish (Kurs ueber SMA20/50/200, MACD positiv) und operativ stuetzen der Q1-Beat (+22 % DCAI) sowie 18A-P in Risk Production das Momentum. Die gestreckte Bewertung (~147x Forward-KGV, weit ueber DCF-Fair-Value ~45-60 USD), RSI 67 nahe ueberkauft und das flache MACD-Histogramm mahnen nach +450 % YTD jedoch zur Zurueckhaltung. Daher LONG mit massvoller Conviction und Pullback-Einstieg Richtung SMA20 ~119,4; naechster Pruefstein sind die Q2-Earnings am ~22.07.",
     "entry": 99.17,
     "stop_loss": 79.4548,
     "take_profit": 128.7428,

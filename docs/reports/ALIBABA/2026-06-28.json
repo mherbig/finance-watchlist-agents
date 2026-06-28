@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 94.81,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Charttechnik und Fundamentalbild widersprechen sich klar: Der Kurs steht exakt am 52-Wochen-Tief (94,81 USD) im intakten Abwaertstrend unter SMA20/50/200, MACD negativ (-8,53 unter Signal -6,80, Hist -1,72), Bias neutral und ohne bestaetigte Bodenbildung. Fundamental bleibt die KI-Cloud-Story (externe Cloud-Erloese +40%) attraktiv, wird aber von hoher Capex, negativem FCF, Adj. EBITDA -14% sowie China-/ADR-Risiken belastet. Bei diesem Widerspruch und fehlendem technischen Boden ueberwiegt die Unsicherheit, daher kein Setup.",
+    "rationale": "Technik und Fundamentalbild widersprechen sich klar: Der Kurs steht exakt am 52-Wochen-Tief (94,81 USD) im intakten Abwaertstrend unter SMA20/50/200, MACD negativ (-8,53 unter Signal -6,80, Hist -1,72), Bias neutral und ohne bestaetigte Bodenbildung. Fundamental bleibt die KI-Cloud-Story (externe Cloud-Erloese +40%) attraktiv, wird jedoch von hoher Capex, negativem FCF, Adj. EBITDA -14% sowie China-/ADR-Risiken belastet. Bei diesem Widerspruch und fehlendem technischen Boden ueberwiegt die Unsicherheit, daher kein Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

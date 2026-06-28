@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 29118.238,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Nasdaq-100 konsolidiert seitwärts bei 29.118 knapp unter dem Allzeithoch: Kurs über SMA50/200, aber unter der SMA20, RSI 51 exakt neutral und negatives MACD-Histogramm (-159) signalisieren nachlassendes Momentum ohne klare Richtung. Die hawkishe Fed-Wende unter Warsh steht gegen den KI-Capex-Supercycle, was das Bild widerspruechlich macht. Erst ein Bruch ueber 30.661 (Long) bzw. unter 28.508 (Short) liefert ein stimmiges Setup.",
+    "rationale": "Der Nasdaq-100 konsolidiert seitwaerts bei 29.118 knapp unter dem Allzeithoch: Kurs ueber SMA50/200, aber unter der SMA20, RSI 51 exakt neutral und negatives MACD-Histogramm (-159) signalisieren nachlassendes Momentum ohne klare Richtung. Die hawkishe Fed-Wende unter Warsh steht gegen den KI-Capex-Supercycle, was das Bild widerspruechlich macht. Erst ein Bruch ueber 30.661 (Long) bzw. unter 28.508 (Short) liefert ein stimmiges Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

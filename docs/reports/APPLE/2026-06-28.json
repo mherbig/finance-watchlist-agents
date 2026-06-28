@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "generated_at": "2026-06-28T14:49:14.365324+00:00",
   "available": true,
   "snapshot": {
     "price": 283.78,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "generated_at": "2026-06-28T14:55:42.631970+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Technik und Fundamentaldaten widersprechen sich klar: Der Kurs (283,78 USD) steht im Seitwaerts-Trend unter SMA20/50 (298/291) mit negativem MACD (Hist -2,76) und neutralem Bias, waehrend RSI 33 ueberverkauft ist und das Rekord-Q2 (+17%) sowie 'Siri AI' fundamental stuetzen. Das schwache kurzfristige Momentum, die nach dem 'Sell-the-news' post-WWDC unbewiesene AI-Story und das ~32x-Multiple ergeben ein zu unklares Bild fuer eine gerichtete Position. Erst eine Stabilisierung ueber SMA50 oder ein bestaetigter Rebound vom Support ~275 wuerde ein LONG-Setup rechtfertigen.",
+    "rationale": "Technik und Fundamentaldaten widersprechen sich: Der Kurs (283,78 USD) steht im Seitwaerts-Trend unter SMA20/50 (298/291) mit negativem MACD (Hist -2,76) und neutralem Bias, waehrend RSI 33 ueberverkauft ist und das Rekord-Q2 (+17%) sowie der 'Siri AI'-Start fundamental stuetzen. Das schwache kurzfristige Momentum, die post-WWDC noch unbewiesene AI-Story ('Sell the news') und das ~32x-Multiple ergeben ein zu unklares Bild fuer eine gerichtete Position. Erst eine Stabilisierung ueber SMA50 oder ein bestaetigter Rebound vom Support ~275 wuerde ein LONG-Setup rechtfertigen.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

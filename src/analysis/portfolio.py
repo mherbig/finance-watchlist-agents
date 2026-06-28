@@ -397,14 +397,31 @@ def resolve_symbol_trades(signals: list, time_series: list,
                                               stop_loss)
         trades.append(trade)
 
+        # Ein durch einen Flip ausgeloestes no_fill (Pullback wurde vor dem
+        # Gegensignal nie gefuellt -> Trade nie real): das Gegensignal selbst
+        # darf danach eine neue Position eroeffnen.
+        flip_cancelled = (trade["status"] == "no_fill"
+                          and flip_index is not None)
+
+        # Invariante: HOECHSTENS EINE offene Position pro Symbol. Eine Position
+        # ohne Exit (exit_date is None), die NICHT durch einen Flip storniert
+        # wurde, blieb open/pending bis ans Ende der Daten. Spaetere GLEICH-
+        # gerichtete Signale werden gehalten (kein zweiter Trade); ein spaeteres
+        # Gegen-/FLAT-Signal waere bereits als flip_date geschlossen worden. Es
+        # darf also keine neue, NEBENLAEUFIGE Position eroeffnet werden ->
+        # Schleife beenden.
+        if exit_date is None and trade["status"] != "flip" \
+                and not flip_cancelled:
+            break
+
         # Weiter nach dem Exit: das Flip-Signal (oder das naechste Signal nach
-        # dem Exit-Datum) darf eine neue Position eroeffnen.
-        if trade["status"] == "flip" and flip_index is not None:
+        # dem Exit-/Storno-Datum) darf eine neue Position eroeffnen.
+        if (trade["status"] == "flip" or flip_cancelled) \
+                and flip_index is not None:
             i = flip_index
         else:
-            # Naechstes Signal, dessen Datum strikt nach dem Exit-Datum liegt
-            # (oder nach dem Entry, falls die Position offen blieb).
-            boundary = exit_date if exit_date is not None else entry_date
+            # Naechstes Signal, dessen Datum strikt nach dem Exit-Datum liegt.
+            boundary = exit_date
             nxt = i + 1
             while nxt < n and str(sigs[nxt].get("date")) <= str(boundary):
                 nxt += 1

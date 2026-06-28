@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.86288,
+    "change_pct": -0.0104291,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.86288,
+    "change_pct": -0.010429099505201165,
+    "sma20": 0.864,
+    "sma50": 0.8652,
+    "sma200": 0.8683,
+    "rsi14": 51.22,
+    "macd": {
+      "macd": -0.0006,
+      "signal": -0.0003,
+      "hist": -0.0002
+    },
+    "atr14": 0.003,
+    "high_52w": 0.88308001,
+    "low_52w": 0.86201,
+    "pct_from_high": -2.29,
+    "pct_from_low": 0.1,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.869
+      },
+      {
+        "type": "support",
+        "price": 0.862
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/GBP notiert bei 0,86268 und damit nur 0,08 % über dem frischen 52-Wochen-Tief von 0,86201 - der Trend bleibt klar abwaerts. Der Kurs liegt unter allen drei SMAs (20/50/200), MACD ist negativ und der RSI von 49 zeigt keine ueberverkaufte Erschoepfung. Trotz der ersten EZB-Zinsanhebung seit 2023 bleibt das BoE-EZB-Zinsgefaelle von 150 Bp die strukturelle Stuetze fuer das Pfund.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der **Abwaertstrend ist intakt**: Mit 0,86268 handelt EUR/GBP unter SMA20 (0,8641), SMA50 (0,8653) und SMA200 (0,8684) - die fallende SMA-Staffelung bestaetigt den bearishen Bias. - **Momentum**: RSI14 bei 49,3 ist neutral, also noch kein ueberverkauftes Signal. MACD (-0,0005) unter Signal (-0,0002), negatives Histogramm (-0,0003) - Abwaertsdruck haelt an. - **Level**: Unmittelbarer Support 0,862 (deckungsgleich mit dem 52W-Tief 0,86201); Widerstand 0,869, darueber die SMA200 als Deckel. Ein Bruch unter 0,862 oeffnet neuen Spielraum nach unten. - **Volatilitaet/Distanz**: ATR14 von 0,0031 (~36 Pips) bedeutet ruhige Tagesranges. Der Kurs steht 2,31 % unter dem 52W-Hoch (0,88308) und nur 0,08 % ueber dem 52W-Tief - die Range ist nach unten ausgereizt."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist das **Zinsgefaelle**: Die BoE hielt am 18. Juni bei **3,75 %** (7-2-Votum), die EZB hob am 11. Juni erstmals seit 2023 auf **2,25 %** an. Das Differential schrumpfte damit von 175 auf **150 Bp** - mittelfristig euro-stuetzend, doch Sterling behaelt vorerst den Carry-Vorteil, was den Druck auf EUR/GBP erklaert. - **Termine**: EZB-Entscheid 23. Juli, BoE 30. Juli - die naechsten Hauptkatalysatoren. - **Risiken**: Hartnaeckige Eurozonen-Inflation (Anstieg im Mai) haelt EZB-Strafftungsfantasie am Leben; schwaechelnde EU-Geschaeftsklimadaten und genereller USD-Staerke-Schub wirken dagegen. Ein BoE-Schwenk Richtung Zinssenkung waere der staerkste Aufwaerts-Katalysator fuer das Paar."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Stimmig bearisches Bild: EUR/GBP handelt unter SMA20/50/200 mit fallender Staffelung, negativem MACD und Trend abwaerts, waehrend der RSI14 (51) neutral bleibt - der Abwaertsdruck ist intakt. Strukturell stuetzt das 150-Bp-Zinsgefaelle zugunsten des Pfunds (Carry-Vorteil) das Paar nach unten. Da der Kurs nur 0,1 % ueber dem 52W-Tief/Support 0,862 steht, bietet ein Pullback Richtung Widerstand 0,869 den besseren Einstieg als ein Nachjagen am Tief.",
+    "entry": 0.869,
+    "stop_loss": 0.8744,
+    "take_profit": 0.8609,
+    "take_profit_2": 0.862,
+    "rr": 1.5
+  }
+}

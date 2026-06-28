@@ -1,0 +1,107 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 192.53,
+    "change_pct": -1.63993,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 192.53,
+    "change_pct": -1.6399355451141597,
+    "sma20": 207.765,
+    "sma50": 210.086,
+    "sma200": 190.6402,
+    "rsi14": 38.73,
+    "macd": {
+      "macd": -3.6973,
+      "signal": -1.7928,
+      "hist": -1.9045
+    },
+    "atr14": 6.7286,
+    "high_52w": 235.74001,
+    "low_52w": 153.3,
+    "pct_from_high": -18.33,
+    "pct_from_low": 25.59,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 224.36
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 39",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "NVIDIA bleibt operativ der dominante Profiteur des KI-/Rechenzentrums-Booms (Rekord-Q1 FY27 am 20.05.2026: 81,6 Mrd. USD Umsatz, +85% YoY), notiert technisch aber bei 191,87 USD im Abwaertstrend (RSI 38, MACD negativ, unter SMA20/50, knapp ueber SMA200). Die Aktie ist 2026 YTD nur leicht im Plus und einer der schwaechsten grossen Halbleiterwerte trotz starker Fundamentaldaten, belastet v.a. durch China-Exportthemen und Bewertungsdebatte.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "**Sektor:** KI-Beschleuniger / Rechenzentrums-Halbleiter, weiterhin einer der staerksten Marktbereiche 2026. **Marktstellung:** NVIDIA haelt geschaetzt **85-92%** Anteil am Markt fuer KI-Beschleuniger. Management nennt einen Auftrags-/Pipeline-Umfang von ca. **1 Bio. USD** fuer Blackwell- und Vera-Rubin-Prozessoren (2026/27) und erwartet Hyperscaler-Capex von rund **1 Bio. USD in 2027**. **Wettbewerb / Peers:** AMD (MI300-Serie, 2026 YTD ca. +138%, deutlich staerker als NVDA), Intel (Gaudi) sowie Custom-Silicon der Hyperscaler - Amazon (Trainium), Google (TPU), Microsoft (Maia). **Trends:** Anhaltend hohe GPU-Nachfrage, Ausbau Rechenzentren; Gegenwind durch US-Exportkontrollen Richtung China und lokalen Wettbewerb. NVIDIA versucht ueber Vera-CPUs (geringere Regulierung) einen Weg zurueck in den China-Markt."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Letzte Earnings (Q1 FY2027, 20.05.2026):**\n\n- Umsatz **81,6 Mrd. USD**, +85% YoY, +20% QoQ\n- Data-Center-Umsatz **75,2 Mrd. USD**, +92% YoY (getrieben von Blackwell-300-Ramp, InfiniBand, Spectrum-X, NVLink)\n- Bruttomarge GAAP/Non-GAAP **74,9% / 75,0%**\n- EPS GAAP/Non-GAAP **2,39 / 1,87 USD**\n- Kapitalrueckfuehrung: zusaetzliche **80 Mrd. USD** Rueckkauf-Autorisierung, Dividende von 0,01 auf **0,25 USD** je Quartal angehoben\n- Hyperscaler ~50% des Data-Center-Umsatzes, ~50% diversifiziert (AI-Clouds, Enterprise, Sovereign)\n\n**Thesen-Treiber:** Blackwell/Vera-Rubin-Ramp, Hyperscaler-Capex-Zyklus, hohe Margen und massive Rueckkaeufe. **Gegenpol:** China-Exportrisiko - JPMorgan/Bernstein schaetzen kumulativen Gegenwind von **5,5-16 Mrd. USD** ueber den Zyklus."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Hinweis: grobe Schaetzung, keine praezise Bewertung.**\n\n**Multiples:** NVDA notierte im Mai 2026 bei rund 33x P/E (trailing) bzw. ca. **45x Forward-EPS** - Aufschlag gegenueber Halbleiter-Peers, gerechtfertigt nur bei fortgesetzt hohem Wachstum. **Comps-Logik:** Bei Non-GAAP-EPS-Run-Rate von ~1,87 USD/Quartal (Q1 FY27) und weiterem Wachstum impliziert ein Forward-EPS im Bereich ~8-9 USD (annualisiert/steigend, grobe Annahme). **Grobe Fair-Value-Spanne (illustrativ):**\n- Bear ~30x Forward-EPS -> ca. **150-170 USD**\n- Base ~40x -> ca. **200-230 USD**\n- Bull ~50x bei Pipeline-Realisierung -> ca. **260-300 USD**\n\nDie Spanne deckt sich grob mit Analysten-Kurszielen (Konsens ~269-299 USD lt. oeffentlichen Aggregatoren). **Annahmen:** anhaltender Hyperscaler-Capex, Margen ~75%, kein materieller China-Totalausfall. Sensitiv ggü. Multiple-Kontraktion."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "**Plausibilitaet vs. Comps:** Forward-Multiple ~45x liegt ueber dem Halbleiterdurchschnitt; angesichts +85% Umsatzwachstum und 75% Bruttomarge ist die Praemie fundamental teils gedeckt, laesst aber wenig Puffer fuer Wachstumsverlangsamung. **Technische Diskrepanz:** Trotz Rekordzahlen ist NVDA 2026 YTD nur leicht im Plus und laut Quellen einer der schwaechsten grossen Halbleiterwerte - der Markt preist offenbar Risiken/Peak-Cycle-Sorgen ein. Kurs 191,87 USD liegt **-18,6%** unter 52W-Hoch (235,74) und nur knapp ueber SMA200 (190,64). **Risiken:** (1) China-Export/-Wettbewerb (5,5-16 Mrd. USD Gegenwind), (2) Multiple-Kontraktion bei Capex-Verlangsamung, (3) Custom-Silicon der Hyperscaler erodiert langfristig Anteil, (4) Konzentrationsrisiko (~50% Umsatz bei Hyperscalern), (5) zyklische Ueberbau-Gefahr."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Neutrale Gegenueberstellung - kein Votum.**\n\n**Bull-Punkte:**\n- Dominanz (85-92% Marktanteil), ~1 Bio. USD Pipeline\n- Rekordzahlen, 75% Bruttomarge, +85% Umsatzwachstum\n- 80 Mrd. USD Rueckkauf + Dividendenerhoehung signalisieren Vertrauen\n- Vera Rubin als naechster Wachstumstreiber; CPU-Weg zurueck nach China\n\n**Bear-Punkte:**\n- Forward ~45x P/E - hohe Erwartungen eingepreist\n- 2026 YTD schwaechster grosser Halbleiterwert trotz starker Fundamentals (Sentiment-/Momentum-Bruch)\n- China-Exportrestriktionen, Gegenwind 5,5-16 Mrd. USD\n- Custom-Silicon (Trainium/TPU/Maia) und AMD (+138% YTD) als strukturelle Konkurrenz\n- Technisch klarer Abwaertstrend (RSI 38, MACD negativ)\n\n**Spannung:** starke Fundamentaldaten vs. schwaches Momentum und Bewertungs-/China-Risiken."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kurs/Technik:** 191,87 USD (-1,98% Tag), Abwaertstrend, RSI 38, MACD negativ; Support 191,87 / SMA200 190,64, Widerstand 224,36; -18,6% unter 52W-Hoch (235,74), +25,2% ueber 52W-Tief (153,30). - **Letzte Earnings (20.05.2026):** Rekord 81,6 Mrd. USD Umsatz (+85%), Data Center 75,2 Mrd. (+92%), EPS Non-GAAP 1,87 USD, 80 Mrd. Rueckkauf, Dividende auf 0,25 USD. - **Katalysator China:** US-Commerce schliesst Juni 2026 Schlupfloch fuer Rubin/Blackwell; NVIDIA pusht Vera-CPU nach China (ggf. ab August). Headwind-Schaetzung 5,5-16 Mrd. USD. - **Wettbewerb beobachten:** AMD YTD ca. +138% vs. NVDA leicht positiv; Custom-Silicon der Hyperscaler. - **Naechste Termine/Trigger:** Q2-FY27-Earnings (ca. August 2026), Vera-Rubin-Ramp-Updates, Hyperscaler-Capex-Guidance, weitere Exportregel-Entscheidungen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Starke Fundamentaldaten (Rekord-Q1 FY27 mit +85% Umsatz, 75% Bruttomarge, 80 Mrd. USD Rueckkauf) stehen einem klar bearischen technischen Bild gegenueber: Abwaertstrend, RSI 38,7, MACD negativ, Kurs unter SMA20/50 und mit 192,53 USD nur knapp ueber der Unterstuetzung SMA200 (190,64). Zudem ist NVDA 2026 YTD trotz Rekordzahlen einer der schwaechsten grossen Halbleiterwerte (China-Export- und Bewertungsrisiken). Analyse und Technik widersprechen sich deutlich, daher kein Trade.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

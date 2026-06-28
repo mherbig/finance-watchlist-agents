@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 213.47636,
+    "change_pct": -9.368718e-06,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 213.47636,
+    "change_pct": -9.36871798479451e-06,
+    "sma20": 213.9874,
+    "sma50": 213.8074,
+    "sma200": 212.2743,
+    "rsi14": 40.37,
+    "macd": {
+      "macd": -0.2097,
+      "signal": -0.1451,
+      "hist": -0.0646
+    },
+    "atr14": 1.0413,
+    "high_52w": 216.21484,
+    "low_52w": 199.94701,
+    "pct_from_high": -1.27,
+    "pct_from_low": 6.77,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 215.4671
+      },
+      {
+        "type": "support",
+        "price": 212.7984
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/JPY notiert bei 213,52 und konsolidiert seitwärts knapp unter dem SMA20/50-Cluster (214,0/213,8), während der mittelfristige SMA200 bei 212,21 weiter steigend ist. Mit RSI 41 und negativem MACD ist das kurzfristige Momentum verhalten, der Kurs liegt nur 1,25 % unter dem 52W-Hoch. Die BoJ-Zinswende (Leitzins seit Juni bei 1,00 %) untergräbt das Carry-Differential und gibt dem mittelfristigen Bias eine leicht abwärts gerichtete Tendenz.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **seitwärts** (Bias neutral): Mit 213,52 handelt das Paar unter SMA20 (214,01) und SMA50 (213,81), aber klar über dem steigenden SMA200 (212,21) - das mittelfristige Bild bleibt konstruktiv, kurzfristig ist die Kraft raus. - **RSI 41** signalisiert nachlassendes Momentum ohne Überverkauft-Zone\n- **MACD negativ** (Linie -0,21 unter Signal -0,11, Histogramm -0,11) bestaetigt den leichten Abwaertsdruck\n- **Support 212,80** (nahe SMA200), darunter Lücke bis 52W-Tief 199,95 (-6,8 %)\n- **Resistance 215,47**, dann 52W-Hoch 216,21 (nur -1,25 % entfernt)\n\nATR14 von 1,13 (~0,53 %) deutet auf gedämpfte Tagesvolatilität - eine Auflösung der Range zwischen 212,80 und 215,47 dürfte die nächste Richtung vorgeben."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Hauptreiber ist die **Zinsdifferenz BoE vs. BoJ**. Die BoJ hob den Leitzins im Juni 2026 auf **1,00 %**; das Summary of Opinions zeigt breite Unterstützung für weitere Schritte, Board-Mitglied Tamura nennt ~2 % als neutrales Ziel. Das schmälert das historisch hohe Carry-Polster (Paar weit über 10J-Schnitt ~170) und stützt den mittelfristigen Abwärts-Bias. - **Termine:** nächste BoJ-Entscheidung 31. Juli; BoE-Sitzung und UK-Inflation als GBP-Treiber\n- **Risiken:** abrupte Carry-Trade-Auflösungen (Yen-Flash-Crash Aug 2024 >3 % an einem Tag) sowie japanische FX-Interventionsrhetorik bei schwachem Yen"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "GBP/JPY konsolidiert seitwaerts in der Range 212,80-215,47, knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,21). RSI 40 und negativer MACD (Linie unter Signal, Histogramm negativ) signalisieren verhaltenes Abwaertsmomentum, das dem konstruktiven mittelfristigen Strukturbild widerspricht, waehrend die BoJ-Zinswende (Leitzins 1,00 %) das Carry-Polster untergraebt. Bei diesem Widerspruch ohne Range-Ausbruch ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

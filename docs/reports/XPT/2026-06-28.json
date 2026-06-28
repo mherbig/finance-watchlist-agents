@@ -1,0 +1,82 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1647.3,
+    "change_pct": 2.847,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1647.300048828125,
+    "change_pct": 2.8469812727962522,
+    "sma20": 1754.665,
+    "sma50": 1907.026,
+    "sma200": 1899.7345,
+    "rsi14": 37.46,
+    "macd": {
+      "macd": -82.4547,
+      "signal": -74.6252,
+      "hist": -7.8294
+    },
+    "atr14": 43.5714,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -42.25,
+    "pct_from_low": 28.06,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1937.4
+      },
+      {
+        "type": "support",
+        "price": 1580.6
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Platin notiert bei 1.639 USD und hat sich am 26.06. mit +2,34 % kräftig vom Support gelöst, bleibt technisch aber klar abwärtsgerichtet: Der Kurs liegt unter SMA20/50/200, rund 43 % unter dem 52W-Hoch von 2.852 USD. Fundamental stützt das vierte Defizitjahr in Folge (WPIC: ~297 koz Fehlbetrag 2026, historisch niedrige Lagerbestände) die mittelfristige These, während kurzfristig Trend und Momentum noch verkäuferdominiert sind.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend down, Bias bearish.** Der Schlusskurs von **1.639 USD** liegt unter SMA20 (1.754), SMA50 (1.907) und SMA200 (1.900) - eine vollständig bärische Stapelung, die SMAs wirken als gestaffelte Widerstände. - **RSI14 = 36,6**: schwach, aber noch nicht überverkauft - Raum für weitere Abgaben. - **MACD** unter Null und unter Signal (Hist -8,3): negatives Momentum, jedoch flacher werdend. - **Level**: Support **1.580,6** (knapp gehalten), Widerstand **1.937,4**; ein Schluss darunter öffnet Richtung 52W-Tief 1.286. - **ATR14 = 43,6** (~2,7 %): erhöhte Volatilität, passend zum +2,34 %-Tagesplus. Abstand: **-42,5 %** zum 52W-Hoch (2.852), **+27,4 %** über dem Tief - die Erholung wirkt bislang als technische Gegenbewegung im Abwärtstrend."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Strukturell knapp, zyklisch unter Druck.** Der WPIC erwartet 2026 das **vierte Defizitjahr in Folge** (~297 koz Fehlbetrag), oberirdische Bestaende fallen auf ~2,6 Mio. oz (gut vier Monate Nachfrage) - mittelfristig preisstuetzend. - **Auto-Nachfrage** -2 % j/j auf ~2.959 koz; EV-Tempo bleibt der Schluesseltreiber. - **Schmuck** -12 % j/j (hohe Preise), aber **Bar & Coin +35 %** auf Rekord ~725 koz. - **Treiber**: USD-Kurs, Fed-Zinspfad, moegliche Zoelle auf strategische Metalle, Wasserstoff/Brennstoffzellen als Langfrist-Story. Kurzfristig dominieren Makro-Unsicherheit und Momentum; das physische Defizit liefert den Boden fuer Erholungen am Support 1.580."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technisch klar abwärtsgerichtet: Kurs (1.647 USD) unter SMA20/50/200, Bias bearish und MACD negativ, doch RSI14 mit 37 nur schwach und nicht überverkauft, während das +2,8 %-Tagesplus als technische Gegenbewegung am Support 1.580,6 wirkt. Das fundamentale Defizit (viertes Defizitjahr in Folge, historisch niedrige Bestände) stützt mittelfristig und widerspricht dem kurzfristig verkäuferdominierten Momentum, sodass das Bild widersprüchlich bleibt. Erst ein Tagesschluss über Widerstand 1.937,4 (LONG) bzw. unter 1.580,6 (SHORT) liefert ein stimmiges Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

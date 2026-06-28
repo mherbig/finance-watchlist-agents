@@ -1,0 +1,107 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 86.48,
+    "change_pct": 4.34364,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 86.48,
+    "change_pct": 4.343629343629354,
+    "sma20": 95.0872,
+    "sma50": 97.1631,
+    "sma200": 87.2399,
+    "rsi14": 25.11,
+    "macd": {
+      "macd": -3.9749,
+      "signal": -2.6894,
+      "hist": -1.2855
+    },
+    "atr14": 3.7376,
+    "high_52w": 111.88,
+    "low_52w": 69.77,
+    "pct_from_high": -22.7,
+    "pct_from_low": 23.95,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 111.88
+      },
+      {
+        "type": "support",
+        "price": 82.88
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Zoom notiert bei 86,46 USD (+4,3 % am Tag) tief im Abwaertstrend: unter SMA20/50/200 und mit RSI14 bei 25 klar ueberverkauft. Fundamental steht dem ein profitables, cash-reiches Unternehmen gegenueber, das nach starkem Q1 FY27 (AI-Companion-Nutzer +184 % YoY) die Jahresprognose anhob und ein 1-Mrd.-USD-Rueckkaufprogramm auflegte. Die Aktie ist mit einem Forward-KGV um 12-13 niedrig bewertet, der Markt zweifelt aber am Wachstumsmomentum.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Zoom operiert im Markt fuer **Unified Communications / Collaboration** (Video, Telefonie, Contact Center) und positioniert sich zunehmend als **AI-First-Work-Plattform**. Der Kernmarkt ist gesaettigt und hart umkaempft: **Microsoft Teams** (gebuendelt in M365), **Google Meet**, **Cisco Webex** sowie im Contact-Center-Segment **Five9, NICE, Genesys** und **Salesforce**. Wachstum kommt heute weniger aus dem reifen Meetings-Geschaeft als aus **Enterprise** (Q1 FY27: 755,7 Mio. USD, +7,2 % YoY) und neuen Produkten wie **Zoom Phone, Contact Center, Workvivo** sowie der **AI-Companion-Suite**. Strukturell relevant ist die fruehe **Anthropic-Beteiligung**, die Teile der Markt-Story stuetzt. Die Branche verschiebt sich von Seat-basiertem Video hin zu KI-gestuetzten Workflow- und Agenten-Produkten - hier muss Zoom gegen die Bundling-Macht von Microsoft bestehen."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 FY2027 (Quartal per 30.04.2026, gemeldet 21.05.2026):** Umsatz **1.239,0 Mio. USD** (+5,5 % YoY, +4,6 % FX-bereinigt), Enterprise +7,2 %. **Non-GAAP-EPS 1,55 USD**, GAAP-EPS 1,42 USD; **GAAP-Operating-Margin 25,1 %** (+450 bp), Non-GAAP 41,1 %. Kunden >100k USD TTM-Umsatz: 4.534 (+8,2 %), Enterprise-Net-Dollar-Expansion 99 %. These-Treiber: **AI-Companion-Paid-User +184 % YoY**, My-Notes-Lizenzen 1,5 Mio. in vier Monaten. Zoom **hob die FY27-Umsatzprognose auf 5,08-5,09 Mrd. USD** an und kuendigte **+1,0 Mrd. USD Rueckkauf** (zusaetzlich zu ~625 Mio. USD Rest) an. Belastend: nur einstelliges Wachstum, NDR unter 100 %, sinkende Bruttomarge (~79,8 %) durch AI-Investitionen. Die These steht und faellt mit der Monetarisierung der AI-Produkte."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schaetzung, keine Punktprognose.** Bei FY27e-Non-GAAP-EPS um ~5,97 USD ergibt der Kurs von 86,46 USD ein **Forward-KGV von ~12-13** - deutlich unter dem SaaS-Median und nahe Bewertungen reiner Value-Software-Namen. Entscheidend ist die hohe Netto-Cash-Position: **~7,7 Mrd. USD** liquide Mittel/Wertpapiere bei einer Marktkapitalisierung im niedrigen zweistelligen Mrd.-Bereich. Bereinigt um Cash faellt das operative KGV in den **einstelligen Bereich**. Mit erwartetem **FCF von 1,7-1,74 Mrd. USD** liegt die FCF-Rendite (auf EV) im mittleren zweistelligen Prozentbereich. **Grobe Fair-Value-Spanne:** ~95-120 USD bei Annahme von 3-5 % Umsatzwachstum, stabilen ~40 % Non-GAAP-Margen und KGV-Reversion auf 14-17x. Bei anhaltender Stagnation ist der untere Rand realistischer."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Das niedrige Forward-KGV (~12-13) ist plausibel und konsistent mit **strukturell niedrigem Wachstum** und Margin-Druck durch AI-Capex - der Markt preist Zoom als profitables, aber wachstumsschwaches Software-Unternehmen, nicht als Growth-Story. Die cash-bereinigte Sicht (~7,7 Mrd. USD Net Cash, FCF 1,7+ Mrd.) untermauert die These einer Unterbewertung, sofern der FCF verteidigt wird. **Risiken der Bewertung:** (1) Net-Dollar-Expansion < 100 % signalisiert Schrumpfung in der Bestandsbasis; (2) Bruttomargen-Erosion durch AI-Inferenzkosten; (3) Wettbewerbsdruck von Microsoft kann Pricing und Retention belasten; (4) AI-Monetarisierung bislang Nutzerwachstum, kein klar quantifizierter Umsatzbeitrag. Die Comps-Logik haengt an der Annahme, dass Umsatz nicht negativ wird."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull:** Forward-KGV ~12-13 bei ~7,7 Mrd. USD Net Cash und 1,7+ Mrd. USD FCF; aggressive Rueckkaeufe (+1 Mrd. USD) reduzieren Aktienbasis; AI-Companion-Paid-User +184 % YoY und angehobene FY27-Guidance; Enterprise- und Contact-Center-Diversifikation; Anthropic-Beteiligung als Optionalitaet. Technisch RSI 25 (ueberverkauft) nahe Support 82,88 USD und SMA200 (87,24 USD). **Bear:** Nur ~5 % Umsatzwachstum, NDR unter 100 % - Bestandskunden schrumpfen; Bruttomarge faellt durch AI-Kosten; Microsoft Teams als Bundling-Bedrohung; AI-Hype noch nicht in Umsatz uebersetzt. Trend klar abwaerts (Kurs unter allen SMAs, MACD negativ), pct_from_high -22,7 %. Niedriges KGV koennte Value-Trap sein, falls Wachstum dauerhaft stagniert."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Bewertung vs. Bilanz:** Forward-KGV ~12-13, ~7,7 Mrd. USD Net Cash, FCF 1,7-1,74 Mrd. USD - cash-bereinigt sehr guenstig; +1 Mrd. USD Rueckkauf angekuendigt. - **Letzte Earnings (21.05.2026, Q1 FY27):** Umsatz 1,239 Mrd. USD (+5,5 %), Non-GAAP-EPS 1,55 USD, Op-Margin GAAP 25,1 %; FY27-Guidance auf 5,08-5,09 Mrd. USD angehoben. - **AI-Katalysator:** AI-Companion-Paid-User +184 % YoY, My Notes 1,5 Mio. Lizenzen; Schluesselfrage = Umsatz-Monetarisierung; Anthropic-Stake als Optionalitaet. - **Schwachpunkte:** Net-Dollar-Expansion 99 % (<100 %), Bruttomarge ~79,8 % sinkend, Wettbewerb Microsoft Teams. - **Technik/Timing:** RSI14 25 (ueberverkauft), Kurs 86,46 USD nahe Support 82,88 USD und SMA200 87,24 USD; naechster Trigger = Q2-FY27-Bericht (ca. August 2026)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Technik und Fundamental widersprechen sich klar: Der Kurs (86,48 USD) steht unter SMA20/50/200 mit negativem MACD und intaktem Abwaertstrend, waehrend die Fundamentaldaten (Forward-KGV ~12-13, ~7,7 Mrd. USD Net Cash, angehobene FY27-Guidance, 1-Mrd.-Rueckkauf) eine Unterbewertung nahelegen. RSI14 25 und der +4,3 %-Tag nahe Support 82,88 USD und SMA200 (87,24 USD) deuten nur auf eine ueberverkaufte Gegenbewegung, doch bei NDR <100 % und ohne Trendbestaetigung fehlt ein belastbares Setup. Erst eine Stabilisierung ueber dem SMA200 oder der Q2-FY27-Bericht (ca. August) liefert ein klares Signal - bis dahin FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

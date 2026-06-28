@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/AUD",
+  "display": "EUR/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.65196,
+    "change_pct": -0.0066583135,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.65179,
+    "change_pct": -0.016948434388363444,
+    "sma20": 1.6424,
+    "sma50": 1.6327,
+    "sma200": 1.6727,
+    "rsi14": 61.24,
+    "macd": {
+      "macd": 0.0044,
+      "signal": 0.0032,
+      "hist": 0.0012
+    },
+    "atr14": 0.0073,
+    "high_52w": 1.80259,
+    "low_52w": 1.61394,
+    "pct_from_high": -8.37,
+    "pct_from_low": 2.35,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6521
+      },
+      {
+        "type": "support",
+        "price": 1.6324
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/AUD notiert bei 1.65091 (+0.34 %) und kämpft an der unmittelbaren Resistance um 1.6509, nachdem es sich vom 52W-Tief bei 1.61394 (+2.29 %) gelöst hat. Kurz- und mittelfristig ist der Trend aufwärts gerichtet (Kurs über SMA20/50), die SMA200 bei 1.6737 deckelt jedoch weiterhin als übergeordnete Hürde. Treiber bleibt das Zinsdifferenzial: hawkische RBA (Cash-Rate ~3.35 %) gegen eine ECB, die nach der ersten Anhebung seit 2023 nur bei ~2.0-2.25 % steht.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (1.65091) liegt klar über **SMA20 (1.641)** und **SMA50 (1.6317)** - kurzfristig **bullish**, Trend up. Die **SMA200 (1.6737)** verläuft jedoch oberhalb und markiert die zentrale Hürde des übergeordneten Abwärtskontexts. **RSI14 bei 59.99** ist konstruktiv, aber knapp unter der 60er-Schwelle und noch nicht überkauft. **MACD** liegt positiv über der Signallinie (Hist +0.0008) und stützt das Momentum. - **Resistance 1.6509** (exakt am Kurs - Ausbruch entscheidend)\n- **Support 1.6324**, darunter die SMA50\n- **ATR14 0.0075** (~75 Pips Tagesschwankung)\n- Abstand zum **52W-Hoch (1.80259): -8.41 %**, zum **52W-Tief (1.61394): +2.29 %**\n\nEin nachhaltiger Schluss über 1.6509 öffnet den Weg Richtung SMA200; Abpraller bringt erneut 1.6324 ins Spiel."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Kernfaktor ist das **Zinsdifferenzial**: Die **RBA** hat 2026 dreimal angehoben und signalisiert weitere Straffung bei Inflation über 2.5 % (Cash-Rate ~3.35 %, Markt preist ~50 % Chance auf weiteren Hike). Die **ECB** hob im Juni 2026 erstmals seit 2023 um 25 Bp an (Einlagensatz 2.25 %), bleibt aber deutlich darunter - das stützt strukturell den AUD und deckelt EUR/AUD. - **AUD-Treiber:** Eisenerz ~100 USD/t (Prognose Richtung 93 USD/t), Chinas BWS-Aufwärtsrevisionen (Goldman) als Rückenwind\n- **Risiken pro EUR/AUD:** schwächere Rohstoffe, China-Stärke und Risk-on belasten das Paar\n- **Termine:** kommende RBA-/ECB-Sitzungen, Eurozone- und Australien-Inflationsdaten"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisch: Kurs (1.65196) ueber SMA20 (1.6424) und SMA50 (1.6327), Trend up, RSI14 61.24 konstruktiv und MACD positiv ueber der Signallinie (Hist +0.0012), gestuetzt vom Zinsdifferenzial (hawkische RBA gegen nachhinkende ECB). Der Kurs steht jedoch exakt an der Resistance 1.6521 mit noch offenem Ausbruch, waehrend die SMA200 (1.6727) als uebergeordnete Huerde deckelt. Daher nur moderate Ueberzeugung und Einstieg auf Pullback Richtung 1.6324/SMA50 statt Kauf direkt am Widerstand.",
+    "entry": 1.6324,
+    "stop_loss": 1.6193,
+    "take_profit": 1.6521,
+    "take_profit_2": 1.6521,
+    "rr": 1.5
+  }
+}

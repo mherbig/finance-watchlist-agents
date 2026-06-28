@@ -1,0 +1,82 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 556.0,
+    "change_pct": -0.21536253,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 556.0,
+    "change_pct": -0.215362526920324,
+    "sma20": 587.348,
+    "sma50": 624.6004,
+    "sma200": 694.4572,
+    "rsi14": 21.84,
+    "macd": {
+      "macd": -17.5826,
+      "signal": -15.4872,
+      "hist": -2.0955
+    },
+    "atr14": 18.9314,
+    "high_52w": 1138.88,
+    "low_52w": 556.0,
+    "pct_from_high": -51.18,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 617.87
+      },
+      {
+        "type": "support",
+        "price": 556.0
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 22",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "BNB notiert bei 566,23 USD und steht unter klarem Abwärtsdruck: rund 50 % unter dem 52W-Hoch (1.138,88) und nur ~1 % über dem 52W-Tief (560,62). Alle wichtigen SMAs liegen darüber, RSI 33 signalisiert überverkaufte Bedingungen nahe einer markanten Unterstützung. Das Makroumfeld (hawkische Fed, Bitcoin-Schwäche, MiCA-Risiko) bleibt belastend, doch die 560er-Zone ist die entscheidende Verteidigungslinie.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Der Kurs (566,23) liegt unter SMA20 (591,93), SMA50 (628,29) und SMA200 (697,84) - eine vollständig bärische Reihenfolge. Der **RSI14 von 32,6** signalisiert überverkaufte Bedingungen, während der **MACD negativ** bleibt (Linie -16,44 unter Signal -14,46, Histogramm -1,98) und damit anhaltende Abwärtsdynamik bestätigt. Entscheidend ist die **Unterstützung bei 560,62** (zugleich 52W-Tief) - der Kurs liegt nur ~1 % darüber. Ein Bruch öffnet Raum nach unten, ein Halten kann eine technische Erholung Richtung **Widerstand 617,87** und SMA20 auslösen. Mit **ATR14 ~19,5** (≈3,5 % Tagesschwankung) ist die Volatilität erhöht. Der Abstand von **-50,3 % zum 52W-Hoch** zeigt das Ausmaß der Korrektur."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Makroumfeld bleibt **risk-off**: Bitcoin fiel im Juni 2026 Richtung ~61-63k bei sechs Wochen ETF-Abflüssen, der Fear-&-Greed-Index steht in \"Extreme Fear\" (24). Die **Fed** hielt am 16./17. Juni die Zinsen stabil; Märkte preisen mit ~69 % Wahrscheinlichkeit keine Zinssenkung für 2026, dazu Inflation bei 3,8 % und ein Dollar-Index auf Jahreshoch. BNB-spezifisch belastet das **MiCA-Risiko** (mögliche Lizenz-Ablehnung für Binance in der EU). Positiv: Der Start von **bStocks** (tokenisierte US-Aktien als BEP-20) am 11. Juni könnte On-Chain-Aktivität und BNB-Nachfrage stützen. Schlüssel-Marke bleibt die 600er-/560er-Zone."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Vollstaendig baerische Struktur: Kurs (556) liegt unter SMA20 (587), SMA50 (625) und SMA200 (694), MACD negativ und Trend klar abwaerts, gestuetzt durch ein risk-off Makroumfeld (hawkische Fed, BTC-Schwaeche, MiCA-Risiko). RSI14 von 21,8 ist jedoch extrem ueberverkauft und der Kurs sitzt exakt auf dem 52W-Tief / der 556er-Schluesselunterstuetzung, was eine technische Gegenbewegung wahrscheinlich macht. Daher Short erst auf Pullback Richtung SMA20 / Widerstand 617,87 statt am Tief.",
+    "entry": 556.0,
+    "stop_loss": 590.0765,
+    "take_profit": 504.8852,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

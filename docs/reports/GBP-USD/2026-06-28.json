@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T14:06:22.899065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.31979,
+    "change_pct": 0.0,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.31979,
+    "change_pct": 0.0,
+    "sma20": 1.3289,
+    "sma50": 1.3375,
+    "sma200": 1.3443,
+    "rsi14": 29.19,
+    "macd": {
+      "macd": -0.006,
+      "signal": -0.0054,
+      "hist": -0.0005
+    },
+    "atr14": 0.0069,
+    "high_52w": 1.37954,
+    "low_52w": 1.30152,
+    "pct_from_high": -4.33,
+    "pct_from_low": 1.4,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3427
+      },
+      {
+        "type": "support",
+        "price": 1.317
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 29",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/USD notiert bei 1.3202, klar unter allen wichtigen gleitenden Durchschnitten (SMA20 1.3304, SMA50 1.3392, SMA200 1.3444) in einem intakten Abwaertstrend. Mit RSI14 bei 29.58 ist das Paar leicht ueberverkauft, der Kurs liegt nur 1.44% ueber dem 52-Wochen-Tief von 1.30152. Treiber ist primaer ein nach der hawkischen Fed-Sitzung erstarkter US-Dollar, waehrend die BoE bei 3.75% in Wartestellung verharrt.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwaerts**: Der Kurs (1.3202) liegt unter SMA20 (1.3304), SMA50 (1.3392) und SMA200 (1.3444), die gestaffelt baerisch ausgerichtet sind. **RSI14 bei 29.58** signalisiert leichte Ueberverkauftheit und damit Potenzial fuer eine technische Gegenbewegung, bestaetigt aber den Schwaechetrend. Der **MACD** bleibt negativ (-0.0062 unter Signal -0.0051, Histogramm -0.001) ohne Aufwaertsdrehung. Entscheidende Marken:\n- **Support 1.317** sowie das 52W-Tief **1.30152** (nur 1.44% entfernt) - ein Bruch oeffnet Raum nach unten. - **Resistance 1.3427** (deckt sich mit SMA50/SMA200-Zone) als erste Huerde. Mit ATR14 von **0.0070** (~70 Pips) liegt die Tagesschwankung moderat. Der Abstand zum 52W-Hoch betraegt -4.3%."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die Schwaeche ist primaer eine **Dollar-Staerke-Story**. Die Fed hielt am 17.06. bei 3.50-3.75%, doch der Dot-Plot unter dem neuen Chair Warsh drehte hawkisch (Median-Jahresendsatz 3.8%, neun von 18 Mitgliedern erwarten Hikes), der DXY brach ueber 100. Die **BoE** beliess den Leitzins am 18.06. mit 7-2 bei **3.75%** - UK-CPI 2.8%, aber Dienstleistungsinflation auf 3.7% gestiegen, was Cuts verzoegert. Risiken/Termine:\n- Politische Unsicherheit nach Starmers Ruecktritt belastet GBP zusaetzlich. - Naechste BoE-/Fed-Entscheidungen am **30.07. bzw. 29.07.**\n- Year-End-Ziele der Banken stark gestreut: JPMorgan 1.28, Goldman 1.36, Morgan Stanley 1.47."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-28T14:13:10.497120+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Abwaertstrend ist intakt: Der Kurs (1.31979) liegt klar unter SMA20 (1.3289), SMA50 (1.3375) und SMA200 (1.3443), der MACD bleibt negativ ohne Aufwaertsdrehung, getrieben von ausgepraegter Dollar-Staerke nach hawkischer Fed und politischer Unsicherheit in UK. Mit RSI14 bei 29.19 ist das Paar jedoch ueberverkauft und nur 1.4% ueber dem 52W-Tief (1.30152), weshalb ein Pullback Richtung Resistance 1.3427 / SMA50-Zone als Einstieg vorzuziehen ist. Die stimmig baerische Lage rechtfertigt Conviction 3; das ueberverkaufte Momentum dicht ueber Support haelt sie unter 4.",
+    "entry": 1.3198,
+    "stop_loss": 1.3322,
+    "take_profit": 1.3012,
+    "take_profit_2": 1.317,
+    "rr": 1.5
+  }
+}

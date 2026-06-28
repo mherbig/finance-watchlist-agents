@@ -3,7 +3,7 @@
     "start_equity": 100000.0,
     "current_equity": 100000.0,
     "return_pct": 0.0,
-    "open_count": 30,
+    "open_count": 60,
     "no_fill_count": 0,
     "closed_count": 0,
     "wins": 0,
@@ -35,9 +35,37 @@
       "horizon_days": 21
     },
     {
+      "symbol": "AIR",
+      "display": "AIR",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 191.9,
+      "stop_loss": 182.9205,
+      "take_profit": 205.3692,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 111.3648,
+      "horizon_days": 21
+    },
+    {
       "symbol": "AMD",
       "display": "AMD",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 452.4,
+      "stop_loss": 387.456,
+      "take_profit": 549.816,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 15.3979,
+      "horizon_days": 21
+    },
+    {
+      "symbol": "AMD",
+      "display": "AMD",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 3,
       "entry": 452.4,
@@ -63,6 +91,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "AUD/CAD",
+      "display": "AUD/CAD",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.9783,
+      "stop_loss": 0.9864,
+      "take_profit": 0.9662,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 123456.7901,
+      "horizon_days": 14
+    },
+    {
       "symbol": "AUD/JPY",
       "display": "AUD/JPY",
       "date": "2026-06-27",
@@ -74,6 +116,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 855.432,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "AUD/JPY",
+      "display": "AUD/JPY",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 111.5,
+      "stop_loss": 112.5872,
+      "take_profit": 109.8692,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 919.794,
       "horizon_days": 14
     },
     {
@@ -91,6 +147,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "AUD/NZD",
+      "display": "AUD/NZD",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.2072,
+      "stop_loss": 1.1957,
+      "take_profit": 1.2245,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 86956.5217,
+      "horizon_days": 14
+    },
+    {
       "symbol": "BNB/USD",
       "display": "BNB/USD",
       "date": "2026-06-27",
@@ -105,9 +175,37 @@
       "horizon_days": 14
     },
     {
+      "symbol": "BNB/USD",
+      "display": "BNB/USD",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 556.0,
+      "stop_loss": 590.0765,
+      "take_profit": 504.8852,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 29.3457,
+      "horizon_days": 14
+    },
+    {
       "symbol": "BAC",
       "display": "BOA",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 57.88,
+      "stop_loss": 55.7585,
+      "take_profit": 61.0622,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 471.3646,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "BAC",
+      "display": "BOA",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 3,
       "entry": 57.88,
@@ -133,6 +231,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "BTC/USD",
+      "display": "BTC/USD",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 60009.66,
+      "stop_loss": 63811.6958,
+      "take_profit": 54306.6063,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 0.263,
+      "horizon_days": 14
+    },
+    {
       "symbol": "CAD/JPY",
       "display": "CAD/JPY",
       "date": "2026-06-27",
@@ -144,6 +256,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 1179.8018,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "CAD/JPY",
+      "display": "CAD/JPY",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 115.1511,
+      "stop_loss": 115.9366,
+      "take_profit": 113.9728,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 1273.0745,
       "horizon_days": 14
     },
     {
@@ -161,6 +287,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "CHF/JPY",
+      "display": "CHF/JPY",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 202.3061,
+      "stop_loss": 203.9905,
+      "take_profit": 199.7794,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 593.6832,
+      "horizon_days": 14
+    },
+    {
       "symbol": "EUR/AUD",
       "display": "EUR/AUD",
       "date": "2026-06-27",
@@ -172,6 +312,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 74074.0741,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "EUR/AUD",
+      "display": "EUR/AUD",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.6324,
+      "stop_loss": 1.6193,
+      "take_profit": 1.6521,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 76335.8779,
       "horizon_days": 14
     },
     {
@@ -189,6 +343,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "EUR/GBP",
+      "display": "EUR/GBP",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.869,
+      "stop_loss": 0.8744,
+      "take_profit": 0.8609,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 185185.1852,
+      "horizon_days": 14
+    },
+    {
       "symbol": "EUR/JPY",
       "display": "EUR/JPY",
       "date": "2026-06-27",
@@ -200,6 +368,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 593.789,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "EUR/JPY",
+      "display": "EUR/JPY",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 186.2828,
+      "stop_loss": 187.7955,
+      "take_profit": 184.0137,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 661.0696,
       "horizon_days": 14
     },
     {
@@ -217,9 +399,37 @@
       "horizon_days": 14
     },
     {
+      "symbol": "EUR/NZD",
+      "display": "EUR/NZD",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 2.0198,
+      "stop_loss": 1.9989,
+      "take_profit": 2.0511,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 47846.89,
+      "horizon_days": 14
+    },
+    {
       "symbol": "RACE",
       "display": "FERRARI",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 340.23,
+      "stop_loss": 318.9,
+      "take_profit": 372.225,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 46.8823,
+      "horizon_days": 21
+    },
+    {
+      "symbol": "RACE",
+      "display": "FERRARI",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 3,
       "entry": 340.23,
@@ -245,6 +455,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "CAC40",
+      "display": "FRA40",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 8146.5898,
+      "stop_loss": 7967.0549,
+      "take_profit": 8505.6596,
+      "rr": 2.0,
+      "risk_amount": 1000.0,
+      "units": 5.5699,
+      "horizon_days": 14
+    },
+    {
       "symbol": "UKX",
       "display": "FTSE100",
       "date": "2026-06-27",
@@ -256,6 +480,20 @@
       "rr": 2.0,
       "risk_amount": 1000.0,
       "units": 4.8828,
+      "horizon_days": 21
+    },
+    {
+      "symbol": "UKX",
+      "display": "FTSE100",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 10227.2998,
+      "stop_loss": 10017.947,
+      "take_profit": 10646.0054,
+      "rr": 2.0,
+      "risk_amount": 1000.0,
+      "units": 4.7766,
       "horizon_days": 21
     },
     {
@@ -273,6 +511,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "GBP/CHF",
+      "display": "GBP/CHF",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.0626,
+      "stop_loss": 1.0558,
+      "take_profit": 1.0729,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 147058.8235,
+      "horizon_days": 14
+    },
+    {
       "symbol": "GBP/USD",
       "display": "GBP/USD",
       "date": "2026-06-27",
@@ -287,9 +539,37 @@
       "horizon_days": 14
     },
     {
+      "symbol": "GBP/USD",
+      "display": "GBP/USD",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 1.3198,
+      "stop_loss": 1.3322,
+      "take_profit": 1.3012,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 80645.1613,
+      "horizon_days": 14
+    },
+    {
       "symbol": "INTC",
       "display": "INTEL",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 99.17,
+      "stop_loss": 79.4548,
+      "take_profit": 128.7428,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 50.7223,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "INTC",
+      "display": "INTEL",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 3,
       "entry": 99.17,
@@ -315,9 +595,37 @@
       "horizon_days": 20
     },
     {
+      "symbol": "JPM",
+      "display": "JPM",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 329.05,
+      "stop_loss": 314.6937,
+      "take_profit": 350.5844,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 69.6558,
+      "horizon_days": 20
+    },
+    {
       "symbol": "MU",
       "display": "MICRON",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 864.01,
+      "stop_loss": 671.0655,
+      "take_profit": 1249.899,
+      "rr": 2.0,
+      "risk_amount": 1000.0,
+      "units": 5.1828,
+      "horizon_days": 21
+    },
+    {
+      "symbol": "MU",
+      "display": "MICRON",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 4,
       "entry": 864.01,
@@ -343,6 +651,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "N225",
+      "display": "Nikkei225",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 64024.6016,
+      "stop_loss": 60119.5684,
+      "take_profit": 71834.668,
+      "rr": 2.0,
+      "risk_amount": 1000.0,
+      "units": 0.2561,
+      "horizon_days": 14
+    },
+    {
       "symbol": "USD/CAD",
       "display": "USD/CAD",
       "date": "2026-06-27",
@@ -354,6 +676,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 109890.1099,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "USD/CAD",
+      "display": "USD/CAD",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.4193,
+      "stop_loss": 1.4099,
+      "take_profit": 1.4333,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 106382.9787,
       "horizon_days": 14
     },
     {
@@ -371,9 +707,37 @@
       "horizon_days": 14
     },
     {
+      "symbol": "USD/CHF",
+      "display": "USD/CHF",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 0.8095,
+      "stop_loss": 0.802,
+      "take_profit": 0.8209,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 133333.3333,
+      "horizon_days": 14
+    },
+    {
       "symbol": "V",
       "display": "VISA",
       "date": "2026-06-27",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 312.4,
+      "stop_loss": 299.8643,
+      "take_profit": 337.4715,
+      "rr": 2.0,
+      "risk_amount": 1000.0,
+      "units": 79.7722,
+      "horizon_days": 21
+    },
+    {
+      "symbol": "V",
+      "display": "VISA",
+      "date": "2026-06-28",
       "direction": "LONG",
       "conviction": 4,
       "entry": 312.4,
@@ -399,6 +763,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "DJI",
+      "display": "WS30",
+      "date": "2026-06-28",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 51876.11,
+      "stop_loss": 50634.8327,
+      "take_profit": 53738.026,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 0.8056,
+      "horizon_days": 14
+    },
+    {
       "symbol": "XAG/USD",
       "display": "XAG",
       "date": "2026-06-27",
@@ -410,6 +788,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 247.4757,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 59.674,
+      "stop_loss": 64.1006,
+      "take_profit": 53.0342,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 225.907,
       "horizon_days": 14
     },
     {
@@ -427,6 +819,20 @@
       "horizon_days": 14
     },
     {
+      "symbol": "XAU/USD",
+      "display": "XAU",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 4080.8902,
+      "stop_loss": 4225.7509,
+      "take_profit": 3863.599,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 6.9032,
+      "horizon_days": 14
+    },
+    {
       "symbol": "XRP/USD",
       "display": "XRP/USD",
       "date": "2026-06-27",
@@ -438,6 +844,20 @@
       "rr": 1.5,
       "risk_amount": 1000.0,
       "units": 10504.2017,
+      "horizon_days": 14
+    },
+    {
+      "symbol": "XRP/USD",
+      "display": "XRP/USD",
+      "date": "2026-06-28",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 1.0515,
+      "stop_loss": 1.141,
+      "take_profit": 0.9173,
+      "rr": 1.5,
+      "risk_amount": 1000.0,
+      "units": 11173.1844,
       "horizon_days": 14
     }
   ]

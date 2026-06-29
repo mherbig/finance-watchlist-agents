@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 521.58002,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 21,
-    "rationale": "Stimmig bullisches Bild: Kurs 521,58 ueber SMA20/50/200, RSI 59 neutral-bullisch, Bias bullisch, fundamental gestuetzt durch Q1-2026-Blowout (Data Center +57% YoY) und Mehrjahres-Commitments von OpenAI und Meta. Das negative MACD-Histogramm (-3,92) knapp unter dem 52W-Hoch (551,63) signalisiert nachlassendes Momentum, und das P/E >100 laesst wenig Fehlerspielraum. Daher LONG mit moderater Ueberzeugung und Einstieg auf Pullback Richtung SMA20/Support (512/452) statt am Hoch.",
+    "rationale": "Stimmig bullisches Bild: Kurs 521,58 ueber SMA20/50/200 (512/439/270), Trend up, Bias bullisch, RSI 59 neutral-bullisch, fundamental gestuetzt durch den Q1-2026-Blowout (Data Center +57% YoY) und Mehrjahres-Commitments von OpenAI und Meta. Bremsend wirken das negative MACD-Histogramm (-3,92) knapp unter dem 52W-Hoch (551,63) als Zeichen nachlassenden Momentums und ein P/E >100 mit wenig Fehlerspielraum. Daher LONG mit moderater Ueberzeugung und Einstieg auf Pullback Richtung SMA20/Support (512/452) statt am Hoch.",
     "entry": 452.4,
     "stop_loss": 387.456,
     "take_profit": 549.816,

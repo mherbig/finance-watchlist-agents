@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 337.39001,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Fundamental stark (Q1 2026 Umsatz +22%, EPS +82%, Cloud +63%, Bewertung unter Hyperscaler-Schnitt, Analysten-Median ~28% ueber Kurs) und RSI 29 zeigt Ueberverkauftheit direkt am Support 337,39. Dem steht ein intakter Abwaertstrend entgegen: Kurs unter SMA20 (360,8) und SMA50 (369,3), MACD klar negativ (-7,35/-4,11), Bias neutral. Dieser Widerspruch plus Capex- (180-190 Mrd.), Verwaesserungs- und Antitrust-Risiken traegt kein gerichtetes Setup; erst eine Stabilisierung ueber SMA20 oder ein bestaetigter Reversal am Support rechtfertigt einen Long.",
+    "rationale": "Fundamental stark (Q1 2026 Umsatz +22%, EPS +82%, Cloud +63%, Bewertung unter Hyperscaler-Schnitt, Analysten-Median ~28% ueber Kurs) und RSI 29 signalisiert Ueberverkauftheit direkt am Support 337,39. Dem steht ein intakter Abwaertstrend gegenueber: Kurs unter SMA20 (360,8) und SMA50 (369,3), MACD klar negativ (-7,35/-4,11), trend down, bias neutral. Dieser Widerspruch plus Capex- (180-190 Mrd.), Verwaesserungs- und Antitrust-Risiken traegt kein gerichtetes Swing-Setup; erst eine Stabilisierung ueber SMA20 oder ein bestaetigter Reversal am Support rechtfertigt einen Long.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

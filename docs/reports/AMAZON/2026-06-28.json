@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 232.69,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Operativ starkes Bild (Q1-2026-Beat, AWS +28%, Werbung +24%, Rekord-Op-Income) trifft auf einen klaren technischen Abwaertstrend: Kurs 232,69 unter SMA20 (244,03) und SMA50 (256,13), Bias bearish, MACD negativ (Hist -1,40), nur knapp ueber SMA200 (232,77) und direkt am kritischen Support 227,01. Bullische Fundamentaldaten und bearische Technik widersprechen sich, das Sentiment ist nach dem Capex-Schock fragil und RSI 39 signalisiert keine Wende. Daher FLAT, bis ~227 haelt und ein Trendbruch ueber SMA20/50 erfolgt.",
+    "rationale": "Fundamental stark (Q1-2026-Beat, AWS +28%, Werbung +24%, Rekord-Op-Income), doch die Technik ist klar bearisch: Kurs 232,69 unter SMA20 (244,03) und SMA50 (256,13), Bias bearish, MACD negativ (Hist -1,40), RSI 39 ohne Wendesignal, nur knapp ueber SMA200 und direkt am kritischen Support 227,01. Bullisches Fundamentalbild und bearische Technik widersprechen sich bei nach dem Capex-Schock fragilem Sentiment, daher FLAT bis ~227 haelt und ein Trendbruch ueber SMA20/50 erfolgt.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

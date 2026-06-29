@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 368.34,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 21,
-    "rationale": "Stimmig bullisches Bild: Trend up, Bias bullish, RSI 58 mit Luft nach oben, dazu fundamental ein Q1 2026 ueber Konsens mit bestaetigter Guidance, ~39% EBITDA-Marge und Auftragsbuch bis 2027 - der Kurs hat rund 17% vom 52W-Tief zurueckerobert. Nach dem +4,5%-Tag steht er jedoch direkt am Widerstand 369,06, unter der SMA200 (374,8) und das MACD-Histogramm ist leicht negativ, was fuer einen Pullback-Einstieg statt Nachlaufen spricht. Der EV-/Luce-Multiple-Reset-Ueberhang begrenzt die Ueberzeugung auf 3.",
+    "rationale": "Stimmig bullisches Bild: Trend up, Bias bullish, RSI 58 mit Luft nach oben, fundamental ein Q1 2026 ueber Konsens mit bestaetigter Guidance, ~39% EBITDA-Marge und Auftragsbuch bis 2027; der Kurs hat rund 17% vom 52W-Tief (314,63) zurueckerobert. Nach dem +4,5%-Tag steht er jedoch direkt am Widerstand 369,06, noch unter der SMA200 (374,8) und das MACD-Histogramm ist leicht negativ, was fuer einen Pullback-Einstieg statt Nachlaufen spricht. Der EV-/Luce-Multiple-Reset-Ueberhang begrenzt die Ueberzeugung auf 3.",
     "entry": 340.23,
     "stop_loss": 318.9,
     "take_profit": 372.225,

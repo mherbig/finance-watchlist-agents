@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 0.8003,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts (Kurs 0,8003 unter SMA20/50/200, MACD negativ, Hist -0,0015), doch der RSI14 von 12,23 ist extrem überverkauft direkt an der psychologischen Support-Marke 0,80, was die Analyse selbst als Risiko einer Gegenbewegung Richtung SMA20/50 (~0,81) ausweist. Die hawkishere RBNZ-Guidance bildet zudem ein fundamentales Gegengewicht zur technischen Schwäche, sodass bärisches Momentum und Bounce-Risiko sich widersprechen. Kein stimmiges Setup für LONG oder SHORT, daher FLAT bis zur Klärung an Support 0,80 oder Resistance 0,8163.",
+    "rationale": "Klarer Abwaertstrend (Kurs 0,8003 unter SMA20/50/200, MACD negativ, Hist -0,0015), aber der RSI14 von 12,23 ist extrem ueberverkauft direkt an der psychologischen Support-Marke 0,80, was die Analyse selbst als Risiko einer Gegenbewegung Richtung SMA20/50 (~0,81) ausweist. Die hawkishere RBNZ-Guidance bildet ein fundamentales Gegengewicht zur technischen Schwaeche, sodass baerisches Momentum und Bounce-Risiko sich widersprechen. Kein stimmiges Setup fuer LONG oder SHORT, daher FLAT bis zur Klaerung an Support 0,80 oder Resistance 0,8163.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 550.25,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Widerspruechliches Bild: Abwaertstrend mit Kurs (550,25) unter SMA20/50/200, bearischem Bias und negativem MACD (-16,3 vs. Signal -13,2) steht ein operativ starkes Werbegeschaeft (+33 % Umsatz, +61 % Nettogewinn) und ein guenstiges Forward-KGV (~17-18x) gegenueber. Der Kurs sitzt direkt auf Support (542,87) nahe dem 52W-Tief mit ueberverkauftem RSI (35), doch die ungeklaerte KI-Capex-ROI-Frage (bis 145 Mrd.) haelt den Trend gedrueckt. Kein stimmiges Setup, daher FLAT bis zum naechsten Q2-Trigger Ende Juli.",
+    "rationale": "Widerspruechliches Bild: Klarer Abwaertstrend mit Kurs (550,25) unter SMA20/50/200, bearischem Bias und negativem MACD (-16,3 vs. Signal -13,2) steht ein operativ starkes Werbegeschaeft (+33 % Umsatz, +61 % Nettogewinn) und ein guenstiges Forward-KGV (~17-18x) gegenueber. Der Kurs sitzt direkt auf Support (542,87) nahe dem 52W-Tief mit ueberverkauftem RSI (35), doch die ungeklaerte KI-Capex-ROI-Frage (bis 145 Mrd. USD) haelt den Trend gedrueckt. Kein stimmiges Setup, daher FLAT bis zum naechsten Q2-Trigger Ende Juli.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 86.48,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Technik und Fundamental widersprechen sich: Der Kurs (86,48 USD) liegt unter SMA20/50/200 mit negativem MACD und intaktem Abwaertstrend, waehrend die Fundamentaldaten (Forward-KGV ~12-13, ~7,7 Mrd. USD Net Cash, angehobene FY27-Guidance, 1-Mrd.-Rueckkauf) eine Unterbewertung nahelegen. RSI14 25 und der +4,3 %-Tag nahe Support 82,88 USD und SMA200 (87,24 USD) deuten nur auf eine ueberverkaufte Gegenbewegung, ohne Trendbestaetigung und bei NDR <100 % fehlt ein belastbares Setup. Erst eine Stabilisierung ueber dem SMA200 oder der Q2-FY27-Bericht (ca. August) liefert ein klares Signal - bis dahin FLAT.",
+    "rationale": "Technik und Fundamental widersprechen sich klar: Der Kurs (86,48 USD) steht unter SMA20/50/200 mit negativem MACD und intaktem Abwaertstrend, waehrend Forward-KGV ~12-13, ~7,7 Mrd. USD Net Cash, angehobene FY27-Guidance und 1-Mrd.-Rueckkauf eine Unterbewertung nahelegen. RSI14 25 und der +4,3 %-Tag nahe Support 82,88 USD und SMA200 (87,24 USD) deuten nur auf eine ueberverkaufte Gegenbewegung ohne Trendbestaetigung, und bei NDR <100 % fehlt ein belastbares Setup. Erst eine Stabilisierung ueber dem SMA200 oder der Q2-FY27-Bericht (ca. August) liefert ein klares Signal - bis dahin FLAT.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

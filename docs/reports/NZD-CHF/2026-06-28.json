@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 0.45648,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 10,
-    "rationale": "Trend abwaerts, MACD negativ und das Makro-Bild (Zinsgefaelle plus SNB-Stuetzung des Frankens) sind klar bearisch, doch der RSI14 von 18 markiert eine extreme Ueberverkauft-Lage direkt an der 0,4567-Unterstuetzung und macht eine kurzfristige Gegenbewegung wahrscheinlich. Bearischer Kontext und akutes Bounce-Risiko widersprechen sich, ein sauberer Short-Einstieg fehlt. Erst ein bestaetigter Bruch unter 0,4567 oder eine abgeschlossene Erholung Richtung 0,4648 liefert ein stimmiges Setup.",
+    "rationale": "Das Gesamtbild ist bearisch: Der Kurs (0,45648) liegt unter SMA20/50/200, der MACD ist negativ und das Makro-Umfeld (NZ-CH-Zinsgefaelle plus SNB-Stuetzung des Frankens) belastet den Kiwi. Dem steht jedoch ein RSI14 von 18 entgegen - eine extreme Ueberverkauft-Lage direkt an der 0,4565-Unterstuetzung, die eine kurzfristige Gegenbewegung wahrscheinlich macht. Bearischer Trend und akutes Bounce-Risiko widersprechen sich, ein sauberer Einstieg fehlt; erst ein bestaetigter Bruch unter 0,4565 oder eine Erholung Richtung 0,4648 liefert ein stimmiges Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

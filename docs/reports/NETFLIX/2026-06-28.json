@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 73.81,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Technik und Fundamentalbild widersprechen sich klar: Der Kurs (73,81 USD) steht im intakten Abwaertstrend unter allen SMAs (SMA20 79,26 < SMA50 86,03 < SMA200 97,04) mit negativem MACD, waehrend die Analyse-These (Werbe-Tier-Skalierung, Median-Kursziel ~115) konstruktiv bleibt. RSI 28,85 nahe Support 70,90 zeigt Ueberverkauftheit, doch ohne bestaetigte Trendwende ueber den SMA20 fehlt ein tragfaehiges Setup. Bis zu einem Reversal ist FLAT die disziplinierte Wahl.",
+    "rationale": "Technik und Fundamentalbild widersprechen sich: Der Kurs (73,81 USD) steht im intakten Abwaertstrend unter allen SMAs (SMA20 79,26 < SMA50 86,03 < SMA200 97,04) mit negativem MACD, waehrend die Analyse-These (Werbe-Tier-Skalierung, Median-Kursziel ~115) konstruktiv bleibt. RSI 28,85 nahe Support 70,90 signalisiert Ueberverkauftheit, doch ohne bestaetigtes Reversal ueber den SMA20 fehlt ein tragfaehiges Long-Setup. Bis zu einer Trendwende ist FLAT die disziplinierte Wahl.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

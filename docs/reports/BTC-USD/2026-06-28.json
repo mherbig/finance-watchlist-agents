@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 60009.66,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Das Bild ist stimmig bearisch: Kurs unter SMA20/50/200, Trend abwaerts, MACD unter Signal mit negativem Histogramm, gestuetzt durch rekordhohe US-Spot-ETF-Abfluesse und eine hawkische Fed. Da der Kurs jedoch exakt auf dem 52W-Tief/Support (59.704) sitzt und RSI14 mit 25,66 ueberverkauft ist, ist ein Pullback Richtung Widerstand 66.277 das diszipliniertere Short-Setup als am Tief hinterherzulaufen.",
+    "rationale": "Das Bild ist stimmig bearisch: Kurs (60.010) unter SMA20/50/200, Trend abwaerts, MACD unter Signal mit negativem Histogramm, gestuetzt durch rekordhohe US-Spot-ETF-Abfluesse und eine hawkische Fed. Da der Kurs jedoch exakt auf dem 52W-Tief/Support (59.704) sitzt und RSI14 mit 25,66 ueberverkauft ist, ist ein Pullback Richtung Widerstand 66.277 das disziplinierte Short-Setup statt am Tief hinterherzulaufen.",
     "entry": 60009.66,
     "stop_loss": 63811.6958,
     "take_profit": 54306.6063,

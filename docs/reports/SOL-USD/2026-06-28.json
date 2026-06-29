@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 71.95,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Das Bild ist widerspruechlich: Kurzfristiges Momentum (RSI 51 neutral, frisches bullisches MACD-Cross mit positivem Histogramm +0,62, SMA20 bei 69,86 zurueckerobert) steht der intakt baerischen Mittelfrist-Struktur gegenueber (Kurs 71,91 klar unter SMA50 77,24 und SMA200 95,14, Trend seitwaerts, Bias neutral, 64 % unter dem 52W-Hoch). Der Kurs haengt direkt unter dem Widerstand 73,93 fest; erst ein Tagesschluss darueber Richtung SMA50 ~77 rechtfertigt ein Long, waehrend ein Wochenschluss unter 63 erhebliches Abwaertsrisiko zum 52W-Tief 62,15 oeffnet. Bis zu einem dieser Ausloeser ist FLAT diszipliniert.",
+    "rationale": "Das Bild ist widerspruechlich: kurzfristiges Momentum (RSI 51 neutral, frisches bullisches MACD-Cross mit positivem Histogramm +0,62, SMA20 bei 69,86 zurueckerobert) trifft auf eine intakt baerische Mittelfrist-Struktur (Kurs 71,91 klar unter SMA50 77,24 und SMA200 95,14, Trend seitwaerts, Bias neutral, 64 % unter dem 52W-Hoch). Der Kurs haengt direkt unter dem Widerstand 73,93; erst ein Tagesschluss darueber Richtung SMA50 ~77 rechtfertigt ein Long, waehrend ein Wochenschluss unter 63 erhebliches Abwaertsrisiko zum 52W-Tief 62,15 oeffnet. Bis zu einem dieser Ausloeser ist FLAT diszipliniert.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

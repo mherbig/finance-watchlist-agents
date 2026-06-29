@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 2.01979,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Der uebergeordnete Trend ist klar aufwaerts: Der Kurs (2,0198) liegt ueber SMA20/50/200 in bullischer Stapelung, das MACD-Histogramm ist positiv, getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Mit RSI bei 89,7 ist das Paar jedoch extrem ueberkauft und nur ~2 % unter dem 52W-Hoch, mit Widerstand quasi am Kurs. Daher LONG per Pullback Richtung SMA20/1,99, statt der ausgereizten Bewegung hinterherzulaufen.",
+    "rationale": "Der uebergeordnete Trend ist klar aufwaerts: Der Kurs (2,0198) liegt in bullischer Stapelung ueber SMA20/50/200, das MACD-Histogramm ist positiv, getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Mit RSI 89,7 ist das Paar jedoch extrem ueberkauft und nur ~2 % unter dem 52W-Hoch, mit Widerstand quasi am Kurs. Daher LONG per Pullback Richtung SMA20/1,99, statt der ausgereizten Bewegung hinterherzulaufen.",
     "entry": 2.0198,
     "stop_loss": 1.9989,
     "take_profit": 2.0511,

@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 0.80954,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Intakter Aufwärtstrend: Kurs (0,80954) liegt über sauber gestaffelten SMAs (20/50/200) mit positivem MACD, fundamental gestützt durch die ausgeweitete Zinsdifferenz (hawkishe Fed unter Warsh, SNB bei 0,00% mit Interventionsbereitschaft gegen einen starken Franken). Der RSI bei 74 markiert jedoch eine überkaufte Lage direkt unter dem 52-Wochen-Hoch (0,8123), das den Spielraum begrenzt. Stimmig bullisch, aber das knappe Aufwärtspotenzial bis zum Widerstand rechtfertigt nur moderate Überzeugung und einen Einstieg auf Pullback Richtung SMA20/Support 0,7933.",
+    "rationale": "Intakter Aufwärtstrend mit dem Kurs (0,80954) über sauber gestaffelten SMAs (20/50/200) und positivem MACD, fundamental gestützt durch die ausgeweitete Zinsdifferenz (hawkishe Fed unter Warsh, SNB bei 0,00% mit Interventionsbereitschaft). Der RSI bei 74 markiert jedoch eine überkaufte Lage direkt unter dem 52-Wochen-Hoch/Widerstand (0,8123), was das Aufwärtspotenzial knapp begrenzt. Stimmig bullisch, aber nur moderate Überzeugung und Einstieg auf Pullback Richtung SMA20/Support 0,7933.",
     "entry": 0.8095,
     "stop_loss": 0.802,
     "take_profit": 0.8209,

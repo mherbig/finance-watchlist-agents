@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 1.61603,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Übergeordnet aufwärtsgestaffelt (Kurs 1,61603 über SMA50/200), aber Trend seitwärts und Bias neutral: RSI 47,1 ist neutral-defensiv und das MACD-Histogramm liegt mit -0,0011 unter der Signallinie, was nachlassendes Momentum in der engen Spanne 1,6086–1,6256 anzeigt. Da langfristiges Bild und kurzfristige Technik auseinanderlaufen und die Bewegung primär von CAD-Schwäche samt Ölpreisrisiko getragen wird, fehlt ein stimmiges Setup. Erst ein Bruch über 1,6256 (Long) bzw. unter 1,6086 (Short) rechtfertigt ein klares Urteil.",
+    "rationale": "Übergeordnet aufwärtsgestaffelt (Kurs 1,61603 über SMA50/200), doch Trend seitwärts und Bias neutral: RSI 47,1 ist neutral-defensiv und das MACD-Histogramm (-0,0011) liegt unter der Signallinie, was nachlassendes Momentum in der engen Spanne 1,6086–1,6256 anzeigt. Da langfristiges Bild und kurzfristige Technik auseinanderlaufen und die Bewegung primär von CAD-Schwäche samt Ölpreisrisiko getragen wird, fehlt ein stimmiges Setup. Erst ein Bruch über 1,6256 (Long) bzw. unter 1,6086 (Short) rechtfertigt ein klares Urteil.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

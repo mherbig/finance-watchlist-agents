@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 1.22261,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Die Struktur ist stimmig bullisch: Der Kurs (1,22261) liegt klar ueber SMA20/50 (1,2166/1,2161) und deutlich ueber SMA200 (1,1918), der MACD ist positiv und intakt (0,0027 ueber Signal 0,0021, Histogramm +0,0006), getragen von der klaren Zinsdivergenz (RBA gestrafft, RBNZ haelt OCR bei 2,25 %). Allerdings ist der RSI mit 72 ueberkauft direkt am Widerstand 1,2255 / 52W-Hoch (1,22792), und Hausprognosen deuten mittelfristig Richtung 1,20, weshalb ein sofortiger Markteinstieg unguenstig ist. Daher LONG-Bias mit Pullback-Entry und gedaempfter Ueberzeugung.",
+    "rationale": "Die Struktur ist stimmig bullisch: Der Kurs (1,22261) liegt klar ueber SMA20/50 (1,2166/1,2161) und deutlich ueber SMA200 (1,1918), der MACD ist positiv und intakt (0,0027 ueber Signal 0,0021), getragen von der klaren Zinsdivergenz (RBA gestrafft, RBNZ haelt OCR bei 2,25 %). Allerdings ist der RSI mit 72 ueberkauft direkt am Widerstand 1,2255 / 52W-Hoch (1,22792), und Hausprognosen deuten mittelfristig Richtung 1,20, weshalb ein sofortiger Markteinstieg unguenstig ist. Daher LONG-Bias mit Pullback-Entry und gedaempfter Ueberzeugung.",
     "entry": 1.2072,
     "stop_loss": 1.1957,
     "take_profit": 1.2245,

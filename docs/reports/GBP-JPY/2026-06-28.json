@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 213.47636,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "GBP/JPY konsolidiert seitwaerts in der Range 212,80-215,47, knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,21). RSI 40 und negativer MACD (Linie unter Signal, Histogramm negativ) signalisieren verhaltenes Abwaertsmomentum, das dem konstruktiven mittelfristigen Strukturbild widerspricht, waehrend die BoJ-Zinswende (Leitzins 1,00 %) das Carry-Polster untergraebt. Bei diesem Widerspruch ohne Range-Ausbruch ist FLAT diszipliniert.",
+    "rationale": "GBP/JPY konsolidiert seitwaerts in der Range 212,80-215,47, knapp unter dem SMA20/50-Cluster (214,0/213,8), aber ueber dem steigenden SMA200 (212,27). RSI 40 und negativer MACD (Linie unter Signal, Histogramm negativ) zeigen verhaltenes Abwaertsmomentum, das dem konstruktiven mittelfristigen Strukturbild widerspricht, waehrend die BoJ-Zinswende (Leitzins 1,00 %) das Carry-Polster untergraebt. Bei diesem Widerspruch ohne Range-Ausbruch ist FLAT diszipliniert.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

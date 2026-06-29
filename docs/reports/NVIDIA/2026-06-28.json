@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 192.53,
@@ -91,13 +91,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Starke Fundamentaldaten (Rekord-Q1 FY27: +85% Umsatz, 75% Bruttomarge, 80 Mrd. USD Rueckkauf) stehen einem klar bearischen technischen Bild gegenueber: Abwaertstrend, RSI 38,7, MACD negativ, Kurs unter SMA20/50 und mit 192,53 USD nur knapp ueber der Unterstuetzung SMA200 (190,64). Zudem ist NVDA 2026 YTD trotz Rekordzahlen einer der schwaechsten grossen Halbleiterwerte (China-Export- und Bewertungsrisiken). Analyse und Technik widersprechen sich deutlich, daher kein Trade.",
+    "rationale": "Starke Fundamentaldaten (Rekord-Q1 FY27: +85% Umsatz, 75% Bruttomarge, 80 Mrd. USD Rueckkauf) stehen einem klar bearischen technischen Bild gegenueber: Abwaertstrend, RSI 38,7, MACD negativ, Kurs 192,53 USD unter SMA20/50 und nur knapp ueber der Unterstuetzung SMA200 (190,64). NVDA ist 2026 YTD trotz Rekordzahlen einer der schwaechsten grossen Halbleiterwerte (China-Export- und Bewertungsrisiken). Analyse und Technik widersprechen sich deutlich, daher kein Trade.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

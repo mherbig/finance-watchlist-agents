@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 1.0515,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "SHORT",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Trend und Momentum sind durchgehend bearisch: Kurs (1,0515) liegt unter SMA20/50/200, der MACD notiert unter Signal mit negativem Histogramm. Da der Kurs jedoch nur +0,8 % ueber dem entscheidenden Support 1,0434 (zugleich 52W-Tief) liegt und der RSI mit 27 stark ueberverkauft ist, ist ein direkter Markteinstieg riskant - ein Pullback Richtung SMA50/Widerstand (~1,24) bietet das bessere Short-Setup. Conviction nur 3, da fortlaufende Spot-ETF-Zufluesse und die offene Regulierung (CLARITY Act) dem Abwaertsbild gegenstehen.",
+    "rationale": "Trend und Momentum sind durchgehend bearisch: Der Kurs (1,0515) liegt unter SMA20 (1,1271), SMA50 (1,2466) und SMA200 (1,5091), der MACD notiert unter Signal mit negativem Histogramm. Da der Kurs jedoch nur +0,8 % ueber dem entscheidenden Support 1,0434 (zugleich 52W-Tief) liegt und der RSI mit 27 stark ueberverkauft ist, ist ein direkter Markteinstieg riskant - ein Pullback Richtung SMA50/Widerstand (~1,24) bietet das bessere Short-Setup. Conviction nur 3, da fortlaufende Spot-ETF-Zufluesse und die offene Regulierung (CLARITY Act) dem Abwaertsbild gegenstehen.",
     "entry": 1.0515,
     "stop_loss": 1.141,
     "take_profit": 0.9173,

@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 91.20464,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts: Der Kurs (91,20) liegt unter SMA20/50/200 und der MACD ist negativ und bearish gestaffelt. Doch der RSI14 von 14,4 ist extrem überverkauft und der Kurs sitzt exakt auf der Support-Marke 91,20 — ein Short hier birgt hohes Erschöpfungs- und Rebound-Risiko. Zudem steht der BoJ-Entscheid am 31. Juli als Carry-Katalysator aus; daher FLAT und auf einen Rücklauf Richtung 92,6/93,58 warten.",
+    "rationale": "Der Trend ist klar abwärts: Der Kurs (91,20) liegt unter SMA20/50/200, und der MACD ist negativ und bearish gestaffelt. Doch der RSI14 von 14,4 ist extrem überverkauft, und der Kurs sitzt exakt auf der Support-Marke 91,20 — ein Short hier birgt hohes Erschöpfungs- und Rebound-Risiko. Mit dem BoJ-Entscheid am 31. Juli als ausstehendem Carry-Katalysator ist das Bild widersprüchlich, daher FLAT und auf einen Rücklauf Richtung 92,5/93,58 warten.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

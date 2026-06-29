@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 51876.11,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "LONG",
     "conviction": 3,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Intakter Aufwärtstrend mit perfekter bullischer SMA-Staffelung (Kurs 51.876 > SMA20 51.296 > SMA50 50.294 > SMA200 48.311), RSI14 bei 61,8 zeigt Stärke ohne Überkauftheit und der MACD bleibt positiv. Bremsend wirken der unmittelbar anstehende Widerstand am 52W-Hoch (51.999, nur ~0,24 % entfernt), das nachlassende MACD-Momentum und die hawkische Fed-Wende unter Warsh. Daher LONG mit moderater Überzeugung und Einstieg erst auf einen Rücksetzer Richtung 50.000er-Support statt direkt am Widerstand.",
+    "rationale": "Intakter Aufwärtstrend mit perfekter bullischer SMA-Staffelung (Kurs 51.876 > SMA20 51.296 > SMA50 50.294 > SMA200 48.311), RSI14 bei 61,8 zeigt Stärke ohne Überkauftheit und der MACD bleibt positiv. Bremsend wirken jedoch der unmittelbar anstehende Widerstand am 52W-Hoch (51.999, nur ~0,24 % entfernt), das nachlassende MACD-Momentum (Histogramm +5,4) sowie die hawkische Fed-Wende unter Warsh. Daher LONG mit moderater Überzeugung und Einstieg erst auf einen Rücksetzer Richtung 50.000er-Support statt direkt am Widerstand.",
     "entry": 51876.11,
     "stop_loss": 50634.8327,
     "take_profit": 53738.026,

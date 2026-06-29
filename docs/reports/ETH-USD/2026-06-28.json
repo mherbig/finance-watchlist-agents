@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 1581.84,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "market",
     "horizon_days": 14,
-    "rationale": "Trend und Bias sind klar bearish (Kurs 1.582 unter SMA20/50/200, MACD negativ bei -79), doch der Kurs sitzt nur 0,86 % ueber dem 52W-Tief und der zentralen Unterstuetzung bei 1.568 - ein kritischer Entscheidungsbereich. RSI14 bei 33 ist schwach, aber noch nicht klar ueberverkauft, und das nahezu neutrale MACD-Histogramm (-0,82) deutet auf nachlassendes Abwaertsmomentum. Short-Fortsetzung und Bodenbildungs-Bounce an dieser Schluessellinie sind gleich wahrscheinlich - abwarten, bis 1.568 bricht (Short) oder 1.796 zurueckerobert wird (Long).",
+    "rationale": "Trend und Bias sind klar bearish (Kurs 1.581,84 unter SMA20/50/200, MACD bei -79,3), doch der Kurs sitzt nur 0,86 % ueber dem 52W-Tief und der zentralen Unterstuetzung bei 1.568,40 - ein kritischer Entscheidungsbereich. RSI14 bei 33 ist schwach, aber noch nicht klar ueberverkauft, und das nahezu neutrale MACD-Histogramm (-0,82) signalisiert nachlassendes Abwaertsmomentum. Short-Fortsetzung und Bodenbildungs-Bounce an dieser Schluessellinie sind gleich wahrscheinlich - abwarten, bis 1.568 bricht (Short) oder 1.796 zurueckerobert wird (Long).",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

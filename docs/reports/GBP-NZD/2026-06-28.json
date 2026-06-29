@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T14:49:14.365324+00:00",
+  "generated_at": "2026-06-28T21:07:15.517813+00:00",
   "available": true,
   "snapshot": {
     "price": 2.34062,
@@ -66,13 +66,13 @@
     "model": "claude-opus-4-8"
   },
   "signal": {
-    "generated_at": "2026-06-28T14:55:42.631970+00:00",
+    "generated_at": "2026-06-29T06:27:44.581281+00:00",
     "model": "claude-opus-4-8",
     "direction": "FLAT",
     "conviction": 2,
     "entry_type": "pullback",
     "horizon_days": 10,
-    "rationale": "Der Aufwaertstrend ist intakt (Kurs 2.34062 ueber SMA20/50/200 im sauberen Bullenfaecher, MACD positiv mit +0.0034 Histogramm), doch ein RSI von 76 zeigt klare Ueberkauftheit direkt am Widerstand und 52W-Hoch (2.3408/2.34865) — Anschlusskaeufe ohne Sicherheitsmarge sind teuer. Das hawkische RBNZ-Risiko (drohende Zinserhoehung, NZ-Inflation bis 4.3%) steht dem GBP-Zinsvorteil entgegen und erzeugt ein widerspruechliches Bild. Long wird erst nach einem Pullback Richtung SMA50/Unterstuetzung (2.295) attraktiv; aktuell kein stimmiges Setup.",
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs 2.34062 ueber SMA20/50/200 im sauberen Bullenfaecher, MACD positiv mit +0.0034 Histogramm), doch RSI 76 zeigt klare Ueberkauftheit direkt am Widerstand und 52W-Hoch (2.3408/2.34865) — Anschlusskaeufe ohne Sicherheitsmarge sind teuer. Das hawkische RBNZ-Risiko (drohende Zinserhoehung, NZ-Inflation bis 4.3%) steht dem GBP-Zinsvorteil entgegen und erzeugt ein widerspruechliches Bild. Long wird erst nach einem Pullback Richtung SMA50/Unterstuetzung (2.295) attraktiv; aktuell kein stimmiges Setup.",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,

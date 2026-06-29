@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "generated_at": "2026-06-29T23:51:05.075805+00:00",
   "available": true,
   "snapshot": {
     "price": 46.03,
@@ -12,22 +12,22 @@
     "currency": "EUR"
   },
   "technical": {
-    "last_close": 46.029998779296875,
-    "change_pct": -2.0638323844747344,
-    "sma20": 38.025,
-    "sma50": 38.0912,
-    "sma200": 36.1758,
-    "rsi14": 86.34,
+    "last_close": 47.0,
+    "change_pct": 0.0,
+    "sma20": 37.48,
+    "sma50": 37.9926,
+    "sma200": 36.0858,
+    "rsi14": 91.19,
     "macd": {
-      "macd": 1.9048,
-      "signal": 0.6468,
-      "hist": 1.258
+      "macd": 1.557,
+      "signal": 0.3323,
+      "hist": 1.2246
     },
-    "atr14": 1.8014,
+    "atr14": 1.7729,
     "high_52w": 49.314998626708984,
     "low_52w": 24.975000381469727,
-    "pct_from_high": -6.66,
-    "pct_from_low": 84.3,
+    "pct_from_high": -4.69,
+    "pct_from_low": 88.19,
     "trend": "side",
     "bias": "neutral",
     "levels": [
@@ -42,7 +42,7 @@
     ]
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 86",
+  "headline": "Trend side, RSI 91",
   "flags": [],
   "agent_analysis": {
     "track": "fundamental",

@@ -4,45 +4,12 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T21:23:15.601696+00:00",
-  "available": true,
-  "snapshot": {
-    "price": 0.56861,
-    "change_pct": 0.066874329,
-    "currency": null
-  },
-  "technical": {
-    "last_close": 0.56861,
-    "change_pct": 0.0668743290568847,
-    "sma20": 0.5695,
-    "sma50": 0.5698,
-    "sma200": 0.5717,
-    "rsi14": 57.96,
-    "macd": {
-      "macd": -0.0001,
-      "signal": 0.0,
-      "hist": -0.0001
-    },
-    "atr14": 0.0021,
-    "high_52w": 0.58246,
-    "low_52w": 0.56198,
-    "pct_from_high": -2.38,
-    "pct_from_low": 1.18,
-    "trend": "down",
-    "bias": "bearish",
-    "levels": [
-      {
-        "type": "resistance",
-        "price": 0.5711
-      },
-      {
-        "type": "support",
-        "price": 0.5668
-      }
-    ]
-  },
+  "generated_at": "2026-06-29T23:51:05.075805+00:00",
+  "available": false,
+  "snapshot": null,
+  "technical": null,
   "fundamental": null,
-  "headline": "Trend down, RSI 58",
+  "headline": "Daten nicht verfügbar.",
   "flags": [],
   "agent_analysis": {
     "track": "technical",

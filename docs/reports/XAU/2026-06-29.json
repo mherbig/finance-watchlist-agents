@@ -1,0 +1,82 @@
+{
+  "symbol": "XAU/USD",
+  "display": "XAU",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4016.45795,
+    "change_pct": -0.0017169062,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 4016.45795,
+    "change_pct": -0.001716906211392991,
+    "sma20": 4152.5373,
+    "sma50": 4351.3828,
+    "sma200": 4653.917,
+    "rsi14": 21.94,
+    "macd": {
+      "macd": -92.9004,
+      "signal": -90.7378,
+      "hist": -2.1626
+    },
+    "atr14": 72.3552,
+    "high_52w": 5330.94854,
+    "low_52w": 3930.56,
+    "pct_from_high": -24.66,
+    "pct_from_low": 2.19,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4331.3695
+      },
+      {
+        "type": "support",
+        "price": 4001.1152
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 22",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Gold notiert bei rund 4.072 USD nach einer scharfen Korrektur von ueber 23% unter dem 52W-Hoch (5.331), trotz +1,1% am Tag. Der Trend ist klar abwaerts gerichtet: Preis unter allen drei SMAs, RSI bei 38, MACD negativ.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend abwaerts**: Der Kurs (4.072) liegt unter SMA20 (4.192), SMA50 (4.405) und SMA200 (4.658) – die gleitenden Durchschnitte sind bearisch gestaffelt. **Momentum**: RSI14 bei 38 (naehert sich ueberverkauft, ohne Bodensignal), MACD negativ (-96,9) unter der Signallinie, Histogramm leicht negativ. **Level**: Naechster Support bei ~4.001 (psychologische 4.000er-Marke knapp darunter), Widerstand bei ~4.331. **ATR14** ~80 zeigt erhoehte Volatilitaet. Abstand zum 52W-Hoch -23,6%, nur +3,6% ueber dem 52W-Tief (3.931) – die Unterseite bleibt anfaellig."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Realzinsen/USD** dominieren: Ein hawkisher Fed-Pfad nach CPI ~4,2% und starke US-Jobdaten (Mai +172k) haben Zinssenkungs-Hoffnungen geloescht, Realrenditen (~4,5%) und Dollar gestuetzt – beides belastet Gold. **Safe-Haven** wirkt paradox schwach: Trotz Nahost-Eskalation drueckt oelgetriebene Inflation auf die Notierung. **Zentralbankkaeufe** bleiben struktureller Anker (Q1 2026 netto 244 t laut WGC; PBoC zuletzt wieder aktiver). **Risiken**: Tagesschluss unter 4.000 koennte Abverkauf vertiefen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bearisches Bild: Kurs (4.016) unter SMA20 (4.153), SMA50 (4.351) und SMA200 (4.654), bearisch gestaffelt, Trend abwaerts, MACD negativ unter Signallinie, verstaerkt durch Makro-Gegenwind aus hohen Realzinsen und festem USD. RSI14 bei 21,9 ist tief ueberverkauft und der Kurs sitzt direkt auf Support ~4.001 knapp ueber dem 52W-Tief, daher Einstieg auf Pullback statt Nachjagen. Conviction nur 3, da strukturelle Zentralbankkaeufe und der ueberverkaufte Zustand eine Gegenbewegung beguenstigen.",
+    "entry": 4016.4579,
+    "stop_loss": 4146.6973,
+    "take_profit": 3821.0989,
+    "take_profit_2": 4001.1152,
+    "rr": 1.5
+  }
+}

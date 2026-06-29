@@ -1,0 +1,82 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24626.89,
+    "change_pct": -0.1797,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 24626.890625,
+    "change_pct": -0.1796833592404485,
+    "sma20": 24776.5997,
+    "sma50": 24602.0879,
+    "sma200": 24242.6696,
+    "rsi14": 54.24,
+    "macd": {
+      "macd": 55.156,
+      "signal": 89.14,
+      "hist": -33.984
+    },
+    "atr14": 325.5173,
+    "high_52w": 25420.66015625,
+    "low_52w": 22300.75,
+    "pct_from_high": -3.12,
+    "pct_from_low": 10.43,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25139.6895
+      },
+      {
+        "type": "support",
+        "price": 24195.3105
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der GER40 notiert bei 24.671 Punkten in einer Seitwaerts-Phase oberhalb der SMA50/SMA200, aber knapp unter der SMA20 – kurzfristig hat der Schwung nachgelassen. RSI bei 51 und ein negatives MACD-Histogramm signalisieren ein neutrales bis leicht abkuehlendes Momentum nahe dem 52W-Hoch. Makro-Bild gemischt: erste ECB-Zinserhoehung seit Jahren bei nahoestlich getriebener Inflation trifft auf einen festen Euro und exportlastige Indexschwergewichte.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend & SMAs:** Kurs **24.671** liegt ueber SMA50 (24.604) und SMA200 (24.238), aber unter SMA20 (24.795) – klassische **Seitwaerts**-Konstellation, der Aufwaertstrend ist intakt, kurzfristig aber gestoppt. **Momentum:** RSI14 bei **51** = neutral. MACD (77,9) unter Signal (97,6), Histogramm **-19,7** – nachlassender Schwung, kein Extrem. **Level:** Support **24.195**, Resistance **25.140**; daneben das 52W-Hoch bei 25.421. **Volatilitaet:** ATR14 **341** Punkte (~1,4%) – moderat erhoeht. **Abstand:** nur **-2,95%** zum 52W-Hoch, **+10,6%** ueber dem Tief – obere Spanne, Luft nach unten groesser als nach oben."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Treiber:** Die **ECB** hob am 11.06. erstmals seit 2023 die Zinsen um 25 Bp an (Einlagesatz **2,25%**), getrieben von nahoestlich befeuerter Inflation (HVPI-Projektion **3,0%** 2026). Wachstum nur **0,8%** 2026. **Risiken:** **Starker Euro** belastet exportstarke DAX-Schwergewicht (Auto, Chemie, Pharma); Tech-/AI-Schwaeche und der **Rheinmetall**-Ueberhang druecken zusaetzlich. **Katalysatoren:** weitere ECB-Signale, deutsche Industrie-/Stimmungsdaten, Energiepreis-Entwicklung (Strasse von Hormuz) und US-Zoll-Unsicherheit als naechste Impulsgeber."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der GER40 notiert bei 24.627 in einer Seitwaerts-Phase: ueber SMA50 (24.602) und SMA200 (24.243), aber unter der SMA20 (24.777), mit RSI14 bei 54 (neutral) und negativem MACD-Histogramm (-34) als Zeichen nachlassenden Schwungs. Nahe dem 52W-Hoch (-3,1%) ist die Luft nach unten groesser, und das Makro-Bild bleibt gemischt (ECB-Zinserhoehung plus starker Euro belasten exportlastige Indexschwergewichte). Da weder Analyse noch Technik ein stimmiges Long- oder Short-Setup ergeben, lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

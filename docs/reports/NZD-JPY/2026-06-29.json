@@ -1,0 +1,82 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 91.55414,
+    "change_pct": 0.050870097,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 91.55772,
+    "change_pct": 0.05478234100582258,
+    "sma20": 92.3708,
+    "sma50": 93.104,
+    "sma200": 92.537,
+    "rsi14": 17.62,
+    "macd": {
+      "macd": -0.5612,
+      "signal": -0.4859,
+      "hist": -0.0753
+    },
+    "atr14": 0.6223,
+    "high_52w": 95.37972,
+    "low_52w": 86.085999,
+    "pct_from_high": -4.01,
+    "pct_from_low": 6.36,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 93.5767
+      },
+      {
+        "type": "support",
+        "price": 91.2076
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 18",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "NZD/JPY notiert bei 91,25 in einem klaren Abwärtstrend unter allen drei SMAs, mit einem extrem überverkauften RSI von 15,7. Der Kurs sitzt exakt auf der Support-Marke 91,25 und 4,3% unter dem 52W-Hoch; der scharfe Abverkauf reflektiert eine schwindende Carry-Attraktivität, da die BoJ auf weitere Zinserhöhungen zusteuert.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Der Kurs (91,25) liegt unter SMA20 (92,70), SMA50 (93,27) und SMA200 (92,50), die in dieser Reihenfolge eine bearishe Staffelung bilden. Der **RSI14 von 15,7** ist tief überverkauft und signalisiert ein potenzielles kurzfristiges Erschöpfungsrisiko des Abverkaufs. Der **MACD** bestätigt das Momentum nach unten (MACD -0,54 unter Signal -0,35, Histogramm -0,19). Der Kurs testet die **Support-Marke 91,25** direkt; darunter öffnet sich Raum Richtung 52W-Tief (86,09; -6,0% Abstand bereits aufgebraucht auf 6,0% über Tief). Nächster **Widerstand bei 93,58**. Bei einem ATR14 von 0,66 ist die Tagesvolatilität moderat; der Abstand zum 52W-Hoch (95,38) beträgt -4,33%."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Paar lebt von der **Zinsdifferenz** zwischen hawkischer RBNZ (OCR hoch, Inflation im Dienstleistungssektor klebrig) und der BoJ, die unter Gouverneur Ueda **weitere Zinserhöhungen** signalisiert. Der nächste **BoJ-Entscheid am 31. Juli** ist der Schlüsselkatalysator: Eine Anhebung verteuert Yen-finanzierte **Carry-Trades** und stützt den JPY, was den NZD-Vorteil erodiert. Risikoseitig drücken **Yen-Stärke**, nachlassende globale Risikobereitschaft und geopolitische Spannungen (Naher Osten) auf das Paar. Daten zur NZ-Inflation/Löhnen sowie japanische Kerninflation (zuletzt beschleunigt) sind die wichtigsten Trigger."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwärts: Der Kurs (91,55) liegt unter SMA20/50/200 in bearisher Staffelung, und der MACD ist negativ (-0,56 unter Signal -0,49). Doch der RSI14 von 17,6 ist extrem überverkauft, und der Kurs sitzt direkt auf der Support-Marke 91,21 — ein Short birgt hohes Erschöpfungs- und Rebound-Risiko. Mit dem BoJ-Entscheid am 31. Juli als ausstehendem Carry-Katalysator ist das Bild widersprüchlich, daher FLAT und auf einen Rücklauf Richtung 92,4/93,58 warten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

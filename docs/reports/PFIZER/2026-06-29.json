@@ -1,0 +1,107 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24.385,
+    "change_pct": 0.39110461,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 24.385,
+    "change_pct": 0.39110745162619354,
+    "sma20": 25.3453,
+    "sma50": 25.9099,
+    "sma200": 25.8674,
+    "rsi14": 35.03,
+    "macd": {
+      "macd": -0.4769,
+      "signal": -0.3217,
+      "hist": -0.1552
+    },
+    "atr14": 0.5771,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -14.59,
+    "pct_from_low": 4.7,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26.21
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Pfizer notiert bei **24,30 USD** (+2,64% am Tag), bleibt aber mit einem Kurs unter allen gleitenden Durchschnitten (SMA20 25,44 / SMA50 25,97 / SMA200 25,87) klar im Abwärtstrend und nur 4,3% über dem 52-Wochen-Tief. Die Story ist ein Spannungsfeld: eine ~6,6% Dividendenrendite und Forward-KGV von ~8-9 stehen gegen einen Patent-Cliff 2026-2030 (Eliquis, Vyndaqel, Ibrance, Xtandi) und das offene Übergangsrisiko nach dem COVID-Boom. Der RSI von 30 signalisiert eine kurzfristig überverkaufte Lage nahe Support 23,67.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Pfizer ist ein Big-Pharma-Schwergewicht im Übergang von der COVID-Sonderkonjunktur zurück zum Basisgeschäft. Treiber im aktuellen Mix sind das Internal-Medicine-/Kardiologie-Franchise (Blutverdünner **Eliquis**), Onkologie sowie zugekaufte und neu gelaunchte Produkte (+22% operativ in Q1). - **Peers:** Merck, Bristol-Myers Squibb, AbbVie, Johnson & Johnson, Eli Lilly/Novo Nordisk (im neuen Adipositas-Fokus). - **Strukturtrend:** Der gesamte Sektor bewegt sich Richtung GLP-1/Adipositas und Onkologie. Pfizer hat nach dem Aus für das eigene orale GLP-1 **Danuglipron** (April 2025, Lebertoxizität) per ~10 Mrd. USD **Metsera**-Übernahme (Q4 2025) wieder Anschluss gesucht und plant 2026 zehn Phase-III-Studien für das ultra-langwirksame MET097 (Launch-Ziel 2028). - **Belastung:** Medicare-Part-D-Reform und die Loss-of-Exclusivity-Welle 2026-2030 setzen die margenträchtigsten Umsätze unter Druck. Relativ zum Sektor (Forward-KGV ~18) ist Pfizer mit ~8-9 deutlich abgeschlagen bewertet."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 2026 (gemeldet 5. Mai 2026):** Umsatz **14,5 Mrd. USD** (~+4,8% über Erwartung), adjustiertes EPS **0,75 USD** (~+4% über Konsens). Non-COVID-Geschäft +~7% operativ, Launch-/Zukaufprodukte +22% auf 3,1 Mrd. USD. **Guidance 2026 (bestätigt):** Umsatz **59,5-62,5 Mrd. USD**, adjustiertes EPS **2,80-3,00 USD**. **Was die These treibt:** Das Basisgeschäft (Eliquis u.a.) hält besser als befürchtet und federt den erwarteten Rückgang von COVID-Produkten (Comirnaty/Paxlovid, ~-1,5 Mrd. USD auf ~5 Mrd. USD) ab. Gegen die These arbeitet ein zweiter ~-1,5 Mrd.-USD-Effekt aus Exklusivitätsverlusten. Kern der Investmentthese bleibt, ob die neuen/zugekauften Produkte (Metsera-Adipositas, 3SBio-PD-1/VEGF) den LOE-Cliff 2026-2028 rechtzeitig kompensieren - das ist derzeit noch nicht belegt."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung, kein Präzisionsmodell.**\n\n- **Comps-Anker:** Bei Mittelpunkt-EPS-Guidance ~2,90 USD und aktuellem Kurs 24,30 USD liegt das Forward-KGV bei **~8,4**. Healthcare-Sektor handelt im Schnitt bei ~18, Pharma-Peers wie Merck eher bei ~10-12. - **Fair-Value-Spanne (KGV-Methode):** KGV 8x = ~23 USD (Cliff-/Stagnationsszenario), 10x = ~29 USD (Peer-Diskont teilweise abgebaut), 11x = ~32 USD (Pipeline-Erfolg eingepreist). Daraus grobe Spanne **~26-30 USD** als plausibler Mittelweg. - **Quersicht:** Die ~6,6% Dividendenrendite stützt einen Boden, sofern die Ausschüttung (1,72 USD/Aktie, ~9,8 Mrd. USD p.a.) gedeckt bleibt. Analysten-Durchschnittsziel liegt bei ~29 USD (~+20%). Wesentliche Annahme: stabile EPS-Basis trotz LOE - bricht diese, rutscht die Spanne nach unten."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die niedrige Bewertung ist plausibel, aber nicht ohne Grund. Ein Forward-KGV von ~8-9 spiegelt den Markt-Diskont für Patent-Cliff und Pipeline-Unsicherheit wider - es ist kein reines Value-Schnäppchen, sondern eine eingepreiste Risikoprämie. - **Pro Bewertung:** Hohe, aktuell gedeckte Dividende; bestätigte Guidance; Q1-Beat zeigt operative Stabilität. - **Risiken:** (1) Dividenden-Nachhaltigkeit, falls EPS durch LOE unter ~2,50 USD fällt - die ~6,6% Rendite ist teils \"Risiko-Rendite\". (2) Metsera/MET097 ist ein 2028-Launch - bis dahin trägt die Adipositas-Wette nichts zum Umsatz bei. (3) Peer Merck wird vom Markt höher bewertet, weil sein Übergangsplan als klarer gilt. Die Comps-Logik ist konsistent; die Schlüssel-Unsicherheit liegt in der Nachhaltigkeit der EPS-Basis, nicht in der Methodik."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull:**\n- Defensiv bewertet (~8-9x Forward-KGV) mit ~6,6% Dividende - hoher Carry, klarer Bewertungs-Puffer. - Q1-Beat + bestätigte Guidance; Non-COVID-Basis und Zukaufprodukte wachsen zweistellig. - Optionalität aus Adipositas (Metsera/MET097) und Onkologie-Pipeline; Analystenziel ~+20%. - Technisch überverkauft (RSI 30) nahe Support 23,67 - mögliche Mean-Reversion zur SMA20 25,44. **Bear:**\n- Intakter Abwärtstrend: Kurs unter SMA20/50/200, MACD negativ und unter Signal, nur 4,3% über dem 52W-Tief. - LOE-Cliff 2026-2030 (Eliquis, Vyndaqel, Ibrance, Xtandi) plus Medicare-Part-D-Druck; ~-3 Mrd. USD Gegenwind 2026. - Adipositas-Payoff erst ~2028; Übergang bis dahin trägt EPS-Risiko - und damit Dividendenrisiko. - Peer Merck gilt als sauberere Wachstumsstory."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kurslage:** 24,30 USD, +2,64% am Tag; im Abwärtstrend unter allen SMAs; RSI 30 (überverkauft); Range zwischen Support **23,67** und Resistance **26,21**, nächster Widerstand SMA20 25,44. - **Letzte Zahlen:** Q1 2026 (5. Mai) Umsatz 14,5 Mrd. USD, EPS 0,75 USD - beide über Konsens; FY-Guidance bestätigt (Umsatz 59,5-62,5 Mrd., EPS 2,80-3,00). - **Kern-Katalysator/Risiko:** Patent-Cliff 2026-2030 vs. neue/zugekaufte Produkte - Schlüssel für die mittelfristige These. - **Pipeline-Termine:** 2026 Start von 10 Phase-III-Studien für Metsera-GLP-1 MET097 (Launch-Ziel 2028); 4 Studien für 3SBio-PD-1/VEGF-Kandidat. - **Watch:** Nächster Earnings-Termin (Q2 2026, voraussichtlich Anfang August), Dividenden-Deckung, ATR ~0,59 USD/Tag als Stop-/Sizing-Referenz; Bruch unter 23,67 würde das 52W-Tief 23,29 testen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Die Technik ist eindeutig bearisch: Kurs (24,39 USD) unter SMA20/50/200, MACD negativ und unter Signal, intakter Abwaertstrend nur 4,7% ueber dem 52W-Tief - das spricht gegen LONG. Dagegen stehen ein ueberverkaufter RSI (35) direkt am Support 23,67 sowie die Value-/Dividenden-These (~8-9x Forward-KGV, ~6,6% Rendite, bestaetigte Guidance, Q1-Beat) gegen den Patent-Cliff 2026-2030 - das spricht gegen SHORT. Widerspruechliches Bild ohne stimmiges Setup, daher FLAT mit niedriger Ueberzeugung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

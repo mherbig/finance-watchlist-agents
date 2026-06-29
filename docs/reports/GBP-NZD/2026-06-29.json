@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.34443,
+    "change_pct": -0.095028679,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.34443,
+    "change_pct": -0.09502867905874537,
+    "sma20": 2.317,
+    "sma50": 2.2973,
+    "sma200": 2.295,
+    "rsi14": 75.53,
+    "macd": {
+      "macd": 0.0138,
+      "signal": 0.0109,
+      "hist": 0.0029
+    },
+    "atr14": 0.0143,
+    "high_52w": 2.34865,
+    "low_52w": 2.24234,
+    "pct_from_high": -0.18,
+    "pct_from_low": 4.55,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3467
+      },
+      {
+        "type": "support",
+        "price": 2.295
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 76",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/NZD notiert bei 2.3404, nur 0.35% unter dem 52-Wochen-Hoch (2.34865) und damit am oberen Rand der Jahresspanne. Der Aufwaertstrend ist intakt und laeuft ueber allen geglaetteten Durchschnitten, doch ein RSI von 76 signalisiert klare Ueberkauftheit. Die Divergenz aus haltender BoE (3.75%) und vorerst pausierender, aber zur Straffung neigender RBNZ (2.25%) liefert das fundamentale Spannungsfeld.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **aufwaerts**: Der Kurs (2.3404) liegt deutlich ueber SMA20 (2.3088), SMA50 (2.2926) und SMA200 (2.2943), die zudem in der Reihenfolge eines sauberen Bullenfaechers stehen. - **RSI14 bei 76** ist stark ueberkauft und mahnt zur Vorsicht; Anschlusskaeufe sind teuer. - **MACD** bleibt positiv (Linie 0.0113 ueber Signal 0.0076, Histogramm +0.0037) und stuetzt das Momentum. - **Schluessel-Level:** Widerstand exakt am aktuellen Kurs / 52W-Hoch (2.3404 bzw. 2.34865), Unterstuetzung bei 2.295 (Naehe SMA50/200). - Mit **ATR14 von 0.0141** (~0.6%) ist eine Tagesschwankung Richtung 2.355 oder 2.326 normal. Der Abstand zum 52W-Hoch betraegt nur **-0.35%**, zum Tief **+4.37%** — das Paar handelt am oberen Spannenende."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **Bank of England** hielt am 18. Juni den Leitzins bei **3.75%** (7-2), gestuetzt durch schwache Dienstleistungs-PMIs (48.7) — weitere Straffung ist kurzfristig unwahrscheinlich, der Zinsvorteil zugunsten GBP bleibt aber bestehen. Die **RBNZ** beliess die OCR bei **2.25%** (dritter Hold in Folge), signalisiert jedoch fruehere Zinserhoehungen, moeglicherweise eine erste +0.25% vor September, da die Inflation in Q3 auf bis zu 4.3% steigen soll. Dieses hawkishe NZD-Risiko ist der wichtigste Gegenwind fuer das Paar. - **Risiken:** Abprall am 52W-Hoch bei RSI-Ueberkauftheit, ueberraschend starke NZ-Daten, BoE-Kommentare. Naechste OCR-Entscheidung und UK-Inflation/Arbeitsmarkt sind die Termine im Blick."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 10,
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs 2.34443 ueber SMA20/50/200 im sauberen Bullenfaecher, MACD positiv mit +0.0029 Histogramm), doch RSI 75.5 zeigt klare Ueberkauftheit direkt am Widerstand und 52W-Hoch (2.3467/2.34865) — Anschlusskaeufe ohne Sicherheitsmarge sind teuer. Das hawkische RBNZ-Risiko (drohende Zinserhoehung, NZ-Inflation bis 4.3%) steht dem GBP-Zinsvorteil entgegen und ergibt ein widerspruechliches Bild. Long wird erst nach einem Pullback Richtung SMA50/Unterstuetzung (2.295) attraktiv; aktuell kein stimmiges Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

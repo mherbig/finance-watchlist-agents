@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T21:23:15.601696+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.92425,
+    "change_pct": -0.061804055,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.9242,
+    "change_pct": -0.0644008642180556,
+    "sma20": 1.9029,
+    "sma50": 1.8891,
+    "sma200": 1.9255,
+    "rsi14": 65.89,
+    "macd": {
+      "macd": 0.0084,
+      "signal": 0.0058,
+      "hist": 0.0026
+    },
+    "atr14": 0.0092,
+    "high_52w": 2.07171,
+    "low_52w": 1.85611,
+    "pct_from_high": -7.12,
+    "pct_from_low": 3.67,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9254
+      },
+      {
+        "type": "support",
+        "price": 1.881
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/AUD notiert bei 1,9137 und kämpft sich aus dem Frühjahrstief (+3,1% über dem 52W-Tief von 1,8561) zurück nach oben, bleibt aber 7,6% unter dem 52W-Hoch von 2,0717. Kurzfristiger Aufwärtstrend über SMA20/50, jedoch unter der fallenden SMA200 bei 1,9273 - das Bild ist eine Erholung innerhalb eines übergeordneten Abwärtstrends. Treiber bleibt die geldpolitische Divergenz zwischen einer pausierenden BoE und einer restriktiveren RBA.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (1,9137) liegt klar über **SMA20 (1,8991)** und **SMA50 (1,8857)**, aber unter der **SMA200 (1,9273)** - kurzfristig bullisch, übergeordnet noch im Abwärtstrend. Die SMA200 ist die nächste Hürde und deckt sich mit der ausgewiesenen **Resistance bei 1,9137**, exakt am aktuellen Niveau. - **RSI14 bei 57** - aufwärtsgerichtetes Momentum, aber noch nicht überkauft, Luft nach oben\n- **MACD positiv** (0,005 über Signal 0,0036, Histogramm +0,0014) - bestätigt die Aufwärtsdynamik\n- **ATR14 = 0,0091** (~0,5%) signalisiert moderate Volatilität\n\nStützzone bei **1,881** (SMA50-Bereich). Mit -7,63% zum 52W-Hoch und +3,1% zum 52W-Tief sitzt der Kurs in der unteren Hälfte der Jahresspanne. Ein nachhaltiger Bruch über 1,9273 würde das Bild zu neutral-bullisch drehen."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Zentraler Treiber ist die **Zinsdivergenz BoE vs. RBA**. Die BoE hielt am 17.06.2026 den Leitzins bei **3,75%** (7:2, zwei Mitglieder für Erhöhung). Die RBA pausierte im Juni nach drei Hikes in Folge bei einem Cash Rate um **4,10-4,35%** - höhere AUD-Zinsen verengen das zuvor pro-Sterling sprechende Differenzial und erklären den Rückgang von den 2025er Hochs. - **Risiken:** Australiens Kerninflation (~4,2%) bleibt über Ziel; Westpac sieht weitere Hikes, CBA/NAB/ANZ eher Cut im August - die Spanne der Erwartungen ist breit\n- **Öl/Energie:** Höhere Preise begünstigen den AUD (Nettoexporteur) gegenüber dem GBP (Nettoimporteur); ein US-Iran-Deal dämpfte zuletzt die Ölpreise\n- **Termine:** kommende AU-Inflationsdaten und BoE/RBA-Sitzungen sind die nächsten Katalysatoren"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-29T21:29:20.667244+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Kurzfristig bullisches Momentum (Kurs 1,9242 ueber SMA20/50, RSI 66, MACD-Histogramm positiv), doch der Kurs steht exakt an der Konfluenz aus Resistance 1,9254 und der fallenden SMA200 (1,9255) - eine Erholung innerhalb eines uebergeordneten Abwaertstrends. Die geldpolitische Divergenz BoE (Pause) vs. RBA (restriktiver) ist ergebnisoffen, sodass Technik und Makro kein stimmiges Bild ergeben. Erst ein nachhaltiger Bruch ueber 1,9255 wuerde ein Long rechtfertigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

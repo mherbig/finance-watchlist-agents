@@ -19,6 +19,16 @@ from src.analysis import portfolio  # noqa: E402
 from src.data.symbol_map import safe_name  # noqa: E402
 
 
+def _latest_close(time_series: list):
+    """Neuester (juengstes Datum) Schlusskurs einer time_series, sonst None.
+
+    Nutzt portfolio._ascending_bars (aeltest -> neuest) und nimmt den letzten
+    Close. Robust gegen unsortierte/unvollstaendige Bars.
+    """
+    bars = portfolio._ascending_bars(time_series)
+    return bars[-1]["close"] if bars else None
+
+
 def _latest_raw_time_series(data_dir: Path, safe: str) -> list:
     """time_series der neuesten raw-*.json fuer ein Symbol, sonst leer."""
     sym_dir = data_dir / safe
@@ -71,17 +81,27 @@ def main() -> None:
         groups[key].append(entry)
 
     trades = []
+    current_prices: dict = {}
     for key in order:
         symbol_signals = groups[key]
         first = symbol_signals[0]
         display = first.get("display") or first.get("symbol")
+        symbol = first.get("symbol")
         safe = safe_name(str(display)) if display else None
         time_series = _latest_raw_time_series(data_dir, safe) if safe else []
+        # Neuesten Schluss (23:00-Tagespreis) je Symbol/Display fuer den
+        # unrealisierten Stand offener Positionen merken.
+        latest = _latest_close(time_series)
+        if latest is not None:
+            if symbol is not None:
+                current_prices[symbol] = latest
+            if display is not None:
+                current_prices[display] = latest
         trades.extend(
             portfolio.resolve_symbol_trades(
                 symbol_signals, time_series, flat_closes=flat_closes))
 
-    result = portfolio.simulate(trades)
+    result = portfolio.simulate(trades, current_prices=current_prices)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

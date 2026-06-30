@@ -722,3 +722,44 @@ def test_simulate_ignores_flat_and_missing_sl():
     res = portfolio.simulate(trades)
     assert res["summary"]["open_count"] == 0
     assert res["summary"]["closed_count"] == 0
+
+
+def test_simulate_open_unrealized_pct_from_current_prices():
+    # Offene Positionen erhalten current_price + unrealized_pct aus
+    # current_prices. LONG: (akt-entry)/entry*100; SHORT: (entry-akt)/entry*100.
+    trades = [
+        _trade("LNG", "LONG", 100.0, 95.0, 110.0, "open",
+               None, None, None, date="2026-01-01"),
+        _trade("SHT", "SHORT", 200.0, 210.0, 180.0, "open",
+               None, None, None, date="2026-01-02"),
+    ]
+    res = portfolio.simulate(trades, current_prices={"LNG": 105.0, "SHT": 190.0})
+    by = {o["symbol"]: o for o in res["open"]}
+    assert by["LNG"]["current_price"] == 105.0
+    assert by["LNG"]["unrealized_pct"] == 5.0   # (105-100)/100*100
+    assert by["SHT"]["current_price"] == 190.0
+    assert by["SHT"]["unrealized_pct"] == 5.0   # (200-190)/200*100 (SHORT im Plus)
+
+
+def test_simulate_open_unrealized_pct_short_in_loss():
+    # SHORT, Kurs steigt ueber Entry -> unrealized_pct negativ.
+    trades = [
+        _trade("SHT", "SHORT", 200.0, 210.0, 180.0, "open",
+               None, None, None, date="2026-01-02"),
+    ]
+    res = portfolio.simulate(trades, current_prices={"SHT": 206.0})
+    o = res["open"][0]
+    assert o["current_price"] == 206.0
+    assert o["unrealized_pct"] == -3.0   # (200-206)/200*100
+
+
+def test_simulate_open_unrealized_pct_missing_price_is_none():
+    # Ohne current_prices (oder fehlendem Symbol) bleiben die Felder None.
+    trades = [
+        _trade("LNG", "LONG", 100.0, 95.0, 110.0, "open",
+               None, None, None, date="2026-01-01"),
+    ]
+    res = portfolio.simulate(trades)
+    o = res["open"][0]
+    assert o["current_price"] is None
+    assert o["unrealized_pct"] is None

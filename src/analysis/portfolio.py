@@ -440,8 +440,25 @@ def _is_tradeable(t: dict) -> bool:
             and t.get("status") not in ("no_fill", "none"))
 
 
+def _unrealized_pct(direction, entry, current_price):
+    """Unrealisierter Stand in % einer offenen Position zum aktuellen Kurs.
+
+    LONG:  (current - entry) / entry * 100
+    SHORT: (entry - current) / entry * 100  (Gewinn faellt mit dem Kurs)
+
+    None, wenn entry/current_price fehlen oder entry == 0.
+    """
+    if entry is None or current_price is None:
+        return None
+    entry = float(entry)
+    if entry == 0:
+        return None
+    sign = _direction_sign(direction)
+    return round(sign * (float(current_price) - entry) / entry * 100, 4)
+
+
 def simulate(trades: list, start_equity: float = 100_000.0,
-             risk_pct: float = 0.01) -> dict:
+             risk_pct: float = 0.01, current_prices: dict | None = None) -> dict:
     """Event-Simulation ueber aufgeloeste/offene Trades.
 
     Nur Trades mit Richtung LONG/SHORT und Stop-Loss sind handelbar. Pro Trade
@@ -449,7 +466,12 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     Exit-Datum. Events stabil nach Datum sortiert. Auf OPEN wird das Risiko
     (risk_pct*equity) und die Stueckzahl gesperrt; auf CLOSE wird
     pnl = risk_amount * realized_R verbucht.
+
+    ``current_prices`` (optional): Mapping symbol/display -> aktueller Kurs
+    (neuester Tagesschluss). Jede offene Position erhaelt daraus
+    ``current_price`` und ``unrealized_pct``; ohne Eintrag bleiben beide None.
     """
+    prices = current_prices or {}
     tradeable = [t for t in trades if _is_tradeable(t)]
     no_fill_count = sum(1 for t in trades if t.get("status") == "no_fill")
 
@@ -521,6 +543,9 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         if t.get("status") in ("sl", "tp", "expired"):
             continue
         lock = locked.get(idx, {})
+        current_price = prices.get(t.get("symbol"))
+        if current_price is None:
+            current_price = prices.get(t.get("display"))
         open_list.append({
             "symbol": t.get("symbol"),
             "display": t.get("display"),
@@ -534,6 +559,9 @@ def simulate(trades: list, start_equity: float = 100_000.0,
             "risk_amount": lock.get("risk_amount"),
             "units": lock.get("units"),
             "horizon_days": t.get("horizon_days"),
+            "current_price": current_price,
+            "unrealized_pct": _unrealized_pct(
+                t.get("direction"), t.get("entry"), current_price),
         })
 
     closed_count = len(closed)

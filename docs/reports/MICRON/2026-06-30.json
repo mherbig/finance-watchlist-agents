@@ -1,0 +1,107 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1151.01001,
+    "change_pct": 0.50031262,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1151.01001,
+    "change_pct": 0.500312574209477,
+    "sma20": 1049.899,
+    "sma50": 829.819,
+    "sma200": 435.8638,
+    "rsi14": 61.27,
+    "macd": {
+      "macd": 91.0822,
+      "signal": 93.2767,
+      "hist": -2.1945
+    },
+    "atr14": 102.5886,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -5.15,
+    "pct_from_low": 997.45,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 864.01
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Micron handelt bei **1.123 USD** und korrigierte am Datenstand **-7,4%**, bleibt aber klar im Aufwärtstrend (über SMA20/50/200) nach Rekordzahlen zum FQ3/2026. Der KI-getriebene HBM- und DRAM-Supercycle treibt Umsatz und Margen auf historische Hochs, während die Bewertung den weiteren Verlauf des Memory-Zyklus einpreist.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Micron ist einer von drei globalen Speicherherstellern (DRAM/NAND) und der einzige US-Akteur neben **SK Hynix** und **Samsung**. Der Sektor erlebt 2026 einen historischen **KI-Memory-Supercycle**: Goldman Sachs beziffert die DRAM-Angebotslücke 2026 auf rund **4,9%** — die schärfste Knappheit seit 15 Jahren. DRAM-ASPs stiegen zuletzt sequenziell im mittleren 60%-Bereich, NAND im hohen 70%-Bereich. Im strategisch wichtigsten Segment **HBM** (High Bandwidth Memory für KI-Beschleuniger) führt SK Hynix mit ~62% Marktanteil, Micron liegt bei ~21% und hat Samsung überholt. Micron hat die Volumenproduktion von **HBM4 (36GB, 12-high)** für Nvidias Vera-Rubin-Plattform gestartet (>2,8 TB/s, >20% bessere Energieeffizienz vs. HBM3E). Die gesamte HBM-Kapazität 2026 ist über Mehrjahresverträge **ausverkauft**."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**FQ3 2026** (gemeldet 24.06.) übertraf deutlich: Umsatz **41,46 Mrd. USD** (+346% YoY, +74% QoQ), Non-GAAP-EPS **25,11 USD** vs. ~20,28 Konsens (+24%). GAAP-Bruttomarge **84,6%** (Vorjahr 37,7%). HBM-Umsatz überschritt zum zweiten Quartal in Folge **1 Mrd. USD**, FY2026-HBM-Kapazität vollständig kontraktiert. Die **Q4-Guidance** ist der eigentliche Kurstreiber: Rekordumsatz **50,0 Mrd. USD ±1,0 Mrd.**, Bruttomarge ~**86%** — 15-22% über den Erwartungen. Die These: Pricing-Power durch strukturelle DRAM-Knappheit plus HBM-Mix-Shift treibt eine beispiellose Margenexpansion. Der -7,4%-Rückgang am Datenstand ist eine \"Sell-the-news\"-Reaktion auf bereits hohe Erwartungen, nicht ein Fundamentalbruch."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung.** FY2026-EPS-Konsens liegt bei ~**57,7 USD** (vs. 7,68 in FY2025), FY2027 bei ~**97,8 USD**. Beim Kurs von 1.123 USD ergibt das ein **Forward-P/E von ~19,5x (FY26)** bzw. **~11,5x (FY27)** — für einen Zykliker am Gewinngipfel optisch moderat, aber abhängig vom Halten der Margen. Comps: Speicher-Peers handeln zyklisch zwischen 8-15x Forward-Earnings. Legt man 13-16x auf normalisierte FY27-EPS an, ergibt sich eine grobe **Fair-Value-Spanne von ~1.270-1.560 USD**; konservativ (Zyklus-Abschlag, 9-11x) eher **880-1.075 USD**. Die Analysten-Ziele (BofA 1.500, UBS 1.625, Morgan Stanley 1.050) liegen innerhalb dieser Bandbreite. Schlüsselannahme: Wie lange hält der Margen-Peak von ~86%?"
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die Bewertung ist **nicht das Hauptrisiko** — die Multiples wirken bei aktuellen Gewinnen günstig. Das eigentliche Risiko ist die **Earnings-Qualität im Zyklus**: 86% Bruttomarge sind historisch extrem und unterstellen anhaltende Knappheit. Sollte 2027 zusätzliche Kapazität (auch von Samsung/SK Hynix) den Markt überschwemmen, drohen ASP-Korrekturen und ein Margen-Reset — Memory war stets ein Peak-to-Trough-Geschäft. Weitere Punkte: Microns 1α-Yield-Reife lag laut Branchenschätzungen 12-18 Monate hinter SK Hynix; HBM4-Allokationen sind ein Wettlauf. Konzentrationsrisiko auf wenige KI-Großkunden (Nvidia). Die Plausibilität der Bull-Story hängt an der Dauerhaftigkeit des Supercycles, nicht am Multiple selbst."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull:** Strukturelle DRAM-Knappheit (4,9% Lücke), HBM 2026 ausverkauft, HBM4-Ramp für Nvidia Vera Rubin, Rekordmargen ~86%, EPS-Explosion (+651% FY26). Einziger US-Memory-Champion mit Pricing-Power; Forward-P/E auf FY27 nur ~11,5x. **Bear:** Memory bleibt zyklisch — der aktuelle Gewinn ist ein Peak. Kapazitätsausbau aller drei Hersteller könnte 2027/28 in Überangebot kippen. Micron technologisch hinter SK Hynix (HBM-Share 21% vs. 62%), Yield-Rückstand, Kundenkonzentration. +912% in 12 Monaten bedeutet hohe Erwartungen und Volatilität (ATR14 ~107 USD = ~9,5% des Kurses). Der -7,4%-Tag zeigt die Sensitivität gegenüber Stimmungswechseln."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Rekord-FQ3:** Umsatz 41,5 Mrd. USD (+346% YoY), EPS 25,11 USD, Bruttomarge 84,6%. - **Q4-Guidance bombastisch:** ~50 Mrd. USD Umsatz, ~86% Marge — Hauptkatalysator, aber Erwartungen jetzt hoch. - **HBM ausverkauft 2026**, HBM4-Volumenstart für Nvidia Vera Rubin; Share ~21% (hinter SK Hynix 62%). - **Technik:** Kurs 1.123 USD, über SMA20 (1.035)/SMA50 (802)/SMA200 (426); RSI 62; Support **864 USD**, Widerstand/52W-Hoch **1.214 USD**; -7,4% am Datenstand als Sell-the-News. - **Schlüsselrisiko/Termine:** Dauerhaftigkeit der ~86%-Marge bzw. Memory-Zyklus 2027; Watch: DRAM-ASP-Trend, Wettbewerber-Capex (Samsung/SK Hynix), nächste Earnings (FQ4)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 4,
+    "entry_type": "pullback",
+    "horizon_days": 21,
+    "rationale": "Stimmig bullisches Bild: Kurs 1.151 USD klar ueber SMA20/50/200, Trend up und Bias bullish, RSI 61 mit Luft nach oben, gestuetzt durch Rekord-FQ3 (Umsatz +346% YoY, Bruttomarge 84,6%) und bombastische Q4-Guidance (~50 Mrd. USD, ~86% Marge) im KI-getriebenen HBM/DRAM-Supercycle mit 2026 ausverkaufter HBM-Kapazitaet. Bei hoher Volatilitaet (ATR14 ~9% des Kurses), leicht negativem MACD-Histogramm und Naehe zum 52W-Hoch ist ein Pullback-Einstieg Richtung Support 864 USD sinnvoller als Markt. Das Memory-Zyklus- und Peak-Margen-Risiko (~86%) begrenzt die Conviction auf 4.",
+    "entry": 864.01,
+    "stop_loss": 679.3505,
+    "take_profit": 1233.329,
+    "take_profit_2": 1213.5601,
+    "rr": 2.0
+  }
+}

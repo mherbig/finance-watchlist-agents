@@ -1,0 +1,82 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69169,
+    "change_pct": -0.041908726,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69169,
+    "change_pct": -0.041908725685715256,
+    "sma20": 0.6973,
+    "sma50": 0.7068,
+    "sma200": 0.6987,
+    "rsi14": 24.83,
+    "macd": {
+      "macd": -0.0051,
+      "signal": -0.0049,
+      "hist": -0.0001
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.7,
+    "pct_from_low": 7.15,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7071
+      },
+      {
+        "type": "support",
+        "price": 0.6887
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "AUD/USD notiert bei 0,6898 nahe einem Drei-Monats-Tief und liegt 4,96 % unter dem 52-Wochen-Hoch (0,7258). Der Trend ist abwaerts, mit Kurs unter SMA20/50 und einem extrem ueberverkauften RSI von 19,6. Die Divergenz aus pausierender RBA (Cash Rate 4,35 %) und festem US-Dollar bei zaeh hoher Inflation auf beiden Seiten haelt das Paar im Defensivmodus.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwaerts**: Der Schlusskurs 0,6898 liegt unter SMA20 (0,7005) und SMA50 (0,7102) und praktisch auf der SMA200 (0,6980), die jetzt als letzte Trendmarke dient. - **RSI14 bei 19,6** signalisiert eine stark ueberverkaufte Lage - eine technische Erholung (Bounce) ist ueberfaellig, kehrt den Trend aber noch nicht um. - **MACD** negativ (-0,0051) und unter Signal (Histogramm -0,0011): Momentum weiter abwaerts, aber nahe Erschoepfung. - **Schluessel-Level:** Unterstuetzung 0,6898 (genau am Kurs, deckungsgleich mit SMA200), Widerstand 0,7071. Ein Bruch unter 0,6898 oeffnet Richtung 52W-Tief 0,6455. - **ATR14 0,0039** (~39 Pips) zeigt moderate Volatilitaet. Abstand zum 52W-Hoch -4,96 %, zum Tief +6,86 %."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber bleibt die **Zinsdivergenz** USD vs. AUD. Die **RBA** hielt im Juni nach drei Anhebungen 2026 die Cash Rate bei **4,35 %**, signalisierte aber weitere Straffung, falls die Inflation (Trimmed Mean 3,6 %) nicht nachgibt; ANZ erwartet eine 25-bp-Anhebung im August. - Der **feste US-Dollar** (DXY um 101) dominiert: Die Fed haelt bei 3,50-3,75 %, Maerkte preisen wieder Hike-Risiko statt Cuts. - **Risiken:** China-Nachfrage/Eisenerz als AUD-Stuetze, RBA-Protokoll und naechste australische CPI-Daten. - **Levels** 0,6898 und 0,7071 sind die kurzfristig entscheidenden Trigger."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwaerts (Kurs 0,69169 unter SMA20 0,6973 und SMA50 0,7068, MACD negativ und unter Signal), doch der extrem ueberverkaufte RSI14 von 24,83 trifft den Kurs dicht ueber der Unterstuetzung 0,6887, nahe der SMA200 - ein Short auf diesem gestreckten Niveau ist riskant, eine technische Erholung ueberfaellig. Da bearisches Momentum und akute Bounce-Gefahr sich widersprechen und kein bestaetigter Bruch vorliegt, ist FLAT diszipliniert. Erst ein Tagesschluss unter 0,6887 oder ueber 0,7071 klaert das Bild.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

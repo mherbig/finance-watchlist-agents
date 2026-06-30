@@ -1,0 +1,82 @@
+{
+  "symbol": "USD/CHF",
+  "display": "USD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.80807,
+    "change_pct": -0.043294327,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.80807,
+    "change_pct": -0.04329432720616418,
+    "sma20": 0.805,
+    "sma50": 0.7949,
+    "sma200": 0.7879,
+    "rsi14": 70.76,
+    "macd": {
+      "macd": 0.0043,
+      "signal": 0.0048,
+      "hist": -0.0005
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.81232,
+    "low_52w": 0.76602,
+    "pct_from_high": -0.52,
+    "pct_from_low": 5.49,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8123
+      },
+      {
+        "type": "support",
+        "price": 0.7933
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "USD/CHF notiert bei 0,80952 in einem intakten Aufwärtstrend über allen SMAs, getrieben von der ausgeweiteten Zinsdifferenz nach dem hawkishen Fed-Schwenk unter Kevin Warsh und der bei 0,00% verharrenden SNB. Der RSI bei 74 signalisiert jedoch eine kurzfristig überkaufte Lage direkt unter dem 52-Wochen-Hoch (0,81232). Entscheidend ist, ob der Bruch über 0,80 verteidigt wird oder eine Konsolidierung folgt.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **aufwärts**: Der Kurs (0,80952) liegt klar über SMA20 (0,8022), SMA50 (0,7918) und SMA200 (0,7878), die zudem sauber gestaffelt sind. Der **MACD** ist positiv (0,0055 vs. Signal 0,0049, Histogramm +0,0006) und bestätigt das Momentum, doch der **RSI bei 73,97** markiert eine überkaufte Zone und mahnt zur Vorsicht. Der Kurs steht nur **0,34% unter dem 52-Wochen-Hoch** (0,81232) und liegt 5,68% über dem Tief (0,76602). Zentral ist der **Widerstand bei 0,8123** (=52W-Hoch); ein Bruch öffnet neuen Spielraum. Erster **Support liegt bei 0,7933**, darunter die runde 0,79er-Marke. Die **ATR14 von 0,0042** (~52 Pips) zeigt moderate Volatilität rund um die psychologische 0,80-Schwelle."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Haupttreiber ist die **Zinsdifferenz**: Die **Fed** pausierte am 16./17. Juni hawkish bei 3,50–3,75% unter dem neuen Chair **Kevin Warsh**; der Dot Plot zeigt mehrere Mitglieder, die noch 2026 eine Anhebung erwarten (CME FedWatch ~63% für September). Die **SNB** hielt am 18. Juni ihren Leitzins bei **0,00%**, hob die Inflationsprognose leicht auf 0,6% (2026/27) an und signalisierte erhöhte **Interventionsbereitschaft am Devisenmarkt** gegen einen zu starken Franken. Diese Konstellation stützt USD/CHF, begrenzt aber zugleich das Abwärtsrisiko. Risiken: dovishe Fed-Daten (US-Inflation/Arbeitsmarkt), Safe-Haven-Nachfrage nach CHF bei Risk-off sowie SNB-Interventionssignale."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Intakter Aufwärtstrend: Kurs 0,80807 liegt über sauber gestaffelten SMAs (20/50/200), fundamental gestützt durch die ausgeweitete Zinsdifferenz (hawkishe Fed unter Warsh, SNB bei 0,00% mit Interventionsbereitschaft). Allerdings ist der RSI14 bei 70,76 überkauft, der Kurs steht nur 0,52% unter dem 52-Wochen-Hoch/Widerstand (0,8123) und das MACD-Histogramm dreht leicht negativ (-0,0005). Stimmig bullisch, aber nur moderate Überzeugung und Einstieg bevorzugt auf Pullback Richtung SMA20/Support 0,7933.",
+    "entry": 0.8081,
+    "stop_loss": 0.8019,
+    "take_profit": 0.8173,
+    "take_profit_2": 0.8123,
+    "rr": 1.5
+  }
+}

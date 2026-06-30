@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/USD",
+  "display": "EUR/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.14228,
+    "change_pct": 0.0087551874,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.14228,
+    "change_pct": 0.00875518744856231,
+    "sma20": 1.1463,
+    "sma50": 1.1552,
+    "sma200": 1.1669,
+    "rsi14": 34.2,
+    "macd": {
+      "macd": -0.0047,
+      "signal": -0.0051,
+      "hist": 0.0004
+    },
+    "atr14": 0.0046,
+    "high_52w": 1.19773,
+    "low_52w": 1.13586,
+    "pct_from_high": -4.63,
+    "pct_from_low": 0.57,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1609
+      },
+      {
+        "type": "support",
+        "price": 1.1359
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 34",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/USD notiert bei 1.1389 am unteren Rand der Jahresspanne, unmittelbar ueber dem 52-Wochen-Tief (1.1359). Trend abwaerts unter allen SMAs, RSI mit 27 tief im ueberverkauften Bereich.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwaerts**: Der Kurs (1.1389) liegt unter **SMA20 (1.1496)**, **SMA50 (1.1588)** und **SMA200 (1.1675)** – klar bearishe Stapelung. Der **RSI14 bei 26.7** signalisiert ueberverkaufte Lage, was kurzfristig Gegenbewegungen ermoeglicht, aber Trendschwaeche bestaetigt. **MACD** negativ (-0.006) unter Signal, Histogramm -0.0012 – Momentum bleibt nach unten gerichtet. Wichtige Marken: Unterstuetzung **1.1359** (zugleich 52W-Tief, nur 0.27% entfernt), Widerstand **1.1609**. **ATR14 (0.0057)** zeigt moderate Tagesschwankung. Abstand zum 52W-Hoch (1.1977): **-4.9%**. Der enge Puffer zum Jahrestief macht diese Zone beobachtenswert."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **Zinsdifferenz** stuetzt weiter den Dollar: Die **EZB** hob am 11.06.2026 den Einlagensatz auf **2.25%** (erste Erhoehung seit 2023), die **Fed** hielt am 17.06. bei **3.50–3.75%** und signalisierte moegliche weitere Hikes (US-Inflation 4.2%, DXY ueber 100). Beide hawkish – die klassische Divergenz-Logik ist gedaempft, der Markt range-gebunden. Treiber: Eurozone-Inflation 3.2% bei nur ~0.8% Wachstum, fallendes Oel nach US–Iran-Waffenruhe. Termine/Risiken: kommende US-/Eurozone-Inflationsdaten, Fed-Pfad. Konsens-Spanne 1.13–1.21; J.P. Morgan sieht 1.13–1.15. *Quellen: FXTM, Investing.com, forex.com, cambridgecurrencies.*"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Momentum sind bearisch: Der Kurs (1.14228) notiert unter SMA20/50/200, der Trend zeigt klar abwaerts. Doch der RSI14 bei 34.2 hat sich aus tief ueberverkauften Niveaus erholt und das MACD-Histogramm dreht mit +0.0004 leicht ins Positive, waehrend der Kurs nur ~0.6% ueber der zentralen Unterstuetzung und dem 52-Wochen-Tief bei 1.1359 steht. Bei beidseitig hawkischem, range-gebundenem Makro (Konsens 1.13-1.21) und diesem widerspruechlichen Bild an einer Schluesselmarke gibt es kein stimmiges Setup, daher FLAT bis zum Bruch unter 1.1359 oder einer bestaetigten Bodenbildung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

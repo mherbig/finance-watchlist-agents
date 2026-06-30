@@ -1,0 +1,82 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1572.46,
+    "change_pct": -2.48189,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1572.46,
+    "change_pct": -2.4818912482635436,
+    "sma20": 1672.8265,
+    "sma50": 1862.583,
+    "sma200": 2295.8129,
+    "rsi14": 24.12,
+    "macd": {
+      "macd": -75.9495,
+      "signal": -77.7422,
+      "hist": 1.7927
+    },
+    "atr14": 76.2864,
+    "high_52w": 4158.88,
+    "low_52w": 1568.4,
+    "pct_from_high": -62.19,
+    "pct_from_low": 0.26,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1796.36
+      },
+      {
+        "type": "support",
+        "price": 1568.4
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 24",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "ETH notiert bei ~1.579 USD und damit knapp ueber dem 52-Wochen-Tief (1.568) sowie rund 62 % unter dem Hoch (4.159). Trend und Bias bleiben abwaerts, alle SMAs liegen deutlich oberhalb des Kurses.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (**1.579**) handelt unter SMA20 (1.689), SMA50 (1.923) und SMA200 (2.329) - eine klar abwaerts gerichtete Stapelung, Bias *bearish*. RSI14 bei **40,8** ist schwach, aber noch nicht ueberverkauft; MACD (-77,5) liegt unter null, das Histogramm (+0,47) deutet auf nachlassendes Abwaertsmomentum. ATR14 ~83 zeigt erhoehte Tagesschwankung. Schluessel: Unterstuetzung **1.568** (zugleich 52W-Tief, nur 0,7 % entfernt), Widerstand **1.796**. Der Abstand zum 52W-Hoch betraegt **-62 %**. Solange 1.568 haelt, bleibt es eine Bodenbildungs-Beobachtung; ein Bruch eroeffnet neue Tiefs."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "ETF-Bild gemischt: BlackRock ETHA mit ~11,3 Mrd. USD kumulierten Zufluessen, aber Spot-ETH-ETFs verzeichneten im Mai 2026 netto ~401 Mio. USD Abfluss. Strukturell stuetzend: >30 % des Angebots (>40 Mio. ETH) sind gestaked, neue Staking-ETFs liefern ~2,8-3,5 % Rendite. **Risiken**: verschobenes Glamsterdam-Upgrade, zaehe US-Inflation und ausbleibende Fed-Zinssenkungen druecken Risikoappetit; L2-Konkurrenz und geringeres Fee-Burning bleiben Gegenwind. YTD liegt ETH ~46 % im Minus."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Bias sind abwaerts (Kurs 1.572,46 unter SMA20/50/200, MACD -75,9), doch der Kurs sitzt nur 0,26 % ueber dem 52W-Tief und der zentralen Unterstuetzung bei 1.568,40 - ein kritischer Entscheidungsbereich. RSI14 bei 24,1 ist klar ueberverkauft und das positive MACD-Histogramm (+1,79) signalisiert nachlassendes Abwaertsmomentum, was eine Short-Fortsetzung riskant macht. Bis 1.568,40 bricht (Short) oder 1.796,36 zurueckerobert wird (Long) bleibt abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8778.7,
+    "change_pct": 0.1654,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8823.400390625,
+    "change_pct": 0.6754774422446785,
+    "sma20": 8776.55,
+    "sma50": 8735.248,
+    "sma200": 8782.56,
+    "rsi14": 64.86,
+    "macd": {
+      "macd": 27.1402,
+      "signal": 30.6096,
+      "hist": -3.4694
+    },
+    "atr14": 86.9287,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.08,
+    "pct_from_low": 5.47,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8966.2998
+      },
+      {
+        "type": "support",
+        "price": 8604.2002
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der S&P/ASX 200 notiert bei 8.764 Punkten (-0,50 %) in einer ausgeprägten Seitwärtsspanne, eingeklemmt zwischen den eng beieinander liegenden SMA20/50/200. RSI 54 und ein leicht negatives MACD-Histogramm signalisieren eine richtungslose, neutrale Lage. Treiber bleiben die auf 4,35 % gehaltene RBA, schwächere Eisenerzpreise unter 100 USD/t und der starke US-Dollar nach dem hawkishen FOMC.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Index handelt bei **8.764** praktisch auf seinem **SMA20 (8.763)** und knapp über dem **SMA50 (8.742)**, aber unter dem **SMA200 (8.783)** – die drei Durchschnitte liegen in einem engen Band, klassisch für einen **Seitwärtstrend** ohne Richtung. **RSI 54** ist neutral; **MACD (31,55)** liegt unter seiner Signallinie (32,70), das **Histogramm ist mit -1,14 leicht negativ** – nachlassendes Momentum. - **Widerstand: 8.966**, **Unterstützung: 8.593**\n- Abstand zum **52W-Hoch (9.199): -4,89 %**, zum **52W-Tief (8.366): +4,58 %** – mittig in der Range\n- **ATR14 ≈ 94** Punkte: solide Tagesvolatilität; ein Bruch über 8.966 oder unter 8.593 wäre das nächste Signal."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **RBA hielt den Leitzins im Juni bei 4,35 %** nach drei Anhebungen seit Februar; NAB sieht die nächste Bewegung eher abwärts. Belastend wirken **Eisenerz-Futures bei ≈ 98 USD/t** (unter der 100er-Marke) und ein durch den **hawkishen FOMC** gestärkter US-Dollar, der die schwergewichtigen Materials- und Bankenwerte drückt. - **Risiken:** Kupfer -3,25 %, Gold -2,71 %, Bonitätssorgen im SME-Sektor (Judo Capital -38 %), Nahost-Spannungen\n- **Stütze:** robuster Arbeitsmarkt (Mai +40.300 Stellen, Arbeitslosenquote 4,4 %)\n- Nächste Trigger: RBA-Inflationspfad und Eisenerz-/USD-Entwicklung."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend 'up' und Bias 'bullish', aber der Index (8.778) steckt mittig in der Range zwischen eng gestaffelten SMA20/50/200 und notiert deutlich unter dem Widerstand bei 8.966. RSI 64,9 ist erhoeht, doch das MACD-Histogramm ist negativ (-3,47, MACD unter Signal) - nachlassendes Momentum widerspricht dem bullischen Bild. Erst ein Tagesschluss ueber 8.966 oder unter 8.604 liefert ein klares Signal; bis dahin kein Trade.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

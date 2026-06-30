@@ -1,0 +1,82 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 22881.02,
+    "change_pct": 0.9226,
+    "currency": "HKD"
+  },
+  "technical": {
+    "last_close": 23026.6796875,
+    "change_pct": 1.5650251998795315,
+    "sma20": 24337.4694,
+    "sma50": 25313.1797,
+    "sma200": 25929.0856,
+    "rsi14": 27.84,
+    "macd": {
+      "macd": -666.6883,
+      "signal": -524.8038,
+      "hist": -141.8845
+    },
+    "atr14": 440.5068,
+    "high_52w": 27968.08984375,
+    "low_52w": 22671.859375,
+    "pct_from_high": -17.67,
+    "pct_from_low": 1.57,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26038.3203
+      },
+      {
+        "type": "support",
+        "price": 22671.8594
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 28",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der Hang Seng schloss am 26.06.2026 bei 22.671,86 (-3,16 %) und markiert damit ein neues 52-Wochen-Tief, getrieben von einem globalen Ausverkauf bei KI- und Halbleiteraktien. Der Trend ist klar abwärts, alle gleitenden Durchschnitte liegen darüber, und mit RSI um 19 ist der Markt extrem überverkauft. Kurzfristig droht ein Bruch der 23.077er-Unterstützung, während eine technische Gegenbewegung bei jedem PBoC- oder Fed-Impuls einsetzen könnte.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der **Abwärtstrend** ist intakt: Der Kurs (22.672) notiert deutlich unter SMA20 (24.562), SMA50 (25.436) und SMA200 (25.954) - alle drei fallend und in bearisher Reihenfolge. Der **RSI14 bei 19** signalisiert eine extreme Überverkauftheit, der **MACD** (-589 vs. Signal -448, Histogramm -141) bestätigt das negative Momentum ohne Divergenz-Hinweis auf Bodenbildung. - **Unterstützung:** 23.077 (frisches 52W-Tief, bereits unterschritten) - darunter offener Raum\n- **Widerstand:** 26.038, zusätzlich SMA20 bei 24.562 als erste Hürde\n- **ATR14 423** (~1,9 %) zeigt erhöhte Tagesvolatilität\n\nMit **-17,5 % unter dem 52W-Hoch** (27.968) und 0 % über dem Tief ist der Index maximal gestresst - typisches Setup für scharfe, aber oft kurzlebige Erholungsrallyes (Mean Reversion)."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber des Ausverkaufs ist ein **globaler KI-/Halbleiter-Rout**, der von Tokio bis Frankfurt belastet; in Hongkong fielen u. a. SMIC (-6,8 %), Tencent (-2,0 %), Meituan (-3,0 %) und AIA (-1,8 %). Zusätzlich drücken Unsicherheit über den **US-Iran-Waffenstillstand** und enttäuschte Stimulus-Hoffnungen, nachdem die **PBoC** aggressive Lockerung gedämpft und auf \"cross-cyclical\" Stabilität gesetzt hat. - **Katalysatoren:** RRR-/Zinssenkung der PBoC, Fed-Zinssenkungserwartungen, fiskalische Impulse Pekings\n- **Stütze:** anhaltende Southbound-Zuflüsse, robuste IPO-Aktivität, Aufnahme von Zhipu AI/MiniMax in den HS-Tech-Index\n- **Risiko:** Bruch unter 23.000 könnte weitere passive Abflüsse auslösen; DBS-Jahresendziel 30.000 bleibt ambitioniert"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Abwaertstrend ist intakt: Kurs 22.881 notiert klar unter SMA20 (24.337), SMA50 (25.313) und SMA200 (25.929) - alle fallend in bearischer Reihenfolge, MACD -666,7 unter Signal -524,8 mit negativem Histogramm bestaetigt das Momentum. Doch mit RSI14 27,8 dicht ueber dem frischen 52-Wochen-Tief (22.672) ist der Index extrem ueberverkauft - laut Analyse ein Setup fuer scharfe, aber kurzlebige Mean-Reversion-Rallyes. Ein frischer Short ins ausgereizte Tief ist undiszipliniert, ein Long widerspricht dem klaren Trend; das widerspruechliche Bild rechtfertigt FLAT bis zu einem bestaetigten Bruch unter 22.672 mit Folgeschwaeche oder einer belastbaren Bodenbildung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

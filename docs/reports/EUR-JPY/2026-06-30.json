@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 185.69727,
+    "change_pct": -8.0776567e-05,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 185.69727,
+    "change_pct": -8.077656651921639e-05,
+    "sma20": 184.9286,
+    "sma50": 185.03,
+    "sma200": 184.3639,
+    "rsi14": 62.93,
+    "macd": {
+      "macd": -0.0376,
+      "signal": -0.1582,
+      "hist": 0.1206
+    },
+    "atr14": 0.7744,
+    "high_52w": 187.58855,
+    "low_52w": 175.422,
+    "pct_from_high": -1.01,
+    "pct_from_low": 5.86,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 186.2828
+      },
+      {
+        "type": "support",
+        "price": 183.796
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 63",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/JPY notiert bei 184,18 und steht trotz leichtem Tagesplus (+0,11%) technisch unter Druck: Der Kurs handelt unter SMA20/50, der RSI14 von 37 und ein negatives MACD-Histogramm bestätigen den kurzfristigen Abwärtsbias. Entscheidend bleibt die geldpolitische Divergenz zwischen einer hawkishen BoJ (Leitzins jüngst auf 1,0%) und der ECB (Einlagensatz 2,25%), die das Paar in einer Spanne um die SMA200 (184,27) gefangen hält.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **bearish**: Der Kurs (184,18) liegt unter SMA20 (184,93) und SMA50 (185,01) und kämpft exakt an der SMA200 (184,27), die als Pivot dient. - **RSI14 bei 37** signalisiert Schwäche, ist aber noch nicht überverkauft (Schwelle 30). - **MACD** ist negativ (Linie -0,29 unter Signal -0,14, Histogramm -0,15) und untermauert das Abwärtsmomentum. - **Schlüssel-Level**: Support bei **183,80**, darunter droht ein Test des Bereichs Richtung 52W-Tief (175,42). Widerstand bei **186,28**, dann das 52W-Hoch bei **187,59**. Die Lage ist range-gebunden: -1,81% zum 52W-Hoch, +5,0% zum Tief. Bei einem ATR14 von 0,93 deckt eine durchschnittliche Tagesspanne rund die Hälfte der Distanz zum Support ab."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Haupttreiber ist die **Zinsdivergenz**. Die **BoJ** hob am 16.06.2026 (7:1) auf **1,0%** an und signalisiert in den Summary of Opinions weitere Schritte, sofern Inflation und Wachstum dem Pfad folgen - ein struktureller Yen-Rückenwind, der EUR/JPY deckelt. Die **ECB** straffte ebenfalls um 25 Bp (Einlagensatz **2,25%**, Stand 17.06.2026), getrieben von Nahost-bedingtem Inflationsdruck und Energiepreisen. - **Risiken**: Eskalation im Nahen Osten (Energie/Risikoaversion stützt Yen), abweichende Notenbank-Rhetorik, BoJ-Interventionsrisiko. - **Konsens-Prognosen** sehen das Paar Richtung Jahresende eher schwächer (181-184)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-06-30T21:31:57.694116+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Es besteht ein klarer Widerspruch: Die aktuelle Technik ist erholt-bullisch (Kurs 185,70 ueber SMA20/50/200, RSI14 63, MACD-Histogramm dreht mit +0,12 ins Positive), waehrend die qualitative Analyse strukturell bearish argumentiert (hawkishe BoJ bei 1,0% gegen ECB 2,25%, Konsens 181-184) und Trend/Bias offiziell 'side/neutral' bleiben. Bei diesem ungeloesten Konflikt unmittelbar unter dem Widerstand (186,28) und nahe dem 52W-Hoch fehlt ein stimmiges Bild fuer LONG oder SHORT, daher FLAT mit niedriger Ueberzeugung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

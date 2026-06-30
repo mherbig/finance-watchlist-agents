@@ -4,30 +4,30 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T21:23:14.938326+00:00",
+  "generated_at": "2026-06-30T23:58:28.634644+00:00",
   "available": true,
   "snapshot": {
-    "price": 3.257,
-    "change_pct": 2.3892,
+    "price": 3.255,
+    "change_pct": 2.3263,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 3.256999969482422,
-    "change_pct": 2.3891850154409946,
-    "sma20": 3.2011,
+    "last_close": 3.255000114440918,
+    "change_pct": 2.32631626205837,
+    "sma20": 3.201,
     "sma50": 2.9941,
     "sma200": 3.457,
-    "rsi14": 55.64,
+    "rsi14": 55.56,
     "macd": {
-      "macd": 0.0585,
+      "macd": 0.0583,
       "signal": 0.0655,
-      "hist": -0.007
+      "hist": -0.0071
     },
-    "atr14": 0.1489,
+    "atr14": 0.1423,
     "high_52w": 7.460000038146973,
     "low_52w": 2.5230000019073486,
-    "pct_from_high": -56.34,
-    "pct_from_low": 29.09,
+    "pct_from_high": -56.37,
+    "pct_from_low": 29.01,
     "trend": "up",
     "bias": "bullish",
     "levels": [

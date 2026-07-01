@@ -494,6 +494,7 @@ function renderOpenSignals(open) {
       <td>${dirChip(o.direction)}</td>
       <td><span class="sig-dots" title="Konviktion ${escapeHtml(String(o.conviction))}/5">${dots}</span></td>
       <td class="num">${fmtNum(o.entry)}</td>
+      <td class="num">${o.date ? escapeHtml(fmtDate(o.date)) : "–"}</td>
       <td class="num">${o.current_price == null ? "–" : fmtNum(o.current_price)}</td>
       <td class="num ${changeClass(o.unrealized_pct)}">${fmtPct(o.unrealized_pct)}</td>
       <td class="num">${fmtNum(o.stop_loss)}</td>
@@ -509,6 +510,7 @@ function renderOpenSignals(open) {
     <table class="ptable">
       <thead><tr>
         <th>Symbol</th><th>Richtung</th><th>Konv</th><th>Entry</th>
+        <th title="Datum der Eröffnung (Signal-Datum)">Eröffnet</th>
         <th title="Aktueller Kurs (letzter Tagesschluss)">Akt.</th>
         <th title="Unrealisierter Stand seit Entry">Status</th>
         <th>SL</th><th>TP</th><th>R:R</th><th>Risiko</th><th>Größe</th><th>Horizont</th>

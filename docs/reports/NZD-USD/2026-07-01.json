@@ -1,0 +1,82 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56737,
+    "change_pct": 0.021154694,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56737,
+    "change_pct": 0.02115469369766575,
+    "sma20": 0.5717,
+    "sma50": 0.5807,
+    "sma200": 0.5857,
+    "rsi14": 24.64,
+    "macd": {
+      "macd": -0.0047,
+      "signal": -0.0049,
+      "hist": 0.0002
+    },
+    "atr14": 0.0037,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -6.46,
+    "pct_from_low": 1.41,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5831
+      },
+      {
+        "type": "support",
+        "price": 0.5639
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der Kiwi notiert bei 0,5642 im klaren Abwärtstrend unter allen SMAs und hat mit einem RSI14 von ~5 eine extreme Überverkauftheit erreicht. Der Kurs sitzt direkt auf dem 52-Wochen-Tief-nahen Support 0,5642, getrieben von festem US-Dollar und einem RBNZ, der Zinserhöhungen vorzieht, während die Inflation in NZ anzieht.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend klar abwärts:** Der Kurs (0,5642) liegt deutlich unter SMA20 (0,5763), SMA50 (0,5842) und SMA200 (0,5861) - alle gleitenden Durchschnitte fallend gestaffelt, ein bärisches Bild. - **RSI14 bei ~4,8** signalisiert eine extreme Überverkauftheit; solche Werte sind selten und erhöhen die Wahrscheinlichkeit einer technischen Gegenbewegung, bestätigen aber zugleich das hohe Verkaufsmomentum. - **MACD negativ** (-0,0055 vs Signal -0,0041, Histogramm -0,0013): Momentum weiter abwärts, aber Histogramm flach. - **Schlüssel-Level:** Support 0,5642 (= aktueller Kurs, nur 0,84% über dem 52W-Tief 0,55947), darüber Widerstand bei 0,5837. Ein Bruch unter 0,5595 öffnet Neuland. - **ATR14 0,0042** (~0,75%): moderate Tagesvolatilität. Abstand zum 52W-Hoch (0,60657): -6,99%."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**USD-Stärke** dominiert: Der Greenback profitiert von vorsichtiger Fed-Haltung, der Markt preist 2026 nur zwei moderate Cuts ein. - **RBNZ:** OCR zuletzt bei 2,25% gehalten, doch die Notenbank zieht die erste Zinserhöhung vor (erste Anhebung vor September wahrscheinlich) - die NZ-Inflation soll im Juni-Quartal auf bis zu 4,2% springen. Das ist mittelfristig NZD-stützend. - **Katalysatoren:** anstehende RBNZ-Termine/OCR-Pfad, NZ-CPI-Daten, US-Notenbankrhetorik sowie globale Risikostimmung (Rohstoff-/China-Nachfrage als Kiwi-Treiber). - **Risiko:** Setzt sich die Dollar-Stärke fort, droht ein Bruch des 52W-Tiefs; institutionelle Ziele (NAB, BNP) sehen NZD/USD jedoch mittelfristig wieder Richtung 0,60."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwärts (Kurs 0,56737 unter SMA20/50/200, fallend gestaffelt), doch der RSI14 von 24,6 signalisiert eine ausgeprägte Überverkauftheit direkt auf dem Support 0,5639 nahe dem 52W-Tief 0,55947, was einen Short wegen drohender technischer Gegenbewegung riskant macht. Das MACD-Histogramm dreht mit +0,0002 gerade flach ins Positive, ohne bestätigten Trigger, und das Makro-Bild ist widersprüchlich: kurzfristige USD-Stärke wirkt bärisch, während ein hawkisher RBNZ-Pfad und institutionelle Ziele Richtung 0,60 mittelfristig stützen. Ohne klaren Auslöser ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

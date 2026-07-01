@@ -1,0 +1,82 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 554.2,
+    "change_pct": 1.40526,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 554.2,
+    "change_pct": 1.4052550684330058,
+    "sma20": 580.827,
+    "sma50": 617.7246,
+    "sma200": 689.4122,
+    "rsi14": 30.98,
+    "macd": {
+      "macd": -18.2053,
+      "signal": -16.8463,
+      "hist": -1.359
+    },
+    "atr14": 19.2707,
+    "high_52w": 1138.88,
+    "low_52w": 546.52,
+    "pct_from_high": -51.34,
+    "pct_from_low": 1.41,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 617.87
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "BNB notiert bei 566,23 USD und steht unter klarem Abwärtsdruck: rund 50 % unter dem 52W-Hoch (1.138,88) und nur ~1 % über dem 52W-Tief (560,62). Alle wichtigen SMAs liegen darüber, RSI 33 signalisiert überverkaufte Bedingungen nahe einer markanten Unterstützung. Das Makroumfeld (hawkische Fed, Bitcoin-Schwäche, MiCA-Risiko) bleibt belastend, doch die 560er-Zone ist die entscheidende Verteidigungslinie.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Der Kurs (566,23) liegt unter SMA20 (591,93), SMA50 (628,29) und SMA200 (697,84) - eine vollständig bärische Reihenfolge. Der **RSI14 von 32,6** signalisiert überverkaufte Bedingungen, während der **MACD negativ** bleibt (Linie -16,44 unter Signal -14,46, Histogramm -1,98) und damit anhaltende Abwärtsdynamik bestätigt. Entscheidend ist die **Unterstützung bei 560,62** (zugleich 52W-Tief) - der Kurs liegt nur ~1 % darüber. Ein Bruch öffnet Raum nach unten, ein Halten kann eine technische Erholung Richtung **Widerstand 617,87** und SMA20 auslösen. Mit **ATR14 ~19,5** (≈3,5 % Tagesschwankung) ist die Volatilität erhöht. Der Abstand von **-50,3 % zum 52W-Hoch** zeigt das Ausmaß der Korrektur."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Makroumfeld bleibt **risk-off**: Bitcoin fiel im Juni 2026 Richtung ~61-63k bei sechs Wochen ETF-Abflüssen, der Fear-&-Greed-Index steht in \"Extreme Fear\" (24). Die **Fed** hielt am 16./17. Juni die Zinsen stabil; Märkte preisen mit ~69 % Wahrscheinlichkeit keine Zinssenkung für 2026, dazu Inflation bei 3,8 % und ein Dollar-Index auf Jahreshoch. BNB-spezifisch belastet das **MiCA-Risiko** (mögliche Lizenz-Ablehnung für Binance in der EU). Positiv: Der Start von **bStocks** (tokenisierte US-Aktien als BEP-20) am 11. Juni könnte On-Chain-Aktivität und BNB-Nachfrage stützen. Schlüssel-Marke bleibt die 600er-/560er-Zone."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Vollstaendig baerische Struktur: Kurs (554,20) liegt unter SMA20 (580,83), SMA50 (617,72) und SMA200 (689,41), MACD bleibt negativ (Histogramm -1,36), Trend abwaerts und das Makroumfeld ist risk-off (hawkische Fed, BTC-Schwaeche, MiCA-Risiko). RSI14 von 30,98 ist jedoch ueberverkauft und der Kurs steht nur ~1,4 % ueber der Schluesselunterstuetzung / dem 52W-Tief bei 546,52, was eine technische Gegenbewegung wahrscheinlich macht. Daher Short erst auf Pullback Richtung SMA20 / Widerstand 617,87 statt am Tief.",
+    "entry": 554.2,
+    "stop_loss": 588.8873,
+    "take_profit": 502.1691,
+    "take_profit_2": 546.52,
+    "rr": 1.5
+  }
+}

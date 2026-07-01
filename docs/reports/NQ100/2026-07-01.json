@@ -1,0 +1,82 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29809.133,
+    "change_pct": -1.5432,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29809.1328125,
+    "change_pct": -1.5431741372491201,
+    "sma20": 29697.398,
+    "sma50": 29086.2858,
+    "sma200": 26067.3429,
+    "rsi14": 59.3,
+    "macd": {
+      "macd": 187.9906,
+      "signal": 247.8315,
+      "hist": -59.8409
+    },
+    "atr14": 703.5126,
+    "high_52w": 30660.599609375,
+    "low_52w": 22685.5703125,
+    "pct_from_high": -2.78,
+    "pct_from_low": 31.4,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30571.2402
+      },
+      {
+        "type": "support",
+        "price": 28508.0293
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der Nasdaq-100 konsolidiert bei 29.118 Punkten (-1,1 %) nach dem Sprung über 30.000 Anfang Juni und liegt rund 5 % unter dem 52W-Hoch von 30.661. Der Trend ist seitwärts: Der Kurs steht über der SMA50/200, aber unter der SMA20, während RSI (51) und ein negatives MACD-Histogramm nachlassendes Momentum signalisieren. Treiber bleibt die Spannung zwischen dem ungebremsten KI-Capex-Zyklus und einer plötzlich hawkishen Fed unter Kevin Warsh.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Trend seitwärts.** Der Schlusskurs (29.118) liegt klar über der SMA200 (25.978, +12 %) und der SMA50 (28.881), aber **unter der SMA20 (29.780)** — die kurzfristige Dynamik hat gedreht. Der **RSI14 von 51** ist exakt neutral, das **MACD-Histogramm ist negativ** (-159; MACD 152 unter Signal 311), was den jüngsten Schwung nach unten bestätigt. - **Resistance:** 30.661 (52W-Hoch / Allzeithoch-Zone), zugleich Trigger für das Bull-Szenario\n- **Support:** 28.508; darunter rückt die SMA50 (28.881) als erste Auffanglinie in den Fokus\n\nDie **ATR14 von 793** (~2,7 % des Kurses) zeigt erhöhte Volatilität. Mit nur **-5 % zum 52W-Hoch** und **+29,5 % zum Tief** notiert der Index im oberen Bereich seiner Jahresspanne — eine Konsolidierung knapp unter dem Rekord."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Hawkishe Fed-Wende.** Am 17.06.2026 hielt die Fed unter dem neuen Vorsitzenden **Kevin Warsh** die Zinsen bei 3,50–3,75 %, signalisierte im Dot-Plot aber eine mögliche **Anhebung 2026** (9 von 18 Mitgliedern) — eine Kehrtwende gegenüber der zuvor erwarteten Senkung. Das belastet Tech-Bewertungen. Gegengewicht ist der **KI-Capex-Supercycle**: Nvidia meldete die Vollproduktion der nächsten Chip-Generation **Vera Rubin**; im Juni-Rebalancing kamen CoreWeave, Nebius, Astera Labs, Rocket Lab und Teradyne neu in den Index. **Risiken:** Sommer-Inflationsdaten als nächster Trigger, nachlassendes Mag-7-Gewinnwachstum (~18 %, schwächstes seit 2022) und Antitrust-Druck in USA/EU."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Nasdaq-100 notiert bei 29.809 ueber SMA20/50/200, Trend und Bias sind bullisch und der RSI14 von 59 ist konstruktiv ohne ueberkauft zu sein. Das MACD-Histogramm bleibt zwar negativ (-60), verengt sich aber weiter (zuvor -159, -125, -67) und signalisiert drehendes Momentum knapp unter dem 52W-Hoch (30.661). Gegen die hawkishe Fed-Wende unter Warsh steht der intakte KI-Capex-Zyklus; ein Ruecksetzer-Einstieg an den Support (28.508) ist dem Nachlaufen vorzuziehen.",
+    "entry": 28508.0293,
+    "stop_loss": 27241.7066,
+    "take_profit": 30407.5133,
+    "take_profit_2": 30571.2402,
+    "rr": 1.5
+  }
+}

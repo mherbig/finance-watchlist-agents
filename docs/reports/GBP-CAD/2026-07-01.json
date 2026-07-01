@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/CAD",
+  "display": "GBP/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.8864,
+    "change_pct": -0.046098333,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.8864,
+    "change_pct": -0.0460983325120373,
+    "sma20": 1.8764,
+    "sma50": 1.864,
+    "sma200": 1.8526,
+    "rsi14": 73.38,
+    "macd": {
+      "macd": 0.0051,
+      "signal": 0.0044,
+      "hist": 0.0008
+    },
+    "atr14": 0.0071,
+    "high_52w": 1.88739,
+    "low_52w": 1.81558,
+    "pct_from_high": -0.05,
+    "pct_from_low": 3.9,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.8873
+      },
+      {
+        "type": "support",
+        "price": 1.8668
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/CAD notiert bei 1,8724 in einem intakten Aufwaertstrend ueber allen drei gleitenden Durchschnitten, jedoch nur knapp 0,8 % unter dem 52-Wochen-Hoch und mit nachlassendem Momentum (RSI 46, MACD-Histogramm leicht negativ). Getragen wird das Paar vom Zinsvorteil der BoE (3,75 %) gegenueber der BoC (2,25 %), waehrend Oelpreise als wichtigster Gegenspieler fuer den CAD wirken. Kurzfristig dominiert eine Konsolidierung in der Spanne ~1,859-1,879.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **aufwaerts**: Kurs 1,8724 liegt ueber SMA20 (1,8719), SMA50 (1,8613) und SMA200 (1,8516), die sauber gestaffelt sind. Allerdings zeigt das Momentum eine Pause: **RSI 46** (neutral, unter 50) und ein **MACD-Histogramm von -0,0007** (MACD 0,0036 unter Signal 0,0043) signalisieren nachlassenden Schub bzw. eine kurzfristige Korrektur. - **Widerstand 1,8791** und das **52W-Hoch 1,8874** (nur **-0,79 %** entfernt) deckeln das Paar. - **Support 1,8592** deckt sich faktisch mit der SMA50. - Die **ATR14 von 0,0075** (~75 Pips) zeigt moderate Volatilitaet; ein Tagesbereich rund um diese Spanne ist normal. Solange 1,8592 haelt, bleibt die Struktur konstruktiv; ein Bruch oeffnet den Weg Richtung SMA200."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Haupttreiber ist das **Zinsdifferential**: Die **BoE haelt bei 3,75 %**, die **BoC bei 2,25 %** (Juni 2026, fuenfte Pause in Folge) - rund **150 Bp zugunsten des Pfunds**. Das stuetzt GBP/CAD strukturell. Gegenwind: **Oelpreise** sind der zentrale CAD-Faktor - steigende Energiepreise (zuletzt rund um Spannungen an der Strasse von Hormuz) staerken den CAD und druecken das Paar. Auf GBP-Seite belasten **schwache UK-PMI-Daten** und fiskalische Unsicherheit nach Starmers Ruecktritt. Risiken/Termine: Goldman erwartet moegliche **BoE-Senkungen im Juli und November 2026**; jede dovishe Wende oder ein Oelpreis-Schub gefaehrdet die Spanne 1,86-1,89."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs 1,8864 ueber SMA20/50/200) und wird strukturell vom ~150 Bp BoE-Zinsvorteil gegenueber der BoC gestuetzt. Doch der Kurs steht praktisch am 52W-Hoch (1,88739, nur -0,05 % entfernt) direkt unter Widerstand 1,8873, und der RSI14 von 73 signalisiert Ueberkauftheit bei nur schwach positivem MACD-Histogramm - unmittelbares Aufwaertspotenzial fehlt, waehrend Oelpreis-Risiken (Hormuz) den CAD staerken koennen. Aus konstruktivem Trend und Erschoepfung am Hoch ist FLAT diszipliniert; ein Long wird erst nach Pullback an Support 1,8668 reizvoll.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

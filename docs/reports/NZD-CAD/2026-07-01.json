@@ -1,0 +1,82 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.80617,
+    "change_pct": -0.018603036,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.80626,
+    "change_pct": -0.007441214406198531,
+    "sma20": 0.8086,
+    "sma50": 0.8106,
+    "sma200": 0.8072,
+    "rsi14": 32.16,
+    "macd": {
+      "macd": -0.0023,
+      "signal": -0.0021,
+      "hist": -0.0001
+    },
+    "atr14": 0.0045,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -2.41,
+    "pct_from_low": 2.57,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8163
+      },
+      {
+        "type": "support",
+        "price": 0.8004
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "NZD/CAD notiert bei 0,79997 und damit unter allen drei gleitenden Durchschnitten (SMA20 0,8108, SMA50 0,8119, SMA200 0,8071) in einem klaren Abwärtstrend. Der RSI14 von 12,9 signalisiert eine extreme Überverkauft-Lage direkt an der psychologischen Marke 0,80. Beide Notenbanken halten bei 2,25 %, doch die hawkishere RBNZ-Guidance bildet das fundamentale Gegengewicht zur kurzfristig technischen Schwäche.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (0,79997) liegt unter **SMA20 (0,8108)**, **SMA50 (0,8119)** und **SMA200 (0,8071)** – die Reihenfolge bestätigt den **Abwärtstrend** (`trend: down`). Der **RSI14 von 12,9** ist extrem überverkauft, und der **MACD** ist negativ (MACD -0,0024, Signal -0,0008, Hist -0,0016), das Momentum bleibt also bärisch, ohne Bodenbildung. - **Support 0,80** liegt praktisch am Kurs – ein Bruch öffnet das 52W-Tief bei **0,78606** (nur 1,77 % entfernt). - **Resistance 0,8163**; das 52W-Hoch (0,82616) ist 3,17 % entfernt. - **ATR14 0,0046** (~0,57 %): bei dieser Tagesspanne ist die runde 0,80-Marke in einer Sitzung erreichbar. Der ausgereizte RSI erhöht das Risiko einer technischen Gegenbewegung Richtung SMA20/50 (~0,81)."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist das **Zinsdifferenzial**: RBNZ und BoC halten aktuell beide bei **2,25 %**. Die **RBNZ** signalisiert jedoch, dass der OCR „früher und stärker“ steigen dürfte (Inflations-Peak ~4,3 % in Q3), was den NZD mittelfristig stützt. Die **BoC** (Beschluss 10.06.2026, Hold) bleibt neutral; Risiken sind US-Handelsbeschränkungen (CAD-belastend) und höhere Energiepreise (CAD-stützend via Öl). - **Katalysatoren:** GDT-Milchauktionen (NZD), Ölpreis/Nahost (CAD), nächste RBNZ-/BoC-Termine, kanadische CPI- und Arbeitsmarktdaten. - **Risiko:** Bleibt Öl fest, kann der CAD den überverkauften Rebound deckeln."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Klarer Abwaertstrend: Kurs 0,80617 liegt unter SMA20 (0,8086), SMA50 (0,8106) und SMA200 (0,8072), MACD negativ (Hist -0,0001), Bias bearish. Der RSI14 von 32,16 naehert sich jedoch der Ueberverkauft-Zone direkt am Support 0,8004, und die Analyse selbst nennt das Risiko einer Gegenbewegung Richtung SMA20/50 (~0,81), gestuetzt durch die hawkishere RBNZ-Guidance als fundamentales Gegengewicht. Baerisches Momentum und Bounce-Risiko widersprechen sich, kein stimmiges Setup fuer LONG oder SHORT, daher FLAT bis zur Klaerung an Support 0,8004 oder Resistance 0,8163.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

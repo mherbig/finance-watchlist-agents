@@ -1,0 +1,82 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56976,
+    "change_pct": 0.052681488,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56976,
+    "change_pct": 0.052681487725227065,
+    "sma20": 0.5696,
+    "sma50": 0.5698,
+    "sma200": 0.5716,
+    "rsi14": 52.83,
+    "macd": {
+      "macd": -0.0,
+      "signal": 0.0,
+      "hist": -0.0
+    },
+    "atr14": 0.0018,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -2.18,
+    "pct_from_low": 1.38,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5711
+      },
+      {
+        "type": "support",
+        "price": 0.5668
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "CAD/CHF notiert bei 0,57064 und handelt im oberen Drittel der 52-Wochen-Spanne (0,56198-0,58246), aber unter der SMA200 (0,572) - der mittelfristige Abwaertstrend ist noch nicht gebrochen. Kurzfristig ist das Bild leicht konstruktiv: Kurs ueber SMA20/50, RSI neutral-positiv bei 54 und MACD knapp im Plus. Treiber bleibt das Zinsdifferenzial (BoC 2,25% vs. SNB 0%) gegen die strukturelle CHF-Staerke und den schwachen kanadischen Konjunkturhintergrund.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (0,57064) liegt knapp ueber **SMA20 (0,5701)** und **SMA50 (0,5697)**, jedoch klar unter der **SMA200 (0,572)** - kurzfristig aufwaerts, mittelfristig noch nicht gedreht. **RSI14 bei 54** ist neutral-konstruktiv ohne Ueberhitzung; **MACD** liegt mit Histogramm +0,0002 minimal ueber der Signallinie - schwaches Momentum-Plus. Entscheidende Marken: **Widerstand 0,5738** (deckt sich faktisch mit der SMA200-Zone, der erste echte Test), darunter **Support 0,5668**. Mit **ATR14 von 0,0022** (~0,4%) ist die Volatilitaet gering; eine Tagesrange erreicht selten bis zu den Leveln. Abstand zum **52W-Hoch -2,03%**, zum **52W-Tief +1,54%** - der Kurs sitzt in der oberen Spannenhaelfte, der Ausbruch ueber 0,5738/SMA200 ist die Schluesselbedingung fuer eine echte Trendwende."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Paar wird vom **Zinsdifferenzial** dominiert: Die **BoC** hielt am 10.06.2026 zum fuenften Mal in Folge bei **2,25%**, die **SNB** beliess am 18.06.2026 ihren Satz bei **0,0%**. Der Carry spricht fuer CAD, doch die SNB signalisierte erneute **Interventionsbereitschaft gegen eine zu rasche CHF-Aufwertung** - ein Deckel fuer CHF-Staerke. Belastend fuer CAD: schwache kanadische Konjunktur, US-Handelsunsicherheit und Inflation nahe 3% durch erhoehte Oelpreise (Nahost-Konflikt, ~10 USD/bbl ueber BoC-April-Annahme). Hoehere Oelpreise stuetzen den Loonie tendenziell. Risiken: SNB-FX-Interventionen, BoC-Kommunikation/Daten, Oelpreis-Schocks und globale Risk-off-Phasen, die den CHF als sicheren Hafen begünstigen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild ohne klare Richtung: Trend 'side' und Bias neutral, RSI14 bei 52,8 und MACD praktisch flach (Histogramm ~0). Kurs (0,56976) liegt ueber SMA20/SMA50, aber unter der SMA200 (0,5716) - der mittelfristige Abwaertstrend ist nicht gebrochen. Bullischer CAD-Carry (BoC 2,25% vs. SNB 0%) plus Oelpreis-Stuetze stehen gegen strukturelle CHF-Staerke und SNB-Interventionsbereitschaft; erst ein Ausbruch ueber 0,5711/SMA200 bestaetigt eine Wende, daher bei geringer Volatilitaet Abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

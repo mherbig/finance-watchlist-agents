@@ -1,0 +1,82 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.40047,
+    "change_pct": 0.0047816775,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 114.40047,
+    "change_pct": 0.004781677520872878,
+    "sma20": 114.1375,
+    "sma50": 114.8003,
+    "sma200": 114.6654,
+    "rsi14": 55.69,
+    "macd": {
+      "macd": -0.1549,
+      "signal": -0.2514,
+      "hist": 0.0965
+    },
+    "atr14": 0.3883,
+    "high_52w": 117.24469,
+    "low_52w": 107.042999,
+    "pct_from_high": -2.43,
+    "pct_from_low": 6.87,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.6658
+      },
+      {
+        "type": "support",
+        "price": 113.6854
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "CAD/JPY notiert bei 113,99 und steht technisch unter Druck: Der Kurs liegt unter allen relevanten Gleitenden Durchschnitten (SMA20 114,33 / SMA50 114,87 / SMA200 114,61), Trend und Bias sind abwaerts. Mit RSI 39 und leicht negativem MACD ueberwiegt Schwaeche, ohne dass das Paar bereits ueberverkauft waere. Die unmittelbare Entscheidung faellt an der Unterstuetzung 113,69; darunter droht eine Ausweitung des Rueckgangs.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwaerts**: Der Schlusskurs 113,99 liegt unter SMA20 (114,33), SMA50 (114,87) und SMA200 (114,61) - alle drei buendeln im Bereich 114,3-114,9 und bilden eine massive Widerstandszone. **RSI 39** signalisiert Schwaeche, aber noch keine Ueberverkauftheit (<30). Der **MACD** ist negativ (-0,337) und liegt knapp unter der Signallinie, das Histogramm (-0,014) ist nur leicht negativ - Momentum schwach, ohne starke Beschleunigung. - **Support 113,69** (nur ~0,3 Punkte entfernt) ist die Schluesselmarke; ein Bruch oeffnet Raum nach unten. - **Resistance 115,15**; darueber erst Trendentlastung. - ATR14 0,47 (~0,4 % Tagesrange) - moderate Volatilitaet. - Abstand zum 52W-Hoch (117,24): **-2,8 %**; zum 52W-Tief (107,04): **+6,5 %** - Kurs im oberen Drittel der Jahresspanne, aber kippend."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Der Hauptdruck kommt von der **Zins-Divergenz**: Die BoJ hat den Leitzins auf **1,0 %** angehoben (Tamura signalisiert Kurs Richtung neutral ~2 %, ING erwartet weitere ~50 Bp 2026), waehrend die **BoC bei 2,25 % stabil** verharrt (Sitzung 10.06.2026). Ein erstarkender Yen belastet CAD/JPY strukturell. - **Oel** als CAD-Treiber unter Druck: WTI fiel am 26.06. um ~4 % auf ~69 USD (tiefster Stand seit Februar), da die Strasse von Hormus wieder offen ist und Saudi-Arabien/Golfstaaten Foerderung hochfahren - schwaecht den Rohstoffwaehrungs-CAD. - **Risiken:** BoJ-Hawkishness und weiter fallendes Oel verstaerken den Abwaertsdruck; eine Oel-Stabilisierung oder BoC-Hawkishness koennte den Support 113,69 verteidigen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Der Kurs (114,40) liegt zwar ueber der SMA20 (114,14) mit positivem MACD-Histogramm (+0,097) und drehendem Momentum, prallt aber direkt an der Widerstandszone 114,67 im Cluster aus SMA50 (114,80) und SMA200 (114,67) ab, waehrend Trend 'side' und Bias 'neutral' bleiben und RSI 56 nichts entscheidet. Die qualitative Agenten-Analyse ist klar bearisch, basiert jedoch auf einem aelteren, tieferen Stand (~113,99, RSI ~39) und deckt sich nicht mit der aktuellen Lage. Ohne stimmige Richtung und mit Ueberzeugung unter 3 ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

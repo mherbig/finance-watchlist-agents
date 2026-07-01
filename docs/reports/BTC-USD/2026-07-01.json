@@ -1,0 +1,82 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 60373.51,
+    "change_pct": 3.16038,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 60373.51,
+    "change_pct": 3.160382428179382,
+    "sma20": 62479.0575,
+    "sma50": 68094.1464,
+    "sma200": 75207.1772,
+    "rsi14": 35.31,
+    "macd": {
+      "macd": -2247.3747,
+      "signal": -2309.0537,
+      "hist": 61.6791
+    },
+    "atr14": 2219.49,
+    "high_52w": 114548.09,
+    "low_52w": 58523.93,
+    "pct_from_high": -47.29,
+    "pct_from_low": 3.16,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 66276.8
+      },
+      {
+        "type": "support",
+        "price": 58523.93
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "BTC notiert bei rund 59.656 USD und damit etwa 48 % unter dem 52-Wochen-Hoch (114.548) sowie exakt auf dem 52-Wochen-Tief. Trend und Bias sind klar abwaerts: Kurs unter allen SMAs, RSI bei 36, MACD negativ. Hintergrund sind rekordhohe US-Spot-ETF-Abfluesse, eine hawkische Fed und ein Leverage-Flush.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwaerts**: Schlusskurs **59.656** liegt unter SMA20 (63.191), SMA50 (70.223) und SMA200 (76.002) - klassische bearishe Stapelung. **RSI 36** naehert sich der ueberverkauften Zone, ohne sie zu erreichen; **MACD** (-2.322) unter Signal (-2.299), Histogramm leicht negativ - kein Momentum-Dreh sichtbar. Der Kurs sitzt **auf dem 52W-Tief** (Support 59.656) und **47,9 %** unter dem 52W-Hoch (114.548). Erste Widerstandszone bei **66.277**. **ATR14 ~2.225** (≈3,7 % des Kurses) signalisiert hohe Schwankungsbreite; ein Bruch unter das Tief oder eine Stabilisierung daran ist zur Beobachtung."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Belastend wirken **rekordhohe US-Spot-ETF-Abfluesse** (~5,9-6,4 Mrd. USD im Juni, laengste Abfluss-Serie seit Launch 2024). Die **Fed** hielt am 18.06. bei 3,50-3,75 % und strich die Lockerungs-Rhetorik - festere Renditen/USD belasten zinslose Assets. Dazu **Leverage-Liquidationen** (~1,8 Mrd. an einem Tag) und ein **Strategy/MSTR-Verkauf**. Risiken: weitere Abfluesse, anhaltend hawkische Fed, Geopolitik (Iran). Gegengewicht: divergente Analysten-Ziele (JPMorgan 170k, Citi 133k Jahresende) bei regulatorischer Klarheit."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist stimmig bearisch: Kurs (60.373) liegt unter SMA20 (62.479), SMA50 (68.094) und SMA200 (75.207), Trend abwaerts und Bias bearisch, gestuetzt durch rekordhohe US-Spot-ETF-Abfluesse und eine hawkische Fed. Da der Kurs jedoch knapp ueber dem 52W-Tief/Support (58.524) sitzt und RSI14 mit 35,3 sich der ueberverkauften Zone naehert, ist ein Pullback Richtung Widerstand 66.277 das disziplinierte Short-Setup statt am Tief hinterherzulaufen.",
+    "entry": 66276.8,
+    "stop_loss": 70271.882,
+    "take_profit": 60284.177,
+    "take_profit_2": 58523.93,
+    "rr": 1.5
+  }
+}

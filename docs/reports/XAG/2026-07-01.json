@@ -1,0 +1,82 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 59.605,
+    "change_pct": 0.2152,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 59.60499954223633,
+    "change_pct": 0.21520646550670847,
+    "sma20": 65.1698,
+    "sma50": 72.3203,
+    "sma200": 68.5238,
+    "rsi14": 39.66,
+    "macd": {
+      "macd": -4.1142,
+      "signal": -3.6322,
+      "hist": -0.482
+    },
+    "atr14": 2.3731,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.35100173950195,
+    "pct_from_high": -48.21,
+    "pct_from_low": 63.97,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 73.779
+      },
+      {
+        "type": "support",
+        "price": 58.052
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Silber notiert bei 59,29 USD (+1,6 % am Tag) und steckt nach dem Absturz vom Januar-Rekord (~121 USD) tief im Abwärtstrend: Kurs unter allen wichtigen SMAs, RSI bei 32 nahe überverkauft, MACD klar negativ. Der Reflex-Anstieg testet die kritische Unterstützungszone um 58 USD, doch die übergeordnete Lage bleibt bearish, solange Fed-Falkenhaftigkeit und starker Dollar belasten.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Bei 59,29 USD liegt der Kurs deutlich unter SMA20 (67,61), SMA50 (73,58) und SMA200 (68,26) - alle Mittelwerte über dem Preis und negativ gestaffelt, ein lehrbuchhaftes Bärenbild. **RSI14 bei 31,5** signalisiert nahezu überverkauft und stützt den heutigen +1,6 %-Rebound, ohne den Trend zu drehen. Der **MACD** (-4,01 vs. Signal -3,13, Hist -0,88) bleibt tief negativ. Entscheidend ist die **Unterstützung bei 58,05** direkt unter dem Kurs; ein Bruch öffnet Raum Richtung 52W-Tief (36,08). Erster Widerstand: **75,62**. ATR14 von 2,46 (~4 %) zeigt erhöhte Volatilität. Der Kurs liegt **48,5 % unter dem 52W-Hoch** (115,08) und nur 64 % über dem Tief."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Der Absturz vom Januar-Rekord (~121 USD) folgte auf ein **falkenhaftes Fed-Dot-Plot** im Juni, das Zinssenkungen vertagt und sogar Erhöhungen debattiert - getrieben von Öl über 100 USD und hartnäckiger Inflation. Der dadurch starke Dollar plus erhöhte CME-Margins, die gehebelte Longs zur Liquidation zwangen, verstärkten die Korrektur. Mittelfristig stützen das **sechste Angebotsdefizit in Folge** sowie strukturelle Industrienachfrage (Solar ~230 Mio. Unzen/Jahr, KI-Infrastruktur, E-Mobilität). Analysten bleiben gespalten: J.P. Morgan ~81 USD-Durchschnitt 2026, Citi-Ziel bis 110 USD im 2. Halbjahr. Wichtigste Risiken: weitere Dollar-Stärke, Zinsausblick und nachlassende Industrienachfrage bei hohen Preisen."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig baerisches Bild: Kurs 59,61 liegt unter SMA20 (65,17), SMA50 (72,32) und SMA200 (68,52), Trend abwaerts und MACD tief negativ (-4,11 vs. Signal -3,63), gestuetzt durch falkenhafte Fed und starken Dollar. RSI14 bei 39,7 erholt sich aus dem ueberverkauften Bereich und der Reflex-Rebound direkt am Support 58,05 spricht fuer einen Pullback-Einstieg Richtung Widerstand 73,78. Ein Bruch unter 58 oeffnet Raum zum 52W-Tief (36,35).",
+    "entry": 59.605,
+    "stop_loss": 63.8766,
+    "take_profit": 53.1976,
+    "take_profit_2": 58.052,
+    "rr": 1.5
+  }
+}

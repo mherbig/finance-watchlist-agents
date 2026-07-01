@@ -1,0 +1,82 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 200.76455,
+    "change_pct": -0.053382312,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 200.76455,
+    "change_pct": -0.053382311840910183,
+    "sma20": 200.4004,
+    "sma50": 201.4903,
+    "sma200": 200.6024,
+    "rsi14": 52.12,
+    "macd": {
+      "macd": -0.2644,
+      "signal": -0.4475,
+      "hist": 0.183
+    },
+    "atr14": 0.8121,
+    "high_52w": 204.14273,
+    "low_52w": 189.35899,
+    "pct_from_high": -1.65,
+    "pct_from_low": 6.02,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 202.3061
+      },
+      {
+        "type": "support",
+        "price": 199.1978
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "CHF/JPY notiert bei 199,79 unterhalb aller drei Glättungslinien und bestätigt damit den intakten Abwärtstrend bei neutral-schwachem Momentum (RSI 38, MACD negativ). Der Kurs klemmt direkt über dem Support bei 199,20, nur 2,1 % unter dem 52W-Hoch. Die geldpolitische Divergenz zwischen hawkisher BoJ (Leitzins jüngst auf 1,0 %) und Null-Zins-SNB lastet strukturell auf dem Paar.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Der Kurs (199,79) liegt unter SMA20 (200,56), SMA50 (201,65) und SMA200 (200,40), die zudem fallend gestaffelt sind. Der **RSI14 von 38** signalisiert schwaches, aber noch nicht überverkauftes Momentum; der **MACD** liegt mit -0,65 unter der Signallinie (-0,56), das Histogramm (-0,09) bleibt negativ. Entscheidend ist die enge Spanne: unmittelbarer **Support bei 199,20**, darüber **Widerstand bei 202,31** (nahe SMA50). Die **ATR14 von 1,03** zeigt moderate Tagesvolatilität. Der Abstand zum **52W-Hoch beträgt nur -2,1 %** (204,14), zum **Tief +5,7 %** (189,04) - der Kurs steht also relativ hoch in seiner Jahresspanne, trotz des kurzfristigen Drucks. Ein Bruch unter 199,20 öffnet Raum Richtung SMA-Cluster-Tief; erst über 202,31 kehrt sich das Bild."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist die **Zinsdivergenz**: Die **BoJ** hob am 16.06.2026 den Leitzins um 25 Bp auf **1,0 %** (höchster Stand seit 1995), Board-Mitglied Tamura nennt ein neutrales Niveau von ~2 % - weitere Schritte sind eingepreist und stützen den Yen strukturell. Demgegenüber hielt die **SNB** am 18.06.2026 ihren Leitzins bei **0 %** und betont die erhöhte Bereitschaft zu **FX-Interventionen** gegen eine zu starke Franken-Aufwertung. Diese Konstellation drückt CHF/JPY tendenziell. Gegenläufige Risiken: Safe-Haven-Nachfrage nach CHF (Iran-Konflikt, Energiepreise) und das Interventionsrisiko bei USD/JPY nahe 160, das eine abrupte Yen-Stärke auslösen könnte. Termine: kommende BoJ- und SNB-Sitzungen sowie japanische CPI-Daten."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Technik-Bild ist richtungslos: Trend \"side\", Bias neutral, RSI14 bei 52 und ein ins Positive gedrehtes MACD-Histogramm (+0,18); der Kurs (200,76) liegt ueber SMA20 (200,40) und SMA200 (200,60), aber unter SMA50 (201,49) und klemmt zwischen Support 199,20 und Widerstand 202,31. Dem steht die strukturell bearische BoJ-/SNB-Zinsdivergenz der Analyse-Agenten gegenueber - ein klarer Widerspruch zu den erholten, neutralen Technik-Daten. Zusammen mit CHF-Safe-Haven-Nachfrage und SNB-Interventionsrisiko ist bei dieser Unklarheit FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

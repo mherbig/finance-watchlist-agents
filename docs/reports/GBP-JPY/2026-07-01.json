@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 215.81236,
+    "change_pct": -0.031026591,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 215.81236,
+    "change_pct": -0.031026591057764452,
+    "sma20": 214.1651,
+    "sma50": 213.982,
+    "sma200": 212.4233,
+    "rsi14": 70.95,
+    "macd": {
+      "macd": 0.2976,
+      "signal": 0.0297,
+      "hist": 0.2679
+    },
+    "atr14": 0.9392,
+    "high_52w": 216.21484,
+    "low_52w": 199.94701,
+    "pct_from_high": -0.19,
+    "pct_from_low": 7.93,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 215.8793
+      },
+      {
+        "type": "support",
+        "price": 212.7984
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/JPY notiert bei 213,52 und konsolidiert seitwärts knapp unter dem SMA20/50-Cluster (214,0/213,8), während der mittelfristige SMA200 bei 212,21 weiter steigend ist. Mit RSI 41 und negativem MACD ist das kurzfristige Momentum verhalten, der Kurs liegt nur 1,25 % unter dem 52W-Hoch. Die BoJ-Zinswende (Leitzins seit Juni bei 1,00 %) untergräbt das Carry-Differential und gibt dem mittelfristigen Bias eine leicht abwärts gerichtete Tendenz.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **seitwärts** (Bias neutral): Mit 213,52 handelt das Paar unter SMA20 (214,01) und SMA50 (213,81), aber klar über dem steigenden SMA200 (212,21) - das mittelfristige Bild bleibt konstruktiv, kurzfristig ist die Kraft raus. - **RSI 41** signalisiert nachlassendes Momentum ohne Überverkauft-Zone\n- **MACD negativ** (Linie -0,21 unter Signal -0,11, Histogramm -0,11) bestaetigt den leichten Abwaertsdruck\n- **Support 212,80** (nahe SMA200), darunter Lücke bis 52W-Tief 199,95 (-6,8 %)\n- **Resistance 215,47**, dann 52W-Hoch 216,21 (nur -1,25 % entfernt)\n\nATR14 von 1,13 (~0,53 %) deutet auf gedämpfte Tagesvolatilität - eine Auflösung der Range zwischen 212,80 und 215,47 dürfte die nächste Richtung vorgeben."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Hauptreiber ist die **Zinsdifferenz BoE vs. BoJ**. Die BoJ hob den Leitzins im Juni 2026 auf **1,00 %**; das Summary of Opinions zeigt breite Unterstützung für weitere Schritte, Board-Mitglied Tamura nennt ~2 % als neutrales Ziel. Das schmälert das historisch hohe Carry-Polster (Paar weit über 10J-Schnitt ~170) und stützt den mittelfristigen Abwärts-Bias. - **Termine:** nächste BoJ-Entscheidung 31. Juli; BoE-Sitzung und UK-Inflation als GBP-Treiber\n- **Risiken:** abrupte Carry-Trade-Auflösungen (Yen-Flash-Crash Aug 2024 >3 % an einem Tag) sowie japanische FX-Interventionsrhetorik bei schwachem Yen"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "GBP/JPY handelt bei 215,81 im Aufwaertstrend klar ueber dem steigenden SMA20/50/200-Cluster (214,2/214,0/212,4), und der frisch positive MACD (Histogramm +0,27) bestaetigt das bullische Momentum. Da RSI 70,95 ueberkauft ist und der Kurs direkt an der Resistance 215,88 sowie nur -0,19 % unter dem 52W-Hoch klebt, ist ein Pullback-Einstieg statt Ausbruch-Chasing diszipliniert. Der bearishe Carry-Gegenwind der BoJ-Zinswende deckelt die Ueberzeugung auf 3.",
+    "entry": 215.8124,
+    "stop_loss": 214.1218,
+    "take_profit": 218.3482,
+    "take_profit_2": 215.8793,
+    "rr": 1.5
+  }
+}

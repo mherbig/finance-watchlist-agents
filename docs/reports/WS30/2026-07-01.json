@@ -1,0 +1,82 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52305.24,
+    "change_pct": -0.0267,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52305.23828125,
+    "change_pct": -0.026684157457434327,
+    "sma20": 51465.2002,
+    "sma50": 50480.6176,
+    "sma200": 48407.6524,
+    "rsi14": 83.06,
+    "macd": {
+      "macd": 525.1173,
+      "signal": 500.2315,
+      "hist": 24.8857
+    },
+    "atr14": 614.4715,
+    "high_52w": 52319.19921875,
+    "low_52w": 43588.578125,
+    "pct_from_high": -0.03,
+    "pct_from_low": 20.0,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 52319.1992
+      },
+      {
+        "type": "support",
+        "price": 49918.7812
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 83",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der Dow Jones (WS30) notiert bei 51.876 Punkten in einem intakten Aufwärtstrend und nur 0,24 % unter seinem 52-Wochen-Hoch von 51.999. Treiber ist eine Rotation aus teuren Tech-Titeln in cash-starke Blue Chips, gebremst jedoch durch die hawkische Wende der Fed unter Kevin Warsh, die Zinssenkungen vom Tisch genommen und eine mögliche Anhebung 2026 ins Spiel gebracht hat. Kurzfristig droht ein Test der wichtigen 50.000er-Marke.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **aufwärts**: Der Kurs (51.876) liegt über SMA20 (51.296), SMA50 (50.294) und SMA200 (48.311) in perfekter bullischer Staffelung. **RSI14 bei 61,8** signalisiert Stärke ohne überkaufte Übertreibung; der **MACD** bleibt positiv (489 vs. Signal 484, Histogramm +5,4), verliert aber an Momentum. Entscheidende Level:\n\n- **Widerstand 51.999** (52W-Hoch) - nur 0,24 % entfernt, der Markt drückt direkt dagegen. - **Support 49.918** sowie die psychologische 50.000er-Marke. Die **ATR14 von ~690 Punkten** zeigt erhöhte Tagesvolatilität - ein Rücksetzer kann den Support schnell erreichen. Mit +19,0 % Abstand zum 52W-Tief (43.589) ist der Aufwärtszyklus weit fortgeschritten."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Haupttreiber ist die **Fed-Sitzung vom 17.06.2026**: Der Leitzins blieb bei 3,50-3,75 %, doch der Dot-Plot strich die Zinssenkung und neun von 18 Mitgliedern sehen nun eine **Anhebung bis Jahresende**. Chair **Kevin Warsh** vertritt einen restriktiven Kurs, da die Inflation auf 3,6-3,8 % anzieht. Gegenwind: steigende Anleiherenditen und Repricing der Zinserwartungen (der Dow fiel am 16.06. um 507 Punkte). Rückenwind: solides BIP (+2,2 %), starke Investitionen und die **Rotation in Blue Chips**. Risiken: Nahost-Konflikt, Energiepreis-Schocks, kommende CPI-Daten."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Intakter Aufwärtstrend mit perfekter SMA-Staffelung (Kurs 52.305 > SMA20 51.465 > SMA50 50.481 > SMA200 48.408) und positivem MACD (525 vs. Signal 500) stützen die bullische Grundtendenz. Dämpfend wirken jedoch der stark überkaufte RSI14 von 83, der Kurs direkt am 52W-Hoch/Widerstand (52.319) sowie die hawkische Fed-Wende unter Warsh mit steigender Inflation. Daher LONG mit moderater Überzeugung, aber Einstieg erst auf einen Rücksetzer Richtung 50.000er-Support statt direkt am ausgereizten Widerstand.",
+    "entry": 52305.24,
+    "stop_loss": 51199.1913,
+    "take_profit": 53964.313,
+    "take_profit_2": 52319.1992,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 112.07076,
+    "change_pct": -0.025539836,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 112.07076,
+    "change_pct": -0.025539835676173267,
+    "sma20": 112.4362,
+    "sma50": 113.1464,
+    "sma200": 110.4465,
+    "rsi14": 35.21,
+    "macd": {
+      "macd": -0.3736,
+      "signal": -0.3867,
+      "hist": 0.0131
+    },
+    "atr14": 0.5683,
+    "high_52w": 114.83705,
+    "low_52w": 97.524,
+    "pct_from_high": -2.41,
+    "pct_from_low": 14.92,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.4095
+      },
+      {
+        "type": "support",
+        "price": 111.3774
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "AUD/JPY notiert bei 111,56 und steht unter Druck: Der Kurs liegt klar unter SMA20 (112,69) und SMA50 (113,39), nur SMA200 (110,19) stützt knapp von unten. RSI bei 33 und negativer MACD bestätigen den Abwärts-Bias, getrieben von der BOJ-Zinserhöhung auf 1,0% (16.06.), die den Carry-Vorteil des Paares verengt. Der Bereich um 111,56 ist die entscheidende Unterstützung.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der **Trend ist abwärts gerichtet**: Der Schlusskurs 111,56 liegt unter SMA20 (112,69) und SMA50 (113,39), die ihrerseits fallen – eine bearishe Stapelung der kurz-/mittelfristigen Durchschnitte. Einzig die **SMA200 bei 110,19** dient als nächster struktureller Halt. - **RSI14 = 33** signalisiert Schwäche nahe der überverkauften Zone, ohne sie zu erreichen. - **MACD** (-0,41) unter Signal (-0,27), Histogramm -0,14: Momentum bleibt negativ. - **Level:** Unterstützung exakt am Kurs (111,56), Widerstand 113,41; ein Bruch nach unten öffnet Richtung SMA200. - **ATR14 = 0,65** bedeutet moderate Tagesvolatilität (~0,6%). - Abstand zum **52W-Hoch -2,85%** (114,84), zum **52W-Tief +14,39%** (97,52) – Kurs im oberen Drittel der Jahresspanne, aber mit nachlassender Dynamik."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist die **Geldpolitik-Divergenz**: Die **BOJ hob am 16.06.2026 auf 1,0%** an (höchstes Niveau seit 1995, Votum 7:1), während die **RBA bei 4,10% pausiert** nach mehreren Hikes zuvor. Die verbleibende Zinsdifferenz (~310 bp) stützt den Carry-Trade weiterhin, doch jede weitere BOJ-Straffung verengt ihn und belastet AUD/JPY. - **Risiken:** Nahost-/Iran-Konflikt treibt Risk-off und Yen-Nachfrage als sicherer Hafen. - **Termine:** nächste BOJ-/RBA-Sitzungen, japanische CPI-Daten, australische Inflation (erwarteter Peak ~4,8% Mitte 2026). - Prognosespanne 2026 der Häuser: rund **109–117**."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-01T21:38:20.941134+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "pullback",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt stimmig bearisch: Kurs 112,07 notiert unter fallender SMA20 (112,44) und SMA50 (113,15), RSI 35 und negativer MACD bestaetigen den Abwaerts-Bias, den die BOJ-Anhebung auf 1,0% durch Verengung des Carry-Vorteils strukturell stuetzt. Da das kurzfristige Momentum leicht nachlaesst (MACD-Histogramm +0,013), ist ein Pullback Richtung Widerstand 113,41 der sauberere Short-Einstieg als ein Markteinstieg. Die nahe SMA200 (110,45) als naechster Halt deckelt die Konviktion auf moderat.",
+    "entry": 113.4095,
+    "stop_loss": 114.4324,
+    "take_profit": 111.8751,
+    "take_profit_2": 111.3774,
+    "rr": 1.5
+  }
+}

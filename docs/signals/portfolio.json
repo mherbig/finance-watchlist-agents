@@ -3,8 +3,8 @@
     "start_equity": 100000.0,
     "current_equity": 100000.0,
     "return_pct": 0.0,
-    "open_count": 30,
-    "no_fill_count": 3,
+    "open_count": 28,
+    "no_fill_count": 5,
     "closed_count": 0,
     "wins": 0,
     "losses": 0,
@@ -33,8 +33,8 @@
       "risk_amount": 1000.0,
       "units": 111.3648,
       "horizon_days": 21,
-      "current_price": 191.5800018310547,
-      "unrealized_pct": -0.1668
+      "current_price": 198.22000122070312,
+      "unrealized_pct": 3.2934
     },
     {
       "symbol": "AMD",
@@ -49,8 +49,8 @@
       "risk_amount": 1000.0,
       "units": 15.3979,
       "horizon_days": 21,
-      "current_price": 580.90997,
-      "unrealized_pct": 28.4063
+      "current_price": 540.89001,
+      "unrealized_pct": 19.5601
     },
     {
       "symbol": "AUD/CAD",
@@ -65,8 +65,8 @@
       "risk_amount": 1000.0,
       "units": 123456.7901,
       "horizon_days": 14,
-      "current_price": 0.98185,
-      "unrealized_pct": -0.3526
+      "current_price": 0.97951,
+      "unrealized_pct": -0.1135
     },
     {
       "symbol": "AUD/JPY",
@@ -81,24 +81,8 @@
       "risk_amount": 1000.0,
       "units": 855.432,
       "horizon_days": 14,
-      "current_price": 112.42559,
-      "unrealized_pct": -0.8217
-    },
-    {
-      "symbol": "AUD/NZD",
-      "display": "AUD/NZD",
-      "date": "2026-06-27",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 1.2072,
-      "stop_loss": 1.1953,
-      "take_profit": 1.225,
-      "rr": 1.5,
-      "risk_amount": 1000.0,
-      "units": 84033.6134,
-      "horizon_days": 14,
-      "current_price": 1.21845,
-      "unrealized_pct": 0.9319
+      "current_price": 112.07076,
+      "unrealized_pct": -0.5035
     },
     {
       "symbol": "BNB/USD",
@@ -113,8 +97,8 @@
       "risk_amount": 1000.0,
       "units": 28.6781,
       "horizon_days": 14,
-      "current_price": 546.31,
-      "unrealized_pct": 2.3365
+      "current_price": 554.2,
+      "unrealized_pct": 0.926
     },
     {
       "symbol": "BAC",
@@ -129,8 +113,8 @@
       "risk_amount": 1000.0,
       "units": 471.3646,
       "horizon_days": 14,
-      "current_price": 56.98,
-      "unrealized_pct": -1.5549
+      "current_price": 58.385,
+      "unrealized_pct": 0.8725
     },
     {
       "symbol": "BTC/USD",
@@ -145,8 +129,8 @@
       "risk_amount": 1000.0,
       "units": 0.2519,
       "horizon_days": 14,
-      "current_price": 58544.02,
-      "unrealized_pct": 2.6856
+      "current_price": 60373.51,
+      "unrealized_pct": -0.3555
     },
     {
       "symbol": "EUR/AUD",
@@ -161,8 +145,8 @@
       "risk_amount": 1000.0,
       "units": 74074.0741,
       "horizon_days": 14,
-      "current_price": 1.65099,
-      "unrealized_pct": 1.1388
+      "current_price": 1.65065,
+      "unrealized_pct": 1.118
     },
     {
       "symbol": "EUR/GBP",
@@ -177,8 +161,8 @@
       "risk_amount": 1000.0,
       "units": 178571.4286,
       "horizon_days": 14,
-      "current_price": 0.86134,
-      "unrealized_pct": 0.8815
+      "current_price": 0.85738,
+      "unrealized_pct": 1.3372
     },
     {
       "symbol": "EUR/NZD",
@@ -193,8 +177,8 @@
       "risk_amount": 1000.0,
       "units": 47619.0476,
       "horizon_days": 14,
-      "current_price": 2.0114,
-      "unrealized_pct": -0.3468
+      "current_price": 2.00538,
+      "unrealized_pct": -0.6451
     },
     {
       "symbol": "RACE",
@@ -209,24 +193,8 @@
       "risk_amount": 1000.0,
       "units": 46.8823,
       "horizon_days": 21,
-      "current_price": 372.29001,
-      "unrealized_pct": 9.423
-    },
-    {
-      "symbol": "CAC40",
-      "display": "FRA40",
-      "date": "2026-06-27",
-      "direction": "LONG",
-      "conviction": 4,
-      "entry": 8146.5898,
-      "stop_loss": 7964.4734,
-      "take_profit": 8510.8227,
-      "rr": 2.0,
-      "risk_amount": 1000.0,
-      "units": 5.491,
-      "horizon_days": 14,
-      "current_price": 8367.330078125,
-      "unrealized_pct": 2.7096
+      "current_price": 374.66,
+      "unrealized_pct": 10.1196
     },
     {
       "symbol": "UKX",
@@ -241,8 +209,8 @@
       "risk_amount": 1000.0,
       "units": 4.8828,
       "horizon_days": 21,
-      "current_price": 10484.2001953125,
-      "unrealized_pct": 2.5119
+      "current_price": 10478.33984375,
+      "unrealized_pct": 2.4546
     },
     {
       "symbol": "GBP/CHF",
@@ -257,8 +225,8 @@
       "risk_amount": 1000.0,
       "units": 138888.8889,
       "horizon_days": 14,
-      "current_price": 1.07157,
-      "unrealized_pct": 0.8442
+      "current_price": 1.07478,
+      "unrealized_pct": 1.1462
     },
     {
       "symbol": "GBP/JPY",
@@ -273,8 +241,8 @@
       "risk_amount": 1000.0,
       "units": 560.2555,
       "horizon_days": 14,
-      "current_price": 215.48832,
-      "unrealized_pct": -0.0419
+      "current_price": 215.81236,
+      "unrealized_pct": 0.1084
     },
     {
       "symbol": "GBP/USD",
@@ -289,8 +257,8 @@
       "risk_amount": 1000.0,
       "units": 78740.1575,
       "horizon_days": 14,
-      "current_price": 1.32525,
-      "unrealized_pct": -0.4206
+      "current_price": 1.32745,
+      "unrealized_pct": -0.5873
     },
     {
       "symbol": "DAX",
@@ -305,8 +273,8 @@
       "risk_amount": 1000.0,
       "units": 1.7359,
       "horizon_days": 14,
-      "current_price": 24626.890625,
-      "unrealized_pct": 1.7837
+      "current_price": 25040.279296875,
+      "unrealized_pct": 3.4923
     },
     {
       "symbol": "INTC",
@@ -321,8 +289,8 @@
       "risk_amount": 1000.0,
       "units": 50.7223,
       "horizon_days": 14,
-      "current_price": 139.53,
-      "unrealized_pct": 40.6978
+      "current_price": 127.019997,
+      "unrealized_pct": 28.0831
     },
     {
       "symbol": "JPM",
@@ -337,8 +305,8 @@
       "risk_amount": 1000.0,
       "units": 69.6558,
       "horizon_days": 20,
-      "current_price": 327.32999,
-      "unrealized_pct": -0.5227
+      "current_price": 334.079987,
+      "unrealized_pct": 1.5286
     },
     {
       "symbol": "MU",
@@ -353,8 +321,8 @@
       "risk_amount": 1000.0,
       "units": 5.1828,
       "horizon_days": 21,
-      "current_price": 1154.29004,
-      "unrealized_pct": 33.5968
+      "current_price": 1032.52002,
+      "unrealized_pct": 19.5032
     },
     {
       "symbol": "N225",
@@ -369,8 +337,8 @@
       "risk_amount": 1000.0,
       "units": 0.2608,
       "horizon_days": 14,
-      "current_price": 69468.109375,
-      "unrealized_pct": 8.5022
+      "current_price": 70062.3203125,
+      "unrealized_pct": 9.4303
     },
     {
       "symbol": "NDX",
@@ -385,8 +353,8 @@
       "risk_amount": 1000.0,
       "units": 0.7693,
       "horizon_days": 14,
-      "current_price": 30276.34765625,
-      "unrealized_pct": 6.2029
+      "current_price": 29809.1328125,
+      "unrealized_pct": 4.564
     },
     {
       "symbol": "USD/CAD",
@@ -401,8 +369,8 @@
       "risk_amount": 1000.0,
       "units": 109890.1099,
       "horizon_days": 14,
-      "current_price": 1.42013,
-      "unrealized_pct": 0.0585
+      "current_price": 1.42103,
+      "unrealized_pct": 0.1219
     },
     {
       "symbol": "USD/CHF",
@@ -417,8 +385,8 @@
       "risk_amount": 1000.0,
       "units": 129870.1299,
       "horizon_days": 14,
-      "current_price": 0.80861,
-      "unrealized_pct": -0.1099
+      "current_price": 0.80964,
+      "unrealized_pct": 0.0173
     },
     {
       "symbol": "V",
@@ -433,8 +401,8 @@
       "risk_amount": 1000.0,
       "units": 79.7722,
       "horizon_days": 21,
-      "current_price": 343.089996,
-      "unrealized_pct": 9.8239
+      "current_price": 351.029999,
+      "unrealized_pct": 12.3656
     },
     {
       "symbol": "DJI",
@@ -449,8 +417,8 @@
       "risk_amount": 1000.0,
       "units": 0.7764,
       "horizon_days": 14,
-      "current_price": 52319.19921875,
-      "unrealized_pct": 0.8541
+      "current_price": 52305.23828125,
+      "unrealized_pct": 0.8272
     },
     {
       "symbol": "XAG/USD",
@@ -465,8 +433,8 @@
       "risk_amount": 1000.0,
       "units": 247.4757,
       "horizon_days": 14,
-      "current_price": 59.005001068115234,
-      "unrealized_pct": 1.1211
+      "current_price": 59.60499954223633,
+      "unrealized_pct": 0.1156
     },
     {
       "symbol": "XAU/USD",
@@ -481,8 +449,8 @@
       "risk_amount": 1000.0,
       "units": 6.903,
       "horizon_days": 14,
-      "current_price": 4007.42908,
-      "unrealized_pct": 1.7995
+      "current_price": 4031.05953,
+      "unrealized_pct": 1.2204
     },
     {
       "symbol": "XRP/USD",
@@ -497,8 +465,8 @@
       "risk_amount": 1000.0,
       "units": 10504.2017,
       "horizon_days": 14,
-      "current_price": 1.03875,
-      "unrealized_pct": 1.4188
+      "current_price": 1.06181,
+      "unrealized_pct": -0.7697
     }
   ]
 }

@@ -4,30 +4,30 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "generated_at": "2026-07-02T00:05:51.770772+00:00",
   "available": true,
   "snapshot": {
-    "price": 71.14,
-    "change_pct": -2.441,
+    "price": 71.15,
+    "change_pct": -2.4273,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 71.13999938964844,
-    "change_pct": -2.4410296544068335,
-    "sma20": 82.8575,
-    "sma50": 95.8458,
+    "last_close": 71.1500015258789,
+    "change_pct": -2.427313065704657,
+    "sma20": 82.858,
+    "sma50": 95.846,
     "sma200": 78.6983,
     "rsi14": 12.27,
     "macd": {
-      "macd": -7.0245,
-      "signal": -6.3917,
-      "hist": -0.6328
+      "macd": -7.0237,
+      "signal": -6.3916,
+      "hist": -0.6322
     },
-    "atr14": 3.9729,
+    "atr14": 3.9264,
     "high_52w": 118.3499984741211,
     "low_52w": 58.91999816894531,
-    "pct_from_high": -39.89,
-    "pct_from_low": 20.74,
+    "pct_from_high": -39.88,
+    "pct_from_low": 20.76,
     "trend": "down",
     "bias": "neutral",
     "levels": [
@@ -37,7 +37,7 @@
       },
       {
         "type": "support",
-        "price": 71.14
+        "price": 71.15
       }
     ]
   },

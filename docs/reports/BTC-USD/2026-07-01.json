@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "SHORT",
-    "conviction": 3,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Das Bild ist stimmig bearisch: Kurs (60.373) liegt unter SMA20 (62.479), SMA50 (68.094) und SMA200 (75.207), Trend abwaerts und Bias bearisch, gestuetzt durch rekordhohe US-Spot-ETF-Abfluesse und eine hawkische Fed. Da der Kurs jedoch knapp ueber dem 52W-Tief/Support (58.524) sitzt und RSI14 mit 35,3 sich der ueberverkauften Zone naehert, ist ein Pullback Richtung Widerstand 66.277 das disziplinierte Short-Setup statt am Tief hinterherzulaufen.",
-    "entry": 66276.8,
-    "stop_loss": 70271.882,
-    "take_profit": 60284.177,
-    "take_profit_2": 58523.93,
-    "rr": 1.5
   }
 }

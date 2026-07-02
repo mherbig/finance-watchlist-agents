@@ -1,10 +1,14 @@
 # src/analysis/signal.py
 """Deterministische SL/TP/Entry-Kernlogik fuer die Trading-Signal-Schicht.
 
-Die qualitative AGENTEN-JUDGMENT (direction, conviction, entry_type, horizon,
-rationale) ist die Eingabe. Die konkreten Zahlen (entry, stop_loss, take_profit,
-take_profit_2, rr) werden hier rein deterministisch aus ATR und den
-Support-/Resistance-Levels berechnet. Keine Netzwerkaufrufe.
+Die qualitative AGENTEN-JUDGMENT (direction, conviction, horizon, rationale) ist
+die Eingabe. Die konkreten Zahlen (entry, stop_loss, take_profit, take_profit_2,
+rr) werden hier rein deterministisch aus ATR und den Support-/Resistance-Levels
+berechnet. Keine Netzwerkaufrufe.
+
+Einstiegsmodell: IMMER Market zum Tages-Schlusskurs (entry = snapshot.price).
+Es gibt keine Pullback-/Limit-Entries. Das Feld ``entry_type`` bleibt der
+Abwaertskompatibilitaet halber erhalten, ist aber konstant ``"market"``.
 """
 from __future__ import annotations
 
@@ -14,7 +18,6 @@ K_SL = 1.8
 R_TARGET = {1: 1.5, 2: 1.5, 3: 1.5, 4: 2.0, 5: 2.5}
 
 _DIRECTIONS = {"LONG", "SHORT", "FLAT"}
-_ENTRY_TYPES = {"market", "pullback"}
 
 _NONE_LEVELS = {
     "entry": None,
@@ -45,11 +48,6 @@ def validate_decision(d: dict) -> None:
             or not (1 <= conviction <= 5):
         raise ValueError(
             f"conviction muss int 1..5 sein, war {conviction!r}")
-
-    entry_type = d.get("entry_type")
-    if entry_type not in _ENTRY_TYPES:
-        raise ValueError(
-            f"entry_type muss in {sorted(_ENTRY_TYPES)} sein, war {entry_type!r}")
 
     horizon = d.get("horizon_days")
     if isinstance(horizon, bool) or not isinstance(horizon, int) or horizon <= 0:
@@ -124,27 +122,13 @@ def _levels_for_entry(price, atr, supports, resistances, direction, entry,
     }
 
 
-def _is_degenerate(direction, price, take_profit) -> bool:
-    """Pullback-Entartung: TP liegt bereits am/jenseits des aktuellen Preises.
-
-    LONG: take_profit <= price; SHORT: take_profit >= price.
-    """
-    if direction == "LONG":
-        return take_profit <= price
-    return take_profit >= price
-
-
-def compute_levels(price, atr, levels, direction, conviction, entry_type) -> dict:
+def compute_levels(price, atr, levels, direction, conviction) -> dict:
     """Berechnet entry/stop_loss/take_profit/take_profit_2/rr deterministisch.
 
-    Gibt fuer FLAT, fehlenden Preis oder fehlenden ATR ein All-None-Dict zurueck.
-
-    Pullback-Schutz: Ein Pullback-Entry muss ein BESSERER Preis als der aktuelle
-    sein, dessen TP in Handelsrichtung noch JENSEITS des aktuellen Preises liegt.
-    Ist das berechnete Pullback-Setup entartet (LONG ``tp<=price`` bzw. SHORT
-    ``tp>=price``), wird auf einen Market-Entry (entry=price) zurueckgefallen.
-    Das Feld ``effective_entry_type`` im Ergebnis nennt den tatsaechlich
-    verwendeten Entry-Typ ("market" oder "pullback").
+    Der Entry ist IMMER Market zum aktuellen Preis (Tages-Schlusskurs):
+    ``entry = price``. Stop/Target folgen aus ATR und den Support-/Resistance-
+    Levels. Gibt fuer FLAT, fehlenden Preis oder fehlenden ATR ein All-None-Dict
+    zurueck.
     """
     if direction == "FLAT" or price is None or not atr:
         return dict(_NONE_LEVELS)
@@ -154,27 +138,8 @@ def compute_levels(price, atr, levels, direction, conviction, entry_type) -> dic
     supports, resistances = _split_levels(levels)
     rt = R_TARGET[conviction]
 
-    # --- Entry-Preis bestimmen ---
-    if entry_type == "pullback":
-        if direction == "LONG":
-            below = [s for s in supports if s < price]
-            entry = max(below) if below else price - 0.5 * atr
-        else:  # SHORT
-            above = [r for r in resistances if r > price]
-            entry = min(above) if above else price + 0.5 * atr
-    else:  # market
-        entry = price
-
     raw = _levels_for_entry(price, atr, supports, resistances, direction,
-                            entry, rt)
-    effective_entry_type = entry_type
-
-    # --- Pullback-Entartung -> Market-Fallback ---
-    if entry_type == "pullback" and _is_degenerate(direction, price,
-                                                    raw["take_profit"]):
-        raw = _levels_for_entry(price, atr, supports, resistances, direction,
-                                price, rt)
-        effective_entry_type = "market"
+                            price, rt)
 
     return {
         "entry": _round_price(raw["entry"]),
@@ -182,7 +147,6 @@ def compute_levels(price, atr, levels, direction, conviction, entry_type) -> dic
         "take_profit": _round_price(raw["take_profit"]),
         "take_profit_2": _round_price(raw["take_profit_2"]),
         "rr": round(rt, 2),
-        "effective_entry_type": effective_entry_type,
     }
 
 
@@ -197,20 +161,17 @@ def build_signal(decision: dict, technical: dict | None, snapshot: dict | None,
 
     lv = compute_levels(
         price, atr, levels,
-        decision["direction"], decision["conviction"], decision["entry_type"],
+        decision["direction"], decision["conviction"],
     )
-
-    # Wenn compute_levels einen entarteten Pullback auf Market zurueckgefallen
-    # ist, spiegelt der gespeicherte Block den TATSAECHLICHEN Entry-Typ wider,
-    # damit die Forward-Test-Aufloesung den Fill korrekt (sofort) modelliert.
-    effective_entry_type = lv.get("effective_entry_type") or decision["entry_type"]
 
     return {
         "generated_at": generated_at,
         "model": model,
         "direction": decision["direction"],
         "conviction": decision["conviction"],
-        "entry_type": effective_entry_type,
+        # Einstieg ist immer Market zum Tages-Schluss; Feld bleibt fuer
+        # Abwaertskompatibilitaet (Log/Dashboard/Forward-Test) erhalten.
+        "entry_type": "market",
         "horizon_days": decision["horizon_days"],
         "rationale": decision["rationale"],
         "entry": lv["entry"],

@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Das Technik-Bild ist richtungslos: Trend \"side\", Bias neutral, RSI14 bei 52 und ein ins Positive gedrehtes MACD-Histogramm (+0,18); der Kurs (200,76) liegt ueber SMA20 (200,40) und SMA200 (200,60), aber unter SMA50 (201,49) und klemmt zwischen Support 199,20 und Widerstand 202,31. Dem steht die strukturell bearische BoJ-/SNB-Zinsdivergenz der Analyse-Agenten gegenueber - ein klarer Widerspruch zu den erholten, neutralen Technik-Daten. Zusammen mit CHF-Safe-Haven-Nachfrage und SNB-Interventionsrisiko ist bei dieser Unklarheit FLAT die disziplinierte Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

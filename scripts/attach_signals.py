@@ -4,8 +4,8 @@
 Liest ein Verzeichnis mit Agenten-Entscheidungs-JSONs (Default: argv[1], sonst
 ``signal_out/``). Jede Datei heisst ``<safe_name>.json`` und hat die Form::
 
-    {"display", "safe_name", "direction", "conviction", "entry_type",
-     "horizon_days", "rationale"}
+    {"display", "safe_name", "direction", "conviction", "horizon_days",
+     "rationale"}
 
 Fuer jede Datei wird der neueste Report unter docs/reports/<safe_name>/*.json
 geladen, build_signal() (deterministische SL/TP/Entry-Rechnung aus

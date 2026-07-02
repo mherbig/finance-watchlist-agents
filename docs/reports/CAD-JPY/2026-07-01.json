@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Das Bild ist widerspruechlich: Der Kurs (114,40) liegt zwar ueber der SMA20 (114,14) mit positivem MACD-Histogramm (+0,097) und drehendem Momentum, prallt aber direkt an der Widerstandszone 114,67 im Cluster aus SMA50 (114,80) und SMA200 (114,67) ab, waehrend Trend 'side' und Bias 'neutral' bleiben und RSI 56 nichts entscheidet. Die qualitative Agenten-Analyse ist klar bearisch, basiert jedoch auf einem aelteren, tieferen Stand (~113,99, RSI ~39) und deckt sich nicht mit der aktuellen Lage. Ohne stimmige Richtung und mit Ueberzeugung unter 3 ist FLAT die disziplinierte Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

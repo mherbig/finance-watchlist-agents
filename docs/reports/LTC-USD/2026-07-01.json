@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der uebergeordnete Trend ist klar bearisch: LTC (42,79) notiert unter SMA20 (43,47), SMA50 (47,64) und SMA200 (58,23), MACD unter der Signallinie. Dem stehen ein neutral-schwacher RSI14 (38,91) und ein positiv gedrehtes MACD-Histogramm (+0,25) gegenueber - ein widerspruechliches Bild direkt am 52W-Tief, wo der Kurs nur ~4,4% ueber dem entscheidenden Support 40,92 klebt. Ohne Bruch nach unten oder Rueckeroberung der Resistance 45,76 und bei schwacher ETF-Adoption fehlt ein stimmiges Signal - Abwarten.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

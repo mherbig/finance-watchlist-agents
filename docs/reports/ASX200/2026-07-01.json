@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Index (8.722,9) steckt richtungslos in einer engen Seitwaertsspanne mit dicht gestaffelten SMA20/50/200; Trend 'side' und Bias 'neutral' bestaetigen das. RSI 58,55 ist neutral, doch das MACD-Histogramm ist negativ (-5,54, MACD unter Signal) - nachlassendes Momentum ohne klare Richtung. Erst ein Tagesschluss ueber Widerstand 8.966 oder unter Unterstuetzung 8.604 liefert ein Signal; bis dahin kein Trade.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

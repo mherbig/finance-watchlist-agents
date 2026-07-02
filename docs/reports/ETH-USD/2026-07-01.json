@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Trend und Bias bleiben abwaerts (Kurs 1.622,21 unter SMA20/50/200, MACD -70,73), doch der Kurs sitzt nur ~3,4 % ueber dem 52W-Tief und der zentralen Unterstuetzung bei 1.568,40 - ein kritischer Entscheidungsbereich. RSI14 bei 35,2 ist schwach, aber nicht ueberverkauft, und das positive MACD-Histogramm (+5,61) signalisiert nachlassendes Abwaertsmomentum, was eine Short-Fortsetzung riskant macht. Solange 1.568,40 haelt und 1.796,36 nicht zurueckerobert ist, bleibt Abwarten die disziplinierte Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

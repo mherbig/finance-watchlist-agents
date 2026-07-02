@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt: Kurs 7.483 notiert klar ueber SMA20 (7.436), SMA50 (7.386) und SMA200 (6.939), doch das MACD-Histogramm ist negativ (-4,64, Linie unter Signal) und der RSI14 (63) nur neutral-fest ohne frischen Impuls, knapp unter dem 52W-Hoch (-1,66%). Hawkische Fed-Wende, gestreckte Bewertungen (~21x) und enge Marktbreite stehen dem KI-Gewinnwachstum entgegen - ein widerspruechliches Bild ohne stimmiges Setup. Daher FLAT bis zum Bruch aus der Range 7.267-7.610.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

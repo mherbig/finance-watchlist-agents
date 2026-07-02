@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Der Trend ist klar bearish (Kurs 310,52 unter SMA20 323,75, SMA50 349,54 und SMA200 384,39, MACD negativ bei -10,62), doch RSI 36 naehert sich der ueberverkauften Zone, das MACD-Histogramm hat mit +0,41 ins Positive gedreht und der Kurs liegt nur 5,96% ueber dem 52W-Tief direkt auf Support 305,69 auf - kein Setup fuer frische Shorts. Dem regulatorischen Gegenwind (Privacy-Coin-Verbote, Delistings) steht das FCMP++-Upgrade als strukturelle Gegengeschichte gegenueber, ein widerspruechliches Bild ohne stimmige Richtung. Erst ein bestaetigter Bruch unter 305 oder eine Rueckeroberung der SMA20 (323,75) liefert einen Trigger.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

@@ -89,19 +89,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Technik klar bearisch (Kurs 69,94 EUR unter SMA20/50/200, MACD tief negativ mit Hist -1,54, Trend down), doch RSI14 19,62 signalisiert extreme Überverkauftheit exakt am 52-Wochen-Tief und Support 69,94 - kein sauberes Short-Setup und kein Beleg fuer eine Trendwende. Fundamental widerspruechlich: sehr niedriges Forward-KGV (~4-5) und ~7 % Dividende gegen US-Zoelle (~4 Mrd. EUR), China-Preisdruck (-15 %), Q1-Verfehlung (EPS 2,55 vs. 4,61 EUR) und negativen FCF (Value-Trap-Risiko). Ohne Stabilisierungssignal rechtfertigt dieser Widerspruch nur FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

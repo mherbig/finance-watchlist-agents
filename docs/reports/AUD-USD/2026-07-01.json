@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwaerts (Kurs 0,68931 unter SMA20 0,6964 und SMA50 0,706, MACD negativ und unter Signal), doch der extrem ueberverkaufte RSI14 von 22,18 trifft den Kurs direkt an der Unterstuetzung 0,6887 und nahe der SMA200 (0,6988) - ein Short auf diesem gestreckten Niveau ist riskant, eine technische Erholung ueberfaellig. Da das bearische MACD-Histogramm mit -0,0002 fast erschoepft ist und kein bestaetigter Bruch vorliegt, widersprechen sich Momentum und Bounce-Gefahr, weshalb FLAT diszipliniert bleibt. Erst ein Tagesschluss unter 0,6887 oder ueber 0,7071 klaert das Bild.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

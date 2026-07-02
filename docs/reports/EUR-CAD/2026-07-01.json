@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Die Gleitenden Durchschnitte sind aufwaerts gestaffelt (Kurs 1,61697 ueber SMA50/200, Trend jedoch 'side', Bias neutral), doch das kurzfristige Momentum fehlt: RSI14 45,75 ist neutral-defensiv und das MACD-Histogramm (-0,0007) liegt unter der Signallinie. Der Kurs klemmt unter der SMA20 (1,6198) und der Resistance 1,6256, waehrend die Bewegung laut Analyse primaer von CAD-Schwaeche samt Oelpreisrisiko getragen wird, sodass ein stimmiges Setup fehlt. Erst ein Bruch ueber 1,6256 (Long) bzw. unter Support 1,6147 (Short) rechtfertigt ein klares Urteil.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

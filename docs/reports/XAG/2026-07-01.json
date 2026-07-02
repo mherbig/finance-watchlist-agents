@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "SHORT",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Stimmig baerisches Bild: Kurs 59,61 liegt unter SMA20 (65,17), SMA50 (72,32) und SMA200 (68,52), Trend abwaerts und MACD tief negativ (-4,11 vs. Signal -3,63), gestuetzt durch falkenhafte Fed und starken Dollar. RSI14 bei 39,7 erholt sich aus dem ueberverkauften Bereich und der Reflex-Rebound direkt am Support 58,05 spricht fuer einen Pullback-Einstieg Richtung Widerstand 73,78. Ein Bruch unter 58 oeffnet Raum zum 52W-Tief (36,35).",
-    "entry": 59.605,
-    "stop_loss": 63.8766,
-    "take_profit": 53.1976,
-    "take_profit_2": 58.052,
-    "rr": 1.5
   }
 }

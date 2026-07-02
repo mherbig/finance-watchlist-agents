@@ -40,8 +40,7 @@ def _latest_report(symbol_dir: Path) -> Path | None:
 
 
 # Felder, die eine echte Agenten-Entscheidung ausmachen.
-_DECISION_FIELDS = ("direction", "conviction", "entry_type", "horizon_days",
-                    "rationale")
+_DECISION_FIELDS = ("direction", "conviction", "horizon_days", "rationale")
 
 
 def main() -> None:

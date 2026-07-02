@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Das aktuelle technische Bild ist widerspruechlich: Trend seitwaerts, Bias neutral, Kurs (1.32745) ueber SMA20 (1.3265) aber unter SMA50 (1.3351) und SMA200 (1.3442), RSI14 mittig bei 61.08. Das MACD-Histogramm dreht zwar leicht ins Plus (+0.0012), doch die aeltere Analyse zeichnete noch eine baerische Dollar-Staerke-Story - die zwischenzeitliche Erholung ueber die SMA20 loest diesen Konflikt nicht stimmig auf. Ohne klar bullisches oder baerisches Setup und mit Ueberzeugung unter 3 ist FLAT diszipliniert.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

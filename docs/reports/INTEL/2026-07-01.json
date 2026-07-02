@@ -89,19 +89,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "LONG",
-    "conviction": 3,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Das Bild ist stimmig bullish: Kurs ueber SMA20/50/200, Trend up, RSI 61 gesund, gestuetzt durch den Q1-Beat (+22 % DCAI) und 18A-P in Risk Production. Allerdings dampft der Tagesverlust von -9 % das Momentum (MACD-Histogramm leicht negativ) und die Bewertung (~147x Forward-KGV, weit ueber DCF-Fair-Value ~45-60 USD) ist gestreckt. Daher LONG mit massvoller Conviction und Pullback-Einstieg Richtung SMA20 ~123; naechster Pruefstein sind die Q2-Earnings am ~22.07.",
-    "entry": 99.17,
-    "stop_loss": 79.091,
-    "take_profit": 129.2885,
-    "take_profit_2": 140.94,
-    "rr": 1.5
   }
 }

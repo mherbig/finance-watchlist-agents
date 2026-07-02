@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwaerts: Der Kurs (1.13787) notiert unter SMA20 (1.1451), SMA50 (1.1544) und SMA200 (1.1667), Bias bearisch. Doch RSI14 bei 34.11 hat sich aus tief ueberverkauften Niveaus erholt und das MACD-Histogramm dreht mit +0.0001 knapp ins Positive, waehrend der Kurs nur ~0.18% ueber der zentralen Unterstuetzung und dem 52-Wochen-Tief bei 1.1359 klebt. Bei beidseitig hawkischem, range-gebundenem Makro (Konsens 1.13-1.21) und diesem widerspruechlichen Bild an einer Schluesselmarke fehlt ein stimmiges Setup, daher FLAT bis zum Bruch unter 1.1359 oder einer bestaetigten Bodenbildung.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

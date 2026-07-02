@@ -2,6 +2,9 @@
 
 Keine Netzwerkaufrufe. Die Agenten-JUDGMENT (direction/conviction/...) ist Eingabe;
 die Zahlen werden deterministisch aus ATR + Support/Resistance berechnet.
+
+Einstiegsmodell: IMMER Market zum Tages-Schlusskurs (entry = snapshot.price).
+Es gibt keine Pullback-/Limit-Entries mehr.
 """
 import pytest
 
@@ -30,7 +33,6 @@ def _good_decision(**over):
     d = {
         "direction": "LONG",
         "conviction": 3,
-        "entry_type": "market",
         "horizon_days": 10,
         "rationale": "Setup sieht gut aus.",
     }
@@ -42,13 +44,19 @@ def test_validate_decision_accepts_good():
     validate_decision(_good_decision())  # darf nicht werfen
 
 
+def test_validate_decision_no_entry_type_required():
+    # entry_type ist kein Entscheidungsfeld mehr (Market-only) -> Fehlen ok.
+    d = _good_decision()
+    assert "entry_type" not in d
+    validate_decision(d)
+
+
 @pytest.mark.parametrize("bad", [
     {"direction": "BUY"},
     {"direction": None},
     {"conviction": 0},
     {"conviction": 6},
-    {"conviction": 3.0} if False else {"conviction": "3"},
-    {"entry_type": "limit"},
+    {"conviction": "3"},
     {"horizon_days": 0},
     {"horizon_days": -5},
     {"horizon_days": "10"},
@@ -61,14 +69,13 @@ def test_validate_decision_rejects_bad_field(bad):
         validate_decision(_good_decision(**bad))
 
 
-# --- compute_levels: LONG ------------------------------------------------
+# --- compute_levels: LONG (immer Market, entry = price) ------------------
 
 def test_long_market_structure_stop():
     # price 100, atr 2. support bei 98 nahe genug -> Struktur-Stop sup-0.1*atr
     # atr_stop = 100 - 1.8*2 = 96.4. sup=98. sup-0.1*atr = 97.8.
     # 96.4 <= 97.8 < 100 -> stop = 97.8 (enger als ATR-Stop).
-    r = compute_levels(100.0, 2.0, _levels([98.0], [110.0]),
-                       "LONG", 3, "market")
+    r = compute_levels(100.0, 2.0, _levels([98.0], [110.0]), "LONG", 3)
     assert r["entry"] == 100.0
     assert r["stop_loss"] == 97.8
     risk = 100.0 - 97.8
@@ -79,8 +86,7 @@ def test_long_market_structure_stop():
 
 def test_long_market_atr_stop_no_nearby_support():
     # keine Support unter entry -> ATR-Stop
-    r = compute_levels(100.0, 2.0, _levels([], [110.0]),
-                       "LONG", 2, "market")
+    r = compute_levels(100.0, 2.0, _levels([], [110.0]), "LONG", 2)
     atr_stop = round(100.0 - K_SL * 2.0, 4)
     assert r["entry"] == 100.0
     assert r["stop_loss"] == atr_stop  # 96.4
@@ -90,29 +96,11 @@ def test_long_market_atr_stop_no_nearby_support():
     assert r["rr"] == R_TARGET[2]
 
 
-def test_long_market_far_support_uses_atr_stop():
+def test_long_far_support_uses_atr_stop():
     # support 90 ist weiter weg als ATR-Stop 96.4 -> sup-0.1atr=89.8 < atr_stop,
     # Bedingung atr_stop <= struct < entry verletzt -> ATR-Stop bleibt.
-    r = compute_levels(100.0, 2.0, _levels([90.0], [110.0]),
-                       "LONG", 3, "market")
+    r = compute_levels(100.0, 2.0, _levels([90.0], [110.0]), "LONG", 3)
     assert r["stop_loss"] == round(100.0 - K_SL * 2.0, 4)  # 96.4
-
-
-def test_long_pullback_entry_at_support():
-    # pullback: entry = naechste Support unter price (max support < price) = 98
-    r = compute_levels(100.0, 2.0, _levels([98.0, 90.0], [110.0]),
-                       "LONG", 4, "pullback")
-    assert r["entry"] == 98.0
-    # atr_stop = 98 - 3.6 = 94.4. sup unter entry(98): max(90) = 90.
-    # sup-0.1atr = 89.8. 94.4 <= 89.8? nein -> ATR-Stop 94.4.
-    assert r["stop_loss"] == 94.4
-
-
-def test_long_pullback_no_support_below_uses_price_minus_half_atr():
-    # keine Support unter price -> entry = price - 0.5*atr = 100 - 1 = 99
-    r = compute_levels(100.0, 2.0, _levels([], [110.0]),
-                       "LONG", 3, "pullback")
-    assert r["entry"] == 99.0
 
 
 # --- compute_levels: SHORT -----------------------------------------------
@@ -121,8 +109,7 @@ def test_short_market_structure_stop():
     # price 100, atr 2. resistance 102 nahe. atr_stop = 100 + 3.6 = 103.6.
     # res = min(res > entry) = 102. res+0.1atr = 102.2.
     # entry(100) < 102.2 <= 103.6 -> stop = 102.2.
-    r = compute_levels(100.0, 2.0, _levels([90.0], [102.0]),
-                       "SHORT", 3, "market")
+    r = compute_levels(100.0, 2.0, _levels([90.0], [102.0]), "SHORT", 3)
     assert r["entry"] == 100.0
     assert r["stop_loss"] == 102.2
     risk = 102.2 - 100.0
@@ -132,8 +119,7 @@ def test_short_market_structure_stop():
 
 
 def test_short_market_atr_stop_no_nearby_resistance():
-    r = compute_levels(100.0, 2.0, _levels([90.0], []),
-                       "SHORT", 2, "market")
+    r = compute_levels(100.0, 2.0, _levels([90.0], []), "SHORT", 2)
     atr_stop = round(100.0 + K_SL * 2.0, 4)  # 103.6
     assert r["stop_loss"] == atr_stop
     risk = atr_stop - 100.0
@@ -141,124 +127,41 @@ def test_short_market_atr_stop_no_nearby_resistance():
     assert r["take_profit_2"] == 90.0
 
 
-def test_short_pullback_entry_at_resistance():
-    # pullback: entry = naechste resistance ueber price (min res > price) = 102
-    r = compute_levels(100.0, 2.0, _levels([90.0], [102.0, 110.0]),
-                       "SHORT", 3, "pullback")
-    assert r["entry"] == 102.0
-
-
-def test_short_pullback_no_resistance_uses_price_plus_half_atr():
-    r = compute_levels(100.0, 2.0, _levels([90.0], []),
-                       "SHORT", 3, "pullback")
-    assert r["entry"] == 101.0  # 100 + 0.5*2
-
-
-# --- compute_levels: pullback degeneracy fallback ------------------------
-
-def test_long_pullback_degenerate_tp_falls_back_to_market():
-    # Nearest support far below price so the pullback entry would push the TP
-    # at/below the current price (degenerate). Must fall back to a MARKET entry
-    # computed from price, with TP strictly above price.
-    # price=100, atr=2, conviction=1 (rt=1.5). support at 90 (far below).
-    # pullback entry=90, atr_stop=90-3.6=86.4 -> risk=3.6 -> tp=90+1.5*3.6=95.4
-    #   -> tp(95.4) <= price(100) => degenerate -> fall back to market.
-    r = compute_levels(100.0, 2.0, _levels([90.0], []),
-                       "LONG", 1, "pullback")
-    assert r["entry"] == 100.0  # market entry = price
-    assert r["take_profit"] > 100.0  # TP beyond current price
-    # market stop = atr_stop = 100 - 1.8*2 = 96.4 (no support below entry near)
-    assert r["stop_loss"] == round(100.0 - K_SL * 2.0, 4)
-
-
-def test_short_pullback_degenerate_tp_falls_back_to_market():
-    # SHORT mirror: resistance far above price so pullback TP would be at/above
-    # price. Falls back to market entry computed from price.
-    # price=100, atr=2, conviction=1. resistance at 110 (far above).
-    # pullback entry=110, atr_stop=110+3.6=113.6, risk=3.6, tp=110-5.4=104.6
-    #   -> tp(104.6) >= price(100) => degenerate -> market fallback.
-    r = compute_levels(100.0, 2.0, _levels([], [110.0]),
-                       "SHORT", 1, "pullback")
-    assert r["entry"] == 100.0
-    assert r["take_profit"] < 100.0  # TP beyond current price (downside)
-    assert r["stop_loss"] == round(100.0 + K_SL * 2.0, 4)
-
-
-def test_long_pullback_non_degenerate_stays_pullback():
-    # Support just below price -> pullback entry leaves TP above price -> kept.
-    # price=100, atr=2, support 98 -> entry=98, atr_stop=94.4, risk=3.6,
-    # tp=98+1.5*3.6=103.4 > price(100) -> non-degenerate -> stays pullback.
-    r = compute_levels(100.0, 2.0, _levels([98.0], []),
-                       "LONG", 1, "pullback")
-    assert r["entry"] == 98.0
-    assert r["take_profit"] > 100.0
-
-
-def test_build_signal_pullback_fallback_sets_entry_type_market():
-    # When compute_levels falls back to market, build_signal must reflect the
-    # effective entry_type so resolution treats the fill as immediate.
-    decision = _good_decision(direction="LONG", conviction=1,
-                              entry_type="pullback")
-    technical = {"atr14": 2.0, "levels": _levels([90.0], [])}
-    snapshot = {"price": 100.0}
-    sig = build_signal(decision, technical, snapshot,
-                       generated_at="t", model="m")
-    assert sig["entry"] == 100.0
-    assert sig["entry_type"] == "market"
-    assert sig["take_profit"] > 100.0
-
-
-def test_build_signal_pullback_kept_keeps_entry_type_pullback():
-    decision = _good_decision(direction="LONG", conviction=1,
-                              entry_type="pullback")
-    technical = {"atr14": 2.0, "levels": _levels([98.0], [])}
-    snapshot = {"price": 100.0}
-    sig = build_signal(decision, technical, snapshot,
-                       generated_at="t", model="m")
-    assert sig["entry"] == 98.0
-    assert sig["entry_type"] == "pullback"
-
-
 # --- compute_levels: FLAT / leere Faelle ---------------------------------
 
 def test_flat_all_none():
-    r = compute_levels(100.0, 2.0, _levels([98.0], [110.0]),
-                       "FLAT", 3, "market")
+    r = compute_levels(100.0, 2.0, _levels([98.0], [110.0]), "FLAT", 3)
     assert r == {"entry": None, "stop_loss": None, "take_profit": None,
                  "take_profit_2": None, "rr": None}
 
 
 def test_missing_atr_all_none():
     for atr in (None, 0, 0.0):
-        r = compute_levels(100.0, atr, _levels([98.0], [110.0]),
-                           "LONG", 3, "market")
+        r = compute_levels(100.0, atr, _levels([98.0], [110.0]), "LONG", 3)
         assert r == {"entry": None, "stop_loss": None, "take_profit": None,
                      "take_profit_2": None, "rr": None}
 
 
 def test_missing_price_all_none():
-    r = compute_levels(None, 2.0, _levels([98.0], [110.0]),
-                       "LONG", 3, "market")
+    r = compute_levels(None, 2.0, _levels([98.0], [110.0]), "LONG", 3)
     assert all(v is None for v in r.values())
 
 
 def test_conviction_5_rr_25():
-    r = compute_levels(100.0, 2.0, _levels([], [110.0]),
-                       "LONG", 5, "market")
+    r = compute_levels(100.0, 2.0, _levels([], [110.0]), "LONG", 5)
     assert r["rr"] == 2.5
     assert R_TARGET[5] == 2.5
 
 
 def test_no_resistance_take_profit_2_none():
-    r = compute_levels(100.0, 2.0, _levels([], []),
-                       "LONG", 3, "market")
+    r = compute_levels(100.0, 2.0, _levels([], []), "LONG", 3)
     assert r["take_profit_2"] is None
 
 
 # --- build_signal --------------------------------------------------------
 
-def test_build_signal_long():
-    decision = _good_decision(direction="LONG", conviction=4, entry_type="market")
+def test_build_signal_long_is_market_at_price():
+    decision = _good_decision(direction="LONG", conviction=4)
     technical = {"atr14": 2.0, "levels": _levels([98.0], [110.0])}
     snapshot = {"price": 100.0}
     sig = build_signal(decision, technical, snapshot,
@@ -267,13 +170,24 @@ def test_build_signal_long():
     assert sig["model"] == "claude-opus-4-8"
     assert sig["direction"] == "LONG"
     assert sig["conviction"] == 4
-    assert sig["entry_type"] == "market"
+    assert sig["entry_type"] == "market"   # immer Market
     assert sig["horizon_days"] == 10
     assert sig["rationale"] == "Setup sieht gut aus."
-    assert sig["entry"] == 100.0
+    assert sig["entry"] == 100.0           # entry = Tages-Schluss (snapshot.price)
     assert isinstance(sig["stop_loss"], (int, float))
     assert isinstance(sig["take_profit"], (int, float))
     assert sig["rr"] == R_TARGET[4]
+
+
+def test_build_signal_short_is_market_at_price():
+    decision = _good_decision(direction="SHORT", conviction=3)
+    technical = {"atr14": 2.0, "levels": _levels([90.0], [102.0])}
+    snapshot = {"price": 100.0}
+    sig = build_signal(decision, technical, snapshot,
+                       generated_at="t", model="m")
+    assert sig["entry_type"] == "market"
+    assert sig["entry"] == 100.0
+    assert sig["take_profit"] < 100.0
 
 
 def test_build_signal_guards_none_technical_snapshot():
@@ -284,6 +198,7 @@ def test_build_signal_guards_none_technical_snapshot():
     assert sig["stop_loss"] is None
     assert sig["take_profit"] is None
     assert sig["rr"] is None
+    assert sig["entry_type"] == "market"
 
 
 def test_build_signal_validates():

@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Kurzfristig klar abwaertsgerichtet: Kurs 0,55794 unter SMA20 (0,5611) und SMA50 (0,5616), Trend down, MACD negativ (Hist -0,0005), RSI14 bei 32,48 schwach nahe ueberverkauft. Dem steht ein intakter mittelfristiger Aufwaertskontext ueber der steigenden SMA200 (0,5505) plus struktureller RBA-Carry-Vorteil (4,35 % vs. SNB 0 %) gegenlaeufig bullisch gegenueber, waehrend der Kurs am Support 0,5562 um Halt ringt. Widerspruechliches Bild ohne stimmiges Setup, daher FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

@@ -89,19 +89,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "LONG",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 12,
-    "rationale": "Stimmig bullisches Bild: klarer Aufwaertstrend ueber SMA20/50/200, positives MACD-Histogramm sowie ein Rekord-Q1 (NII +9%, Guidance auf 6-8% angehoben) und Analystenkonsens 'Buy' mit Kursziel ~61,6 USD stuetzen die Long-Seite. Allerdings steht der Kurs (58,39) exakt am 52W-Hoch/Widerstand mit ueberkauftem RSI (73) und duennem Bewertungspuffer (~12,9x), weshalb ein Pullback-Einstieg statt Market gerechtfertigt ist. Nur moderate Ueberzeugung vor den Q2-Zahlen am 14. Juli als naechstem Katalysator.",
-    "entry": 58.385,
-    "stop_loss": 56.1922,
-    "take_profit": 61.6741,
-    "take_profit_2": null,
-    "rr": 1.5
   }
 }

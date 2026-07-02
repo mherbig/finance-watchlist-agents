@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwärts (Kurs 0,56737 unter SMA20/50/200, fallend gestaffelt), doch der RSI14 von 24,6 signalisiert eine ausgeprägte Überverkauftheit direkt auf dem Support 0,5639 nahe dem 52W-Tief 0,55947, was einen Short wegen drohender technischer Gegenbewegung riskant macht. Das MACD-Histogramm dreht mit +0,0002 gerade flach ins Positive, ohne bestätigten Trigger, und das Makro-Bild ist widersprüchlich: kurzfristige USD-Stärke wirkt bärisch, während ein hawkisher RBNZ-Pfad und institutionelle Ziele Richtung 0,60 mittelfristig stützen. Ohne klaren Auslöser ist FLAT die disziplinierte Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

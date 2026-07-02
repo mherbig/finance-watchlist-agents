@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Klarer Abwaertstrend: Kurs 0,80617 liegt unter SMA20 (0,8086), SMA50 (0,8106) und SMA200 (0,8072), MACD negativ (Hist -0,0001), Bias bearish. Der RSI14 von 32,16 naehert sich jedoch der Ueberverkauft-Zone direkt am Support 0,8004, und die Analyse selbst nennt das Risiko einer Gegenbewegung Richtung SMA20/50 (~0,81), gestuetzt durch die hawkishere RBNZ-Guidance als fundamentales Gegengewicht. Baerisches Momentum und Bounce-Risiko widersprechen sich, kein stimmiges Setup fuer LONG oder SHORT, daher FLAT bis zur Klaerung an Support 0,8004 oder Resistance 0,8163.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

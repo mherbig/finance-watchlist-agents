@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "pullback",
-    "horizon_days": 14,
-    "rationale": "Die frischen Technicals zeigen trend='side' und bias='neutral': Der Kurs (8.337) ist auf die SMA20 (8.339) zurueckgefallen, RSI14 hat sich auf 60 abgekuehlt und das MACD-Histogramm ist mit -8,6 negativ gedreht - das Momentum laesst nach. Zwar bleibt die uebergeordnete SMA-Staffelung (ueber SMA50/200) konstruktiv und die Analyse-Agenten sind bullish, doch dieser Widerspruch zwischen intakter Struktur und neutraler, nachlassender Dynamik mitten in der Range (Support 8.162 / Widerstand 8.468) rechtfertigt keine stimmig bullische Positionierung. Diszipliniert FLAT bis zum klaren Bruch ueber 8.468 oder einem sauberen Reclaim vom Support.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

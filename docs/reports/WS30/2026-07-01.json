@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "LONG",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Intakter Aufwärtstrend mit perfekter SMA-Staffelung (Kurs 52.305 > SMA20 51.465 > SMA50 50.481 > SMA200 48.408) und positivem MACD (525 vs. Signal 500) stützen die bullische Grundtendenz. Dämpfend wirken jedoch der stark überkaufte RSI14 von 83, der Kurs direkt am 52W-Hoch/Widerstand (52.319) sowie die hawkische Fed-Wende unter Warsh mit steigender Inflation. Daher LONG mit moderater Überzeugung, aber Einstieg erst auf einen Rücksetzer Richtung 50.000er-Support statt direkt am ausgereizten Widerstand.",
-    "entry": 52305.24,
-    "stop_loss": 51199.1913,
-    "take_profit": 53964.313,
-    "take_profit_2": 52319.1992,
-    "rr": 1.5
   }
 }

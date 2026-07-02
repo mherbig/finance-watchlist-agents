@@ -64,19 +64,5 @@
     ],
     "generated_at": "2026-06-27T14:47:47.885197+00:00",
     "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-01T21:38:20.941134+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 10,
-    "rationale": "Das Bild ist stimmig bearisch: Kurs (0,45927) unter SMA20/50/200, Trend abwaerts, MACD negativ und das Makro-Umfeld (NZ-CH-Zinsgefaelle plus SNB-Stuetzung des Frankens) belastet den Kiwi. Allerdings klebt der Kurs knapp ueber der Unterstuetzung 0,4563 ohne bestaetigten Bruch, waehrend der ueberverkaufte RSI14 (34) direkt an der Unterstuetzung eine technische Gegenbewegung ermoeglicht - ein sauberer Short-Trigger fehlt. Erst ein Schlusskurs unter 0,4563 oder eine Erholung an den Widerstand 0,4648 liefert ein klares Setup.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
   }
 }

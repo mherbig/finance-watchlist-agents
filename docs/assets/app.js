@@ -496,7 +496,11 @@ function renderOpenSignals(open) {
       <td class="num">${fmtNum(o.entry)}</td>
       <td class="num">${o.date ? escapeHtml(fmtDate(o.date)) : "–"}</td>
       <td class="num">${o.current_price == null ? "–" : fmtNum(o.current_price)}</td>
-      <td class="num ${changeClass(o.unrealized_pct)}">${fmtPct(o.unrealized_pct)}</td>
+      <td class="num ${o.pending ? "" : changeClass(o.unrealized_pct)}">${
+        o.pending
+          ? '<span class="muted" title="Pullback-Limit noch nicht erreicht – Position nicht im Markt">⏳ wartet</span>'
+          : fmtPct(o.unrealized_pct)
+      }</td>
       <td class="num">${fmtNum(o.stop_loss)}</td>
       <td class="num">${fmtNum(o.take_profit)}</td>
       <td class="num">${o.rr == null ? "–" : fmtNum(o.rr, 2)}</td>

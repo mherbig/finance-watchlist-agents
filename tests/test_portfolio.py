@@ -763,3 +763,65 @@ def test_simulate_open_unrealized_pct_missing_price_is_none():
     o = res["open"][0]
     assert o["current_price"] is None
     assert o["unrealized_pct"] is None
+
+
+# --- Phantom-Win-Regression: pending Pullback zeigt KEINEN unrealisierten P&L ---
+
+def test_resolve_open_unfilled_pullback_marks_filled_false():
+    # LONG-Pullback, Entry unter Kurs, nie erreicht, Horizont NICHT
+    # ausgeschoepft -> status "open" (koennte spaeter fuellen), aber die Position
+    # ist NICHT im Markt -> filled == False (pending).
+    signals = [
+        _sig("2026-01-01", "LONG", entry=90.0, sl=86.0, tp=100.0,
+             horizon_days=20, entry_type="pullback"),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 101, 95, 99),   # low 95 > 90 -> kein Fill
+        _bar("2026-01-03", 99, 100, 96, 98),    # low 96 > 90 -> kein Fill
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "open"
+    assert trades[0]["filled"] is False
+
+
+def test_resolve_market_open_marks_filled_true():
+    # Market-Entry ist sofort gefuellt -> filled True, auch wenn noch offen.
+    signals = [
+        _sig("2026-01-01", "LONG", entry=100.0, sl=95.0, tp=200.0,
+             horizon_days=20, entry_type="market"),
+    ]
+    ts = _ts(_bar("2026-01-02", 100, 101, 99, 100))
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "open"
+    assert trades[0]["filled"] is True
+
+
+def test_simulate_pending_pullback_has_no_unrealized_pct():
+    # Kernfix: eine offene, noch NICHT gefuellte Pullback-Position (filled False)
+    # ist kein echter Trade -> pending True, KEIN unrealized_pct (Phantom-Gewinn).
+    pending = {
+        "symbol": "PB", "display": "PB", "date": "2026-01-01",
+        "direction": "LONG", "conviction": 3, "entry": 90.0,
+        "stop_loss": 86.0, "take_profit": 100.0, "rr": 2.0,
+        "horizon_days": 20, "status": "open", "exit_date": None,
+        "exit_price": None, "realized_R": None, "filled": False,
+    }
+    res = portfolio.simulate([pending], current_prices={"PB": 110.0})
+    o = res["open"][0]
+    assert o["pending"] is True
+    assert o["current_price"] == 110.0   # Kurs darf informativ bleiben
+    assert o["unrealized_pct"] is None    # aber KEIN Phantom-P&L
+
+
+def test_simulate_filled_open_shows_unrealized_pct_and_pending_false():
+    filled = {
+        "symbol": "MK", "display": "MK", "date": "2026-01-01",
+        "direction": "LONG", "conviction": 3, "entry": 100.0,
+        "stop_loss": 95.0, "take_profit": 200.0, "rr": 2.0,
+        "horizon_days": 20, "status": "open", "exit_date": None,
+        "exit_price": None, "realized_R": None, "filled": True,
+    }
+    res = portfolio.simulate([filled], current_prices={"MK": 110.0})
+    o = res["open"][0]
+    assert o["pending"] is False
+    assert o["unrealized_pct"] == 10.0

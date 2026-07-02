@@ -395,6 +395,11 @@ def resolve_symbol_trades(signals: list, time_series: list,
             trade["exit_price"] = exit_price
             trade["realized_R"] = _realized_r(direction, exit_price, entry,
                                               stop_loss)
+        # Ob die Position je gefuellt wurde. Market ist sofort gefuellt; ein
+        # Pullback nur, wenn ein Bar durch den Entry gehandelt hat. Wichtig fuer
+        # offene Positionen: ein noch nicht gefuellter Pullback ("open", aber
+        # pending) ist NICHT im Markt -> kein unrealisierter P&L.
+        trade["filled"] = bool(filled)
         trades.append(trade)
 
         # Ein durch einen Flip ausgeloestes no_fill (Pullback wurde vor dem
@@ -546,6 +551,13 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         current_price = prices.get(t.get("symbol"))
         if current_price is None:
             current_price = prices.get(t.get("display"))
+        # Pending = noch nicht gefuellter Pullback (filled explizit False). Fehlt
+        # das Feld (Alt-Trades), gilt die Position als gefuellt. Fuer pending
+        # Positionen gibt es KEINEN unrealisierten Stand (Phantom-Gewinn-Schutz).
+        pending = t.get("filled") is False
+        unrealized_pct = (None if pending else
+                          _unrealized_pct(t.get("direction"), t.get("entry"),
+                                          current_price))
         open_list.append({
             "symbol": t.get("symbol"),
             "display": t.get("display"),
@@ -559,9 +571,9 @@ def simulate(trades: list, start_equity: float = 100_000.0,
             "risk_amount": lock.get("risk_amount"),
             "units": lock.get("units"),
             "horizon_days": t.get("horizon_days"),
+            "pending": pending,
             "current_price": current_price,
-            "unrealized_pct": _unrealized_pct(
-                t.get("direction"), t.get("entry"), current_price),
+            "unrealized_pct": unrealized_pct,
         })
 
     closed_count = len(closed)

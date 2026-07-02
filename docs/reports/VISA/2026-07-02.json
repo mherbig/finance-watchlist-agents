@@ -1,0 +1,107 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T21:22:46.177886+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 361.57999,
+    "change_pct": 2.99077,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 361.57999,
+    "change_pct": 2.990772299419047,
+    "sma20": 330.9445,
+    "sma50": 325.9592,
+    "sma200": 328.8923,
+    "rsi14": 86.05,
+    "macd": {
+      "macd": 7.0639,
+      "signal": 3.8953,
+      "hist": 3.1686
+    },
+    "atr14": 7.7857,
+    "high_52w": 361.57999,
+    "low_52w": 295.51999,
+    "pct_from_high": 0.0,
+    "pct_from_low": 22.35,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 361.58
+      },
+      {
+        "type": "support",
+        "price": 319.05
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 86",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Visa notiert bei 335,57 USD im klaren Aufwärtstrend (Kurs über SMA20/50/200, RSI 62, MACD positiv) rund 6,5% unter dem 52W-Hoch von 358,86. Fundamental stark: Q2 FY26 mit +17% Umsatz und 9% Volumenwachstum, getragen von Cross-Border und neuen Stablecoin-/Agentic-Commerce-Initiativen. Hauptfrage bleibt, ob das Forward-KGV von ~22 die positiven Nachrichten bereits einpreist.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Visa ist mit Mastercard Teil des globalen **Zahlungsnetzwerk-Duopols** und profitiert vom strukturellen Wandel von Bargeld zu digitalen Zahlungen. Das Geschäftsmodell ist kapitalleicht und volumenbasiert: Visa trägt kein Kreditrisiko, sondern verdient an Transaktionsgebühren und grenzüberschreitenden Volumina. - **Peers:** Mastercard (MA, ~493 USD), American Express, sowie Fintech-Herausforderer (PayPal, Block, Adyen). - **Wachstumstreiber 2026:** Cross-Border-Volumen (+11% YoY), Tokenisierung und neue Initiativen rund um **Agentic Commerce** (OpenAI-Partnerschaft, Juni 2026) und **Stablecoin-Settlement** (Pilot mit ~7 Mrd. USD annualisiertem Run-Rate). - **Strukturrisiko:** Stablecoins und alternative Rails könnten das Netzwerk langfristig teilweise umgehen; Visa positioniert sich aktiv als Betreiber statt Gegner."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q2 FY2026 (gemeldet 29.04.2026)** lag deutlich über den Erwartungen:\n\n- **Nettoumsatz:** 11,2 Mrd. USD, **+17% YoY**\n- **Adj. EPS:** 3,31 USD, **+20% YoY** (~7% über Konsens)\n- **Payments Volume:** 3,7 Bio. USD, +9% konstanter Währung\n- **Cross-Border (ex intra-Europa):** +11%; verarbeitete Transaktionen +9% auf 66,1 Mrd. - **Kapitalrückführung:** 9,2 Mrd. USD im Quartal; neues **20-Mrd.-USD-Buyback** autorisiert\n\nDie These bleibt intakt: zweistelliges Umsatzwachstum, hohe Margen, aggressive Aktienrückkäufe. Treiber der Story sind zunehmend die neuen digitalen Rails (Stablecoin, AI-Payments), die das langfristige Wachstum verlängern sollen. Ausblick FY26: Umsatzwachstum im niedrig-zweistelligen bis Low-Teens-Bereich."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung** auf Comps-Basis: Visa handelt bei einem Forward-KGV von ~22, Mastercard liegt vergleichbar bzw. leicht höher. - Bei FY26-EPS-Annahme von grob **~13 USD** (annualisiert aus ~3,3 USD/Quartal mit Wachstum) und einem fairen Multiple von 23-26x ergibt sich eine grobe **Fair-Value-Spanne von ~300-340 USD** im konservativen Szenario und **~360-390 USD** bei anhaltendem Premium-Multiple. - Analysten-Kursziele liegen aktuell bei ~388-399 USD (Median), also oberhalb des aktuellen Kurses. - DCF-Logik: bei 10-12% Umsatzwachstum, ~67% operativer Marge und moderatem Terminal-Growth stützt das Modell ein Premium-Multiple, reagiert aber sensibel auf Diskontsatz und Terminal-Annahmen. Als grobe Orientierung, keine Punktgenauigkeit."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Das Forward-KGV von ~22 liegt nahe dem historischen Durchschnitt Visas und ist gegenüber Mastercard nicht teuer. Gemessen an Qualität (kapitalleicht, ~67% Op-Marge, hoher FCF, geringe Zyklik) ist die Bewertung plausibel. **Risiken für das Multiple:**\n- Stablecoin-/Alternative-Rails-Disruption könnte langfristig Volumenwachstum dämpfen. - Regulatorischer Druck auf Interchange-Gebühren (US/EU). - Hohe Erwartungen an Agentic-Commerce könnten enttäuschen, falls Monetarisierung langsam anläuft. Simply Wall St beziffert das Aufwärtspotenzial auf ~24,6% (undervalued). Der Bewertungs-Check spricht für eine faire bis leicht unterbewertete Einordnung, sofern das zweistellige Wachstum hält."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull:**\n- Strukturelles Wachstum durch Cash-to-Digital-Shift, +17% Umsatz, +20% EPS in Q2 FY26. - Kapitalleichtes Duopol-Modell mit hohen Margen und aggressiven Buybacks (20 Mrd. USD). - Neue Wachstumsoptionen: OpenAI-Partnerschaft (Agentic Commerce), Stablecoin-Settlement (~7 Mrd. USD Run-Rate), Tokenisierung. - Aktueller Kurs unter Median-Kursziel der Analysten (~388 USD). **Bear:**\n- Forward-KGV ~22 könnte gute Nachrichten bereits einpreisen. - Stablecoins/alternative Rails als langfristige Umgehungsgefahr des Netzwerks. - Regulatorischer Druck auf Interchange-Gebühren. - YTD-Performance verhalten trotz starker Fundamentals; Aktie blieb nach Q2-Bericht zunächst schwach (-1,4% premarket)."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Technik:** Aufwärtstrend intakt, Kurs 335,57 USD über SMA20/50/200; RSI 62, MACD positiv (Hist +0,89). Widerstand am Hoch ~335,6 / 52W-Hoch 358,86; Support 312,4. ATR ~6,96. - **Earnings-Momentum:** Q2 FY26 (29.04.) schlug klar: +17% Umsatz, +20% adj. EPS, +9% Volumen. - **Katalysator AI/Crypto:** OpenAI-Agentic-Commerce-Partnerschaft (Juni 2026); Stablecoin-Pilot ~7 Mrd. USD Run-Rate; mögliche Joint-Stablecoin-Plattform mit Mastercard/Stripe/Coinbase. - **Kapitalrückführung:** Neues 20-Mrd.-USD-Buyback stützt EPS. - **Termine/Risiken:** Nächster Quartalsbericht (Q3 FY26) im Sommer 2026 beobachten; Interchange-Regulierung und Stablecoin-Disruption als Schlüsselrisiken."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-02T21:28:58.556640+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Intakter Aufwärtstrend (Kurs über SMA20/50/200, MACD positiv) trifft auf ein stimmig bullisches Fundamentalbild: +17% Umsatz und +20% EPS in Q2 FY26, aggressive Buybacks und Analystenziele (~388 USD) über dem aktuellen Kurs. Dämpfend wirkt der stark überkaufte RSI von 86 direkt am 52W-Hoch nach einem +3%-Tag, was das kurzfristige Rückschlagrisiko erhöht und die Conviction begrenzt. Netto überwiegt das bullische Bild für einen Swing-Long, aber ohne hohe Überzeugung.",
+    "entry": 361.58,
+    "stop_loss": 347.5657,
+    "take_profit": 382.6014,
+    "take_profit_2": 361.58,
+    "rr": 1.5
+  }
+}

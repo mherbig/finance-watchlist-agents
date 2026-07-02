@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T21:22:46.177886+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.33505,
+    "change_pct": 0.022476119,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.33505,
+    "change_pct": 0.022476119123428877,
+    "sma20": 1.3266,
+    "sma50": 1.3352,
+    "sma200": 1.3442,
+    "rsi14": 66.03,
+    "macd": {
+      "macd": -0.002,
+      "signal": -0.0041,
+      "hist": 0.0021
+    },
+    "atr14": 0.0058,
+    "high_52w": 1.37954,
+    "low_52w": 1.30152,
+    "pct_from_high": -3.22,
+    "pct_from_low": 2.58,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3427
+      },
+      {
+        "type": "support",
+        "price": 1.317
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/USD notiert bei 1.3202, klar unter allen wichtigen gleitenden Durchschnitten (SMA20 1.3304, SMA50 1.3392, SMA200 1.3444) in einem intakten Abwaertstrend. Mit RSI14 bei 29.58 ist das Paar leicht ueberverkauft, der Kurs liegt nur 1.44% ueber dem 52-Wochen-Tief von 1.30152. Treiber ist primaer ein nach der hawkischen Fed-Sitzung erstarkter US-Dollar, waehrend die BoE bei 3.75% in Wartestellung verharrt.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **abwaerts**: Der Kurs (1.3202) liegt unter SMA20 (1.3304), SMA50 (1.3392) und SMA200 (1.3444), die gestaffelt baerisch ausgerichtet sind. **RSI14 bei 29.58** signalisiert leichte Ueberverkauftheit und damit Potenzial fuer eine technische Gegenbewegung, bestaetigt aber den Schwaechetrend. Der **MACD** bleibt negativ (-0.0062 unter Signal -0.0051, Histogramm -0.001) ohne Aufwaertsdrehung. Entscheidende Marken:\n- **Support 1.317** sowie das 52W-Tief **1.30152** (nur 1.44% entfernt) - ein Bruch oeffnet Raum nach unten. - **Resistance 1.3427** (deckt sich mit SMA50/SMA200-Zone) als erste Huerde. Mit ATR14 von **0.0070** (~70 Pips) liegt die Tagesschwankung moderat. Der Abstand zum 52W-Hoch betraegt -4.3%."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die Schwaeche ist primaer eine **Dollar-Staerke-Story**. Die Fed hielt am 17.06. bei 3.50-3.75%, doch der Dot-Plot unter dem neuen Chair Warsh drehte hawkisch (Median-Jahresendsatz 3.8%, neun von 18 Mitgliedern erwarten Hikes), der DXY brach ueber 100. Die **BoE** beliess den Leitzins am 18.06. mit 7-2 bei **3.75%** - UK-CPI 2.8%, aber Dienstleistungsinflation auf 3.7% gestiegen, was Cuts verzoegert. Risiken/Termine:\n- Politische Unsicherheit nach Starmers Ruecktritt belastet GBP zusaetzlich. - Naechste BoE-/Fed-Entscheidungen am **30.07. bzw. 29.07.**\n- Year-End-Ziele der Banken stark gestreut: JPMorgan 1.28, Goldman 1.36, Morgan Stanley 1.47."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-02T21:28:58.556640+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die strukturellen Daten (Preis 1.33505, RSI 66, MACD-Histogramm positiv, ueber SMA20/SMA50) deuten auf leichtes Aufwaertsmomentum, doch Trend ist 'side' und Bias 'neutral', mit SMA200 (1.3442) als Deckel unmittelbar darueber. Die qualitative Agenten-Analyse widerspricht dem klar (baerisch, Preis 1.3202, RSI 29.58), ist jedoch fuenf Tage alt und beschreibt ein ueberholtes Kursregime. Wegen dieses Widerspruchs und der Seitwaertslage ist ein diszipliniertes FLAT angezeigt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

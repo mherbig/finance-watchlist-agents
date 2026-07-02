@@ -1,0 +1,82 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T21:22:46.177886+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.0828,
+    "change_pct": 2.85443,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.0828,
+    "change_pct": 2.854428876751357,
+    "sma20": 1.1134,
+    "sma50": 1.215,
+    "sma200": 1.49,
+    "rsi14": 35.17,
+    "macd": {
+      "macd": -0.045,
+      "signal": -0.0477,
+      "hist": 0.0027
+    },
+    "atr14": 0.0418,
+    "high_52w": 2.64622,
+    "low_52w": 1.03995,
+    "pct_from_high": -59.08,
+    "pct_from_low": 4.12,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.2394
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "XRP notiert bei 1,0517 USD und damit nur 0,8 % über dem 52-Wochen-Tief (1,0434) und rund 60 % unter dem 52-Wochen-Hoch von 2,646. Trend und Momentum bleiben bearisch: Kurs unter allen Gleitenden, RSI 38, MACD negativ. Der Support bei 1,0434 ist die entscheidende Linie, darüber kämpft XRP gegen Regulierungs-Unsicherheit (CLARITY Act) und Escrow-Angebot, während fortlaufende Spot-ETF-Zuflüsse stützen.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Klarer Abwärtstrend.** Der Kurs (1,0517) liegt unter SMA20 (1,1386), SMA50 (1,2615) und SMA200 (1,5194) - die Reihenfolge der Mittel bestätigt einen intakten Bärenmarkt. **RSI14 bei 38,5** signalisiert Schwäche ohne klare Überverkauft-Extremität, **MACD (-0,049) unter Signal (-0,044)** mit negativem Histogramm zeigt weiter nachlassendes Momentum. - **Support 1,0434** = praktisch das 52W-Tief; Kurs nur +0,8 % darüber, also hauchdünner Puffer. - **Widerstand 1,2394**, etwa auf SMA50-Höhe - erst ein Rückeroberung würde das Bild aufhellen. - **ATR14 0,0526** (~5 % des Kurses) bedeutet hohe Tagesschwankung; ein Bruch unter 1,0434 droht beschleunigt zu laufen. - Abstand zum 52W-Hoch: -60,3 %."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Regulierung dominiert.** Der **US CLARITY Act** (würde XRP als CFTC-Rohstoff einstufen) ist der zentrale Treiber - die Senats-Chancen fielen laut Polymarket im Juni von 74 % auf rund 48 % nach Pushback gegen Section 604, was die Schwäche miterklärt. - **Spot-XRP-ETFs**: kumulierte Zuflüsse über 1,4 Mrd. USD seit November 2025, siebenwöchige Zuflussserie - institutioneller Rückhalt trotz Preisverfall. - **Escrow-Unlock** am 1. Juni brachte frisches Angebot (Verkaufsdruck). - **EU-MiCA**: Übergangsfrist endet 1. Juli 2026; Ripples frühe Compliance ist potenzieller Rückenwind. - Risiko: Korrelation zu Bitcoin und ausbleibender Senats-Vote."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-02T21:28:58.556640+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist klar abwaertsgerichtet: Kurs unter SMA20/50/200, bearisher Bias, RSI 35 und negativer MACD bestaetigen nachlassendes Momentum, verstaerkt durch regulatorische Unsicherheit (CLARITY Act) und Escrow-Angebot. Der Kurs (1,0828) sitzt jedoch nur hauchduenn ueber dem entscheidenden Support 1,0399 (52W-Tief-Naehe), sodass ein Bruch dieser Linie den Abwaertstrend beschleunigt. Die stimmig bearische Gesamtlage rechtfertigt SHORT, doch die Naehe zum Support und ein leicht positives MACD-Histogramm daempfen die Ueberzeugung.",
+    "entry": 1.0828,
+    "stop_loss": 1.158,
+    "take_profit": 0.9699,
+    "take_profit_2": 1.0399,
+    "rr": 1.5
+  }
+}

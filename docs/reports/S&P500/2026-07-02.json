@@ -1,0 +1,82 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T21:22:46.177886+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7483.24,
+    "change_pct": 0.0001,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7483.240234375,
+    "change_pct": 0.00013702513856667139,
+    "sma20": 7432.6871,
+    "sma50": 7394.7448,
+    "sma200": 6942.909,
+    "rsi14": 56.51,
+    "macd": {
+      "macd": 17.5573,
+      "signal": 19.2476,
+      "hist": -1.6903
+    },
+    "atr14": 96.3222,
+    "high_52w": 7609.77978515625,
+    "low_52w": 6225.52001953125,
+    "pct_from_high": -1.66,
+    "pct_from_low": 20.2,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7584.3101
+      },
+      {
+        "type": "support",
+        "price": 7266.9902
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Der S&P500 notiert bei 7.354 Punkten in einer Seitwaerts-Konsolidierung knapp unter dem 52W-Hoch (-3,4%), mit neutralem RSI (48) und negativem MACD-Histogramm. Das Bild zeigt eine Verschnaufpause nach starkem Anstieg, waehrend der makroökonomische Hintergrund durch eine hawkische Fed-Wende gepraegt ist.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Index (**7.354**) handelt **seitwaerts**: knapp unter der SMA20 (7.455), praktisch auf der SMA50 (7.363) und klar ueber der SMA200 (6.925) — der uebergeordnete Aufwaertstrend bleibt intakt, kurzfristig fehlt Momentum. **RSI14 bei 48** ist neutral, das **MACD-Histogramm (-24,2)** mit Linie unter Signal signalisiert nachlassenden Schwung. Schluessel-Level: Unterstuetzung **7.267**, Widerstand am 52W-Hoch **7.610**. Der **ATR14 (~115)** zeigt moderate Tagesschwankung. Abstand zum 52W-Hoch **-3,4%**, zum 52W-Tief **+18,7%** — die Range zwischen 7.267 und 7.610 grenzt die naehere Beobachtungszone ein."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Die **Fed** hielt am 17.06.2026 den Leitzins bei **3,50-3,75%** (einstimmig, erstes Meeting unter Chair Warsh), hob aber die Inflationsprognose 2026 auf **3,6% (Kern 3,3%)** an; der neue Dot-Plot impliziert eher eine **Anhebung** statt Senkung — hawkische Wende. Treiber bleibt das KI-getriebene Gewinnwachstum (Goldman: EPS ~340 USD, Ziel 8.000). **Risiken**: hartnaeckige Inflation, geopolitische Spannungen (Nahost), gestreckte Bewertungen (~21x) und enge Marktbreite."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-02T21:28:58.556640+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Aufwaertstrend ist intakt: Preis 7.483 ueber SMA20/50/200 (sauberer Stack), Trend up, Bias bullish, RSI14 bei 57 und nur -1,7% unter dem 52W-Hoch. Dem stehen ein leicht negatives MACD-Histogramm (nachlassendes Momentum) sowie hawkische Fed und gestreckte Bewertungen aus der Analyse entgegen, weshalb das Bild bullisch, aber nur moderat ueberzeugend ist. LONG mit begrenzter Conviction, Widerstand am 52W-Hoch 7.584/7.610.",
+    "entry": 7483.24,
+    "stop_loss": 7309.86,
+    "take_profit": 7743.3099,
+    "take_profit_2": 7584.3101,
+    "rr": 1.5
+  }
+}

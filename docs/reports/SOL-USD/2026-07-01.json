@@ -4,36 +4,36 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "generated_at": "2026-07-02T00:05:51.770772+00:00",
   "available": true,
   "snapshot": {
-    "price": 77.69,
-    "change_pct": 5.62882,
+    "price": 77.4,
+    "change_pct": 5.23453,
     "currency": null
   },
   "technical": {
-    "last_close": 77.69,
-    "change_pct": 5.628823929299797,
-    "sma20": 71.399,
-    "sma50": 75.9878,
-    "sma200": 94.2569,
-    "rsi14": 60.47,
+    "last_close": 77.4,
+    "change_pct": 5.234534330387503,
+    "sma20": 71.3845,
+    "sma50": 75.982,
+    "sma200": 94.2554,
+    "rsi14": 60.04,
     "macd": {
-      "macd": -0.0875,
-      "signal": -1.2133,
-      "hist": 1.1259
+      "macd": -0.1106,
+      "signal": -1.218,
+      "hist": 1.1074
     },
-    "atr14": 4.3993,
+    "atr14": 4.4507,
     "high_52w": 200.07,
     "low_52w": 62.15,
-    "pct_from_high": -61.17,
-    "pct_from_low": 25.0,
+    "pct_from_high": -61.31,
+    "pct_from_low": 24.54,
     "trend": "side",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 77.69
+        "price": 77.4
       },
       {
         "type": "support",

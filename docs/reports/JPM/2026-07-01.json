@@ -4,26 +4,26 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T21:24:38.951088+00:00",
+  "generated_at": "2026-07-02T00:05:51.770772+00:00",
   "available": true,
   "snapshot": {
-    "price": 334.079987,
-    "change_pct": 2.062139,
+    "price": 334.070007,
+    "change_pct": 2.059091,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 334.079987,
-    "change_pct": 2.0621382721454906,
-    "sma20": 322.7265,
-    "sma50": 312.1822,
+    "last_close": 334.070007,
+    "change_pct": 2.0590893611672936,
+    "sma20": 322.726,
+    "sma50": 312.182,
     "sma200": 308.3619,
     "rsi14": 70.21,
     "macd": {
-      "macd": 6.8379,
-      "signal": 6.5635,
-      "hist": 0.2744
+      "macd": 6.8371,
+      "signal": 6.5633,
+      "hist": 0.2738
     },
-    "atr14": 8.0419,
+    "atr14": 8.0414,
     "high_52w": 335.12,
     "low_52w": 282.78,
     "pct_from_high": -0.31,

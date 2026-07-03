@@ -1,0 +1,107 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T21:22:40.720412+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 242.67,
+    "change_pct": 0.40132447,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 242.67,
+    "change_pct": 0.4013239553165076,
+    "sma20": 240.246,
+    "sma50": 255.4168,
+    "sma200": 232.9826,
+    "rsi14": 50.89,
+    "macd": {
+      "macd": -4.386,
+      "signal": -5.3019,
+      "hist": 0.916
+    },
+    "atr14": 8.7721,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -11.75,
+    "pct_from_low": 22.07,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 253.79
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Amazon notiert bei 231,44 USD (+1,95% am Tag), rund 15,8% unter dem 52W-Hoch von 274,99 und in einem kurzfristigen Abwärtstrend unterhalb von SMA20/50. Operativ ist das Bild stark: Q1 2026 mit +17% Umsatz, AWS-Reakzeleration auf +28% und Rekordmarge stehen einer Bewertungsdebatte um die ~200 Mrd. USD AI-Capex gegenüber, die kurzfristig auf Marge und Sentiment drückt.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Amazon ist in drei Wachstumsfeldern führend: **Cloud (AWS)**, **Werbung** und **E-Commerce**. AWS bleibt mit ~150 Mrd. USD annualisiertem Run-Rate Marktführer vor Microsoft Azure und Google Cloud; die wieder anziehende Wachstumsrate signalisiert, dass die KI-Nachfrage (Bedrock, Trainium) in den Cloud-Umsatz durchschlägt. - **Werbung**: ~70 Mrd. USD trailing, +24% J/J - drittgrößte Werbeplattform hinter Google und Meta, mit höheren Margen als das Kerngeschäft. - **E-Commerce**: Prime Day 2026 (23.-26. Juni, viertägig) lieferte laut Adobe ~26,3 Mrd. USD Branchenumsatz - Beleg für ungebrochene Konsumkraft. - **Peers/Wettbewerb**: Azure und Google Cloud holen bei KI-Workloads auf; im Handel drücken Walmart und chinesische Anbieter (Temu/Shein) auf Preise. Regulatorischer Druck (FTC/EU) bleibt ein latentes Sektor-Thema."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 2026 (29.04.2026) - Beat auf allen Linien:**\n\n- Umsatz +17% J/J auf **181,5 Mrd. USD** (Vj. 155,7 Mrd.)\n- Operatives Ergebnis **23,9 Mrd. USD** (Vj. 18,4 Mrd.) - Rekordmarge\n- **AWS +28% J/J** auf 37,6 Mrd. USD - schnellstes Wachstum seit 15 Quartalen, über Konsens (~26%)\n- **Werbung +24%** auf 17,2 Mrd. USD, über Erwartung (~21%)\n- AWS-KI-Run-Rate >15 Mrd. USD; Trainium-Eigenchips als strukturelle Margenhebel\n\nDie **These** verschiebt sich von \"Handelskonzern mit Cloud-Anhang\" zu \"KI-Infrastruktur- und Margengeschichte\": AWS-Reakzeleration plus Werbung treiben die Profitabilität, während Capex die Frage nach KI-Monetarisierung in den Mittelpunkt rückt."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung, keine Punktprognose.** Bei ~181 Mrd. USD Quartalsumsatz liegt das annualisierte Top-Line-Run-Rate bei ~725-760 Mrd. USD; mit fortgesetzter AWS-/Werbe-Margenexpansion sind operative Margen im hohen Zehnerbereich plausibel. - **Comps**: AMZN handelt typischerweise mit Premium-Multiple wegen Cloud-/Werbe-Mix; gegenüber Microsoft/Google rechtfertigt die AWS-Reakzeleration eine obere Multiple-Bandbreite, gegenüber reinen Handelspeers ohnehin. - **Fair-Value-Spanne (grob)**: Bei moderaten KI-Monetarisierungsannahmen ergibt eine Sum-of-the-Parts (AWS hoch bewertet, Handel niedriger) eine Spanne von etwa **270-330 USD**; konservativere Capex-/Margenannahmen drücken Richtung **240-260 USD**. - Sensitivität liegt fast vollständig in (1) AWS-Wachstumsdauer und (2) Capex-Rückfluss in freien Cashflow."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die Comps-Logik ist plausibel, aber bewusst stark capex-sensitiv. Der 66-Analysten-Konsens liegt bei **~313 USD** (Strong Buy, ~17% Aufwärtspotenzial), mit Spannen wie UBS 311, Barclays 300, Morgan Stanley 325 - das stützt die obere Modellbandbreite. **Risiken der Bewertung:**\n- **~200 Mrd. USD Capex 2026** (kumuliert bis 2027 ~344 Mrd.) belastet kurzfristig den freien Cashflow; bei verzögerter KI-Monetarisierung kollabiert die Premium-Begründung. - Markt reagierte zuletzt empfindlich: trotz starker AWS-Zahlen fiel die Aktie auf Capex-Sorgen - genau das spiegelt der aktuelle Kurs ~15,8% unter Hoch. - Regulatorische Risiken (FTC/EU) als zusätzlicher Bewertungsabschlag. Die Fair-Value-Spanne ist daher breit und hängt an der Monetarisierungsdauer."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull:**\n\n- AWS-Reakzeleration auf +28% - schnellstes Wachstum seit 15 Quartalen, KI-Nachfrage greift\n- Werbung mit ~70 Mrd. USD und +24% als hochmargiger Profit-Pool\n- Trainium-Eigensilizium senkt KI-Kosten und bindet Großkunden (Anthropic-/OpenAI-Kapazität)\n- Rekord-Operating-Income, Prime-Day-Stärke im Konsum\n\n**Bear:**\n\n- ~200 Mrd. USD Capex 2026 drücken FCF und Marge, solange KI-Monetarisierung nicht skaliert\n- Aktie technisch im Abwärtstrend (unter SMA20/50), Sentiment fragil nach Capex-Schock\n- Wettbewerb Azure/Google bei KI-Cloud, Temu/Shein/Walmart im Handel\n- Regulatorischer Druck als Margen-Gegenwind\n\nNeutral: Die Aktie preist aktuell die Capex-Unsicherheit ein, während die operativen Treiber intakt sind."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kurs/Technik**: 231,44 USD, RSI 38 (nahe überverkauft), Trend down unter SMA20 (243,96)/SMA50 (256,10), aber an SMA200 (232,76); Support 227,01 / Resistance 270,64; ATR 8,19. - **Operativ**: Q1 2026 Beat - Umsatz +17%, AWS +28%, Werbung +24%, Rekord-Op-Income 23,9 Mrd. USD. - **Zentrales Thema**: ~200 Mrd. USD KI-Capex 2026 - Markt belohnt Wachstum erst bei sichtbarer Monetarisierung; Capex ist der neue Margen-Test. - **Katalysatoren**: Nächste Quartalszahlen (Q2 2026, voraussichtlich Ende Juli/Anfang August), AWS-KI-Run-Rate-Entwicklung, Trainium-Kapazitätsausbau (Anthropic/OpenAI), Prime-Day-Nachlauf. - **Risiken**: FCF-Druck durch Capex, regulatorischer Gegenwind (FTC/EU), KI-Cloud-Wettbewerb; technisch entscheidend ist das Halten von ~227 USD."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-03T21:30:12.879701+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Technik neutral: Seitwaerts-Trend, RSI ~51, Kurs 242,67 zwischen SMA20 (240,2) und SMA50 (255,4), MACD-Histogramm nur knapp positiv (+0,92) - kein tragfaehiges Swing-Setup. Fundamental stark (AWS +28%, Werbung +24%, Rekordmarge), doch ~200 Mrd. USD KI-Capex belastet FCF und Sentiment, und die Analyse selbst wertet das Bild explizit als neutral. Widerspruch zwischen intakter Operative und fragilem Momentum -> FLAT bis zur Aufloesung (Support 227 / Resistance 253,8).",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

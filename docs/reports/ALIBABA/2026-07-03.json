@@ -1,0 +1,107 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T21:22:40.720412+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 96.14,
+    "change_pct": -1.88795,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 96.14,
+    "change_pct": -1.887947749770379,
+    "sma20": 107.43,
+    "sma50": 122.9046,
+    "sma200": 147.0835,
+    "rsi14": 14.29,
+    "macd": {
+      "macd": -8.3141,
+      "signal": -7.8115,
+      "hist": -0.5026
+    },
+    "atr14": 3.1164,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -49.22,
+    "pct_from_low": 1.4,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 125.95
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 14",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Alibaba (BABA) notiert bei 94,91 USD - exakt am 52-Wochen-Tief und rund 50% unter dem Hoch von 189,34 USD. Der charttechnische Trend ist klar abwaerts (Kurs unter SMA20/50/200, MACD negativ), waehrend fundamental die Cloud-/AI-Story mit 40% Wachstum der externen Cloud-Erloese intakt bleibt, aber massive Capex die Margen druecken. Der Markt preist derzeit Investitionsrisiko und China-Sentiment deutlich hoeher als die KI-Monetarisierung.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Alibaba ist Chinas fuehrender E-Commerce- und Cloud-Konzern, mit den Saeulen **Taobao/Tmall** (heimischer Handel), **Cloud Intelligence Group** und internationalem Geschaeft (AIDC/Lazada/Trendyol). - Im Cloud-/KI-Geschaeft konkurriert Alibaba mit Tencent Cloud und Huawei Cloud im Inland sowie indirekt mit AWS/Azure/Google. - Im chinesischen E-Commerce drueckt der Wettbewerb mit **PDD/Pinduoduo** und **JD.com** auf Take-Rates und Margen. - Strukturtreiber ist die Enterprise-Adoption generativer KI: Das offene **Qwen/Tongyi**-Modellfamilien-Oekosystem hat >600 Mio. Downloads erreicht und ist ein zentraler Hebel zur Cloud-Differenzierung. Das Sentiment fuer China-ADRs bleibt fragil (Regulierung, Geopolitik, ADR-Delisting-Risiko), was die relative Bewertung gegenueber US-Tech-Peers strukturell drueckt."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "Zuletzt berichtete Alibaba das **Maerz-Quartal & Gesamtjahr FY2026** (Quartal per 31.03.2026): Umsatz **RMB 243,4 Mrd. (~35,3 Mrd. USD)**, +3% J/J. Nettogewinn an Aktionaere **RMB 25,5 Mrd. (~3,7 Mrd. USD)**, gegen RMB 12,4 Mrd. im Vorjahr. - **Cloud Intelligence**: externe Erloese beschleunigten auf **+40% J/J**; KI-bezogene Produkte mit zweistelligem (triple-digit) Wachstum im 11. Quartal in Folge, ~RMB 9 Mrd. Quartalsbeitrag (annualisierte Run-Rate ~RMB 36 Mrd./5,3 Mrd. USD). - Belastung: **Adj. EBITDA -14%**, Free Cashflow negativ wegen ~RMB 38,6 Mrd. Capex fuer KI/Cloud. Die These verschiebt sich von Handels-Cashcow zu kapitalintensiver KI-Cloud-Wachstumsstory. Naechster Bericht: **28.08.2026**."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schaetzung, kein Praezisionsmodell.** Bei einem Kurs von 94,91 USD und Konsens-EPS im niedrigen zweistelligen USD-Bereich liegt das Forward-KGV im hohen einstelligen bis niedrigen zweistelligen Bereich - deutlich unter US-Hyperscaler-Peers (20-30x+). - **Comps-Logik**: Bewertet man Cloud/KI separat (Sum-of-the-Parts), traegt allein das Cloud-Segment bei 40% Wachstum signifikanten Wert, der im aktuellen Kurs kaum reflektiert ist. - **Annahmen**: stabilisierender Handel (mittlere einstellige Erloesdynamik), Cloud-Wachstum 30-40%, schrittweise Capex-Normalisierung ab FY2028. Grobe Fair-Value-Spanne als Schaetzung: **~120-160 USD**, abhaengig davon, ob der Markt die KI-Monetarisierung anrechnet oder weiter den China-/Capex-Discount anlegt."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die niedrige Bewertung ist teils berechtigt, teils Sentiment-getrieben. - **Plausibel**: Negativer FCF durch >55 Mrd. USD geplante KI-/Rechenzentrums-Capex (FY2026-FY2028) rechtfertigt einen Discount; Margen sind real unter Druck (Adj. EBITDA -14%). - **Risiken fuer die These**: China-Konjunktur/Konsumschwaeche, regulatorischer und geopolitischer Ueberhang (ADR-Status), Wettbewerbsdruck von PDD/JD auf den Handel sowie Ausfuehrungsrisiko - die Fuehrungswechsel im Qwen-KI-Team Anfang Maerz naehrten Zweifel an der Umsetzung. - **Gegenrisiko**: Bei sichtbarer Cloud-Reakzeleration und ARR-Hochlauf (Modell-/App-Services ARR-Ziel >RMB 10 Mrd. im Juni-Quartal) ist die Comps-Luecke zu Peers schwer zu halten."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull-Punkte:**\n- Kurs am 52W-Tief (94,91 USD), ~50% unter Hoch - asymmetrisches Setup, falls KI-Cloud-Story greift. - Cloud +40%, KI-Produkte 11 Quartale dreistellig, Qwen-Oekosystem mit >600 Mio. Downloads. - Niedriges Forward-KGV vs. globale Hyperscaler; SOTP impliziert Unterbewertung. - Goldman Sachs mit Conviction Buy (Cloud-Reakzeleration, bessere Retail-Margen). **Bear-Punkte:**\n- Klarer Abwaertstrend, Kurs unter allen SMAs, MACD negativ - kein technischer Boden bestaetigt. - Capex drueckt FCF und Marge; Adj. EBITDA -14%. - China-Makro, Regulierung, ADR-/Geopolitik-Risiko und harter Handelswettbewerb (PDD/JD). - Ausfuehrungsrisiko nach Qwen-Teamumbau."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kurslage**: 94,91 USD = exakt 52W-Tief und definiertes Support-Level; Abstand zum 52W-Hoch -49,87%. Naechster Widerstand 130,82 USD. - **Technik**: Trend abwaerts, Kurs unter SMA20 (113,5), SMA50 (126,3) und SMA200 (148,2); MACD -8,52 unter Signal -6,80 (Hist -1,72); ATR14 ~3,42 USD (Tagesvolatilitaet). - **Letzte Earnings (Maerz-Q/FY2026)**: Umsatz +3% J/J auf ~35,3 Mrd. USD; Cloud extern +40%; aber Adj. EBITDA -14%, FCF negativ wegen ~RMB 38,6 Mrd. Capex. - **Katalysatoren**: KI-/Cloud-ARR-Hochlauf (Ziel >RMB 10 Mrd. ARR Juni-Q, RMB 30 Mrd. Jahresende), >55 Mrd. USD Capex-Programm FY26-28, China-Stimulus, ADR-/Regulierungs-Newsflow. - **Termin**: naechster Quartalsbericht **28.08.2026** - entscheidend fuer Bestaetigung der Cloud-Reakzeleration vs. Margendruck."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-03T21:30:12.879701+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Klarer Abwaertstrend (Kurs 96,14 USD unter SMA20/50/200, MACD negativ) nahe dem 52W-Tief trifft auf einen extrem ueberverkauften RSI14 von 14,29 und die fundamentale KI-Cloud-Value-Story (+40% Cloud, SOTP-Unterbewertung) - ein widerspruechliches Bild ohne bestaetigten technischen Boden. SHORT ist bei dieser Ueberverkauftheit riskant, LONG ohne Trendwende-Bestaetigung verfrueht; zusaetzlicher Ueberhang aus China-Makro, ADR-/Regulierungsrisiko und negativem FCF durch Capex. Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

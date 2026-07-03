@@ -1,0 +1,82 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T21:22:40.720412+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.13697,
+    "change_pct": 4.79952,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.13697,
+    "change_pct": 4.7995206931514485,
+    "sma20": 1.1128,
+    "sma50": 1.208,
+    "sma200": 1.4863,
+    "rsi14": 49.98,
+    "macd": {
+      "macd": -0.0368,
+      "signal": -0.0455,
+      "hist": 0.0087
+    },
+    "atr14": 0.0439,
+    "high_52w": 2.63422,
+    "low_52w": 1.03995,
+    "pct_from_high": -56.84,
+    "pct_from_low": 9.33,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.2394
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "XRP notiert bei 1,0517 USD und damit nur 0,8 % über dem 52-Wochen-Tief (1,0434) und rund 60 % unter dem 52-Wochen-Hoch von 2,646. Trend und Momentum bleiben bearisch: Kurs unter allen Gleitenden, RSI 38, MACD negativ. Der Support bei 1,0434 ist die entscheidende Linie, darüber kämpft XRP gegen Regulierungs-Unsicherheit (CLARITY Act) und Escrow-Angebot, während fortlaufende Spot-ETF-Zuflüsse stützen.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "**Klarer Abwärtstrend.** Der Kurs (1,0517) liegt unter SMA20 (1,1386), SMA50 (1,2615) und SMA200 (1,5194) - die Reihenfolge der Mittel bestätigt einen intakten Bärenmarkt. **RSI14 bei 38,5** signalisiert Schwäche ohne klare Überverkauft-Extremität, **MACD (-0,049) unter Signal (-0,044)** mit negativem Histogramm zeigt weiter nachlassendes Momentum. - **Support 1,0434** = praktisch das 52W-Tief; Kurs nur +0,8 % darüber, also hauchdünner Puffer. - **Widerstand 1,2394**, etwa auf SMA50-Höhe - erst ein Rückeroberung würde das Bild aufhellen. - **ATR14 0,0526** (~5 % des Kurses) bedeutet hohe Tagesschwankung; ein Bruch unter 1,0434 droht beschleunigt zu laufen. - Abstand zum 52W-Hoch: -60,3 %."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Regulierung dominiert.** Der **US CLARITY Act** (würde XRP als CFTC-Rohstoff einstufen) ist der zentrale Treiber - die Senats-Chancen fielen laut Polymarket im Juni von 74 % auf rund 48 % nach Pushback gegen Section 604, was die Schwäche miterklärt. - **Spot-XRP-ETFs**: kumulierte Zuflüsse über 1,4 Mrd. USD seit November 2025, siebenwöchige Zuflussserie - institutioneller Rückhalt trotz Preisverfall. - **Escrow-Unlock** am 1. Juni brachte frisches Angebot (Verkaufsdruck). - **EU-MiCA**: Übergangsfrist endet 1. Juli 2026; Ripples frühe Compliance ist potenzieller Rückenwind. - Risiko: Korrelation zu Bitcoin und ausbleibender Senats-Vote."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-03T21:30:12.879701+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Die Analyse-Agenten lesen klar bearisch (Kurs zuletzt nahe 52W-Tief, RSI schwach, MACD negativ, Regulierungs- und Escrow-Risiken), doch die aktuelle Technik hat sich neutralisiert - Trend 'side', bias neutral, RSI 49,98 und ein Tagesplus von +4,8 %, das den Kurs (1,137) ueber die SMA20 (1,113) zurueckholt bei positivem MACD-Histogramm (+0,0087). Kurs unter SMA50/200 haelt das Umfeld schwach, aber das drehende Momentum und der Bruch ueber SMA20 widersprechen einem Short; ohne stimmiges Bild ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

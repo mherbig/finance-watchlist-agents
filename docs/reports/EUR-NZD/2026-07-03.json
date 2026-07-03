@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T21:22:40.720412+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.00407,
+    "change_pct": 0.09039785,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.00407,
+    "change_pct": 0.09039785042900858,
+    "sma20": 2.0053,
+    "sma50": 1.9893,
+    "sma200": 1.9921,
+    "rsi14": 54.52,
+    "macd": {
+      "macd": 0.0057,
+      "signal": 0.0074,
+      "hist": -0.0017
+    },
+    "atr14": 0.0113,
+    "high_52w": 2.06036,
+    "low_52w": 1.94714,
+    "pct_from_high": -2.73,
+    "pct_from_low": 2.92,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.0219
+      },
+      {
+        "type": "support",
+        "price": 1.9907
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/NZD steht bei 2,0191 in einem klaren Aufwärtstrend, der von einer divergenten Geldpolitik getragen wird: Die EZB hat im Juni erstmals seit 2023 wieder angehoben (Einlagensatz 2,25 %), während die RBNZ ihren OCR bei 2,25 % hält. Mit RSI bei 89 ist das Paar massiv überkauft und nur ~2 % unter dem 52W-Hoch, was kurzfristig Rücksetzerrisiko schafft, ohne den übergeordneten Trend zu brechen.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **klar aufwärts**: Der Kurs (2,0191) liegt deutlich über SMA20 (1,9951), SMA50 (1,9838) und SMA200 (1,9923) - eine bullische Stapelung. **MACD** bestätigt mit positivem Histogramm (0,0026) und Linie (0,0086) über Signal (0,0060). Das dominierende Signal ist jedoch der **RSI von 89,2** - extrem überkauft und Hinweis auf eine ausgereizte, schubartige Bewegung. Tages-Plus von +0,29 %. Schlüssel-Level: Widerstand quasi am Kurs (2,0191), darunter Support bei 1,9833 (nahe SMA50). Das Paar steht nur **-2,0 % unter dem 52W-Hoch** (2,0604) und +3,7 % über dem Tief (1,9471). Bei ATR14 von 0,0115 (~0,6 %) ist ein Rücksetzer in Richtung SMA20/1,99 jederzeit drin, ohne den Aufwärtstrend zu kippen."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist die **Zinsdivergenz**: Die EZB hob am 11. Juni 2026 um 25 Bp auf einen Einlagensatz von **2,25 %** an (erste Erhöhung seit 2023), getrieben von Inflationsdruck aus dem Nahost-Konflikt (HVPI-Prognose 3,0 % für 2026). Die **RBNZ** hielt den OCR bei **2,25 %** (dritter Hold in Folge), nächste Sitzung **8. Juli**, Markt erwartet erneut Hold. Risiken: Der NZD leidet unter ungünstigen Zinsdifferenzen gegenüber USD/AUD und Risk-off-Stimmung (Energiepreise, Geopolitik). Gegenbewegung droht bei taubenhafter EZB (nächste Sitzung 23. Juli, ~93 % Hold-Wahrscheinlichkeit) oder bei einem RBNZ-Überraschungs-Hawk."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-03T21:30:12.879701+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt: Der Kurs (2,004) notiert klar ueber SMA50 (1,989) und SMA200 (1,992), getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Kurzfristig mahnen jedoch der abgekuehlte RSI (54,5), das negative MACD-Histogramm (-0,0017, Linie unter Signal) und der Kurs knapp unter SMA20 sowie die Nachbarschaft zum 52W-Hoch zur Zurueckhaltung. Daher LONG mit nur moderater Ueberzeugung; Ruecksetzer Richtung SMA20/Support 1,991 sind moeglich, ohne den Trend zu kippen.",
+    "entry": 2.0041,
+    "stop_loss": 1.9896,
+    "take_profit": 2.0258,
+    "take_profit_2": 2.0219,
+    "rr": 1.5
+  }
+}

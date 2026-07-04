@@ -1,0 +1,107 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.76,
+    "change_pct": 1.3035,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 21.760000228881836,
+    "change_pct": 1.3035413995002179,
+    "sma20": 20.9435,
+    "sma50": 20.1681,
+    "sma200": 18.8687,
+    "rsi14": 79.0,
+    "macd": {
+      "macd": 0.4824,
+      "signal": 0.4358,
+      "hist": 0.0466
+    },
+    "atr14": 0.3607,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.149999618530273,
+    "pct_from_high": -0.37,
+    "pct_from_low": 43.63,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 19.765
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 79",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Iberdrola notiert bei 21,69 EUR exakt am 52-Wochen-Hoch (+43% ueber dem Tief von 15,15 EUR), nach starken Q1 2026 (bereinigter Nettogewinn +11% auf 1,865 Mrd. EUR) und einer auf >8% angehobenen Jahresprognose. Der Aufwaertstrend ueber allen SMAs ist intakt, doch ein RSI14 von 96,6 signalisiert eine extreme kurzfristige Ueberhitzung. Die Bewertung (Forward-KGV ~21) liegt bereits ueber dem Analystenkonsens (Hold, Ziel ~19,9 EUR).",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Iberdrola ist einer der groessten regulierten Versorger und Renewables-Betreiber Europas, mit Schwerpunkt auf **Stromnetzen** (UK, USA, Spanien, Brasilien) und erneuerbarer Erzeugung. Der strategische Pivot zu regulierten Netzen reduziert die Abhaengigkeit von volatilen Strompreisen und positioniert das Unternehmen als Profiteur des Elektrifizierungs- und Grid-Investitionszyklus (Datacenter-Stromnachfrage, Netzausbau). Peers sind Enel, E.ON, National Grid, NextEra und Endesa. Gegenueber rein netzlastigen Namen (National Grid) bietet Iberdrola hoeheres Wachstum durch Renewables; gegenueber Enel eine staerkere US/UK-Regulierungsbasis. In den letzten 12 Monaten kamen **3,3 GW** neue Renewables-Kapazitaet hinzu, die Offshore-Wind-Produktion stieg im Q1 um **42%** ggue. Vorjahr. Der Sektor profitiert 2026 von sinkenden Zinserwartungen (gut fuer kapitalintensive, hoch verschuldete Versorger) und regulatorischer Visibilitaet."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 2026 (gemeldet):** Bereinigter Nettogewinn **+11% auf 1,865 Mrd. EUR**, bereinigtes EBITDA **4,1 Mrd. EUR (+2,4%)**. Treiber war das **Netzgeschaeft (+9% EBITDA)** dank groesserer regulierter Asset-Basis in UK und USA. Entscheidend: Iberdrola hob die **Jahresprognose 2026 von ~6% auf >8% Gewinnwachstum** an (exkl. Veraeusserungsgewinne aus Asset-Rotation). Zudem wurde in Brasilien die Uebernahme der Neoenergia-Minderheiten auf **100% Eigentum** abgeschlossen, mit Konzessionsverlaengerungen ueber 30+ Jahre. Diese Punkte staerken die Wachstums- und Visibilitaetsthese und erklaeren das Momentum, das die Aktie auf das 52W-Hoch getrieben hat."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "Grobe Schaetzung. Bei einem **EPS (TTM) ~0,80 EUR** und Kurs 21,69 EUR ergibt sich ein **KGV (TTM) ~27**, das Forward-KGV 2026 liegt bei **~21**. Im Comps-Kontext: Versorger-Branchenschnitt ~22-24 KGV; Iberdrola handelt also nahe Branche, mit Premium fuer Wachstum/Netzqualitaet. Approximation: Bei >8% Gewinnwachstum 2026 und mittelfristig 6-8% impliziert ein fairer Multiple von ~18-21x Forward-EPS eine **Fair-Value-Spanne von etwa 18-21 EUR**. Die Dividendenrendite liegt bei **~3,2% (forward)**, was bei einem DDM mit ~3% Dividendenwachstum und ~6,5% Kapitalkosten ebenfalls auf einen Wert im mittleren bis hohen 18er-Bereich deutet. Beide Methoden verorten den Kurs am oberen Rand bzw. leicht ueber der fairen Spanne."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die Comps- und DDM-Logik ist konsistent und plausibel: Beide Ansaetze platzieren Fair Value im Bereich ~18-21 EUR, was sich mit dem **Analystenkonsens (Durchschnittsziel ~19,9 EUR, Spanne 17,3-22,6 EUR)** deckt. Der aktuelle Kurs 21,69 EUR liegt am oberen Ende bzw. darueber. Risiken: (1) Zinssensitivitaet der Bewertung kapitalintensiver Versorger; (2) Regulierungsrisiko in Schluesselmaerkten (UK Ofgem, US Rate Cases); (3) Waehrungsrisiko (USD, GBP, BRL); (4) FX/Brasilien-Volatilitaet. Die Annahmen zum Multiple sind sensibel: Schon 1-2x Aenderung verschiebt die Spanne deutlich. Konsens ist **Hold**, was die begrenzte Aufwaertsspanne ggue. Fundamentaldaten bestaetigt."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull-Punkte:**\n- Netzgeschaeft waechst zweistellig (+9% EBITDA), regulierte Basis liefert Visibilitaet ueber Jahrzehnte (Brasilien-Konzessionen 30+ Jahre). - Prognose 2026 auf >8% angehoben; Momentum durch Renewables-Zubau (3,3 GW, Offshore +42%). - Defensives Profil mit ~3,2% Dividendenrendite, Profiteur von Zinssenkungen und Elektrifizierungs-Capex. **Bear-Punkte:**\n- Kurs am 52W-Hoch, **RSI 96,6** = extreme Ueberhitzung, Rueckschlagrisiko nahe Resistance 21,69. - Bewertung (Forward-KGV ~21) ueber dem Analystenkonsens-Ziel; begrenztes fundamentales Aufwaertspotenzial. - Zins-, Regulierungs- und FX-Risiken bei hoher Kapitalintensitaet."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Q1 2026:** Bereinigter Nettogewinn 1,865 Mrd. EUR (+11%), EBITDA 4,1 Mrd. EUR; Jahresprognose auf >8% Wachstum angehoben. - **Technik:** Kurs 21,69 EUR exakt am 52W-Hoch (+1,07% Tag), ueber SMA20/50/200; RSI 96,6 stark ueberkauft, MACD positiv (Hist +0,13). Support 19,37 EUR, Resistance 21,69 EUR; ATR14 0,36. - **Bewertung:** Forward-KGV ~21, Dividendenrendite ~3,2%; Analystenkonsens Hold, Durchschnittsziel ~19,9 EUR (Spanne 17,3-22,6). - **Katalysatoren:** Q2-2026-Zahlen (Sommer), Capital Markets Day, US/UK Rate Cases, Renewables-Zubau, Brasilien-Integration (Neoenergia 100%). - **Risiken:** Ueberhitzung am Hoch, Zinssensitivitaet, Regulierung, FX (USD/GBP/BRL)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend ist intakt (Kurs 21,76 EUR ueber allen SMAs, MACD positiv), doch RSI14 von 79 signalisiert extreme Ueberhitzung direkt am 52W-Hoch bzw. an der Resistance 21,84 (nur -0,37% entfernt), und der Bias ist neutral. Fundamental liegt der Kurs bereits am oberen Rand bzw. ueber der Fair-Value-Spanne (~18-21 EUR) bei Analystenkonsens Hold (Ziel ~19,9 EUR). Dieser Konflikt aus bullischem Momentum und begrenztem Aufwaertspotenzial nahe Widerstand macht FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

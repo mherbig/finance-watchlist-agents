@@ -1,0 +1,107 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 384.97,
+    "change_pct": 2.75183,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 384.97,
+    "change_pct": 2.751828324347409,
+    "sma20": 359.3765,
+    "sma50": 347.6534,
+    "sma200": 372.7558,
+    "rsi14": 59.23,
+    "macd": {
+      "macd": 7.4845,
+      "signal": 5.0796,
+      "hist": 2.4049
+    },
+    "atr14": 10.6618,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -25.63,
+    "pct_from_low": 22.36,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 384.97
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Ferrari (RACE) notiert bei 368 USD (+4,5% am Tag) und arbeitet sich vom 52-Wochen-Tief bei 314,63 USD nach oben, das im Mai-Selloff um den Luce-EV-Launch markiert wurde. Mit -28,9% Abstand zum 52W-Hoch (517,65) bleibt die Aktie technisch im Erholungsmodus, fundamental aber intakt: Q1 2026 schlug die Erwartungen und das Management bestätigte die Jahresprognose. Der Investment-Case dreht sich nun um die Frage, ob die EV-Skepsis ein Bewertungs-Reset oder eine Kaufgelegenheit ist.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Ferrari ist im Luxus-/Ultra-Premium-Automobilsegment einzigartig positioniert: bewusste Verknappung (Auslieferungen kontrolliert begrenzt), Markenmacht und Personalisierung treiben Margen, die klassische OEMs nicht erreichen. Direkte Peers sind eher Luxusgüter-Konzerne (Hermès, LVMH, Richemont) als Volumenhersteller wie Porsche, Mercedes oder BMW - Ferrari handelt entsprechend mit Luxus-Multiples statt Auto-Multiples. - **Auftragsbuch** reicht bereits bis Ende 2027, was die Umsatzsichtbarkeit stützt\n- **Modell-Mix** (mehr Sportwagen, Personalisierung, Länder-Mix) ist der zentrale Margentreiber\n- **Strukturwandel EV**: Mit dem Luce (erstes vollelektrisches, fünfsitziges Modell, ~550.000 EUR) tritt Ferrari in ein neues Segment ein - der Markt fürchtet eine Verwässerung der Marke\n- **Gegenwind**: FX, geplante Anlaufkosten sowie Nachfrage-Unsicherheiten im Nahen Osten"
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 2026 (gemeldet Anfang Mai)** übertraf die Konsensschätzungen:\n\n- Umsatz **1,85 Mrd. EUR** (+3% j/j, +6% währungsbereinigt)\n- EBITDA **722 Mio. EUR**, EBITDA-Marge bei rund **39,1%**\n- Nettogewinn **413 Mio. EUR**, verwässertes EPS **2,33 EUR** (Vj. 2,30 EUR)\n- Industrieller Free Cashflow **>650 Mio. EUR**\n\nDas Management **bestätigte die Jahresprognose 2026**: Nettoumsatz ~7,5 Mrd. EUR, bereinigtes operatives Ergebnis mind. 2,22 Mrd. EUR (~9,45 EUR bereinigtes EPS), industrieller FCF >=1,5 Mrd. EUR. Die These bleibt: Mix- und Personalisierungs-getriebenes Margenwachstum bei kontrollierter Verknappung. Was sie aktuell **belastet**, ist nicht die operative Lage, sondern die strategische EV-Frage - der Luce-Launch im Mai löste einen Kursrutsch von zeitweise über 8% aus."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung** auf Basis der bestätigten Guidance (bereinigtes EPS ~9,45 EUR für 2026):\n\n- Beim aktuellen Kurs (368 USD / grob ~340 EUR) ergibt sich ein **Forward-KGV von ~36x** - deutlich über klassischen Auto-OEMs (8-12x), aber im Rahmen von Luxusgüter-Comps (Hermès/LVMH historisch 25-50x)\n- **Bewertungslogik**: Ferrari rechtfertigt das Luxus-Multiple durch ~39% EBITDA-Marge, Cash-Generierung und Auftragsbuch-Sichtbarkeit\n- **Grobe Fair-Value-Spanne**: Bei 32-40x Forward-EPS ergibt sich rechnerisch ~300-380 EUR; das aktuelle Niveau liegt am unteren bis mittleren Ende\n- **Annahmen**: stabile Margen, EV-Übergang ohne strukturellen Margenverfall, kein Nachfrageeinbruch\n\nDie Spanne ist eine grobe Comps-Triangulation, kein präzises DCF - Sensitivität gegenüber dem unterstellten Multiple ist hoch."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Das Luxus-Multiple ist plausibel, solange Ferrari seine Knappheits- und Margen-Story hält. **Plausibilität**: Die ~39% EBITDA-Marge und das bis 2027 reichende Auftragsbuch stützen ein Premium gegenüber Auto-Peers; der Vergleich mit Luxusgüter-Konzernen ist methodisch verteidigbar. **Risiken am Bewertungsansatz**:\n\n- **EV-Verwässerung**: Sollte der Luce als Markenverwässerung wahrgenommen werden (prominente Kritik, u.a. von Ex-Chairman Montezemolo), könnte sich das Multiple dauerhaft kontrahieren\n- **Multiple-Sensitivität**: Bei 36x Forward ist wenig Enttäuschungsspielraum eingepreist; jede Guidance-Senkung träfe das Multiple und das EPS zugleich\n- **FX & Nahost-Nachfrage** sind reale, vom Management genannte Gegenwinde\n- Technisch notiert die Aktie unter der SMA200 (374,8) - der mittelfristige Trend ist noch nicht voll repariert"
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull-Punkte:**\n\n- Q1 2026 über Erwartung, Guidance bestätigt, ~39% EBITDA-Marge - operativ keine Schwäche\n- Auftragsbuch bis Ende 2027, hohe Umsatzsichtbarkeit; starke Order-Intake u.a. bei Amalfi Spider und kommendem Luce\n- Kurs hat vom EV-Selloff-Tief (314,63) ~17% zurückerobert; RSI 58 und Aufwärtstrend signalisieren Stabilisierung\n- Einzigartiges Geschäftsmodell mit Preissetzungsmacht und Verknappung\n\n**Bear-Punkte:**\n\n- Luce-EV löste prominente Markenverwässerungs-Kritik und über 8% Kursrutsch aus - struktureller Multiple-Reset möglich\n- -28,9% unter 52W-Hoch, Kurs noch unter SMA200 (374,8); MACD-Histogramm leicht negativ\n- Hohe Bewertung (~36x Forward) lässt wenig Enttäuschungsspielraum\n- FX- und Nahost-Gegenwind belasten das Mix-getriebene Margenwachstum"
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kursbild**: 368 USD (+4,5% am Tag), Erholung vom 52W-Tief 314,63; Widerstand 369,06 / Support 340,23; SMA200 bei 374,8 als nächste Hürde\n- **Operativ stark**: Q1 2026 schlug Erwartungen (Umsatz 1,85 Mrd. EUR, EPS 2,33 EUR, ~39% EBITDA-Marge), Jahresprognose bestätigt (7,5 Mrd. EUR Umsatz, ~9,45 EUR EPS)\n- **Schlüssel-Thema EV**: Luce-Launch (Mai, ~550.000 EUR) verursachte den Selloff - Markenverwässerung vs. neuer Wachstumstreiber ist die zentrale Debatte\n- **Katalysatoren**: Order-Intake Amalfi Spider/Luce, Luce-Auslieferungen ab Q4 2026, nächste Quartalszahlen; Beobachtung Nahost-Nachfrage und FX\n- **Bewertung**: ~36x Forward-KGV, Luxus-Comps statt Auto-Comps - Premium hängt am Erhalt der Knappheits- und Margen-Story"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Technik stimmig bullisch: Trend up, Kurs (384,97) notiert ueber SMA20/50/200 und hat die von den Analysten als naechste Huerde genannte SMA200 (372,8) zurueckerobert; RSI 59 und positives, steigendes MACD-Histogramm (+2,40) stuetzen das Momentum. Fundamental intakt (Q1-2026-Beat, bestaetigte Guidance, ~39% EBITDA-Marge, Auftragsbuch bis Ende 2027). Die EV/Luce-Verwaesserungsdebatte und die hohe Bewertung (~36x Forward) begrenzen die Ueberzeugung auf moderat.",
+    "entry": 384.97,
+    "stop_loss": 365.7788,
+    "take_profit": 413.7569,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

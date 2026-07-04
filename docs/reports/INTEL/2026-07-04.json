@@ -1,0 +1,107 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 120.35,
+    "change_pct": -5.25114,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 120.35,
+    "change_pct": -5.25113931470177,
+    "sma20": 123.1245,
+    "sma50": 113.3812,
+    "sma200": 60.3345,
+    "rsi14": 51.86,
+    "macd": {
+      "macd": 5.5389,
+      "signal": 6.5872,
+      "hist": -1.0483
+    },
+    "atr14": 11.2064,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -14.61,
+    "pct_from_low": 523.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 99.17
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "Intel (127,66 USD) hat 2026 eine spektakuläre Erholung hingelegt (+450 % YTD, +561 % über 52W-Tief), getrieben von Foundry-Fortschritten (18A-P in Risk Production), starken Q1-Zahlen und einer Welle von Auftrags-/Onshoring-Schlagzeilen (Apple, Nvidia/Google als Backup-Fertiger, kolportierte US-Staatsbeteiligung). Der Trend ist klar bullish (Kurs über allen SMAs, RSI 67), doch die Bewertung mit Forward-KGV von ~147 preist den Foundry-Erfolg bereits weitgehend ein - das Chance/Risiko hängt nun an der Lieferfähigkeit.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Intel agiert im Halbleitermarkt entlang dreier Segmente: **Client Computing (CCG)**, **Data Center & AI (DCAI)** und **Intel Foundry**. Strukturell ist das Unternehmen mitten in der Transformation vom reinen IDM zum **Auftragsfertiger (Foundry)** - der zentrale Wettkampf gegen Marktführer **TSMC** sowie indirekt gegen **AMD** und **Nvidia**, die bisher fast vollständig bei TSMC fertigen. - **Foundry-Narrativ:** Berichte, wonach **Google und Nvidia Intel als Backup-AI-Fertiger** nutzen wollen, sowie eine kolportierte **Apple-Fertigungspartnerschaft** in den USA, lösten Kurssprünge von 8-11 % aus. - **Onshoring-Rückenwind:** Politisch flankierte US-Reshoring-Initiativen (inkl. einer diskutierten ~10 % US-Staatsbeteiligung) machen Intel zum strategischen nationalen Asset. - **Wettbewerb:** TSMC bleibt mit ~66 % Bruttomarge und führender Prozesstechnik der Maßstab; Intels Aufholjagd steht und fällt mit der 18A-Roadmap."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 FY2026 (gemeldet 23.04.2026)** lag deutlich über den Erwartungen und war ein Wendepunkt für das Sentiment:\n\n- **Umsatz 13,6 Mrd. USD** (+7 % YoY) vs. Konsens ~12,4 Mrd. - **DCAI +22 % YoY auf 5,1 Mrd.**, **Foundry +16 % auf 5,4 Mrd.**, CCG +1 % auf 7,7 Mrd. - **Non-GAAP operatives Ergebnis 1,7 Mrd.** (Marge 12,3 % vs. 5,4 % Vorjahr); Non-GAAP-Nettogewinn 1,5 Mrd. - **Q2-Guidance: 13,8-14,8 Mrd. USD**, Non-GAAP-EPS ~0,20 USD. Die These verschiebt sich von \"Turnaround-Hoffnung\" zu \"AI-getriebene CPU-Nachfrage + Foundry-Hochlauf\". **18A-P erreichte planmäßig die Risk Production** - ein operativer Meilenstein. Wichtig bleibt: auf GAAP-Basis schreibt Intel weiter Verluste (zuletzt ~3,7 Mrd. Quartalsverlust). **Nächste Earnings: ~22.07.2026.**"
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schätzung - keine Punktprognose.** Die Bewertung ist klassisch nicht über das aktuelle Ergebnis fassbar (GAAP-Verlust), sondern über Erwartungswerte und Buchwert. - **Comps:** Auf ~28x Forward-2027-Gewinn liegt Intel unter AMD (~35x), aber über TSMC (~24x). Auf **Kurs/Buchwert ist Intel mit ~3,1x das günstigste** der drei (AMD ~4,8x, TSMC ~6,2x) - ein Indiz, dass der Markt v. a. Optionswert auf die Foundry einpreist. - **Forward-KGV ~147** auf laufende Schätzungen wirkt extrem, normalisiert sich aber bei unterstellter Margenerholung Richtung 2027/28. - **Grobe Fair-Value-Spanne:** Analysten-Streuung ist riesig - traditionelle DCF-Modelle (TSMC-ähnliche Margen erst in mehreren Jahren) liefern Werte im **~45-60 USD-Bereich**, während markttreibende Bull-Cases mit erfolgreicher Foundry-Skalierung **>115 USD** rechtfertigen. Annahmen: Umsatz-CAGR ~6-10 %, Foundry-Auslastung steigt, Capex bleibt hoch."
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Der aktuelle Kurs von **127,66 USD** liegt am oberen Ende fast jeder fundamental hergeleiteten Spanne und **deutlich über klassischen DCF-Fair-Values (~45-60 USD)**. Die Diskrepanz erklärt sich fast vollständig durch den **eingepreisten Foundry-Optionswert**: Schätzungen zufolge entfallen rund **75 % der Bewertung auf das Foundry-Versprechen**, das operativ erst teilweise geliefert ist. - **Plausibilität:** Comps-seitig (KBV, Forward-Multiple vs. AMD) ist Intel nicht absurd teuer - die Methodik trägt nur, wenn die Margenerholung real wird. - **Hauptrisiken:** Ausführungsrisiko der 18A/Foundry-Roadmap, fortgesetzte GAAP-Verluste, hoher Capex-Bedarf, mögliche Enttäuschung bei den jüngsten Auftrags-Schlagzeilen (teils unbestätigt), und ein potenzieller Short-Squeeze-Anteil im Anstieg. Bewertungsdisziplin ist auf diesem Niveau zentral."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bull-Punkte:**\n\n- Q1 2026 mit Umsatz-/Margenbeat und +22 % DCAI bestätigt operatives Momentum. - **18A-P planmäßig in Risk Production** - technologische Aufholjagd greifbar. - Foundry-Aufträge/Reshoring (Apple, Nvidia/Google als Backup, US-Staatsinteresse) eröffnen einen zweiten, großen Wachstumsmotor. - Günstigster KBV unter den großen Peers; klar bullisher Trend (Kurs über SMA20/50/200). **Bear-Punkte:**\n\n- Forward-KGV ~147 und Kurs weit über DCF-Fair-Value - viel Vorschuss-Vertrauen. - Weiterhin **GAAP-Nettoverluste** und hoher Capex-Druck. - Großteil der Bewertung beruht auf noch nicht gelieferten Foundry-Versprechen; einige Auftrags-Headlines sind unbestätigt. - +450 % YTD birgt Rücksetzer-/Squeeze-Risiko; ATR von ~10,95 zeigt hohe Volatilität."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Kurslage:** 127,66 USD, -3,92 % am Tag; nur ~9,4 % unter 52W-Hoch (140,94), +561 % über 52W-Tief. Trend bullish, RSI 66,7 (nahe überkauft), MACD positiv aber Histogramm flach (0,44) - Momentum lässt etwas nach. - **Schlüssel-Level:** Widerstand 140,94 (52W-Hoch); Support 99,17, darunter SMA20 ~119,4 als erste Auffanglinie. - **Nächster Katalysator:** Q2-Earnings ~22.07.2026 - Fokus auf Foundry-Umsatz, Margenpfad und Konkretisierung der Apple-/Nvidia-/Google-Deals. - **Bewertungsanker:** ~3,1x KBV (günstigster Peer), aber ~147x Forward-KGV; DCF-Fair-Value-Spanne ~45-60 USD vs. Bull-Case >115 USD. - **Hauptrisiko fürs Meeting:** Wie viel des +450 %-Anstiegs ist fundamental (Foundry-Lieferung) vs. Narrativ/Squeeze? Liefernachweise der 18A-Roadmap sind der entscheidende Prüfstein."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Technik neutral bis abkuehlend: Trend 'side', Bias neutral, RSI 51,9, MACD-Histogramm negativ (-1,05), Kurs (120,35) nach -5,25 % am Tag unter SMA20 (123,12) - kein stimmiges Long- oder Short-Bild. Fundamental widerspruechlich: bullisches Foundry-Narrativ (18A-P Risk Production, Q1-Beat) gegen extreme Bewertung (~147x Forward-KGV, Kurs weit ueber DCF-Fair-Value 45-60 USD) nach +450 % YTD, mit erhoehtem Ruecksetzer-/Squeeze-Risiko. Vor Q2-Earnings (~22.07.) daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

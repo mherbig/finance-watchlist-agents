@@ -1,0 +1,82 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.192021,
+    "change_pct": 6.77562,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.191786,
+    "change_pct": 6.644943170444191,
+    "sma20": 0.159,
+    "sma50": 0.1915,
+    "sma200": 0.2696,
+    "rsi14": 67.26,
+    "macd": {
+      "macd": -0.0053,
+      "signal": -0.0118,
+      "hist": 0.0065
+    },
+    "atr14": 0.0114,
+    "high_52w": 0.645989,
+    "low_52w": 0.14372,
+    "pct_from_high": -70.31,
+    "pct_from_low": 33.44,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.1918
+      },
+      {
+        "type": "support",
+        "price": 0.1437
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "ADA notiert bei 0,148 USD und damit nur 3% ueber dem 52-Wochen-Tief (0,1437) und 78% unter dem Hoch (0,681) - ein intakter Abwaertstrend unter allen drei SMAs. Der Tagesgewinn von +3% und ein RSI von 33 deuten auf eine ueberverkaufte Stabilisierung am Support, nicht auf eine Trendwende. Das fundamentale Umfeld (Summit-Absage, TVL-Schwund, Wallet-Hack) bleibt belastend, waehrend Leios-Testnet und ETF-Filings als Gegengewichte warten.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **bearish**: Der Kurs (0,148) liegt unter SMA20 (0,1635), SMA50 (0,2097) und SMA200 (0,28) - eine vollstaendig negative Reihung. Mit **-78,3% vom 52W-Hoch** (0,681) und nur **+3% ueber dem 52W-Tief** (0,1437) handelt ADA am unteren Rand seiner Spanne. - **RSI14 bei 32,7** signalisiert ueberverkaufte Bedingungen, aber noch keine bullishe Divergenz. - **MACD** dreht minimal (Hist +0,0005, MACD -0,0162 ueber Signal -0,0166) - erstes, schwaches Stabilisierungssignal. - **Schluessel-Level**: Support 0,1437 (= 52W-Tief, kritisch), Widerstand 0,1831. - **ATR14 0,0101** (~6,8% des Kurses) zeigt hohe Volatilitaet; ein Bruch unter 0,1437 oeffnet neue Mehrjahrestiefs."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "ADA hat 2026 ueber 65% verloren und faellt staerker als der Gesamtmarkt. Belastend wirken die **Absage des Cardano Summit 2026**, ein TVL-Rueckgang von ~36% im Monat, die Abschaltung der Analyseplattform TapTools sowie ein Wallet-Hack (SecondFi/Yoroi, ~16 Mio. ADA gestohlen) und Hoskinsons Warnung vor einer \"Welle von Ausfaellen\". Gegengewicht: Das **Ouroboros-Leios-Testnet** (Start 23.06.2026, 10-65x Durchsatz) sowie pendente **Spot-ADA-ETF-Antraege** (Grayscale, VanEck, 21Shares, Canary) und der SEC-\"Safe-Harbor\"-Vorstoss von Maerz 2026. Der Halt bei 0,1437 entscheidet kurzfristig ueber Bodenbildung oder Fortsetzung."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "ADA springt +6,8% auf 0,192 und drueckt exakt gegen den Widerstand 0,1918, notiert damit zwar knapp ueber SMA50 (0,1915), aber weiterhin klar unter SMA200 (0,2696) und -70% vom 52W-Hoch - der uebergeordnete Abwaertstrend bleibt intakt (Trend 'side', Bias neutral). RSI 67 naehert sich ueberkauft und der MACD-Hist hat ins Positive gedreht (+0,0065), doch das qualitative Bild bleibt wegen Summit-Absage, TVL-Schwund und Wallet-Hack belastet. Ein Momentum-Spike an unbestaetigtem Widerstand ohne Bruch der uebergeordneten Struktur ist Widerspruch statt stimmiges Bild - FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

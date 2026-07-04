@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.00369,
+    "change_pct": 0.00049908169,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.00369,
+    "change_pct": 0.0004990816896942382,
+    "sma20": 2.0059,
+    "sma50": 1.9896,
+    "sma200": 1.992,
+    "rsi14": 55.28,
+    "macd": {
+      "macd": 0.005,
+      "signal": 0.0069,
+      "hist": -0.0019
+    },
+    "atr14": 0.0098,
+    "high_52w": 2.06036,
+    "low_52w": 1.94714,
+    "pct_from_high": -2.75,
+    "pct_from_low": 2.9,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.0219
+      },
+      {
+        "type": "support",
+        "price": 1.9907
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/NZD steht bei 2,0191 in einem klaren Aufwärtstrend, der von einer divergenten Geldpolitik getragen wird: Die EZB hat im Juni erstmals seit 2023 wieder angehoben (Einlagensatz 2,25 %), während die RBNZ ihren OCR bei 2,25 % hält. Mit RSI bei 89 ist das Paar massiv überkauft und nur ~2 % unter dem 52W-Hoch, was kurzfristig Rücksetzerrisiko schafft, ohne den übergeordneten Trend zu brechen.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **klar aufwärts**: Der Kurs (2,0191) liegt deutlich über SMA20 (1,9951), SMA50 (1,9838) und SMA200 (1,9923) - eine bullische Stapelung. **MACD** bestätigt mit positivem Histogramm (0,0026) und Linie (0,0086) über Signal (0,0060). Das dominierende Signal ist jedoch der **RSI von 89,2** - extrem überkauft und Hinweis auf eine ausgereizte, schubartige Bewegung. Tages-Plus von +0,29 %. Schlüssel-Level: Widerstand quasi am Kurs (2,0191), darunter Support bei 1,9833 (nahe SMA50). Das Paar steht nur **-2,0 % unter dem 52W-Hoch** (2,0604) und +3,7 % über dem Tief (1,9471). Bei ATR14 von 0,0115 (~0,6 %) ist ein Rücksetzer in Richtung SMA20/1,99 jederzeit drin, ohne den Aufwärtstrend zu kippen."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Treiber ist die **Zinsdivergenz**: Die EZB hob am 11. Juni 2026 um 25 Bp auf einen Einlagensatz von **2,25 %** an (erste Erhöhung seit 2023), getrieben von Inflationsdruck aus dem Nahost-Konflikt (HVPI-Prognose 3,0 % für 2026). Die **RBNZ** hielt den OCR bei **2,25 %** (dritter Hold in Folge), nächste Sitzung **8. Juli**, Markt erwartet erneut Hold. Risiken: Der NZD leidet unter ungünstigen Zinsdifferenzen gegenüber USD/AUD und Risk-off-Stimmung (Energiepreise, Geopolitik). Gegenbewegung droht bei taubenhafter EZB (nächste Sitzung 23. Juli, ~93 % Hold-Wahrscheinlichkeit) oder bei einem RBNZ-Überraschungs-Hawk."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt: Der Kurs (2,004) notiert klar ueber SMA50 (1,990) und SMA200 (1,992), getragen von der Zinsdivergenz nach der EZB-Anhebung bei gleichzeitigem RBNZ-Hold. Kurzfristig mahnen jedoch das negative MACD-Histogramm (-0,0019, Linie unter Signal), der neutrale RSI (55,3) und der Kurs knapp unter SMA20 (2,006) nahe dem 52W-Hoch zur Zurueckhaltung. Daher LONG mit nur moderater Ueberzeugung.",
+    "entry": 2.0037,
+    "stop_loss": 1.9897,
+    "take_profit": 2.0246,
+    "take_profit_2": 2.0219,
+    "rr": 1.5
+  }
+}

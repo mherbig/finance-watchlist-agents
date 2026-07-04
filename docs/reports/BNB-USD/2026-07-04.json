@@ -1,0 +1,82 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 573.74,
+    "change_pct": -0.01219916,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 573.74,
+    "change_pct": -0.012199160000686,
+    "sma20": 574.451,
+    "sma50": 611.333,
+    "sma200": 684.8685,
+    "rsi14": 43.6,
+    "macd": {
+      "macd": -13.7629,
+      "signal": -16.1544,
+      "hist": 2.3915
+    },
+    "atr14": 19.2764,
+    "high_52w": 1107.7,
+    "low_52w": 546.52,
+    "pct_from_high": -48.2,
+    "pct_from_low": 4.98,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 617.87
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 44",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "BNB notiert bei 566,23 USD und steht unter klarem Abwärtsdruck: rund 50 % unter dem 52W-Hoch (1.138,88) und nur ~1 % über dem 52W-Tief (560,62). Alle wichtigen SMAs liegen darüber, RSI 33 signalisiert überverkaufte Bedingungen nahe einer markanten Unterstützung. Das Makroumfeld (hawkische Fed, Bitcoin-Schwäche, MiCA-Risiko) bleibt belastend, doch die 560er-Zone ist die entscheidende Verteidigungslinie.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist klar **abwärts**: Der Kurs (566,23) liegt unter SMA20 (591,93), SMA50 (628,29) und SMA200 (697,84) - eine vollständig bärische Reihenfolge. Der **RSI14 von 32,6** signalisiert überverkaufte Bedingungen, während der **MACD negativ** bleibt (Linie -16,44 unter Signal -14,46, Histogramm -1,98) und damit anhaltende Abwärtsdynamik bestätigt. Entscheidend ist die **Unterstützung bei 560,62** (zugleich 52W-Tief) - der Kurs liegt nur ~1 % darüber. Ein Bruch öffnet Raum nach unten, ein Halten kann eine technische Erholung Richtung **Widerstand 617,87** und SMA20 auslösen. Mit **ATR14 ~19,5** (≈3,5 % Tagesschwankung) ist die Volatilität erhöht. Der Abstand von **-50,3 % zum 52W-Hoch** zeigt das Ausmaß der Korrektur."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das Makroumfeld bleibt **risk-off**: Bitcoin fiel im Juni 2026 Richtung ~61-63k bei sechs Wochen ETF-Abflüssen, der Fear-&-Greed-Index steht in \"Extreme Fear\" (24). Die **Fed** hielt am 16./17. Juni die Zinsen stabil; Märkte preisen mit ~69 % Wahrscheinlichkeit keine Zinssenkung für 2026, dazu Inflation bei 3,8 % und ein Dollar-Index auf Jahreshoch. BNB-spezifisch belastet das **MiCA-Risiko** (mögliche Lizenz-Ablehnung für Binance in der EU). Positiv: Der Start von **bStocks** (tokenisierte US-Aktien als BEP-20) am 11. Juni könnte On-Chain-Aktivität und BNB-Nachfrage stützen. Schlüssel-Marke bleibt die 600er-/560er-Zone."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist stimmig baerisch: Kurs (573,74) unter SMA20/50/200 in vollstaendig baerischer Reihenfolge, Trend abwaerts, MACD negativ und Makroumfeld risk-off (hawkische Fed, BTC-Schwaeche, MiCA-Risiko). Daempfend wirken der neutrale RSI14 (~44), das leicht positive MACD-Histogramm (+2,39) und die Naehe zur markanten Unterstuetzung/52W-Tief bei 546,52, was das Risiko einer technischen Erholung erhoeht - daher moderate Conviction.",
+    "entry": 573.74,
+    "stop_loss": 608.4375,
+    "take_profit": 521.6937,
+    "take_profit_2": 546.52,
+    "rr": 1.5
+  }
+}

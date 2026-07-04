@@ -1,0 +1,107 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 495.7,
+    "change_pct": -0.4519,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 495.70001220703125,
+    "change_pct": -0.45185258456515986,
+    "sma20": 495.685,
+    "sma50": 477.683,
+    "sma200": 542.0883,
+    "rsi14": 41.11,
+    "macd": {
+      "macd": 2.9646,
+      "signal": 4.299,
+      "hist": -1.3344
+    },
+    "atr14": 13.6393,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -23.98,
+    "pct_from_low": 11.41,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 520.3
+      },
+      {
+        "type": "support",
+        "price": 481.0
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 41",
+  "flags": [],
+  "agent_analysis": {
+    "track": "fundamental",
+    "agents_run": [
+      "market-researcher",
+      "earnings-reviewer",
+      "model-builder",
+      "valuation-reviewer",
+      "pitch",
+      "meeting-prep"
+    ],
+    "summary": "LVMH notiert bei **495,75 EUR** (Stand 26.06.2026), rund **-24% unter dem 52W-Hoch** von 652 EUR und unter der SMA200 (542) - der Sektor ist 2026 unter Druck, zeigt aber Stabilisierung. Q1 2026 brachte nur **+1% organisches Wachstum** (Fashion & Leather Goods -2%), belastet durch den Nahost-Konflikt, bei sich bessernder China- und US-Nachfrage.",
+    "sections": [
+      {
+        "agent": "market-researcher",
+        "title": "Markt & Sektor",
+        "body": "Der **Luxus-Sektor** steht 2026 unter Druck: seit Jahresbeginn verloren LVMH ca. **-26%**, Hermes ~-22%, Richemont ~-17%, Kering ~-12% ([CNBC, 12.06.2026](https://www.cnbc.com/2026/06/12/luxury-stocks-lvmh-hermes-burberry-iran-war-peace-deal.html)). Treiber waren der **Nahost-Konflikt** (Tourismus/lokale Nachfrage) und ein starker Euro. Mitte Juni stiegen Luxus-Titel ~5% auf einen vorgeschlagenen US-Iran-Friedensplan. **China** zeigt eine Erholung: Asien ex-Japan **+7%** organisch in Q1, getrieben vom Festland ([WWD](https://wwd.com/business-news/financial/lvmh-q1-revenues-2026-mideast-conflict-1238895585/)). Bernstein erwartet ~**+5% Konzern-Wachstum** im Sektor 2026 und favorisiert **Richemont** (Schmuck-Momentum: Cartier, Van Cleef). Deutsche Bank stuft Kering als \"Least Preferred\" ein (Gucci-Risiko), Hermes/Richemont mit Buy."
+      },
+      {
+        "agent": "earnings-reviewer",
+        "title": "Earnings & These",
+        "body": "**Q1 2026** (13.04.2026): Umsatz **19,1 Mrd. EUR**, organisch **+1%** (ex-Nahost +2%), reported -6% (Euro-Effekt) - leicht unter Konsens (FactSet +1,5%) ([CNBC](https://www.cnbc.com/2026/04/13/lvmh-earnings-q1-2026-sales-luxury-iran-war-middle-east.html)). **Organisches Wachstum je Division:** Fashion & Leather Goods **-2%** (9,25 Mrd., groesste Sparte, aber sequenziell verbessert dank US/China), Watches & Jewelry **+7%**, Wines & Spirits **+5%**, Selective Retailing **+4%**, Perfumes & Cosmetics **0%**. Europa und Japan je **-3%**, Nahost -1%-Punkt Belastung. **Thesen-Treiber:** (1) Halten des Louis-Vuitton-Momentums bei gleichzeitigem Turnaround von Dior/Givenchy/Celine (Barclays-Risiko), (2) China-Erholung seit H2/2025, (3) Margen-Stabilitaet. Barclays erwartet Q2-Beschleunigung auf ~+5% organisch."
+      },
+      {
+        "agent": "model-builder",
+        "title": "Modell (DCF/Comps)",
+        "body": "**Grobe Schaetzung - kein praezises Modell.** LVMH handelt aktuell ca. **EV/EBITDA ~10-11x** (10-J.-Median 14,0; ~28% darunter) und **KGV (trailing) ~22x**, forward ~26x ([MarketScreener](https://www.marketscreener.com/quote/stock/LVMH-4669/valuation/)). **Comps:** Hermes premium bei KGV ~37x (fwd ~34x), Kering mit Abschlag (Gucci-Risiko). **Grobe Fair-Value-Spanne:** Bei Rueckkehr zu mittlerem EV/EBITDA (~12-13x) und Konsens-EBITDA-Erholung ergaebe sich indikativ ~**540-620 EUR**; ein konservatives Szenario (anhaltend ~10-11x, schwache Erholung) eher **460-510 EUR**. Damit liegt der aktuelle Kurs (495,75) am **unteren bis mittleren** Ende dieser groben Bandbreite. Annahmen: mid-single-digit organisches Wachstum ab 2027, stabile ~25%+ EBIT-Marge, kein Multiple-Re-Rating ueber den 10-J.-Median. **Stark annahmenabhaengig.**"
+      },
+      {
+        "agent": "valuation-reviewer",
+        "title": "Bewertungs-Check",
+        "body": "Die Bewertung ist relativ zur eigenen Historie **nicht teuer** (EV/EBITDA ~28% unter 10-J.-Median), und LVMH handelt mit deutlichem **Abschlag zu Hermes** (~22x vs. ~37x KGV) - was dessen hoehere Qualitaet/Knappheit (limitierte Produktion) und niedrigere Zyklizitaet widerspiegelt. **Plausibilitaet:** Das Diversifikations-Premium gegenueber Kering ist gerechtfertigt. **Risiken:** (1) **China** - Erholung noch fragil, abhaengig von Konjunktur/Konsumentenvertrauen; (2) **Konsum-Schwaeche** in Europa/Japan (je -3%); (3) **FX** (starker Euro drueckt reported); (4) **Geopolitik** (Nahost); (5) Marken-Turnaround (Dior) noch unbewiesen. Das aktuelle Multiple preist bereits eine gedaempfte Erholung ein - Enttaeuschung bei Q2/H1 koennte weiteren Druck bringen."
+      },
+      {
+        "agent": "pitch",
+        "title": "Investment-Case",
+        "body": "**Bear-Punkte:** groesste Sparte (Fashion & Leather Goods) noch organisch ruecklaeufig; Europa/Japan schwach; FX-Gegenwind; Turnaround von Dior/Givenchy/Celine unbewiesen; Kurs unter SMA200 (542) - technisch noch nicht im Aufwaertstrend bestaetigt; Sektor-Sentiment fragil. **Technisch:** Trend \"up\", RSI 57, MACD-Histogramm leicht negativ; Support ~461, Widerstand ~520."
+      },
+      {
+        "agent": "meeting-prep",
+        "title": "Meeting-Briefing",
+        "body": "- **Naechster Katalysator:** **H1-2026-Ergebnisse am 28.07.2026** - Fokus auf Q2-Organik (Barclays erwartet ~+5%) und Fashion-&-Leather-Goods-Trendwende. - **China im Blick:** Asien ex-Japan +7% in Q1 - Nachhaltigkeit der Erholung ist Schluesselfrage fuer die These. - **Bewertung:** EV/EBITDA ~10-11x (28% unter 10-J.-Median), KGV ~22x; klarer Abschlag zu Hermes (~37x). - **Technik/Levels:** Kurs 495,75 EUR, unter SMA200 (542); Support ~461, Widerstand ~520; -24% unter 52W-Hoch (652). - **Hauptrisiken:** China-Fragilitaet, Konsum Europa/Japan, FX (starker Euro), Nahost-Geopolitik, Dior-Turnaround."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der Kurs (495,70) haelt zwar SMA20/50, notiert aber klar unter der SMA200 (542) und rund 24% unter dem 52W-Hoch, waehrend RSI 41 und ein negatives MACD-Histogramm (-1,33) fehlendes Momentum signalisieren. Fundamental bleibt die groesste Sparte (Fashion & Leather Goods) mit -2% organisch ruecklaeufig, Europa/Japan schwach und der Dior-Turnaround unbewiesen bei nur fragiler China-Erholung. Vor den H1-Zahlen am 28.07. ueberwiegt die Unklarheit die guenstige Bewertung, daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.45842,
+    "change_pct": 0.0065446454,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.45842,
+    "change_pct": 0.006544645389291758,
+    "sma20": 0.4596,
+    "sma50": 0.4617,
+    "sma200": 0.4613,
+    "rsi14": 32.94,
+    "macd": {
+      "macd": -0.0012,
+      "signal": -0.0012,
+      "hist": 0.0
+    },
+    "atr14": 0.0022,
+    "high_52w": 0.46878,
+    "low_52w": 0.44821,
+    "pct_from_high": -2.21,
+    "pct_from_low": 2.28,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4633
+      },
+      {
+        "type": "support",
+        "price": 0.4563
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 33",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "NZD/CHF notiert bei 0,45665 und damit klar unter allen gleitenden Durchschnitten in einem intakten Abwaerts-Trend. Der RSI14 von 18 signalisiert eine ausgepraegte Ueberverkauft-Lage direkt an der 0,4567-Unterstuetzung, was kurzfristig eine technische Gegenbewegung ermoeglicht. Fundamental belastet das Zinsgefaelle den Kiwi gegenueber dem als sicherer Hafen gefragten Franken.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (0,45665) liegt unter SMA20 (0,4622), SMA50 (0,4625) und SMA200 (0,4616) - die kurzen MAs verlaufen unterhalb des SMA200, der **Trend ist klar abwaerts**. Der **RSI14 von 18** ist tief im ueberverkauften Bereich, der MACD bleibt negativ (Linie -0,0012, Signal -0,0005, Histogramm -0,0008) und bestaetigt das Abwaerts-Momentum. Entscheidend ist die **Unterstuetzung bei 0,4567**, an der der Kurs aktuell klebt; ein Bruch oeffnet Richtung 52W-Tief (0,44821, -1,88% entfernt). Erster Widerstand liegt bei 0,4648 (nahe SMA-Cluster), darueber das 52W-Hoch bei 0,46878 (-2,59%). Der ATR14 von 0,0027 (~0,6%) zeigt moderate Volatilitaet; die extreme RSI-Lage erhoeht die Wahrscheinlichkeit einer kurzfristigen Erholung."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Das **Zinsgefaelle** treibt den Cross: Die **RBNZ** haelt den OCR bei 2,25% (dritter Hold in Folge), naechste Entscheidung am 8. Juli 2026 - Westpac erwartet erneuten Hold. Die **SNB** beliess den Leitzins im Juni bei 0% und signalisierte erhoehte Bereitschaft zu **FX-Interventionen**, was den Franken stuetzt. Trotz hoeherem NZ-Zins drueckt Risikoaversion (Nahost-Spannungen, US-Handelspolitik) Kapital in den sicheren Hafen CHF. Schluesselrisiken: NZ-Inflationsausblick (Spitze ~4,3% in Q3) und jede SNB-Intervention. Naechster Katalysator: RBNZ-Meeting 8. Juli."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der intakte Abwaerts-Trend (Kurs 0,45842 unter SMA20/50/200, bearischer Bias, negativer MACD) und die CHF-Safe-Haven-Staerke sprechen bearisch, doch der RSI14 bei 32,94 direkt an der Schluesselunterstuetzung 0,4563 macht einen Short zum Nachlaufen mit hohem Rebound-Risiko. Ein frischer Long widerspricht Trend und Fundamentaldaten; das Bild ist widerspruechlich. Vor dem RBNZ-Meeting am 8. Juli bleibt die disziplinierte Entscheidung FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

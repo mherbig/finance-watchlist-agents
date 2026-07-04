@@ -1,0 +1,82 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 3.245,
+    "change_pct": 1.5332,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 3.244999885559082,
+    "change_pct": 1.533159726418419,
+    "sma20": 3.1992,
+    "sma50": 3.0256,
+    "sma200": 3.46,
+    "rsi14": 56.21,
+    "macd": {
+      "macd": 0.0488,
+      "signal": 0.0586,
+      "hist": -0.0098
+    },
+    "atr14": 0.1336,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -56.5,
+    "pct_from_low": 28.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 3.087
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "Henry-Hub-Erdgas notiert bei 3,297 USD/MMBtu (-1,4 % am Tag) und hält sich in einer aufwärtsgerichteten Struktur über SMA20 und SMA50, bleibt aber klar unter dem SMA200. Der unmittelbare Widerstand bei 3,343 USD wird umkämpft, während heißere Sommer-Wetterprognosen und Rekord-LNG-Feedgas die Nachfrage stützen. Reichliche Lagerbestände und starkes Förderwachstum deckeln das Aufwärtspotenzial.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **aufwärts** gerichtet: Der Kurs (3,297) liegt über **SMA20 (3,206)** und **SMA50 (2,973)**, jedoch unter **SMA200 (3,455)** - die übergeordnete Struktur bleibt damit angeschlagen. Der **RSI14 von 53,6** ist neutral, der **MACD** praktisch ausgeglichen (Histogramm +0,0008), also kein klares Momentum-Signal. Entscheidend ist der unmittelbare **Widerstand bei 3,343 USD**; darüber öffnet sich Raum Richtung SMA200. Der **Support liegt bei 3,087 USD**. Die **ATR14 von 0,133** signalisiert hohe Tagesvolatilität (~4 %). Der Kurs steht **-55,8 % unter dem 52W-Hoch (7,46)** und **+30,7 % über dem 52W-Tief (2,52)** - mittiges Niveau einer weiten Spanne."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "**Wetter** ist der Haupttreiber: Überdurchschnittliche Temperaturen im Mid-Atlantic und Upper Midwest bis Anfang Juli heben die Kühl-/Stromnachfrage. **LNG-Exporte** stützen zusätzlich - Feedgas lag YTD bei ~18,1 Bcf/d (+19 % ggü. 2025), getrieben von Rekordmengen an Golden Pass. Gegengewicht: **starkes Förderwachstum** (+3,3 % in 2026, ~3,9 Bcf/d) und komfortable Lagerbestände deckeln die Preise. Die EIA erwartet im 2H26 im Schnitt nur ~3,34 USD/MMBtu. Risiken: kühlere Wetter-Revisionen, der wöchentliche EIA-Storage-Report und mögliche Produktionsanstiege durch höhere Ölförderung (Associated Gas)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der kurzfristige Aufwaertstrend ueber SMA20 (3,199) und SMA50 (3,026) wird durch den Kurs klar unter dem SMA200 (3,46) und ein negativ drehendes MACD-Histogramm (-0,0098) konterkariert, waehrend der Widerstand bei 3,343 USD umkaempft bleibt. Stuetzender Nachfrage (heisses Wetter, Rekord-LNG-Feedgas) stehen reichliche Lagerbestaende und starkes Foerderwachstum gegenueber, die das Aufwaertspotenzial deckeln (EIA ~3,34 USD 2H26). RSI14 bei 56 ist neutral - das Bild ist widerspruechlich, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

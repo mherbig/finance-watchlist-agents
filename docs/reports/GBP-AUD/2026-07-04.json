@@ -1,0 +1,82 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.92481,
+    "change_pct": 0.011950659,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.92481,
+    "change_pct": 0.011950659364638128,
+    "sma20": 1.9084,
+    "sma50": 1.8951,
+    "sma200": 1.9234,
+    "rsi14": 80.37,
+    "macd": {
+      "macd": 0.0091,
+      "signal": 0.008,
+      "hist": 0.0012
+    },
+    "atr14": 0.0088,
+    "high_52w": 2.06718,
+    "low_52w": 1.85611,
+    "pct_from_high": -6.89,
+    "pct_from_low": 3.7,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9282
+      },
+      {
+        "type": "support",
+        "price": 1.881
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 80",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "GBP/AUD notiert bei 1,9137 und kämpft sich aus dem Frühjahrstief (+3,1% über dem 52W-Tief von 1,8561) zurück nach oben, bleibt aber 7,6% unter dem 52W-Hoch von 2,0717. Kurzfristiger Aufwärtstrend über SMA20/50, jedoch unter der fallenden SMA200 bei 1,9273 - das Bild ist eine Erholung innerhalb eines übergeordneten Abwärtstrends. Treiber bleibt die geldpolitische Divergenz zwischen einer pausierenden BoE und einer restriktiveren RBA.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Kurs (1,9137) liegt klar über **SMA20 (1,8991)** und **SMA50 (1,8857)**, aber unter der **SMA200 (1,9273)** - kurzfristig bullisch, übergeordnet noch im Abwärtstrend. Die SMA200 ist die nächste Hürde und deckt sich mit der ausgewiesenen **Resistance bei 1,9137**, exakt am aktuellen Niveau. - **RSI14 bei 57** - aufwärtsgerichtetes Momentum, aber noch nicht überkauft, Luft nach oben\n- **MACD positiv** (0,005 über Signal 0,0036, Histogramm +0,0014) - bestätigt die Aufwärtsdynamik\n- **ATR14 = 0,0091** (~0,5%) signalisiert moderate Volatilität\n\nStützzone bei **1,881** (SMA50-Bereich). Mit -7,63% zum 52W-Hoch und +3,1% zum 52W-Tief sitzt der Kurs in der unteren Hälfte der Jahresspanne. Ein nachhaltiger Bruch über 1,9273 würde das Bild zu neutral-bullisch drehen."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Zentraler Treiber ist die **Zinsdivergenz BoE vs. RBA**. Die BoE hielt am 17.06.2026 den Leitzins bei **3,75%** (7:2, zwei Mitglieder für Erhöhung). Die RBA pausierte im Juni nach drei Hikes in Folge bei einem Cash Rate um **4,10-4,35%** - höhere AUD-Zinsen verengen das zuvor pro-Sterling sprechende Differenzial und erklären den Rückgang von den 2025er Hochs. - **Risiken:** Australiens Kerninflation (~4,2%) bleibt über Ziel; Westpac sieht weitere Hikes, CBA/NAB/ANZ eher Cut im August - die Spanne der Erwartungen ist breit\n- **Öl/Energie:** Höhere Preise begünstigen den AUD (Nettoexporteur) gegenüber dem GBP (Nettoimporteur); ein US-Iran-Deal dämpfte zuletzt die Ölpreise\n- **Termine:** kommende AU-Inflationsdaten und BoE/RBA-Sitzungen sind die nächsten Katalysatoren"
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristiger Aufwaertstrend ueber SMA20/50 und knapp ueber der fallenden SMA200 (1,9234) mit positivem MACD wirkt bullisch, doch der RSI14 bei 80,4 ist deutlich ueberkauft und der Kurs (1,92481) sitzt direkt unter der Resistance 1,9282 - schlechtes Chance-Risiko fuer einen Neueinstieg. Die technische Bias ist neutral, es handelt sich um eine Erholung im uebergeordneten Abwaertstrend, und die Makro-Lage (BoE-Pause vs. restriktivere RBA) wirkt als Gegenwind fuer GBP - insgesamt zu widerspruechlich fuer LONG oder SHORT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 184.59189,
+    "change_pct": -0.00065549579,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 184.59189,
+    "change_pct": -0.0006554957904635475,
+    "sma20": 184.6951,
+    "sma50": 184.9986,
+    "sma200": 184.3946,
+    "rsi14": 46.41,
+    "macd": {
+      "macd": -0.1232,
+      "signal": -0.144,
+      "hist": 0.0207
+    },
+    "atr14": 0.7778,
+    "high_52w": 187.58855,
+    "low_52w": 175.422,
+    "pct_from_high": -1.6,
+    "pct_from_low": 5.23,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 186.2828
+      },
+      {
+        "type": "support",
+        "price": 183.796
+      }
+    ]
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "agent_analysis": {
+    "track": "technical",
+    "agents_run": [
+      "technical-macro"
+    ],
+    "summary": "EUR/JPY notiert bei 184,18 und steht trotz leichtem Tagesplus (+0,11%) technisch unter Druck: Der Kurs handelt unter SMA20/50, der RSI14 von 37 und ein negatives MACD-Histogramm bestätigen den kurzfristigen Abwärtsbias. Entscheidend bleibt die geldpolitische Divergenz zwischen einer hawkishen BoJ (Leitzins jüngst auf 1,0%) und der ECB (Einlagensatz 2,25%), die das Paar in einer Spanne um die SMA200 (184,27) gefangen hält.",
+    "sections": [
+      {
+        "agent": "technical-macro",
+        "title": "Technische Lesart",
+        "body": "Der Trend ist **bearish**: Der Kurs (184,18) liegt unter SMA20 (184,93) und SMA50 (185,01) und kämpft exakt an der SMA200 (184,27), die als Pivot dient. - **RSI14 bei 37** signalisiert Schwäche, ist aber noch nicht überverkauft (Schwelle 30). - **MACD** ist negativ (Linie -0,29 unter Signal -0,14, Histogramm -0,15) und untermauert das Abwärtsmomentum. - **Schlüssel-Level**: Support bei **183,80**, darunter droht ein Test des Bereichs Richtung 52W-Tief (175,42). Widerstand bei **186,28**, dann das 52W-Hoch bei **187,59**. Die Lage ist range-gebunden: -1,81% zum 52W-Hoch, +5,0% zum Tief. Bei einem ATR14 von 0,93 deckt eine durchschnittliche Tagesspanne rund die Hälfte der Distanz zum Support ab."
+      },
+      {
+        "agent": "technical-macro",
+        "title": "Makro & Katalysatoren",
+        "body": "Haupttreiber ist die **Zinsdivergenz**. Die **BoJ** hob am 16.06.2026 (7:1) auf **1,0%** an und signalisiert in den Summary of Opinions weitere Schritte, sofern Inflation und Wachstum dem Pfad folgen - ein struktureller Yen-Rückenwind, der EUR/JPY deckelt. Die **ECB** straffte ebenfalls um 25 Bp (Einlagensatz **2,25%**, Stand 17.06.2026), getrieben von Nahost-bedingtem Inflationsdruck und Energiepreisen. - **Risiken**: Eskalation im Nahen Osten (Energie/Risikoaversion stützt Yen), abweichende Notenbank-Rhetorik, BoJ-Interventionsrisiko. - **Konsens-Prognosen** sehen das Paar Richtung Jahresende eher schwächer (181-184)."
+      }
+    ],
+    "generated_at": "2026-06-27T14:47:47.885197+00:00",
+    "model": "claude-opus-4-8"
+  },
+  "signal": {
+    "generated_at": "2026-07-04T21:32:26.376011+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Bias sind bearish: Der Kurs (184,59) notiert unter SMA20 (184,70) und SMA50 (185,00), RSI14 bei 46 zeigt Schwaeche und der MACD bleibt negativ (Linie unter Signal). Die strukturelle Zinsdivergenz aus hawkisher BoJ und ECB deckelt das Paar, Konsens sieht es Richtung Jahresende schwaecher (181-184), naechstes Support-Ziel 183,80. Das leicht positive MACD-Histogramm (+0,021) und die knapp gehaltene SMA200 (184,39) mahnen zur Zurueckhaltung, daher nur moderate Ueberzeugung.",
+    "entry": 184.5919,
+    "stop_loss": 185.9919,
+    "take_profit": 182.4918,
+    "take_profit_2": 183.796,
+    "rr": 1.5
+  }
+}

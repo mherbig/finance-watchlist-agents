@@ -825,3 +825,57 @@ def test_simulate_filled_open_shows_unrealized_pct_and_pending_false():
     o = res["open"][0]
     assert o["pending"] is False
     assert o["unrealized_pct"] == 10.0
+
+
+# --- Mark-to-Market: offene Positionen bewertet -> Gesamt-Depot ------------
+
+def _open_trade(sym, direction, entry, sl, date="2026-01-01"):
+    return {
+        "symbol": sym, "display": sym, "date": date,
+        "direction": direction, "conviction": 3, "entry": entry,
+        "stop_loss": sl, "take_profit": None, "rr": 2.0,
+        "horizon_days": 20, "status": "open", "exit_date": None,
+        "exit_price": None, "realized_R": None, "filled": True,
+    }
+
+
+def test_simulate_open_unrealized_pnl_long_and_short():
+    # LONG: risk 1000, units = 1000/|100-95| = 200; Kurs 110 -> +200*10 = +2000.
+    # SHORT: risk 1000, units = 1000/|200-210| = 100; Kurs 190 -> +100*10 = +1000.
+    trades = [
+        _open_trade("LNG", "LONG", 100.0, 95.0),
+        _open_trade("SHT", "SHORT", 200.0, 210.0, date="2026-01-02"),
+    ]
+    res = portfolio.simulate(trades, current_prices={"LNG": 110.0, "SHT": 190.0})
+    by = {o["symbol"]: o for o in res["open"]}
+    assert by["LNG"]["unrealized_pnl"] == 2000.0
+    assert by["SHT"]["unrealized_pnl"] == 1000.0
+    s = res["summary"]
+    assert s["unrealized_pnl"] == 3000.0
+    assert s["marked_equity"] == 103_000.0     # 100k realisiert + 3k offen
+    assert s["marked_return_pct"] == 3.0
+
+
+def test_simulate_marked_equity_short_in_loss():
+    # SHORT im Minus: units = 1000/10 = 100; Kurs 206 -> -100*6 = -600.
+    trades = [_open_trade("SHT", "SHORT", 200.0, 210.0)]
+    res = portfolio.simulate(trades, current_prices={"SHT": 206.0})
+    s = res["summary"]
+    assert res["open"][0]["unrealized_pnl"] == -600.0
+    assert s["unrealized_pnl"] == -600.0
+    assert s["marked_equity"] == 99_400.0
+    assert s["marked_return_pct"] == -0.6
+
+
+def test_simulate_marked_equity_excludes_pending_and_missing_price():
+    # Pending (nie gefuellt) und Positionen ohne Kurs zaehlen NICHT in die
+    # Bewertung; marked_equity faellt auf current_equity zurueck.
+    pending = dict(_open_trade("PB", "LONG", 90.0, 86.0), filled=False)
+    nopx = _open_trade("NOP", "LONG", 50.0, 45.0, date="2026-01-02")
+    res = portfolio.simulate([pending, nopx], current_prices={"PB": 120.0})
+    by = {o["symbol"]: o for o in res["open"]}
+    assert by["PB"]["unrealized_pnl"] is None    # pending -> kein Phantom-P&L
+    assert by["NOP"]["unrealized_pnl"] is None   # kein Kurs -> keine Bewertung
+    s = res["summary"]
+    assert s["unrealized_pnl"] == 0
+    assert s["marked_equity"] == s["current_equity"]

@@ -10,7 +10,10 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "max_drawdown": 0.0
+    "max_drawdown": 0.0,
+    "unrealized_pnl": -2881.8976,
+    "marked_equity": 97118.1024,
+    "marked_return_pct": -2.8819
   },
   "equity_curve": [
     {
@@ -35,7 +38,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 517.82001,
-      "unrealized_pct": -0.0849
+      "unrealized_pct": -0.0849,
+      "unrealized_pnl": -6.6131
     },
     {
       "symbol": "AAPL",
@@ -52,7 +56,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 308.63,
-      "unrealized_pct": 0.133
+      "unrealized_pct": 0.133,
+      "unrealized_pnl": 25.4734
     },
     {
       "symbol": "AUD/CAD",
@@ -68,8 +73,9 @@
       "units": 131578.9474,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.98527,
-      "unrealized_pct": -0.425
+      "current_price": 0.98512,
+      "unrealized_pct": -0.4097,
+      "unrealized_pnl": -528.9474
     },
     {
       "symbol": "AUD/JPY",
@@ -85,8 +91,9 @@
       "units": 912.8252,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 111.96656,
-      "unrealized_pct": -0.5076
+      "current_price": 111.98005,
+      "unrealized_pct": -0.5197,
+      "unrealized_pnl": -528.4801
     },
     {
       "symbol": "AUD/USD",
@@ -102,8 +109,9 @@
       "units": 153846.1538,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.69378,
-      "unrealized_pct": -0.3152
+      "current_price": 0.69381,
+      "unrealized_pct": -0.3195,
+      "unrealized_pnl": -340.0
     },
     {
       "symbol": "BNB/USD",
@@ -119,8 +127,9 @@
       "units": 29.5384,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 574.28,
-      "unrealized_pct": -2.9379
+      "current_price": 574.19,
+      "unrealized_pct": -2.9217,
+      "unrealized_pnl": -481.4759
     },
     {
       "symbol": "BAC",
@@ -137,7 +146,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 58.73,
-      "unrealized_pct": 0.0682
+      "unrealized_pct": 0.0682,
+      "unrealized_pnl": 18.4357
     },
     {
       "symbol": "BTC/USD",
@@ -153,8 +163,9 @@
       "units": 0.2437,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 62622.06,
-      "unrealized_pct": -1.874
+      "current_price": 62761.73,
+      "unrealized_pct": -2.1012,
+      "unrealized_pnl": -314.7678
     },
     {
       "symbol": "CAD/CHF",
@@ -170,8 +181,9 @@
       "units": 285714.2857,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.56549,
-      "unrealized_pct": 0.1607
+      "current_price": 0.56556,
+      "unrealized_pct": 0.1483,
+      "unrealized_pnl": 240.0
     },
     {
       "symbol": "CAD/JPY",
@@ -187,8 +199,9 @@
       "units": 1310.616,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 113.64367,
-      "unrealized_pct": -0.0833
+      "current_price": 113.64691,
+      "unrealized_pct": -0.0861,
+      "unrealized_pnl": -128.1914
     },
     {
       "symbol": "EUR/AUD",
@@ -204,8 +217,9 @@
       "units": 69444.4444,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.6485,
-      "unrealized_pct": -0.2602
+      "current_price": 1.64851,
+      "unrealized_pct": -0.2596,
+      "unrealized_pnl": -297.9167
     },
     {
       "symbol": "EUR/CAD",
@@ -221,8 +235,9 @@
       "units": 128205.1282,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.62447,
-      "unrealized_pct": 0.1585
+      "current_price": 1.62468,
+      "unrealized_pct": 0.1714,
+      "unrealized_pnl": 356.4103
     },
     {
       "symbol": "EUR/GBP",
@@ -238,8 +253,9 @@
       "units": 175438.5965,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.85666,
-      "unrealized_pct": 0.0163
+      "current_price": 0.85655,
+      "unrealized_pct": 0.0292,
+      "unrealized_pnl": 43.8596
     },
     {
       "symbol": "EUR/JPY",
@@ -255,8 +271,9 @@
       "units": 697.9341,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 184.60033,
-      "unrealized_pct": -0.2242
+      "current_price": 184.59658,
+      "unrealized_pct": -0.2222,
+      "unrealized_pnl": -285.6505
     },
     {
       "symbol": "EUR/NZD",
@@ -272,8 +289,9 @@
       "units": 46296.2963,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 2.00423,
-      "unrealized_pct": -0.1877
+      "current_price": 2.00407,
+      "unrealized_pct": -0.1957,
+      "unrealized_pnl": -181.9444
     },
     {
       "symbol": "EUR/USD",
@@ -289,8 +307,9 @@
       "units": 114942.5287,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.14427,
-      "unrealized_pct": -0.0673
+      "current_price": 1.1438,
+      "unrealized_pct": -0.0262,
+      "unrealized_pnl": -34.4828
     },
     {
       "symbol": "RACE",
@@ -307,7 +326,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 384.97,
-      "unrealized_pct": 0.0
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0
     },
     {
       "symbol": "CAC40",
@@ -323,8 +343,9 @@
       "units": 6.3849,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 8474.8603515625,
-      "unrealized_pct": 0.0
+      "current_price": 8508.0703125,
+      "unrealized_pct": 0.3919,
+      "unrealized_pnl": 212.0445
     },
     {
       "symbol": "UKX",
@@ -340,8 +361,9 @@
       "units": 4.9386,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10652.900390625,
-      "unrealized_pct": 0.0003
+      "current_price": 10679.0302734375,
+      "unrealized_pct": 0.2456,
+      "unrealized_pnl": 129.1951
     },
     {
       "symbol": "GBP/CAD",
@@ -357,8 +379,9 @@
       "units": 79365.0794,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.89621,
-      "unrealized_pct": 0.1273
+      "current_price": 1.8962,
+      "unrealized_pct": 0.1267,
+      "unrealized_pnl": 190.4762
     },
     {
       "symbol": "GBP/CHF",
@@ -374,8 +397,9 @@
       "units": 158730.1587,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.07226,
-      "unrealized_pct": -0.0317
+      "current_price": 1.07242,
+      "unrealized_pct": -0.0168,
+      "unrealized_pnl": -28.5714
     },
     {
       "symbol": "GBP/JPY",
@@ -391,8 +415,9 @@
       "units": 577.8009,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 215.50633,
-      "unrealized_pct": 0.1989
+      "current_price": 215.49879,
+      "unrealized_pct": 0.1954,
+      "unrealized_pnl": 242.7862
     },
     {
       "symbol": "DAX",
@@ -408,8 +433,9 @@
       "units": 1.7059,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 25580.880859375,
-      "unrealized_pct": 0.0
+      "current_price": 25779.310546875,
+      "unrealized_pct": 0.7757,
+      "unrealized_pnl": 338.5027
     },
     {
       "symbol": "GOOGL",
@@ -426,7 +452,8 @@
       "horizon_days": 21,
       "pending": false,
       "current_price": 359.91,
-      "unrealized_pct": 0.1001
+      "unrealized_pct": 0.1001,
+      "unrealized_pnl": 16.3117
     },
     {
       "symbol": "HSI",
@@ -443,7 +470,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 23055.029296875,
-      "unrealized_pct": 0.0
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0009
     },
     {
       "symbol": "JPM",
@@ -460,7 +488,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 334.47,
-      "unrealized_pct": 0.0808
+      "unrealized_pct": 0.0808,
+      "unrealized_pnl": 18.2657
     },
     {
       "symbol": "NVDA",
@@ -477,7 +506,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 194.83,
-      "unrealized_pct": -0.1079
+      "unrealized_pct": -0.1079,
+      "unrealized_pnl": -18.4006
     },
     {
       "symbol": "NZD/JPY",
@@ -493,8 +523,9 @@
       "units": 901.3069,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 92.10662,
-      "unrealized_pct": -0.4251
+      "current_price": 92.11336,
+      "unrealized_pct": -0.4325,
+      "unrealized_pnl": -357.5124
     },
     {
       "symbol": "SPX",
@@ -511,7 +542,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 7483.240234375,
-      "unrealized_pct": 0.0
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0014
     },
     {
       "symbol": "USD/CAD",
@@ -527,8 +559,9 @@
       "units": 123456.7901,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.42009,
-      "unrealized_pct": 0.1191
+      "current_price": 1.42,
+      "unrealized_pct": 0.1128,
+      "unrealized_pnl": 197.5309
     },
     {
       "symbol": "V",
@@ -545,7 +578,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 362.13,
-      "unrealized_pct": 0.1521
+      "unrealized_pct": 0.1521,
+      "unrealized_pnl": 39.2456
     },
     {
       "symbol": "XAG/USD",
@@ -562,7 +596,8 @@
       "horizon_days": 14,
       "pending": false,
       "current_price": 62.814998626708984,
-      "unrealized_pct": -2.238
+      "unrealized_pct": -2.238,
+      "unrealized_pnl": -307.4959
     },
     {
       "symbol": "XAU/USD",
@@ -578,8 +613,9 @@
       "units": 7.6455,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 4174.94816,
-      "unrealized_pct": -1.2344
+      "current_price": 4175.00349,
+      "unrealized_pct": -1.2358,
+      "unrealized_pnl": -389.6414
     },
     {
       "symbol": "XRP/USD",
@@ -595,8 +631,9 @@
       "units": 13297.8723,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 1.134,
-      "unrealized_pct": -4.7285
+      "current_price": 1.13697,
+      "unrealized_pct": -5.0028,
+      "unrealized_pnl": -720.3457
     }
   ]
 }

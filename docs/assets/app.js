@@ -556,14 +556,25 @@ function renderClosedTrades(closed) {
 
 function renderPortfolioHead(summary) {
   const s = summary || {};
-  const equity = s.current_equity == null ? "–" : fmtMoney(s.current_equity);
-  const ret = s.return_pct == null ? "–" : fmtNum(s.return_pct, 2);
+  // Mark-to-Market: realisierte Equity + offene Positionen zum letzten
+  // Tagesschluss bewertet. Fallback auf current_equity (alte portfolio.json).
+  const marked = s.marked_equity != null ? s.marked_equity : s.current_equity;
+  const equity = marked == null ? "–" : fmtMoney(marked);
+  const mret = s.marked_return_pct != null ? s.marked_return_pct : s.return_pct;
+  const retHtml = mret == null ? "" :
+    ` <span class="${changeClass(mret)}">${fmtPct(mret)}</span>`;
+  const unrl = s.unrealized_pnl;
+  const unrlStr = unrl == null ? "–"
+    : (unrl > 0 ? "+" : "") + fmtMoney(unrl) + " $";
+  const valuation = `Realisiert: ${s.current_equity == null ? "–" : fmtMoney(s.current_equity)} $ `
+    + `· Offene Positionen: ${unrlStr} unrealisiert (zum letzten Tagesschluss bewertet)`;
   const wr = s.win_rate == null ? 0 : Math.round(Number(s.win_rate) * 100);
-  const meta = `Start 100.000 $ · Rendite ${ret} % · ${s.closed_count || 0} Trades `
+  const meta = `Start 100.000 $ · ${s.closed_count || 0} Trades `
     + `(${s.wins || 0}W/${s.losses || 0}L, Trefferquote ${wr} %) · ${s.open_count || 0} offen`;
   return `
     <div class="depot-head">
-      <div class="depot-equity">Depot: ${escapeHtml(equity)} $</div>
+      <div class="depot-equity">Depot: ${escapeHtml(equity)} $${retHtml}</div>
+      <div class="depot-meta">${escapeHtml(valuation)}</div>
       <div class="depot-meta">${escapeHtml(meta)}</div>
     </div>`;
 }

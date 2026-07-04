@@ -558,6 +558,16 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         unrealized_pct = (None if pending else
                           _unrealized_pct(t.get("direction"), t.get("entry"),
                                           current_price))
+        # Unrealisierter P&L in Geld: units * (Kurs - Entry) * Richtung.
+        # Nur fuer gefuellte Positionen mit Kurs UND Stueckzahl bewertbar.
+        units = lock.get("units")
+        unrealized_pnl = None
+        if not pending and current_price is not None and units is not None \
+                and t.get("entry") is not None:
+            sign = _direction_sign(t.get("direction"))
+            unrealized_pnl = round(
+                sign * (float(current_price) - float(t.get("entry")))
+                * float(units), 4)
         open_list.append({
             "symbol": t.get("symbol"),
             "display": t.get("display"),
@@ -574,6 +584,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
             "pending": pending,
             "current_price": current_price,
             "unrealized_pct": unrealized_pct,
+            "unrealized_pnl": unrealized_pnl,
         })
 
     closed_count = len(closed)
@@ -582,6 +593,16 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     total_pnl = round(sum(c["pnl"] for c in closed), 4)
     win_rate = round(wins / closed_count, 4) if closed_count else 0
     return_pct = round((equity - start_equity) / start_equity * 100, 4) \
+        if start_equity else 0
+
+    # Mark-to-Market: realisierte Equity + offene Positionen zum letzten
+    # Schlusskurs bewertet ("wo stuende das Depot, wenn alle Trades live
+    # ausgefuehrt waeren"). Pending/kurslose Positionen zaehlen nicht.
+    unrealized_total = round(sum(o["unrealized_pnl"] for o in open_list
+                                 if o.get("unrealized_pnl") is not None), 4)
+    marked_equity = round(equity + unrealized_total, 4)
+    marked_return_pct = round(
+        (marked_equity - start_equity) / start_equity * 100, 4) \
         if start_equity else 0
 
     summary = {
@@ -596,6 +617,9 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         "win_rate": win_rate,
         "total_pnl": total_pnl,
         "max_drawdown": round(max_drawdown, 4),
+        "unrealized_pnl": unrealized_total,
+        "marked_equity": marked_equity,
+        "marked_return_pct": marked_return_pct,
     }
 
     return {

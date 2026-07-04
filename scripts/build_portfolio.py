@@ -82,6 +82,7 @@ def main() -> None:
 
     trades = []
     current_prices: dict = {}
+    series_by_key: dict = {}
     for key in order:
         symbol_signals = groups[key]
         first = symbol_signals[0]
@@ -97,11 +98,18 @@ def main() -> None:
                 current_prices[symbol] = latest
             if display is not None:
                 current_prices[display] = latest
+        # Serien fuer die Mark-to-Market-Kurve (Lookup wie current_prices).
+        if time_series:
+            if symbol is not None:
+                series_by_key[symbol] = time_series
+            if display is not None:
+                series_by_key[display] = time_series
         trades.extend(
             portfolio.resolve_symbol_trades(
                 symbol_signals, time_series, flat_closes=flat_closes))
 
     result = portfolio.simulate(trades, current_prices=current_prices)
+    result["marked_curve"] = portfolio.marked_equity_curve(trades, series_by_key)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

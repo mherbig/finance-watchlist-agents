@@ -867,6 +867,83 @@ def test_simulate_marked_equity_short_in_loss():
     assert s["marked_return_pct"] == -0.6
 
 
+def test_simulate_flip_realizes_pnl_and_leaves_open_list():
+    # Ein per Bias-Flip geschlossener Trade ist GESCHLOSSEN: P&L wird
+    # realisiert, er zaehlt in closed/wins/losses und ist NICHT mehr offen.
+    flipped = dict(_open_trade("FLP", "SHORT", 200.0, 210.0),
+                   status="flip", exit_date="2026-01-03",
+                   exit_price=206.0, realized_R=-0.6)
+    res = portfolio.simulate([flipped], current_prices={"FLP": 206.0})
+    s = res["summary"]
+    assert s["closed_count"] == 1
+    assert s["losses"] == 1
+    assert s["open_count"] == 0
+    assert res["open"] == []
+    # risk 1000 * -0.6 = -600
+    assert s["current_equity"] == 99_400.0
+    assert res["closed"][0]["status"] == "flip"
+    assert res["closed"][0]["pnl"] == -600.0
+
+
+# --- marked_equity_curve: taegliche Mark-to-Market-Kurve --------------------
+
+def test_marked_curve_open_long_tracks_daily_closes():
+    # LONG ab 01-01 (Market am Schluss 100, units = 1000/|100-95| = 200).
+    # Schlusskurse: 100 -> 102 -> 99.
+    trades = [_open_trade("AAA", "LONG", 100.0, 95.0, date="2026-01-01")]
+    series = {"AAA": _ts(
+        _bar("2026-01-01", 100, 101, 99, 100),
+        _bar("2026-01-02", 100, 103, 100, 102),
+        _bar("2026-01-03", 102, 102, 98, 99),
+    )}
+    curve = portfolio.marked_equity_curve(trades, series)
+    assert [c["date"] for c in curve] == ["2026-01-01", "2026-01-02", "2026-01-03"]
+    assert [c["equity"] for c in curve] == [100_000.0] * 3  # nichts realisiert
+    assert curve[0]["marked_equity"] == 100_000.0           # Entry am Schluss
+    assert curve[1]["marked_equity"] == 100_400.0           # +200*2
+    assert curve[2]["marked_equity"] == 99_800.0            # -200*1
+
+
+def test_marked_curve_closed_trade_converges_to_realized():
+    # LONG trifft TP am 01-03 (exit 110, R=2 -> +2000 realisiert). Ab dem
+    # Exit-Tag ist nichts mehr offen: marked == realized.
+    t = dict(_open_trade("AAA", "LONG", 100.0, 95.0, date="2026-01-01"),
+             take_profit=110.0, status="tp", exit_date="2026-01-03",
+             exit_price=110.0, realized_R=2.0)
+    series = {"AAA": _ts(
+        _bar("2026-01-01", 100, 101, 99, 100),
+        _bar("2026-01-02", 100, 106, 100, 105),
+        _bar("2026-01-03", 105, 111, 104, 111),
+        _bar("2026-01-04", 111, 112, 89, 90),
+    )}
+    curve = portfolio.marked_equity_curve([t], series)
+    by = {c["date"]: c for c in curve}
+    assert by["2026-01-02"]["marked_equity"] == 101_000.0   # +200*5 offen
+    assert by["2026-01-03"]["equity"] == 102_000.0          # realisiert
+    assert by["2026-01-03"]["marked_equity"] == 102_000.0   # nichts mehr offen
+    assert by["2026-01-04"]["marked_equity"] == 102_000.0   # bleibt (Kurs egal)
+
+
+def test_marked_curve_excludes_pending_and_carries_forward_missing_bars():
+    # Pending (nie gefuellt) zaehlt nicht; Symbol ohne Bar an einem Tag wird
+    # mit dem letzten bekannten Schluss fortgeschrieben.
+    pending = dict(_open_trade("PB", "LONG", 90.0, 86.0, date="2026-01-01"),
+                   filled=False)
+    real = _open_trade("BBB", "LONG", 100.0, 95.0, date="2026-01-01")
+    series = {
+        "PB": _ts(_bar("2026-01-01", 120, 121, 119, 120),
+                  _bar("2026-01-02", 120, 121, 119, 121),
+                  _bar("2026-01-03", 121, 122, 120, 122)),
+        # BBB hat am 01-02 KEINEN Bar -> letzter Schluss (100) gilt weiter.
+        "BBB": _ts(_bar("2026-01-01", 100, 101, 99, 100),
+                   _bar("2026-01-03", 100, 107, 100, 106)),
+    }
+    curve = portfolio.marked_equity_curve([pending, real], series)
+    by = {c["date"]: c for c in curve}
+    assert by["2026-01-02"]["marked_equity"] == 100_000.0   # carry-forward, PB ignoriert
+    assert by["2026-01-03"]["marked_equity"] == 101_200.0   # +200*6 aus BBB
+
+
 def test_simulate_marked_equity_excludes_pending_and_missing_price():
     # Pending (nie gefuellt) und Positionen ohne Kurs zaehlen NICHT in die
     # Bewertung; marked_equity faellt auf current_equity zurueck.

@@ -1,27 +1,88 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 100000.0,
-    "return_pct": 0.0,
-    "open_count": 34,
+    "current_equity": 98575.9,
+    "return_pct": -1.4241,
+    "open_count": 31,
     "no_fill_count": 0,
-    "closed_count": 0,
+    "closed_count": 3,
     "wins": 0,
-    "losses": 0,
-    "win_rate": 0,
-    "total_pnl": 0,
-    "max_drawdown": 0.0,
-    "unrealized_pnl": -2881.8976,
-    "marked_equity": 97118.1024,
-    "marked_return_pct": -2.8819
+    "losses": 3,
+    "win_rate": 0.0,
+    "total_pnl": -1424.1,
+    "max_drawdown": -1424.1,
+    "unrealized_pnl": -1457.1427,
+    "marked_equity": 97118.7573,
+    "marked_return_pct": -2.8812
   },
   "equity_curve": [
     {
       "date": "2026-07-02",
       "equity": 100000.0
+    },
+    {
+      "date": "2026-07-03",
+      "equity": 99685.3
+    },
+    {
+      "date": "2026-07-03",
+      "equity": 99296.2
+    },
+    {
+      "date": "2026-07-03",
+      "equity": 98575.9
     }
   ],
-  "closed": [],
+  "closed": [
+    {
+      "symbol": "BTC/USD",
+      "display": "BTC/USD",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 61470.11,
+      "stop_loss": 65574.2797,
+      "take_profit": 55313.8554,
+      "exit_date": "2026-07-03",
+      "exit_price": 62761.73,
+      "realized_R": -0.3147,
+      "risk_amount": 1000.0,
+      "pnl": -314.7,
+      "win": false,
+      "status": "flip"
+    },
+    {
+      "symbol": "XAU/USD",
+      "display": "XAU",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 4124.04,
+      "stop_loss": 4254.8351,
+      "take_profit": 3927.8472,
+      "exit_date": "2026-07-03",
+      "exit_price": 4174.93638,
+      "realized_R": -0.3891,
+      "risk_amount": 1000.0,
+      "pnl": -389.1,
+      "win": false,
+      "status": "flip"
+    },
+    {
+      "symbol": "XRP/USD",
+      "display": "XRP/USD",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 1.0828,
+      "stop_loss": 1.158,
+      "take_profit": 0.9699,
+      "exit_date": "2026-07-03",
+      "exit_price": 1.13697,
+      "realized_R": -0.7203,
+      "risk_amount": 1000.0,
+      "pnl": -720.3,
+      "win": false,
+      "status": "flip"
+    }
+  ],
   "open": [
     {
       "symbol": "AMD",
@@ -148,24 +209,6 @@
       "current_price": 58.73,
       "unrealized_pct": 0.0682,
       "unrealized_pnl": 18.4357
-    },
-    {
-      "symbol": "BTC/USD",
-      "display": "BTC/USD",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 61470.11,
-      "stop_loss": 65574.2797,
-      "take_profit": 55313.8554,
-      "rr": 1.5,
-      "risk_amount": 1000.0,
-      "units": 0.2437,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 62761.73,
-      "unrealized_pct": -2.1012,
-      "unrealized_pnl": -314.7678
     },
     {
       "symbol": "CAD/CHF",
@@ -598,42 +641,23 @@
       "current_price": 62.814998626708984,
       "unrealized_pct": -2.238,
       "unrealized_pnl": -307.4959
+    }
+  ],
+  "marked_curve": [
+    {
+      "date": "2026-07-02",
+      "equity": 100000.0,
+      "marked_equity": 99295.2563
     },
     {
-      "symbol": "XAU/USD",
-      "display": "XAU",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 4124.04,
-      "stop_loss": 4254.8351,
-      "take_profit": 3927.8472,
-      "rr": 1.5,
-      "risk_amount": 1000.0,
-      "units": 7.6455,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 4175.00349,
-      "unrealized_pct": -1.2358,
-      "unrealized_pnl": -389.6414
+      "date": "2026-07-03",
+      "equity": 98575.9,
+      "marked_equity": 96793.551
     },
     {
-      "symbol": "XRP/USD",
-      "display": "XRP/USD",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 1.0828,
-      "stop_loss": 1.158,
-      "take_profit": 0.9699,
-      "rr": 1.5,
-      "risk_amount": 1000.0,
-      "units": 13297.8723,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 1.13697,
-      "unrealized_pct": -5.0028,
-      "unrealized_pnl": -720.3457
+      "date": "2026-07-04",
+      "equity": 98575.9,
+      "marked_equity": 97118.7574
     }
   ]
 }

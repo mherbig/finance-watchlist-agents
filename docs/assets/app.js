@@ -422,54 +422,81 @@ const ASSET_RANK = {
   index: 0, forex: 1, crypto: 2, energy: 3, metal: 4, stock: 5,
 };
 
-// Einfacher Inline-SVG-Linienchart der Equity-Kurve. Keine Libs.
-function renderEquityChart(curve) {
-  const pts = Array.isArray(curve) ? curve.filter((p) => p && typeof p.equity === "number") : [];
+// Einfacher Inline-SVG-Linienchart der Equity-Kurve(n). Keine Libs.
+// Bevorzugt die taegliche marked_curve (zwei Linien: realisiert + bewertet
+// inkl. offener Positionen); Fallback: alte realisierte Event-Kurve.
+function renderEquityChart(pf) {
+  const p = pf || {};
+  const mc = Array.isArray(p.marked_curve)
+    ? p.marked_curve.filter((x) => x && typeof x.marked_equity === "number")
+    : [];
+  const ec = Array.isArray(p.equity_curve)
+    ? p.equity_curve.filter((x) => x && typeof x.equity === "number")
+    : [];
+
+  const dates = (mc.length ? mc : ec).map((x) => x.date);
+  let realized = (mc.length ? mc : ec).map((x) => x.equity);
+  const marked = mc.map((x) => x.marked_equity);
+  if (realized.length === 0) realized = [100000];
+
   const W = 720, H = 200, padL = 64, padR = 16, padT = 16, padB = 24;
   const innerW = W - padL - padR;
   const innerH = H - padT - padB;
 
-  let values = pts.map((p) => p.equity);
-  // Tag 1 (0-1 Punkte / flach): Baseline bei 100k zeichnen.
-  if (values.length === 0) values = [100000];
-  let min = Math.min(...values);
-  let max = Math.max(...values);
+  const all = realized.concat(marked);
+  let min = Math.min(...all);
+  let max = Math.max(...all);
   if (min === max) { min -= min * 0.001 || 1; max += max * 0.001 || 1; }
   const span = max - min;
-  // Y-Achse leicht padden.
   min -= span * 0.1; max += span * 0.1;
 
-  const n = Math.max(values.length, 2);
+  const n = Math.max(realized.length, marked.length, 2);
   const x = (i) => padL + (n === 1 ? innerW / 2 : (i * innerW) / (n - 1));
   const y = (v) => padT + innerH - ((v - min) / (max - min)) * innerH;
 
-  let path = "";
-  if (values.length <= 1) {
-    // Flache Baseline ueber die volle Breite.
-    const yv = y(values[0]);
-    path = `M ${padL} ${yv} L ${W - padR} ${yv}`;
-  } else {
-    path = values
+  const pathFor = (vals) => {
+    if (vals.length === 0) return "";
+    if (vals.length === 1) {
+      const yv = y(vals[0]);
+      return `M ${padL} ${yv} L ${W - padR} ${yv}`;
+    }
+    return vals
       .map((v, i) => `${i === 0 ? "M" : "L"} ${x(i).toFixed(1)} ${y(v).toFixed(1)}`)
       .join(" ");
-  }
+  };
 
-  const startVal = values[0];
-  const curVal = values[values.length - 1];
-  const startLbl = pts.length ? (pts[0].date || "Start") : "Start";
+  const startVal = realized[0];
+  const endReal = realized[realized.length - 1];
+  const endMarked = marked.length ? marked[marked.length - 1] : null;
+  const startLbl = dates.length ? (dates[0] || "Start") : "Start";
   const yTop = padT, yBot = padT + innerH;
 
-  return `
+  const markedPath = marked.length
+    ? `<path d="${pathFor(marked)}" class="eq-line-marked" fill="none" />
+       <circle cx="${x(marked.length - 1).toFixed(1)}" cy="${y(endMarked).toFixed(1)}" r="3" class="eq-dot-marked" />`
+    : "";
+  const endLbl = endMarked != null
+    ? `bewertet ${fmtMoney(endMarked)} $ · realisiert ${fmtMoney(endReal)} $`
+    : `aktuell ${fmtMoney(endReal)} $`;
+  const legend = marked.length
+    ? `<div class="eq-legend">
+         <span><span class="eq-key eq-key-marked"></span>Bewertet (inkl. offener Positionen)</span>
+         <span><span class="eq-key eq-key-real"></span>Realisiert</span>
+       </div>`
+    : "";
+
+  return `${legend}
     <svg class="equity-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Equity-Kurve">
       <line x1="${padL}" y1="${yTop}" x2="${padL}" y2="${yBot}" class="eq-axis" />
       <line x1="${padL}" y1="${yBot}" x2="${W - padR}" y2="${yBot}" class="eq-axis" />
       <text x="${padL - 6}" y="${yTop + 4}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(max))}</text>
       <text x="${padL - 6}" y="${yBot}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(min))}</text>
-      <path d="${path}" class="eq-line" fill="none" />
+      <path d="${pathFor(realized)}" class="eq-line" fill="none" />
       <circle cx="${x(0).toFixed(1)}" cy="${y(startVal).toFixed(1)}" r="3" class="eq-dot" />
-      <circle cx="${x(values.length - 1).toFixed(1)}" cy="${y(curVal).toFixed(1)}" r="3" class="eq-dot" />
+      <circle cx="${x(realized.length - 1).toFixed(1)}" cy="${y(endReal).toFixed(1)}" r="3" class="eq-dot" />
+      ${markedPath}
       <text x="${padL}" y="${yBot + 16}" class="eq-axis-lbl" text-anchor="start">${escapeHtml(String(startLbl))} · ${escapeHtml(fmtMoney(startVal))} $</text>
-      <text x="${W - padR}" y="${yBot + 16}" class="eq-axis-lbl" text-anchor="end">aktuell ${escapeHtml(fmtMoney(curVal))} $</text>
+      <text x="${W - padR}" y="${yBot + 16}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(endLbl)}</text>
     </svg>`;
 }
 
@@ -597,7 +624,6 @@ async function renderPortfolio() {
   const summary = pf && pf.summary ? pf.summary : null;
   const closed = pf && Array.isArray(pf.closed) ? pf.closed : [];
   const open = pf && Array.isArray(pf.open) ? pf.open : [];
-  const curve = pf && Array.isArray(pf.equity_curve) ? pf.equity_curve : [];
 
   if (!summary || (summary.closed_count || 0) === 0) {
     // Tag 1 / kein Depot: Hinweis statt Kennzahlen, aber Liste trotzdem zeigen.
@@ -609,7 +635,7 @@ async function renderPortfolio() {
       <p class="depot-note">Forward-Test läuft seit heute — Trades schließen, sobald neue Kurse vorliegen.</p>
       <div class="pcard">
         <h3>Equity-Kurve</h3>
-        ${renderEquityChart(curve)}
+        ${renderEquityChart(pf)}
       </div>
       <div class="pcard">
         <h3>Aktive Signale</h3>
@@ -624,7 +650,7 @@ async function renderPortfolio() {
       ${renderPortfolioHead(summary)}
       <div class="pcard">
         <h3>Equity-Kurve</h3>
-        ${renderEquityChart(curve)}
+        ${renderEquityChart(pf)}
       </div>
       <div class="pcard">
         <h3>Aktive Signale</h3>

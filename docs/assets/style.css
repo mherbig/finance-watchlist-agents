@@ -436,3 +436,11 @@ body {
   .ptable { font-size: 12px; }
   .ptable thead th, .ptable td { padding: 5px 5px; }
 }
+
+/* Equity-Chart: zweite Linie (Mark-to-Market) + Legende */
+.eq-line-marked { stroke: #e3b341; stroke-width: 2; }
+.eq-dot-marked { fill: #e3b341; }
+.eq-legend { display: flex; gap: 16px; align-items: center; font-size: 12px; color: var(--text-dim); margin: 2px 0 6px; }
+.eq-key { display: inline-block; width: 12px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.eq-key-real { background: var(--accent); }
+.eq-key-marked { background: #e3b341; }

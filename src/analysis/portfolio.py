@@ -485,7 +485,8 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     events = []
     for i, t in enumerate(tradeable):
         events.append((str(t.get("date")), i, "open", t))
-        if t.get("status") in ("sl", "tp", "expired") and t.get("exit_date"):
+        if t.get("status") in ("sl", "tp", "expired", "flip") \
+                and t.get("exit_date"):
             events.append((str(t.get("exit_date")), i, "close", t))
     # Stabile Sortierung nach Datum; bei gleichem Datum OPEN vor CLOSE und in
     # Eingangsreihenfolge.
@@ -545,7 +546,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     # Offene handelbare Trades (kein CLOSE-Event).
     open_list = []
     for idx, t in enumerate(tradeable):
-        if t.get("status") in ("sl", "tp", "expired"):
+        if t.get("status") in ("sl", "tp", "expired", "flip"):
             continue
         lock = locked.get(idx, {})
         current_price = prices.get(t.get("symbol"))
@@ -628,3 +629,97 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         "closed": closed,
         "open": open_list,
     }
+
+
+def marked_equity_curve(trades: list, series_by_key: dict,
+                        start_equity: float = 100_000.0,
+                        risk_pct: float = 0.01) -> list:
+    """Taegliche Mark-to-Market-Kurve ueber die Forward-Test-Lebenszeit.
+
+    Fuer jeden Handelstag (Union der Bar-Daten aller Serien, ab dem fruehesten
+    Entry): erst alle Events bis einschliesslich des Tages anwenden (Opens
+    sperren risk_pct der aktuellen Equity, Exits realisieren P&L wie in
+    ``simulate``), dann alle noch offenen, GEFUELLTEN Positionen zum
+    Tagesschluss bewerten (letzter bekannter Schluss <= Tag, carry-forward bei
+    Bar-Luecken).
+
+    ``series_by_key``: rohe time_series (neueste zuerst) je symbol/display.
+    Pending (filled False) und no_fill/none zaehlen nicht.
+
+    Liefert ``[{date, equity, marked_equity}]`` (equity = nur realisiert).
+    """
+    tradeable = [t for t in trades
+                 if _is_tradeable(t) and t.get("filled") is not False]
+    if not tradeable:
+        return []
+
+    asc = {k: _ascending_bars(ts) for k, ts in (series_by_key or {}).items()}
+
+    def _bars_for(t):
+        for key in (t.get("symbol"), t.get("display")):
+            if key is not None and key in asc:
+                return asc[key]
+        return []
+
+    first_entry = min(str(t.get("date")) for t in tradeable)
+    timeline = sorted({b["date"] for bars in asc.values() for b in bars
+                       if b["date"] >= first_entry})
+    if not timeline:
+        return []
+
+    # Events wie in simulate: stabile Sortierung, Risiko am OPEN sperren.
+    events = []
+    for i, t in enumerate(tradeable):
+        events.append((str(t.get("date")), i, "open", t))
+        if t.get("status") in ("sl", "tp", "expired", "flip") \
+                and t.get("exit_date"):
+            events.append((str(t.get("exit_date")), i, "close", t))
+    kind_rank = {"open": 0, "close": 1}
+    events.sort(key=lambda e: (e[0], kind_rank[e[2]], e[1]))
+
+    equity = float(start_equity)
+    locked: dict[int, dict] = {}      # idx -> {risk_amount, units}
+    open_pos: dict[int, dict] = {}    # idx -> aktiver Trade
+    trade_bars = {i: _bars_for(t) for i, t in enumerate(tradeable)}
+    bar_ptr: dict[int, int] = {}      # idx -> Leseposition in trade_bars
+    last_close: dict[int, float] = {}  # idx -> letzter bekannter Schluss
+
+    curve = []
+    ev = 0
+    for day in timeline:
+        while ev < len(events) and events[ev][0] <= day:
+            _d, idx, kind, t = events[ev]
+            if kind == "open":
+                risk_amount = round(risk_pct * equity, 4)
+                locked[idx] = {
+                    "risk_amount": risk_amount,
+                    "units": position_size(risk_amount, t.get("entry"),
+                                           t.get("stop_loss")),
+                }
+                open_pos[idx] = t
+            else:  # close
+                lock = locked.get(idx, {"risk_amount": round(risk_pct * equity, 4)})
+                equity = round(equity + lock["risk_amount"]
+                               * (t.get("realized_R") or 0.0), 4)
+                open_pos.pop(idx, None)
+            ev += 1
+
+        unreal = 0.0
+        for idx, t in open_pos.items():
+            bars = trade_bars[idx]
+            p = bar_ptr.get(idx, 0)
+            while p < len(bars) and bars[p]["date"] <= day:
+                last_close[idx] = bars[p]["close"]
+                p += 1
+            bar_ptr[idx] = p
+            close = last_close.get(idx)
+            units = (locked.get(idx) or {}).get("units")
+            entry = t.get("entry")
+            if close is None or units is None or entry is None:
+                continue
+            unreal += _direction_sign(t.get("direction")) \
+                * (float(close) - float(entry)) * float(units)
+
+        curve.append({"date": day, "equity": round(equity, 4),
+                      "marked_equity": round(equity + unreal, 4)})
+    return curve

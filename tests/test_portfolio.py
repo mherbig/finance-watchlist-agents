@@ -867,6 +867,18 @@ def test_simulate_marked_equity_short_in_loss():
     assert s["marked_return_pct"] == -0.6
 
 
+def test_simulate_closed_entry_carries_entry_and_exit_date():
+    # Geschlossene Trades muessen Eroeffnungs- UND Exit-Datum tragen
+    # (Trade-Historie im Dashboard zeigt beide).
+    t = dict(_open_trade("AAA", "LONG", 100.0, 95.0, date="2026-01-01"),
+             take_profit=110.0, status="tp", exit_date="2026-01-05",
+             exit_price=110.0, realized_R=2.0)
+    res = portfolio.simulate([t])
+    c = res["closed"][0]
+    assert c["date"] == "2026-01-01"
+    assert c["exit_date"] == "2026-01-05"
+
+
 def test_simulate_flip_realizes_pnl_and_leaves_open_list():
     # Ein per Bias-Flip geschlossener Trade ist GESCHLOSSEN: P&L wird
     # realisiert, er zaehlt in closed/wins/losses und ist NICHT mehr offen.

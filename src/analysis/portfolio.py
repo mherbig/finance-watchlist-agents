@@ -527,6 +527,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
             closed.append({
                 "symbol": t.get("symbol"),
                 "display": t.get("display"),
+                "date": t.get("date"),
                 "direction": t.get("direction"),
                 "conviction": t.get("conviction"),
                 "entry": t.get("entry"),

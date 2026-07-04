@@ -564,7 +564,9 @@ function renderClosedTrades(closed) {
       <td>${escapeHtml(c.display || c.symbol || "")}</td>
       <td>${dirChip(c.direction)}</td>
       <td class="num">${fmtNum(c.entry)}</td>
+      <td class="num">${c.date ? escapeHtml(fmtDate(c.date)) : "–"}</td>
       <td class="num">${fmtNum(c.exit_price)}</td>
+      <td class="num">${c.exit_date ? escapeHtml(fmtDate(c.exit_date)) : "–"}</td>
       <td class="num">${c.realized_R == null ? "–" : fmtNum(c.realized_R, 2)}</td>
       <td class="num ${pnlCls}">${sign}${fmtMoney(c.pnl)} $</td>
       <td><span class="res-chip ${resCls}">${resLbl}</span></td>
@@ -574,7 +576,10 @@ function renderClosedTrades(closed) {
   return `
     <table class="ptable">
       <thead><tr>
-        <th>Symbol</th><th>Richtung</th><th>Entry</th><th>Exit</th>
+        <th>Symbol</th><th>Richtung</th><th>Entry</th>
+        <th title="Datum der Eröffnung (Signal-Datum)">Eröffnet</th>
+        <th>Exit</th>
+        <th title="Datum des Exits (SL/TP/Flip/Horizont)">Geschlossen</th>
         <th>R</th><th>P&amp;L</th><th>Ergebnis</th>
       </tr></thead>
       <tbody>${body}</tbody>

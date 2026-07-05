@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 72.13,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend down, RSI 18",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "Brent notiert bei 72,76 USD nach einem heftigen Rutsch (Tagesveraenderung -3,3 %), tief unter allen gleitenden Durchschnitten und mit einem extrem ueberverkauften RSI von 17. Das Bild bleibt charttechnisch klar abwaerts gerichtet, wobei die Schnelligkeit der Bewegung an eine moegliche Gegenbewegung denken laesst. Der Verfall des frueheren Kriegs-Risikoaufschlags durch US-Iran-Entspannung steht hohen Lagerabbau-Daten gegenueber.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Trend ist **abwaerts**: Kurs (72,76) liegt unter SMA20 (86,19), SMA50 (97,22) und SMA200 (78,62) - klar bearishe Reihenfolge. **RSI14 bei 16,96** signalisiert eine extreme Ueberverkauft-Lage, was kurzfristig eine technische Gegenbewegung wahrscheinlicher macht. **MACD** (-6,92) unter Signal (-5,79), Histogramm negativ (-1,13) - Momentum bleibt schwach. Schluessel-Level: Support am aktuellen Kurs **72,76**, Widerstand bei **97,81** (nahe SMA50). ATR14 von **4,54** zeigt hohe Schwankungsbreite. Abstand zum 52W-Hoch **-38,5 %** (118,35), zum 52W-Tief **+23,5 %** (58,92). Bias laut Snapshot neutral trotz Abwaertstrend."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "Treiber bleibt der Nahost-Konflikt: Die De-facto-Sperrung der **Strasse von Hormuz** dauert nach dem Beginn der Kampfhandlungen (28.02.) an, doch **Fortschritte bei US-Iran-Gespraechen** lassen den frueheren Kriegs-Risikoaufschlag abschmelzen - moeglicher Treiber des Kursrutsches. **OPEC+** erhoeht ab Juli nur symbolisch um 188 kb/d. Gegenpol: **rekordhoher Lagerabbau** (EIA schaetzt Q2 ~8,5 mb/d), OECD-Bestaende Richtung 50 Tage. Risiken: Eskalation/Deeskalation am Golf, Verhandlungsverlauf, Nachfrageschwaeche (JPM sieht 2026 ~60 USD)."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Trend ist klar abwaerts (Kurs 72,13 unter SMA20/50/200, MACD unter Signal), aber RSI14 bei 17,6 signalisiert eine extrem ueberverkaufte Lage mit erhoehtem Risiko einer technischen Gegenbewegung. Die Analyse-Agenten betonen genau diesen Widerspruch und stellen dem abschmelzenden Kriegs-Risikoaufschlag den rekordhohen Lagerabbau gegenueber; die Technik weist Bias neutral aus. Ohne sauberes Short-Setup und bei akutem Rebound-Risiko ist FLAT die disziplinierte Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

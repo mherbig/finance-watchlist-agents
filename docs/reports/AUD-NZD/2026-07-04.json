@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 1.21517,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 32",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "AUD/NZD notiert bei 1,2230 unmittelbar unter dem 52-Wochen-Hoch (1,22792) und damit am oberen Rand einer mehrwöchigen Aufwärtsbewegung. Getragen wird die Stärke von der klaren Zinsdivergenz: Die RBA hat 2026 bereits gestrafft, während die RBNZ den OCR bei 2,25 % hält. Der RSI von 72 signalisiert kurzfristig überkauftes Momentum direkt am Widerstand.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Kurs (1,2230) liegt klar über SMA20/50 (je 1,2158) und deutlich über SMA200 (1,1910) - die Struktur ist aufwärtsgerichtet, auch wenn der offizielle Trend-Tag \"side\" zeigt, da die Notierung knapp unter dem Hoch konsolidiert. - **RSI 72** ist überkauft und mahnt zur Vorsicht direkt am Widerstand\n- **MACD** positiv (0,0027 über Signal 0,0017, Histogramm +0,001) - Momentum noch intakt\n- **Schlüssel-Level**: Widerstand 1,2255 (und 52W-Hoch 1,22792), Support 1,2072\n- **ATR14 0,0064** zeigt moderate Volatilität; ein Ausbruch über 1,2255 öffnet neues Terrain\n\nDer Abstand zum 52W-Hoch beträgt nur -0,39 %, zum Tief (1,12958) +8,28 %. Ohne Bruch über 1,2255 bleibt das Setup ein Test der oberen Range-Grenze."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "Haupttreiber ist die **Zinsdivergenz**: Die RBA hat 2026 bereits angehoben (Cash Rate Richtung 4,1 %+), während die RBNZ den OCR seit mehreren Sitzungen bei **2,25 %** hält - ein struktureller Rückenwind für AUD gegen NZD. - **Risiken**: Anzeichen für eine wieder restriktivere RBNZ-Rhetorik oder enttäuschende australische Daten könnten das Zinsgefälle einengen\n- **Termine**: kommende RBA- und RBNZ-Entscheide sowie CPI-Daten beider Länder sind die nächsten Katalysatoren\n- Mittelfristige Hausprognosen (z. B. UBS) sehen das Paar Richtung 1,20 zum Jahresende - also unter dem aktuellen Niveau, was Rückschlagpotenzial nach einem überkauften Test andeutet."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Die Makro-These der Analyse (bullische Zinsdivergenz RBA gestrafft vs. RBNZ bei 2,25 %) bleibt strukturell stützend, doch die aktuelle Technik widerspricht klar: Der Kurs (1,21517) ist vom 52W-Hoch zurückgefallen, notiert unter SMA20 (1,2191) am SMA50, RSI14 auf 32,4 abgekühlt und MACD-Histogramm negativ (-0,0009) bei neutralem Bias und Seitwärts-Trend. Der Widerspruch zwischen bullischer These und schwachem Momentum rechtfertigt diszipliniertes FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

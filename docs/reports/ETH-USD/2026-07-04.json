@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 1788.66,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 54",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "ETH notiert bei ~1.579 USD und damit knapp ueber dem 52-Wochen-Tief (1.568) sowie rund 62 % unter dem Hoch (4.159). Trend und Bias bleiben abwaerts, alle SMAs liegen deutlich oberhalb des Kurses.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Kurs (**1.579**) handelt unter SMA20 (1.689), SMA50 (1.923) und SMA200 (2.329) - eine klar abwaerts gerichtete Stapelung, Bias *bearish*. RSI14 bei **40,8** ist schwach, aber noch nicht ueberverkauft; MACD (-77,5) liegt unter null, das Histogramm (+0,47) deutet auf nachlassendes Abwaertsmomentum. ATR14 ~83 zeigt erhoehte Tagesschwankung. Schluessel: Unterstuetzung **1.568** (zugleich 52W-Tief, nur 0,7 % entfernt), Widerstand **1.796**. Der Abstand zum 52W-Hoch betraegt **-62 %**. Solange 1.568 haelt, bleibt es eine Bodenbildungs-Beobachtung; ein Bruch eroeffnet neue Tiefs."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "ETF-Bild gemischt: BlackRock ETHA mit ~11,3 Mrd. USD kumulierten Zufluessen, aber Spot-ETH-ETFs verzeichneten im Mai 2026 netto ~401 Mio. USD Abfluss. Strukturell stuetzend: >30 % des Angebots (>40 Mio. ETH) sind gestaked, neue Staking-ETFs liefern ~2,8-3,5 % Rendite. **Risiken**: verschobenes Glamsterdam-Upgrade, zaehe US-Inflation und ausbleibende Fed-Zinssenkungen druecken Risikoappetit; L2-Konkurrenz und geringeres Fee-Burning bleiben Gegenwind. YTD liegt ETH ~46 % im Minus."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Widerspruechliches Bild: Trend seitwaerts, Bias neutral, RSI14 bei 54 - der Kurs (1789) hat SMA20 (1678) zurueckerobert und das MACD-Histogramm dreht klar positiv (+29), was auf nachlassendes Abwaertsmomentum deutet. Uebergeordnet bleibt die Struktur jedoch bearisch: Kurs unter SMA50 (1819) und SMA200 (2270), -55 % unter dem 52W-Hoch, und der Analyse-Read bleibt abwaerts mit Makro-Gegenwind. Ohne stimmige Richtung und mit Ueberzeugung unter 3 gilt die Disziplin-Regel: FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

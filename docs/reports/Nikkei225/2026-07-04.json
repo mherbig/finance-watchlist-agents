@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 69744.07,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 51",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "Der Nikkei225 notiert nach einer Rekordrally direkt am 52-Wochen-Hoch (72.366), getragen von KI-Chip-Nachfrage und schwachem Yen. Trend und Momentum bleiben aufwaerts gerichtet, doch RSI im oberen Bereich und der frische BoJ-Zinsschritt auf 1% mahnen zur Beobachtung.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der **Aufwaertstrend** ist intakt: Schlusskurs **72.366** liegt klar ueber SMA20 (68.046), SMA50 (63.828) und SMA200 (54.140) - sauberes Bullen-Stacking. **RSI 64,6** ist erhoeht, aber noch nicht ueberkauft; **MACD (2.219)** ueber Signal (2.053), Histogramm leicht positiv (+166) - Momentum traegt. Der Kurs steht exakt am **52W-Hoch (72.366, Abstand 0%)**, also ohne Widerstand nach oben - jeder Ruecksetzer prallt auf Neuland. **Support** bei 64.025, naechste Auffanglinie um SMA20. **ATR14 ~2.131** signalisiert breite Tagesspannen; Abstand zum **52W-Tief (39.460) +83%**. Eng am Hoch bleibt das Setup anfaellig fuer Gewinnmitnahmen."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "Treiber: globale **KI-Chip-Nachfrage** (Tokyo Electron, Advantest, Shin-Etsu) plus **schwacher Yen** nahe 160-162 je USD, der Exporterloese und repatriierte Auslandsgewinne aufblaeht. Gegenwind: Die **BoJ hob am 16.06.2026 den Leitzins auf 1%** (hoechster Stand seit 1995, 7-1-Votum) und signalisiert weitere Schritte - ein staerkerer Yen wuerde Exporteure belasten. Risiken: Konzentration auf wenige Tech-Titel, Yen-Volatilitaet nahe Mehrdekaden-Tief, geopolitik (Iran). Termine: kommende BoJ-Sitzung und US-Tech-Earnings im Blick."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "LONG",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der uebergeordnete Aufwaertstrend ist mit sauberem SMA-Stacking (Kurs 69.744 > SMA20 68.816 > SMA50 65.198 > SMA200 54.957) und bullischem Bias intakt, und der Kurs setzt mit +1,47% direkt oberhalb der SMA20 zur naechsten Aufwaertsbewegung an. RSI 51 laesst nach oben Raum, und die Naehe zum 52W-Hoch (-3,6%) eroeffnet bei Ausbruch Neuland. Das noch negative MACD-Histogramm (-332) mahnt jedoch zur Zurueckhaltung und begrenzt die Ueberzeugung.",
-    "entry": 69744.07,
-    "stop_loss": 66220.3801,
-    "take_profit": 75029.6049,
-    "take_profit_2": 72366.3438,
-    "rr": 1.5
-  }
+  "flags": []
 }

@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 81.92,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 67",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "SOL handelt bei 73,14 USD nach einem Tagesplus von +8,2 %, bleibt aber tief im langfristigen Abwärtstrend: 63 % unter dem 52W-Hoch (200,07) und nur 18 % über dem 52W-Tief (62,15). Der Kurs hat die SMA20 (69,48) zurückerobert, kämpft aber direkt am Widerstand 73,93 unterhalb von SMA50 (78,12) und SMA200 (95,80). Treiber bleiben ETF-Flows, der Firedancer-Rollout und der Alpenglow-Upgrade-Fahrplan.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Trend ist **seitwärts bis abwärts**: Kurs (73,14) über SMA20 (69,48), aber klar unter SMA50 (78,12) und SMA200 (95,80) – die Mittelfrist-Struktur bleibt bärisch. Der **RSI14 bei 62** zeigt Momentum nach dem +8,2 %-Tag, ohne überkauft zu sein. **MACD** dreht konstruktiv: Histogramm positiv (+0,63), MACD (−1,55) über Signal (−2,18) – frisches bullisches Cross unter der Nulllinie. Entscheidend ist der **Widerstand bei 73,93** unmittelbar über dem Kurs; ein Durchbruch öffnet den Weg zur SMA50 ~78. Darunter liegt **Support bei 63,13**, dicht am 52W-Tief (62,15). Die **ATR14 von 4,32** (~6 % des Kurses) signalisiert hohe Volatilität – Tagesschwankungen von 4–5 USD sind normal. Abstand: **−63 % zum 52W-Hoch**, **+18 % zum Tief**."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "**ETF-Flows** bleiben der Schlüsseltreiber: US-Spot-SOL-ETFs verzeichneten am 26.06. ~3,9 Mio. USD Abflüsse, kumuliert aber rund 1,13 Mrd. USD Zuflüsse; Morgan Stanleys amendierter S-1 (18.06.) lockt mit 0,14 % Gebühr und 95 % Staking-Reward-Weitergabe. **Tech-Fortschritt**: Firedancer trägt ~14 % des Mainnet-Stakes und erreichte v1.0.0 im Testnet (>600k TPS in Tests); **Alpenglow** (150 ms Finalität) zielt auf Q3 2026. **RWA** auf Solana erreichte mit 2,95 Mrd. USD ein ATH. **Risiko**: Ein Wochenschluss unter 60–65 USD könnte einen Abverkauf Richtung 25–30 USD auslösen."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Kurzfristig konstruktiv: Kurs 81,92 uber SMA20 (73,28) und SMA50 (75,43), bullisches MACD-Bild (Hist +1,69), doch der Kurs steht direkt am Widerstand 82,28 und der RSU14 von 66,7 ist bereits erhoht. Dem steht eine intakt barische Mittelfrist-Struktur entgegen: klar unter SMA200 (93,55), -57,8 % zum 52W-Hoch, Trend seitwarts/neutral, plus Abverkaufsrisiko unter 60-65 USD. Dieser Widerspruch am Widerstand rechtfertigt kein Directional-Signal; erst ein bestatigter Tages-Schluss uber dem SMA200-Bereich wurde ein Long tragen.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

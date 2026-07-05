@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 58.73,
@@ -49,65 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 73",
-  "flags": [],
-  "agent_analysis": {
-    "track": "fundamental",
-    "agents_run": [
-      "market-researcher",
-      "earnings-reviewer",
-      "model-builder",
-      "valuation-reviewer",
-      "pitch",
-      "meeting-prep"
-    ],
-    "summary": "Bank of America notiert bei 57,82 USD nur 0,6% unter dem 52-Wochen-Hoch (58,19) und damit im klaren Aufwärtstrend über allen gleitenden Durchschnitten - allerdings mit überkauftem RSI von 78. Treiber bleibt ein starkes Q1 2026 (NII +9% auf 15,9 Mrd., Rekord-EPS von 1,11 USD) und angehobene NII-Guidance. Charttechnisch reift die Rally heiß; fundamental stützt die Zins- und Gebührendynamik den Aufwärtstrend bis zur Q2-Zahl am 14. Juli.",
-    "sections": [
-      {
-        "agent": "market-researcher",
-        "title": "Markt & Sektor",
-        "body": "BofA ist die **zweitgrößte US-Bank** und ein diversifiziertes Universalinstitut (Consumer Banking, Global Wealth/Merrill, Global Banking, Global Markets). Direkte Peers sind **JPMorgan, Wells Fargo und Citigroup**. Das Umfeld ist 2026 günstig: Eine moderat steile Zinskurve und die Repricing fixverzinslicher Aktiva treiben den Nettozinsertrag, während rege Kapitalmarktaktivität Trading- und Investmentbanking-Gebühren stützt. - BofA profitiert überdurchschnittlich von seiner riesigen, zinssensitiven Einlagenbasis. - Strategischer Fokus auf **\"Responsible Growth\"**: Digitalisierung, KI im Kundenservice und Marktanteilsgewinne im Wealth Management. - Sektorrisiko: ein Anfang-2026 diskutierter Vorschlag zur **Deckelung von Kreditkartenzinsen bei 10%** könnte das Consumer-Geschäft belasten."
-      },
-      {
-        "agent": "earnings-reviewer",
-        "title": "Earnings & These",
-        "body": "Das **Q1 2026** (15. April) war ein klarer Beat und der Kern der aktuellen These:\n\n- **Nettogewinn +17% auf 8,6 Mrd. USD**, EPS **1,11 USD** - der höchste Quartals-EPS seit fast zwei Jahrzehnten. - Umsatz **+7,2% auf 30,43 Mrd. USD**. - **Nettozinsertrag (NII) +9% auf 15,9 Mrd.**, über Konsens (15,67 Mrd.). - Management hob die NII-Wachstumsguidance für 2026 von 5-7% auf **6-8%** an. Die These trägt: Zinsrückenwind plus Gebührenstärke aus Trading/IB treiben Gewinnwachstum bei diszipliniertem Kostenmanagement (Ziel ROTCE >15%)."
-      },
-      {
-        "agent": "model-builder",
-        "title": "Modell (DCF/Comps)",
-        "body": "Grobe Schätzung auf Comps-Basis: Bei Konsens-EPS 2026 von **~4,47 USD** und Kurs 57,82 ergibt sich ein **Forward-KGV von ~12,9x**. - Das liegt nahe dem historischen BofA-Mittel und leicht über dem Sektorabschlag zu JPMorgan. - Plausible Fair-Value-Spanne: **~12-14x** Forward-EPS → **rund 54-63 USD**. - Annahmen: NII-Wachstum 6-8%, stabile Kreditqualität, ROTCE im mittleren bis hohen Zehnerbereich, Buyback-getriebene EPS-Akkretion. Der aktuelle Kurs sitzt damit im oberen Drittel der Spanne; weiteres Aufwärtspotenzial hängt an einer NII-Guidance-Anhebung. Grobe Indikation, kein präzises Modell."
-      },
-      {
-        "agent": "valuation-reviewer",
-        "title": "Bewertungs-Check",
-        "body": "Die Bewertung ist **fair bis leicht ambitioniert**. ~12,9x Forward-EPS ist für eine qualitativ hochwertige Großbank in einem Zinsumfeld mit Rückenwind vertretbar, lässt aber wenig Spielraum für Enttäuschungen. - **Risiko 1:** Bei nur 0,6% unter dem 52W-Hoch ist viel Gutes eingepreist - eine NII-Verlangsamung oder steigende Kreditausfälle würden das Multiple drücken. - **Risiko 2:** Regulatorik (Kreditkarten-Cap) und Konjunkturzyklus. - **Stütze:** Der analystenseitige Durchschnitts-Kursziel von ~61,6 USD (Truist zuletzt auf 64 angehoben) liegt über dem aktuellen Kurs."
-      },
-      {
-        "agent": "pitch",
-        "title": "Investment-Case",
-        "body": "**Bull:**\n- Rekord-EPS und angehobene NII-Guidance (6-8%) belegen Ertragsdynamik. - Zinskurve und Asset-Repricing als struktureller Rückenwind. - Starke Trading-/IB-Gebühren und Wealth-Management-Wachstum. - Analystenkonsens \"Buy\" (84% Buy/Strong Buy), Kursziele über Markt. **Bear:**\n- RSI 78 signalisiert überkaufte, gereifte Rally direkt am 52W-Hoch. - Regulatorisches Risiko durch geplanten Kreditkartenzins-Cap. - Hohe Zinssensitivität wirkt bei Zinssenkungen in beide Richtungen. - Wenig Bewertungspuffer bei einem konjunktursensiblen Geschäftsmodell."
-      },
-      {
-        "agent": "meeting-prep",
-        "title": "Meeting-Briefing",
-        "body": "- **Kurslage:** 57,82 USD, Aufwärtstrend über SMA20/50/200 (55,2/53,3/52,4), aber RSI 78 überkauft; Widerstand 58,19 (52W-Hoch), Support 51,51. - **Letzte Earnings:** Q1 2026 Beat - EPS 1,11 USD (Rekord), NII +9% auf 15,9 Mrd., Guidance auf 6-8% angehoben. - **Nächster Katalysator:** **Q2-2026-Zahlen am 14. Juli** (Konsens EPS ~1,09 USD, Umsatz ~30 Mrd.); Fokus auf NII-Trajektorie und Kreditqualität. - **Bewertung:** ~12,9x Forward-EPS, Konsens-Kursziel ~61,6 USD, Rating \"Buy\". - **Hauptrisiken:** überkaufte Technik nahe Allzeithoch, regulatorischer Kreditkartenzins-Cap, Zinszyklus-Sensitivität."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "LONG",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Intakter Aufwaertstrend ueber allen SMAs (20/50/200) mit positivem MACD-Histogramm, fundamental gestuetzt durch ein starkes Q1 2026 (Rekord-EPS 1,11 USD, NII +9%, auf 6-8% angehobene Guidance) sowie Buy-Konsens mit Kursziel ~61,6 USD. Dagegen steht ein ueberkaufter RSI von 72,5 direkt am 52W-Hoch mit geringem Bewertungspuffer (~12,9x Forward-EPS) und Event-Risiko durch die Q2-Zahlen am 14. Juli. Das Bild ist stimmig bullisch, aber gereift - daher LONG mit moderater Ueberzeugung.",
-    "entry": 58.73,
-    "stop_loss": 56.561,
-    "take_profit": 61.9835,
-    "take_profit_2": null,
-    "rr": 1.5
-  }
+  "flags": []
 }

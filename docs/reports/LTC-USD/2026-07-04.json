@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 45.08,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 53",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "Litecoin handelt bei 41,97 USD (+2,57%) und sitzt nur knapp uber dem 52W-Tief von 40,92, das zugleich als Hauptsupport dient. Der Trend bleibt klar bearisch unter allen drei SMAs, doch RSI um 45 und ein gerade positiv gedrehtes MACD-Histogramm deuten auf nachlassenden Abwartsdruck. Der entscheidende Test ist, ob die 40,92-Zone halt oder ob Resistance bei 45,76 zuruckerobert wird.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Trend ist **bearisch**: LTC notiert mit 41,97 unter SMA20 (43,50), SMA50 (49,25) und SMA200 (59,25) - eine vollstandig negativ gestaffelte Mittelwert-Struktur. Der **RSI14 bei 44,55** liegt im neutralen, leicht schwachen Bereich, ohne uberverkauft zu sein. Der **MACD** bleibt mit -1,80 unter der Signallinie (-1,85), doch das Histogramm hat mit +0,045 erstmals positiv gedreht - ein fruhes Zeichen abnehmender Dynamik nach unten. Schlussel-Level: **Support 40,92** (= 52W-Tief, Kurs nur +2,57% daruber), **Resistance 45,76**. Die ATR14 von 1,89 (rund 4,5% des Kurses) signalisiert erhohte Volatilitat. Mit **-61,95% zum 52W-Hoch (110,31)** ist LTC tief im Drawdown; ein Bruch unter 40,92 offnet neuen Spielraum nach unten."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "Der erste US-Spot-ETF (**Canary LTCC**, Start Okt. 2025) sammelte bis Mitte Juni 2026 nur ~5,4 Mio USD an Assets bei 0,95% Gebuhr - die institutionelle Nachfrage bleibt verhalten und liefert kaum Ruckenwind. Zentraler langfristiger Treiber ist das **Litecoin-Halving im Juli 2027** (Block-Reward 6,25 -> 3,125 LTC), das historisch Rallyes vorausging. Mittelfristiges Aufwartspotenzial koennte das geplante **LitVM** (EVM-kompatibles ZK-Layer-2, Mainnet H2 2026) liefern. Risiken: schwache ETF-Adoption, allgemeine Krypto-Risikoaversion und die Nahe zum 52W-Tief. Analysten-Spannen fur Juni 2026 liegen breit zwischen ~42 und 56 USD."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "LTC (45,08) hat den SMA20 (43,50) zurueckerobert und das MACD-Histogramm dreht positiv (+0,54) - der Abwaertsdruck laesst nach. Doch die Struktur bleibt bearisch unter SMA50 (46,85) und SMA200 (57,72), der RSI (53) ist nur neutral und der Kurs stoesst direkt an Resistance 45,76 - kein stimmig bullisches Setup. FLAT, bis 45,76 nachhaltig ueberwunden oder 40,92 gebrochen wird.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

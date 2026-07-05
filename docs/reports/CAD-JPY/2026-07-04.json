@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-05T20:06:44.090822+00:00",
+  "generated_at": "2026-07-05T20:09:14.209018+00:00",
   "available": true,
   "snapshot": {
     "price": 113.64111,
@@ -49,40 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend down, RSI 46",
-  "flags": [],
-  "agent_analysis": {
-    "track": "technical",
-    "agents_run": [
-      "technical-macro"
-    ],
-    "summary": "CAD/JPY notiert bei 113,99 und steht technisch unter Druck: Der Kurs liegt unter allen relevanten Gleitenden Durchschnitten (SMA20 114,33 / SMA50 114,87 / SMA200 114,61), Trend und Bias sind abwaerts. Mit RSI 39 und leicht negativem MACD ueberwiegt Schwaeche, ohne dass das Paar bereits ueberverkauft waere. Die unmittelbare Entscheidung faellt an der Unterstuetzung 113,69; darunter droht eine Ausweitung des Rueckgangs.",
-    "sections": [
-      {
-        "agent": "technical-macro",
-        "title": "Technische Lesart",
-        "body": "Der Trend ist klar **abwaerts**: Der Schlusskurs 113,99 liegt unter SMA20 (114,33), SMA50 (114,87) und SMA200 (114,61) - alle drei buendeln im Bereich 114,3-114,9 und bilden eine massive Widerstandszone. **RSI 39** signalisiert Schwaeche, aber noch keine Ueberverkauftheit (<30). Der **MACD** ist negativ (-0,337) und liegt knapp unter der Signallinie, das Histogramm (-0,014) ist nur leicht negativ - Momentum schwach, ohne starke Beschleunigung. - **Support 113,69** (nur ~0,3 Punkte entfernt) ist die Schluesselmarke; ein Bruch oeffnet Raum nach unten. - **Resistance 115,15**; darueber erst Trendentlastung. - ATR14 0,47 (~0,4 % Tagesrange) - moderate Volatilitaet. - Abstand zum 52W-Hoch (117,24): **-2,8 %**; zum 52W-Tief (107,04): **+6,5 %** - Kurs im oberen Drittel der Jahresspanne, aber kippend."
-      },
-      {
-        "agent": "technical-macro",
-        "title": "Makro & Katalysatoren",
-        "body": "Der Hauptdruck kommt von der **Zins-Divergenz**: Die BoJ hat den Leitzins auf **1,0 %** angehoben (Tamura signalisiert Kurs Richtung neutral ~2 %, ING erwartet weitere ~50 Bp 2026), waehrend die **BoC bei 2,25 % stabil** verharrt (Sitzung 10.06.2026). Ein erstarkender Yen belastet CAD/JPY strukturell. - **Oel** als CAD-Treiber unter Druck: WTI fiel am 26.06. um ~4 % auf ~69 USD (tiefster Stand seit Februar), da die Strasse von Hormus wieder offen ist und Saudi-Arabien/Golfstaaten Foerderung hochfahren - schwaecht den Rohstoffwaehrungs-CAD. - **Risiken:** BoJ-Hawkishness und weiter fallendes Oel verstaerken den Abwaertsdruck; eine Oel-Stabilisierung oder BoC-Hawkishness koennte den Support 113,69 verteidigen."
-      }
-    ],
-    "generated_at": "2026-06-27T14:47:47.885197+00:00",
-    "model": "claude-opus-4-8"
-  },
-  "signal": {
-    "generated_at": "2026-07-04T21:32:26.376011+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "SHORT",
-    "conviction": 3,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Der Kurs (113,64) liegt unter SMA20/50/200, die im Bereich 113,96-114,68 eine massive Widerstandszone bilden; Trend abwaerts und Bias bearish. RSI 45,6 und negativer MACD (-0,2529) bestaetigen die Schwaeche, ohne dass das Paar bereits ueberverkauft ist. Makro stuetzt die Baisse: BoJ-Zinserhoehungen staerken den Yen, waehrend fallendes Oel den CAD belastet - ein Bruch der Unterstuetzung bei 113,62 oeffnet Raum nach unten, daher SHORT mit moderater Ueberzeugung.",
-    "entry": 113.6411,
-    "stop_loss": 114.393,
-    "take_profit": 112.5133,
-    "take_profit_2": 113.6195,
-    "rr": 1.5
-  }
+  "flags": []
 }

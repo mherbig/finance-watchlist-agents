@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98522,
+    "change_pct": -0.0020299622,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98522,
+    "change_pct": -0.0020299622427043156,
+    "sma20": 0.985,
+    "sma50": 0.9856,
+    "sma200": 0.9642,
+    "rsi14": 35.09,
+    "macd": {
+      "macd": -0.0008,
+      "signal": -0.0011,
+      "hist": 0.0003
+    },
+    "atr14": 0.0044,
+    "high_52w": 0.99488,
+    "low_52w": 0.90758002,
+    "pct_from_high": -0.97,
+    "pct_from_low": 8.55,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9939
+      },
+      {
+        "type": "support",
+        "price": 0.9776
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.98522
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'side' bei neutraler Bias, dazu ein widerspruechliches Momentum: RSI 35 schwach, aber MACD-Histogramm dreht knapp ins Positive und Preis liegt an SMA20/SMA50 sowie nahe dem 52W-Hoch. Ohne Volumenbestaetigung (volume_ratio null) und bei negativ laufender Conviction-3-Klasse im Track Record fehlt ein stimmiges Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

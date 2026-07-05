@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/CHF",
+  "display": "USD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.80302,
+    "change_pct": 0.0049814441,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.80302,
+    "change_pct": 0.0049814441206417325,
+    "sma20": 0.8064,
+    "sma50": 0.7964,
+    "sma200": 0.788,
+    "rsi14": 38.99,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0037,
+      "hist": -0.0014
+    },
+    "atr14": 0.0036,
+    "high_52w": 0.81232,
+    "low_52w": 0.76602,
+    "pct_from_high": -1.14,
+    "pct_from_low": 4.83,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8123
+      },
+      {
+        "type": "support",
+        "price": 0.7933
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.80302
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagesbild widerspruechlich: Trend 'side' und Bias neutral, RSI 38,99 schwach und MACD-Histogramm negativ (-0,0014), Preis 0,80302 unter der SMA20 (0,8064) - gegen den intakten Wochentrend 'up'. Kein klares Makro-Bild (EUR/USD seitwaerts) und Forex-Klasse ohne belastbaren Track Record rechtfertigen kein Setup. Ueberzeugung < 3, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

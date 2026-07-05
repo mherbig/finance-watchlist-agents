@@ -1,0 +1,67 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8508.07,
+    "change_pct": 0.3919,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8508.0703125,
+    "change_pct": 0.39186440318603144,
+    "sma20": 8365.0871,
+    "sma50": 8217.853,
+    "sma200": 8144.2779,
+    "rsi14": 59.21,
+    "macd": {
+      "macd": 64.6195,
+      "signal": 62.8011,
+      "hist": 1.8185
+    },
+    "atr14": 80.3965,
+    "high_52w": 8620.9296875,
+    "low_52w": 7546.16015625,
+    "pct_from_high": -1.31,
+    "pct_from_low": 12.75,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8508.0703
+      },
+      {
+        "type": "support",
+        "price": 8161.8301
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8508.0703125
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwärts, Kurs (8508) liegt über SMA20/50/200 bei RSI 59 und positivem MACD, nur 1,3 % unter dem 52-Wochen-Hoch. Das Makro-Bild stützt: GER40 und S&P500 klar im Aufwärtstrend, kein Gegenwind für einen europäischen Index-Long. Das unterdurchschnittliche Volumen (0,63) begrenzt die Konviktion auf 3 statt höher.",
+    "entry": 8508.07,
+    "stop_loss": 8363.3563,
+    "take_profit": 8725.1406,
+    "take_profit_2": 8508.0703,
+    "rr": 1.5
+  }
+}

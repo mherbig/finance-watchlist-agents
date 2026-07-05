@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 384.97,
+    "change_pct": 2.75183,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 384.97,
+    "change_pct": 2.751828324347409,
+    "sma20": 359.3765,
+    "sma50": 347.6534,
+    "sma200": 372.7558,
+    "rsi14": 59.23,
+    "macd": {
+      "macd": 7.4845,
+      "signal": 5.0796,
+      "hist": 2.4049
+    },
+    "atr14": 10.6618,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -25.63,
+    "pct_from_low": 22.36,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 384.97
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 384.97
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend bullisch (Kurs 384,97 ueber SMA20/50/200), RSI 59 mit Luft nach oben und positives MACD-Histogramm bestaetigen das Momentum. Der Anstieg von +2,75% laeuft mit ueberdurchschnittlichem Volumen (Ratio 1,1), und das Makro-Bild der Aktienmaerkte (S&P500, GER40 up) stuetzt die Long-Seite. Mit -25,6% zum 52W-Hoch bleibt Aufwaertspotenzial; Konviktion 3, da noch klar unter dem Jahreshoch.",
+    "entry": 384.97,
+    "stop_loss": 365.7788,
+    "take_profit": 413.7569,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

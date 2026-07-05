@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 77.65,
+    "change_pct": 4.6637,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 77.65,
+    "change_pct": 4.663701307453846,
+    "sma20": 77.27,
+    "sma50": 84.1192,
+    "sma200": 96.1027,
+    "rsi14": 42.89,
+    "macd": {
+      "macd": -3.2318,
+      "signal": -3.5614,
+      "hist": 0.3296
+    },
+    "atr14": 2.8443,
+    "high_52w": 128.96201,
+    "low_52w": 70.9,
+    "pct_from_high": -39.79,
+    "pct_from_low": 9.52,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 82.64
+      },
+      {
+        "type": "support",
+        "price": 70.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 77.65
+    },
+    "volume_ratio": 1.14
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Klarer Wochenabwaertstrend, Kurs unter SMA50/SMA200 und RSI14 bei 43 sprechen gegen einen Long, waehrend der heutige +4,7%-Rebound mit leicht positivem MACD-Histogramm einen Short in die Gegenbewegung hinein nicht rechtfertigt. Kein stimmiges Setup in beide Richtungen, dazu laeuft die Konviktionsstufe 3 im Track Record negativ (avg_R -0,61), daher zurueckhaltend FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

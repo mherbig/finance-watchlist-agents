@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.45837,
+    "change_pct": -0.0043630969,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.45837,
+    "change_pct": -0.0043630969262025785,
+    "sma20": 0.4596,
+    "sma50": 0.4617,
+    "sma200": 0.4613,
+    "rsi14": 32.76,
+    "macd": {
+      "macd": -0.0012,
+      "signal": -0.0012,
+      "hist": 0.0
+    },
+    "atr14": 0.0023,
+    "high_52w": 0.46878,
+    "low_52w": 0.44821,
+    "pct_from_high": -2.22,
+    "pct_from_low": 2.27,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4633
+      },
+      {
+        "type": "support",
+        "price": 0.4563
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.45837
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts, der Kurs (0.45837) liegt unter SMA20/50/200 und der Bias ist bearisch - ein stimmiges Short-Setup im Einklang mit dem Wochentrend. RSI14 bei 33 naehert sich dem ueberverkauften Bereich und das MACD-Histogramm ist flach (0.0), weshalb ich die Konviktion bei 3 halte statt hoeher. Kein starkes Gegen-Makro (EUR/USD seitwaerts), Support bei 0.4563 als naechstes Ziel.",
+    "entry": 0.4584,
+    "stop_loss": 0.4625,
+    "take_profit": 0.4522,
+    "take_profit_2": 0.4563,
+    "rr": 1.5
+  }
+}

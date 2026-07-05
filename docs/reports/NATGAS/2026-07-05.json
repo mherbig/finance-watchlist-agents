@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 3.245,
+    "change_pct": 1.5332,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 3.244999885559082,
+    "change_pct": 1.533159726418419,
+    "sma20": 3.1992,
+    "sma50": 3.0256,
+    "sma200": 3.46,
+    "rsi14": 56.21,
+    "macd": {
+      "macd": 0.0488,
+      "signal": 0.0586,
+      "hist": -0.0098
+    },
+    "atr14": 0.1336,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -56.5,
+    "pct_from_low": 28.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 3.087
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 3.244999885559082
+    },
+    "volume_ratio": 0.19
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts und der Preis liegt ueber SMA20/50, doch das MACD-Histogramm ist gerade negativ geworden (-0.0098) und der Tagesanstieg (+1.5%) kommt bei einem Volumen-Ratio von nur 0.19 voellig ohne Volumenbestaetigung. Preis steht zudem noch klar unter SMA200 (-56.5% vom 52W-Hoch), und die Konviktionsstufe 3 laeuft im Track Record negativ (avg_R -0.61). Kein stimmiges Setup mit ausreichender Ueberzeugung -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

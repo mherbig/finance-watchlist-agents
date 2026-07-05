@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29329.213,
+    "change_pct": -1.61,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29329.2109375,
+    "change_pct": -1.609976232245848,
+    "sma20": 29635.2965,
+    "sma50": 29143.2805,
+    "sma200": 26092.52,
+    "rsi14": 49.11,
+    "macd": {
+      "macd": 141.6323,
+      "signal": 226.5916,
+      "hist": -84.9593
+    },
+    "atr14": 700.5502,
+    "high_52w": 30660.599609375,
+    "low_52w": 22685.5703125,
+    "pct_from_high": -4.34,
+    "pct_from_low": 29.29,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30543.9199
+      },
+      {
+        "type": "support",
+        "price": 28508.0293
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 29329.2109375
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NQ100 zeigt sowohl im Tages- als auch im Wochentrend eine neutrale Seitwärtsbewegung (RSI 49, Bias neutral) und verlor am Berichtstag -1,61 % bei unterdurchschnittlichem Volumen (Ratio 0,83). Das MACD-Histogramm ist negativ, doch fehlt jede stimmige Trendbestätigung nach oben oder unten, und das Makro-Bild bleibt gemischt. Ohne klares Setup ist kein Einstieg gerechtfertigt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 390.48999,
+    "change_pct": 1.61601,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 390.48999,
+    "change_pct": 1.6160065577183316,
+    "sma20": 386.9555,
+    "sma50": 407.5954,
+    "sma200": 445.4361,
+    "rsi14": 50.06,
+    "macd": {
+      "macd": -9.8847,
+      "signal": -10.9675,
+      "hist": 1.0828
+    },
+    "atr14": 13.1671,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -27.96,
+    "pct_from_low": 10.67,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 428.05
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 390.48999
+    },
+    "volume_ratio": 0.86
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts, Bias neutral, RSI 50 und Preis unter SMA50/SMA200 bei fallendem Wochentrend ergeben kein stimmiges Setup, weder long noch short. Das Volumen (0.86) liegt unter dem Durchschnitt und das Tech-Makro (NQ100 seitwaerts/schwach) liefert keinen Rueckenwind. Gegen den Wochentrend nur mit klarem Setup handeln, das hier fehlt, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

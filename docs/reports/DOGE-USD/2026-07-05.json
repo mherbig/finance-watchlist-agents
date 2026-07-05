@@ -1,0 +1,67 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.07734,
+    "change_pct": -0.30935808,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.0773,
+    "change_pct": -0.3609177623098769,
+    "sma20": 0.0782,
+    "sma50": 0.0883,
+    "sma200": 0.103,
+    "rsi14": 37.24,
+    "macd": {
+      "macd": -0.0037,
+      "signal": -0.0044,
+      "hist": 0.0008
+    },
+    "atr14": 0.0038,
+    "high_52w": 0.19241,
+    "low_52w": 0.07196,
+    "pct_from_high": -59.83,
+    "pct_from_low": 7.42,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.0871
+      },
+      {
+        "type": "support",
+        "price": 0.072
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 0.0773
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaertsgerichtet (Bias bearish, Kurs unter SMA20/50/200, RSI14 37, MACD negativ), was einen Short stuetzt. BTC/USD als Leitmarkt ist schwach bis neutral und liefert keinen bullischen Gegenwind. Wegen der Naehe zum 52-Wochen-Tief (nur +7,4 %) direkt ueber Support 0,072 und der zuletzt negativ laufenden Krypto-Klasse bleibt die Konviktion niedrig.",
+    "entry": 0.0773,
+    "stop_loss": 0.0842,
+    "take_profit": 0.0671,
+    "take_profit_2": 0.072,
+    "rr": 1.5
+  }
+}

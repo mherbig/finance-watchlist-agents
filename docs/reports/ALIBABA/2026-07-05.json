@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 96.14,
+    "change_pct": -1.88795,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 96.14,
+    "change_pct": -1.887947749770379,
+    "sma20": 107.43,
+    "sma50": 122.9046,
+    "sma200": 147.0835,
+    "rsi14": 14.29,
+    "macd": {
+      "macd": -8.3141,
+      "signal": -7.8115,
+      "hist": -0.5026
+    },
+    "atr14": 3.1164,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -49.22,
+    "pct_from_low": 1.4,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 125.95
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 96.14
+    },
+    "volume_ratio": 0.9
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 14",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwärts (Kurs 96,14 unter SMA20/50/200, MACD negativ), was gegen einen Long spricht. Gleichzeitig steht der Preis mit RSI 14,3 extrem überverkauft direkt auf der 52-Wochen-Unterstützung (94,81) bei unterdurchschnittlichem Volumen (0,9), sodass ein frischer Short hier ein schlechtes Chance-Risiko-Verhältnis hat. Widerspruch aus bearischer Struktur und Erschöpfung am Support -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.13565,
+    "change_pct": -1.77483,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.13565,
+    "change_pct": -1.7748255014400889,
+    "sma20": 1.1059,
+    "sma50": 1.1968,
+    "sma200": 1.4787,
+    "rsi14": 51.89,
+    "macd": {
+      "macd": -0.0236,
+      "signal": -0.0385,
+      "hist": 0.0149
+    },
+    "atr14": 0.0488,
+    "high_52w": 2.55121,
+    "low_52w": 1.03995,
+    "pct_from_high": -55.49,
+    "pct_from_low": 9.2,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.2167
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 1.13565
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagesbild ist neutral (Trend seitwaerts, RSI 52, Bias neutral) und steht im Widerspruch zum klar abwaertsgerichteten Wochentrend (36 Wochen) sowie zu einem schwachen Krypto-Makro (BTC/USD seitwaerts, Wochentrend down). Der Kurs liegt unter SMA50/SMA200 und rund 55 Prozent unter dem 52W-Hoch; das leicht positive MACD-Histogramm reicht ohne Volumenbestaetigung nicht fuer ein stimmiges Setup. Die negative Trefferbilanz der Klasse Krypto (avg_R -0.72) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

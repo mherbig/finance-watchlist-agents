@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 111.90795,
+    "change_pct": -0.040954394,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 111.90655,
+    "change_pct": -0.04220490952518391,
+    "sma20": 112.2445,
+    "sma50": 113.0256,
+    "sma200": 110.5673,
+    "rsi14": 36.65,
+    "macd": {
+      "macd": -0.3478,
+      "signal": -0.3809,
+      "hist": 0.0331
+    },
+    "atr14": 0.6995,
+    "high_52w": 114.83705,
+    "low_52w": 97.806,
+    "pct_from_high": -2.55,
+    "pct_from_low": 14.42,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.4095
+      },
+      {
+        "type": "support",
+        "price": 111.3774
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 111.90655
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts (bearish bias), Kurs 111.91 notiert unter SMA20 und SMA50, RSI 37 und MACD negativ bestaetigen das schwache Momentum. Das Makro-Bild (risk-off-Tendenz, kein AUD-Rueckenwind) stuetzt Short in den JPY. Wegen fehlendem Volumen-Signal und schwacher Trefferbilanz der Conviction-3-Klasse bleibt die Ueberzeugung moderat.",
+    "entry": 111.9079,
+    "stop_loss": 113.1671,
+    "take_profit": 110.0193,
+    "take_profit_2": 111.3774,
+    "rr": 1.5
+  }
+}

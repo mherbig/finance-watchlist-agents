@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/JPY",
+  "display": "USD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 161.32472,
+    "change_pct": -0.034849216,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 161.32472,
+    "change_pct": -0.03484921641312215,
+    "sma20": 161.5414,
+    "sma50": 160.4096,
+    "sma200": 158.1251,
+    "rsi14": 50.88,
+    "macd": {
+      "macd": 0.3533,
+      "signal": 0.4853,
+      "hist": -0.132
+    },
+    "atr14": 0.6346,
+    "high_52w": 162.6076,
+    "low_52w": 150.481,
+    "pct_from_high": -0.79,
+    "pct_from_low": 7.21,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 162.6076
+      },
+      {
+        "type": "support",
+        "price": 160.4741
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 161.32472
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist neutral (Seitwaerts, RSI 51, MACD-Histogramm leicht negativ, Kurs unter SMA20) und steht im Widerspruch zum klaren Wochenaufwaertstrend nahe dem 52W-Hoch. Ohne bestaetigendes Volumen und mit negativem avg_R bei Konviktion 3 im Track Record fehlt ein stimmiges Setup fuer LONG, waehrend ein SHORT gegen den 38-Wochen-Aufwaertstrend liefe. Daher FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

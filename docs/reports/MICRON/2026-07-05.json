@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 975.56,
+    "change_pct": -5.49464,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 975.56,
+    "change_pct": -5.494635985547445,
+    "sma20": 1043.2715,
+    "sma50": 852.0854,
+    "sma200": 444.3445,
+    "rsi14": 48.97,
+    "macd": {
+      "macd": 64.4811,
+      "signal": 85.3189,
+      "hist": -20.8378
+    },
+    "atr14": 106.6736,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -19.61,
+    "pct_from_low": 830.17,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 864.01
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 975.56
+    },
+    "volume_ratio": 1.06
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend 'side'/neutral mit -5,5% Abverkauf, MACD unter Signal (Hist -20,8) und Bruch unter die SMA20 (1043) signalisieren nachlassende Dynamik, waehrend Wochentrend 'up' und intakte SMA50/200 dagegen stehen. Ausbruch fehlt, Volumen nur durchschnittlich (1,06) und kein klares Makro-Signal, daher kein stimmiges Long- oder Short-Setup. Ueberzeugung < 3 bei Unklarheit -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

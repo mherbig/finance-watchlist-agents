@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 184.51224,
+    "change_pct": -0.043804454,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 184.51224,
+    "change_pct": -0.04380445422932995,
+    "sma20": 184.6911,
+    "sma50": 184.997,
+    "sma200": 184.3942,
+    "rsi14": 45.66,
+    "macd": {
+      "macd": -0.1296,
+      "signal": -0.1452,
+      "hist": 0.0156
+    },
+    "atr14": 0.8772,
+    "high_52w": 187.58855,
+    "low_52w": 175.422,
+    "pct_from_high": -1.64,
+    "pct_from_low": 5.18,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 186.2828
+      },
+      {
+        "type": "support",
+        "price": 183.796
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 184.51224
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (38 Wochen) zeigen abwaerts, Bias bearisch, Preis 184.51 unter SMA20/SMA50 und knapp am Support 183.80. RSI 46 und MACD noch unter Null stuetzen die Schwaeche; der minimale Histogramm-Aufschwung ist zu gering fuer eine Trendwende. Passt zum makro-bearischen JPY-Cross-Bild (EUR/USD Wochentrend abwaerts), daher SHORT mit moderater Konviktion.",
+    "entry": 184.5122,
+    "stop_loss": 186.0912,
+    "take_profit": 182.1438,
+    "take_profit_2": 183.796,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 495.7,
+    "change_pct": -0.4519,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 495.70001220703125,
+    "change_pct": -0.45185258456515986,
+    "sma20": 495.685,
+    "sma50": 477.683,
+    "sma200": 542.0883,
+    "rsi14": 41.11,
+    "macd": {
+      "macd": 2.9646,
+      "signal": 4.299,
+      "hist": -1.3344
+    },
+    "atr14": 13.6393,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -23.98,
+    "pct_from_low": 11.41,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 520.3
+      },
+      {
+        "type": "support",
+        "price": 481.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 495.70001220703125
+    },
+    "volume_ratio": 0.4
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tages- und Wochentrend zeigen zwar aufwaerts, doch MACD-Histogramm ist negativ (2,96 unter Signal 4,30), RSI14 nur 41 und der Kurs (495,70) liegt weit unter der SMA200 (542) sowie 24% unter dem 52W-Hoch. Das Volumen-Ratio von 0,4 entzieht einem etwaigen Ausbruch die Bestaetigung, und die Konviktionsstufe 3 laeuft im Track Record klar negativ (avg_R -0,61). Ohne stimmiges Setup und ohne klaren symbolspezifischen Grund gegen die schwache Momentumlage bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

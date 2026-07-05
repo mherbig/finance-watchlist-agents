@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 419.8,
+    "change_pct": 0.3346,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 419.79998779296875,
+    "change_pct": 0.33460657669864713,
+    "sma20": 400.2,
+    "sma50": 388.816,
+    "sma200": 373.333,
+    "rsi14": 92.26,
+    "macd": {
+      "macd": 9.0714,
+      "signal": 7.4054,
+      "hist": 1.6661
+    },
+    "atr14": 4.7643,
+    "high_52w": 419.79998779296875,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": 0.0,
+    "pct_from_low": 25.65,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 419.8
+      },
+      {
+        "type": "support",
+        "price": 374.1
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 419.79998779296875
+    },
+    "volume_ratio": 0.64
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 92",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tages- und Wochentrend ist klar aufwaerts (Kurs ueber SMA20/50/200, MACD positiv), doch der Ausbruch auf ein frisches 52-Wochen-Hoch erfolgt bei RSI 92 (extrem ueberkauft) und mit unterdurchschnittlichem Volumen (volume_ratio 0.64), also wenig vertrauenswuerdig. Ein frischer Long ins Blow-off-Gebiet ist undiszipliniert, ein Short gegen den intakten Aufwaertstrend nicht stimmig begruendbar - daher FLAT und abwarten auf einen Ruecksetzer mit Volumenbestaetigung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

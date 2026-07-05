@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 588.55,
+    "change_pct": 2.2907,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 588.55,
+    "change_pct": 2.2906998974572796,
+    "sma20": 573.0665,
+    "sma50": 610.0126,
+    "sma200": 683.604,
+    "rsi14": 51.76,
+    "macd": {
+      "macd": -10.918,
+      "signal": -15.0863,
+      "hist": 4.1683
+    },
+    "atr14": 20.3229,
+    "high_52w": 1107.7,
+    "low_52w": 546.52,
+    "pct_from_high": -46.87,
+    "pct_from_low": 7.69,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 604.94
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 588.55
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist klar abwaerts (36 Wochen) und der Kurs notiert unter SMA50/SMA200; ein SHORT ist dennoch nicht sauber, da RSI mit ~52 neutral ist, der Tag +2,3% zulegt und der Preis mittig zwischen Support 546,52 und Widerstand 604,94 ueber der SMA20 liegt (MACD-Histogramm leicht positiv, kein Volumenbeleg). Da Krypto und Konviktion 3 im Track Record klar negativ laufen (avg_R -0,72 bzw. -0,61) und BTC als Leitmarkt neutral-schwach ist, bleibt das Bild widerspruechlich und rechtfertigt kein neues Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

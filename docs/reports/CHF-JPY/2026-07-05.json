@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 200.96383,
+    "change_pct": -0.011463435,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 200.96383,
+    "change_pct": -0.01146343539755051,
+    "sma20": 200.3314,
+    "sma50": 201.4328,
+    "sma200": 200.6785,
+    "rsi14": 65.05,
+    "macd": {
+      "macd": -0.1171,
+      "signal": -0.3096,
+      "hist": 0.1926
+    },
+    "atr14": 0.8648,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.56,
+    "pct_from_low": 6.02,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 202.3061
+      },
+      {
+        "type": "support",
+        "price": 199.1978
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 200.96383
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend ist neutral (RSI 65, Preis zwischen SMA20 und SMA50), waehrend der Wochentrend seit 38 Wochen klar abwaerts zeigt - ein Widerspruch ohne stimmiges Setup. Das MACD-Histogramm dreht zwar leicht positiv, doch fehlt eine Volumenbestaetigung (volume_ratio null) und ein starker symbolspezifischer Grund gegen den Wochentrend. Bei unklarer Lage und schwacher Forex-Trefferbilanz bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

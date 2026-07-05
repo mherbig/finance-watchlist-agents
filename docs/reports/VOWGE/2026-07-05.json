@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 74.66,
+    "change_pct": 1.8554,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 74.66000366210938,
+    "change_pct": 1.8553895685260113,
+    "sma20": 80.52,
+    "sma50": 85.1928,
+    "sma200": 93.5029,
+    "rsi14": 18.73,
+    "macd": {
+      "macd": -4.3339,
+      "signal": -3.5652,
+      "hist": -0.7687
+    },
+    "atr14": 2.5414,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -31.25,
+    "pct_from_low": 6.75,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.42
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 74.66000366210938
+    },
+    "volume_ratio": 0.6
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 19",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwärts mit voll bärischem MA-Stack (Kurs 74,66 unter SMA20/50/200) und weiterhin negativem MACD - ein sauberes LONG scheidet aus. Das einzige bullische Argument ist ein extrem überverkaufter RSI von 18,7, doch der heutige Rebound (+1,9%) läuft auf unterdurchschnittlichem Volumen (Ratio 0,6) direkt am 52W-Tief. Ein Short gegen den steigenden GER40 und bei negativem Conviction-3-Track-Record ist ebenfalls nicht stimmig, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

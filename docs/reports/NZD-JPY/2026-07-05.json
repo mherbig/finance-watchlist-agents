@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 92.10571,
+    "change_pct": -0.023022587,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 92.10571,
+    "change_pct": -0.023022586666303833,
+    "sma20": 92.0759,
+    "sma50": 92.996,
+    "sma200": 92.5793,
+    "rsi14": 43.52,
+    "macd": {
+      "macd": -0.2961,
+      "signal": -0.3935,
+      "hist": 0.0974
+    },
+    "atr14": 0.5841,
+    "high_52w": 95.37972,
+    "low_52w": 86.249,
+    "pct_from_high": -3.43,
+    "pct_from_low": 6.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 93.5767
+      },
+      {
+        "type": "support",
+        "price": 91.2076
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 92.10571
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist neutral (RSI 44, Kurs an der SMA20 festgenagelt, Preis unter SMA50/200), sodass kein stimmiges Long- oder Short-Setup vorliegt. Der klar bearische Wochentrend (seit 38 Wochen abwaerts) verbietet ein Long, aber der leicht positive MACD-Impuls und die fehlende Ueberzeugung rechtfertigen auch keinen Short. Ohne Makro-Rueckenwind und mit uneinheitlichem Bild ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

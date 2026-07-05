@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:30:37.083553+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1777.67,
+    "change_pct": -0.089362994,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1777.67,
+    "change_pct": -0.089362993604078,
+    "sma20": 1676.5925,
+    "sma50": 1810.5374,
+    "sma200": 2264.2129,
+    "rsi14": 57.2,
+    "macd": {
+      "macd": -22.2857,
+      "signal": -53.2683,
+      "hist": 30.9826
+    },
+    "atr14": 82.8936,
+    "high_52w": 3906.59,
+    "low_52w": 1568.4,
+    "pct_from_high": -54.5,
+    "pct_from_low": 13.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1792.07
+      },
+      {
+        "type": "support",
+        "price": 1568.4
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 1777.67
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-05T20:38:39.577569+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist klar abwärts (36 Wochen), während der Tagestrend nur seitwärts läuft und der Kurs (1777.67) unter SMA50/SMA200 sowie direkt unter dem Widerstand bei 1792.07 klemmt; RSI 57 und ein knapp positives MACD-Histogramm liefern kein tragfähiges Long-Setup. Das Makro-Bild (BTC seitwärts, Wochentrend abwärts) stützt keinen Trade, und die Krypto-Klasse läuft im Track Record negativ (avg_R -0.72), daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

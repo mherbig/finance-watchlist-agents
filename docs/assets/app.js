@@ -439,11 +439,22 @@ function renderEquityChart(pf) {
   const marked = mc.map((x) => x.marked_equity);
   if (realized.length === 0) realized = [100000];
 
+  // Benchmark (Equal-Weight Buy&Hold) auf die Kurven-Daten ausrichten;
+  // fehlende Tage werden fortgeschrieben.
+  const bmRaw = Array.isArray(p.benchmark_curve) ? p.benchmark_curve : [];
+  const bmMap = {};
+  for (const b of bmRaw) if (b && typeof b.equity === "number") bmMap[b.date] = b.equity;
+  let bmLast = null;
+  const bench = mc.length && bmRaw.length
+    ? dates.map((d) => { if (bmMap[d] != null) bmLast = bmMap[d]; return bmLast; })
+        .map((v) => (v == null ? 100000 : v))
+    : [];
+
   const W = 720, H = 200, padL = 64, padR = 16, padT = 16, padB = 24;
   const innerW = W - padL - padR;
   const innerH = H - padT - padB;
 
-  const all = realized.concat(marked);
+  const all = realized.concat(marked).concat(bench);
   let min = Math.min(...all);
   let max = Math.max(...all);
   if (min === max) { min -= min * 0.001 || 1; max += max * 0.001 || 1; }
@@ -475,13 +486,19 @@ function renderEquityChart(pf) {
     ? `<path d="${pathFor(marked)}" class="eq-line-marked" fill="none" />
        <circle cx="${x(marked.length - 1).toFixed(1)}" cy="${y(endMarked).toFixed(1)}" r="3" class="eq-dot-marked" />`
     : "";
+  const benchPath = bench.length
+    ? `<path d="${pathFor(bench)}" class="eq-line-bench" fill="none" />`
+    : "";
+  const endBench = bench.length ? bench[bench.length - 1] : null;
   const endLbl = endMarked != null
     ? `bewertet ${fmtMoney(endMarked)} $ · realisiert ${fmtMoney(endReal)} $`
+      + (endBench != null ? ` · Benchmark ${fmtMoney(endBench)} $` : "")
     : `aktuell ${fmtMoney(endReal)} $`;
   const legend = marked.length
     ? `<div class="eq-legend">
          <span><span class="eq-key eq-key-marked"></span>Bewertet (inkl. offener Positionen)</span>
          <span><span class="eq-key eq-key-real"></span>Realisiert</span>
+         ${bench.length ? '<span><span class="eq-key eq-key-bench"></span>Benchmark (Buy &amp; Hold, gleichgewichtet)</span>' : ""}
        </div>`
     : "";
 
@@ -491,6 +508,7 @@ function renderEquityChart(pf) {
       <line x1="${padL}" y1="${yBot}" x2="${W - padR}" y2="${yBot}" class="eq-axis" />
       <text x="${padL - 6}" y="${yTop + 4}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(max))}</text>
       <text x="${padL - 6}" y="${yBot}" class="eq-axis-lbl" text-anchor="end">${escapeHtml(fmtMoney(min))}</text>
+      ${benchPath}
       <path d="${pathFor(realized)}" class="eq-line" fill="none" />
       <circle cx="${x(0).toFixed(1)}" cy="${y(startVal).toFixed(1)}" r="3" class="eq-dot" />
       <circle cx="${x(realized.length - 1).toFixed(1)}" cy="${y(endReal).toFixed(1)}" r="3" class="eq-dot" />
@@ -602,7 +620,9 @@ function renderPortfolioHead(summary) {
     + `· Offene Positionen: ${unrlStr} unrealisiert (zum letzten Tagesschluss bewertet)`;
   const wr = s.win_rate == null ? 0 : Math.round(Number(s.win_rate) * 100);
   const meta = `Start 100.000 $ · ${s.closed_count || 0} Trades `
-    + `(${s.wins || 0}W/${s.losses || 0}L, Trefferquote ${wr} %) · ${s.open_count || 0} offen`;
+    + `(${s.wins || 0}W/${s.losses || 0}L, Trefferquote ${wr} %) · ${s.open_count || 0} offen`
+    + (s.skipped_count ? ` · ${s.skipped_count} Signale durch Risiko-Limits übersprungen` : "")
+    + (s.total_costs ? ` · Kosten ${fmtMoney(s.total_costs)} $` : "");
   return `
     <div class="depot-head">
       <div class="depot-equity">Depot: ${escapeHtml(equity)} $${retHtml}</div>

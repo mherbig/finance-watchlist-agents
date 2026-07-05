@@ -3,7 +3,30 @@
   "data_dir": "data",
   "reports_dir": "docs/reports",
   "twelvedata": { "min_interval_seconds": 8, "time_series_outputsize": 250 },
-  "signals": { "flat_closes_position": true },
+  "signals": {
+    "flat_closes_position": true,
+    "flat_close_min_conviction": 3,
+    "flat_close_consecutive": 2
+  },
+  "portfolio": {
+    "risk_pct_default": 0.01,
+    "risk_pct_by_conviction": { "3": 0.005, "4": 0.01, "5": 0.015 },
+    "max_total_risk_pct": 0.12,
+    "max_per_class": 4,
+    "max_per_currency": 3,
+    "max_drawdown_stop_pct": 0.1
+  },
+  "costs": {
+    "round_trip_pct": {
+      "forex": 0.02,
+      "index": 0.04,
+      "crypto": 0.2,
+      "stock": 0.1,
+      "metal": 0.05,
+      "energy": 0.06,
+      "default": 0.05
+    }
+  },
   "fundamental_cadence": "daily",
   "run_time_utc": "22:30"
 }

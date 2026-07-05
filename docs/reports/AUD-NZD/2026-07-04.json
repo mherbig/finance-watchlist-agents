@@ -4,7 +4,7 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "generated_at": "2026-07-05T20:06:44.090822+00:00",
   "available": true,
   "snapshot": {
     "price": 1.21517,
@@ -39,7 +39,13 @@
         "type": "support",
         "price": 1.212
       }
-    ]
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.21517
+    },
+    "volume_ratio": null
   },
   "fundamental": null,
   "headline": "Trend side, RSI 32",

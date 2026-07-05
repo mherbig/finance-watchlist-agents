@@ -138,3 +138,53 @@ def test_atr_none_when_no_high_low():
     assert out["atr14"] is None
     # restliche Felder weiterhin berechenbar
     assert out["rsi14"] is not None
+
+
+# --- C2 Weekly-Trend + C6 Volumen-Ratio -------------------------------------
+
+def _series_weekly(closes_per_week, start="2025-01-06"):
+    """Ein Bar je Woche (Montage), Closes aelteste zuerst, neueste zuerst raus."""
+    import datetime
+    d = datetime.date.fromisoformat(start)
+    bars = []
+    for i, c in enumerate(closes_per_week):
+        day = d + datetime.timedelta(weeks=i)
+        bars.append({"datetime": day.isoformat(), "open": str(c),
+                     "high": str(c + 1), "low": str(c - 1), "close": str(c),
+                     "volume": "1000"})
+    return list(reversed(bars))
+
+
+def test_weekly_trend_up_on_rising_weeks():
+    ts = _series_weekly([float(100 + i) for i in range(30)])
+    out = compute_technical(ts)
+    assert out["weekly"]["trend"] == "up"
+    assert out["weekly"]["weeks"] >= 20
+
+
+def test_weekly_trend_down_on_falling_weeks():
+    ts = _series_weekly([float(200 - i * 2) for i in range(30)])
+    out = compute_technical(ts)
+    assert out["weekly"]["trend"] == "down"
+
+
+def test_weekly_trend_side_with_too_few_weeks():
+    ts = _series_weekly([100.0, 101.0, 102.0])
+    out = compute_technical(ts)
+    assert out["weekly"]["trend"] == "side"
+
+
+def test_volume_ratio_vs_prior_20_bars():
+    closes = [100.0] * 25
+    ts = _series_from_closes(closes)          # volume je Bar "1000"
+    ts[0] = dict(ts[0], volume="3000")        # neuester Bar: 3x Volumen
+    out = compute_technical(ts)
+    assert out["volume_ratio"] == 3.0
+
+
+def test_volume_ratio_none_without_volume():
+    closes = [100.0] * 25
+    ts = [{k: v for k, v in b.items() if k != "volume"}
+          for b in _series_from_closes(closes)]
+    out = compute_technical(ts)
+    assert out["volume_ratio"] is None

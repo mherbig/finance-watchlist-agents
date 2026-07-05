@@ -38,6 +38,9 @@ jobs:
       - name: Build reports (technical; preserves agent_analysis + signals)
         run: python scripts/build_reports.py
 
+      - name: Build market context (anchors + vol regime for signal judges)
+        run: python scripts/build_market_context.py
+
       - name: Update portfolio + forward-test
         run: |
           python scripts/build_portfolio.py

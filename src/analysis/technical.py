@@ -96,6 +96,58 @@ def _atr14(highs, lows, closes):
     return round(sum(trs[-14:]) / 14.0, 4)
 
 
+def _weekly_block(bars: list[dict]) -> dict:
+    """Wochentrend aus Tagesbars (oldest-first): letzter Close je ISO-Woche.
+
+    up:   letzter Wochenschluss > SMA10(Wochen) und SMA10 steigend
+    down: letzter Wochenschluss < SMA10(Wochen) und SMA10 fallend
+    sonst side (auch bei < 12 Wochen Daten).
+    """
+    import datetime
+    weekly: dict[tuple, float] = {}
+    order: list[tuple] = []
+    for b in bars:
+        dt = str(b.get("datetime") or "")[:10]
+        c = _to_float(b.get("close"))
+        if c is None or len(dt) != 10:
+            continue
+        try:
+            iso = datetime.date.fromisoformat(dt).isocalendar()
+        except ValueError:
+            continue
+        key = (iso[0], iso[1])
+        if key not in weekly:
+            order.append(key)
+        weekly[key] = c  # letzter Close der Woche gewinnt (oldest-first)
+    closes = [weekly[k] for k in order]
+    n = len(closes)
+    trend = "side"
+    if n >= 12:
+        sma_now = _sma(closes, 10)
+        sma_prev = _sma(closes[:-1], 10)
+        last = closes[-1]
+        if sma_now is not None and sma_prev is not None:
+            if last > sma_now and sma_now > sma_prev:
+                trend = "up"
+            elif last < sma_now and sma_now < sma_prev:
+                trend = "down"
+    return {"trend": trend, "weeks": n,
+            "last_close": closes[-1] if closes else None}
+
+
+def _volume_ratio(bars: list[dict]):
+    """Letztes Volumen / Schnitt der 20 VORHERIGEN Bars (None ohne Daten)."""
+    vols = [_to_float(b.get("volume")) for b in bars]
+    vols = [v for v in vols if v is not None and v > 0]
+    if len(vols) < 2:
+        return None
+    prior = vols[-21:-1] if len(vols) > 20 else vols[:-1]
+    avg = sum(prior) / len(prior) if prior else None
+    if not avg:
+        return None
+    return round(vols[-1] / avg, 2)
+
+
 def compute_technical(time_series: list[dict]) -> dict:
     """Berechnet Indikatoren/Level aus der rohen time_series (neueste zuerst)."""
     # oldest-first arbeiten
@@ -175,4 +227,6 @@ def compute_technical(time_series: list[dict]) -> dict:
         "trend": trend,
         "bias": bias,
         "levels": levels,
+        "weekly": _weekly_block(bars),
+        "volume_ratio": _volume_ratio(bars),
     }

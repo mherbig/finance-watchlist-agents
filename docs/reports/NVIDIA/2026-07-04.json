@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "generated_at": "2026-07-05T20:06:44.090822+00:00",
   "available": true,
   "snapshot": {
     "price": 194.83,
@@ -39,7 +39,13 @@
         "type": "support",
         "price": 192.53
       }
-    ]
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 194.83
+    },
+    "volume_ratio": 0.9
   },
   "fundamental": null,
   "headline": "Trend down, RSI 40",

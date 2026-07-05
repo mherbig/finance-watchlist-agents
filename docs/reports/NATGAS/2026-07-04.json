@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "generated_at": "2026-07-05T20:06:44.090822+00:00",
   "available": true,
   "snapshot": {
     "price": 3.245,
@@ -39,7 +39,13 @@
         "type": "support",
         "price": 3.087
       }
-    ]
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 3.244999885559082
+    },
+    "volume_ratio": 0.19
   },
   "fundamental": null,
   "headline": "Trend up, RSI 56",

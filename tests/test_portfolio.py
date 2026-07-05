@@ -867,6 +867,64 @@ def test_simulate_marked_equity_short_in_loss():
     assert s["marked_return_pct"] == -0.6
 
 
+# --- A2 Flip-Hysterese: schwache FLATs schliessen nicht sofort --------------
+
+def test_weak_flat_does_not_close_position():
+    # FLAT mit Konviktion < flat_close_min_conviction (3) schliesst NICHT.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "FLAT", conviction=2),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "open"      # kein Flip durch schwaches FLAT
+
+
+def test_two_consecutive_weak_flats_close_at_second():
+    # Zwei schwache FLATs in Folge schliessen am Datum des ZWEITEN FLATs.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "FLAT", conviction=2),
+        _sig("2026-01-03", "FLAT", conviction=1),
+    ]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 106, 100, 104),   # Close 104 am 2. FLAT-Tag
+        _bar("2026-01-04", 104, 108, 101, 107),
+    )
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-03"
+    assert trades[0]["exit_price"] == 104.0
+
+
+def test_strong_flat_still_closes_immediately():
+    # FLAT mit Konviktion >= 3 schliesst weiterhin sofort (bestehendes Verhalten).
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "FLAT", conviction=3),
+    ]
+    ts = _ts(_bar("2026-01-02", 100, 105, 99, 102))
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-02"
+
+
+def test_opposite_direction_always_closes_regardless_of_conviction():
+    # Echte Gegenrichtung schliesst auch mit Konviktion 1 sofort.
+    signals = [
+        _sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20),
+        _sig("2026-01-02", "SHORT", 102.0, 106.0, 90.0, conviction=1),
+    ]
+    ts = _ts(_bar("2026-01-02", 100, 105, 99, 102))
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "flip"
+    assert trades[0]["exit_date"] == "2026-01-02"
+
+
 def test_simulate_closed_entry_carries_entry_and_exit_date():
     # Geschlossene Trades muessen Eroeffnungs- UND Exit-Datum tragen
     # (Trade-Historie im Dashboard zeigt beide).
@@ -895,6 +953,168 @@ def test_simulate_flip_realizes_pnl_and_leaves_open_list():
     assert s["current_equity"] == 99_400.0
     assert res["closed"][0]["status"] == "flip"
     assert res["closed"][0]["pnl"] == -600.0
+
+
+# --- D1 benchmark_curve: Equal-Weight Buy&Hold ab Start ----------------------
+
+def test_benchmark_curve_equal_weight():
+    # A: 100 -> 110 (+10%), B: 200 -> 190 (-5%) => Mittel +2.5% -> 102500.
+    series = [
+        _ts(_bar("2026-01-01", 100, 101, 99, 100),
+            _bar("2026-01-02", 100, 106, 100, 105),
+            _bar("2026-01-03", 105, 111, 104, 110)),
+        _ts(_bar("2026-01-01", 200, 201, 199, 200),
+            # 01-02 fehlt -> carry-forward 200
+            _bar("2026-01-03", 195, 196, 189, 190)),
+    ]
+    curve = portfolio.benchmark_curve(series, "2026-01-01")
+    assert [c["date"] for c in curve] == ["2026-01-01", "2026-01-02", "2026-01-03"]
+    assert curve[0]["equity"] == 100_000.0
+    # 01-02: A +5%, B 0% (carry) -> +2.5% -> 102500
+    assert curve[1]["equity"] == 102_500.0
+    # 01-03: A +10%, B -5% -> +2.5% -> 102500
+    assert curve[2]["equity"] == 102_500.0
+
+
+def test_benchmark_curve_empty():
+    assert portfolio.benchmark_curve([], "2026-01-01") == []
+
+
+# --- B2 Konviktions-Sizing + A3 Kostenmodell in simulate ---------------------
+
+def test_simulate_risk_by_conviction():
+    trades = [
+        dict(_open_trade("C3", "LONG", 100.0, 95.0), conviction=3),
+        dict(_open_trade("C5", "LONG", 100.0, 95.0, date="2026-01-02"),
+             conviction=5),
+    ]
+    res = portfolio.simulate(
+        trades, risk_pct_by_conviction={"3": 0.005, "5": 0.015})
+    by = {o["symbol"]: o for o in res["open"]}
+    assert by["C3"]["risk_amount"] == 500.0
+    assert by["C5"]["risk_amount"] == 1500.0
+
+
+def test_simulate_costs_deducted_on_close():
+    # Round-Trip-Kosten (% vom Entry-Notional) mindern den realisierten P&L.
+    # risk 1000, units 200, Notional 20000; stock 0.1% -> 20 $ Kosten.
+    t = dict(_open_trade("AAA", "LONG", 100.0, 95.0), take_profit=110.0,
+             status="tp", exit_date="2026-01-05", exit_price=110.0,
+             realized_R=2.0, asset_class="stock")
+    res = portfolio.simulate(
+        t and [t], costs_round_trip_pct={"stock": 0.1, "default": 0.05})
+    c = res["closed"][0]
+    assert c["cost"] == 20.0
+    assert c["pnl"] == 1980.0                      # 2000 brutto - 20 Kosten
+    assert res["summary"]["current_equity"] == 101_980.0
+    assert res["summary"]["total_costs"] == 20.0
+
+
+def test_marked_curve_applies_conviction_sizing_and_costs():
+    # Kurve muss dieselbe Sizing-/Kostenlogik nutzen wie simulate.
+    t = dict(_open_trade("AAA", "LONG", 100.0, 95.0), conviction=5,
+             take_profit=110.0, status="tp", exit_date="2026-01-03",
+             exit_price=110.0, realized_R=2.0, asset_class="stock")
+    series = {"AAA": _ts(
+        _bar("2026-01-01", 100, 101, 99, 100),
+        _bar("2026-01-03", 105, 111, 104, 111),
+    )}
+    curve = portfolio.marked_equity_curve(
+        [t], series, risk_pct_by_conviction={"5": 0.015},
+        costs_round_trip_pct={"stock": 0.1})
+    # risk 1500, units 300, brutto +3000, Kosten 0.1% von 30000 = 30 -> 102970
+    assert curve[-1]["equity"] == 102_970.0
+    assert curve[-1]["marked_equity"] == 102_970.0
+
+
+# --- A1+D2 apply_portfolio_caps: Heat/Klasse/Waehrung/Kill-Switch ------------
+
+def _cap_trade(sym, direction="LONG", conviction=3, date="2026-01-01",
+               asset_class="stock", display=None, exit_date=None,
+               exit_price=None, realized_R=None, status="open"):
+    return {
+        "symbol": sym, "display": display or sym, "date": date,
+        "direction": direction, "conviction": conviction, "entry": 100.0,
+        "stop_loss": 95.0, "take_profit": 110.0, "rr": 2.0,
+        "horizon_days": 20, "status": status, "exit_date": exit_date,
+        "exit_price": exit_price, "realized_R": realized_R, "filled": True,
+        "asset_class": asset_class,
+    }
+
+
+def test_caps_heat_prefers_highest_conviction():
+    # Cap 2% Gesamt-Risiko; conv 5 (1.5%) + conv 3 (0.5%) passen, conv 4 (1%) nicht.
+    trades = [
+        _cap_trade("A", conviction=3),
+        _cap_trade("B", conviction=4),
+        _cap_trade("C", conviction=5),
+    ]
+    accepted, skipped = portfolio.apply_portfolio_caps(
+        trades, risk_pct_by_conviction={"3": 0.005, "4": 0.01, "5": 0.015},
+        max_total_risk_pct=0.02)
+    acc = {t["symbol"] for t in accepted}
+    assert acc == {"C", "A"}
+    assert len(skipped) == 1
+    assert skipped[0]["symbol"] == "B"
+    assert skipped[0]["skip_reason"] == "heat"
+
+
+def test_caps_class_limit_frees_after_exit():
+    # max_per_class=1: zweiter Stock-Trade am 01-02 wird uebersprungen;
+    # nach Exit des ersten (01-03) darf am 01-04 wieder eroeffnet werden.
+    trades = [
+        _cap_trade("A", date="2026-01-01", status="tp",
+                   exit_date="2026-01-03", exit_price=110.0, realized_R=2.0),
+        _cap_trade("B", date="2026-01-02"),
+        _cap_trade("C", date="2026-01-04"),
+    ]
+    accepted, skipped = portfolio.apply_portfolio_caps(trades, max_per_class=1)
+    assert {t["symbol"] for t in accepted} == {"A", "C"}
+    assert skipped[0]["symbol"] == "B"
+    assert skipped[0]["skip_reason"] == "class"
+
+
+def test_caps_currency_cluster_forex_legs():
+    # max_per_currency=2: dritte Position mit AUD-Leg wird uebersprungen.
+    trades = [
+        _cap_trade("AUD/CAD", asset_class="forex", conviction=5),
+        _cap_trade("AUD/JPY", asset_class="forex", conviction=4),
+        _cap_trade("AUD/NZD", asset_class="forex", conviction=3),
+    ]
+    accepted, skipped = portfolio.apply_portfolio_caps(
+        trades, max_per_currency=2)
+    assert {t["symbol"] for t in accepted} == {"AUD/CAD", "AUD/JPY"}
+    assert skipped[0]["symbol"] == "AUD/NZD"
+    assert skipped[0]["skip_reason"] == "currency"
+
+
+def test_caps_kill_switch_blocks_new_entries_after_drawdown():
+    # 10% Risiko/Trade, Verlust -1.5R am 01-02 -> Equity 85k = 15% Drawdown
+    # > 10%-Schwelle -> neuer Entry am 01-03 wird geblockt.
+    trades = [
+        _cap_trade("A", date="2026-01-01", status="sl",
+                   exit_date="2026-01-02", exit_price=85.0, realized_R=-1.5),
+        _cap_trade("B", date="2026-01-03"),
+    ]
+    accepted, skipped = portfolio.apply_portfolio_caps(
+        trades, risk_pct_default=0.10, max_drawdown_stop_pct=0.10)
+    assert {t["symbol"] for t in accepted} == {"A"}
+    assert skipped[0]["symbol"] == "B"
+    assert skipped[0]["skip_reason"] == "kill_switch"
+
+
+def test_caps_passthrough_non_tradeable_and_no_caps():
+    # Ohne Limits wird nichts uebersprungen; FLAT/none gehen unveraendert durch.
+    trades = [
+        _cap_trade("A"),
+        {"symbol": "F", "display": "F", "date": "2026-01-01",
+         "direction": "FLAT", "conviction": 2, "entry": None,
+         "stop_loss": None, "take_profit": None, "status": "none",
+         "exit_date": None, "exit_price": None, "realized_R": None},
+    ]
+    accepted, skipped = portfolio.apply_portfolio_caps(trades)
+    assert len(accepted) == 2
+    assert skipped == []
 
 
 # --- marked_equity_curve: taegliche Mark-to-Market-Kurve --------------------

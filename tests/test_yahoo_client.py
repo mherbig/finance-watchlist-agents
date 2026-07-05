@@ -160,3 +160,32 @@ def test_time_series_trims_to_outputsize(tmp_path):
     assert len(ts) == 3
     # most recent 3 -> closes 9,8,7 newest-first
     assert [b["close"] for b in ts] == ["9", "8", "7"]
+
+
+# --- earnings_date: best-effort Earnings-Termin (C5) -------------------------
+
+def _summary(ts_epoch=None, error=None):
+    if error:
+        return {"quoteSummary": {"result": None, "error": error}}
+    ev = {"earnings": {"earningsDate": [{"raw": t} for t in (ts_epoch or [])]}}
+    return {"quoteSummary": {"result": [{"calendarEvents": ev}], "error": None}}
+
+
+def test_earnings_date_returns_iso_date(tmp_path):
+    # 2026-07-28 00:00 UTC als Epoch
+    c, _ = _client(tmp_path, [FakeResponse(_summary([1785196800]))])
+    assert c.earnings_date("AAPL") == "2026-07-28"
+
+
+def test_earnings_date_none_on_error_payload(tmp_path):
+    c, _ = _client(tmp_path, [FakeResponse(_summary(error={"code": "x"}))])
+    assert c.earnings_date("AAPL") is None
+
+
+def test_earnings_date_none_on_http_error(tmp_path):
+    class Boom:
+        def get(self, *a, **k):
+            raise RuntimeError("blocked")
+    c = YahooClient(cache_dir=tmp_path / "c", session=Boom(),
+                    sleep=lambda s: None, today="2026-06-26")
+    assert c.earnings_date("AAPL") is None

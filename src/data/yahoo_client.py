@@ -56,6 +56,47 @@ class YahooClient:
         cp.write_text(json.dumps(result), encoding="utf-8")
         return result
 
+    def earnings_date(self, symbol):
+        """Naechster Earnings-Termin als ISO-Datum — strikt best-effort.
+
+        Yahoo quoteSummary (calendarEvents) ist gelegentlich gesperrt
+        (Crumb/Consent); JEDER Fehler liefert None statt einer Exception,
+        damit der Fetch nie an Earnings-Daten scheitert. Gecacht je Tag.
+        """
+        cp = self.cache_dir / f"{self.today}_earnings_{hashlib.sha1(symbol.encode()).hexdigest()[:16]}.json"
+        try:
+            if cp.exists():
+                return json.loads(cp.read_text(encoding="utf-8")).get("date")
+            if self._last_call is not None:
+                elapsed = self._clock() - self._last_call
+                if elapsed < self.min_interval_s:
+                    self._sleep(self.min_interval_s - elapsed)
+            encoded = _urlquote(symbol, safe="")
+            url = ("https://query1.finance.yahoo.com/v10/finance/quoteSummary/"
+                   f"{encoded}?modules=calendarEvents")
+            resp = self.session.get(url, headers={"User-Agent": USER_AGENT},
+                                    timeout=30)
+            self._last_call = self._clock()
+            data = resp.json()
+            qs = data.get("quoteSummary", {})
+            if qs.get("error") is not None or not qs.get("result"):
+                raise ValueError("kein calendarEvents-Resultat")
+            dates = (qs["result"][0].get("calendarEvents", {})
+                     .get("earnings", {}).get("earningsDate", []))
+            raws = [d.get("raw") for d in dates if isinstance(d, dict)
+                    and d.get("raw")]
+            if not raws:
+                raise ValueError("keine earningsDate")
+            iso = datetime.fromtimestamp(min(raws), tz=timezone.utc).date().isoformat()
+            cp.write_text(json.dumps({"date": iso}), encoding="utf-8")
+            return iso
+        except Exception:
+            try:
+                cp.write_text(json.dumps({"date": None}), encoding="utf-8")
+            except OSError:
+                pass
+            return None
+
     def quote(self, symbol, exchange=None):
         result = self._get(symbol)
         meta = result["meta"]

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-07-05T20:06:48.883596+00:00",
+  "trades": 35,
+  "policies": {
+    "baseline": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    },
+    "breakeven_1R": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    },
+    "trail_1R": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    },
+    "trail_1.5R": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    },
+    "be1_trail1.5": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    },
+    "tp2_struktur": {
+      "resolved": 10,
+      "wins": 3,
+      "win_rate": 0.3,
+      "avg_R": -0.1325,
+      "total_R": -1.3246
+    },
+    "horizon_x2": {
+      "resolved": 3,
+      "wins": 0,
+      "win_rate": 0.0,
+      "avg_R": -0.6127,
+      "total_R": -1.8381
+    }
+  }
+}

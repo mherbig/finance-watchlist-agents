@@ -4,7 +4,7 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T21:23:05.005917+00:00",
+  "generated_at": "2026-07-05T20:06:44.090822+00:00",
   "available": true,
   "snapshot": {
     "price": 573.74,
@@ -39,7 +39,13 @@
         "type": "support",
         "price": 546.52
       }
-    ]
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 573.74
+    },
+    "volume_ratio": null
   },
   "fundamental": null,
   "headline": "Trend down, RSI 44",

@@ -189,3 +189,13 @@ def test_build_index_exposes_agent_flags():
     assert index[0]["agents_run"] == ["market-researcher", "earnings-reviewer"]
     assert index[1]["has_agent_analysis"] is False
     assert index[1]["agents_run"] == []
+
+
+def test_build_report_passes_earnings_date_through():
+    from src.analysis.report import build_report
+    raw = {"display": "APPLE", "td_symbol": "AAPL", "asset_class": "stock",
+           "track": "fundamental", "date": "2026-07-05", "available": True,
+           "snapshot": {"price": 300.0}, "time_series": [],
+           "earnings_date": "2026-07-28"}
+    rep = build_report(raw, generated_at="t")
+    assert rep["earnings_date"] == "2026-07-28"

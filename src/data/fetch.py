@@ -3,7 +3,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from .symbol_map import safe_name
+from .symbol_map import safe_name, YAHOO_SYMBOL
 
 def fetch_symbol(client, entry, today):
     """Holt Quote + Zeitreihe fuer ein Symbol. Faengt Tier-Luecken ab.
@@ -34,6 +34,12 @@ def fetch_all(watchlist, clients, out_dir, today):
     for entry in watchlist:
         client = clients[entry["source"]]
         rec = fetch_symbol(client, entry, today)
+        # Earnings-Termin (nur Aktien, best-effort via Yahoo; None bei Fehlern).
+        if entry.get("asset_class") == "stock":
+            yc = clients.get("yahoo")
+            if yc is not None and hasattr(yc, "earnings_date"):
+                ysym = YAHOO_SYMBOL.get(entry["display"], entry["td_symbol"])
+                rec["earnings_date"] = yc.earnings_date(ysym)
         coverage[entry["display"]] = rec["available"]
         d = out_dir / safe_name(entry["display"])
         d.mkdir(parents=True, exist_ok=True)

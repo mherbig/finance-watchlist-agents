@@ -18,6 +18,10 @@ from __future__ import annotations
 # FLAT). True = FLAT zaehlt als Gegen-Signal; False = nur die echte
 # Gegenrichtung schliesst.
 FLAT_CLOSES = True
+# Flip-Hysterese: ein einzelnes FLAT schliesst nur ab dieser Konviktion;
+# schwaechere FLATs schliessen erst nach N FLATs in Folge (Whipsaw-Schutz).
+FLAT_MIN_CONVICTION = 3
+FLAT_CONSECUTIVE = 2
 
 
 def position_size(risk_amount, entry, stop_loss):
@@ -204,7 +208,9 @@ def _opposes(open_direction: str, sig_direction: str, flat_closes: bool) -> bool
 
 
 def resolve_symbol_trades(signals: list, time_series: list,
-                          flat_closes: bool = FLAT_CLOSES) -> list:
+                          flat_closes: bool = FLAT_CLOSES,
+                          flat_min_conviction: int = FLAT_MIN_CONVICTION,
+                          flat_consecutive: int = FLAT_CONSECUTIVE) -> list:
     """Loest die taegliche Signalfolge EINES Symbols zu Trades auf.
 
     ``signals``: alle Log-Eintraege eines Symbols (unsortiert erlaubt).
@@ -249,7 +255,10 @@ def resolve_symbol_trades(signals: list, time_series: list,
         # -> "market" (sofortiger Fill am Signal-Datum), rueckwaertskompatibel.
         entry_type = sig.get("entry_type") or "market"
 
-        # Frueheste spaetere Gegen-Signal-Position bestimmen.
+        # Frueheste spaetere Gegen-Signal-Position bestimmen. Hysterese:
+        # Gegenrichtung flippt immer sofort; FLAT nur bei Konviktion >=
+        # flat_min_conviction ODER nach flat_consecutive FLATs in Folge
+        # (Flip am Datum des letzten FLAT der Serie).
         flip_date = None
         flip_index = None
         for j in range(i + 1, n):
@@ -257,9 +266,27 @@ def resolve_symbol_trades(signals: list, time_series: list,
             cdate = str(cand.get("date"))
             if cdate <= entry_date:
                 continue
-            if _opposes(direction, cand.get("direction"), flat_closes):
-                flip_date = cdate
-                flip_index = j
+            cdir = cand.get("direction")
+            if cdir == "FLAT":
+                if not flat_closes:
+                    continue
+                conv = cand.get("conviction") or 0
+                if conv >= flat_min_conviction:
+                    flip_date, flip_index = cdate, j
+                    break
+                # Schwaches FLAT: Serie zaehlen (aufeinanderfolgende Eintraege).
+                run, k = 1, j
+                while run < flat_consecutive:
+                    k += 1
+                    if k >= n or sigs[k].get("direction") != "FLAT":
+                        break
+                    run += 1
+                if run >= flat_consecutive:
+                    flip_date, flip_index = str(sigs[k].get("date")), k
+                    break
+                continue
+            if _opposes(direction, cdir, flat_closes):
+                flip_date, flip_index = cdate, j
                 break
 
         trade = {
@@ -445,6 +472,135 @@ def _is_tradeable(t: dict) -> bool:
             and t.get("status") not in ("no_fill", "none"))
 
 
+def _risk_frac(t: dict, default: float, by_conviction: dict | None) -> float:
+    """Risiko-Fraktion eines Trades: je Konviktion, sonst Default."""
+    if by_conviction:
+        v = by_conviction.get(str(t.get("conviction")))
+        if v is None:
+            v = by_conviction.get(t.get("conviction"))
+        if v is not None:
+            return float(v)
+    return float(default)
+
+
+def _forex_legs(t: dict) -> list[str]:
+    """Waehrungs-Legs eines Forex-Trades (AUD/CAD -> [AUD, CAD]), sonst []."""
+    if t.get("asset_class") != "forex":
+        return []
+    disp = str(t.get("display") or "")
+    return disp.split("/") if "/" in disp else []
+
+
+def apply_portfolio_caps(trades: list, risk_pct_default: float = 0.01,
+                         risk_pct_by_conviction: dict | None = None,
+                         max_total_risk_pct: float | None = None,
+                         max_per_class: int | None = None,
+                         max_per_currency: int | None = None,
+                         max_drawdown_stop_pct: float | None = None,
+                         start_equity: float = 100_000.0) -> tuple[list, list]:
+    """Portfolio-Gate VOR der Simulation: begrenzt Klumpenrisiko.
+
+    Verarbeitet Open-Events chronologisch (am selben Tag: hoechste Konviktion
+    zuerst) und lehnt Trades ab, die ein Limit reissen:
+
+    - ``max_total_risk_pct``: Summe der Risiko-Fraktionen offener Positionen.
+    - ``max_per_class``: gleichzeitige Positionen je asset_class.
+    - ``max_per_currency``: gleichzeitige Forex-Positionen je Waehrungs-Leg.
+    - ``max_drawdown_stop_pct``: Kill-Switch — liegt die realisierte Equity
+      mehr als X unter ihrem Hoch, werden KEINE neuen Positionen eroeffnet
+      (offene laufen weiter aus).
+
+    Exits geben ihre Kapazitaet ab dem Folgetag frei (exit_date < Datum).
+    Nicht handelbare Eintraege (FLAT/no_fill/none) passieren unveraendert.
+
+    Liefert ``(accepted, skipped)``; skipped-Eintraege tragen ``skip_reason``
+    in {"heat", "class", "currency", "kill_switch"}. Reihenfolge bleibt
+    erhalten. Gedacht als Pre-Pass vor ``simulate``/``marked_equity_curve``,
+    damit beide dieselbe (gefilterte) Trade-Menge sehen.
+    """
+    cands = [t for t in trades if _is_tradeable(t)]
+    skipped_ids: dict[int, str] = {}
+
+    # Open-Events nach Datum; innerhalb eines Datums Konviktion absteigend,
+    # dann stabile Eingangsreihenfolge.
+    opens = sorted(
+        range(len(cands)),
+        key=lambda i: (str(cands[i].get("date")),
+                       -(cands[i].get("conviction") or 0), i))
+
+    equity = float(start_equity)
+    peak = equity
+    # Aktive akzeptierte Positionen: idx -> {frac, risk_amount, exit_date, R}
+    active: dict[int, dict] = {}
+    # Geschlossene akzeptierte Trades, deren P&L noch nicht verbucht ist,
+    # sortiert nach exit_date (verbucht sobald exit_date < aktuelles Datum).
+    pending_closes: list[tuple[str, int]] = []
+
+    for i in opens:
+        t = cands[i]
+        day = str(t.get("date"))
+
+        # 1) Alle Exits STRIKT vor diesem Tag verbuchen (Equity + Kapazitaet).
+        pending_closes.sort()
+        while pending_closes and pending_closes[0][0] < day:
+            _xd, idx = pending_closes.pop(0)
+            pos = active.pop(idx, None)
+            if pos is not None:
+                equity = round(equity + pos["risk_amount"]
+                               * (pos["realized_R"] or 0.0), 4)
+                peak = max(peak, equity)
+
+        # 2) Kill-Switch: im Drawdown keine neuen Entries.
+        if max_drawdown_stop_pct is not None and peak > 0 \
+                and equity < peak * (1.0 - float(max_drawdown_stop_pct)):
+            skipped_ids[id(t)] = "kill_switch"
+            continue
+
+        frac = _risk_frac(t, risk_pct_default, risk_pct_by_conviction)
+
+        # 3) Heat-Cap (Summe der Fraktionen inkl. Kandidat).
+        if max_total_risk_pct is not None:
+            heat = sum(p["frac"] for p in active.values())
+            if heat + frac > float(max_total_risk_pct) + 1e-12:
+                skipped_ids[id(t)] = "heat"
+                continue
+
+        # 4) Klassen-Cap.
+        if max_per_class is not None:
+            cls = t.get("asset_class")
+            n_cls = sum(1 for p in active.values()
+                        if p["asset_class"] == cls)
+            if n_cls >= int(max_per_class):
+                skipped_ids[id(t)] = "class"
+                continue
+
+        # 5) Waehrungs-Cluster-Cap (nur Forex-Legs).
+        legs = _forex_legs(t)
+        if max_per_currency is not None and legs:
+            counts = {}
+            for p in active.values():
+                for leg in p["legs"]:
+                    counts[leg] = counts.get(leg, 0) + 1
+            if any(counts.get(leg, 0) >= int(max_per_currency)
+                   for leg in legs):
+                skipped_ids[id(t)] = "currency"
+                continue
+
+        # Akzeptiert: Risiko sperren, Exit vormerken.
+        risk_amount = round(frac * equity, 4)
+        active[i] = {"frac": frac, "risk_amount": risk_amount,
+                     "asset_class": t.get("asset_class"), "legs": legs,
+                     "realized_R": t.get("realized_R")}
+        if t.get("status") in ("sl", "tp", "expired", "flip") \
+                and t.get("exit_date"):
+            pending_closes.append((str(t.get("exit_date")), i))
+
+    accepted = [t for t in trades if id(t) not in skipped_ids]
+    skipped = [dict(t, skip_reason=skipped_ids[id(t)])
+               for t in trades if id(t) in skipped_ids]
+    return accepted, skipped
+
+
 def _unrealized_pct(direction, entry, current_price):
     """Unrealisierter Stand in % einer offenen Position zum aktuellen Kurs.
 
@@ -462,8 +618,20 @@ def _unrealized_pct(direction, entry, current_price):
     return round(sign * (float(current_price) - entry) / entry * 100, 4)
 
 
+def _round_trip_cost(t: dict, units, costs_round_trip_pct: dict | None) -> float:
+    """Round-Trip-Friktion in Geld: pct(asset_class) % vom Entry-Notional."""
+    if not costs_round_trip_pct or units is None or t.get("entry") is None:
+        return 0.0
+    pct = costs_round_trip_pct.get(t.get("asset_class"))
+    if pct is None:
+        pct = costs_round_trip_pct.get("default", 0.0)
+    return round(float(pct) / 100.0 * float(t["entry"]) * float(units), 4)
+
+
 def simulate(trades: list, start_equity: float = 100_000.0,
-             risk_pct: float = 0.01, current_prices: dict | None = None) -> dict:
+             risk_pct: float = 0.01, current_prices: dict | None = None,
+             risk_pct_by_conviction: dict | None = None,
+             costs_round_trip_pct: dict | None = None) -> dict:
     """Event-Simulation ueber aufgeloeste/offene Trades.
 
     Nur Trades mit Richtung LONG/SHORT und Stop-Loss sind handelbar. Pro Trade
@@ -509,7 +677,8 @@ def simulate(trades: list, start_equity: float = 100_000.0,
 
     for _date, idx, kind, t in events:
         if kind == "open":
-            risk_amount = round(risk_pct * equity, 4)
+            frac = _risk_frac(t, risk_pct, risk_pct_by_conviction)
+            risk_amount = round(frac * equity, 4)
             units = position_size(risk_amount, t.get("entry"), t.get("stop_loss"))
             locked[idx] = {"risk_amount": risk_amount, "units": units}
         else:  # close
@@ -517,7 +686,8 @@ def simulate(trades: list, start_equity: float = 100_000.0,
                                     "units": None})
             risk_amount = lock["risk_amount"]
             realized_r = t.get("realized_R")
-            pnl = round(risk_amount * (realized_r or 0.0), 4)
+            cost = _round_trip_cost(t, lock.get("units"), costs_round_trip_pct)
+            pnl = round(risk_amount * (realized_r or 0.0) - cost, 4)
             equity = round(equity + pnl, 4)
 
             peak = max(peak, equity)
@@ -537,6 +707,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
                 "exit_price": t.get("exit_price"),
                 "realized_R": realized_r,
                 "risk_amount": risk_amount,
+                "cost": cost,
                 "pnl": pnl,
                 "win": pnl > 0,
                 "status": t.get("status"),
@@ -618,6 +789,7 @@ def simulate(trades: list, start_equity: float = 100_000.0,
         "losses": losses,
         "win_rate": win_rate,
         "total_pnl": total_pnl,
+        "total_costs": round(sum(c.get("cost", 0.0) for c in closed), 4),
         "max_drawdown": round(max_drawdown, 4),
         "unrealized_pnl": unrealized_total,
         "marked_equity": marked_equity,
@@ -632,9 +804,58 @@ def simulate(trades: list, start_equity: float = 100_000.0,
     }
 
 
+def benchmark_curve(series_list: list, start_date: str,
+                    start_equity: float = 100_000.0) -> list:
+    """Equal-Weight Buy&Hold-Vergleichskurve ab ``start_date``.
+
+    ``series_list``: eine rohe time_series je Symbol (neueste zuerst).
+    Basis je Symbol = letzter Schluss <= start_date (sonst erster danach);
+    Tageswert = letzter bekannter Schluss <= Tag (carry-forward). Depotwert =
+    Mittel der Symbol-Ratios * start_equity. Liefert ``[{date, equity}]``.
+    """
+    all_bars = [_ascending_bars(ts) for ts in (series_list or [])]
+    all_bars = [b for b in all_bars if b]
+    if not all_bars:
+        return []
+    timeline = sorted({bar["date"] for bars in all_bars for bar in bars
+                       if bar["date"] >= str(start_date)})
+    if not timeline:
+        return []
+
+    # Basis je Serie: letzter Schluss <= start_date, sonst erster danach.
+    bases = []
+    for bars in all_bars:
+        before = [b for b in bars if b["date"] <= str(start_date)]
+        base = before[-1]["close"] if before else bars[0]["close"]
+        bases.append(base if base else None)
+
+    ptr = [0] * len(all_bars)
+    last = [None] * len(all_bars)
+    curve = []
+    for day in timeline:
+        ratios = []
+        for k, bars in enumerate(all_bars):
+            while ptr[k] < len(bars) and bars[ptr[k]]["date"] <= day:
+                last[k] = bars[ptr[k]]["close"]
+                ptr[k] += 1
+            if last[k] is None:
+                # Noch kein Bar <= day: Basis-Schluss als Startwert nutzen.
+                last[k] = bases[k]
+            if bases[k]:
+                ratios.append(last[k] / bases[k])
+        if not ratios:
+            continue
+        curve.append({"date": day,
+                      "equity": round(sum(ratios) / len(ratios)
+                                      * float(start_equity), 4)})
+    return curve
+
+
 def marked_equity_curve(trades: list, series_by_key: dict,
                         start_equity: float = 100_000.0,
-                        risk_pct: float = 0.01) -> list:
+                        risk_pct: float = 0.01,
+                        risk_pct_by_conviction: dict | None = None,
+                        costs_round_trip_pct: dict | None = None) -> list:
     """Taegliche Mark-to-Market-Kurve ueber die Forward-Test-Lebenszeit.
 
     Fuer jeden Handelstag (Union der Bar-Daten aller Serien, ab dem fruehesten
@@ -691,7 +912,8 @@ def marked_equity_curve(trades: list, series_by_key: dict,
         while ev < len(events) and events[ev][0] <= day:
             _d, idx, kind, t = events[ev]
             if kind == "open":
-                risk_amount = round(risk_pct * equity, 4)
+                frac = _risk_frac(t, risk_pct, risk_pct_by_conviction)
+                risk_amount = round(frac * equity, 4)
                 locked[idx] = {
                     "risk_amount": risk_amount,
                     "units": position_size(risk_amount, t.get("entry"),
@@ -699,9 +921,12 @@ def marked_equity_curve(trades: list, series_by_key: dict,
                 }
                 open_pos[idx] = t
             else:  # close
-                lock = locked.get(idx, {"risk_amount": round(risk_pct * equity, 4)})
+                lock = locked.get(idx, {"risk_amount": round(risk_pct * equity, 4),
+                                        "units": None})
+                cost = _round_trip_cost(t, lock.get("units"),
+                                        costs_round_trip_pct)
                 equity = round(equity + lock["risk_amount"]
-                               * (t.get("realized_R") or 0.0), 4)
+                               * (t.get("realized_R") or 0.0) - cost, 4)
                 open_pos.pop(idx, None)
             ev += 1
 

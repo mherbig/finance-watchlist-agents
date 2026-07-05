@@ -29,19 +29,23 @@ def _latest_close(time_series: list):
     return bars[-1]["close"] if bars else None
 
 
-def _latest_raw_time_series(data_dir: Path, safe: str) -> list:
-    """time_series der neuesten raw-*.json fuer ein Symbol, sonst leer."""
+def _latest_raw_record(data_dir: Path, safe: str) -> dict:
+    """Neueste raw-*.json eines Symbols als Dict (leer bei Fehlern)."""
     sym_dir = data_dir / safe
     if not sym_dir.is_dir():
-        return []
+        return {}
     files = sorted(sym_dir.glob("raw-*.json"))
     if not files:
-        return []
+        return {}
     try:
-        raw = json.loads(files[-1].read_text(encoding="utf-8"))
+        return json.loads(files[-1].read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return []
-    ts = raw.get("time_series")
+        return {}
+
+
+def _latest_raw_time_series(data_dir: Path, safe: str) -> list:
+    """time_series der neuesten raw-*.json fuer ein Symbol, sonst leer."""
+    ts = _latest_raw_record(data_dir, safe).get("time_series")
     return ts if isinstance(ts, list) else []
 
 
@@ -56,9 +60,14 @@ def main() -> None:
         print(f"Kein Signal-Log gefunden ({log_path}). Nichts zu simulieren.")
         return
 
-    flat_closes = bool(
-        settings.get("signals", {}).get("flat_closes_position",
-                                        portfolio.FLAT_CLOSES))
+    sig_cfg = settings.get("signals", {})
+    flat_closes = bool(sig_cfg.get("flat_closes_position", portfolio.FLAT_CLOSES))
+    flat_min_conviction = int(sig_cfg.get("flat_close_min_conviction",
+                                          portfolio.FLAT_MIN_CONVICTION))
+    flat_consecutive = int(sig_cfg.get("flat_close_consecutive",
+                                       portfolio.FLAT_CONSECUTIVE))
+    pf_cfg = settings.get("portfolio", {})
+    costs_cfg = settings.get("costs", {}).get("round_trip_pct")
 
     # Log-Zeilen je Symbol gruppieren (Reihenfolge der Erstsichtung erhalten).
     groups: dict[str, list] = {}
@@ -83,13 +92,17 @@ def main() -> None:
     trades = []
     current_prices: dict = {}
     series_by_key: dict = {}
+    series_list: list = []   # eine Serie je Symbol (fuer die Benchmark)
     for key in order:
         symbol_signals = groups[key]
         first = symbol_signals[0]
         display = first.get("display") or first.get("symbol")
         symbol = first.get("symbol")
         safe = safe_name(str(display)) if display else None
-        time_series = _latest_raw_time_series(data_dir, safe) if safe else []
+        raw = _latest_raw_record(data_dir, safe) if safe else {}
+        time_series = raw.get("time_series")
+        time_series = time_series if isinstance(time_series, list) else []
+        asset_class = raw.get("asset_class")
         # Neuesten Schluss (23:00-Tagespreis) je Symbol/Display fuer den
         # unrealisierten Stand offener Positionen merken.
         latest = _latest_close(time_series)
@@ -98,18 +111,54 @@ def main() -> None:
                 current_prices[symbol] = latest
             if display is not None:
                 current_prices[display] = latest
-        # Serien fuer die Mark-to-Market-Kurve (Lookup wie current_prices).
+        # Serien fuer Mark-to-Market-Kurve (Lookup) und Benchmark (einmalig).
         if time_series:
+            series_list.append(time_series)
             if symbol is not None:
                 series_by_key[symbol] = time_series
             if display is not None:
                 series_by_key[display] = time_series
-        trades.extend(
-            portfolio.resolve_symbol_trades(
-                symbol_signals, time_series, flat_closes=flat_closes))
+        resolved = portfolio.resolve_symbol_trades(
+            symbol_signals, time_series, flat_closes=flat_closes,
+            flat_min_conviction=flat_min_conviction,
+            flat_consecutive=flat_consecutive)
+        for t in resolved:
+            t["asset_class"] = asset_class
+        trades.extend(resolved)
 
-    result = portfolio.simulate(trades, current_prices=current_prices)
-    result["marked_curve"] = portfolio.marked_equity_curve(trades, series_by_key)
+    # Portfolio-Gate (Heat/Klasse/Waehrung/Kill-Switch) VOR der Simulation,
+    # damit simulate und marked_equity_curve dieselbe Trade-Menge sehen.
+    accepted, skipped = portfolio.apply_portfolio_caps(
+        trades,
+        risk_pct_default=float(pf_cfg.get("risk_pct_default", 0.01)),
+        risk_pct_by_conviction=pf_cfg.get("risk_pct_by_conviction"),
+        max_total_risk_pct=pf_cfg.get("max_total_risk_pct"),
+        max_per_class=pf_cfg.get("max_per_class"),
+        max_per_currency=pf_cfg.get("max_per_currency"),
+        max_drawdown_stop_pct=pf_cfg.get("max_drawdown_stop_pct"))
+
+    result = portfolio.simulate(
+        accepted, current_prices=current_prices,
+        risk_pct=float(pf_cfg.get("risk_pct_default", 0.01)),
+        risk_pct_by_conviction=pf_cfg.get("risk_pct_by_conviction"),
+        costs_round_trip_pct=costs_cfg)
+    result["marked_curve"] = portfolio.marked_equity_curve(
+        accepted, series_by_key,
+        risk_pct=float(pf_cfg.get("risk_pct_default", 0.01)),
+        risk_pct_by_conviction=pf_cfg.get("risk_pct_by_conviction"),
+        costs_round_trip_pct=costs_cfg)
+    start_date = (result["marked_curve"][0]["date"]
+                  if result["marked_curve"] else None)
+    result["benchmark_curve"] = (
+        portfolio.benchmark_curve(series_list, start_date)
+        if start_date else [])
+    result["skipped"] = [{
+        "symbol": s.get("symbol"), "display": s.get("display"),
+        "date": s.get("date"), "direction": s.get("direction"),
+        "conviction": s.get("conviction"),
+        "skip_reason": s.get("skip_reason"),
+    } for s in skipped]
+    result["summary"]["skipped_count"] = len(skipped)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

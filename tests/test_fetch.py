@@ -61,3 +61,21 @@ def test_fetch_all_routes_by_source(tmp_path):
     assert rec["snapshot"]["price"] == 1.0
     g = tmp_path / "GER40" / "raw-2026-06-26.json"
     assert json.loads(g.read_text(encoding="utf-8"))["source"] == "yahoo"
+
+
+def test_fetch_all_adds_earnings_date_for_stocks(tmp_path):
+    class YahooWithEarnings(FakeClient):
+        def earnings_date(self, symbol):
+            return "2026-07-28"
+    clients = {"twelvedata": FakeClient(), "yahoo": YahooWithEarnings()}
+    from src.data.fetch import fetch_all
+    import json
+    wl = [
+        _entry("APPLE", "AAPL", "stock", "fundamental"),
+        _entry("EUR/USD", "EUR/USD", "forex", "technical"),
+    ]
+    fetch_all(wl, clients, tmp_path, "2026-07-05")
+    apple = json.loads((tmp_path / "APPLE" / "raw-2026-07-05.json").read_text(encoding="utf-8"))
+    fx = json.loads((tmp_path / "EUR-USD" / "raw-2026-07-05.json").read_text(encoding="utf-8"))
+    assert apple["earnings_date"] == "2026-07-28"
+    assert "earnings_date" not in fx or fx["earnings_date"] is None

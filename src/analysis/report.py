@@ -41,6 +41,10 @@ def build_report(raw: dict, generated_at: str, prior: dict | None = None) -> dic
         "flags": [],
     }
 
+    # Earnings-Termin (nur Aktien, best-effort) fuer die Signal-Judges.
+    if raw.get("earnings_date") is not None:
+        report["earnings_date"] = raw.get("earnings_date")
+
     if isinstance(prior, dict) and prior.get("agent_analysis"):
         report["agent_analysis"] = prior["agent_analysis"]
 

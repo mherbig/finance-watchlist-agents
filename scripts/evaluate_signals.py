@@ -46,7 +46,9 @@ def _latest_raw_report(symbol_dir: Path) -> dict | None:
         return None
 
 
-def _resolve_symbol(symbol_signals, time_series, flat_closes) -> dict:
+def _resolve_symbol(symbol_signals, time_series, flat_closes,
+                    flat_min_conviction=portfolio.FLAT_MIN_CONVICTION,
+                    flat_consecutive=portfolio.FLAT_CONSECUTIVE) -> dict:
     """Loest die Signalfolge eines Symbols auf und indexiert nach Entry-Datum.
 
     Liefert ``{entry_date: {outcome, exit_price, exit_date, realized_R}}`` fuer
@@ -54,7 +56,9 @@ def _resolve_symbol(symbol_signals, time_series, flat_closes) -> dict:
     fehlende SL/TP oder absorbierte Gleichrichtungs-Signale), bleiben "open".
     """
     resolved = portfolio.resolve_symbol_trades(
-        symbol_signals, time_series or [], flat_closes=flat_closes)
+        symbol_signals, time_series or [], flat_closes=flat_closes,
+        flat_min_conviction=flat_min_conviction,
+        flat_consecutive=flat_consecutive)
     by_date: dict[str, dict] = {}
     for t in resolved:
         by_date[str(t.get("date"))] = {
@@ -140,9 +144,12 @@ def main() -> None:
         print(f"Kein Signal-Log gefunden ({log_path}). Nichts auszuwerten.")
         return
 
-    flat_closes = bool(
-        settings.get("signals", {}).get("flat_closes_position",
-                                        portfolio.FLAT_CLOSES))
+    sig_cfg = settings.get("signals", {})
+    flat_closes = bool(sig_cfg.get("flat_closes_position", portfolio.FLAT_CLOSES))
+    flat_min_conviction = int(sig_cfg.get("flat_close_min_conviction",
+                                          portfolio.FLAT_MIN_CONVICTION))
+    flat_consecutive = int(sig_cfg.get("flat_close_consecutive",
+                                       portfolio.FLAT_CONSECUTIVE))
 
     # Log-Zeilen je Symbol gruppieren (Erstsichtungs-Reihenfolge erhalten).
     groups: dict[str, list] = {}
@@ -197,7 +204,8 @@ def main() -> None:
             asset_class = asset_cache.get(safe)
 
         # Einmalige Symbol-Aufloesung; Ergebnis je Entry-Datum.
-        ev_by_date = _resolve_symbol(symbol_signals, time_series, flat_closes)
+        ev_by_date = _resolve_symbol(symbol_signals, time_series, flat_closes,
+                                     flat_min_conviction, flat_consecutive)
         for sig in symbol_signals:
             ev = ev_by_date.get(str(sig.get("date")), _OPEN_EV)
             results.append({

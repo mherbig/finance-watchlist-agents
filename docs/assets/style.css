@@ -444,3 +444,7 @@ body {
 .eq-key { display: inline-block; width: 12px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
 .eq-key-real { background: var(--accent); }
 .eq-key-marked { background: #e3b341; }
+
+/* Benchmark-Linie (Buy & Hold) im Equity-Chart */
+.eq-line-bench { stroke: var(--text-dim); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.eq-key-bench { background: var(--text-dim); }

@@ -26,9 +26,11 @@ Pipeline (Reihenfolge relevant, alle Skripte von Repo-Root ausführen):
 python scripts/build_watchlist.py      # symbol_map.RAW -> config/watchlist.json (nur nach Mapping-Änderung)
 python scripts/fetch_all.py            # Rohdaten -> data/<safe>/raw-<datum>.json (~10 Min, Rate-Limit)
 python scripts/build_reports.py        # -> docs/reports/<safe>/<datum>.json + index.json
+python scripts/build_market_context.py # Leitmarkt-Trends + Vol-Regime -> docs/signals/market_context.json
 python scripts/attach_signals.py signal_out   # LLM-Urteile + deterministische Level -> Reports + log.jsonl
-python scripts/build_portfolio.py      # Forward-Test-Simulation -> docs/signals/portfolio.json
+python scripts/build_portfolio.py      # Forward-Test inkl. Risiko-Limits -> docs/signals/portfolio.json
 python scripts/evaluate_signals.py     # Track-Record -> docs/signals/track_record.json
+python scripts/replay_whatif.py        # Exit-Politik-Vergleich auf geloggten Signalen -> whatif.json
 python scripts/make_sample_data.py     # synthetische Rohdaten (Dashboard ohne API-Key)
 ```
 
@@ -74,8 +76,19 @@ docs/index.html + assets/app.js (Vanilla JS, kein Build-Schritt) rendert alles
   `entry = snapshot.price`; der LLM entscheidet nur OB (LONG/SHORT/FLAT), nie wo.
   `entry_type` ist konstant `"market"` (Alt-Feld). Kein Pullback/Limit.
 - **Höchstens 1 offene Position je Symbol.** Gleichgerichtete Folgesignale werden
-  gehalten; Gegenrichtung (und FLAT, per `settings.signals.flat_closes_position`)
-  schließt am Flip-Tag ("flip").
+  gehalten; Gegenrichtung schließt am Flip-Tag ("flip"). FLAT schließt nur mit
+  Konviktion ≥ `signals.flat_close_min_conviction` oder nach
+  `signals.flat_close_consecutive` FLATs in Folge (Whipsaw-Hysterese).
+- **Portfolio-Risiko-Limits** (alle in `config/settings.json` → `portfolio`,
+  angewandt als Pre-Pass `apply_portfolio_caps` VOR simulate/Kurven):
+  Heat-Cap `max_total_risk_pct`, Klassen-Cap `max_per_class`, Forex-Währungs-Cap
+  `max_per_currency`, Kill-Switch `max_drawdown_stop_pct` (blockt nur NEUE
+  Entries), Sizing `risk_pct_by_conviction`. Übersprungene Signale stehen mit
+  Grund in `portfolio.json:skipped` — das ist Normalbetrieb, kein Fehler.
+- **Kosten**: `costs.round_trip_pct` je Assetklasse (% vom Entry-Notional) wird
+  beim Close vom P&L abgezogen; `summary.total_costs` weist sie aus.
+- Dashboard-Chart zeigt drei Kurven: bewertet (mark-to-market), realisiert,
+  Benchmark (Equal-Weight Buy & Hold ab Forward-Test-Start).
 - SL/TP/Horizont-Auflösung scannt Bars **strikt nach** dem Signal-Datum; kein
   Same-Bar-Look-ahead. FLAT ist valide und häufig.
 - Offene, nie gefüllte Alt-Pullbacks sind `pending` → **kein** unrealisierter P&L

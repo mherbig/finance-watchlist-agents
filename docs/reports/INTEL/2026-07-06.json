@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 120.35,
+    "change_pct": -5.25114,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 120.35,
+    "change_pct": -5.25113931470177,
+    "sma20": 123.1245,
+    "sma50": 113.3812,
+    "sma200": 60.3345,
+    "rsi14": 51.86,
+    "macd": {
+      "macd": 5.5389,
+      "signal": 6.5872,
+      "hist": -1.0483
+    },
+    "atr14": 11.2064,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -14.61,
+    "pct_from_low": 523.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 99.17
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 120.35
+    },
+    "volume_ratio": 0.95
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend seitwaerts/neutral (RSI 52) mit bearischem MACD (Hist -1,05) und heftigem -5,25%-Tag, aber Wochentrend aufwaerts und Kurs klar ueber SMA50/SMA200. Der Abverkauf laeuft auf unterdurchschnittlichem Volumen (0,95) und ist damit wenig vertrauenswuerdig; ohne stimmige Richtung, bei nur maessig stuetzendem Makro (NQ100 seitwaerts/-1,6%) und negativ kalibrierter Aktien-/Konviktions-3-Klasse bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

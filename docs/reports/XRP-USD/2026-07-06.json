@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.14549,
+    "change_pct": -1.041856,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.14549,
+    "change_pct": -1.0418556433847506,
+    "sma20": 1.1035,
+    "sma50": 1.1921,
+    "sma200": 1.4755,
+    "rsi14": 53.34,
+    "macd": {
+      "macd": -0.0171,
+      "signal": -0.0339,
+      "hist": 0.0168
+    },
+    "atr14": 0.048,
+    "high_52w": 2.52645,
+    "low_52w": 1.03995,
+    "pct_from_high": -54.66,
+    "pct_from_low": 10.15,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1857
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 1.14549
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist neutral (Trend seitwaerts, RSI 53, Bias neutral, MACD-Linie noch negativ) und widerspricht dem klar abwaertsgerichteten Wochentrend (37 Wochen) sowie einem schwachen Krypto-Makro (BTC/USD seitwaerts, Wochentrend down). Der Kurs handelt unter SMA50 und SMA200 und rund 55 Prozent unter dem 52W-Hoch; das leicht positive MACD-Histogramm reicht ohne Volumenbestaetigung (volume_ratio nicht verfuegbar) nicht fuer ein stimmiges Setup. Die klar negative Trefferbilanz der Klasse Krypto (avg_R -0.80) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

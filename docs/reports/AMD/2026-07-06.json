@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 517.82001,
+    "change_pct": -4.26342,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 517.82001,
+    "change_pct": -4.263420721786713,
+    "sma20": 516.8355,
+    "sma50": 460.3808,
+    "sma200": 278.1865,
+    "rsi14": 54.57,
+    "macd": {
+      "macd": 23.2287,
+      "signal": 26.7133,
+      "hist": -3.4846
+    },
+    "atr14": 36.9629,
+    "high_52w": 580.90997,
+    "low_52w": 134.8,
+    "pct_from_high": -10.86,
+    "pct_from_low": 284.14,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 452.4
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 517.82001
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Primaertrend bleibt stimmig bullisch: Tages- und Wochentrend aufwaerts mit sauberer MA-Staffelung (Kurs 517,82 ueber SMA20 516,84, SMA50 460,38 und SMA200 278,19) und RSI 54,6 mit Luft nach oben. Dagegen stehen ein Abgabetag von -4,3%, ein negatives MACD-Histogramm (-3,48), unterdurchschnittliches Volumen (0,88) sowie ein nur seitwaerts laufender NQ100, weshalb LONG mit moderater Konviktion 3 statt aggressiver angesetzt wird. Kein Earnings-Termin im Horizont und die Aktien-Klasse zeigt im Track-Record keine negative Kalibrierung.",
+    "entry": 517.82,
+    "stop_loss": 451.2868,
+    "take_profit": 617.6198,
+    "take_profit_2": 580.91,
+    "rr": 1.5
+  }
+}

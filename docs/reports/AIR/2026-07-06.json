@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 206.15,
+    "change_pct": 1.1035,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 206.14999389648438,
+    "change_pct": 1.1034821320996588,
+    "sma20": 188.9405,
+    "sma50": 179.8138,
+    "sma200": 189.8955,
+    "rsi14": 82.52,
+    "macd": {
+      "macd": 6.6378,
+      "signal": 5.2816,
+      "hist": 1.3562
+    },
+    "atr14": 4.6621,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -6.38,
+    "pct_from_low": 29.51,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 206.15
+      },
+      {
+        "type": "support",
+        "price": 174.96
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 206.14999389648438
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 83",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts (SMAs gestaffelt bullisch, MACD positiv), doch der RSI14 von 82,5 zeigt eine stark ueberkaufte Lage direkt am Widerstand bei 206,15. Der Vorstoss auf neue Hochs erfolgt bei unterdurchschnittlichem Volumen (volume_ratio 0,63), was den Ausbruch wenig vertrauenswuerdig macht; ein Long-Chase ist undiszipliniert, ein Short gegen den intakten Aufwaertstrend nicht begruendbar. Zudem laeuft die Konviktionsstufe 3 im Track Record negativ (avg_R -0,53) - daher FLAT und Abwarten auf Pullback oder Volumenbestaetigung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

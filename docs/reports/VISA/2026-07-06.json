@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 362.13,
+    "change_pct": 3.14744,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 362.13,
+    "change_pct": 3.1474346044110963,
+    "sma20": 330.972,
+    "sma50": 325.9702,
+    "sma200": 328.8951,
+    "rsi14": 86.18,
+    "macd": {
+      "macd": 7.1078,
+      "signal": 3.9041,
+      "hist": 3.2037
+    },
+    "atr14": 7.805,
+    "high_52w": 362.13,
+    "low_52w": 295.51999,
+    "pct_from_high": 0.0,
+    "pct_from_low": 22.54,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 362.13
+      },
+      {
+        "type": "support",
+        "price": 319.05
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 362.13
+    },
+    "volume_ratio": 1.08
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 86",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts und der MACD ist bullisch, doch VISA schliesst nach einem +3,1%-Tag exakt am 52-Wochen-Hoch mit einem extrem ueberkauften RSI von 86. Der Ausbruch ist mit einem Volumen-Ratio von nur 1,08 kaum bestaetigt, ein Neueinstieg auf diesem gestreckten Niveau also unattraktiv. Gegen den Aufwaertstrend zu shorten verbietet sich, daher diszipliniert FLAT und auf Ruecksetzer bzw. Konsolidierung warten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

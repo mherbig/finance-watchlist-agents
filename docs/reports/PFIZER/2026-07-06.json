@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24.32,
+    "change_pct": 1.84255,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 24.32,
+    "change_pct": 1.8425460636515967,
+    "sma20": 25.1325,
+    "sma50": 25.7074,
+    "sma200": 25.8653,
+    "rsi14": 28.44,
+    "macd": {
+      "macd": -0.5183,
+      "signal": -0.4187,
+      "hist": -0.0996
+    },
+    "atr14": 0.5993,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -14.82,
+    "pct_from_low": 4.42,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26.21
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 24.32
+    },
+    "volume_ratio": 1.09
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 28",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "PFE steht im klaren Abwaertstrend: Kurs (24,32) unter SMA20/50/200, Wochentrend abwaerts und MACD negativ ohne Kreuzung. Der RSI von 28 ist zwar ueberverkauft und der +1,8%-Tag deutet einen moeglichen Bounce an, doch bei nur durchschnittlichem Volumen (1,09) fehlt die Bestaetigung fuer einen Long gegen den Wochentrend. Ein Short direkt am 52W-Tief (23,29) bei extrem ueberverkauftem RSI bietet schlechtes CRV, und die Konviktionsstufe 3 laeuft im Track Record klar negativ - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 582.90002,
+    "change_pct": -4.89631,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 582.90002,
+    "change_pct": -4.896306385748629,
+    "sma20": 576.6985,
+    "sma50": 605.229,
+    "sma200": 646.5121,
+    "rsi14": 53.42,
+    "macd": {
+      "macd": -8.4641,
+      "signal": -12.1446,
+      "hist": 3.6805
+    },
+    "atr14": 23.0479,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -26.22,
+    "pct_from_low": 10.88,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 627.57
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 582.90002
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend abwaerts und Kurs klar unter SMA50/SMA200 sind strukturell bearisch, doch RSI 53 (neutral), ein positiv drehendes MACD-Histogramm und der Kurs ueber SMA20 knapp ueber Support 542,87 liefern kein stimmiges Short-Setup. Der scharfe -4,9%-Tagesabschlag bei nur durchschnittlichem Volumen (1,1) und das gemischte Tech-Makro (NQ100 seitwaerts/-1,6%) sprechen gegen eine Richtungswette; bei negativ laufender Konviktions-3-Bilanz bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

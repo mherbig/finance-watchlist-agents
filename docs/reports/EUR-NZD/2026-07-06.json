@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.0094,
+    "change_pct": 0.26545846,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.0094,
+    "change_pct": 0.26545846473193535,
+    "sma20": 2.0069,
+    "sma50": 1.99,
+    "sma200": 1.9919,
+    "rsi14": 58.98,
+    "macd": {
+      "macd": 0.0048,
+      "signal": 0.0065,
+      "hist": -0.0016
+    },
+    "atr14": 0.0104,
+    "high_52w": 2.06036,
+    "low_52w": 1.94714,
+    "pct_from_high": -2.47,
+    "pct_from_low": 3.2,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.0219
+      },
+      {
+        "type": "support",
+        "price": 1.9913
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 39,
+      "last_close": 2.0094
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 39 Wochen klar aufwaerts und der Kurs (2.0094) notiert ueber SMA20/50/200, das strukturelle Bild bleibt bullisch mit RSI 59 im gesunden Bereich. Kurzfristig daempft ein leicht negatives MACD-Histogramm den Schwung, weshalb die Konviktion moderat bleibt; die forex-Klasse laeuft im Track Record zudem leicht negativ. Solange die Unterstuetzung bei 1.9913 haelt, ueberwiegt im Sinne des uebergeordneten Trends die Long-Seite Richtung Widerstand 2.0219.",
+    "entry": 2.0094,
+    "stop_loss": 1.9907,
+    "take_profit": 2.0375,
+    "take_profit_2": 2.0219,
+    "rr": 1.5
+  }
+}

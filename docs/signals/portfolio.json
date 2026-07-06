@@ -1,21 +1,21 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 98270.8059,
-    "return_pct": -1.7292,
+    "current_equity": 98198.0709,
+    "return_pct": -1.8019,
     "open_count": 13,
     "no_fill_count": 0,
-    "closed_count": 5,
+    "closed_count": 6,
     "wins": 0,
-    "losses": 5,
+    "losses": 6,
     "win_rate": 0.0,
-    "total_pnl": -1729.1941,
-    "total_costs": 66.6441,
-    "max_drawdown": -1729.1941,
-    "unrealized_pnl": -142.7166,
-    "marked_equity": 98128.0893,
-    "marked_return_pct": -1.8719,
-    "skipped_count": 21
+    "total_pnl": -1801.9291,
+    "total_costs": 70.0791,
+    "max_drawdown": -1801.9291,
+    "unrealized_pnl": -317.1355,
+    "marked_equity": 97880.9354,
+    "marked_return_pct": -2.1191,
+    "skipped_count": 22
   },
   "equity_curve": [
     {
@@ -36,11 +36,15 @@
     },
     {
       "date": "2026-07-05",
-      "equity": 98787.2851
+      "equity": 98813.5851
     },
     {
       "date": "2026-07-05",
-      "equity": 98270.8059
+      "equity": 98297.1059
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 98198.0709
     }
   ],
   "closed": [
@@ -108,11 +112,11 @@
       "stop_loss": 0.9887,
       "take_profit": 0.9698,
       "exit_date": "2026-07-05",
-      "exit_price": 0.98522,
-      "realized_R": -0.5421,
+      "exit_price": 0.98482,
+      "realized_R": -0.4895,
       "risk_amount": 500.0,
       "cost": 12.9092,
-      "pnl": -283.9592,
+      "pnl": -257.6592,
       "win": false,
       "status": "flip"
     },
@@ -133,6 +137,24 @@
       "pnl": -516.4792,
       "win": false,
       "status": "sl"
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-07-02",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 61.44,
+      "stop_loss": 65.9116,
+      "take_profit": 54.7327,
+      "exit_date": "2026-07-06",
+      "exit_price": 62.29499816894531,
+      "realized_R": -0.1912,
+      "risk_amount": 500.0,
+      "cost": 3.435,
+      "pnl": -99.035,
+      "win": false,
+      "status": "flip"
     }
   ],
   "open": [
@@ -186,9 +208,9 @@
       "units": 456.4126,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 111.90655,
-      "unrealized_pct": -0.4537,
-      "unrealized_pnl": -230.6937
+      "current_price": 112.18289,
+      "unrealized_pct": -0.7018,
+      "unrealized_pnl": -356.8188
     },
     {
       "symbol": "AUD/USD",
@@ -204,9 +226,9 @@
       "units": 76923.0769,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.6936,
-      "unrealized_pct": -0.2892,
-      "unrealized_pnl": -153.8462
+      "current_price": 0.69315,
+      "unrealized_pct": -0.2241,
+      "unrealized_pnl": -119.2308
     },
     {
       "symbol": "BAC",
@@ -240,9 +262,9 @@
       "units": 142857.1429,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.56532,
-      "unrealized_pct": 0.1907,
-      "unrealized_pnl": 154.2857
+      "current_price": 0.56619,
+      "unrealized_pct": 0.0371,
+      "unrealized_pnl": 30.0
     },
     {
       "symbol": "DOGE/USD",
@@ -258,9 +280,9 @@
       "units": 71790.7536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.0773,
-      "unrealized_pct": -0.0,
-      "unrealized_pnl": -0.0
+      "current_price": 0.07721,
+      "unrealized_pct": 0.1164,
+      "unrealized_pnl": 6.4612
     },
     {
       "symbol": "RACE",
@@ -348,27 +370,27 @@
       "units": 0.6159,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 23350.029296875,
-      "unrealized_pct": -1.2795,
-      "unrealized_pnl": -181.6901
+      "current_price": 23542.970703125,
+      "unrealized_pct": -2.1164,
+      "unrealized_pnl": -300.5227
     },
     {
-      "symbol": "XAG/USD",
-      "display": "XAG",
-      "date": "2026-07-02",
+      "symbol": "NZD/USD",
+      "display": "NZD/USD",
+      "date": "2026-07-06",
       "direction": "SHORT",
       "conviction": 3,
-      "entry": 61.44,
-      "stop_loss": 65.9116,
-      "take_profit": 54.7327,
+      "entry": 0.569,
+      "stop_loss": 0.5751,
+      "take_profit": 0.5598,
       "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 111.8168,
+      "risk_amount": 491.4855,
+      "units": 80571.3934,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 62.814998626708984,
-      "unrealized_pct": -2.238,
-      "unrealized_pnl": -153.7479
+      "current_price": 0.569,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0
     }
   ],
   "marked_curve": [
@@ -380,17 +402,22 @@
     {
       "date": "2026-07-03",
       "equity": 100000.0,
-      "marked_equity": 98562.0417
+      "marked_equity": 98804.9075
     },
     {
       "date": "2026-07-04",
       "equity": 99071.2443,
-      "marked_equity": 98354.2303
+      "marked_equity": 98597.0961
     },
     {
       "date": "2026-07-05",
-      "equity": 98270.8059,
-      "marked_equity": 98128.0892
+      "equity": 98297.1059,
+      "marked_equity": 98261.7641
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 98198.0709,
+      "marked_equity": 97880.9354
     }
   ],
   "benchmark_curve": [
@@ -400,15 +427,19 @@
     },
     {
       "date": "2026-07-03",
-      "equity": 100923.7548
+      "equity": 100780.3459
     },
     {
       "date": "2026-07-04",
-      "equity": 101074.7972
+      "equity": 100934.5967
     },
     {
       "date": "2026-07-05",
-      "equity": 101019.9749
+      "equity": 100996.6009
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 101006.1037
     }
   ],
   "skipped": [
@@ -552,6 +583,14 @@
       "symbol": "USD/CAD",
       "display": "USD/CAD",
       "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "USD/JPY",
+      "display": "USD/JPY",
+      "date": "2026-07-06",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"

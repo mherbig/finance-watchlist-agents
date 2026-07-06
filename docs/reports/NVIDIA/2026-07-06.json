@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 194.83,
+    "change_pct": -1.39184,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 194.83,
+    "change_pct": -1.3918412794817288,
+    "sma20": 203.485,
+    "sma50": 209.796,
+    "sma200": 191.0272,
+    "rsi14": 40.42,
+    "macd": {
+      "macd": -4.0876,
+      "signal": -3.0872,
+      "hist": -1.0004
+    },
+    "atr14": 6.3407,
+    "high_52w": 235.74001,
+    "low_52w": 158.24001,
+    "pct_from_high": -17.35,
+    "pct_from_low": 23.12,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 218.66
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 194.83
+    },
+    "volume_ratio": 0.9
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend abwaerts, Bias bearish, RSI 40 unter 50 und MACD negativ unter Signal - das Bild ist schwach, aber kein sauberes SHORT: Der Kurs (194,83) sitzt direkt auf SMA200 (191,03) und Support 192,53, was eine Gegenbewegung ermoeglicht, und das Volumen liegt unter dem Schnitt (0,9). Das Makro ist gemischt (S&P500/GER40 hoch, NQ100 nur seitwaerts bei -1,6%), also kein klarer Rueckenwind gegen die Bearishness; bei diesem Widerspruch bleibt die Position FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.85679,
+    "change_pct": -0.055991695,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.85679,
+    "change_pct": -0.055991694565297394,
+    "sma20": 0.8619,
+    "sma50": 0.8634,
+    "sma200": 0.8676,
+    "rsi14": 20.45,
+    "macd": {
+      "macd": -0.0021,
+      "signal": -0.0015,
+      "hist": -0.0006
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.88308001,
+    "low_52w": 0.85667,
+    "pct_from_high": -2.98,
+    "pct_from_low": 0.01,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.869
+      },
+      {
+        "type": "support",
+        "price": 0.8567
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 39,
+      "last_close": 0.85679
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 20",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 8,
+    "rationale": "Tages- und Wochentrend (39 Wochen) sind abwaertsgerichtet, der Kurs notiert unter SMA20/50/200 und der MACD ist negativ - eine intakte bearische Struktur, mild gestuetzt durch die EUR-Schwaeche (EUR/USD Wochentrend down). RSI14 bei 20.45 direkt am 52W-Tief (0.85667) und an der Unterstuetzung 0.8567 signalisiert jedoch extreme Ueberverkauftheit mit hohem Ruecklaufrisiko, weshalb ich nur niedrige Konviktion und einen kurzen Horizont waehle. Die schwache Forex-Trefferbilanz (avg_R negativ) untermauert die Zurueckhaltung.",
+    "entry": 0.8568,
+    "stop_loss": 0.8615,
+    "take_profit": 0.8498,
+    "take_profit_2": 0.8567,
+    "rr": 1.5
+  }
+}

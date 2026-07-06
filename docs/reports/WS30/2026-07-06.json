@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52900.07,
+    "change_pct": 1.1372,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52900.0703125,
+    "change_pct": 1.137232236762854,
+    "sma20": 51575.8502,
+    "sma50": 50555.6314,
+    "sma200": 48442.7355,
+    "rsi14": 81.33,
+    "macd": {
+      "macd": 571.0174,
+      "signal": 514.3887,
+      "hist": 56.6287
+    },
+    "atr14": 582.2176,
+    "high_52w": 52900.0703125,
+    "low_52w": 43588.578125,
+    "pct_from_high": 0.0,
+    "pct_from_low": 21.36,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 52900.0703
+      },
+      {
+        "type": "support",
+        "price": 49918.7812
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 52900.0703125
+    },
+    "volume_ratio": 0.91
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 81",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar aufwaerts, der Kurs steht ueber allen SMAs (20/50/200) und schliesst auf einem frischen 52-Wochen-Hoch mit positivem MACD-Momentum; das Makro-Bild (S&P500 und GER40 aufwaerts) stuetzt die Long-Seite. Gegen einen so klaren Aufwaertstrend zu shorten waere unbegruendet, daher LONG. Wegen des stark ueberkauften RSI (81) und des unterdurchschnittlichen Ausbruchsvolumens (0.91) bleibt die Konviktion bei 3.",
+    "entry": 52900.07,
+    "stop_loss": 51852.0783,
+    "take_profit": 54472.0575,
+    "take_profit_2": 52900.0703,
+    "rr": 1.5
+  }
+}

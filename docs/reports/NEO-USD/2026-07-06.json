@@ -1,0 +1,67 @@
+{
+  "symbol": "NEO/USD",
+  "display": "NEO/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.971,
+    "change_pct": 3.68227,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.971,
+    "change_pct": 3.6822724881641276,
+    "sma20": 2.0968,
+    "sma50": 2.429,
+    "sma200": 2.9209,
+    "rsi14": 21.63,
+    "macd": {
+      "macd": -0.1394,
+      "signal": -0.1423,
+      "hist": 0.0029
+    },
+    "atr14": 0.101,
+    "high_52w": 5.763,
+    "low_52w": 1.901,
+    "pct_from_high": -65.8,
+    "pct_from_low": 3.68,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.291
+      },
+      {
+        "type": "support",
+        "price": 1.901
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.971
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 22",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (38 Wochen), Kurs unter allen SMAs — aber mit RSI 21,6 stark ueberverkauft, direkt auf der Unterstuetzung (1,901) und nur +3,7% ueber dem 52W-Tief, bei einem sich aufhellenden MACD-Histogramm; ein frischer Short ist hier ein schlechter Einstieg, ein Gegentrend-Long ohne Umkehrbestaetigung nicht gerechtfertigt. Kein Krypto-Rueckenwind (BTC/USD seitwaerts, Wochentrend abwaerts) und die Krypto-Klasse laeuft im Track-Record klar negativ (avg_R -0,80) — daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

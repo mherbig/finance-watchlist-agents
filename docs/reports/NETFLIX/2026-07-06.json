@@ -4,32 +4,32 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T05:03:02.330239+00:00",
+  "generated_at": "2026-07-06T23:51:06.832840+00:00",
   "available": true,
   "snapshot": {
-    "price": 77.65,
-    "change_pct": 4.6637,
+    "price": 76.019997,
+    "change_pct": -2.099169,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 77.65,
-    "change_pct": 4.663701307453846,
-    "sma20": 77.27,
-    "sma50": 84.1192,
-    "sma200": 96.1027,
-    "rsi14": 42.89,
+    "last_close": 76.019997,
+    "change_pct": -2.0991667739858366,
+    "sma20": 76.993,
+    "sma50": 83.7748,
+    "sma200": 95.8826,
+    "rsi14": 41.74,
     "macd": {
-      "macd": -3.2318,
-      "signal": -3.5614,
-      "hist": 0.3296
+      "macd": -2.9368,
+      "signal": -3.4365,
+      "hist": 0.4997
     },
-    "atr14": 2.8443,
-    "high_52w": 128.96201,
+    "atr14": 2.8021,
+    "high_52w": 128.828,
     "low_52w": 70.9,
-    "pct_from_high": -39.79,
-    "pct_from_low": 9.52,
-    "trend": "side",
-    "bias": "neutral",
+    "pct_from_high": -40.99,
+    "pct_from_low": 7.22,
+    "trend": "down",
+    "bias": "bearish",
     "levels": [
       {
         "type": "resistance",
@@ -42,12 +42,12 @@
     ],
     "weekly": {
       "trend": "down",
-      "weeks": 52,
-      "last_close": 77.65
+      "weeks": 53,
+      "last_close": 76.019997
     },
-    "volume_ratio": 1.14
+    "volume_ratio": 0.77
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 43",
+  "headline": "Trend down, RSI 42",
   "flags": []
 }

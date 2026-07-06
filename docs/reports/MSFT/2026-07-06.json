@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 390.48999,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 50",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tagestrend seitwaerts, Bias neutral, RSI 50 und Preis klar unter SMA50/SMA200 bei fallendem Wochentrend ergeben kein stimmiges Setup, weder long noch short. Das Volumen (0.86) liegt unter dem Durchschnitt und das Tech-Makro (NQ100 seitwaerts/schwach) liefert keinen Rueckenwind. Gegen den Wochentrend nur mit klarem Setup handeln, das hier fehlt, daher FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 359.91,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 51",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tages- und Wochentrend beide seitwaerts, Bias neutral und RSI 51 ohne Richtung; der Kurs steht unter der SMA50 (370.97), aber ueber SMA20 (358.54) und SMA200 (316.15), also kein stimmiges Long- oder Short-Bild. Das Volumen (Ratio 0.65) ist unterdurchschnittlich und der Tech-Leitmarkt NQ100 laeuft schwach seitwaerts (-1.6%), sodass kein tragfaehiges Setup vorliegt. Bei negativer Trefferbilanz auf Konviktionsstufe 3 (avg_R -0.53) ist Zurueckhaltung angezeigt -> FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

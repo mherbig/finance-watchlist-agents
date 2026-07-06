@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 21.76,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 79",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tages- und Wochentrend sind aufwaerts und das Volumen (1.79) stuetzt die Bewegung, doch der RSI14 von 79 ist stark ueberkauft und der Kurs steht mit nur -0.37% praktisch direkt am 52-Wochen-Hoch bzw. Widerstand (21.84), waehrend der naechste Support erst bei 19.77 liegt. Ein Market-Einstieg zum Tagesschluss unmittelbar in diesen Widerstand bei extremer Ueberdehnung bietet kaum Aufwaertsraum bei erhoehtem Rueckschlagrisiko; zudem laeuft die Konviktionsstufe 3 im Track Record negativ (avg_R -0.53), daher FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

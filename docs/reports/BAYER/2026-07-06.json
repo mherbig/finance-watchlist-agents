@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 53.36,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 91",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Trend und Wochentrend sind zwar aufwärts und der GER40-Kontext stützt, doch mit RSI14 von 91 exakt am 52-Wochen-Hoch und rund 30% über dem SMA20 liegt eine extreme, vertikale Überhitzung vor. Das Volumen (ratio 0.98) bestätigt den Schub nicht, sodass ein Market-Einstieg in diese unbestätigte Bewegung undiszipliniert wäre; gegen den klaren Aufwärtstrend zu shorten ist gleichermaßen unbegründet. Bei diesem Widerspruch bleibt FLAT die saubere Wahl.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 96.14,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend down, RSI 14",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tages- und Wochentrend klar abwaerts, Kurs 96,14 unter SMA20/50/200 und MACD negativ - das spricht klar gegen einen Long. Zugleich ist der Wert mit RSI 14,3 extrem ueberverkauft und sitzt direkt auf der 52-Wochen-Unterstuetzung (94,81) bei unterdurchschnittlichem Volumen (0,9), sodass ein frischer Short ein schlechtes Chance-Risiko-Verhaeltnis hat. Widerspruch aus bearischer Struktur und Erschoepfung am Support -> FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

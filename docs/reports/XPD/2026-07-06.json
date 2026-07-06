@@ -4,7 +4,7 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 1272.5,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 50",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tagestrend seitwaerts und Bias neutral (RSI 49.5) treffen auf einen klar fallenden Wochentrend (53 Wochen), mit Preis 41% unter 52W-Hoch sowie unter SMA50 und SMA200 - kein stimmiges bullisches Setup. Das leicht positive MACD-Histogramm und das hohe Volumen reichen an einem neutralen Tag nicht fuer eine Position gegen den Wochentrend. Metall-Klasse laeuft im Track-Record negativ (avg_R -0.39, Konviktion 3 avg_R -0.53) und Gold als Peer ist ebenfalls side/abwaerts, daher zurueckhaltend FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

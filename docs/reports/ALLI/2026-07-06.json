@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 419.8,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 92",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tages- und Wochentrend sind klar aufwaerts (Kurs ueber SMA20/50/200, MACD positiv), doch der Ausbruch erfolgt exakt am frischen 52-Wochen-Hoch bei RSI 92 (extrem ueberkauft) und mit unterdurchschnittlichem Volumen (volume_ratio 0.64), also unbestaetigt. Ein neuer Long ins Blow-off-Gebiet ist undiszipliniert, ein Short gegen den intakten Aufwaertstrend nicht stimmig begruendbar - daher FLAT und Ruecksetzer mit Volumenbestaetigung abwarten.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

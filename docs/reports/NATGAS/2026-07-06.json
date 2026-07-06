@@ -4,7 +4,7 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 3.245,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend up, RSI 56",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Tages- und Wochentrend sind aufwaerts und der Preis liegt ueber SMA20/50, doch das MACD-Histogramm ist negativ (-0.0098) und der Tagesanstieg (+1.5%) kommt bei einem Volumen-Ratio von nur 0.24 ohne Volumenbestaetigung. Der Preis steht weiter klar unter SMA200 (-56.5% vom 52W-Hoch), das Makro-Bild ist neutral und die Konviktionsstufe 3 laeuft im Track Record negativ (avg_R -0.53). Kein stimmiges Setup mit ausreichender Ueberzeugung -> FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

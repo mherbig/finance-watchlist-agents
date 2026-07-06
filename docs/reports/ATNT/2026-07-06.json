@@ -4,7 +4,7 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 20.58,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend down, RSI 30",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "Trend ist tages- und wochenbasiert klar abwaerts (Kurs 20.58 unter SMA20/50/200, MACD negativ, Bias bearish), was fuer die Short-Seite spricht. Allerdings notiert ATNT unmittelbar am 52-Wochen-Tief (20.48) bei RSI 30.1 nahe ueberverkauft und mit erhoehtem Volumen (1.92) - ein Markt-Short zum Schlusskurs genau an dieser Unterstuetzung ist stark bounce-anfaellig, waehrend die Struktur ein LONG ausschliesst. Zudem stuetzt das freundliche Aktien-Makro (S&P500/GER40 up) keinen frischen Short; kein stimmiges Setup, daher FLAT.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

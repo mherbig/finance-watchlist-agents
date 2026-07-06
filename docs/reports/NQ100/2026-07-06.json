@@ -4,7 +4,7 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T04:48:20.114421+00:00",
+  "generated_at": "2026-07-06T05:03:02.330239+00:00",
   "available": true,
   "snapshot": {
     "price": 29329.213,
@@ -49,19 +49,5 @@
   },
   "fundamental": null,
   "headline": "Trend side, RSI 49",
-  "flags": [],
-  "signal": {
-    "generated_at": "2026-07-06T05:00:12.801024+00:00",
-    "model": "claude-opus-4-8",
-    "direction": "FLAT",
-    "conviction": 2,
-    "entry_type": "market",
-    "horizon_days": 14,
-    "rationale": "NQ100 steht sowohl im Tages- als auch im Wochentrend seitwaerts (RSI 49, Bias neutral) und verlor am Berichtstag -1,61 % bei unterdurchschnittlichem Volumen (Ratio 0,83), was den Ruecksetzer wenig vertrauenswuerdig macht. Das MACD-Histogramm ist zwar negativ, doch fehlt jede stimmige Trendbestaetigung, und das Makro-Bild ist gemischt (S&P500/GER40 aufwaerts, aber BTC/XAU/EUR mit fallendem Wochentrend). Ohne klares Setup und bei negativ laufender Konviktionsstufe 3 ist kein Einstieg gerechtfertigt.",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "take_profit_2": null,
-    "rr": null
-  }
+  "flags": []
 }

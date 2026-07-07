@@ -1,0 +1,53 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 367.029999,
+    "change_pct": 0.15554422,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 367.029999,
+    "change_pct": 0.15554467487705015,
+    "sma20": 358.1825,
+    "sma50": 372.0764,
+    "sma200": 317.3175,
+    "rsi14": 48.56,
+    "macd": {
+      "macd": -2.217,
+      "signal": -4.0493,
+      "hist": 1.8323
+    },
+    "atr14": 11.7807,
+    "high_52w": 402.62,
+    "low_52w": 176.62,
+    "pct_from_high": -8.84,
+    "pct_from_low": 107.81,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 373.25
+      },
+      {
+        "type": "support",
+        "price": 337.39
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 367.029999
+    },
+    "volume_ratio": 0.64
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": []
+}

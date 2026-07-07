@@ -1,0 +1,53 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 938.38,
+    "change_pct": -4.70881,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 938.38,
+    "change_pct": -4.708809342472709,
+    "sma20": 1046.4275,
+    "sma50": 871.164,
+    "sma200": 452.3661,
+    "rsi14": 41.9,
+    "macd": {
+      "macd": 39.4342,
+      "signal": 70.9468,
+      "hist": -31.5126
+    },
+    "atr14": 104.405,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -22.68,
+    "pct_from_low": 794.72,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 891.88
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 938.38
+    },
+    "volume_ratio": 0.89
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 42",
+  "flags": []
+}

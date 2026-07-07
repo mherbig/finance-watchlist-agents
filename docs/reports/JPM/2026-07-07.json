@@ -1,0 +1,53 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 339.22,
+    "change_pct": 0.44415492,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 339.22,
+    "change_pct": 0.4441549212365272,
+    "sma20": 327.091,
+    "sma50": 313.656,
+    "sma200": 308.7697,
+    "rsi14": 68.37,
+    "macd": {
+      "macd": 7.2182,
+      "signal": 6.8053,
+      "hist": 0.4129
+    },
+    "atr14": 7.8557,
+    "high_52w": 339.22,
+    "low_52w": 282.84,
+    "pct_from_high": 0.0,
+    "pct_from_low": 19.93,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 339.22
+      },
+      {
+        "type": "support",
+        "price": 309.14
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 339.22
+    },
+    "volume_ratio": 0.67
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": []
+}

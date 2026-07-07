@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56938,
+    "change_pct": 0.0052691666,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56941,
+    "change_pct": 0.010538333186958635,
+    "sma20": 0.5695,
+    "sma50": 0.5697,
+    "sma200": 0.5716,
+    "rsi14": 51.13,
+    "macd": {
+      "macd": -0.0001,
+      "signal": -0.0,
+      "hist": -0.0001
+    },
+    "atr14": 0.0017,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -2.24,
+    "pct_from_low": 1.32,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5711
+      },
+      {
+        "type": "support",
+        "price": 0.5668
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 39,
+      "last_close": 0.56941
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (39 Wochen), Preis unter SMA20/50/200 und MACD negativ mit fallendem Histogramm bestaetigen die baerische Dynamik. RSI14 bei 30 ist ueberverkauft, im intakten Abwaertstrend aber noch kein Umkehrsignal; Kurs notiert nur 0,75% ueber dem 52W-Tief nahe Support 0,5654. Kein widersprechendes Makro-Bild, doch die leicht negative Forex-Trefferbilanz haelt die Konviktion bei moderaten 3.",
+    "entry": 0.5662,
+    "stop_loss": 0.5696,
+    "take_profit": 0.5611,
+    "take_profit_2": 0.5654,
+    "rr": 1.5
+  }
+}

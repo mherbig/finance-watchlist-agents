@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 216.71875,
+    "change_pct": 0.065260731,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 216.71875,
+    "change_pct": 0.06526073056281069,
+    "sma20": 214.2479,
+    "sma50": 214.0152,
+    "sma200": 212.4316,
+    "rsi14": 75.02,
+    "macd": {
+      "macd": 0.4153,
+      "signal": 0.0632,
+      "hist": 0.3521
+    },
+    "atr14": 0.9587,
+    "high_52w": 216.71875,
+    "low_52w": 199.94701,
+    "pct_from_high": 0.0,
+    "pct_from_low": 8.39,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 216.7188
+      },
+      {
+        "type": "support",
+        "price": 212.7984
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 39,
+      "last_close": 216.71875
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs notiert ueber allen SMAs (20/50/200), Wochentrend klar aufwaerts und der MACD ist positiv und expandierend (Hist +0.20) - das stuetzt die Long-Seite. Bremsend wirken der nur seitwaerts gerichtete Tagestrend, RSI14 bei ~66 sowie der Kurs direkt am 52W-Hoch/Widerstand (215.97), weshalb es bei einem massvollen LONG bleibt. Da Konviktionsstufe 3 im Forex-Track leicht negativ laeuft (avg_R -0.31), Konviktion 3 statt hoeher.",
+    "entry": 215.9722,
+    "stop_loss": 214.3256,
+    "take_profit": 218.4422,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

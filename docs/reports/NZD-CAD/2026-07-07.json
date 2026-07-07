@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.80681,
+    "change_pct": 0.063251891,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.80681,
+    "change_pct": 0.06325189135557614,
+    "sma20": 0.8087,
+    "sma50": 0.8106,
+    "sma200": 0.8072,
+    "rsi14": 34.52,
+    "macd": {
+      "macd": -0.0022,
+      "signal": -0.0021,
+      "hist": -0.0001
+    },
+    "atr14": 0.0044,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -2.34,
+    "pct_from_low": 2.64,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8163
+      },
+      {
+        "type": "support",
+        "price": 0.8004
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 39,
+      "last_close": 0.80681
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral, RSI 48.67, der Kurs 0.80841 klemmt zwischen SMA20 (0.8076) und SMA50 (0.811); der Wochentrend ist ebenfalls seitwaerts. MACD und Signal liegen noch unter null (nur das Histogramm dreht leicht positiv), Volumen fehlt, und ein stimmiges Setup ist nicht erkennbar. Da Forex und Konviktion 3 im Track Record negativ laufen (avg_R -0.31 bzw. -0.53), ist bei Ueberzeugung unter 3 FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

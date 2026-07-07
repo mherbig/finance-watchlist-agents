@@ -1,0 +1,53 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 245.98,
+    "change_pct": 0.74540958,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 245.98,
+    "change_pct": 0.7454128440366944,
+    "sma20": 239.762,
+    "sma50": 255.0108,
+    "sma200": 233.1049,
+    "rsi14": 49.97,
+    "macd": {
+      "macd": -2.9547,
+      "signal": -4.5743,
+      "hist": 1.6196
+    },
+    "atr14": 8.2254,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -10.55,
+    "pct_from_low": 23.74,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 246.02
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 245.98
+    },
+    "volume_ratio": 0.64
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": []
+}

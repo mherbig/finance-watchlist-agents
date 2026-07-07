@@ -1,0 +1,53 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24.07,
+    "change_pct": 1.47555,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 24.07,
+    "change_pct": 1.4755480607082692,
+    "sma20": 24.9355,
+    "sma50": 25.5938,
+    "sma200": 25.8645,
+    "rsi14": 30.66,
+    "macd": {
+      "macd": -0.5352,
+      "signal": -0.4625,
+      "hist": -0.0727
+    },
+    "atr14": 0.6357,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -15.69,
+    "pct_from_low": 3.35,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26.21
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 24.07
+    },
+    "volume_ratio": 0.86
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": []
+}

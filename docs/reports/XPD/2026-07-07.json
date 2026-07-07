@@ -1,0 +1,53 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1268.5,
+    "change_pct": 0.6427,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1268.5,
+    "change_pct": 0.6426511765344526,
+    "sma20": 1246.735,
+    "sma50": 1357.408,
+    "sma200": 1517.864,
+    "rsi14": 38.3,
+    "macd": {
+      "macd": -32.4233,
+      "signal": -42.8033,
+      "hist": 10.38
+    },
+    "atr14": 25.8214,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -41.54,
+    "pct_from_low": 17.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1355.9
+      },
+      {
+        "type": "support",
+        "price": 1161.3
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1268.5
+    },
+    "volume_ratio": 0.3
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 38",
+  "flags": []
+}

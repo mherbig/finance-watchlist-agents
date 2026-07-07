@@ -1,0 +1,53 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 75.8,
+    "change_pct": 1.5269,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 75.5,
+    "change_pct": 1.1250954951626002,
+    "sma20": 79.9,
+    "sma50": 84.9692,
+    "sma200": 93.3852,
+    "rsi14": 21.99,
+    "macd": {
+      "macd": -4.0499,
+      "signal": -3.6621,
+      "hist": -0.3877
+    },
+    "atr14": 2.4786,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -30.48,
+    "pct_from_low": 7.95,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.42
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 75.5
+    },
+    "volume_ratio": 0.56
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 22",
+  "flags": []
+}

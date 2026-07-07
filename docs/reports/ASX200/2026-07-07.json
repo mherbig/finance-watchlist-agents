@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8803.9,
+    "change_pct": -0.4579,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8831.0,
+    "change_pct": -0.1515127089814287,
+    "sma20": 8794.0901,
+    "sma50": 8726.754,
+    "sma200": 8781.271,
+    "rsi14": 43.0,
+    "macd": {
+      "macd": 17.7793,
+      "signal": 20.9574,
+      "hist": -3.1781
+    },
+    "atr14": 72.0001,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.0,
+    "pct_from_low": 5.56,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8966.2998
+      },
+      {
+        "type": "support",
+        "price": 8604.2002
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 8831.0
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts und der Kurs notiert ueber SMA20/50/200, doch das Momentum widerspricht: RSI14 nur 43, MACD-Histogramm negativ (MACD unter Signal) und der Tag kam mit unterdurchschnittlichem Volumen (0,71). Ohne Bestaetigung durch Momentum und Volumen ist das Setup zu unklar fuer einen Einstieg, zumal Konviktionsstufe 3 im Track Record klar negativ laeuft (avg_R -0,53). Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

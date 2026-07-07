@@ -1,0 +1,53 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 310.66,
+    "change_pct": -0.63967248,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 310.66,
+    "change_pct": -0.6396724876863045,
+    "sma20": 295.04,
+    "sma50": 295.0574,
+    "sma200": 271.4223,
+    "rsi14": 59.54,
+    "macd": {
+      "macd": 1.9355,
+      "signal": -0.0784,
+      "hist": 2.0139
+    },
+    "atr14": 8.8243,
+    "high_52w": 315.20001,
+    "low_52w": 202.38,
+    "pct_from_high": -1.44,
+    "pct_from_low": 53.5,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 312.66
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 310.66
+    },
+    "volume_ratio": 0.61
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": []
+}

@@ -1,0 +1,53 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 110.39,
+    "change_pct": -9.66448,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 110.39,
+    "change_pct": -9.664484451718495,
+    "sma20": 124.2065,
+    "sma50": 115.392,
+    "sma200": 61.2466,
+    "rsi14": 40.71,
+    "macd": {
+      "macd": 3.0348,
+      "signal": 5.5736,
+      "hist": -2.5389
+    },
+    "atr14": 11.245,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -21.68,
+    "pct_from_low": 471.67,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 107.04
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 110.39
+    },
+    "volume_ratio": 1.04
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 41",
+  "flags": []
+}

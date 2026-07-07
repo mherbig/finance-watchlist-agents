@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.28509,
+    "change_pct": 0.10231388,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 114.28509,
+    "change_pct": 0.10231388263009741,
+    "sma20": 114.1182,
+    "sma50": 114.7926,
+    "sma200": 114.6635,
+    "rsi14": 52.55,
+    "macd": {
+      "macd": -0.1802,
+      "signal": -0.2602,
+      "hist": 0.08
+    },
+    "atr14": 0.3968,
+    "high_52w": 117.24469,
+    "low_52w": 107.042999,
+    "pct_from_high": -2.52,
+    "pct_from_low": 6.77,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.6658
+      },
+      {
+        "type": "support",
+        "price": 113.6854
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 39,
+      "last_close": 114.28509
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen beide nach unten (39 Wochen), der Kurs liegt unter SMA20/50/200 mit bearischem Bias und RSI 46 -- ein stimmig bearisches Bild im Einklang mit der breiten JPY-Staerke der Leitmaerkte. MACD-Histogramm ist mit +0,019 nahezu flach und der Preis sitzt direkt auf der Unterstuetzung 113,62 ohne Volumenbestaetigung, weshalb die Konviktion moderat bei 3 bleibt. Die schwache Forex-/Conviction-3-Bilanz (avg_R negativ, kleine Stichprobe) mahnt zur Zurueckhaltung, kippt das Setup aber nicht.",
+    "entry": 113.9179,
+    "stop_loss": 114.5597,
+    "take_profit": 112.9553,
+    "take_profit_2": 113.6195,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 388.84,
+    "change_pct": 0.54300206,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 388.84,
+    "change_pct": 0.5430030651859916,
+    "sma20": 383.4985,
+    "sma50": 406.1336,
+    "sma200": 444.2187,
+    "rsi14": 45.19,
+    "macd": {
+      "macd": -7.4246,
+      "signal": -9.8888,
+      "hist": 2.4642
+    },
+    "atr14": 12.56,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -28.27,
+    "pct_from_low": 10.21,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 411.74
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 388.84
+    },
+    "volume_ratio": 0.59
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": []
+}

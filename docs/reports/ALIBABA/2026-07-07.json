@@ -1,0 +1,53 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 98.14,
+    "change_pct": 0.23490524,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 98.14,
+    "change_pct": 0.23490961086712692,
+    "sma20": 104.882,
+    "sma50": 121.4632,
+    "sma200": 146.4218,
+    "rsi14": 20.91,
+    "macd": {
+      "macd": -7.5769,
+      "signal": -7.7887,
+      "hist": 0.2118
+    },
+    "atr14": 3.165,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -48.17,
+    "pct_from_low": 3.51,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 120.07
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 98.14
+    },
+    "volume_ratio": 0.77
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 21",
+  "flags": []
+}

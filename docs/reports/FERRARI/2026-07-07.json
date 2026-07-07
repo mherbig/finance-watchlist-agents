@@ -1,0 +1,53 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 386.98999,
+    "change_pct": -1.24279,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 386.98999,
+    "change_pct": -1.2427908243451964,
+    "sma20": 363.4735,
+    "sma50": 348.975,
+    "sma200": 371.8983,
+    "rsi14": 59.77,
+    "macd": {
+      "macd": 9.7726,
+      "signal": 6.6524,
+      "hist": 3.1203
+    },
+    "atr14": 9.7618,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -25.24,
+    "pct_from_low": 23.0,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 386.98999
+    },
+    "volume_ratio": 0.56
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": []
+}

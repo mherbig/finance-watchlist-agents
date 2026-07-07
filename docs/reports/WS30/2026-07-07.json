@@ -1,0 +1,53 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52925.15,
+    "change_pct": -0.2465,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52925.1484375,
+    "change_pct": -0.246460231037232,
+    "sma20": 51753.4676,
+    "sma50": 50699.2455,
+    "sma200": 48513.7597,
+    "rsi14": 72.9,
+    "macd": {
+      "macd": 628.3043,
+      "signal": 552.9342,
+      "hist": 75.3701
+    },
+    "atr14": 553.7213,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -0.25,
+    "pct_from_low": 21.42,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 49918.7812
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 52925.1484375
+    },
+    "volume_ratio": 0.74
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": []
+}

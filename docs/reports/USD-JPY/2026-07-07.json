@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/JPY",
+  "display": "USD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 162.29141,
+    "change_pct": 0.10630458,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 162.29141,
+    "change_pct": 0.10630458218149148,
+    "sma20": 161.416,
+    "sma50": 160.2596,
+    "sma200": 158.0449,
+    "rsi14": 69.17,
+    "macd": {
+      "macd": 0.5946,
+      "signal": 0.5735,
+      "hist": 0.0212
+    },
+    "atr14": 0.4317,
+    "high_52w": 162.59838,
+    "low_52w": 150.399,
+    "pct_from_high": -0.19,
+    "pct_from_low": 7.91,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 162.5984
+      },
+      {
+        "type": "support",
+        "price": 160.2212
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 39,
+      "last_close": 162.29141
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 69",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen beide aufwaerts, der Kurs (161.85) steht ueber SMA20/50/200 und die RSI14 bei 53 laesst Luft nach oben; das schwaechelnde EUR/USD (Wochentrend abwaerts) untermauert die USD-Staerke als Rueckenwind. Gegen eine hoehere Konviktion sprechen das leicht negative MACD-Histogramm und die Naehe zum 52W-Hoch (161.61 Widerstand ~0.5% entfernt) sowie der negative avg_R der Klasse Forex/Konviktion 3 im Track Record. Daher LONG mit moderater Konviktion 3.",
+    "entry": 161.8527,
+    "stop_loss": 160.7589,
+    "take_profit": 163.4935,
+    "take_profit_2": 162.6076,
+    "rr": 1.5
+  }
+}

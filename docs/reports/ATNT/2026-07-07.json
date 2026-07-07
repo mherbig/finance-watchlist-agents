@@ -1,0 +1,53 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.09,
+    "change_pct": 2.47814,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.09,
+    "change_pct": 2.4781341107871797,
+    "sma20": 22.1785,
+    "sma50": 23.873,
+    "sma200": 25.6424,
+    "rsi14": 30.77,
+    "macd": {
+      "macd": -0.9124,
+      "signal": -0.8199,
+      "hist": -0.0925
+    },
+    "atr14": 0.7621,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -28.8,
+    "pct_from_low": 2.98,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.58
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 21.09
+    },
+    "volume_ratio": 0.91
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": []
+}

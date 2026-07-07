@@ -1,0 +1,53 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 615.58002,
+    "change_pct": 2.54711,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 615.58002,
+    "change_pct": 2.5471089822288846,
+    "sma20": 576.4635,
+    "sma50": 602.869,
+    "sma200": 644.8179,
+    "rsi14": 55.11,
+    "macd": {
+      "macd": -2.4986,
+      "signal": -9.2068,
+      "hist": 6.7081
+    },
+    "atr14": 22.865,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -22.08,
+    "pct_from_low": 17.09,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 615.58
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 615.58002
+    },
+    "volume_ratio": 0.94
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": []
+}

@@ -1,0 +1,53 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25465.25,
+    "change_pct": -1.2183,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25817.890625,
+    "change_pct": 0.14965519754630027,
+    "sma20": 24925.2918,
+    "sma50": 24723.0113,
+    "sma200": 24289.5451,
+    "rsi14": 67.98,
+    "macd": {
+      "macd": 226.7933,
+      "signal": 133.6991,
+      "hist": 93.0942
+    },
+    "atr14": 309.9957,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": 0.0,
+    "pct_from_low": 15.77,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24195.3105
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 25817.890625
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": []
+}

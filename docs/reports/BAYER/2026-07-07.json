@@ -1,0 +1,53 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 50.82,
+    "change_pct": -4.7601,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 51.18000030517578,
+    "change_pct": -4.085457796551959,
+    "sma20": 41.98,
+    "sma50": 39.1952,
+    "sma200": 36.7587,
+    "rsi14": 83.49,
+    "macd": {
+      "macd": 3.8735,
+      "signal": 2.4806,
+      "hist": 1.3929
+    },
+    "atr14": 2.4243,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -4.09,
+    "pct_from_low": 104.92,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 35.37
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 51.18000030517578
+    },
+    "volume_ratio": 0.85
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 83",
+  "flags": []
+}

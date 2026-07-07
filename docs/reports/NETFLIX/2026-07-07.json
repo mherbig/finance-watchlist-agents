@@ -1,0 +1,53 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 76.18,
+    "change_pct": 0.21047576,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 76.18,
+    "change_pct": 0.2104748833389236,
+    "sma20": 76.693,
+    "sma50": 83.442,
+    "sma200": 95.6492,
+    "rsi14": 39.01,
+    "macd": {
+      "macd": -2.6594,
+      "signal": -3.2811,
+      "hist": 0.6216
+    },
+    "atr14": 2.8581,
+    "high_52w": 128.828,
+    "low_52w": 70.9,
+    "pct_from_high": -40.87,
+    "pct_from_low": 7.45,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 82.64
+      },
+      {
+        "type": "support",
+        "price": 70.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 76.18
+    },
+    "volume_ratio": 0.66
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 39",
+  "flags": []
+}

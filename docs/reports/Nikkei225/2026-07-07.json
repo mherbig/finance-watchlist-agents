@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T23:43:31.142520+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 68256.96,
+    "change_pct": -2.1322,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 69737.6875,
+    "change_pct": -0.009151763686003324,
+    "sma20": 69101.2924,
+    "sma50": 65405.779,
+    "sma200": 55090.1288,
+    "rsi14": 51.03,
+    "macd": {
+      "macd": 1339.5205,
+      "signal": 1680.266,
+      "hist": -340.7455
+    },
+    "atr14": 1997.2612,
+    "high_52w": 72366.34375,
+    "low_52w": 39459.62109375,
+    "pct_from_high": -3.63,
+    "pct_from_low": 76.73,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 64179.2695
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 69737.6875
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen gleichgerichtet aufwaerts (bullischer Bias, Kurs ueber SMA20/50/200, nur -4,4% vom 52W-Hoch), gestuetzt von einem konstruktiven Makro-Bild mit steigendem S&P500 und GER40. RSI 49 ist neutral mit Luft nach oben, und der heutige Ruecksetzer (-0,8%) wirkt wie eine gewoehnliche Konsolidierung im Aufwaertstrend. Leicht negatives MACD-Histogramm und unterdurchschnittliches Volumen (0,96) rechtfertigen eine massvolle Konviktion, kippen das stimmige Long-Setup aber nicht.",
+    "entry": 69181.1,
+    "stop_loss": 65586.0298,
+    "take_profit": 74573.7052,
+    "take_profit_2": 72366.3438,
+    "rr": 1.5
+  }
+}

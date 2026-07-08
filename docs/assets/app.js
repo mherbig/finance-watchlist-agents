@@ -622,7 +622,8 @@ function renderPortfolioHead(summary) {
   const meta = `Start 100.000 $ · ${s.closed_count || 0} Trades `
     + `(${s.wins || 0}W/${s.losses || 0}L, Trefferquote ${wr} %) · ${s.open_count || 0} offen`
     + (s.skipped_count ? ` · ${s.skipped_count} Signale durch Risiko-Limits übersprungen` : "")
-    + (s.total_costs ? ` · Kosten ${fmtMoney(s.total_costs)} $` : "");
+    + (s.total_costs ? ` · Kosten ${fmtMoney(s.total_costs)} $` : "")
+    + (s.ruleset_frozen_since ? ` · Regelstand eingefroren seit ${fmtDate(s.ruleset_frozen_since)}` : "");
   return `
     <div class="depot-head">
       <div class="depot-equity">Depot: ${escapeHtml(equity)} $${retHtml}</div>

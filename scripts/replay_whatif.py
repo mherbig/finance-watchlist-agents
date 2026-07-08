@@ -28,19 +28,17 @@ POLICIES = {
 }
 
 
-def _latest_raw_time_series(data_dir: Path, safe: str) -> list:
+def _latest_raw(data_dir: Path, safe: str) -> dict:
     sym_dir = data_dir / safe
     if not sym_dir.is_dir():
-        return []
+        return {}
     files = sorted(sym_dir.glob("raw-*.json"))
     if not files:
-        return []
+        return {}
     try:
-        raw = json.loads(files[-1].read_text(encoding="utf-8"))
+        return json.loads(files[-1].read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return []
-    ts = raw.get("time_series")
-    return ts if isinstance(ts, list) else []
+        return {}
 
 
 def main() -> None:
@@ -82,11 +80,13 @@ def main() -> None:
     for key in order:
         symbol_signals = groups[key]
         display = symbol_signals[0].get("display") or key
-        ts = _latest_raw_time_series(data_dir, safe_name(str(display)))
+        raw = _latest_raw(data_dir, safe_name(str(display)))
+        ts = raw.get("time_series") or []
         for t in portfolio.resolve_symbol_trades(
                 symbol_signals, ts, flat_closes=flat_closes,
                 flat_min_conviction=flat_min_conviction,
-                flat_consecutive=flat_consecutive):
+                flat_consecutive=flat_consecutive,
+                provisional_date=raw.get("date")):
             if t.get("filled") is not False \
                     and t.get("status") not in ("no_fill", "none"):
                 baseline.append((t, ts))

@@ -867,6 +867,51 @@ def test_simulate_marked_equity_short_in_loss():
     assert s["marked_return_pct"] == -0.6
 
 
+# --- Finalisierte Bars: der laufende (vorlaeufige) Tagesbar loest keine Exits aus
+
+def test_provisional_bar_does_not_trigger_sl():
+    # Der Bar vom Abruftag (provisional_date) ist noch nicht final: ein SL-
+    # Treffer NUR in diesem Bar darf die Position nicht schliessen.
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20)]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 103, 94, 96),   # low 94 <= SL 95, aber vorlaeufig
+    )
+    trades = portfolio.resolve_symbol_trades(
+        signals, ts, provisional_date="2026-01-03")
+    assert trades[0]["status"] == "open"
+
+
+def test_finalized_bar_triggers_sl_next_day():
+    # Naechster Abruftag: derselbe Bar ist jetzt final -> SL greift normal.
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20)]
+    ts = _ts(
+        _bar("2026-01-02", 100, 105, 99, 102),
+        _bar("2026-01-03", 102, 103, 94, 96),
+        _bar("2026-01-04", 96, 99, 95.5, 98),   # vorlaeufig (Abruftag)
+    )
+    trades = portfolio.resolve_symbol_trades(
+        signals, ts, provisional_date="2026-01-04")
+    assert trades[0]["status"] == "sl"
+    assert trades[0]["exit_date"] == "2026-01-03"
+
+
+def test_no_provisional_date_keeps_old_behavior():
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20)]
+    ts = _ts(_bar("2026-01-02", 100, 103, 94, 96))
+    trades = portfolio.resolve_symbol_trades(signals, ts)
+    assert trades[0]["status"] == "sl"
+
+
+def test_provisional_bar_older_than_cutoff_is_final():
+    # Wochenende: Abruftag 01-05, juengster Bar 01-03 (< cutoff) ist final.
+    signals = [_sig("2026-01-01", "LONG", 100.0, 95.0, 130.0, horizon_days=20)]
+    ts = _ts(_bar("2026-01-03", 100, 103, 94, 96))
+    trades = portfolio.resolve_symbol_trades(
+        signals, ts, provisional_date="2026-01-05")
+    assert trades[0]["status"] == "sl"
+
+
 # --- A2 Flip-Hysterese: schwache FLATs schliessen nicht sofort --------------
 
 def test_weak_flat_does_not_close_position():

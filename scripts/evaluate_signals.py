@@ -48,7 +48,8 @@ def _latest_raw_report(symbol_dir: Path) -> dict | None:
 
 def _resolve_symbol(symbol_signals, time_series, flat_closes,
                     flat_min_conviction=portfolio.FLAT_MIN_CONVICTION,
-                    flat_consecutive=portfolio.FLAT_CONSECUTIVE) -> dict:
+                    flat_consecutive=portfolio.FLAT_CONSECUTIVE,
+                    provisional_date=None) -> dict:
     """Loest die Signalfolge eines Symbols auf und indexiert nach Entry-Datum.
 
     Liefert ``{entry_date: {outcome, exit_price, exit_date, realized_R}}`` fuer
@@ -58,7 +59,8 @@ def _resolve_symbol(symbol_signals, time_series, flat_closes,
     resolved = portfolio.resolve_symbol_trades(
         symbol_signals, time_series or [], flat_closes=flat_closes,
         flat_min_conviction=flat_min_conviction,
-        flat_consecutive=flat_consecutive)
+        flat_consecutive=flat_consecutive,
+        provisional_date=provisional_date)
     by_date: dict[str, dict] = {}
     for t in resolved:
         by_date[str(t.get("date"))] = {
@@ -180,6 +182,7 @@ def main() -> None:
         safe = safe_name(str(display)) if display else None
         time_series = None
         asset_class = None
+        raw = None
         if safe is not None:
             if safe not in raw_cache:
                 sym_dir = data_dir / safe
@@ -205,7 +208,8 @@ def main() -> None:
 
         # Einmalige Symbol-Aufloesung; Ergebnis je Entry-Datum.
         ev_by_date = _resolve_symbol(symbol_signals, time_series, flat_closes,
-                                     flat_min_conviction, flat_consecutive)
+                                     flat_min_conviction, flat_consecutive,
+                                     provisional_date=(raw or {}).get("date"))
         for sig in symbol_signals:
             ev = ev_by_date.get(str(sig.get("date")), _OPEN_EV)
             results.append({

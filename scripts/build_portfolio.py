@@ -121,7 +121,8 @@ def main() -> None:
         resolved = portfolio.resolve_symbol_trades(
             symbol_signals, time_series, flat_closes=flat_closes,
             flat_min_conviction=flat_min_conviction,
-            flat_consecutive=flat_consecutive)
+            flat_consecutive=flat_consecutive,
+            provisional_date=raw.get("date"))
         for t in resolved:
             t["asset_class"] = asset_class
         trades.extend(resolved)
@@ -159,6 +160,9 @@ def main() -> None:
         "skip_reason": s.get("skip_reason"),
     } for s in skipped]
     result["summary"]["skipped_count"] = len(skipped)
+    # Regelwerk-Stand (eingefroren): rein informativ fuer das Dashboard.
+    if pf_cfg.get("ruleset_frozen_since"):
+        result["summary"]["ruleset_frozen_since"] = pf_cfg["ruleset_frozen_since"]
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

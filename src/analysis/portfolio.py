@@ -210,7 +210,8 @@ def _opposes(open_direction: str, sig_direction: str, flat_closes: bool) -> bool
 def resolve_symbol_trades(signals: list, time_series: list,
                           flat_closes: bool = FLAT_CLOSES,
                           flat_min_conviction: int = FLAT_MIN_CONVICTION,
-                          flat_consecutive: int = FLAT_CONSECUTIVE) -> list:
+                          flat_consecutive: int = FLAT_CONSECUTIVE,
+                          provisional_date: str | None = None) -> list:
     """Loest die taegliche Signalfolge EINES Symbols zu Trades auf.
 
     ``signals``: alle Log-Eintraege eines Symbols (unsortiert erlaubt).
@@ -234,6 +235,12 @@ def resolve_symbol_trades(signals: list, time_series: list,
         key=lambda s: str(s.get("date")),
     )
     bars = _ascending_bars(time_series)
+    # Nur FINALISIERTE Bars loesen Exits/Fills aus: der Bar des Abruftags
+    # (provisional_date, i. d. R. raw["date"]) laeuft ggf. noch und wird beim
+    # naechsten Abruf revidiert -> von der Aufloesung ausschliessen. Bewertung
+    # (marked_equity_curve/current_price) nutzt ihn weiterhin.
+    if provisional_date is not None:
+        bars = [b for b in bars if b["date"] < str(provisional_date)]
 
     trades: list[dict] = []
     i = 0

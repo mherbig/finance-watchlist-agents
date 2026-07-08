@@ -91,6 +91,15 @@ docs/index.html + assets/app.js (Vanilla JS, kein Build-Schritt) rendert alles
   Benchmark (Equal-Weight Buy & Hold ab Forward-Test-Start).
 - SL/TP/Horizont-Auflösung scannt Bars **strikt nach** dem Signal-Datum; kein
   Same-Bar-Look-ahead. FLAT ist valide und häufig.
+- **Nur finalisierte Bars lösen Exits aus**: der Bar des Abruftags
+  (`provisional_date` = `raw["date"]`) ist vorläufig und wird von der
+  Trade-Auflösung ausgeschlossen (Bewertung/current_price nutzt ihn weiter).
+  Verhindert Exits, die der Folgetag revidieren würde.
+- **Regelwerk eingefroren seit 2026-07-08** (`portfolio.ruleset_frozen_since`):
+  KEINE rückwirkenden Regeländerungen mehr — die simulierte Historie muss ab
+  jetzt stabil bleiben. Neue Regel-Ideen laufen über die What-if-Engine
+  (`scripts/replay_whatif.py`) und werden nur nach expliziter Nutzer-Entscheidung
+  übernommen (dann `ruleset_frozen_since` aktualisieren).
 - Offene, nie gefüllte Alt-Pullbacks sind `pending` → **kein** unrealisierter P&L
   (Phantom-Gewinn-Schutz); Dashboard zeigt "⏳ wartet".
 - `build_reports`/`attach_*` sind **idempotent** und erhalten bestehende

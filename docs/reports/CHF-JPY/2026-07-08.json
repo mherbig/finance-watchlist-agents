@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 201.13581,
+    "change_pct": -0.013024328,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 201.13581,
+    "change_pct": -0.01302432800309417,
+    "sma20": 200.3462,
+    "sma50": 201.3583,
+    "sma200": 200.7933,
+    "rsi14": 64.61,
+    "macd": {
+      "macd": 0.0113,
+      "signal": -0.1436,
+      "hist": 0.1549
+    },
+    "atr14": 0.8048,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.47,
+    "pct_from_low": 6.11,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.302
+      },
+      {
+        "type": "support",
+        "price": 199.1978
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 201.13581
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts bei erhoehtem RSI (65) und neutralem Bias, Preis eingeklemmt zwischen SMA20 (200.27) und SMA50 (201.42) - kein stimmiges Long-Setup trotz leicht positiv drehendem MACD-Histogramm. Wochentrend ebenfalls seitwaerts und die Volumenbestaetigung fehlt (volume_ratio null). Bei schwacher Forex-Trefferbilanz (avg_R negativ) bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

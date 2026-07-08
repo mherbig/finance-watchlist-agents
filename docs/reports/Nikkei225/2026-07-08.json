@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 66819.05,
+    "change_pct": -4.1852,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 68256.9609375,
+    "change_pct": -2.123280274385353,
+    "sma20": 69243.309,
+    "sma50": 65579.201,
+    "sma200": 55213.1946,
+    "rsi14": 45.21,
+    "macd": {
+      "macd": 1132.5442,
+      "signal": 1570.7216,
+      "hist": -438.1774
+    },
+    "atr14": 2055.3661,
+    "high_52w": 72366.34375,
+    "low_52w": 39459.62109375,
+    "pct_from_high": -5.68,
+    "pct_from_low": 72.98,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 64179.2695
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 68256.9609375
+    },
+    "volume_ratio": 1.07
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen gleichgerichtet aufwaerts (bullischer Bias, Kurs ueber SMA20/50/200, nur -4,4% vom 52W-Hoch), gestuetzt von einem konstruktiven Makro-Bild mit steigendem S&P500 und GER40. RSI 49 ist neutral mit Luft nach oben, und der heutige Ruecksetzer (-0,8%) wirkt wie eine gewoehnliche Konsolidierung im Aufwaertstrend. Leicht negatives MACD-Histogramm und unterdurchschnittliches Volumen (0,96) rechtfertigen eine massvolle Konviktion, kippen das stimmige Long-Setup aber nicht.",
+    "entry": 69181.1,
+    "stop_loss": 65586.0298,
+    "take_profit": 74573.7052,
+    "take_profit_2": 72366.3438,
+    "rr": 1.5
+  }
+}

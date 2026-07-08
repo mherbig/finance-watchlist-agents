@@ -1,0 +1,53 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 58.3,
+    "change_pct": -2.60608,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 58.3,
+    "change_pct": -2.606080855329105,
+    "sma20": 57.2335,
+    "sma50": 54.058,
+    "sma200": 52.6947,
+    "rsi14": 58.37,
+    "macd": {
+      "macd": 1.5246,
+      "signal": 1.4883,
+      "hist": 0.0363
+    },
+    "atr14": 1.2279,
+    "high_52w": 59.9,
+    "low_52w": 44.92,
+    "pct_from_high": -2.67,
+    "pct_from_low": 29.79,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 59.9
+      },
+      {
+        "type": "support",
+        "price": 54.42
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 58.3
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": []
+}

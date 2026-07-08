@@ -1,0 +1,53 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 347.53,
+    "change_pct": -1.32595,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 347.53,
+    "change_pct": -1.3259539657594124,
+    "sma20": 335.65,
+    "sma50": 328.518,
+    "sma200": 329.0579,
+    "rsi14": 61.99,
+    "macd": {
+      "macd": 7.8699,
+      "signal": 5.9045,
+      "hist": 1.9654
+    },
+    "atr14": 8.7057,
+    "high_52w": 362.13,
+    "low_52w": 295.51999,
+    "pct_from_high": -4.03,
+    "pct_from_low": 17.6,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 362.13
+      },
+      {
+        "type": "support",
+        "price": 319.05
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 347.53
+    },
+    "volume_ratio": 1.08
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": []
+}

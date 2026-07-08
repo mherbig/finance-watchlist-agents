@@ -1,0 +1,67 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24199.46,
+    "change_pct": 2.4692,
+    "currency": "HKD"
+  },
+  "technical": {
+    "last_close": 23496.890625,
+    "change_pct": -0.5057082810516694,
+    "sma20": 23793.1809,
+    "sma50": 25009.8379,
+    "sma200": 25876.3302,
+    "rsi14": 31.7,
+    "macd": {
+      "macd": -530.5407,
+      "signal": -575.4941,
+      "hist": 44.9534
+    },
+    "atr14": 457.6366,
+    "high_52w": 27968.08984375,
+    "low_52w": 22671.859375,
+    "pct_from_high": -15.99,
+    "pct_from_low": 3.64,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 24842.6699
+      },
+      {
+        "type": "support",
+        "price": 22671.8594
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 23496.890625
+    },
+    "volume_ratio": 0.98
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts: Preis 23543 unter SMA20/50/200, -15,8% vom 52W-Hoch, MACD deutlich negativ und bearischer Bias. Der heutige Rebound von +0,83% laeuft bei unterdurchschnittlichem Volumen (0,91) und dreht die Struktur nicht; kein HK-spezifischer bullischer Makro-Grund trotz freundlicher Leitmaerkte. Stimmig bearisch, aber moderate Konviktion, da RSI 34 tief ist und Konviktion 3 im Track Record leicht negativ laeuft.",
+    "entry": 23542.97,
+    "stop_loss": 24354.7781,
+    "take_profit": 22325.2579,
+    "take_profit_2": 22671.8594,
+    "rr": 1.5
+  }
+}

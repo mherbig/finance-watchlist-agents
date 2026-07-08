@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69312,
+    "change_pct": 0.0028855865,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69329,
+    "change_pct": 0.02741307170681178,
+    "sma20": 0.6931,
+    "sma50": 0.703,
+    "sma200": 0.6999,
+    "rsi14": 56.05,
+    "macd": {
+      "macd": -0.0026,
+      "signal": -0.0035,
+      "hist": 0.0009
+    },
+    "atr14": 0.0032,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.48,
+    "pct_from_low": 7.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7016
+      },
+      {
+        "type": "support",
+        "price": 0.6887
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69329
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (39 Wochen) stehen klar auf down, Bias bearish, Kurs 0.69315 unter SMA20/50/200 und nur knapp ueber Support 0.6887. Das risikoscheue Makro-Bild (NQ100, BTC/USD, XAU schwach) stuetzt die AUD-Schwaeche als Risiko-Waehrung. RSI 36 nahe ueberverkauft, leicht positives MACD-Histogramm und die zuletzt negative Forex-/Konviktion-3-Trefferquote mahnen zur Zurueckhaltung, daher moderate Konviktion 3.",
+    "entry": 0.6932,
+    "stop_loss": 0.7,
+    "take_profit": 0.6829,
+    "take_profit_2": 0.6887,
+    "rr": 1.5
+  }
+}

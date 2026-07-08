@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92301,
+    "change_pct": -0.0043334597,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92301,
+    "change_pct": -0.004333459725913006,
+    "sma20": 0.9221,
+    "sma50": 0.9191,
+    "sma200": 0.9187,
+    "rsi14": 56.34,
+    "macd": {
+      "macd": 0.0004,
+      "signal": 0.0005,
+      "hist": -0.0
+    },
+    "atr14": 0.0028,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -1.7,
+    "pct_from_low": 2.38,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9262
+      },
+      {
+        "type": "support",
+        "price": 0.9184
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.92301
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts bei neutralem Bias, Kurs klebt auf der Support-Zone 0.9184 knapp unter SMA20, waehrend RSI 36 leicht ueberverkauft ist und der negative MACD-Hist schwach bearisch bleibt - ein widerspruechliches Bild ohne tragfaehige Kante. Der bullische Wochentrend stuetzt zwar keinen Short, liefert aber ohne Volumenbestaetigung und ohne symbolspezifischen Impuls auch keinen sauberen Long. Da Forex-Konviktion 3 im Track Record negativ laeuft (avg_R -0.31), ist Zurueckhaltung angezeigt, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

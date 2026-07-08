@@ -1,0 +1,53 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 418.5,
+    "change_pct": -0.4046,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 422.79998779296875,
+    "change_pct": 0.6187471466936798,
+    "sma20": 404.75,
+    "sma50": 390.152,
+    "sma200": 374.0895,
+    "rsi14": 91.54,
+    "macd": {
+      "macd": 9.5885,
+      "signal": 8.1458,
+      "hist": 1.4426
+    },
+    "atr14": 4.65,
+    "high_52w": 422.79998779296875,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": 0.0,
+    "pct_from_low": 26.55,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 422.8
+      },
+      {
+        "type": "support",
+        "price": 381.5
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 422.79998779296875
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 92",
+  "flags": []
+}

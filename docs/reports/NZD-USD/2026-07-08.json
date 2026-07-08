@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57096,
+    "change_pct": 0.16842105,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57096,
+    "change_pct": 0.16842105263159157,
+    "sma20": 0.5685,
+    "sma50": 0.5785,
+    "sma200": 0.5854,
+    "rsi14": 69.53,
+    "macd": {
+      "macd": -0.0022,
+      "signal": -0.0032,
+      "hist": 0.001
+    },
+    "atr14": 0.0031,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -5.87,
+    "pct_from_low": 2.05,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5739
+      },
+      {
+        "type": "support",
+        "price": 0.5639
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.57096
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 0.56899 notiert unter SMA20/50/200 bei klar abwaertsgerichtetem Tages- UND Wochentrend (39 Wochen), waehrend das Makrobild mit festem USD (EUR/USD, BTC, XAU alle im Wochen-Abwaertstrend) zusaetzlich gegen den NZD spricht. RSI 43.5 laesst Abwaertsspielraum, der einzige Daempfer ist das leicht positive MACD-Histogramm (+0.001). Wegen dieses kleinen Gegenimpulses und der schwachen bisherigen Forex-Trefferquote bleibt die Konviktion bei 3 statt hoeher.",
+    "entry": 0.569,
+    "stop_loss": 0.5751,
+    "take_profit": 0.5598,
+    "take_profit_2": 0.5639,
+    "rr": 1.5
+  }
+}

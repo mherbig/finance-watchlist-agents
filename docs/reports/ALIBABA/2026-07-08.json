@@ -1,0 +1,53 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 108.98,
+    "change_pct": 11.045449,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 108.98,
+    "change_pct": 11.045445282249851,
+    "sma20": 104.3275,
+    "sma50": 120.9264,
+    "sma200": 146.1543,
+    "rsi14": 47.08,
+    "macd": {
+      "macd": -6.3242,
+      "signal": -7.4958,
+      "hist": 1.1716
+    },
+    "atr14": 3.7493,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -42.44,
+    "pct_from_low": 14.95,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 119.7
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 108.98
+    },
+    "volume_ratio": 2.91
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": []
+}

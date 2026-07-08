@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/NZD",
+  "display": "AUD/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.21405,
+    "change_pct": -0.15625643,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.21405,
+    "change_pct": -0.15625642501747708,
+    "sma20": 1.2192,
+    "sma50": 1.2153,
+    "sma200": 1.1956,
+    "rsi14": 28.25,
+    "macd": {
+      "macd": 0.0,
+      "signal": 0.0006,
+      "hist": -0.0006
+    },
+    "atr14": 0.0047,
+    "high_52w": 1.22792,
+    "low_52w": 1.13055,
+    "pct_from_high": -1.13,
+    "pct_from_low": 7.39,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.2255
+      },
+      {
+        "type": "support",
+        "price": 1.2141
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.21405
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 28",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend seitwaerts bei neutralem Bias, Kurs unter SMA20/SMA50 und negatives MACD-Histogramm ergeben ein leicht bearisches, aber unklares Momentumbild direkt ueber dem Support 1.2147. Der oversold-nahe RSI (34) widerspricht dem und deutet eher auf eine Gegenbewegung, ohne dass Volumen (fehlt) oder eine qualitative Analyse ein stimmiges Setup bestaetigen. Bei diesem Widerspruch und negativ kalibrierter Forex-Bilanz ist FLAT mit niedriger Konviktion die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

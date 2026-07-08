@@ -1,0 +1,67 @@
+{
+  "symbol": "XAU/USD",
+  "display": "XAU",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4074.50309,
+    "change_pct": -0.068056925,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 4074.50309,
+    "change_pct": -0.06805692491957886,
+    "sma20": 4101.0489,
+    "sma50": 4268.0053,
+    "sma200": 4644.8174,
+    "rsi14": 55.84,
+    "macd": {
+      "macd": -41.7624,
+      "signal": -54.4522,
+      "hist": 12.6897
+    },
+    "atr14": 68.2345,
+    "high_52w": 5330.94854,
+    "low_52w": 3930.56,
+    "pct_from_high": -23.57,
+    "pct_from_low": 3.66,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4191.7837
+      },
+      {
+        "type": "support",
+        "price": 4001.1152
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 4074.50309
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend seitwaerts, RSI 47 neutral und MACD-Histogramm zwar positiv (steigend), aber MACD klar unter Null und Kurs deutlich unter SMA50/SMA200 (-21,97% vom 52W-Hoch). Der Wochentrend ist bearisch (down, 37 Wochen) und das Makro-Bild liefert keinen Rueckenwind (XAU seitwaerts, Wochentrend down), zudem fehlt jede Volumenbestaetigung (volume_ratio null). Da kein stimmiges Setup vorliegt und die Metall-Klasse im Track Record negativ laeuft (avg_R -0,39), bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

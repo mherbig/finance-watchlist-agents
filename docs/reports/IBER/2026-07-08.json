@@ -1,0 +1,53 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.02,
+    "change_pct": -0.0,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 21.020000457763672,
+    "change_pct": 0.0,
+    "sma20": 21.1035,
+    "sma50": 20.226,
+    "sma200": 18.9494,
+    "rsi14": 53.26,
+    "macd": {
+      "macd": 0.318,
+      "signal": 0.3977,
+      "hist": -0.0797
+    },
+    "atr14": 0.4007,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.149999618530273,
+    "pct_from_high": -3.75,
+    "pct_from_low": 38.75,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 20.32
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 21.020000457763672
+    },
+    "volume_ratio": 2.77
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": []
+}

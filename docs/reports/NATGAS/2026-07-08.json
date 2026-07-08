@@ -1,0 +1,53 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 3.219,
+    "change_pct": -1.4089,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 3.2190001010894775,
+    "change_pct": -1.408882154264045,
+    "sma20": 3.2046,
+    "sma50": 3.0525,
+    "sma200": 3.4622,
+    "rsi14": 48.95,
+    "macd": {
+      "macd": 0.0447,
+      "signal": 0.0543,
+      "hist": -0.0095
+    },
+    "atr14": 0.1281,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -56.85,
+    "pct_from_low": 27.59,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 3.087
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 3.2190001010894775
+    },
+    "volume_ratio": 0.0
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 49",
+  "flags": []
+}

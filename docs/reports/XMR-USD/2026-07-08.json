@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 318.73541,
+    "change_pct": -2.905,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 318.73541,
+    "change_pct": -2.9049991211548263,
+    "sma20": 318.2115,
+    "sma50": 340.2607,
+    "sma200": 380.7632,
+    "rsi14": 51.43,
+    "macd": {
+      "macd": -3.8492,
+      "signal": -6.4607,
+      "hist": 2.6114
+    },
+    "atr14": 10.8352,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -55.15,
+    "pct_from_low": 8.76,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 329.7957
+      },
+      {
+        "type": "support",
+        "price": 305.6874
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 318.73541
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-06T05:00:12.801024+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend klar abwaerts (37 Wochen), Kurs unter SMA50 und SMA200 sowie 54% unter dem 52W-Hoch, waehrend Tagestrend nur seitwaerts, RSI mit 52 und Bias neutral sind. Der leicht positive MACD-Hist ist als Gegentrend-Signal zu schwach, Volumenbestaetigung fehlt (volume_ratio null), und das schwache Krypto-Makrobild (BTC seitwaerts/Woche abwaerts) samt klar negativer Krypto-Trefferbilanz mahnt zur Zurueckhaltung. Kein stimmiges Setup -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T23:50:34.841641+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29252.562,
+    "change_pct": 0.2727,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29252.5625,
+    "change_pct": 0.2726593613828488,
+    "sma20": 29602.4855,
+    "sma50": 29285.278,
+    "sma200": 26168.3731,
+    "rsi14": 43.87,
+    "macd": {
+      "macd": 49.2155,
+      "signal": 156.1822,
+      "hist": -106.9668
+    },
+    "atr14": 675.2969,
+    "high_52w": 30660.599609375,
+    "low_52w": 22763.310546875,
+    "pct_from_high": -4.59,
+    "pct_from_low": 28.51,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30543.9199
+      },
+      {
+        "type": "support",
+        "price": 28508.0293
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 29252.5625
+    },
+    "volume_ratio": 0.11
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": []
+}

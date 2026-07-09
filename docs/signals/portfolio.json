@@ -12,9 +12,9 @@
     "total_pnl": -4311.8111,
     "total_costs": 121.6611,
     "max_drawdown": -4311.8111,
-    "unrealized_pnl": -1027.2767,
-    "marked_equity": 94660.9122,
-    "marked_return_pct": -5.3391,
+    "unrealized_pnl": -1134.9123,
+    "marked_equity": 94553.2766,
+    "marked_return_pct": -5.4467,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -283,9 +283,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 546.65997,
-      "unrealized_pct": 5.4799,
-      "unrealized_pnl": 213.4258
+      "current_price": 546.71997,
+      "unrealized_pct": 5.4914,
+      "unrealized_pnl": 213.8767
     },
     {
       "symbol": "AAPL",
@@ -301,9 +301,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 316.17999,
-      "unrealized_pct": 2.5826,
-      "unrealized_pnl": 247.2787
+      "current_price": 316.22,
+      "unrealized_pct": 2.5955,
+      "unrealized_pnl": 248.5216
     },
     {
       "symbol": "AUD/USD",
@@ -319,9 +319,9 @@
       "units": 76923.0769,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.69423,
-      "unrealized_pct": -0.3803,
-      "unrealized_pnl": -202.3077
+      "current_price": 0.69426,
+      "unrealized_pct": -0.3846,
+      "unrealized_pnl": -204.6154
     },
     {
       "symbol": "BAC",
@@ -337,9 +337,9 @@
       "units": 230.4466,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 59.235,
-      "unrealized_pct": 0.9286,
-      "unrealized_pnl": 125.5934
+      "current_price": 59.25,
+      "unrealized_pct": 0.9542,
+      "unrealized_pnl": 129.0501
     },
     {
       "symbol": "DOGE/USD",
@@ -355,9 +355,9 @@
       "units": 71790.5797,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.07345,
-      "unrealized_pct": 4.9806,
-      "unrealized_pnl": 276.3937
+      "current_price": 0.07278,
+      "unrealized_pct": 5.8473,
+      "unrealized_pnl": 324.4934
     },
     {
       "symbol": "RACE",
@@ -373,9 +373,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 374.67999,
-      "unrealized_pct": -2.6729,
-      "unrealized_pnl": -268.0918
+      "current_price": 374.67001,
+      "unrealized_pct": -2.6755,
+      "unrealized_pnl": -268.3518
     },
     {
       "symbol": "UKX",
@@ -391,9 +391,9 @@
       "units": 4.9386,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10472.4501953125,
-      "unrealized_pct": -1.6936,
-      "unrealized_pnl": -891.0212
+      "current_price": 10489.0,
+      "unrealized_pct": -1.5383,
+      "unrealized_pnl": -809.2884
     },
     {
       "symbol": "DAX",
@@ -409,9 +409,9 @@
       "units": 0.9083,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 25118.26953125,
-      "unrealized_pct": -0.0,
-      "unrealized_pnl": -0.0004
+      "current_price": 24897.44921875,
+      "unrealized_pct": -0.8791,
+      "unrealized_pnl": -200.5715
     },
     {
       "symbol": "NDX",
@@ -445,9 +445,9 @@
       "units": 80571.1967,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.57556,
-      "unrealized_pct": -1.1529,
-      "unrealized_pnl": -528.5471
+      "current_price": 0.57605,
+      "unrealized_pct": -1.239,
+      "unrealized_pnl": -568.0269
     }
   ],
   "marked_curve": [
@@ -484,17 +484,17 @@
     {
       "date": "2026-07-08",
       "equity": 95688.1889,
-      "marked_equity": 94842.2076
+      "marked_equity": 94842.2447
     },
     {
       "date": "2026-07-09",
       "equity": 95688.1889,
-      "marked_equity": 94658.422
+      "marked_equity": 94592.574
     },
     {
       "date": "2026-07-10",
       "equity": 95688.1889,
-      "marked_equity": 94660.9121
+      "marked_equity": 94553.2765
     }
   ],
   "benchmark_curve": [
@@ -524,15 +524,15 @@
     },
     {
       "date": "2026-07-08",
-      "equity": 99951.1973
+      "equity": 99951.2092
     },
     {
       "date": "2026-07-09",
-      "equity": 100566.3099
+      "equity": 100469.5891
     },
     {
       "date": "2026-07-10",
-      "equity": 100563.3196
+      "equity": 100470.4672
     }
   ],
   "skipped": [

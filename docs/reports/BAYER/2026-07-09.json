@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 50.7,
+    "change_pct": 2.1354,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 50.70000076293945,
+    "change_pct": 2.135377490580833,
+    "sma20": 44.2055,
+    "sma50": 39.9894,
+    "sma200": 37.102,
+    "rsi14": 78.91,
+    "macd": {
+      "macd": 3.7264,
+      "signal": 3.1188,
+      "hist": 0.6076
+    },
+    "atr14": 2.3236,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -4.99,
+    "pct_from_low": 103.0,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 36.01
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 50.70000076293945
+    },
+    "volume_ratio": 0.48
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 79",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend (täglich und wöchentlich) und Makro-Umfeld der Leitindizes sind klar bullisch, MACD steigt. Doch RSI14 bei 78,9 ist extrem überkauft, der Kurs steht nur ~5% unter dem 52W-Hoch (Widerstand 53,36), und der +2,1%-Tag lief auf unterdurchschnittlichem Volumen (Ratio 0,48). Ein Neueinstieg zum Schlusskurs in diese überdehnte, volumenschwache Bewegung ist kein sauberes Swing-Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

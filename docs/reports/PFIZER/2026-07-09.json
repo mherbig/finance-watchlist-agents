@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24.25,
+    "change_pct": 0.83160403,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 24.25,
+    "change_pct": 0.8316050241831624,
+    "sma20": 24.7845,
+    "sma50": 25.484,
+    "sma200": 25.8651,
+    "rsi14": 33.47,
+    "macd": {
+      "macd": -0.4889,
+      "signal": -0.4772,
+      "hist": -0.0117
+    },
+    "atr14": 0.6307,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -15.06,
+    "pct_from_low": 4.12,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26.21
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 24.25
+    },
+    "volume_ratio": 0.45
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (53 Wochen), Kurs unter SMA20/50/200 und bearischer Bias untermauern die Short-Seite im Einklang mit dem Trend. MACD leicht negativ und RSI 33 bestaetigen die Schwaeche, aber das duenne Volumen (Ratio 0.45) und das risk-on-Makro der Leitindizes begrenzen die Konviktion. Keine Earnings im Horizont; Aktien-Klasse im Track Record etwa neutral, daher massvolle Konviktion 3.",
+    "entry": 24.25,
+    "stop_loss": 25.3853,
+    "take_profit": 22.5471,
+    "take_profit_2": 23.67,
+    "rr": 1.5
+  }
+}

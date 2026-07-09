@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 406.54001,
+    "change_pct": 3.16703,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 406.54001,
+    "change_pct": 3.1670334627571073,
+    "sma20": 399.5665,
+    "sma50": 408.5614,
+    "sma200": 418.2721,
+    "rsi14": 52.74,
+    "macd": {
+      "macd": -0.5539,
+      "signal": -1.6336,
+      "hist": 1.0797
+    },
+    "atr14": 20.7069,
+    "high_52w": 489.88,
+    "low_52w": 302.63,
+    "pct_from_high": -17.01,
+    "pct_from_low": 34.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 425.3
+      },
+      {
+        "type": "support",
+        "price": 375.12
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 406.54001
+    },
+    "volume_ratio": 0.67
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Technik ohne Kante: Tages- und Wochentrend seitwaerts, RSA 52.7 neutral, Preis zwischen SMA20 und SMA50 sowie unter SMA200; MACD-Histogramm dreht zwar leicht positiv, aber das Volumenverhaeltnis von 0.67 stuetzt keinen belastbaren Ausbruch. Das freundliche Aktien-Makrobild liefert keinen symbolspezifischen Grund, und die zuletzt negative Trefferbilanz bei Konviktion 3 mahnt zur Zurueckhaltung -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

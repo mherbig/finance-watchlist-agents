@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 990.92999,
+    "change_pct": 4.44035,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 990.92999,
+    "change_pct": 4.440345746630962,
+    "sma20": 1049.1555,
+    "sma50": 889.533,
+    "sma200": 460.4066,
+    "rsi14": 47.05,
+    "macd": {
+      "macd": 24.3974,
+      "signal": 54.9744,
+      "hist": -30.5769
+    },
+    "atr14": 102.6443,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -18.35,
+    "pct_from_low": 844.82,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 891.88
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 990.92999
+    },
+    "volume_ratio": 0.66
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widersprüchliches Bild: Wochentrend up und ein +4,4%-Tag stützen bullisch, aber der Tagestrend ist seitwärts, RSI 47 neutral und der MACD klar bärisch (24,4 unter Signal 54,97, Histogramm -30,6). Der Kurs notiert unter der SMA20 (1049) und der Aufwärtstag kam bei unterdurchschnittlichem Volumen (Ratio 0,66), sodass kein tragfähiges Setup vorliegt; bei Überzeugung < 3 bleibt es FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

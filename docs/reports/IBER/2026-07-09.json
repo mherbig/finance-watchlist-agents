@@ -1,0 +1,67 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.06,
+    "change_pct": 0.1903,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 21.059999465942383,
+    "change_pct": 0.19029023457484,
+    "sma20": 21.1395,
+    "sma50": 20.2489,
+    "sma200": 18.9765,
+    "rsi14": 54.12,
+    "macd": {
+      "macd": 0.2828,
+      "signal": 0.3747,
+      "hist": -0.0919
+    },
+    "atr14": 0.4029,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.149999618530273,
+    "pct_from_high": -3.57,
+    "pct_from_low": 39.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 20.32
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 21.059999465942383
+    },
+    "volume_ratio": 0.47
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral bei RSI 54, dazu ein negatives MACD-Histogramm (-0.09) und ein Volumen-Ratio von nur 0.47 - das Bild ist widerspruechlich und ohne ueberzeugendes Setup. Der positive Wochentrend und das freundliche Aktien-Makro stuetzen zwar, reichen aber nicht fuer eine LONG-Konviktion >=3; die Aktien-Klasse laeuft im Track Record zudem nur flach (avg_R -0.03). Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

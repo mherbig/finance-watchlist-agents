@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 316.17999,
+    "change_pct": 0.89025747,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 316.17999,
+    "change_pct": 0.89025811639623,
+    "sma20": 296.914,
+    "sma50": 296.8754,
+    "sma200": 272.1533,
+    "rsi14": 63.66,
+    "macd": {
+      "macd": 3.9497,
+      "signal": 1.2132,
+      "hist": 2.7365
+    },
+    "atr14": 8.9606,
+    "high_52w": 316.17999,
+    "low_52w": 202.38,
+    "pct_from_high": 0.0,
+    "pct_from_low": 56.23,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 316.18
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 316.17999
+    },
+    "volume_ratio": 0.54
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar aufwaerts (53 Wochen up), Kurs ueber allen SMAs am 52-Wochen-Hoch, RSI 64 und MACD-Histogramm positiv/ausweitend; Makrobild der Leitindizes (S&P500, NQ100, GER40) stuetzt long. Daempfend wirken das unterdurchschnittliche Volumen (volume_ratio 0.54) und der Kurs exakt an der eigenen Widerstandsmarke, daher moderate Konviktion. Kein Earnings-Termin im Report, das Setup ist stimmig bullisch.",
+    "entry": 316.18,
+    "stop_loss": 300.0509,
+    "take_profit": 340.3736,
+    "take_profit_2": 316.18,
+    "rr": 1.5
+  }
+}

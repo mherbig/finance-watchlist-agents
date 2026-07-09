@@ -1,0 +1,67 @@
+{
+  "symbol": "QCOM",
+  "display": "QCOM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 191.050003,
+    "change_pct": 2.40674,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 191.050003,
+    "change_pct": 2.406734026586622,
+    "sma20": 198.8155,
+    "sma50": 206.0404,
+    "sma200": 168.7782,
+    "rsi14": 39.02,
+    "macd": {
+      "macd": -6.8266,
+      "signal": -4.8807,
+      "hist": -1.9459
+    },
+    "atr14": 13.9839,
+    "high_52w": 251.020004,
+    "low_52w": 124.07,
+    "pct_from_high": -23.89,
+    "pct_from_low": 53.99,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 226.11
+      },
+      {
+        "type": "support",
+        "price": 176.25
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 191.050003
+    },
+    "volume_ratio": 0.45
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist abwärts (Kurs unter SMA20/50, MACD negativ, RSI 39), doch der Wochentrend ist neutral ('side') und das Makro-Bild für Tech-Indizes (S&P500, NQ100) ist klar bullisch – ein Short gegen diesen Rückenwind ist nicht stimmig genug. Der heutige Rebound (+2,4%) erfolgt zudem auf schwachem Volumen (Ratio 0,45) und die Konviktionsstufe 3 laeuft im Track-Record negativ (avg_R -0,41), daher kein Long. Widerspruechliches Bild ohne klaren Edge -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 422.7,
+    "change_pct": 1.0036,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 422.70001220703125,
+    "change_pct": 1.0035871462440262,
+    "sma20": 408.57,
+    "sma50": 391.44,
+    "sma200": 374.819,
+    "rsi14": 81.77,
+    "macd": {
+      "macd": 9.407,
+      "signal": 8.5921,
+      "hist": 0.8149
+    },
+    "atr14": 5.1,
+    "high_52w": 422.79998779296875,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": -0.02,
+    "pct_from_low": 26.52,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 422.8
+      },
+      {
+        "type": "support",
+        "price": 386.4
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 422.70001220703125
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 82",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trend und Wochentrend klar aufwaerts, SMAs sauber gestapelt und MACD positiv, doch der Kurs steht mit RSI14 ~82 exakt am 52-Wochen-Hoch/Widerstand (422.8) - ein Neueinstieg auf Market-Schluss hier ist ausgereiztes Chance-Risiko. Das volume_ratio 0.83 (< 1) bestaetigt den Ausbruch nicht, und Konviktion-3-Setups laufen im Track Record negativ, daher kein neues Long am Hoch.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

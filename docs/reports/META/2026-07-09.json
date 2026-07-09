@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 631.47998,
+    "change_pct": 4.70221,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 631.47998,
+    "change_pct": 4.702211831807924,
+    "sma20": 579.6945,
+    "sma50": 600.488,
+    "sma200": 643.1977,
+    "rsi14": 64.69,
+    "macd": {
+      "macd": 2.721,
+      "signal": -5.4835,
+      "hist": 8.2045
+    },
+    "atr14": 24.7478,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -20.07,
+    "pct_from_low": 20.12,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 631.48
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 631.47998
+    },
+    "volume_ratio": 1.2
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend klar aufwaerts (53 Wochen), und der Tag dreht bullisch: MACD ueber Signal mit stark positivem Histogramm (+8,2), RSI 64,7 und ein Tagesplus von +4,7% auf ueberdurchschnittlichem Volumen (1,2). Preis hat SMA20/50 zurueckerobert und testet den SMA200; das Makro-Bild (S&P500, NQ100, GER40 alle up) stuetzt einen US-Tech-Long. Konviktion nur 3, da der Tagestrend noch 'side' ist und der Kurs exakt am Widerstand 631,48 steht.",
+    "entry": 631.48,
+    "stop_loss": 586.9339,
+    "take_profit": 698.299,
+    "take_profit_2": 631.48,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8762.5,
+    "change_pct": -0.4703,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8785.099609375,
+    "change_pct": -0.21355059025906709,
+    "sma20": 8810.6651,
+    "sma50": 8728.992,
+    "sma200": 8781.294,
+    "rsi14": 38.77,
+    "macd": {
+      "macd": 15.4295,
+      "signal": 19.2848,
+      "hist": -3.8553
+    },
+    "atr14": 73.5857,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.5,
+    "pct_from_low": 5.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8966.2998
+      },
+      {
+        "type": "support",
+        "price": 8633.2002
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8785.099609375
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist aufwaerts und die Leitboersen (S&P500, GER40, NQ100) notieren im Aufwaerts-Regime, doch das Tagesbild widerspricht klar: Trend seitwaerts, Bias neutral, RSI14 nur 38,8 und das MACD-Histogramm negativ (MACD unter Signal), zudem Kurs unter SMA20. Bei diesem Widerspruch aus bullischem Umfeld und schwachem symbolspezifischem Momentum ist kein sauberes Setup gegeben, und Konviktionsstufe 3 laeuft im Track Record klar negativ (avg_R -0,41). Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

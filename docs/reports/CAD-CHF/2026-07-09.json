@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56931,
+    "change_pct": -0.057931325,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56931,
+    "change_pct": -0.05793132504740756,
+    "sma20": 0.569,
+    "sma50": 0.569,
+    "sma200": 0.5712,
+    "rsi14": 45.64,
+    "macd": {
+      "macd": -0.0002,
+      "signal": -0.0004,
+      "hist": 0.0002
+    },
+    "atr14": 0.0021,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -2.26,
+    "pct_from_low": 1.3,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5711
+      },
+      {
+        "type": "support",
+        "price": 0.5654
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.56931
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide seitwaerts, Bias neutral, RSI14 bei 46 und MACD-Histogramm eben erst leicht positiv drehend - kein stimmig bullisches oder baerisches Bild. Der Kurs klebt an SMA20/50 (0,569) zwischen Support 0,5654 und Widerstand 0,5711, ohne Ausbruch (volume_ratio fehlt). Die klar negative Forex-Trefferbilanz (avg_R -0,49) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

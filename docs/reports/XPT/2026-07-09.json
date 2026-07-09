@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1622.0,
+    "change_pct": 2.8927,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1622.0,
+    "change_pct": 2.8926652423065464,
+    "sma20": 1654.685,
+    "sma50": 1834.83,
+    "sma200": 1907.7535,
+    "rsi14": 35.0,
+    "macd": {
+      "macd": -67.2,
+      "signal": -75.903,
+      "hist": 8.703
+    },
+    "atr14": 47.6929,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -43.14,
+    "pct_from_low": 26.09,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1812.1
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1622.0
+    },
+    "volume_ratio": 21.93
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (53 Wochen), der Kurs 1622 liegt unter SMA20/50/200 und der MACD ist negativ - das strukturelle Bild bleibt baerisch. Der heutige Sprung von +2,89% auf extremem Volumen (Ratio 21,9) knapp ueber der Unterstuetzung 1550,2 ist eine Gegenbewegung im Abwaertstrend, kein Trendwechsel, und ein Short direkt in diese Volumenspitze hinein ist schlecht getimt. Bei diesem Widerspruch und leicht negativer Metall-Trefferbilanz (avg_R -0,25) ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,21 +1,21 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 97729.6019,
-    "return_pct": -2.2704,
-    "open_count": 12,
+    "current_equity": 95688.1889,
+    "return_pct": -4.3118,
+    "open_count": 10,
     "no_fill_count": 0,
-    "closed_count": 7,
+    "closed_count": 11,
     "wins": 0,
-    "losses": 7,
+    "losses": 11,
     "win_rate": 0.0,
-    "total_pnl": -2270.3981,
-    "total_costs": 80.2481,
-    "max_drawdown": -2270.3981,
-    "unrealized_pnl": -1120.4501,
-    "marked_equity": 96609.1518,
-    "marked_return_pct": -3.3908,
-    "skipped_count": 22,
+    "total_pnl": -4311.8111,
+    "total_costs": 121.6611,
+    "max_drawdown": -4311.8111,
+    "unrealized_pnl": -1027.2767,
+    "marked_equity": 94660.9122,
+    "marked_return_pct": -5.3391,
+    "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
   "equity_curve": [
@@ -50,6 +50,22 @@
     {
       "date": "2026-07-06",
       "equity": 97729.6019
+    },
+    {
+      "date": "2026-07-08",
+      "equity": 97213.419
+    },
+    {
+      "date": "2026-07-08",
+      "equity": 96702.5969
+    },
+    {
+      "date": "2026-07-08",
+      "equity": 96193.8687
+    },
+    {
+      "date": "2026-07-08",
+      "equity": 95688.1889
     }
   ],
   "closed": [
@@ -178,6 +194,78 @@
       "pnl": -57.085,
       "win": false,
       "status": "flip"
+    },
+    {
+      "symbol": "CAD/CHF",
+      "display": "CAD/CHF",
+      "date": "2026-07-02",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.5664,
+      "stop_loss": 0.5699,
+      "take_profit": 0.5613,
+      "exit_date": "2026-07-08",
+      "exit_price": 0.5699,
+      "realized_R": -1.0,
+      "risk_amount": 500.0,
+      "cost": 16.1829,
+      "pnl": -516.1829,
+      "win": false,
+      "status": "sl"
+    },
+    {
+      "symbol": "CAC40",
+      "display": "FRA40",
+      "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 8474.86,
+      "stop_loss": 8318.2393,
+      "take_profit": 8709.791,
+      "exit_date": "2026-07-08",
+      "exit_price": 8318.2393,
+      "realized_R": -1.0,
+      "risk_amount": 500.0,
+      "cost": 10.8221,
+      "pnl": -510.8221,
+      "win": false,
+      "status": "sl"
+    },
+    {
+      "symbol": "DAX",
+      "display": "GER40",
+      "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 25580.88,
+      "stop_loss": 24994.688,
+      "take_profit": 26460.1679,
+      "exit_date": "2026-07-08",
+      "exit_price": 24994.688,
+      "realized_R": -1.0,
+      "risk_amount": 500.0,
+      "cost": 8.7282,
+      "pnl": -508.7282,
+      "win": false,
+      "status": "sl"
+    },
+    {
+      "symbol": "HSI",
+      "display": "HK50",
+      "date": "2026-07-02",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 23055.03,
+      "stop_loss": 23866.9,
+      "take_profit": 21837.225,
+      "exit_date": "2026-07-08",
+      "exit_price": 23866.9,
+      "realized_R": -1.0,
+      "risk_amount": 500.0,
+      "cost": 5.6798,
+      "pnl": -505.6798,
+      "win": false,
+      "status": "sl"
     }
   ],
   "open": [
@@ -195,9 +283,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 517.40503,
-      "unrealized_pct": -0.165,
-      "unrealized_pnl": -6.4251
+      "current_price": 546.65997,
+      "unrealized_pct": 5.4799,
+      "unrealized_pnl": 213.4258
     },
     {
       "symbol": "AAPL",
@@ -213,9 +301,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 313.39001,
-      "unrealized_pct": 1.6774,
-      "unrealized_pnl": 160.6074
+      "current_price": 316.17999,
+      "unrealized_pct": 2.5826,
+      "unrealized_pnl": 247.2787
     },
     {
       "symbol": "AUD/USD",
@@ -231,9 +319,9 @@
       "units": 76923.0769,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.69329,
-      "unrealized_pct": -0.2444,
-      "unrealized_pnl": -130.0
+      "current_price": 0.69423,
+      "unrealized_pct": -0.3803,
+      "unrealized_pnl": -202.3077
     },
     {
       "symbol": "BAC",
@@ -249,27 +337,9 @@
       "units": 230.4466,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 58.3,
-      "unrealized_pct": -0.6645,
-      "unrealized_pnl": -89.8742
-    },
-    {
-      "symbol": "CAD/CHF",
-      "display": "CAD/CHF",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 0.5664,
-      "stop_loss": 0.5699,
-      "take_profit": 0.5613,
-      "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 142857.1429,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 0.57042,
-      "unrealized_pct": -0.7097,
-      "unrealized_pnl": -574.2857
+      "current_price": 59.235,
+      "unrealized_pct": 0.9286,
+      "unrealized_pnl": 125.5934
     },
     {
       "symbol": "DOGE/USD",
@@ -285,9 +355,9 @@
       "units": 71790.5797,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.0722,
-      "unrealized_pct": 6.5977,
-      "unrealized_pnl": 366.132
+      "current_price": 0.07345,
+      "unrealized_pct": 4.9806,
+      "unrealized_pnl": 276.3937
     },
     {
       "symbol": "RACE",
@@ -303,27 +373,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 375.029999,
-      "unrealized_pct": -2.582,
-      "unrealized_pnl": -258.9728
-    },
-    {
-      "symbol": "CAC40",
-      "display": "FRA40",
-      "date": "2026-07-02",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 8474.86,
-      "stop_loss": 8318.2393,
-      "take_profit": 8709.791,
-      "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 3.1924,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 8436.240234375,
-      "unrealized_pct": -0.4557,
-      "unrealized_pnl": -123.2897
+      "current_price": 374.67999,
+      "unrealized_pct": -2.6729,
+      "unrealized_pnl": -268.0918
     },
     {
       "symbol": "UKX",
@@ -339,45 +391,45 @@
       "units": 4.9386,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10665.900390625,
-      "unrealized_pct": 0.1223,
-      "unrealized_pnl": 64.3519
+      "current_price": 10472.4501953125,
+      "unrealized_pct": -1.6936,
+      "unrealized_pnl": -891.0212
     },
     {
       "symbol": "DAX",
       "display": "GER40",
-      "date": "2026-07-02",
+      "date": "2026-07-09",
       "direction": "LONG",
       "conviction": 3,
-      "entry": 25580.88,
-      "stop_loss": 24994.688,
-      "take_profit": 26460.1679,
+      "entry": 25118.27,
+      "stop_loss": 24591.4999,
+      "take_profit": 25908.4252,
       "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 0.853,
+      "risk_amount": 478.4409,
+      "units": 0.9083,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 25465.25,
-      "unrealized_pct": -0.452,
-      "unrealized_pnl": -98.6324
+      "current_price": 25118.26953125,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0004
     },
     {
-      "symbol": "HSI",
-      "display": "HK50",
-      "date": "2026-07-02",
-      "direction": "SHORT",
+      "symbol": "NDX",
+      "display": "NQ100",
+      "date": "2026-07-09",
+      "direction": "LONG",
       "conviction": 3,
-      "entry": 23055.03,
-      "stop_loss": 23866.9,
-      "take_profit": 21837.225,
+      "entry": 29727.098,
+      "stop_loss": 28522.2124,
+      "take_profit": 31534.4264,
       "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 0.6159,
+      "risk_amount": 478.4409,
+      "units": 0.3971,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 23496.890625,
-      "unrealized_pct": -1.9165,
-      "unrealized_pnl": -272.142
+      "current_price": 29727.09765625,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0001
     },
     {
       "symbol": "NZD/USD",
@@ -393,9 +445,9 @@
       "units": 80571.1967,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.57096,
-      "unrealized_pct": -0.3445,
-      "unrealized_pnl": -157.9195
+      "current_price": 0.57556,
+      "unrealized_pct": -1.1529,
+      "unrealized_pnl": -528.5471
     }
   ],
   "marked_curve": [
@@ -431,13 +483,18 @@
     },
     {
       "date": "2026-07-08",
-      "equity": 97729.6019,
-      "marked_equity": 96698.2583
+      "equity": 95688.1889,
+      "marked_equity": 94842.2076
     },
     {
       "date": "2026-07-09",
-      "equity": 97729.6019,
-      "marked_equity": 96609.1517
+      "equity": 95688.1889,
+      "marked_equity": 94658.422
+    },
+    {
+      "date": "2026-07-10",
+      "equity": 95688.1889,
+      "marked_equity": 94660.9121
     }
   ],
   "benchmark_curve": [
@@ -467,14 +524,26 @@
     },
     {
       "date": "2026-07-08",
-      "equity": 100217.2406
+      "equity": 99951.1973
     },
     {
       "date": "2026-07-09",
-      "equity": 100215.3509
+      "equity": 100566.3099
+    },
+    {
+      "date": "2026-07-10",
+      "equity": 100563.3196
     }
   ],
   "skipped": [
+    {
+      "symbol": "AIR",
+      "display": "AIR",
+      "date": "2026-07-09",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
     {
       "symbol": "CAD/JPY",
       "display": "CAD/JPY",
@@ -572,6 +641,14 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "META",
+      "display": "META",
+      "date": "2026-07-09",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "N225",
       "display": "Nikkei225",
       "date": "2026-07-04",
@@ -604,6 +681,14 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "PFE",
+      "display": "PFIZER",
+      "date": "2026-07-09",
+      "direction": "SHORT",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "SPX",
       "display": "S&P500",
       "date": "2026-07-02",
@@ -631,6 +716,14 @@
       "symbol": "V",
       "display": "VISA",
       "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "V",
+      "display": "VISA",
+      "date": "2026-07-09",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"

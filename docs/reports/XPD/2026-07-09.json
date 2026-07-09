@@ -1,0 +1,67 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1251.0,
+    "change_pct": 3.0987,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1251.0,
+    "change_pct": 3.098728764579852,
+    "sma20": 1249.335,
+    "sma50": 1347.154,
+    "sma200": 1518.6025,
+    "rsi14": 38.2,
+    "macd": {
+      "macd": -29.1288,
+      "signal": -38.381,
+      "hist": 9.2522
+    },
+    "atr14": 32.1786,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -42.35,
+    "pct_from_low": 15.62,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1355.9
+      },
+      {
+        "type": "support",
+        "price": 1161.3
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1251.0
+    },
+    "volume_ratio": 19.16
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend klar abwärts (53 Wochen) und Kurs deutlich unter SMA50/SMA200; der Tagestrend ist nur seitwärts bei neutralem Bias und schwachem RSI (38). Der Volumen-Spike (19.16) mit +3.1% ist kein bestätigter Ausbruch über die Resistance (1355.9), sondern mehrdeutig, und das Metal-/Konviktion-3-Trackrecord läuft negativ. Ohne stimmiges Setup und ohne Rückenwind vom XAU-Makro (ebenfalls seitwärts/abwärts) bleibt die Entscheidung FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

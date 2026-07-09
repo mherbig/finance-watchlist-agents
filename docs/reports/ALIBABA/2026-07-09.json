@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 111.16,
+    "change_pct": 2.00036726,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 111.16,
+    "change_pct": 2.0003670398238143,
+    "sma20": 103.9005,
+    "sma50": 120.4992,
+    "sma200": 145.8961,
+    "rsi14": 55.69,
+    "macd": {
+      "macd": -5.0967,
+      "signal": -7.016,
+      "hist": 1.9192
+    },
+    "atr14": 3.73,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -41.29,
+    "pct_from_low": 17.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 115.38
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 111.16
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der Tagestrend ist neutral und das MACD-Histogramm dreht knapp positiv (Kurs ueber SMA20), doch der Wochentrend ist seit 53 Wochen klar abwaerts und der Kurs liegt deutlich unter SMA50/SMA200 (-41% vom 52W-Hoch). Das heutige +2%-Plus erfolgt bei unterdurchschnittlichem Volumen (ratio 0.88) und die Bias ist explizit neutral, sodass kein stimmiges Long-Setup vorliegt. Gegen den Wochentrend und ohne Volumenbestaetigung bleibt die Ueberzeugung unter 3 - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

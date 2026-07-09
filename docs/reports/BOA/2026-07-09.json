@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 59.235,
+    "change_pct": 1.60378,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 59.235,
+    "change_pct": 1.6037735849056642,
+    "sma20": 57.4742,
+    "sma50": 54.1901,
+    "sma200": 52.7297,
+    "rsi14": 64.47,
+    "macd": {
+      "macd": 1.5024,
+      "signal": 1.4911,
+      "hist": 0.0113
+    },
+    "atr14": 1.1886,
+    "high_52w": 59.9,
+    "low_52w": 44.92,
+    "pct_from_high": -1.11,
+    "pct_from_low": 31.87,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 59.9
+      },
+      {
+        "type": "support",
+        "price": 54.54
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 59.235
+    },
+    "volume_ratio": 0.44
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend aufwaerts (53 Wochen), Kurs ueber SMA20/50/200, RSI 64 und MACD leicht positiv, gestuetzt durch aufwaertsgerichtete Leitindizes (S&P500, NQ100). Das schwache Volumen (volume_ratio 0.44) direkt unter dem 52W-Hoch (Widerstand 59.9) sowie die leicht negative Bilanz der Aktienklasse begrenzen die Konviktion auf 3.",
+    "entry": 59.235,
+    "stop_loss": 57.0955,
+    "take_profit": 62.4442,
+    "take_profit_2": 59.9,
+    "rr": 1.5
+  }
+}

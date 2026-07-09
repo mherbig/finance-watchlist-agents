@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 67743.85,
+    "change_pct": -0.7517,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 66819.046875,
+    "change_pct": -2.106618933439824,
+    "sma20": 69375.2979,
+    "sma50": 65732.7773,
+    "sma200": 55329.9934,
+    "rsi14": 37.88,
+    "macd": {
+      "macd": 842.7714,
+      "signal": 1425.1316,
+      "hist": -582.3602
+    },
+    "atr14": 2063.745,
+    "high_52w": 72366.34375,
+    "low_52w": 39459.62109375,
+    "pct_from_high": -7.67,
+    "pct_from_low": 69.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 64217.2695
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 66819.046875
+    },
+    "volume_ratio": 1.03
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Wochentrend weiter aufwaerts und bullisches Makro (S&P500, GER40, NQ100 steigend), Kurs haelt ueber SMA50/200 - aber der Tagestrend ist auf 'side' gekippt, RSI14 auf 38 gefallen, Kurs unter die SMA20 zurueckgesetzt und das MACD-Histogramm klar negativ (-582) nach einem -2,1%-Tag. Momentum und uebergeordneter Trend zeigen gegensaetzlich, das Volumen (1,03) liefert keinen Ausbruchsbeleg; zusammen mit der negativ laufenden Konviktionsstufe 3 rechtfertigt das kein neues LONG oder SHORT -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

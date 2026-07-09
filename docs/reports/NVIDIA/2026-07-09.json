@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 202.73,
+    "change_pct": -0.68097169,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 202.73,
+    "change_pct": -0.6809719772682808,
+    "sma20": 201.422,
+    "sma50": 209.2422,
+    "sma200": 191.5335,
+    "rsi14": 47.99,
+    "macd": {
+      "macd": -2.8082,
+      "signal": -3.2898,
+      "hist": 0.4816
+    },
+    "atr14": 6.6296,
+    "high_52w": 235.74001,
+    "low_52w": 164.070007,
+    "pct_from_high": -14.0,
+    "pct_from_low": 23.56,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 212.45
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 202.73
+    },
+    "volume_ratio": 0.73
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind neutral (side), RSI 48 und Bias neutral, Kurs 202,73 unter der SMA50 (209,24) bei nur 0,73 Volumenverhaeltnis - kein stimmiges Richtungssignal. Zwar stuetzt das bullische Makro-Bild der Leitindizes, doch ohne symbolspezifischen Impuls und bei negativ laufender Conviction-3-Klasse (avg_R -0,41) ist Zurueckhaltung geboten. Daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

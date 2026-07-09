@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 63262.44,
+    "change_pct": 1.64649,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 63262.44,
+    "change_pct": 1.6464940060445763,
+    "sma20": 61824.4062,
+    "sma50": 65637.9701,
+    "sma200": 74224.9926,
+    "rsi14": 65.83,
+    "macd": {
+      "macd": -607.7662,
+      "signal": -1203.1458,
+      "hist": 595.3796
+    },
+    "atr14": 2024.8317,
+    "high_52w": 110639.625,
+    "low_52w": 58558.85938,
+    "pct_from_high": -42.82,
+    "pct_from_low": 8.03,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 64239.6758
+      },
+      {
+        "type": "support",
+        "price": 58558.8594
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 63262.44
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral, RSI 65.83 zwar erhoeht, aber Kurs unter SMA50/SMA200 und der Wochentrend klar abwaerts (37 Wochen) ergeben kein stimmiges gerichtetes Bild. MACD noch negativ (Histogramm dreht zwar), keine Volumenbestaetigung (volume_ratio fehlt), und die Krypto-Klasse laeuft klar negativ (avg_R -0.80). Zusammen mit neutralem Makro-Bild fehlt die Ueberzeugung fuer eine Position, daher FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

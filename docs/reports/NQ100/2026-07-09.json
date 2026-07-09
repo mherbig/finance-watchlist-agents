@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29727.098,
+    "change_pct": 1.6222,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29727.09765625,
+    "change_pct": 1.6222070837682412,
+    "sma20": 29634.6153,
+    "sma50": 29333.7063,
+    "sma200": 26193.8774,
+    "rsi14": 50.47,
+    "macd": {
+      "macd": 60.0074,
+      "signal": 136.9472,
+      "hist": -76.9398
+    },
+    "atr14": 669.3809,
+    "high_52w": 30660.599609375,
+    "low_52w": 22763.310546875,
+    "pct_from_high": -3.04,
+    "pct_from_low": 30.59,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30543.9199
+      },
+      {
+        "type": "support",
+        "price": 28508.0293
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 29727.09765625
+    },
+    "volume_ratio": 0.11
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts (53 Wochen, Bias bullish, Kurs nur -3% unter dem 52W-Hoch), gestuetzt durch ein einheitlich positives Makro-Bild (NQ100, S&P500, GER40 jeweils up/up). Momentum ist jedoch verhalten (RSI 50, MACD unter Signal mit negativem Histogramm) und das heutige +1,6%-Plus laeuft auf sehr duennem Volumen (ratio 0,11), weshalb die Konviktion moderat bleibt. In Trendrichtung LONG, aber ohne erhoehtes Vertrauen.",
+    "entry": 29727.098,
+    "stop_loss": 28522.2124,
+    "take_profit": 31534.4264,
+    "take_profit_2": 30543.9199,
+    "rr": 1.5
+  }
+}

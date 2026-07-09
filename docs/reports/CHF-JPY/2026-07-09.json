@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 201.2841,
+    "change_pct": 0.031025485,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 201.2841,
+    "change_pct": 0.03102548547579702,
+    "sma20": 200.4216,
+    "sma50": 201.3437,
+    "sma200": 200.8089,
+    "rsi14": 65.91,
+    "macd": {
+      "macd": 0.0546,
+      "signal": -0.1029,
+      "hist": 0.1575
+    },
+    "atr14": 0.778,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.4,
+    "pct_from_low": 6.19,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.302
+      },
+      {
+        "type": "support",
+        "price": 199.1978
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 201.2841
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend beide seitwaerts, neutraler Bias und erhoehter RSI (66) direkt am Widerstand (201.30), waehrend der Preis zwischen SMA20 (200.42) und SMA50 (201.34) eingeklemmt ist - kein stimmiges Long- oder Short-Setup. Die Volumenbestaetigung fehlt (volume_ratio null) und das Makrobild liefert keinen klaren Treiber fuer CHF/JPY. Bei negativer Forex-Trefferbilanz (avg_R -0.49) bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

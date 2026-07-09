@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T21:25:49.822735+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25118.27,
+    "change_pct": 0.8869,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25118.26953125,
+    "change_pct": 0.8869194211819201,
+    "sma20": 25057.4361,
+    "sma50": 24791.5037,
+    "sma200": 24312.745,
+    "rsi14": 51.89,
+    "macd": {
+      "macd": 165.1904,
+      "signal": 160.5818,
+      "hist": 4.6086
+    },
+    "atr14": 353.9071,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -2.71,
+    "pct_from_low": 12.63,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 25118.26953125
+    },
+    "volume_ratio": 0.97
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-09T21:48:26.685621+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "GER40 steht in einem intakten Aufwärtstrend (Tages- und Wochentrend up, Kurs über SMA20/50/200, MACD-Histogramm leicht positiv) bei neutraler RSI von 52, was Luft nach oben lässt. Das Makro-Bild ist klar risk-on (NQ100, S&P500 ebenfalls Trend und Wochentrend up), sodass ein Long im Einklang mit den Leitmärkten steht. Da das Volumen mit 0.97 knapp unterdurchschnittlich ist und die Bewegung keine starke Volumenbestätigung hat, bleibt die Konviktion moderat.",
+    "entry": 25118.27,
+    "stop_loss": 24591.4999,
+    "take_profit": 25908.4252,
+    "take_profit_2": 25817.8906,
+    "rr": 1.5
+  }
+}

@@ -4,30 +4,30 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "generated_at": "2026-07-10T23:42:34.035939+00:00",
   "available": true,
   "snapshot": {
-    "price": 189.17999,
-    "change_pct": -1.0098937,
+    "price": 189.16,
+    "change_pct": -1.020353,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 189.17999,
-    "change_pct": -1.0098948249699178,
-    "sma20": 198.7175,
-    "sma50": 206.8252,
-    "sma200": 168.8758,
-    "rsi14": 29.17,
+    "last_close": 189.16,
+    "change_pct": -1.0203547695044828,
+    "sma20": 198.7165,
+    "sma50": 206.8248,
+    "sma200": 168.8757,
+    "rsi14": 29.16,
     "macd": {
-      "macd": -6.5006,
-      "signal": -5.2039,
-      "hist": -1.2967
+      "macd": -6.5022,
+      "signal": -5.2042,
+      "hist": -1.298
     },
     "atr14": 13.1943,
     "high_52w": 251.020004,
     "low_52w": 124.07,
     "pct_from_high": -24.64,
-    "pct_from_low": 52.48,
+    "pct_from_low": 52.46,
     "trend": "down",
     "bias": "neutral",
     "levels": [
@@ -43,9 +43,9 @@
     "weekly": {
       "trend": "side",
       "weeks": 52,
-      "last_close": 189.17999
+      "last_close": 189.16
     },
-    "volume_ratio": 0.26
+    "volume_ratio": 0.33
   },
   "fundamental": null,
   "headline": "Trend down, RSI 29",

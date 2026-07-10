@@ -12,9 +12,9 @@
     "total_pnl": -6044.8985,
     "total_costs": 162.5142,
     "max_drawdown": -6044.8985,
-    "unrealized_pnl": 750.1146,
-    "marked_equity": 94705.2161,
-    "marked_return_pct": -5.2948,
+    "unrealized_pnl": 780.6002,
+    "marked_equity": 94735.7017,
+    "marked_return_pct": -5.2643,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -349,9 +349,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 557.98999,
-      "unrealized_pct": 7.666,
-      "unrealized_pnl": 298.5709
+      "current_price": 557.89001,
+      "unrealized_pct": 7.6467,
+      "unrealized_pnl": 297.8195
     },
     {
       "symbol": "AAPL",
@@ -367,9 +367,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 315.3299,
-      "unrealized_pct": 2.3068,
-      "unrealized_pnl": 220.8705
+      "current_price": 315.32001,
+      "unrealized_pct": 2.3036,
+      "unrealized_pnl": 220.5632
     },
     {
       "symbol": "BAC",
@@ -385,9 +385,9 @@
       "units": 230.4466,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 59.65,
-      "unrealized_pct": 1.6357,
-      "unrealized_pnl": 221.2287
+      "current_price": 59.67,
+      "unrealized_pct": 1.6698,
+      "unrealized_pnl": 225.8377
     },
     {
       "symbol": "DOGE/USD",
@@ -403,9 +403,9 @@
       "units": 71790.5797,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.07404,
-      "unrealized_pct": 4.2173,
-      "unrealized_pnl": 234.0373
+      "current_price": 0.07405,
+      "unrealized_pct": 4.2044,
+      "unrealized_pnl": 233.3194
     },
     {
       "symbol": "RACE",
@@ -439,9 +439,9 @@
       "units": 0.9083,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 25067.08984375,
-      "unrealized_pct": -0.2038,
-      "unrealized_pnl": -46.4869
+      "current_price": 25118.26953125,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0004
     },
     {
       "symbol": "NDX",
@@ -475,9 +475,9 @@
       "units": 78472.0833,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.8086,
-      "unrealized_pct": 0.0,
-      "unrealized_pnl": 0.0
+      "current_price": 0.80836,
+      "unrealized_pct": -0.0297,
+      "unrealized_pnl": -18.8333
     }
   ],
   "marked_curve": [
@@ -524,12 +524,12 @@
     {
       "date": "2026-07-10",
       "equity": 93955.1015,
-      "marked_equity": 94698.1535
+      "marked_equity": 94747.4725
     },
     {
       "date": "2026-07-11",
       "equity": 93955.1015,
-      "marked_equity": 94705.216
+      "marked_equity": 94735.7017
     }
   ],
   "benchmark_curve": [
@@ -567,11 +567,11 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100751.6372
+      "equity": 100794.3184
     },
     {
       "date": "2026-07-11",
-      "equity": 100748.5379
+      "equity": 100791.2568
     }
   ],
   "skipped": [

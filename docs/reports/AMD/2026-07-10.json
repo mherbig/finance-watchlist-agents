@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 557.98999,
+    "change_pct": 2.061388,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 557.98999,
+    "change_pct": 2.0613880264882303,
+    "sma20": 530.9585,
+    "sma50": 481.8976,
+    "sma200": 287.6642,
+    "rsi14": 53.39,
+    "macd": {
+      "macd": 18.5066,
+      "signal": 21.5058,
+      "hist": -2.9992
+    },
+    "atr14": 38.145,
+    "high_52w": 580.90997,
+    "low_52w": 146.24001,
+    "pct_from_high": -3.95,
+    "pct_from_low": 281.56,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 488.45
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 557.98999
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar aufwärts (Kurs 557,99 über SMA20>50>200, nur -3,95% unter 52W-Hoch), gestützt vom bullischen Makro-Bild der Tech-Leitindizes (NQ100 und S&P500 up). RSI 53 lässt Luft nach oben, doch das leicht negative MACD-Histogramm (-3,0) und das unterdurchschnittliche Volumen (0,62) mahnen zur Vorsicht. Daher LONG mit moderater Konviktion 3.",
+    "entry": 557.99,
+    "stop_loss": 489.329,
+    "take_profit": 660.9815,
+    "take_profit_2": 580.91,
+    "rr": 1.5
+  }
+}

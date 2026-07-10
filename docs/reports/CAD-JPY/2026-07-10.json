@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.20599,
+    "change_pct": -0.020126241,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 114.20599,
+    "change_pct": -0.020126241169278733,
+    "sma20": 114.0424,
+    "sma50": 114.5373,
+    "sma200": 114.7025,
+    "rsi14": 53.72,
+    "macd": {
+      "macd": -0.0406,
+      "signal": -0.1295,
+      "hist": 0.0889
+    },
+    "atr14": 0.5087,
+    "high_52w": 117.24469,
+    "low_52w": 108.521,
+    "pct_from_high": -2.59,
+    "pct_from_low": 5.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.7463
+      },
+      {
+        "type": "support",
+        "price": 113.6195
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 114.20599
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, waehrend der Wochentrend 'down' steht; der Kurs klemmt zwischen SMA50 (114,54) und SMA200 (114,70) direkt unter dem Widerstand 114,75, RSI 54 neutral und das MACD-Histogramm nur leicht positiv ohne Volumenbestaetigung (volume_ratio null). Kein stimmiges Long- oder Short-Bild, das Makro-Umfeld liefert keinen klaren JPY-Impuls, und sowohl die Forex-Klasse (avg_R -0,22) als auch die Konviktionsstufe 3 (avg_R -0,40) laufen negativ. Bei dieser Unklarheit ist FLAT mit niedriger Konviktion die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

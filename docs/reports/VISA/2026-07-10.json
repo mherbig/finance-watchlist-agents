@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 348.98001,
+    "change_pct": 0.22400883,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 348.98001,
+    "change_pct": 0.22400918368726427,
+    "sma20": 338.1085,
+    "sma50": 330.0826,
+    "sma200": 329.114,
+    "rsi14": 69.54,
+    "macd": {
+      "macd": 7.3439,
+      "signal": 6.4618,
+      "hist": 0.8821
+    },
+    "atr14": 8.5411,
+    "high_52w": 362.13,
+    "low_52w": 295.51999,
+    "pct_from_high": -3.63,
+    "pct_from_low": 18.09,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 362.13
+      },
+      {
+        "type": "support",
+        "price": 319.05
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 348.98001
+    },
+    "volume_ratio": 0.36
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend aufwaerts (52 Wochen), Kurs 348.98 klar ueber SMA20/50/200, MACD positiv (Hist +0.88) und nahe dem 52W-Hoch; das Makro-Umfeld (S&P500 und NQ100 auf- und wochentrend up) stuetzt US-Large-Caps. Konviktion nur 3, da RSI14 mit 69.5 nahe ueberkauft ist, das Volumen mit volume_ratio 0.36 deutlich unterdurchschnittlich laeuft und die Aktien-Klasse sowie Konviktionsstufe 3 im Track Record leicht negativ sind.",
+    "entry": 348.98,
+    "stop_loss": 333.606,
+    "take_profit": 372.041,
+    "take_profit_2": 362.13,
+    "rr": 1.5
+  }
+}

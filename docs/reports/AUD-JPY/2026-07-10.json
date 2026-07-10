@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 112.43367,
+    "change_pct": -0.0047759212,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 112.43367,
+    "change_pct": -0.0047759212458583855,
+    "sma20": 112.0866,
+    "sma50": 112.91,
+    "sma200": 110.8448,
+    "rsi14": 60.05,
+    "macd": {
+      "macd": -0.0737,
+      "signal": -0.1935,
+      "hist": 0.1198
+    },
+    "atr14": 0.615,
+    "high_52w": 114.83705,
+    "low_52w": 99.289,
+    "pct_from_high": -2.09,
+    "pct_from_low": 13.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.1433
+      },
+      {
+        "type": "support",
+        "price": 111.3774
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 112.43367
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts (bias neutral) bei klar abwaertsgerichtetem Wochentrend (38 Wochen), waehrend RSI 60 und ein gerade positiv gedrehter MACD-Histogramm nur eine muede Gegenbewegung direkt unter SMA50 (112.91) und Widerstand 113.14 andeuten - ohne Volumenbestaetigung (volume_ratio null). Das Makro-Bild liefert keinen AUD-Rueckenwind, und die negative Trefferbilanz von Forex (avg_R -0.22) sowie Conviction-3 (avg_R -0.40, hit_rate 0.10) mahnt zur Zurueckhaltung. Widerspruechliches, richtungsloses Setup ohne klaren Vorteil, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

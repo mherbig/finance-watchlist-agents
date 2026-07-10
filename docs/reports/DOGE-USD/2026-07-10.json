@@ -1,0 +1,67 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.07404,
+    "change_pct": 1.64745,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.07404,
+    "change_pct": 1.6474464579901051,
+    "sma20": 0.0756,
+    "sma50": 0.0852,
+    "sma200": 0.1016,
+    "rsi14": 45.27,
+    "macd": {
+      "macd": -0.0032,
+      "signal": -0.0037,
+      "hist": 0.0005
+    },
+    "atr14": 0.0031,
+    "high_52w": 0.18173,
+    "low_52w": 0.07196,
+    "pct_from_high": -59.26,
+    "pct_from_low": 2.89,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.0823
+      },
+      {
+        "type": "support",
+        "price": 0.072
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 0.07404
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur ist zwar bearisch (Tages- und Wochentrend abwaerts, Kurs unter SMA20/50/200), doch der Kurs sitzt direkt auf Support 0,072 und nur +2,9 % ueber dem 52-Wochen-Tief, waehrend RSN14 45 keine Abwaertsdynamik bestaetigt und das MACD-Histogramm leicht positiv dreht. Ein frischer Short in einen Support-Test hinein ohne Volumenbestaetigung und bei einer klar negativ laufenden Krypto-Klasse (avg_R -0,80) ist zu widerspruechlich fuer eine Position. Daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

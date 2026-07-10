@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 68557.73,
+    "change_pct": 2.6021,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 67743.8515625,
+    "change_pct": 1.3840435186542759,
+    "sma20": 69551.627,
+    "sma50": 65893.3308,
+    "sma200": 55449.5243,
+    "rsi14": 40.37,
+    "macd": {
+      "macd": 679.9108,
+      "signal": 1276.0875,
+      "hist": -596.1766
+    },
+    "atr14": 2077.5898,
+    "high_52w": 72366.34375,
+    "low_52w": 39459.62109375,
+    "pct_from_high": -6.39,
+    "pct_from_low": 71.68,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 66020.0391
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 67743.8515625
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Wochentrend weiter aufwaerts und risk-on-Makro (S&P500, NQ100 steigend), Kurs prallt heute +2,6% zurueck ueber SMA50/200 - doch der Tagestrend bleibt 'side', RSI14 bei 40, Kurs unter der SMA20 und das MACD-Histogramm klar negativ (-596). Die heutige Erholung kommt auf unterdurchschnittlichem Volumen (0,83) ohne Ausbruchsbeleg, und die Index-Klasse laeuft im Track-Record klar negativ (avg_R -1,0). Momentum und uebergeordneter Trend widersprechen sich -> kein stimmiges LONG oder SHORT, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 385.079987,
+    "change_pct": 0.18732471,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 385.079987,
+    "change_pct": 0.18732360774596618,
+    "sma20": 380.512,
+    "sma50": 403.6154,
+    "sma200": 442.2784,
+    "rsi14": 52.86,
+    "macd": {
+      "macd": -5.5521,
+      "signal": -8.0344,
+      "hist": 2.4823
+    },
+    "atr14": 12.6768,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -28.96,
+    "pct_from_low": 9.14,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 399.76
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 385.079987
+    },
+    "volume_ratio": 0.39
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT handelt seitwaerts mit neutralem Bias und RSI 52.9, unter SMA50/SMA200 nahe dem 52-Wochen-Tief, bei klar abwaertsgerichtetem Wochentrend (52 Wochen). Das leicht positive MACD-Histogramm ist der einzige bullische Hinweis, wird aber vom sehr schwachen Volumenverhaeltnis (0.39) entwertet, sodass trotz freundlicher US-Leitindizes kein stimmiges Long-Setup vorliegt. Ohne starken symbolspezifischen Grund gegen den Wochentrend und angesichts negativer Trefferbilanz auf Konviktionsstufe 3 bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

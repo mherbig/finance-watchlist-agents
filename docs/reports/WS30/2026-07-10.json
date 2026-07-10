@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52637.01,
+    "change_pct": 0.285,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52637.01171875,
+    "change_pct": 0.2850237076941889,
+    "sma20": 52048.2631,
+    "sma50": 50897.8932,
+    "sma200": 48606.9276,
+    "rsi14": 69.89,
+    "macd": {
+      "macd": 543.1705,
+      "signal": 556.4015,
+      "hist": -13.231
+    },
+    "atr14": 536.5131,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -0.79,
+    "pct_from_low": 20.76,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 50848.75
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 52637.01171875
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar klar aufwärts und das Aktien-Makrobild stützt (S&P500 und NQ100 up), doch der Kurs steht mit -0,79% praktisch am 52W-Hoch direkt unter dem Widerstand 53056, während RSI 69,9 überdehnt ist, der MACD-Hist bereits negativ dreht und das Volumen mit 0,7 unterdurchschnittlich bleibt. Ein frischer Market-Einstieg zum Schlusskurs genau an der Obergrenze bietet ein schlechtes Chance-Risiko-Verhältnis. Zudem läuft die Index-Klasse im Track Record klar negativ (avg_R -1,0, alle aufgelösten Trades im SL), daher zurückhaltend FLAT statt einem Einstieg auf Hochstand.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

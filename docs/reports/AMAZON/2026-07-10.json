@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 245.31,
+    "change_pct": -0.70028974,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 245.31,
+    "change_pct": -0.7002886370710054,
+    "sma20": 240.19,
+    "sma50": 254.034,
+    "sma200": 233.3331,
+    "rsi14": 50.91,
+    "macd": {
+      "macd": -1.5254,
+      "signal": -3.2761,
+      "hist": 1.7507
+    },
+    "atr14": 8.0493,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -10.79,
+    "pct_from_low": 23.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 247.04
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 245.31
+    },
+    "volume_ratio": 0.41
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist 'side' bei neutralem Bias und RSI 51, der Kurs steht ueber SMA20/200, aber unter der SMA50, waehrend der Wochentrend nach unten zeigt. Trotz freundlichem Aktien-Makro (S&P500/NQ100 aufwaerts) bleibt das symbolspezifische Bild uneinheitlich und das Volumen-Verhaeltnis von 0.41 bestaetigt keinen Ausbruch. Ohne stimmiges Setup und mit schwacher Trefferquote der Klasse ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

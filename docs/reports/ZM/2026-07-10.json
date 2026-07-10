@@ -1,0 +1,67 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 89.775,
+    "change_pct": -0.11681768,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 89.775,
+    "change_pct": -0.11682242990653069,
+    "sma20": 87.9553,
+    "sma50": 96.6685,
+    "sma200": 87.3613,
+    "rsi14": 56.61,
+    "macd": {
+      "macd": -2.2218,
+      "signal": -2.8752,
+      "hist": 0.6534
+    },
+    "atr14": 3.1984,
+    "high_52w": 111.88,
+    "low_52w": 69.77,
+    "pct_from_high": -19.76,
+    "pct_from_low": 28.67,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 94.25
+      },
+      {
+        "type": "support",
+        "price": 82.88
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 89.775
+    },
+    "volume_ratio": 0.56
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend seitwaerts mit neutralem Bias (RSI 57, MACD-Histogramm gerade erst positiv, MACD selbst noch negativ), waehrend der Wochentrend klar abwaerts zeigt (52 Wochen) und der Kurs unter der SMA50 liegt. Das unterdurchschnittliche Volumen (Ratio 0,56) untermauert keine belastbare Richtung, und das nur leicht risikofreundliche Makro-Bild reicht als symbolspezifischer Grund gegen den Wochentrend nicht aus. Bei fehlender Ueberzeugung und negativ laufender Konviktionsstufe 3 im Track Record bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

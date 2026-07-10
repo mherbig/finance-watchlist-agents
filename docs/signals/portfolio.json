@@ -1,20 +1,20 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 95688.1889,
-    "return_pct": -4.3118,
-    "open_count": 10,
+    "current_equity": 93955.1015,
+    "return_pct": -6.0449,
+    "open_count": 8,
     "no_fill_count": 0,
-    "closed_count": 11,
+    "closed_count": 14,
     "wins": 0,
-    "losses": 11,
+    "losses": 14,
     "win_rate": 0.0,
-    "total_pnl": -4311.8111,
-    "total_costs": 121.6611,
-    "max_drawdown": -4311.8111,
-    "unrealized_pnl": -1134.9123,
-    "marked_equity": 94553.2766,
-    "marked_return_pct": -5.4467,
+    "total_pnl": -6044.8985,
+    "total_costs": 162.5142,
+    "max_drawdown": -6044.8985,
+    "unrealized_pnl": 750.1146,
+    "marked_equity": 94705.2161,
+    "marked_return_pct": -5.2948,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -66,6 +66,18 @@
     {
       "date": "2026-07-08",
       "equity": 95688.1889
+    },
+    {
+      "date": "2026-07-09",
+      "equity": 94667.1448
+    },
+    {
+      "date": "2026-07-09",
+      "equity": 94166.4915
+    },
+    {
+      "date": "2026-07-10",
+      "equity": 93955.1015
     }
   ],
   "closed": [
@@ -266,6 +278,60 @@
       "pnl": -505.6798,
       "win": false,
       "status": "sl"
+    },
+    {
+      "symbol": "UKX",
+      "display": "FTSE100",
+      "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 4,
+      "entry": 10652.87,
+      "stop_loss": 10450.3855,
+      "take_profit": 11057.839,
+      "exit_date": "2026-07-09",
+      "exit_price": 10450.3855,
+      "realized_R": -1.0,
+      "risk_amount": 1000.0,
+      "cost": 21.0441,
+      "pnl": -1021.0441,
+      "win": false,
+      "status": "sl"
+    },
+    {
+      "symbol": "NZD/USD",
+      "display": "NZD/USD",
+      "date": "2026-07-06",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.569,
+      "stop_loss": 0.5751,
+      "take_profit": 0.5598,
+      "exit_date": "2026-07-09",
+      "exit_price": 0.5751,
+      "realized_R": -1.0,
+      "risk_amount": 491.4843,
+      "cost": 9.169,
+      "pnl": -500.6533,
+      "win": false,
+      "status": "sl"
+    },
+    {
+      "symbol": "AUD/USD",
+      "display": "AUD/USD",
+      "date": "2026-07-02",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.6916,
+      "stop_loss": 0.6981,
+      "take_profit": 0.6819,
+      "exit_date": "2026-07-10",
+      "exit_price": 0.69421,
+      "realized_R": -0.4015,
+      "risk_amount": 500.0,
+      "cost": 10.64,
+      "pnl": -211.39,
+      "win": false,
+      "status": "flip"
     }
   ],
   "open": [
@@ -283,9 +349,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 546.71997,
-      "unrealized_pct": 5.4914,
-      "unrealized_pnl": 213.8767
+      "current_price": 557.98999,
+      "unrealized_pct": 7.666,
+      "unrealized_pnl": 298.5709
     },
     {
       "symbol": "AAPL",
@@ -301,27 +367,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 316.22,
-      "unrealized_pct": 2.5955,
-      "unrealized_pnl": 248.5216
-    },
-    {
-      "symbol": "AUD/USD",
-      "display": "AUD/USD",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 0.6916,
-      "stop_loss": 0.6981,
-      "take_profit": 0.6819,
-      "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 76923.0769,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 0.69426,
-      "unrealized_pct": -0.3846,
-      "unrealized_pnl": -204.6154
+      "current_price": 315.3299,
+      "unrealized_pct": 2.3068,
+      "unrealized_pnl": 220.8705
     },
     {
       "symbol": "BAC",
@@ -337,9 +385,9 @@
       "units": 230.4466,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 59.25,
-      "unrealized_pct": 0.9542,
-      "unrealized_pnl": 129.0501
+      "current_price": 59.65,
+      "unrealized_pct": 1.6357,
+      "unrealized_pnl": 221.2287
     },
     {
       "symbol": "DOGE/USD",
@@ -355,9 +403,9 @@
       "units": 71790.5797,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.07278,
-      "unrealized_pct": 5.8473,
-      "unrealized_pnl": 324.4934
+      "current_price": 0.07404,
+      "unrealized_pct": 4.2173,
+      "unrealized_pnl": 234.0373
     },
     {
       "symbol": "RACE",
@@ -373,27 +421,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 374.67001,
-      "unrealized_pct": -2.6755,
-      "unrealized_pnl": -268.3518
-    },
-    {
-      "symbol": "UKX",
-      "display": "FTSE100",
-      "date": "2026-07-02",
-      "direction": "LONG",
-      "conviction": 4,
-      "entry": 10652.87,
-      "stop_loss": 10450.3855,
-      "take_profit": 11057.839,
-      "rr": 2.0,
-      "risk_amount": 1000.0,
-      "units": 4.9386,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 10489.0,
-      "unrealized_pct": -1.5383,
-      "unrealized_pnl": -809.2884
+      "current_price": 376.64001,
+      "unrealized_pct": -2.1638,
+      "unrealized_pnl": -217.0262
     },
     {
       "symbol": "DAX",
@@ -409,9 +439,9 @@
       "units": 0.9083,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 24897.44921875,
-      "unrealized_pct": -0.8791,
-      "unrealized_pnl": -200.5715
+      "current_price": 25067.08984375,
+      "unrealized_pct": -0.2038,
+      "unrealized_pnl": -46.4869
     },
     {
       "symbol": "NDX",
@@ -427,27 +457,27 @@
       "units": 0.3971,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 29727.09765625,
-      "unrealized_pct": -0.0,
-      "unrealized_pnl": -0.0001
+      "current_price": 29825.109375,
+      "unrealized_pct": 0.3297,
+      "unrealized_pnl": 38.9203
     },
     {
-      "symbol": "NZD/USD",
-      "display": "NZD/USD",
-      "date": "2026-07-06",
-      "direction": "SHORT",
+      "symbol": "USD/CHF",
+      "display": "USD/CHF",
+      "date": "2026-07-10",
+      "direction": "LONG",
       "conviction": 3,
-      "entry": 0.569,
-      "stop_loss": 0.5751,
-      "take_profit": 0.5598,
+      "entry": 0.8086,
+      "stop_loss": 0.8026,
+      "take_profit": 0.8176,
       "rr": 1.5,
-      "risk_amount": 491.4843,
-      "units": 80571.1967,
+      "risk_amount": 470.8325,
+      "units": 78472.0833,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.57605,
-      "unrealized_pct": -1.239,
-      "unrealized_pnl": -568.0269
+      "current_price": 0.8086,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0
     }
   ],
   "marked_curve": [
@@ -488,13 +518,18 @@
     },
     {
       "date": "2026-07-09",
-      "equity": 95688.1889,
-      "marked_equity": 94592.574
+      "equity": 94166.4915,
+      "marked_equity": 94609.005
     },
     {
       "date": "2026-07-10",
-      "equity": 95688.1889,
-      "marked_equity": 94553.2765
+      "equity": 93955.1015,
+      "marked_equity": 94698.1535
+    },
+    {
+      "date": "2026-07-11",
+      "equity": 93955.1015,
+      "marked_equity": 94705.216
     }
   ],
   "benchmark_curve": [
@@ -528,11 +563,15 @@
     },
     {
       "date": "2026-07-09",
-      "equity": 100469.5891
+      "equity": 100521.6328
     },
     {
       "date": "2026-07-10",
-      "equity": 100470.4672
+      "equity": 100751.6372
+    },
+    {
+      "date": "2026-07-11",
+      "equity": 100748.5379
     }
   ],
   "skipped": [

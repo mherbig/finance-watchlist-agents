@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.9275,
+    "change_pct": 0.0057071999,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.9275,
+    "change_pct": 0.0057071998920848665,
+    "sma20": 1.9202,
+    "sma50": 1.9012,
+    "sma200": 1.9206,
+    "rsi14": 62.85,
+    "macd": {
+      "macd": 0.0084,
+      "signal": 0.0086,
+      "hist": -0.0002
+    },
+    "atr14": 0.008,
+    "high_52w": 2.04436,
+    "low_52w": 1.85611,
+    "pct_from_high": -5.72,
+    "pct_from_low": 3.85,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9319
+      },
+      {
+        "type": "support",
+        "price": 1.8926
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.9275
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar klar aufwaerts (38 Wochen, Kurs ueber SMA200), doch bei 1.9275 steht der Preis praktisch direkt am Widerstand 1.9319, waehrend das MACD-Histogramm mit -0.0002 bereits negativ dreht und RSI14 mit 62.85 erhoeht ist. Ein Market-Einstieg zum Schluss in diese ausgereizte Extension ohne Volumenbestaetigung (volume_ratio null) und bei negativer Forex-Bilanz (avg_R -0.22) ueberzeugt nicht, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

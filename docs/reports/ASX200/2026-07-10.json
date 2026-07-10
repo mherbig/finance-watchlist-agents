@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8806.0,
+    "change_pct": 0.2379,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8762.5,
+    "change_pct": -0.2572493241952872,
+    "sma20": 8817.1301,
+    "sma50": 8730.502,
+    "sma200": 8780.877,
+    "rsi14": 43.4,
+    "macd": {
+      "macd": 11.8961,
+      "signal": 17.8071,
+      "hist": -5.911
+    },
+    "atr14": 71.8786,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.74,
+    "pct_from_low": 4.74,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8966.2998
+      },
+      {
+        "type": "support",
+        "price": 8722.9004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8762.5
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist zwar aufwaerts und die Leitboersen (S&P500, NQ100) notieren freundlich, doch das Tagesbild widerspricht klar: Trend seitwaerts, Bias neutral, RSI14 43,4, MACD-Histogramm negativ (11,90 unter Signal 17,81) und Kurs unter dem SMA20. Der Ausbruchsversuch kommt zudem nur mit unterdurchschnittlichem Volumen (0,82), und die Asset-Klasse Index laeuft im Track Record klar negativ (avg_R -1,0). Bei diesem Widerspruch aus freundlichem Umfeld und schwachem symbolspezifischem Momentum ist kein sauberes Setup gegeben, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

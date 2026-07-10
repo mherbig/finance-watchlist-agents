@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 216.64615,
+    "change_pct": -0.03451443,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 216.64615,
+    "change_pct": -0.034514429730942944,
+    "sma20": 215.2332,
+    "sma50": 214.6586,
+    "sma200": 212.7703,
+    "rsi14": 69.4,
+    "macd": {
+      "macd": 0.8079,
+      "signal": 0.6059,
+      "hist": 0.202
+    },
+    "atr14": 1.0364,
+    "high_52w": 217.76818,
+    "low_52w": 199.94701,
+    "pct_from_high": -0.52,
+    "pct_from_low": 8.35,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 217.7682
+      },
+      {
+        "type": "support",
+        "price": 213.1012
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 216.64615
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 69",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bullisch (Kurs ueber allen SMAs, Tages- und Wochentrend aufwaerts, MACD positiv und expandierend), doch RSI14 bei 69 direkt am 52W-Hoch/Widerstand (217.77, nur -0.52% entfernt) laesst einem Market-Einstieg zum Schluss kaum Luft und schlechtes CRV. Da zudem der Forex-Track (avg_R -0.22) und die Konviktionsstufe 3 (avg_R -0.40) klar negativ laufen und das Makro-Bild neutral ist, bleibe ich diszipliniert FLAT statt einen Ausbruch am Hoch zu kaufen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

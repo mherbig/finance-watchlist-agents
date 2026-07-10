@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.61595,
+    "change_pct": -0.0018564586,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.61595,
+    "change_pct": -0.001856458619535792,
+    "sma20": 1.6195,
+    "sma50": 1.6156,
+    "sma200": 1.6082,
+    "rsi14": 49.3,
+    "macd": {
+      "macd": 0.0007,
+      "signal": 0.0017,
+      "hist": -0.001
+    },
+    "atr14": 0.0056,
+    "high_52w": 1.63281,
+    "low_52w": 1.56678,
+    "pct_from_high": -1.03,
+    "pct_from_low": 3.14,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6254
+      },
+      {
+        "type": "support",
+        "price": 1.6147
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.61595
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen aufwaerts und der Kurs (1.61595) haelt sich ueber SMA50 und SMA200 sowie knapp ueber der Unterstuetzung 1.6147, nur rund 1% unter dem 52W-Hoch, was das uebergeordnete Long-Bild stuetzt. Der Tagestrend ist seitwaerts, RSI 49 neutral und der MACD-Hist leicht negativ, sodass es sich eher um eine Konsolidierung im Aufwaertstrend als um ein starkes Momentum handelt. Die negative Forex-Bilanz (avg_R -0.22) und Konviktion-3-Bilanz begrenzen die Ueberzeugung, daher Long mit Konviktion 3 bis zur Resistance 1.6254.",
+    "entry": 1.6159,
+    "stop_loss": 1.6141,
+    "take_profit": 1.6187,
+    "take_profit_2": 1.6254,
+    "rr": 1.5
+  }
+}

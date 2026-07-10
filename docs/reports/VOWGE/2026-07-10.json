@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 70.98,
+    "change_pct": -0.755,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 70.9800033569336,
+    "change_pct": -0.7550242050873514,
+    "sma20": 77.063,
+    "sma50": 83.8736,
+    "sma200": 92.9469,
+    "rsi14": 27.83,
+    "macd": {
+      "macd": -3.8049,
+      "signal": -3.7322,
+      "hist": -0.0727
+    },
+    "atr14": 2.1414,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -34.64,
+    "pct_from_low": 1.49,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.42
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 70.9800033569336
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 28",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "VOWGE steht in klarem Tages- und Wochen-Abwaertstrend unter allen wichtigen SMAs (20/50/200) und nur rund 1,5% ueber dem 52-Wochen-Tief (Support 69,94); MACD bleibt negativ ohne bullisches Signal. Der oversold RSI (28) allein ist kein Long-Setup, und ein Short knapp ueber der Unterstuetzung bei unterdurchschnittlichem Volumen (0,78) ist ebenso wenig sauber. Trotz freundlichem GER40-Umfeld fehlt ein tragfaehiger symbolspezifischer Edge, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

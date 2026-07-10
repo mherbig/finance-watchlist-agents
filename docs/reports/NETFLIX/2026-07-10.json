@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 73.375,
+    "change_pct": -2.77594,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 73.375,
+    "change_pct": -2.775937458592817,
+    "sma20": 75.6122,
+    "sma50": 82.4091,
+    "sma200": 94.9403,
+    "rsi14": 41.16,
+    "macd": {
+      "macd": -2.2868,
+      "signal": -2.8173,
+      "hist": 0.5305
+    },
+    "atr14": 2.7313,
+    "high_52w": 127.417,
+    "low_52w": 70.9,
+    "pct_from_high": -42.41,
+    "pct_from_low": 3.49,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 81.67
+      },
+      {
+        "type": "support",
+        "price": 70.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 73.375
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts (Kurs 73,38 unter SMA20<50<200, Bias bearish), doch der Preis sitzt nur 3,5% ueber dem 52W-Tief-Support bei 70,9, waehrend das MACD-Histogramm mit +0,53 bereits dreht und das Volumen mit Ratio 0,82 unterdurchschnittlich ist. Ein frischer Short waere ein Nachlaufen am Support ohne Volumenbestaetigung und gegen die aufwaerts laufenden Leitindizes (S&P500, NQ100), waehrend bullische Argumente komplett fehlen. Widerspruechliches Bild ohne Edge, zudem negative Kalibrierung der Aktien-Klasse -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

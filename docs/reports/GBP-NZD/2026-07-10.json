@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.32541,
+    "change_pct": 0.0068809805,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.32541,
+    "change_pct": 0.006880980539733793,
+    "sma20": 2.3373,
+    "sma50": 2.3094,
+    "sma200": 2.2964,
+    "rsi14": 40.63,
+    "macd": {
+      "macd": 0.0067,
+      "signal": 0.01,
+      "hist": -0.0033
+    },
+    "atr14": 0.0115,
+    "high_52w": 2.35279,
+    "low_52w": 2.24234,
+    "pct_from_high": -1.16,
+    "pct_from_low": 3.7,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3528
+      },
+      {
+        "type": "support",
+        "price": 2.3194
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 2.32541
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist aufwaerts (38 Wochen) und der Kurs haelt sich ueber SMA50/200, doch die Tagesseite ist neutral bis schwach: RSI14 40.6 unter 50, Kurs unter der SMA20 und das MACD-Histogramm negativ (-0.0033), dazu keine Volumenbestaetigung (volume_ratio null) direkt unter dem 52W-Hoch/Widerstand 2.3528. Ein Long ist damit nicht stimmig bestaetigt, ein Short liefe gegen den klaren Wochentrend; bei negativem Forex-Track-Record (avg_R -0.22) ist FLAT das disziplinierte Urteil.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

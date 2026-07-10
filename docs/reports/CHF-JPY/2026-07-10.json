@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 199.967,
+    "change_pct": -0.017769774,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 199.967,
+    "change_pct": -0.017769774323864816,
+    "sma20": 200.3698,
+    "sma50": 201.2618,
+    "sma200": 200.8112,
+    "rsi14": 51.34,
+    "macd": {
+      "macd": -0.1015,
+      "signal": -0.1189,
+      "hist": 0.0175
+    },
+    "atr14": 0.8631,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -2.05,
+    "pct_from_low": 5.49,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.302
+      },
+      {
+        "type": "support",
+        "price": 199.1978
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 199.967
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide abwaerts und der Preis liegt unter SMA20/50/200, doch die Momentum-Lage widerspricht einem frischen Short: RSI 51 ist neutral, das MACD-Histogramm dreht knapp positiv (+0.018) und der Kurs sitzt direkt auf der Unterstuetzung 199.20 ohne Volumenbestaetigung (volume_ratio null). Das Makrobild liefert keinen klaren Treiber fuer CHF/JPY, und bei negativer Forex-Bilanz (avg_R -0.22) sowie schwacher Konviktion-3-Trefferquote bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

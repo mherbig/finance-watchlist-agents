@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29825.11,
+    "change_pct": 0.3297,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29825.109375,
+    "change_pct": 0.3296983792999798,
+    "sma20": 29700.4694,
+    "sma50": 29389.6283,
+    "sma200": 26219.1976,
+    "rsi14": 44.6,
+    "macd": {
+      "macd": 75.5977,
+      "signal": 124.6774,
+      "hist": -49.0797
+    },
+    "atr14": 639.3542,
+    "high_52w": 30660.599609375,
+    "low_52w": 22763.310546875,
+    "pct_from_high": -2.72,
+    "pct_from_low": 31.02,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30543.9199
+      },
+      {
+        "type": "support",
+        "price": 29118.2402
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 29825.109375
+    },
+    "volume_ratio": 0.09
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts (52 Wochen, Bias bullish, Kurs nur -2,7% unter dem 52W-Hoch) und werden von einem einheitlich positiven Makro-Bild gestuetzt (NQ100 und S&P500 up/up, GER40 side/up). Das Momentum ist jedoch verhalten (RSI 44,6 unter 50, MACD unter Signal mit negativem Histogramm) und der juengste Anstieg laeuft auf sehr duennem Volumen (ratio 0,09). In Trendrichtung LONG, aber angesichts der schwachen Dynamik und der klar negativen Index-Trefferbilanz nur mit moderater Konviktion.",
+    "entry": 29825.11,
+    "stop_loss": 29054.3048,
+    "take_profit": 30981.3178,
+    "take_profit_2": 30543.9199,
+    "rr": 1.5
+  }
+}

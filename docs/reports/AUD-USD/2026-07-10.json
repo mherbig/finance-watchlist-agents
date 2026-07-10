@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69525,
+    "change_pct": -0.020132587,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69525,
+    "change_pct": -0.02013258746889055,
+    "sma20": 0.6925,
+    "sma50": 0.7023,
+    "sma200": 0.7002,
+    "rsi14": 65.55,
+    "macd": {
+      "macd": -0.0019,
+      "signal": -0.003,
+      "hist": 0.0011
+    },
+    "atr14": 0.0033,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.21,
+    "pct_from_low": 7.71,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7001
+      },
+      {
+        "type": "support",
+        "price": 0.6887
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69525
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist side/neutral: Kurs 0.69525 haelt sich ueber der SMA20 (0.6925), liegt aber klar unter SMA50/200 (~0.70), und das leicht positive MACD-Histogramm laeuft mit RSI 66 direkt in den Widerstand 0.7001. Dem steht ein klar bearischer Wochentrend (down, 38 Wochen) ohne Volumenbestaetigung (volume_ratio null) sowie USD-Staerke (EUR/USD Wochentrend down) entgegen. Bei diesem Widerspruch und negativer Trefferquote in Forex (avg_R -0.22) und Konviktion 3 (avg_R -0.40) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

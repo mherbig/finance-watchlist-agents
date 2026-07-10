@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.923,
+    "change_pct": 0.0075845405,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92301,
+    "change_pct": 0.008668046330704277,
+    "sma20": 0.9218,
+    "sma50": 0.9195,
+    "sma200": 0.9186,
+    "rsi14": 53.58,
+    "macd": {
+      "macd": 0.0005,
+      "signal": 0.0005,
+      "hist": 0.0001
+    },
+    "atr14": 0.0028,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -1.7,
+    "pct_from_low": 2.38,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9243
+      },
+      {
+        "type": "support",
+        "price": 0.9184
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.92301
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs 0.9230 liegt ueber SMA20/50/200, doch RSI 53.6 ist neutral und der MACD-Hist mit 0.0001 praktisch null - es fehlt tragfaehiges Momentum, und Volumenbestaetigung gibt es bei diesem Paar ohnehin nicht (volume_ratio null). Der Kurs stoesst bereits nahe an den Widerstand 0.9243, waehrend das Makro-Bild (EUR/USD seitwaerts, Wochentrend abwaerts) keinen EUR-Impuls liefert. Da Forex (avg_R -0.22) und Konviktion 3 (avg_R -0.40) im Track Record negativ laufen, ist Zurueckhaltung angezeigt - kein sauberer Long-Edge, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

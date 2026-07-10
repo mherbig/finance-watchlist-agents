@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 197.26,
+    "change_pct": 0.3765,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 197.25999450683594,
+    "change_pct": 0.37654702742070795,
+    "sma20": 195.055,
+    "sma50": 182.962,
+    "sma200": 190.0632,
+    "rsi14": 59.55,
+    "macd": {
+      "macd": 5.5254,
+      "signal": 5.9928,
+      "hist": -0.4674
+    },
+    "atr14": 5.0636,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -10.42,
+    "pct_from_low": 23.92,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 183.68
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 197.25999450683594
+    },
+    "volume_ratio": 0.55
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts, der Kurs (197,26 EUR) notiert ueber SMA20/50/200 bei bullischem Bias und gesundem RSI 60, gestuetzt von festen US-Leitindizes. Das leicht negative MACD-Histogramm und vor allem das klar unterdurchschnittliche Volumen (0,55) mindern die Momentumqualitaet, weshalb Konviktion 3 statt hoeher. Aktienklasse im Track Record neutral (avg_R -0,03) und keine Earnings im Horizont, das stimmige Bild rechtfertigt einen Long.",
+    "entry": 197.26,
+    "stop_loss": 188.1455,
+    "take_profit": 210.9317,
+    "take_profit_2": 209.4,
+    "rr": 1.5
+  }
+}

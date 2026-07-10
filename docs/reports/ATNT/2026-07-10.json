@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.14,
+    "change_pct": 0.4752779,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.14,
+    "change_pct": 0.47528039566158004,
+    "sma20": 21.9225,
+    "sma50": 23.5834,
+    "sma200": 25.5232,
+    "rsi14": 40.65,
+    "macd": {
+      "macd": -0.8072,
+      "signal": -0.8294,
+      "hist": 0.0223
+    },
+    "atr14": 0.7361,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -28.63,
+    "pct_from_low": 3.22,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.58
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 21.14
+    },
+    "volume_ratio": 0.57
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind bearisch (Kurs 21,14 unter allen SMAs, RSI 41, MACD negativ), doch der Preis sitzt direkt auf dem 52-Wochen-Tief/Support 20,48 und das Volumen ist mit 0,57 klar unterdurchschnittlich, was einen frischen Short-Ausbruch unglaubwuerdig macht. Zugleich laufen die Leitmaerkte (S&P500, NQ100) risk-on nach oben, sodass ein Short gegen ein bullisches Aktien-Makro ohne symbolspezifischen Katalysator riskant ist. Widerspruch aus bearischer Technik und Support/Makro-Gegenwind bei duennem Volumen rechtfertigt kein Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

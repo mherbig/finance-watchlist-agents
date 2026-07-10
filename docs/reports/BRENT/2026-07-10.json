@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T21:24:28.930512+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 76.0,
+    "change_pct": -0.3932,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 76.0,
+    "change_pct": -0.39318878081080366,
+    "sma20": 77.056,
+    "sma50": 92.2142,
+    "sma200": 78.919,
+    "rsi14": 41.29,
+    "macd": {
+      "macd": -4.8099,
+      "signal": -5.8462,
+      "hist": 1.0363
+    },
+    "atr14": 3.1614,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -35.78,
+    "pct_from_low": 28.99,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.38
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 76.0
+    },
+    "volume_ratio": 0.94
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-10T21:35:52.628830+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (52 Wochen), Preis 76.0 unter SMA20/50/200 - fuer LONG fehlt jeder bullische Ausloeser. Fuer einen frischen Short steht der Kurs mitten in der Range (Support 71.57, Widerstand 90.38) statt an einem Trigger, dazu dreht das MACD-Histogramm leicht positiv (+1.04), RSI14 (41) ist neutral und das Volumen (0.94) unterdurchschnittlich - schlechtes Chance-Risiko. Der negativ laufende Konviktions-3-Track mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

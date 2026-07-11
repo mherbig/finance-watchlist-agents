@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56205,
+    "change_pct": -0.0017791695,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56205,
+    "change_pct": -0.0017791694836769185,
+    "sma20": 0.5592,
+    "sma50": 0.5611,
+    "sma200": 0.5521,
+    "rsi14": 62.44,
+    "macd": {
+      "macd": 0.0001,
+      "signal": -0.0005,
+      "hist": 0.0006
+    },
+    "atr14": 0.0024,
+    "high_52w": 0.56745,
+    "low_52w": 0.51634002,
+    "pct_from_high": -0.95,
+    "pct_from_low": 8.85,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5622
+      },
+      {
+        "type": "support",
+        "price": 0.5562
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.56205
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide neutral (side), und der Kurs (0,56205) steht direkt am Widerstand bzw. der Range-Obergrenze 0,5622, wobei die SMA20 (0,5592) unter der SMA50 (0,5611) liegt - ein Long-Ausbruch hier ist ohne Volumenbestaetigung (volume_ratio null) wenig vertrauenswuerdig. RSI 62 und ein gerade positiv gedrehtes MACD-Histogramm zeigen zwar leichtes Momentum, liefern aber keinen sauberen Trigger gegen das seitwaerts gepraegte Bild. Der negative Forex-Track-Record (avg_R -0,33) und die schwache Konviktion-3-Bilanz (avg_R -0,43) mahnen zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.8519,
+    "change_pct": -0.0023476383,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.8519,
+    "change_pct": -0.002347638275896798,
+    "sma20": 0.8576,
+    "sma50": 0.8618,
+    "sma200": 0.8669,
+    "rsi14": 6.62,
+    "macd": {
+      "macd": -0.0032,
+      "signal": -0.0026,
+      "hist": -0.0006
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.88308001,
+    "low_52w": 0.85175,
+    "pct_from_high": -3.53,
+    "pct_from_low": 0.02,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.863
+      },
+      {
+        "type": "support",
+        "price": 0.8518
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.8519
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 7",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend (38 Wochen) sind abwaerts, Kurs unter SMA20/50/200 und MACD negativ - strukturell klar bearisch, gestuetzt durch die EUR-Schwaeche (EUR/USD Wochentrend down). Doch RSI14 bei 6.6 direkt am 52W-Tief (0.85175) und exakt auf der Unterstuetzung 0.8518 signalisiert extreme Ueberverkauftheit mit hohem Ruecklaufrisiko, sodass ein frischer Short am Tief unattraktiv ist. Zusammen mit der negativen Forex-Bilanz (avg_R -0.33) und schwacher Konviktions-3-Statistik (avg_R -0.43) waehle ich FLAT statt gegen ein ausgereiztes Momentum einzusteigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

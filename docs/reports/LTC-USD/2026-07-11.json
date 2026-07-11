@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 45.5,
+    "change_pct": 1.60786,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 45.5,
+    "change_pct": 1.6078606520768175,
+    "sma20": 43.441,
+    "sma50": 45.4834,
+    "sma200": 56.5976,
+    "rsi14": 66.34,
+    "macd": {
+      "macd": -0.1197,
+      "signal": -0.5032,
+      "hist": 0.3835
+    },
+    "atr14": 1.5929,
+    "high_52w": 110.31,
+    "low_52w": 40.92,
+    "pct_from_high": -58.75,
+    "pct_from_low": 11.19,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 45.82
+      },
+      {
+        "type": "support",
+        "price": 40.92
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 45.5
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristig leicht bullisches Momentum (Preis ueber SMA20, MACD-Histogramm positiv, RSI 66) trifft auf einen klaren Wochen-Abwaertstrend (36 Wochen), Preis unter SMA50/SMA200 und -59% vom 52W-Hoch, unmittelbar unter Widerstand 45,82. Ohne Volumenbestaetigung (volume_ratio null), bei schwachem Krypto-Makro (BTC Wochentrend down) und klar negativer Krypto-Trefferbilanz (avg_R -0,80) fehlt ein stimmiges Setup fuer LONG oder SHORT. Daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

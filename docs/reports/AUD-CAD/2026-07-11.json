@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.9844,
+    "change_pct": -0.0040632238,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.9844,
+    "change_pct": -0.004063223761725345,
+    "sma20": 0.9826,
+    "sma50": 0.9858,
+    "sma200": 0.9667,
+    "rsi14": 63.92,
+    "macd": {
+      "macd": -0.0002,
+      "signal": -0.0005,
+      "hist": 0.0003
+    },
+    "atr14": 0.004,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.05,
+    "pct_from_low": 8.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9776
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.9844
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend beide seitwaerts bei neutraler Bias; der Kurs liegt ueber SMA20 und SMA200, aber unter SMA50, und das MACD-Histogramm pendelt nur knapp positiv um Null - trotz RSI 64 nahe dem 52W-Hoch kein stimmiges Richtungsbild. Ohne Volumenbestaetigung (volume_ratio null) und bei klar negativ laufender Forex- und Conviction-3-Klasse im Track Record (avg_R -0.33 bzw. -0.43, inkl. eigenem AUD/CAD-Flip) ist Zurueckhaltung geboten: FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

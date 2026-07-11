@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.114,
+    "change_pct": 0.99636449,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.114,
+    "change_pct": 0.996364493522276,
+    "sma20": 1.0918,
+    "sma50": 1.1658,
+    "sma200": 1.4554,
+    "rsi14": 64.18,
+    "macd": {
+      "macd": -0.0138,
+      "signal": -0.0215,
+      "hist": 0.0077
+    },
+    "atr14": 0.0428,
+    "high_52w": 2.5252,
+    "low_52w": 1.03995,
+    "pct_from_high": -55.88,
+    "pct_from_low": 7.12,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1576
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 1.114
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist neutral (Trend seitwaerts, Bias neutral, RSI 64, MACD-Linie trotz leicht positivem Histogramm noch negativ) und widerspricht dem klar abwaertsgerichteten Wochentrend (36 Wochen); der Kurs notiert unter SMA50 und SMA200, rund 56 Prozent unter dem 52W-Hoch. Schwaches Krypto-Makro (BTC/USD seitwaerts, Wochentrend down) und fehlende Volumenbestaetigung (volume_ratio nicht verfuegbar) liefern kein stimmiges Long-Setup, waehrend ein Short direkt ueber dem 52W-Support (1.04) kein sauberes Setup ist. Die klar negative Trefferbilanz der Klasse Krypto (avg_R -0.80) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

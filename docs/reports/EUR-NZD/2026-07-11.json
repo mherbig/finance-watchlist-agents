@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.98118,
+    "change_pct": 0.0,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.98118,
+    "change_pct": 0.0,
+    "sma20": 2.0047,
+    "sma50": 1.9908,
+    "sma200": 1.9906,
+    "rsi14": 18.81,
+    "macd": {
+      "macd": -0.0027,
+      "signal": 0.0017,
+      "hist": -0.0044
+    },
+    "atr14": 0.0095,
+    "high_52w": 2.06036,
+    "low_52w": 1.94714,
+    "pct_from_high": -3.84,
+    "pct_from_low": 1.75,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.0219
+      },
+      {
+        "type": "support",
+        "price": 1.9806
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.98118
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 19",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen abwaerts und der Kurs (1.9812) liegt unter SMA20/50/200 bei negativem MACD-Histogramm, doch RSI 18.8 ist extrem ueberverkauft und der Kurs sitzt exakt auf der Unterstuetzung 1.9806 - ein Short ins ausverkaufte Niveau ist kein sauberes Setup. Ein Long gegen den klaren Wochentrend ist ohne bullische Bestaetigung (MACD negativ, kein Volumen-Signal) nicht gerechtfertigt. Widerspruechliches Bild plus negativ laufende Forex-Klasse (avg_R -0.33) rechtfertigen Zurueckhaltung: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

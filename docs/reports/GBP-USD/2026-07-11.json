@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.34021,
+    "change_pct": -0.0029845178,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.34021,
+    "change_pct": -0.0029845178138436864,
+    "sma20": 1.3306,
+    "sma50": 1.335,
+    "sma200": 1.3442,
+    "rsi14": 84.78,
+    "macd": {
+      "macd": 0.0024,
+      "signal": 0.0008,
+      "hist": 0.0017
+    },
+    "atr14": 0.0054,
+    "high_52w": 1.37954,
+    "low_52w": 1.30152,
+    "pct_from_high": -2.85,
+    "pct_from_low": 2.97,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3409
+      },
+      {
+        "type": "support",
+        "price": 1.317
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 1.34021
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 85",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der RSI14 steht mit 84,78 im extrem ueberkauften Bereich, waehrend der Kurs (1,34021) direkt unter dem Widerstand 1,3409 festklemmt und dort mit -0,30% abprallt; Tagestrend seitwaerts, Bias neutral und Wochentrend seitwaerts liefern trotz positivem MACD kein stimmiges Long-Setup, zumal der Kurs unter der SMA200 (1,3442) bleibt und ein Volumensignal fehlt. Das Makro-Bild (fester USD, EUR/USD woechentlich abwaerts) stuetzt keine GBP-Staerke, und der Forex-Track-Record laeuft klar negativ (avg_R -0,33; Konviktion 3 avg_R -0,43), sodass FLAT die disziplinierte Wahl bleibt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

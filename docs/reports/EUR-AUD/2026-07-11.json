@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/AUD",
+  "display": "EUR/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.64209,
+    "change_pct": 0.0,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.64209,
+    "change_pct": 0.0,
+    "sma20": 1.6482,
+    "sma50": 1.6392,
+    "sma200": 1.6645,
+    "rsi14": 31.44,
+    "macd": {
+      "macd": 0.0008,
+      "signal": 0.0023,
+      "hist": -0.0015
+    },
+    "atr14": 0.0063,
+    "high_52w": 1.78922,
+    "low_52w": 1.61394,
+    "pct_from_high": -8.22,
+    "pct_from_low": 1.74,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.659
+      },
+      {
+        "type": "support",
+        "price": 1.6416
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.64209
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts bei neutralem Bias: Kurs 1.6421 notiert unter SMA20 (1.6482) und SMA200 (1.6645), RSI14 mit 31 klar unter der Mittellinie und das MACD-Histogramm ist negativ (bearischer Cross) - kein stimmiges Long-Bild, waehrend der Kurs direkt auf der Unterstuetzung 1.6416 und nur 1.7% ueber dem 52W-Tief klebt. Dem steht der Wochentrend up (38 Wochen) als klarer Widerspruch gegenueber, das Volumen ist unbekannt und die Forex-Bilanz (avg_R -0.33) wie die Konviktion-3-Bilanz (avg_R -0.43) laufen negativ. Widerspruechliches Bild ohne tragfaehiges Setup, daher FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

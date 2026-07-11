@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92293,
+    "change_pct": -0.0010834941,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92293,
+    "change_pct": -0.0010834940516127255,
+    "sma20": 0.9217,
+    "sma50": 0.9197,
+    "sma200": 0.9186,
+    "rsi14": 48.3,
+    "macd": {
+      "macd": 0.0006,
+      "signal": 0.0005,
+      "hist": 0.0001
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -1.71,
+    "pct_from_low": 2.37,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9234
+      },
+      {
+        "type": "support",
+        "price": 0.9184
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.92293
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs 0.92293 liegt ueber SMA20/50/200, doch RSI 48.3 ist neutral und der MACD-Hist mit 0.0001 praktisch null - es fehlt tragfaehiges Momentum, und der Kurs stoesst bereits direkt an den Widerstand 0.9234 (Volumenbestaetigung gibt es bei Forex ohnehin nicht). Das Makro-Bild liefert keinen EUR-Impuls (EUR/USD seitwaerts, Wochentrend abwaerts), und im Track Record laufen Forex (avg_R -0.33) wie auch Konviktion 3 (avg_R -0.43) klar negativ. Ohne sauberen Long-Edge ist Zurueckhaltung angezeigt, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

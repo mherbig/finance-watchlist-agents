@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 60.165,
+    "change_pct": -0.3528,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 59.808998107910156,
+    "change_pct": -0.9423966671152464,
+    "sma20": 62.5703,
+    "sma50": 70.4796,
+    "sma200": 69.0617,
+    "rsi14": 34.43,
+    "macd": {
+      "macd": -3.1469,
+      "signal": -3.4535,
+      "hist": 0.3066
+    },
+    "atr14": 2.1715,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -48.03,
+    "pct_from_low": 63.63,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 70.696
+      },
+      {
+        "type": "support",
+        "price": 58.052
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 59.808998107910156
+    },
+    "volume_ratio": 0.12
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Silber notiert bei 60,2 klar unter SMA20/50/200 mit abwaerts gerichtetem Tages- und Wochentrend (52 Wochen) und rund 48% unter dem Jahreshoch; ein Short mit dem Trend ist jedoch riskant, da RSI 34 nahe ueberverkauft liegt, das MACD-Histogramm leicht dreht (+0,31) und der Kurs dicht an der Unterstuetzung 58,05 sitzt, waehrend das Volumen mit Ratio 0,12 extrem duenn ist. Makro stuetzt keine Richtung (XAU nur seitwaerts bei fallendem Wochentrend), und die Metall-Klasse laeuft im Track Record negativ (avg_R -0,25). Ohne tragfaehiges Setup ueberwiegt die Unklarheit, daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

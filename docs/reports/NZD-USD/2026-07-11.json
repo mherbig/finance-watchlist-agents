@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.5763,
+    "change_pct": -0.0017351772,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.5763,
+    "change_pct": -0.0017351772483480228,
+    "sma20": 0.5692,
+    "sma50": 0.5781,
+    "sma200": 0.5854,
+    "rsi14": 79.88,
+    "macd": {
+      "macd": -0.0003,
+      "signal": -0.0019,
+      "hist": 0.0016
+    },
+    "atr14": 0.0033,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -4.99,
+    "pct_from_low": 3.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5764
+      },
+      {
+        "type": "support",
+        "price": 0.5639
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.5763
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 80",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild ohne sauberes Setup: Kurs 0.5763 klebt exakt am Widerstand 0.5764 und RSI14 rund 80 ist nach der scharfen Erholung vom 52W-Tief extrem ueberkauft, waehrend der Wochentrend seit 38 Wochen abwaerts laeuft und Tagestrend 'side'/Bias neutral kein Signal liefern. Das USD-Makro (EUR/USD, BTC, XAU alle im Wochen-Abwaertstrend = USD-Staerke) steht NZD-Longs entgegen; das nach oben drehende MACD-Histogramm reicht bei schwacher Forex-Trefferquote nicht fuer eine Position, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

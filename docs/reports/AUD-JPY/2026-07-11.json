@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T21:25:33.490065+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 112.44499,
+    "change_pct": 0.022113477,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 112.44499,
+    "change_pct": 0.02211347736388837,
+    "sma20": 112.051,
+    "sma50": 112.8889,
+    "sma200": 110.8848,
+    "rsi14": 61.84,
+    "macd": {
+      "macd": -0.0612,
+      "signal": -0.1673,
+      "hist": 0.106
+    },
+    "atr14": 0.5925,
+    "high_52w": 114.83705,
+    "low_52w": 99.289,
+    "pct_from_high": -2.08,
+    "pct_from_low": 13.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 112.7612
+      },
+      {
+        "type": "support",
+        "price": 111.3774
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 112.44499
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-11T22:27:40.044987+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts (bias neutral) gegen einen klar abwaertsgerichteten Wochentrend (38 Wochen), Preis 112.45 unter SMA50 (112.89) mit Widerstand darueber. RSI 62 und ein gerade positiv gedrehtes MACD-Histogramm signalisieren nur eine muede Gegenbewegung ohne Volumenbestaetigung (volume_ratio null), und das Makro-Bild liefert keinen AUD-Rueckenwind. Widerspruechliches, richtungsloses Setup zusammen mit negativer Forex- und Conviction-3-Bilanz - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

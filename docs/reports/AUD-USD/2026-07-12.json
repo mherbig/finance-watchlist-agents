@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69492,
+    "change_pct": 0.0014390353,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69492,
+    "change_pct": 0.001439035270747937,
+    "sma20": 0.6925,
+    "sma50": 0.7015,
+    "sma200": 0.7005,
+    "rsi14": 66.88,
+    "macd": {
+      "macd": -0.0015,
+      "signal": -0.0025,
+      "hist": 0.001
+    },
+    "atr14": 0.0031,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.26,
+    "pct_from_low": 7.65,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.6957
+      },
+      {
+        "type": "support",
+        "price": 0.6887
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69492
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist side/neutral: Der Kurs 0.69492 haelt sich zwar ueber der SMA20 (0.6925), liegt aber klar unter SMA50/200 (~0.70) und laeuft mit RSI 67 direkt in den Widerstand 0.6957, waehrend das MACD-Histogramm nur schwach positiv dreht (MACD und Signal weiter negativ). Dem stehen ein klar bearischer Wochentrend (down, 38 Wochen) ohne Volumenbestaetigung sowie USD-Staerke (EUR/USD Tages- und Wochentrend down) entgegen. Bei diesem Widerspruch und negativer Trefferquote in Forex (avg_R -0.36) und Konviktion 3 (avg_R -0.36) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

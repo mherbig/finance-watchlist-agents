@@ -1,0 +1,67 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 20.9,
+    "change_pct": -0.7597,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 20.899999618530273,
+    "change_pct": -0.759733387794508,
+    "sma20": 21.1685,
+    "sma50": 20.2679,
+    "sma200": 19.002,
+    "rsi14": 44.4,
+    "macd": {
+      "macd": 0.2392,
+      "signal": 0.3476,
+      "hist": -0.1084
+    },
+    "atr14": 0.3871,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.149999618530273,
+    "pct_from_high": -4.3,
+    "pct_from_low": 37.95,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 20.49
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 20.899999618530273
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral bei RSI 44 mit negativem MACD-Histogramm (-0.11) und unterdurchschnittlichem Volumen (Ratio 0.7) - kein tragfaehiges Setup, obwohl Wochentrend up sowie Kurs (20.9) ueber SMA50/200 den laengeren Aufwaertspfad stuetzen. Der Kurs notiert unter der SMA20 (21.17) und nahe am 52W-Hoch (-4.3%), das Bild bleibt widerspruechlich. Aktien-Makro freundlich, aber Track Record der Konviktion 3 klar negativ (avg_R -0.36) - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

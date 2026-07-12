@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 112.33,
+    "change_pct": 1.070724,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 112.33,
+    "change_pct": 1.0707216123807788,
+    "sma20": 103.747,
+    "sma50": 120.1284,
+    "sma200": 145.6364,
+    "rsi14": 57.8,
+    "macd": {
+      "macd": -3.9849,
+      "signal": -6.41,
+      "hist": 2.4251
+    },
+    "atr14": 3.9093,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -40.67,
+    "pct_from_low": 18.48,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 112.82
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 112.33
+    },
+    "volume_ratio": 1.09
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Kurs 112.33 (+1.07%) liegt zwar ueber SMA20 und das MACD-Histogramm dreht positiv (+2.43), doch der Titel notiert klar unter SMA50/SMA200 (-41% vom 52W-Hoch), Tagestrend 'side', Bias 'neutral', und der Wochentrend ist seit 52 Wochen abwaerts. Der Anstieg laeuft direkt in den Widerstand bei 112.82 und nur bei leicht ueberdurchschnittlichem Volumen (1.09), ohne klaren Ausloeser fuer ein Setup gegen den Wochentrend. Angesichts der schwachen Trefferquote (0.06, avg_R -0.38) ist Zurueckhaltung geboten - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

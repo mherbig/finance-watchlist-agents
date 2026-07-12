@@ -1,0 +1,67 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7575.39,
+    "change_pct": 0.4209,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7575.39013671875,
+    "change_pct": 0.4208843399813908,
+    "sma20": 7463.4671,
+    "sma50": 7433.1234,
+    "sma200": 6965.1382,
+    "rsi14": 57.34,
+    "macd": {
+      "macd": 34.5567,
+      "signal": 25.6169,
+      "hist": 8.9397
+    },
+    "atr14": 84.1201,
+    "high_52w": 7609.77978515625,
+    "low_52w": 6238.009765625,
+    "pct_from_high": -0.45,
+    "pct_from_low": 21.44,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7575.3901
+      },
+      {
+        "type": "support",
+        "price": 7354.02
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 7575.39013671875
+    },
+    "volume_ratio": 0.69
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts, der Kurs notiert ueber SMA20/50/200, MACD ist positiv (Hist +8.9) und RSI 57 signalisiert gesunde Staerke ohne Ueberhitzung; das Makro-Bild stuetzt (S&P500 und NQ100 jeweils up/up). Da der Kurs direkt am Widerstand nahe dem 52-Wochen-Hoch steht, das Volumen mit ratio 0.69 unterdurchschnittlich ausfaellt und die Index-Klasse im Track Record klar negativ laeuft (avg_R -0.67), bleibt die Konviktion moderat bei 3.",
+    "entry": 7575.39,
+    "stop_loss": 7423.9738,
+    "take_profit": 7802.5143,
+    "take_profit_2": 7575.3901,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.94,
+    "change_pct": -2.3904,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2.940000057220459,
+    "change_pct": -2.390439066956991,
+    "sma20": 3.1856,
+    "sma50": 3.0692,
+    "sma200": 3.4635,
+    "rsi14": 36.06,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0389,
+      "hist": -0.0367
+    },
+    "atr14": 0.1426,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -60.59,
+    "pct_from_low": 16.53,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 2.94
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 2.940000057220459
+    },
+    "volume_ratio": 1.11
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts bei neutralem Bias; der Kurs (2,94) steht zwar unter allen gleitenden Durchschnitten mit bearischem MACD (Histogramm -0,037), sitzt aber exakt auf der Unterstuetzung nahe den 52-Wochen-Tiefs bei ohnehin schwachem RSI 36. Ein Short in die Unterstuetzung liefert gegen die Seitwaertsstruktur kein sauberes Setup, ein bullisches Bild fehlt, und das nur leicht erhoehte Volumen (1,11) sowie die schwache Trefferbilanz sprechen fuer Zurueckhaltung. Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

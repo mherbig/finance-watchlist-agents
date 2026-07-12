@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.13,
+    "change_pct": 0.4277483,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.13,
+    "change_pct": 0.4277518808102663,
+    "sma20": 21.922,
+    "sma50": 23.5832,
+    "sma200": 25.5232,
+    "rsi14": 40.52,
+    "macd": {
+      "macd": -0.808,
+      "signal": -0.8296,
+      "hist": 0.0216
+    },
+    "atr14": 0.7357,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -28.66,
+    "pct_from_low": 3.17,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.58
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 21.13
+    },
+    "volume_ratio": 0.67
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind bearisch (Kurs 21,13 unter SMA20/50/200, RSI 41, MACD tief negativ), doch der Preis sitzt direkt auf dem 52-Wochen-Tief/Support 20,48 bei klar unterdurchschnittlichem Volumen (0,67), sodass ein frischer Short-Ausbruch unglaubwuerdig ist. Gleichzeitig laufen die US-Leitmaerkte (S&P500, NQ100 Tages- und Wochentrend auf) risk-on, weshalb ein Short gegen das bullische Aktien-Makro ohne symbolspezifischen Katalysator nicht traegt und ein Long dem Abwaertstrend widerspricht. Der Widerspruch aus bearischer Technik, Support-Halt und Makro-Gegenwind rechtfertigt kein Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

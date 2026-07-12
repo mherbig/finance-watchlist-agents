@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 979.29999,
+    "change_pct": -1.24441,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 979.29999,
+    "change_pct": -1.244405215154639,
+    "sma20": 1053.562,
+    "sma50": 899.0474,
+    "sma200": 464.4835,
+    "rsi14": 40.43,
+    "macd": {
+      "macd": 19.3897,
+      "signal": 47.8665,
+      "hist": -28.4768
+    },
+    "atr14": 98.19,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -19.3,
+    "pct_from_low": 833.73,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 938.38
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 979.29999
+    },
+    "volume_ratio": 0.58
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widersprüchliches Bild: Wochentrend up sowie Kurs klar über SMA50 (899) und SMA200 (464) stützen langfristig bullisch, doch Tagestrend seitwärts, RSI 40 schwach, MACD deutlich bärisch (Histogramm -28,5) und Kurs unter SMA20 (1053). Der -1,2%-Tag kam bei unterdurchschnittlichem Volumen (Ratio 0,58), also kein tragfähiges Long-Setup, zugleich nicht klar bearisch. Bei Widerspruch und Überzeugung < 3 bleibt es FLAT; die negative Trefferbilanz bei Konviktion 3 in Aktien mahnt zusätzlich zur Zurückhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

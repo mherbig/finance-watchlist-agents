@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 357.17999,
+    "change_pct": -0.47647522,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 357.17999,
+    "change_pct": -0.4764746725605549,
+    "sma20": 357.8845,
+    "sma50": 372.7458,
+    "sma200": 318.911,
+    "rsi14": 42.54,
+    "macd": {
+      "macd": -1.8093,
+      "signal": -2.9507,
+      "hist": 1.1413
+    },
+    "atr14": 11.4821,
+    "high_52w": 402.62,
+    "low_52w": 181.56,
+    "pct_from_high": -11.29,
+    "pct_from_low": 96.73,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 373.25
+      },
+      {
+        "type": "support",
+        "price": 337.39
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 357.17999
+    },
+    "volume_ratio": 0.5
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts (bearischer Bias, RSI 43, Kurs unter SMA20/SMA50), doch der Kurs liegt klar ueber der SMA200, das MACD-Histogramm dreht nach oben (+1.14) und das US-Makro ist bullisch (S&P500 und NQ100 im Aufwaertstrend) - das spricht gegen einen tragfaehigen Short. Das duenne Volumen (Ratio 0.5) macht Ausbrueche unzuverlaessig, und die negative Trefferbilanz auf Konviktionsstufe 3 (avg_R -0.36) mahnt zur Zurueckhaltung. Bei diesem Widerspruch ohne klares Setup ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

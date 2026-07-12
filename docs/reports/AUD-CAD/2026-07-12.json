@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98389,
+    "change_pct": 0.016264625,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98389,
+    "change_pct": 0.016264625456176896,
+    "sma20": 0.9826,
+    "sma50": 0.9857,
+    "sma200": 0.967,
+    "rsi14": 60.63,
+    "macd": {
+      "macd": -0.0003,
+      "signal": -0.0005,
+      "hist": 0.0002
+    },
+    "atr14": 0.004,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.1,
+    "pct_from_low": 8.29,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9776
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.98389
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts bei neutraler Bias, waehrend der Wochentrend seit 38 Wochen abwaerts zeigt - kein stimmiges Richtungsbild; der Kurs steht ueber SMA20/200, aber unter SMA50, und das MACD-Histogramm ist mit +0.0002 nur marginal positiv. RSI 61 nahe der Resistance 0.9882 liefert ohne Volumenbestaetigung (volume_ratio null) kein tragfaehiges Long-Setup, gegen den Wochentrend fehlt zudem der Grund fuer Short. Bei klar negativ laufender Forex- und Conviction-3-Klasse (avg_R -0.36, inkl. eigenem AUD/CAD-Flip) ist FLAT mit niedriger Konviktion diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

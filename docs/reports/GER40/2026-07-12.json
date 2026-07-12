@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25067.09,
+    "change_pct": -0.2038,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25067.08984375,
+    "change_pct": -0.20375483046842308,
+    "sma20": 25079.0256,
+    "sma50": 24806.9979,
+    "sma200": 24320.0238,
+    "rsi14": 48.93,
+    "macd": {
+      "macd": 143.6352,
+      "signal": 157.1925,
+      "hist": -13.5572
+    },
+    "atr14": 352.3563,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -2.91,
+    "pct_from_low": 12.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 25067.08984375
+    },
+    "volume_ratio": 0.71
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist richtungslos: Trend seitwaerts, RSI 48.9 neutral, MACD-Histogramm frisch negativ und der Kurs knapp unter der SMA20, waehrend nur der Wochentrend up bleibt. Das Volumen ist mit 0.71 klar unterdurchschnittlich, sodass kein tragfaehiger Ausbruch bestaetigt ist. Zudem laeuft die Index-Klasse im Track Record deutlich negativ (avg_R -0.67), daher bleibe ich ohne stimmiges Setup FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

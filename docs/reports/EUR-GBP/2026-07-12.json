@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.85157,
+    "change_pct": -0.028175297,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.85157,
+    "change_pct": -0.028175297308074214,
+    "sma20": 0.8571,
+    "sma50": 0.8616,
+    "sma200": 0.8667,
+    "rsi14": 7.09,
+    "macd": {
+      "macd": -0.0032,
+      "signal": -0.0027,
+      "hist": -0.0005
+    },
+    "atr14": 0.0027,
+    "high_52w": 0.88308001,
+    "low_52w": 0.85157,
+    "pct_from_high": -3.57,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.863
+      },
+      {
+        "type": "support",
+        "price": 0.8516
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.85157
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 7",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend (38 Wochen) sind abwaerts, Kurs unter SMA20/50/200 und MACD negativ - strukturell klar bearisch, gestuetzt durch die EUR-Schwaeche (EUR/USD Trend und Wochentrend down). Doch RSI14 bei 7.1 exakt am 52W-Tief (0.85157) und direkt auf der Unterstuetzung 0.8516 signalisiert extreme Ueberverkauftheit mit hohem Ruecklaufrisiko, sodass ein frischer Short am Tief unattraktiv ist. Zusammen mit der negativen Forex-Bilanz (avg_R -0.36) und schwacher Konviktions-3-Statistik (avg_R -0.36) waehle ich FLAT statt gegen ein ausgereiztes Momentum einzusteigen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 109.84,
+    "change_pct": -2.39915,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 109.84,
+    "change_pct": -2.3991469699662367,
+    "sma20": 124.576,
+    "sma50": 117.0034,
+    "sma200": 62.4652,
+    "rsi14": 33.09,
+    "macd": {
+      "macd": -0.1231,
+      "signal": 3.1731,
+      "hist": -3.2962
+    },
+    "atr14": 9.9929,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -22.07,
+    "pct_from_low": 468.82,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 109.84
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 109.84
+    },
+    "volume_ratio": 0.55
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts bei neutralem Bias und kein stimmiges Richtungsbild: der Kurs (109,84) liegt zwar unter SMA20 (124,58) und SMA50 (117,00) mit klar bearischem MACD-Histogramm (-3,30), steht aber weit ueber der SMA200 (62,47) und die RSI 33 ist bereits ausgereizt. Der heutige Ruecksetzer von -2,4% erfolgt auf unterdurchschnittlichem Volumen (Ratio 0,55) und ist wenig belastbar, waehrend das freundliche Tech-Makro (NQ100 und S&P500 im Aufwaertstrend) gegen einen Short spricht. Konviktionsstufe 3 laeuft historisch negativ (avg_R -0,36), daher ohne klaren Edge FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

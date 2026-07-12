@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T21:23:52.226013+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81595,
+    "change_pct": 0.017160859,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81595,
+    "change_pct": 0.017160858533226853,
+    "sma20": 0.8084,
+    "sma50": 0.8119,
+    "sma200": 0.8081,
+    "rsi14": 78.11,
+    "macd": {
+      "macd": 0.0015,
+      "signal": 0.0003,
+      "hist": 0.0012
+    },
+    "atr14": 0.0038,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -1.24,
+    "pct_from_low": 3.8,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8159
+      },
+      {
+        "type": "support",
+        "price": 0.8004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.81595
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-12T21:33:11.846521+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts bei neutralem Bias, waehrend RSI14 mit 78,11 extrem ueberkauft ist und der Kurs 0,81595 direkt am Widerstand 0,8159 klemmt; trotz aufwaertsgerichtetem Wochentrend fehlt ein sauberes Long-Setup und ohne Volumenbestaetigung (volume_ratio null) ist ein Einstieg in die Ueberkauftheit nicht diszipliniert. Ein Short gegen den Wochentrend ist ohne Umkehrsignal ebenfalls nicht begruendet, und da Forex sowie Konviktion 3 im Track Record negativ laufen (avg_R ca. -0,36), ist FLAT die richtige Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -12,9 +12,9 @@
     "total_pnl": -5660.1509,
     "total_costs": 200.9858,
     "max_drawdown": -6135.6985,
-    "unrealized_pnl": 234.6552,
-    "marked_equity": 94574.5043,
-    "marked_return_pct": -5.4255,
+    "unrealized_pnl": 410.4327,
+    "marked_equity": 94750.2818,
+    "marked_return_pct": -5.2497,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -491,9 +491,9 @@
       "units": 78472.0833,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80775,
-      "unrealized_pct": -0.1051,
-      "unrealized_pnl": -66.7013
+      "current_price": 0.80999,
+      "unrealized_pct": 0.1719,
+      "unrealized_pnl": 109.0762
     }
   ],
   "marked_curve": [
@@ -555,7 +555,7 @@
     {
       "date": "2026-07-13",
       "equity": 94339.8491,
-      "marked_equity": 94574.5044
+      "marked_equity": 94750.2818
     }
   ],
   "benchmark_curve": [
@@ -593,19 +593,19 @@
     },
     {
       "date": "2026-07-10",
-      "equity": 100774.6053
+      "equity": 100748.9333
     },
     {
       "date": "2026-07-11",
-      "equity": 100674.6351
+      "equity": 100648.9631
     },
     {
       "date": "2026-07-12",
-      "equity": 100776.8502
+      "equity": 100610.2026
     },
     {
       "date": "2026-07-13",
-      "equity": 100769.6031
+      "equity": 100602.445
     }
   ],
   "skipped": [

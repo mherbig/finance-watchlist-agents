@@ -591,7 +591,13 @@ function renderClosedTrades(closed) {
     </tr>`;
   }).join("");
 
+  // Summenzeile: Summe der Zeilen == summary.total_pnl -> sichtbarer Beweis,
+  // dass ALLE geschlossenen Trades in der Gesamtauswertung stecken.
+  const totalPnl = rows.reduce((a, c) => a + (Number(c.pnl) || 0), 0);
+  const totCls = totalPnl > 0 ? "up-text" : totalPnl < 0 ? "down-text" : "";
+  const totSign = totalPnl > 0 ? "+" : "";
   return `
+    <div class="scroll-table">
     <table class="ptable">
       <thead><tr>
         <th>Symbol</th><th>Richtung</th><th>Entry</th>
@@ -601,7 +607,13 @@ function renderClosedTrades(closed) {
         <th>R</th><th>P&amp;L</th><th>Ergebnis</th>
       </tr></thead>
       <tbody>${body}</tbody>
-    </table>`;
+      <tfoot><tr>
+        <td colspan="7">Σ ${rows.length} Trades (realisiert)</td>
+        <td class="num ${totCls}">${totSign}${fmtMoney(totalPnl)} $</td>
+        <td></td>
+      </tr></tfoot>
+    </table>
+    </div>`;
 }
 
 function renderPortfolioHead(summary) {
@@ -664,11 +676,11 @@ async function renderPortfolio() {
         ${renderEquityChart(pf)}
       </div>
       <div class="pcard">
-        <h3>Aktive Signale</h3>
+        <h3>Aktive Signale (${open.length})</h3>
         ${renderOpenSignals(open)}
       </div>
       <div class="pcard">
-        <h3>Trade-Historie</h3>
+        <h3>Trade-Historie (${closed.length})</h3>
         ${renderClosedTrades(closed)}
       </div>`;
   } else {
@@ -679,11 +691,11 @@ async function renderPortfolio() {
         ${renderEquityChart(pf)}
       </div>
       <div class="pcard">
-        <h3>Aktive Signale</h3>
+        <h3>Aktive Signale (${open.length})</h3>
         ${renderOpenSignals(open)}
       </div>
       <div class="pcard">
-        <h3>Trade-Historie</h3>
+        <h3>Trade-Historie (${closed.length})</h3>
         ${renderClosedTrades(closed)}
       </div>`;
   }

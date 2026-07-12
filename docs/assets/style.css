@@ -448,3 +448,11 @@ body {
 /* Benchmark-Linie (Buy & Hold) im Equity-Chart */
 .eq-line-bench { stroke: var(--text-dim); stroke-width: 1.5; stroke-dasharray: 5 4; }
 .eq-key-bench { background: var(--text-dim); }
+
+/* Trade-Historie/Signale: scrollbar mit haftendem Kopf, volle Liste erreichbar */
+.scroll-table { max-height: 520px; overflow-y: auto; }
+.scroll-table .ptable thead th { position: sticky; top: 0; background: var(--bg-elev); z-index: 2; }
+.scroll-table .ptable tfoot td {
+  position: sticky; bottom: 0; background: var(--bg-elev);
+  border-top: 1px solid var(--border); font-weight: 600; padding: 8px 5px;
+}

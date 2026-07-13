@@ -1,10 +1,10 @@
 {
   "anchors": {
     "GER40": {
-      "trend": "up",
+      "trend": "side",
       "weekly_trend": "up",
-      "change_pct": 0.19,
-      "rsi14": 53.44
+      "change_pct": -0.2,
+      "rsi14": 48.93
     },
     "NQ100": {
       "trend": "side",
@@ -22,24 +22,24 @@
       "trend": "down",
       "weekly_trend": "down",
       "change_pct": 0.02,
-      "rsi14": 40.91
+      "rsi14": 40.71
     },
     "BTC/USD": {
       "trend": "side",
       "weekly_trend": "down",
-      "change_pct": -2.75,
-      "rsi14": 57.21
+      "change_pct": -2.63,
+      "rsi14": 57.55
     },
     "XAU": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 0.02,
-      "rsi14": 49.34
+      "change_pct": -0.13,
+      "rsi14": 48.68
     }
   },
   "vol_regime": {
     "symbols": 80,
-    "median_atr_pct": 2.231
+    "median_atr_pct": 2.151
   },
-  "generated_at": "2026-07-13T21:27:17.462250+00:00"
+  "generated_at": "2026-07-13T23:40:24.650661+00:00"
 }

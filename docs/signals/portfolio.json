@@ -12,9 +12,9 @@
     "total_pnl": -5660.1509,
     "total_costs": 200.9858,
     "max_drawdown": -6135.6985,
-    "unrealized_pnl": 559.0323,
-    "marked_equity": 94898.8814,
-    "marked_return_pct": -5.1011,
+    "unrealized_pnl": 647.6608,
+    "marked_equity": 94987.5099,
+    "marked_return_pct": -5.0125,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -437,9 +437,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 534.41998,
-      "unrealized_pct": 3.1181,
-      "unrealized_pnl": 121.4422
+      "current_price": 534.39001,
+      "unrealized_pct": 3.1123,
+      "unrealized_pnl": 121.217
     },
     {
       "symbol": "AAPL",
@@ -455,9 +455,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 317.42001,
-      "unrealized_pct": 2.9849,
-      "unrealized_pnl": 285.8002
+      "current_price": 317.31,
+      "unrealized_pct": 2.9492,
+      "unrealized_pnl": 282.3827
     },
     {
       "symbol": "AUD/CAD",
@@ -473,9 +473,9 @@
       "units": 65513.7778,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.97957,
-      "unrealized_pct": 0.0031,
-      "unrealized_pnl": 1.9654
+      "current_price": 0.97881,
+      "unrealized_pct": 0.0806,
+      "unrealized_pnl": 51.7559
     },
     {
       "symbol": "RACE",
@@ -491,9 +491,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 372.92001,
-      "unrealized_pct": -3.1301,
-      "unrealized_pnl": -313.9456
+      "current_price": 372.98001,
+      "unrealized_pct": -3.1145,
+      "unrealized_pnl": -312.3824
     },
     {
       "symbol": "TSLA",
@@ -509,9 +509,9 @@
       "units": 14.4964,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 394.75,
-      "unrealized_pct": -0.0,
-      "unrealized_pnl": -0.0
+      "current_price": 394.76001,
+      "unrealized_pct": -0.0025,
+      "unrealized_pnl": -0.1451
     },
     {
       "symbol": "USD/CHF",
@@ -527,9 +527,9 @@
       "units": 78472.0833,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.81451,
-      "unrealized_pct": 0.7309,
-      "unrealized_pnl": 463.77
+      "current_price": 0.81485,
+      "unrealized_pct": 0.7729,
+      "unrealized_pnl": 490.4505
     },
     {
       "symbol": "XAG/USD",
@@ -545,9 +545,9 @@
       "units": 115.057,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 57.97999954223633,
-      "unrealized_pct": 0.0,
-      "unrealized_pnl": 0.0001
+      "current_price": 57.85499954223633,
+      "unrealized_pct": 0.2156,
+      "unrealized_pnl": 14.3822
     }
   ],
   "marked_curve": [
@@ -609,12 +609,12 @@
     {
       "date": "2026-07-13",
       "equity": 94339.8491,
-      "marked_equity": 94941.818
+      "marked_equity": 94953.9755
     },
     {
       "date": "2026-07-14",
       "equity": 94339.8491,
-      "marked_equity": 94898.8814
+      "marked_equity": 94987.5099
     }
   ],
   "benchmark_curve": [
@@ -664,11 +664,11 @@
     },
     {
       "date": "2026-07-13",
-      "equity": 100075.3798
+      "equity": 100089.7859
     },
     {
       "date": "2026-07-14",
-      "equity": 100074.3635
+      "equity": 100088.5055
     }
   ],
   "skipped": [

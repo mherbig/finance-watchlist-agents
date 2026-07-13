@@ -4,36 +4,36 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "generated_at": "2026-07-13T23:40:24.397234+00:00",
   "available": true,
   "snapshot": {
     "price": 71.44,
-    "change_pct": 0.6481,
+    "change_pct": -0.1119,
     "currency": "EUR"
   },
   "technical": {
-    "last_close": 71.44000244140625,
-    "change_pct": 0.6480685583508384,
-    "sma20": 76.114,
-    "sma50": 83.6264,
-    "sma200": 92.8385,
-    "rsi14": 33.05,
+    "last_close": 70.9800033569336,
+    "change_pct": -0.7550242050873514,
+    "sma20": 77.063,
+    "sma50": 83.8736,
+    "sma200": 92.9469,
+    "rsi14": 27.83,
     "macd": {
-      "macd": -3.741,
-      "signal": -3.734,
-      "hist": -0.007
+      "macd": -3.8049,
+      "signal": -3.7322,
+      "hist": -0.0727
     },
-    "atr14": 2.0729,
+    "atr14": 2.1414,
     "high_52w": 108.5999984741211,
     "low_52w": 69.94000244140625,
-    "pct_from_high": -34.22,
-    "pct_from_low": 2.14,
+    "pct_from_high": -34.64,
+    "pct_from_low": 1.49,
     "trend": "down",
-    "bias": "bearish",
+    "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 89.66
+        "price": 90.42
       },
       {
         "type": "support",
@@ -42,13 +42,13 @@
     ],
     "weekly": {
       "trend": "down",
-      "weeks": 53,
-      "last_close": 71.44000244140625
+      "weeks": 52,
+      "last_close": 70.9800033569336
     },
-    "volume_ratio": 0.55
+    "volume_ratio": 0.78
   },
   "fundamental": null,
-  "headline": "Trend down, RSI 33",
+  "headline": "Trend down, RSI 28",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-13T21:36:25.840301+00:00",

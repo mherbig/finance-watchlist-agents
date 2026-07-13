@@ -4,30 +4,30 @@
   "asset_class": "energy",
   "track": "technical",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "generated_at": "2026-07-13T23:40:24.397234+00:00",
   "available": true,
   "snapshot": {
-    "price": 83.18,
-    "change_pct": 9.433,
+    "price": 84.15,
+    "change_pct": 10.7091,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 83.18000030517578,
-    "change_pct": 9.432966672063419,
-    "sma20": 76.6965,
-    "sma50": 91.5174,
-    "sma200": 78.9968,
-    "rsi14": 59.66,
+    "last_close": 84.1500015258789,
+    "change_pct": 10.70911611745433,
+    "sma20": 76.745,
+    "sma50": 91.5368,
+    "sma200": 79.0017,
+    "rsi14": 61.05,
     "macd": {
-      "macd": -3.8719,
-      "signal": -5.4512,
-      "hist": 1.5794
+      "macd": -3.7945,
+      "signal": -5.4358,
+      "hist": 1.6413
     },
-    "atr14": 3.3571,
+    "atr14": 3.3814,
     "high_52w": 118.3499984741211,
     "low_52w": 58.91999816894531,
-    "pct_from_high": -29.72,
-    "pct_from_low": 41.17,
+    "pct_from_high": -28.9,
+    "pct_from_low": 42.82,
     "trend": "side",
     "bias": "neutral",
     "levels": [
@@ -43,12 +43,12 @@
     "weekly": {
       "trend": "down",
       "weeks": 53,
-      "last_close": 83.18000030517578
+      "last_close": 84.1500015258789
     },
-    "volume_ratio": 1.56
+    "volume_ratio": 0.02
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 60",
+  "headline": "Trend side, RSI 61",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-13T21:36:25.840301+00:00",

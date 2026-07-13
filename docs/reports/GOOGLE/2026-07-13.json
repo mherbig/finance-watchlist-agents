@@ -4,30 +4,30 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "generated_at": "2026-07-13T23:40:24.397234+00:00",
   "available": true,
   "snapshot": {
-    "price": 352.53,
-    "change_pct": -1.30186,
+    "price": 352.51001,
+    "change_pct": -1.30746,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 352.53,
-    "change_pct": -1.3018618428204791,
-    "sma20": 357.6225,
-    "sma50": 372.7976,
-    "sma200": 319.4154,
-    "rsi14": 52.41,
+    "last_close": 352.51001,
+    "change_pct": -1.307458460928887,
+    "sma20": 357.6215,
+    "sma50": 372.7972,
+    "sma200": 319.4153,
+    "rsi14": 52.4,
     "macd": {
-      "macd": -2.2022,
-      "signal": -2.801,
-      "hist": 0.5987
+      "macd": -2.2038,
+      "signal": -2.8013,
+      "hist": 0.5975
     },
     "atr14": 10.0579,
     "high_52w": 402.62,
     "low_52w": 182.0,
-    "pct_from_high": -12.44,
-    "pct_from_low": 93.7,
+    "pct_from_high": -12.45,
+    "pct_from_low": 93.69,
     "trend": "down",
     "bias": "bearish",
     "levels": [
@@ -43,9 +43,9 @@
     "weekly": {
       "trend": "down",
       "weeks": 53,
-      "last_close": 352.53
+      "last_close": 352.51001
     },
-    "volume_ratio": 0.69
+    "volume_ratio": 0.42
   },
   "fundamental": null,
   "headline": "Trend down, RSI 52",

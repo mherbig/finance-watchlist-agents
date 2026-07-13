@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 357.76001,
+    "change_pct": 2.51884,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 357.76001,
+    "change_pct": 2.5188440267071655,
+    "sma20": 340.0435,
+    "sma50": 330.5404,
+    "sma200": 329.2092,
+    "rsi14": 74.43,
+    "macd": {
+      "macd": 7.7684,
+      "signal": 6.723,
+      "hist": 1.0453
+    },
+    "atr14": 8.7857,
+    "high_52w": 362.13,
+    "low_52w": 295.51999,
+    "pct_from_high": -1.21,
+    "pct_from_low": 21.06,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 362.13
+      },
+      {
+        "type": "support",
+        "price": 322.39
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 357.76001
+    },
+    "volume_ratio": 0.6
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 74",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts und der Kurs liegt klar ueber SMA20/50/200, doch das Setup ist ueberdehnt: RSI14 74.4 stark ueberkauft, Kurs nach +2.5% nur -1.2% unter dem 52W-Hoch mit Widerstand 362.13 direkt darueber, und das Volumen ist mit volume_ratio 0.6 klar unterdurchschnittlich. Ein Market-Einstieg zum Schluss nach dem Spike ist ein schlechtes Chance-Risiko-Verhaeltnis; zudem laeuft Konviktionsstufe 3 im Track Record leicht negativ (avg_R -0.35), daher kein Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

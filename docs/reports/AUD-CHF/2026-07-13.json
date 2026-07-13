@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56374,
+    "change_pct": 0.019516349,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56374,
+    "change_pct": 0.01951634937814781,
+    "sma20": 0.5595,
+    "sma50": 0.5612,
+    "sma200": 0.5525,
+    "rsi14": 66.24,
+    "macd": {
+      "macd": 0.0005,
+      "signal": -0.0002,
+      "hist": 0.0007
+    },
+    "atr14": 0.0022,
+    "high_52w": 0.56745,
+    "low_52w": 0.51634002,
+    "pct_from_high": -0.65,
+    "pct_from_low": 9.18,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5637
+      },
+      {
+        "type": "support",
+        "price": 0.5562
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.56374
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0,56374) liegt oberhalb aller SMAs bei aufwaertsgerichtetem Wochentrend, drueckt aber direkt gegen den Widerstand 0,5637 knapp unter dem 52-Wochen-Hoch, waehrend der Tagestrend seitwaerts ist, RSI 66 ueberkauft anlaeuft und das MACD-Histogramm nur marginal positiv ausfaellt. Ein Long-Ausbruch an dieser Stelle ist ohne Volumenbestaetigung (volume_ratio null) wenig vertrauenswuerdig, ein Short widerspraeche der Lage ueber allen SMAs. Der negative Forex- und Konviktion-3-Track-Record (avg_R -0,38 bzw. -0,35) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

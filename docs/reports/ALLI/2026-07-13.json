@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 421.0,
+    "change_pct": -0.1423,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 421.0,
+    "change_pct": -0.14231643615496184,
+    "sma20": 411.645,
+    "sma50": 392.966,
+    "sma200": 375.561,
+    "rsi14": 77.05,
+    "macd": {
+      "macd": 8.9736,
+      "signal": 8.7737,
+      "hist": 0.1999
+    },
+    "atr14": 4.8214,
+    "high_52w": 422.79998779296875,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": -0.43,
+    "pct_from_low": 26.01,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 422.8
+      },
+      {
+        "type": "support",
+        "price": 399.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 421.0
+    },
+    "volume_ratio": 0.58
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 77",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Aufwaerts- und Wochentrend sind intakt mit sauber gestapelten SMAs (20>50>200) und positivem MACD, doch der Kurs steht bei 421.0 praktisch am 52-Wochen-Hoch und direkt am Widerstand (422.8) bei ueberkauftem RSI14 von 77 und nur flachem MACD-Histogramm (0.20). Das volume_ratio von 0.58 (< 1) bestaetigt keinen Ausbruch, und da immer Market zum Schlusskurs eingestiegen wird, waere ein Neueinstieg exakt am Hoch ein ausgereiztes Chance-Risiko-Verhaeltnis. Kein neues Long am Hoch, gegen den klaren Aufwaertstrend aber auch kein Short.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

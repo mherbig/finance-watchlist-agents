@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 534.41998,
+    "change_pct": -4.20693,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 534.41998,
+    "change_pct": -4.206927813602533,
+    "sma20": 533.252,
+    "sma50": 485.8418,
+    "sma200": 289.5313,
+    "rsi14": 47.26,
+    "macd": {
+      "macd": 17.0348,
+      "signal": 20.6104,
+      "hist": -3.5755
+    },
+    "atr14": 38.4057,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -8.0,
+    "pct_from_low": 253.59,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 507.29
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 534.41998
+    },
+    "volume_ratio": 1.3
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar aufwärts (Wochentrend seit 53 Wochen), SMA20>50>200 sauber gestapelt, Kurs über SMA20 und nur -8% unter dem 52W-Hoch, dazu überdurchschnittliches Volumen (1,3) und intakte Unterstützung bei 507. Der scharfe -4,2%-Tag liegt im Rahmen von rund einem ATR, das negative MACD-Histogramm (-3,58), neutraler RSI 47 sowie das leicht weiche Tech-Makro (NQ100 seitwärts) mahnen aber zur Zurückhaltung. Zusammen mit der negativen Trefferbilanz bei Konviktion 3 daher LONG mit moderater Konviktion 3.",
+    "entry": 534.42,
+    "stop_loss": 503.4494,
+    "take_profit": 580.8758,
+    "take_profit_2": 580.91,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.57,
+    "change_pct": 2.08235,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.57,
+    "change_pct": 2.082347373402751,
+    "sma20": 21.8505,
+    "sma50": 23.4996,
+    "sma200": 25.4871,
+    "rsi14": 44.69,
+    "macd": {
+      "macd": -0.7319,
+      "signal": -0.8101,
+      "hist": 0.0781
+    },
+    "atr14": 0.7382,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -27.18,
+    "pct_from_low": 5.32,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.58
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 21.57
+    },
+    "volume_ratio": 1.46
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind bearisch (Kurs 21,57 unter SMA20/50/200, RSI 45), doch der Preis prallt direkt am 52-Wochen-Tief/Support 20,48 mit +2% und ueberdurchschnittlichem Volumen (1,46) ab, waehrend die MACD-Histogramm-Wende ins Positive dreht - eine unattraktive Short-Zone. Ein Long widerspraeche dem klaren Abwaerts-Wochentrend nach nur einem Erholungstag, zumal das Makro-Bild gemischt ist (NQ100 schwach). Der Widerspruch aus bearischem Trend, Support-Halt und fehlendem Katalysator rechtfertigt kein Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

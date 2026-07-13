@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.97995,
+    "change_pct": 0.034861514,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.97995,
+    "change_pct": 0.03486151389913803,
+    "sma20": 2.0017,
+    "sma50": 1.9906,
+    "sma200": 1.9902,
+    "rsi14": 17.93,
+    "macd": {
+      "macd": -0.0045,
+      "signal": -0.0004,
+      "hist": -0.004
+    },
+    "atr14": 0.0089,
+    "high_52w": 2.06036,
+    "low_52w": 1.94714,
+    "pct_from_high": -3.9,
+    "pct_from_low": 1.69,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.0219
+      },
+      {
+        "type": "support",
+        "price": 1.9793
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 1.97995
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 18",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Kurs (1.97995) liegt unter SMA20/50/200 mit negativem MACD-Histogramm (bearisch), doch RSI14 17.93 ist extrem ueberverkauft und der Kurs sitzt exakt auf der Unterstuetzung 1.9793 - ein Short ins ausverkaufte Niveau ist kein sauberes Setup, ein Long gegen fehlende bullische Bestaetigung (MACD negativ, kein Volumensignal, Wochentrend seitwaerts) ebenso nicht. Bei negativ laufender Forex-Klasse (avg_R -0.38) rechtfertigt das Zurueckhaltung: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

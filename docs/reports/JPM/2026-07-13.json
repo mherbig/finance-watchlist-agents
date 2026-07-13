@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 334.59,
+    "change_pct": -0.55874368,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 334.59,
+    "change_pct": -0.5587422355633644,
+    "sma20": 331.6265,
+    "sma50": 315.5868,
+    "sma200": 309.1895,
+    "rsi14": 53.73,
+    "macd": {
+      "macd": 5.9642,
+      "signal": 6.4836,
+      "hist": -0.5194
+    },
+    "atr14": 6.7136,
+    "high_52w": 339.22,
+    "low_52w": 282.84,
+    "pct_from_high": -1.36,
+    "pct_from_low": 18.3,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 339.22
+      },
+      {
+        "type": "support",
+        "price": 319.4
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 334.59
+    },
+    "volume_ratio": 0.89
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend aufwaerts (53 Wochen), Kurs 334.59 ueber SMA20/50/200, RSI 54 und die aufwaertsgerichteten US-Leitmaerkte stuetzen ein Long auf den US-Grossbankwert. Die Naehe zum 52W-Hoch/Widerstand (339.22, nur -1.36%), unterdurchschnittliches Volumen (volume_ratio 0.89) und ein leicht negatives MACD-Histogramm begrenzen die Ueberzeugung. Der negative Track Record der Konviktionsstufe 3 mahnt zusaetzlich zur Zurueckhaltung, daher moderate Konviktion.",
+    "entry": 334.59,
+    "stop_loss": 322.5055,
+    "take_profit": 352.7167,
+    "take_profit_2": 339.22,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52498.64,
+    "change_pct": -0.2629,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52498.640625,
+    "change_pct": -0.26287794316543694,
+    "sma20": 52130.7576,
+    "sma50": 50970.6298,
+    "sma200": 48637.9569,
+    "rsi14": 64.63,
+    "macd": {
+      "macd": 513.2301,
+      "signal": 547.7673,
+      "hist": -34.5372
+    },
+    "atr14": 548.1367,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -1.05,
+    "pct_from_low": 20.44,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 51202.2617
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 52498.640625
+    },
+    "volume_ratio": 0.69
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts und das Makrobild stuetzt (S&P500 und GER40 up), doch der Kurs steht nur ~1% unter dem 52W-Hoch/Widerstand 53056, RSI 64,6 ist erhoeht und der MACD-Hist dreht mit -34,5 negativ, waehrend das Volumen mit 0,69 unterdurchschnittlich bleibt. Ein frischer Market-Einstieg zum Schlusskurs direkt unter der Obergrenze bietet ein schlechtes Chance-Risiko-Verhaeltnis. Die Index-Klasse laeuft im Track Record zudem klar negativ (avg_R -0,58, 4 SL, kein Gewinner), daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 83.18,
+    "change_pct": 9.433,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 83.18000030517578,
+    "change_pct": 9.432966672063419,
+    "sma20": 76.6965,
+    "sma50": 91.5174,
+    "sma200": 78.9968,
+    "rsi14": 59.66,
+    "macd": {
+      "macd": -3.8719,
+      "signal": -5.4512,
+      "hist": 1.5794
+    },
+    "atr14": 3.3571,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -29.72,
+    "pct_from_low": 41.17,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 87.33
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 83.18000030517578
+    },
+    "volume_ratio": 1.56
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Ein +9,43%-Tagessprung auf ueberdurchschnittlichem Volumen (1,56) hat SMA20/SMA200 zurueckerobert und das MACD-Histogramm ins Plus gedreht - momentum kurzfristig bullisch, aber der Kurs steht weiter unter SMA50 (91,52), Tagestrend 'side'/neutral und der Wochentrend laeuft seit 53 Wochen abwaerts. Ein Market-Einstieg zum Schluss wuerde die ausgedehnte Kerze direkt in den Widerstand (87,33) hinein kaufen, waehrend ein frischer Short gegen den scharfen Momentum-Schub laeuft - Konviktion fuer beide Richtungen unter 3. Der negativ laufende Konviktions-3-Track (avg_R -0,35) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.05901,
+    "change_pct": -2.5122,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.05901,
+    "change_pct": -2.512197367209798,
+    "sma20": 1.0863,
+    "sma50": 1.1541,
+    "sma200": 1.4475,
+    "rsi14": 50.31,
+    "macd": {
+      "macd": -0.0178,
+      "signal": -0.02,
+      "hist": 0.0022
+    },
+    "atr14": 0.0431,
+    "high_52w": 2.5252,
+    "low_52w": 1.03995,
+    "pct_from_high": -58.06,
+    "pct_from_low": 1.83,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1576
+      },
+      {
+        "type": "support",
+        "price": 1.0399
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 1.05901
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagesbild bearisch (Trend down, Bias bearish, Kurs unter SMA20/50/200), aber RSI 50 neutral und MACD-Linie trotz leicht positivem Histogramm noch negativ - kein klares Momentum. Kurs steht nur 1,8 Prozent ueber dem 52W-Support (1,04): ein Short direkt an der Unterstuetzung ist kein sauberes Setup, ein Long gegen den 37-Wochen-Abwaertstrend ohne Volumenbestaetigung (volume_ratio fehlt) nicht stimmig. Schwaches Krypto-Makro (BTC seitwaerts, Wochentrend down) und die negative Trefferbilanz der Klasse Krypto (avg_R -0,45) mahnen zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

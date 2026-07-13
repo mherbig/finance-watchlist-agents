@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 184.92188,
+    "change_pct": 0.015603617,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 184.88802,
+    "change_pct": -0.0027096748860671632,
+    "sma20": 184.7853,
+    "sma50": 185.0481,
+    "sma200": 184.465,
+    "rsi14": 42.35,
+    "macd": {
+      "macd": -0.0071,
+      "signal": -0.0117,
+      "hist": 0.0046
+    },
+    "atr14": 0.8027,
+    "high_52w": 187.58855,
+    "low_52w": 176.353,
+    "pct_from_high": -1.44,
+    "pct_from_low": 4.84,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 185.6974
+      },
+      {
+        "type": "support",
+        "price": 183.9789
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 184.88802
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 42",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Tagestrend seitwaerts mit neutralem Bias und RSI 42, das MACD-Histogramm dreht zwar leicht ins Positive (+0.0046), doch der MACD liegt weiter unter Null, waehrend der Kurs 184.92 mittig zwischen Support 183.98 und Widerstand 185.70 steht - einzig der Wochentrend (up) ist klar bullisch. Makro liefert eher Gegenwind, da EUR/USD abwaerts laeuft (Wochentrend down, RSI 41), ohne symbolspezifischen JPY-Treiber. Die klar negative Forex-Bilanz (avg_R -0.38) und Konviktionsstufe 3 (avg_R -0.35) mahnen zur Zurueckhaltung, daher ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

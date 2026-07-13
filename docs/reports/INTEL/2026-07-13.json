@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 103.080002,
+    "change_pct": -6.1544,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 103.080002,
+    "change_pct": -6.154404588492362,
+    "sma20": 123.882,
+    "sma50": 117.17,
+    "sma200": 62.8339,
+    "rsi14": 23.42,
+    "macd": {
+      "macd": -1.3832,
+      "signal": 2.2618,
+      "hist": -3.6451
+    },
+    "atr14": 10.035,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -26.86,
+    "pct_from_low": 433.82,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 103.08
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 103.080002
+    },
+    "volume_ratio": 1.32
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 23",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend zeigt seit 53 Wochen abwaerts und heute faellt der Kurs -6,15% auf ueberdurchschnittlichem Volumen (1,32) mit klar bearischem MACD-Histogramm (-3,65) — doch die RSI 23 ist tief ueberverkauft, sodass ein Short zum Tagesschluss nach dem Absturz eine Verfolgung ins Ausverkaufsniveau mit hohem Rebound-Risiko waere. Der Kurs steht zugleich weit ueber der SMA200 (62,8), das Makro ist nicht klar bearisch (S&P500 im Aufwaertstrend) und die ATR (10 ≈ 10% des Kurses) signalisiert erhoehte Volatilitaet. Ohne stimmiges Richtungsbild und da Konviktion 3 historisch negativ laeuft (avg_R -0,35) → FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

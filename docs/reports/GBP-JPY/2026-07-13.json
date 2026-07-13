@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 216.78832,
+    "change_pct": -0.017133596,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 216.78832,
+    "change_pct": -0.017133595974678117,
+    "sma20": 215.7184,
+    "sma50": 214.8177,
+    "sma200": 212.8585,
+    "rsi14": 59.51,
+    "macd": {
+      "macd": 0.7417,
+      "signal": 0.6819,
+      "hist": 0.0598
+    },
+    "atr14": 0.9627,
+    "high_52w": 217.76818,
+    "low_52w": 199.94701,
+    "pct_from_high": -0.45,
+    "pct_from_low": 8.42,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 217.7682
+      },
+      {
+        "type": "support",
+        "price": 213.4383
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 216.78832
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell klar bullisch (Kurs ueber SMA20/50/200, Tages- und Wochentrend seit 38 Wochen aufwaerts, MACD positiv und expandierend, RSI 59.5 gesund), doch der Schlusskurs 216.79 steht nur -0.45% unter dem 52W-Hoch/Widerstand 217.77 - ein Market-Einstieg zum Schluss kauft direkt in die Widerstandszone mit schlechtem CRV. Ohne Volumenbestaetigung (volume_ratio null), bei neutralem Makro-Bild und klar negativ laufendem Forex-Track (avg_R -0.38) sowie Konviktionsstufe 3 (avg_R -0.35) bleibe ich diszipliniert FLAT statt den Ausbruch am Hoch zu jagen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

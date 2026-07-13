@@ -1,0 +1,67 @@
+{
+  "symbol": "DASH/USD",
+  "display": "DASH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 32.95,
+    "change_pct": -4.35414,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 32.95,
+    "change_pct": -4.354136429608127,
+    "sma20": 34.162,
+    "sma50": 36.0234,
+    "sma200": 39.9912,
+    "rsi14": 48.56,
+    "macd": {
+      "macd": -0.551,
+      "signal": -0.6006,
+      "hist": 0.0496
+    },
+    "atr14": 1.8343,
+    "high_52w": 112.77,
+    "low_52w": 29.87,
+    "pct_from_high": -70.78,
+    "pct_from_low": 10.31,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 35.89
+      },
+      {
+        "type": "support",
+        "price": 32.24
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 32.95
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind abwaerts (37 Wochen) und der Kurs 32.95 notiert unter SMA20/50/200 - strukturell klar bearisch, aber der Preis sitzt direkt auf Support 32.24 nahe dem 52W-Tief (nur 10% darueber). Fuer einen frischen Short fehlt der Trigger: RSI neutral (48.6), MACD-Histogramm dreht leicht nach oben (+0.05) und Volumen ist null (kein bestaetigter Bruch) - ein Short direkt in die Unterstuetzung nach einem -4.35%-Tag ist kein sauberes Setup. Krypto laeuft im Track Record klar negativ (avg_R -0.45) und BTC ist im Wochentrend abwaerts -> zurueckhaltend, FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

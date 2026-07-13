@@ -3,7 +3,7 @@
     "start_equity": 100000.0,
     "current_equity": 94339.8491,
     "return_pct": -5.6602,
-    "open_count": 4,
+    "open_count": 7,
     "no_fill_count": 0,
     "closed_count": 18,
     "wins": 3,
@@ -12,9 +12,9 @@
     "total_pnl": -5660.1509,
     "total_costs": 200.9858,
     "max_drawdown": -6135.6985,
-    "unrealized_pnl": 410.4327,
-    "marked_equity": 94750.2818,
-    "marked_return_pct": -5.2497,
+    "unrealized_pnl": 559.0323,
+    "marked_equity": 94898.8814,
+    "marked_return_pct": -5.1011,
     "skipped_count": 26,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -437,9 +437,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 557.89001,
-      "unrealized_pct": 7.6467,
-      "unrealized_pnl": 297.8195
+      "current_price": 534.41998,
+      "unrealized_pct": 3.1181,
+      "unrealized_pnl": 121.4422
     },
     {
       "symbol": "AAPL",
@@ -455,9 +455,27 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 315.32001,
-      "unrealized_pct": 2.3036,
-      "unrealized_pnl": 220.5632
+      "current_price": 317.42001,
+      "unrealized_pct": 2.9849,
+      "unrealized_pnl": 285.8002
+    },
+    {
+      "symbol": "AUD/CAD",
+      "display": "AUD/CAD",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.9796,
+      "stop_loss": 0.9868,
+      "take_profit": 0.9688,
+      "rr": 1.5,
+      "risk_amount": 471.6992,
+      "units": 65513.7778,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 0.97957,
+      "unrealized_pct": 0.0031,
+      "unrealized_pnl": 1.9654
     },
     {
       "symbol": "RACE",
@@ -473,9 +491,27 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 376.64001,
-      "unrealized_pct": -2.1638,
-      "unrealized_pnl": -217.0262
+      "current_price": 372.92001,
+      "unrealized_pct": -3.1301,
+      "unrealized_pnl": -313.9456
+    },
+    {
+      "symbol": "TSLA",
+      "display": "TSLA",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 394.75,
+      "stop_loss": 427.2891,
+      "take_profit": 345.9414,
+      "rr": 1.5,
+      "risk_amount": 471.6992,
+      "units": 14.4964,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 394.75,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0
     },
     {
       "symbol": "USD/CHF",
@@ -491,9 +527,27 @@
       "units": 78472.0833,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80999,
-      "unrealized_pct": 0.1719,
-      "unrealized_pnl": 109.0762
+      "current_price": 0.81451,
+      "unrealized_pct": 0.7309,
+      "unrealized_pnl": 463.77
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 57.98,
+      "stop_loss": 62.0797,
+      "take_profit": 51.8305,
+      "rr": 1.5,
+      "risk_amount": 471.6992,
+      "units": 115.057,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 57.97999954223633,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0001
     }
   ],
   "marked_curve": [
@@ -555,7 +609,12 @@
     {
       "date": "2026-07-13",
       "equity": 94339.8491,
-      "marked_equity": 94750.2818
+      "marked_equity": 94941.818
+    },
+    {
+      "date": "2026-07-14",
+      "equity": 94339.8491,
+      "marked_equity": 94898.8814
     }
   ],
   "benchmark_curve": [
@@ -601,11 +660,15 @@
     },
     {
       "date": "2026-07-12",
-      "equity": 100610.2026
+      "equity": 100599.5846
     },
     {
       "date": "2026-07-13",
-      "equity": 100602.445
+      "equity": 100075.3798
+    },
+    {
+      "date": "2026-07-14",
+      "equity": 100074.3635
     }
   ],
   "skipped": [

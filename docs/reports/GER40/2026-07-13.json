@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25114.25,
+    "change_pct": 0.1881,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25114.25,
+    "change_pct": 0.188135745090324,
+    "sma20": 25090.0376,
+    "sma50": 24829.4575,
+    "sma200": 24327.261,
+    "rsi14": 53.44,
+    "macd": {
+      "macd": 128.8725,
+      "signal": 151.5285,
+      "hist": -22.656
+    },
+    "atr14": 336.6177,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -2.73,
+    "pct_from_low": 12.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 25114.25
+    },
+    "volume_ratio": 0.71
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur ist zwar konstruktiv (Trend und Wochentrend up, Kurs ueber allen SMAs, nahe 52W-Hoch), doch die Momentum-Seite widerspricht: MACD-Histogramm negativ (128.9 unter Signal 151.5), RSI mit 53 neutral und Kurs nur knapp ueber der SMA20. Das Volumen ist mit 0.71 klar unterdurchschnittlich, sodass kein tragfaehiger Ausbruch Richtung Hoch bestaetigt ist. Da die Index-Klasse im Track Record deutlich negativ laeuft (avg_R -0.58), bleibe ich ohne stimmiges Setup FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

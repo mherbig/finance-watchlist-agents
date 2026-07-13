@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.61147,
+    "change_pct": 0.02731172,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.61147,
+    "change_pct": 0.027311719831411948,
+    "sma20": 1.6188,
+    "sma50": 1.6161,
+    "sma200": 1.6082,
+    "rsi14": 33.26,
+    "macd": {
+      "macd": -0.0008,
+      "signal": 0.0007,
+      "hist": -0.0015
+    },
+    "atr14": 0.0053,
+    "high_52w": 1.63281,
+    "low_52w": 1.56678,
+    "pct_from_high": -1.31,
+    "pct_from_low": 2.85,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6254
+      },
+      {
+        "type": "support",
+        "price": 1.611
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 1.61147
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts (bias neutral): Der Kurs 1,61147 klebt an der Unterstuetzung 1,611 unter SMA20/SMA50, MACD-Hist ist leicht negativ, waehrend RSI 33 (ueberverkauft) widerspruechlich dagegensteht und Volumenbestaetigung fehlt. Das schwache EUR/USD-Makrobild (Trend und Wochentrend abwaerts) bremst die Long-Seite, und die negative Bilanz in Forex (avg_R -0,38) sowie bei Konviktion 3 (avg_R -0,35) mahnt zur Zurueckhaltung. Kein stimmiges Setup in beide Richtungen -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

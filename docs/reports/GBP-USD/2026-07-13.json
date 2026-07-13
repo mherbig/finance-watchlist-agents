@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.33469,
+    "change_pct": 0.0037463286,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.33469,
+    "change_pct": 0.003746328597965254,
+    "sma20": 1.3321,
+    "sma50": 1.3345,
+    "sma200": 1.344,
+    "rsi14": 65.23,
+    "macd": {
+      "macd": 0.0018,
+      "signal": 0.0012,
+      "hist": 0.0006
+    },
+    "atr14": 0.0052,
+    "high_52w": 1.37954,
+    "low_52w": 1.30152,
+    "pct_from_high": -3.25,
+    "pct_from_low": 2.55,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3409
+      },
+      {
+        "type": "support",
+        "price": 1.3191
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.33469
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral treffen auf einen klaren Wochentrend abwaerts (38 Wochen), sodass ein Long gegen den uebergeordneten Trend liefe; RSI14 65,2 ist bereits erhoeht und der Kurs (1,33469) klemmt direkt unter SMA200 (1,344) und Widerstand 1,3409, waehrend das leicht positive MACD ohne Volumenbestaetigung (volume_ratio null) bleibt. Das Makro-Bild mit festem USD und woechentlich fallendem EUR/USD stuetzt keine GBP-Staerke, und der Forex-Track-Record laeuft klar negativ (avg_R -0,38), daher ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

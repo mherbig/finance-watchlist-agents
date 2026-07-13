@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.75496,
+    "change_pct": -0.00801644,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 114.75496,
+    "change_pct": -0.008016439975691871,
+    "sma20": 114.1533,
+    "sma50": 114.506,
+    "sma200": 114.71,
+    "rsi14": 53.81,
+    "macd": {
+      "macd": 0.0516,
+      "signal": -0.058,
+      "hist": 0.1096
+    },
+    "atr14": 0.5173,
+    "high_52w": 117.24469,
+    "low_52w": 108.521,
+    "pct_from_high": -2.12,
+    "pct_from_low": 5.74,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.7642
+      },
+      {
+        "type": "support",
+        "price": 113.6195
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 114.75496
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, RSI 53,8 und nur leicht positivem MACD-Histogramm, waehrend der Kurs (114,75) direkt am Widerstand 114,76 und praktisch auf der SMA200 klemmt - kein sauberer Ausbruch, keine Volumenbestaetigung (forex) und kein JPY-Impuls aus dem Makro-Bild. Der aufwaertsgerichtete Wochentrend stuetzt zwar, reicht aber ohne symbolspezifischen Trigger nicht fuer eine Position. Da Forex (avg_R -0,38) und Konviktionsstufe 3 (avg_R -0,35) klar negativ laufen, ist FLAT mit niedriger Konviktion die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

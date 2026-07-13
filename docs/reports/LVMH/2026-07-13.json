@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 491.5,
+    "change_pct": 0.3266,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 491.5,
+    "change_pct": 0.3265985146865924,
+    "sma20": 494.0675,
+    "sma50": 481.839,
+    "sma200": 541.4585,
+    "rsi14": 54.98,
+    "macd": {
+      "macd": 1.496,
+      "signal": 2.5267,
+      "hist": -1.0307
+    },
+    "atr14": 11.9571,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -24.63,
+    "pct_from_low": 10.46,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 520.3
+      },
+      {
+        "type": "support",
+        "price": 481.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 491.5
+    },
+    "volume_ratio": 0.41
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend side/neutral (RSI 55), MACD unter Signal mit negativem Histogramm, Kurs unter SMA20 und klar unter SMA200 (-24,6% vom 52W-Hoch), aber ueber SMA50. Der stuetzende Wochentrend (up) und die freundlichen Leitmaerkte (GER40/S&P500 up) werden durch das sehr schwache Volumen (0,41) entwertet, sodass keine stimmige Long- oder Short-Kante besteht. Da Konviktionsstufe 3 im Track Record klar negativ laeuft (avg_R -0,35), ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

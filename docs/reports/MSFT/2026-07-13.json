@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 390.98001,
+    "change_pct": 1.52688,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 390.98001,
+    "change_pct": 1.5268760964197314,
+    "sma20": 380.545,
+    "sma50": 402.9462,
+    "sma200": 441.6873,
+    "rsi14": 62.69,
+    "macd": {
+      "macd": -4.526,
+      "signal": -7.3325,
+      "hist": 2.8065
+    },
+    "atr14": 12.3171,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -27.87,
+    "pct_from_low": 10.81,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 399.76
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 390.98001
+    },
+    "volume_ratio": 0.93
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT handelt seitwaerts (Trend side, neutraler Bias) mit nur schwachen bullischen Signalen: Kurs ueber SMA20, positives MACD-Histogramm und RSI 62.7. Dem stehen ein klar abwaertsgerichteter Wochentrend, Notierung unter SMA50/SMA200 nahe dem 52-Wochen-Tief und ein unterdurchschnittliches Volumen (0.93 < 1) entgegen, sodass gegen den Wochentrend kein stimmiges Long-Setup vorliegt. Die schwache Nasdaq-Leitlinie und die negative Trefferbilanz auf Konviktionsstufe 3 mahnen zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

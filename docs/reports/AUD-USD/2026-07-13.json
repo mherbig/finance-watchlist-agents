@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T21:27:12.527256+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69203,
+    "change_pct": 0.039030878,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69203,
+    "change_pct": 0.039030877761072114,
+    "sma20": 0.6924,
+    "sma50": 0.701,
+    "sma200": 0.7006,
+    "rsi14": 50.13,
+    "macd": {
+      "macd": -0.0018,
+      "signal": -0.0024,
+      "hist": 0.0006
+    },
+    "atr14": 0.0029,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.66,
+    "pct_from_low": 7.21,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.6957
+      },
+      {
+        "type": "support",
+        "price": 0.6887
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69203
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-13T21:36:25.840301+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist abwaerts (bias bearish) mit Kurs 0.69203 klar unter SMA50/200 (~0.70) und bearischem Wochentrend (down, 38 Wochen), zudem stuetzt die USD-Staerke (EUR/USD Tages- und Wochentrend down) eine Short-Neigung. Dem stehen jedoch neutrale Momentum-Signale entgegen: RSI 50.1, ein leicht positiv drehendes MACD-Histogramm (+0.0006) und der Kurs direkt an der Unterstuetzung 0.6887, also kein sauberes Short-Setup ohne Volumenbestaetigung (volume_ratio n/a). Bei diesem Widerspruch und negativer Trefferquote in Forex (avg_R -0.38) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

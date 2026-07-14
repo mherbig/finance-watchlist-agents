@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98263,
+    "change_pct": 0.19884162,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98263,
+    "change_pct": 0.1988416201003393,
+    "sma20": 0.9823,
+    "sma50": 0.9853,
+    "sma200": 0.9676,
+    "rsi14": 55.1,
+    "macd": {
+      "macd": -0.0008,
+      "signal": -0.0006,
+      "hist": -0.0001
+    },
+    "atr14": 0.0042,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.23,
+    "pct_from_low": 8.15,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9776
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.98263
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Wochentrend seit 38 Wochen abwaerts, aber die taegliche Bearish-Momentum ist verpufft (RSI von 44 auf 55.1 erholt, Kurs 0.98263 wieder ueber SMA20, Tagestrend side, Bias neutral). MACD nur marginal negativ (Hist -0.0001), keine Volumenbestaetigung, Kurs zwischen Support 0.9776 und Widerstand 0.9882 eingeklemmt. Bei klar negativ laufender Forex-/Conviction-3-Klasse (avg_R -0.40 bzw. -0.36) und fehlendem stimmigem Setup ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

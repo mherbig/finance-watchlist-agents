@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.91935,
+    "change_pct": -0.042704552,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.9191,
+    "change_pct": -0.055724232750220266,
+    "sma20": 1.9241,
+    "sma50": 1.9047,
+    "sma200": 1.9188,
+    "rsi14": 39.83,
+    "macd": {
+      "macd": 0.0058,
+      "signal": 0.0076,
+      "hist": -0.0018
+    },
+    "atr14": 0.0071,
+    "high_52w": 2.04069,
+    "low_52w": 1.85611,
+    "pct_from_high": -5.96,
+    "pct_from_low": 3.39,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9319
+      },
+      {
+        "type": "support",
+        "price": 1.9142
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.9191
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist zwar aufwaerts (38 Wochen), doch das Tagesbild ist widerspruechlich: Trend seitwaerts, Kurs 1.9191 unter der SMA20 (1.9241) und praktisch auf der SMA200, RSI 39.8 unter der Mittellinie und MACD-Histogramm negativ (-0.0018) - also keine bullische Bestaetigung, aber auch kein klarer Short. Ohne Volumenbestaetigung (volume_ratio null) und bei negativer Forex-Bilanz im Track Record (avg_R -0.40) rechtfertigt diese Unklarheit keinen Market-Einstieg; daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

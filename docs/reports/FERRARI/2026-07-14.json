@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 369.16,
+    "change_pct": -1.024186,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 369.16,
+    "change_pct": -1.024186255987276,
+    "sma20": 368.0885,
+    "sma50": 351.7984,
+    "sma200": 369.1997,
+    "rsi14": 66.49,
+    "macd": {
+      "macd": 6.8311,
+      "signal": 7.5179,
+      "hist": -0.6868
+    },
+    "atr14": 8.9225,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -28.69,
+    "pct_from_low": 17.33,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 369.16
+    },
+    "volume_ratio": 0.5
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (53 Wochen) zeigen aufwaerts, der Kurs haelt sich ueber SMA20/50 und das Makro-Umfeld (S&P500 und GER40 up) stuetzt das bullische Bild. Der negative MACD-Histogramm-Wert (Signalkreuzung droht), das deutlich unterdurchschnittliche Volumen (Ratio 0.5) sowie der erhoehte RSI von 66 nahe SMA200/Widerstand 391.86 begrenzen die Konviktion auf moderate 3. Die stock-Klasse laeuft im Track Record nahezu neutral, Konviktion 3 leicht negativ - daher keine hoehere Stufe.",
+    "entry": 369.16,
+    "stop_loss": 353.0995,
+    "take_profit": 393.2508,
+    "take_profit_2": 391.86,
+    "rr": 1.5
+  }
+}

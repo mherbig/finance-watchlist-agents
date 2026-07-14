@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 59.04,
+    "change_pct": 2.4395,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 59.040000915527344,
+    "change_pct": 2.4395358160526124,
+    "sma20": 61.8168,
+    "sma50": 69.911,
+    "sma200": 69.2052,
+    "rsi14": 42.56,
+    "macd": {
+      "macd": -3.0506,
+      "signal": -3.3285,
+      "hist": 0.2779
+    },
+    "atr14": 2.2336,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -48.7,
+    "pct_from_low": 61.52,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 70.696
+      },
+      {
+        "type": "support",
+        "price": 57.634
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 59.040000915527344
+    },
+    "volume_ratio": 21.54
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt klar bearisch (Kurs 59,04 unter SMA20/50/200, Tages- und Wochentrend seit 53 Wochen abwaerts, Makro mit schwachem Gold und Dollarstaerke stuetzt die Short-Seite), doch dem steht ein scharfer +2,44%-Bounce direkt an der Unterstuetzung 57,63 bei extremem Volumen (21,54) gegenueber, waehrend RSI aus dem ueberverkauften Bereich auf 42,6 dreht und das MACD-Histogramm positiv (+0,28) ist. Der Volumenschub an einem Up-Tag wirkt eher wie Short-Covering/Absorption als Fortsetzung der Abgabe, weshalb ein frischer Short am gehaltenen Support riskant ist, ein Long aber gegen den dominanten Wochentrend liefe. Bei diesem Widerspruch und negativem Track Record der Metall-Klasse (avg_R -0,25) sowie der Konviktionsstufe 3 bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

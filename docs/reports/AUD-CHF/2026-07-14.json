@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56435,
+    "change_pct": -0.015945007,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56435,
+    "change_pct": -0.01594500744100958,
+    "sma20": 0.5598,
+    "sma50": 0.5612,
+    "sma200": 0.5526,
+    "rsi14": 74.47,
+    "macd": {
+      "macd": 0.0007,
+      "signal": 0.0,
+      "hist": 0.0007
+    },
+    "atr14": 0.0023,
+    "high_52w": 0.56745,
+    "low_52w": 0.51634002,
+    "pct_from_high": -0.55,
+    "pct_from_low": 9.3,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5644
+      },
+      {
+        "type": "support",
+        "price": 0.5562
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.56435
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 74",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0,56435) liegt zwar ueber allen SMAs bei aufwaertsgerichtetem Wochentrend, presst aber direkt gegen den Widerstand 0,5644 knapp unter dem 52-Wochen-Hoch, waehrend der Tagestrend seitwaerts, die Bias neutral und RSI mit 74 klar ueberkauft ist. Ein Long-Ausbruch ist ohne Volumenbestaetigung (volume_ratio null) wenig vertrauenswuerdig, ein Short widerspraeche der Lage ueber allen SMAs und dem Wochentrend. Der negative Track-Record fuer Forex (avg_R -0,40) und Konviktion 3 (-0,36) mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

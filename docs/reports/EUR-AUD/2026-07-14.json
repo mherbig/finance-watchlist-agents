@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/AUD",
+  "display": "EUR/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.63789,
+    "change_pct": 0.014655146,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.63771,
+    "change_pct": 0.0036637865233687893,
+    "sma20": 1.6474,
+    "sma50": 1.6403,
+    "sma200": 1.6627,
+    "rsi14": 29.35,
+    "macd": {
+      "macd": -0.0004,
+      "signal": 0.0012,
+      "hist": -0.0017
+    },
+    "atr14": 0.0062,
+    "high_52w": 1.78922,
+    "low_52w": 1.61394,
+    "pct_from_high": -8.47,
+    "pct_from_low": 1.47,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.659
+      },
+      {
+        "type": "support",
+        "price": 1.6377
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.63771
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 29",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs 1.63789 klebt exakt auf der Unterstuetzung 1.6377 und nur 1.47% ueber dem 52W-Tief, RSI14 mit 29 im ueberverkauften Bereich - ein Short ist wegen akutem Abpraller-Risiko an der Unterstuetzung und dem Wochentrend up (38 Wochen) unattraktiv, waehrend ein Long trotz negativem MACD-Histogramm und Kurs unter allen SMAs (20/50/200) kein bullisches Momentum vorweist. Volumen unbekannt und Forex- (avg_R -0.40) wie Konviktion-3-Bilanz (avg_R -0.36) laufen negativ. Widerspruechliches Bild ohne stimmiges Setup, daher FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

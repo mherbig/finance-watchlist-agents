@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1878.15,
+    "change_pct": 5.70883,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1878.15,
+    "change_pct": 5.708834256382551,
+    "sma20": 1710.849,
+    "sma50": 1752.1056,
+    "sma200": 2212.0824,
+    "rsi14": 80.96,
+    "macd": {
+      "macd": 22.5641,
+      "signal": 1.8335,
+      "hist": 20.7306
+    },
+    "atr14": 74.5771,
+    "high_52w": 3584.16992,
+    "low_52w": 1567.5,
+    "pct_from_high": -47.6,
+    "pct_from_low": 19.82,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1878.15
+      },
+      {
+        "type": "support",
+        "price": 1567.5
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 1878.15
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 81",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der +5,7%-Tagesschub bei RSI 81 laeuft direkt in den markierten Widerstand (1878) hinein, ohne Volumenbestaetigung (volume_ratio null) und bei seitwaertsgerichtetem Tages- wie Wochentrend sowie einem Kurs rund 48% unter der SMA200 (2212) - ein ueberkaufter Spike, kein sauberes Long-Setup. Makro stuetzt keinen frischen Krypto-Long (BTC seitwaerts, Wochentrend abwaerts, RSI 73), und die Krypto-Klasse laeuft im Track Record klar negativ (avg_R -0,45). Widerspruechliches, nicht-trendiges Bild ohne belastbares Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

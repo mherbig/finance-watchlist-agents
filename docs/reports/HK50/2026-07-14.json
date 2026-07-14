@@ -1,0 +1,67 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24340.73,
+    "change_pct": 0.685,
+    "currency": "HKD"
+  },
+  "technical": {
+    "last_close": 24213.720703125,
+    "change_pct": 0.15967475599792239,
+    "sma20": 23730.0943,
+    "sma50": 24872.2335,
+    "sma200": 25836.3582,
+    "rsi14": 56.08,
+    "macd": {
+      "macd": -240.2589,
+      "signal": -423.3739,
+      "hist": 183.115
+    },
+    "atr14": 476.1671,
+    "high_52w": 27968.08984375,
+    "low_52w": 22671.859375,
+    "pct_from_high": -13.42,
+    "pct_from_low": 6.8,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 24842.6699
+      },
+      {
+        "type": "support",
+        "price": 22671.8594
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 24213.720703125
+    },
+    "volume_ratio": 0.79
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "HK50 (24341, +0,7%) notiert ueber der SMA20 (23730), aber klar unter SMA50 (24872) und SMA200 (25836) bei abwaerts gerichtetem Wochentrend, seitwaertem Tagestrend und neutralem RSI (56) - kein stimmig bullisches Bild fuer LONG, waehrend das sich aufhellende MACD-Histogramm (+183), der positive Tag und stuetzende Leitmaerkte (S&P/GER up) ein SHORT verbieten. Das unterdurchschnittliche Volumen (0,79) macht einen Ausbruch unglaubwuerdig, und die klar negative Index-Trefferquote (avg_R -0,58) mahnt zur Zurueckhaltung. Bei diesem Widerspruch ist FLAT mit niedriger Konviktion diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

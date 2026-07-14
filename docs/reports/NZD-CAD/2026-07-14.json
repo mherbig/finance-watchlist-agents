@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81746,
+    "change_pct": 0.047731529,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81746,
+    "change_pct": 0.04773152851040932,
+    "sma20": 0.8097,
+    "sma50": 0.8122,
+    "sma200": 0.8082,
+    "rsi14": 72.51,
+    "macd": {
+      "macd": 0.0019,
+      "signal": 0.0008,
+      "hist": 0.0011
+    },
+    "atr14": 0.0044,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -1.05,
+    "pct_from_low": 3.99,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8175
+      },
+      {
+        "type": "support",
+        "price": 0.8004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.81746
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs schliesst mit 0,81746 exakt am Widerstand 0,8175, waehrend RSI14 mit 72,5 klar ueberkauft ist und der Tagestrend seitwaerts bei neutralem Bias verlaeuft; ein bestaetigter Ausbruchsschluss fehlt und es gibt keine Volumenbestaetigung (volume_ratio null). Ein Long in die Widerstandszone hinein ist ohne Ausbruchsbestaetigung nicht diszipliniert und ein Short gegen den intakten Wochentrend (up, 38 Wochen) unbegruendet; da zudem Forex (avg_R ca. -0,40) und Konviktion 3 (avg_R ca. -0,36) im Track Record negativ laufen, ist FLAT die richtige Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 200.53599,
+    "change_pct": 0.0090715139,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 200.53599,
+    "change_pct": 0.009071513850642761,
+    "sma20": 200.4852,
+    "sma50": 201.0486,
+    "sma200": 200.8541,
+    "rsi14": 47.29,
+    "macd": {
+      "macd": -0.1493,
+      "signal": -0.1451,
+      "hist": -0.0042
+    },
+    "atr14": 0.8902,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.77,
+    "pct_from_low": 5.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.302
+      },
+      {
+        "type": "support",
+        "price": 199.3915
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 200.53599
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts bei neutralem Bias, RSI 47 ist neutral und das MACD-Histogramm (-0.004) praktisch flach; der Kurs 200.54 klemmt mittig zwischen Support 199.39 und Widerstand 201.30 ohne sauberen Trigger. Der Wochentrend zeigt zwar seit 38 Wochen abwaerts, doch ohne Volumenbestaetigung (volume_ratio null) und ohne klaren CHF/JPY-Makrotreiber fehlt die Bestaetigung fuer einen Short. Bei negativer Forex-Bilanz (avg_R -0.40) und schwacher Konviktion-3-Trefferquote bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

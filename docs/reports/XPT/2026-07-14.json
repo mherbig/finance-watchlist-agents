@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1639.9,
+    "change_pct": 2.353,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1639.9000244140625,
+    "change_pct": 2.353019247979196,
+    "sma20": 1644.545,
+    "sma50": 1815.838,
+    "sma200": 1909.9765,
+    "rsi14": 47.83,
+    "macd": {
+      "macd": -54.8293,
+      "signal": -67.6615,
+      "hist": 12.8322
+    },
+    "atr14": 43.7786,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -42.51,
+    "pct_from_low": 27.48,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1812.1
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1639.9000244140625
+    },
+    "volume_ratio": 30.49
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (Kurs 1639,9 unter SMA20/50/200, Wochentrend seit 53 Wochen fallend), was strukturell fuer Short spricht. Dem stehen jedoch ein positives MACD-Histogramm (+12,8), ein neutraler RSI 47,8 ohne frischen Abwaertsschub und ein kraftiger +2,35%-Tag auf extremem Volumen (Ratio 30,5) direkt ueber der Unterstuetzung 1550,2 entgegen. Bei diesem Widerspruch, negativer Metall-Bilanz (avg_R -0,25) und schlecht getimtem Short unmittelbar ueber Support ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

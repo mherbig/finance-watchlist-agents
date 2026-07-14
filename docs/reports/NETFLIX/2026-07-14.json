@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 73.53,
+    "change_pct": -0.40634301,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 73.53,
+    "change_pct": -0.40633888663144685,
+    "sma20": 74.8995,
+    "sma50": 81.6416,
+    "sma200": 94.4659,
+    "rsi14": 51.88,
+    "macd": {
+      "macd": -2.1794,
+      "signal": -2.5954,
+      "hist": 0.4161
+    },
+    "atr14": 2.5105,
+    "high_52w": 127.417,
+    "low_52w": 70.9,
+    "pct_from_high": -42.29,
+    "pct_from_low": 3.71,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 81.67
+      },
+      {
+        "type": "support",
+        "price": 70.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 73.53
+    },
+    "volume_ratio": 0.64
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts (Kurs 73,53 unter SMA20<50<200, Bias bearish, 53-Wochen-Abwaertstrend), doch der Preis klebt nur 3,7% ueber dem 52W-Tief-Support bei 70,9, waehrend das MACD-Histogramm mit +0,42 dreht, der RSI mit 52 neutral ist und das Volumen mit Ratio 0,64 klar unterdurchschnittlich. Ein frischer Short liefe dem Support ohne Volumenbestaetigung nach und gegen die aufwaerts laufenden Leitindizes (S&P500, GER40), ein Long hat in der bearischen Struktur keine Basis. Widerspruechliches Bild ohne Edge, dazu negativ kalibrierte Konviktion 3 in der Aktienklasse -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

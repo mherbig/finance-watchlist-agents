@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 396.17999,
+    "change_pct": 0.35970789,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 396.17999,
+    "change_pct": 0.359707154734329,
+    "sma20": 400.1435,
+    "sma50": 409.9266,
+    "sma200": 417.7514,
+    "rsi14": 54.32,
+    "macd": {
+      "macd": -1.2953,
+      "signal": -1.2511,
+      "hist": -0.0442
+    },
+    "atr14": 18.5671,
+    "high_52w": 489.88,
+    "low_52w": 302.63,
+    "pct_from_high": -19.13,
+    "pct_from_low": 30.91,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 425.3
+      },
+      {
+        "type": "support",
+        "price": 375.12
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 396.17999
+    },
+    "volume_ratio": 0.5
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts (weekly down, 53 Wochen), der Kurs notiert unter SMA20/50/200 bei bearischem Bias - ein strukturell bearisches Bild, das SHORT stuetzt. Neutrale Momentum-Signale (RSI 54, MACD-Histogramm nahezu flach bei -0,04), schwaches Volumen (0,5) sowie die Naehe zur Unterstuetzung bei 375,12 und das freundlich-neutrale Aktien-Makro mahnen jedoch zur Zurueckhaltung. Zusammen mit der negativen Trefferbilanz auf Konviktionsstufe 3 bleibt die Ueberzeugung moderat -> SHORT (3).",
+    "entry": 396.18,
+    "stop_loss": 427.1567,
+    "take_profit": 349.7149,
+    "take_profit_2": 375.12,
+    "rr": 1.5
+  }
+}

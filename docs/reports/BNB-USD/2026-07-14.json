@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 580.63,
+    "change_pct": 2.31546,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 580.63,
+    "change_pct": 2.3154593032476316,
+    "sma20": 568.167,
+    "sma50": 596.1348,
+    "sma200": 671.4074,
+    "rsi14": 68.46,
+    "macd": {
+      "macd": -4.4227,
+      "signal": -7.1454,
+      "hist": 2.7227
+    },
+    "atr14": 16.6379,
+    "high_52w": 996.63,
+    "low_52w": 546.52,
+    "pct_from_high": -41.74,
+    "pct_from_low": 6.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 589.87
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 580.63
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tageschart erholt sich (Kurs 580,63 ueber SMA20, MACD-Histogramm positiv und drehend +2,72, +2,3% Bounce), doch der Wochentrend ist seit 37 Wochen abwaerts, der Kurs bleibt unter SMA50/SMA200 und -41,7% unter dem 52W-Hoch. RSI 68,5 laeuft dicht unter dem Widerstand 589,87 in ueberkauftes Terrain, ohne Volumenbeleg (volume_ratio null); ein LONG gegen den Wochentrend und ein SHORT direkt am mehrjaehrigen Support 546,52 sind beide unsauber. Schwaches Krypto-Makro und negativer Track Record der Klasse (avg_R -0,45, 0 TP / 2 SL) mahnen zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

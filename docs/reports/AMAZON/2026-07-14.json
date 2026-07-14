@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T21:24:07.922904+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 247.49001,
+    "change_pct": 0.072786356,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 247.49001,
+    "change_pct": 0.07278719016619223,
+    "sma20": 240.9285,
+    "sma50": 253.3686,
+    "sma200": 233.6026,
+    "rsi14": 66.89,
+    "macd": {
+      "macd": -0.6539,
+      "signal": -2.3952,
+      "hist": 1.7414
+    },
+    "atr14": 7.5671,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -10.0,
+    "pct_from_low": 24.5,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 247.49
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 247.49001
+    },
+    "volume_ratio": 0.48
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-14T21:35:13.275662+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, RSI 67 ist gestreckt und der Kurs steht exakt am Widerstand 247.49 sowie unter der SMA50, waehrend der Wochentrend ueber 53 Wochen klar abwaerts zeigt. Einzig das ins Positive gedrehte MACD-Histogramm ist bullisch, doch das Volumen-Verhaeltnis von 0.48 bestaetigt keinen Ausbruch und das Makro ist nur gemischt (S&P500 auf, NQ100 seitwaerts). Gegen den Wochentrend ohne stimmiges Setup und bei negativer Trefferbilanz der Aktien-/Konviktionsklassen ist FLAT mit niedriger Konviktion die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

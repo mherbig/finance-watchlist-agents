@@ -12,9 +12,9 @@
     "total_pnl": -5847.1055,
     "total_costs": 217.1529,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 575.2691,
-    "marked_equity": 94728.1636,
-    "marked_return_pct": -5.2718,
+    "unrealized_pnl": 561.2799,
+    "marked_equity": 94714.1744,
+    "marked_return_pct": -5.2858,
     "skipped_count": 33,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -517,9 +517,9 @@
       "units": 456.0575,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 113.60718,
-      "unrealized_pct": 0.3416,
-      "unrealized_pnl": 176.3939
+      "current_price": 113.57477,
+      "unrealized_pct": 0.313,
+      "unrealized_pnl": 161.6131
     },
     {
       "symbol": "EUR/JPY",
@@ -535,9 +535,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.90515,
-      "unrealized_pct": 0.3279,
-      "unrealized_pnl": 238.7148
+      "current_price": 185.91116,
+      "unrealized_pct": 0.3312,
+      "unrealized_pnl": 241.0758
     },
     {
       "symbol": "RACE",
@@ -589,9 +589,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80488,
-      "unrealized_pct": -0.4601,
-      "unrealized_pnl": -291.8951
+      "current_price": 0.80486,
+      "unrealized_pct": -0.4625,
+      "unrealized_pnl": -293.4645
     }
   ],
   "marked_curve": [
@@ -668,7 +668,7 @@
     {
       "date": "2026-07-16",
       "equity": 94152.8945,
-      "marked_equity": 94728.1636
+      "marked_equity": 94714.1745
     }
   ],
   "benchmark_curve": [
@@ -726,11 +726,11 @@
     },
     {
       "date": "2026-07-15",
-      "equity": 101356.2173
+      "equity": 101331.4025
     },
     {
       "date": "2026-07-16",
-      "equity": 101346.1725
+      "equity": 101324.3289
     }
   ],
   "skipped": [

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.84701,
+    "change_pct": 0.035431257,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.84703,
+    "change_pct": 0.03779334128568069,
+    "sma20": 0.8551,
+    "sma50": 0.8607,
+    "sma200": 0.8664,
+    "rsi14": 15.82,
+    "macd": {
+      "macd": -0.0036,
+      "signal": -0.003,
+      "hist": -0.0006
+    },
+    "atr14": 0.0029,
+    "high_52w": 0.88308001,
+    "low_52w": 0.84671,
+    "pct_from_high": -4.08,
+    "pct_from_low": 0.04,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.863
+      },
+      {
+        "type": "support",
+        "price": 0.8467
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.84703
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 16",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 12,
+    "rationale": "Struktur klar bearisch: Tages- und Wochentrend (38 Wochen) abwaerts, Kurs unter SMA20/50/200 und MACD negativ, gestuetzt durch EUR-Schwaeche (EUR/USD Wochentrend down). Doch RSI14 bei 15.82 extrem ueberverkauft und der Kurs sitzt praktisch auf dem 52W-Tief (0.84671) und der Unterstuetzung 0.8467 - ein frischer Short am Tief hat ein schlechtes CRV, waehrend ein Long gegen den starken Abwaertstrend keine Bestaetigung hat. Mit negativer Forex-Bilanz (avg_R -0.40) und schwacher Konviktions-3-Statistik (avg_R -0.33) waehle ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 58.1,
+    "change_pct": -1.1434,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 58.099998474121094,
+    "change_pct": -1.1434031381227174,
+    "sma20": 61.2051,
+    "sma50": 69.5487,
+    "sma200": 69.2709,
+    "rsi14": 50.15,
+    "macd": {
+      "macd": -3.009,
+      "signal": -3.2681,
+      "hist": 0.259
+    },
+    "atr14": 2.0143,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -49.51,
+    "pct_from_low": 58.95,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 70.696
+      },
+      {
+        "type": "support",
+        "price": 57.634
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 58.099998474121094
+    },
+    "volume_ratio": 20.01
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die uebergeordnete Struktur bleibt klar bearisch (Kurs 58,10 unter SMA20/50/200, Tages- und Wochentrend seit 53 Wochen abwaerts, schwaches Edelmetall-Umfeld mit fallendem Gold und Dollarstaerke), doch der Kurs sitzt direkt auf der Unterstuetzung 57,634 mit neutralem RSI (50,2), positivem MACD-Histogramm (+0,26) und extremem Volumen (20,0), was eher nach Absorption/Erschoepfung als nach sauberem Bruch aussieht. Ein frischer Short an der gehaltenen Unterstuetzung ohne bestaetigten Bruch ist schlechtes Chance-Risiko, ein Long liefe gegen den dominanten Wochentrend. Bei diesem Widerspruch und negativem Track Record der Metall-Klasse (avg_R -0,25) sowie Konviktionsstufe 3 (avg_R -0,33) bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

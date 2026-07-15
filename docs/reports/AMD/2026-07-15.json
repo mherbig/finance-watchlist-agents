@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 528.78998,
+    "change_pct": -3.52836,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 528.78998,
+    "change_pct": -3.528363709339022,
+    "sma20": 534.155,
+    "sma50": 493.079,
+    "sma200": 293.305,
+    "rsi14": 51.44,
+    "macd": {
+      "macd": 14.8583,
+      "signal": 18.8477,
+      "hist": -3.9894
+    },
+    "atr14": 40.0357,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -8.97,
+    "pct_from_low": 249.87,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 507.29
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 528.78998
+    },
+    "volume_ratio": 1.67
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bullisch (SMA20>50>200 gestapelt, Wochentrend seit 53 Wochen aufwaerts, nur -9% unter 52W-Hoch), aber der Tag zeigt einen Momentum-Bruch: -3,5% auf ueberdurchschnittlichem Volumen (1,67), Kurs faellt unter die SMA20 und das MACD-Histogramm dreht weiter ins Minus (-3,99), Tagestrend 'side', Bias neutral. Ein frischer Long-Einstieg zum Schluss eines volumenstarken Abverkaufs ist kein stimmig bullisches Setup, ein Short gegen den 53-Wochen-Aufwaertstrend nicht gerechtfertigt; zudem laeuft Konviktion 3 klar negativ. Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

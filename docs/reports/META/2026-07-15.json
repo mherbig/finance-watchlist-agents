@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 681.27502,
+    "change_pct": 3.061093,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 681.27502,
+    "change_pct": 3.061092017644963,
+    "sma20": 598.1137,
+    "sma50": 602.6307,
+    "sma200": 641.3884,
+    "rsi14": 73.49,
+    "macd": {
+      "macd": 18.5354,
+      "signal": 6.2287,
+      "hist": 12.3067
+    },
+    "atr14": 28.7814,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -13.76,
+    "pct_from_low": 29.59,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 681.275
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 681.27502
+    },
+    "volume_ratio": 1.43
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt stimmig bullisch: Kurs ueber SMA20/50/200, Wochentrend seit 53 Wochen aufwaerts, MACD klar ueber Signal (Histogramm +12,3) und der heutige +3,06%-Impuls ist durch ueberdurchschnittliches Volumen (1,43) bestaetigt; Aktien sind zudem die robusteste Klasse (avg_R leicht positiv). Konviktion nur 3, da der Tagestrend 'side' ist, RSI mit 73,5 ueberkauft laeuft, der Kurs exakt am Widerstand 681,28 stockt und die Konviktion-3-Bilanz negativ (avg_R -0,33) ist. Kein Earnings-Termin im Horizont.",
+    "entry": 681.275,
+    "stop_loss": 629.4685,
+    "take_profit": 758.9848,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 375.89999,
+    "change_pct": 1.82576,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 375.89999,
+    "change_pct": 1.825763896413473,
+    "sma20": 368.4305,
+    "sma50": 352.4912,
+    "sma200": 368.7133,
+    "rsi14": 67.75,
+    "macd": {
+      "macd": 6.5761,
+      "signal": 7.3296,
+      "hist": -0.7534
+    },
+    "atr14": 9.0632,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -27.38,
+    "pct_from_low": 19.47,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 375.89999
+    },
+    "volume_ratio": 0.92
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (53 Wochen) zeigen aufwaerts, der Kurs (375.90) haelt sich ueber SMA20/50/200, und das Makro-Bild (S&P500 up, GER40 Wochentrend up) stuetzt die Long-Seite. Der erhoehte RSI von 67.75, das negative MACD-Histogramm (-0.75, drohende Signalkreuzung) und das unterdurchschnittliche Volumen (Ratio 0.92) begrenzen jedoch die Ueberzeugung. Da die stock-Klasse im Track Record nur neutral und Konviktion 3 leicht negativ laeuft, bleibt es bei moderaten 3.",
+    "entry": 375.9,
+    "stop_loss": 359.5862,
+    "take_profit": 400.3706,
+    "take_profit_2": 391.86,
+    "rr": 1.5
+  }
+}

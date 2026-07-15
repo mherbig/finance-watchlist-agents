@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92277,
+    "change_pct": -0.044411707,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92273,
+    "change_pct": -0.04874455685781218,
+    "sma20": 0.9221,
+    "sma50": 0.9206,
+    "sma200": 0.9185,
+    "rsi14": 61.72,
+    "macd": {
+      "macd": 0.0008,
+      "signal": 0.0007,
+      "hist": 0.0001
+    },
+    "atr14": 0.0032,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -1.73,
+    "pct_from_low": 2.35,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9273
+      },
+      {
+        "type": "support",
+        "price": 0.9184
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.92273
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs 0.92273 liegt ueber SMA20/50/200 - die Struktur bleibt bullisch, ein Short verbietet sich. Doch der Kurs steckt mitten in der Range knapp unter dem Widerstand 0.9273 (dort zuletzt abgewiesen), das MACD-Histogramm ist mit +0.0001 praktisch flach und RSI 62 bestaetigt keinen frischen Schub. Der abwaertsgerichtete EUR/USD-Wochentrend bremst zusaetzlich, und der klar negative Forex-Track-Record (avg_R -0.40) sowie Konviktion 3 (avg_R -0.33) mahnen zur Zurueckhaltung - kein sauberer Edge fuer einen neuen Long, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

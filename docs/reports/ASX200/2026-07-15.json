@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8841.1,
+    "change_pct": 0.3701,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8808.5,
+    "change_pct": 0.0,
+    "sma20": 8806.4951,
+    "sma50": 8737.108,
+    "sma200": 8781.366,
+    "rsi14": 50.01,
+    "macd": {
+      "macd": 13.208,
+      "signal": 15.4281,
+      "hist": -2.2201
+    },
+    "atr14": 72.4072,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.24,
+    "pct_from_low": 5.29,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8966.2998
+      },
+      {
+        "type": "support",
+        "price": 8722.9004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8808.5
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bullisch (Tages- und Wochentrend auf, Kurs 8841 ueber SMA20/50/200), doch die Momentum-Lage bestaetigt nicht: RSI14 genau 50, MACD-Histogramm negativ (MACD 13,21 unter Signal 15,43) und der leichte Aufwaertstag entsteht nur mit unterdurchschnittlichem Volumen (0,70). Das Makro-Bild ist gemischt (S&P500 up aber RSI 72 ueberkauft, GER40/NQ100/BTC seitwaerts, XAU down), und die Asset-Klasse Index laeuft im Track Record klar negativ (avg_R -0,58). Widerspruch zwischen Struktur und Momentum plus schwaches Volumen ohne sauberes Setup daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

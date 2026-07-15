@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 74.4,
+    "change_pct": 3.5058,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 74.4000015258789,
+    "change_pct": 3.5058491496271014,
+    "sma20": 74.618,
+    "sma50": 83.1036,
+    "sma200": 92.6557,
+    "rsi14": 45.99,
+    "macd": {
+      "macd": -3.2708,
+      "signal": -3.622,
+      "hist": 0.3512
+    },
+    "atr14": 2.2771,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -31.49,
+    "pct_from_low": 6.38,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 84.1
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 74.4000015258789
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "VOWGE steht in intaktem Tages- und Wochen-Abwaertstrend (52 Wochen) unter allen SMAs (20/50/200) mit tief negativem MACD; der heutige Anstieg von +3,5% ist nur eine Gegenbewegung nahe dem 52-Wochen-Tief und der Unterstuetzung bei 69,94, dazu bei unterdurchschnittlichem Volumen (0,78) und somit unbestaetigt. Ein Long gegen den intakten Abwaertstrend ist nicht begruendbar, ein frischer Short direkt an der Unterstuetzung auf schwachem Volumen ist kein sauberes Setup. Ohne symbolspezifischen Edge und bei schwacher Trefferbilanz bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

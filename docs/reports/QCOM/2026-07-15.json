@@ -1,0 +1,67 @@
+{
+  "symbol": "QCOM",
+  "display": "QCOM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 177.94,
+    "change_pct": -0.089839223,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 177.94,
+    "change_pct": -0.08984277990776068,
+    "sma20": 193.943,
+    "sma50": 207.3734,
+    "sma200": 169.012,
+    "rsi14": 36.33,
+    "macd": {
+      "macd": -7.3499,
+      "signal": -6.1069,
+      "hist": -1.243
+    },
+    "atr14": 11.1464,
+    "high_52w": 251.020004,
+    "low_52w": 124.07,
+    "pct_from_high": -29.11,
+    "pct_from_low": 43.42,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 226.11
+      },
+      {
+        "type": "support",
+        "price": 176.25
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 177.94
+    },
+    "volume_ratio": 0.73
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (53 Wochen) zeigen klar abwaerts, Kurs 177,94 deutlich unter SMA20/50 und MACD negativ mit weiter fallendem Histogramm - das spraeche fuer einen Short. Dagegen sitzt der Kurs direkt auf der Unterstuetzung 176,25 mit ueberverkauftem RSI (36,3) und unterdurchschnittlichem Volumen (0,73): schlechter Short-Einstieg mit hohem Bounce-Risiko, waehrend fuer ein Long jede Momentum-Wende fehlt und das Aktien-Makrobild eher risk-on ist. Widerspruechliches Bild ohne Edge, Konviktion < 3 -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

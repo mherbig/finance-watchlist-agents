@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52658.64,
+    "change_pct": 0.2864,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52658.640625,
+    "change_pct": 0.2863760224672944,
+    "sma20": 52245.4385,
+    "sma50": 51090.9398,
+    "sma200": 48703.4485,
+    "rsi14": 65.46,
+    "macd": {
+      "macd": 468.8046,
+      "signal": 521.8827,
+      "hist": -53.078
+    },
+    "atr14": 536.8767,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -0.75,
+    "pct_from_low": 20.81,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 51492.5508
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 52658.640625
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts (bullischer SMA-Stack), doch der Kurs steht nur ~0,75% unter dem 52W-Hoch/Widerstand 53056, RSI 65,5 ist erhoeht und der MACD-Hist dreht mit -53 tiefer ins Negative, waehrend das Volumen mit 0,88 unterdurchschnittlich bleibt. Ein Market-Einstieg zum Schlusskurs direkt unter der Obergrenze bietet ein schlechtes Chance-Risiko-Verhaeltnis, und das Makrobild stuetzt nur schwach (S&P500 up, aber RSI 72 heiss; GER40/NQ100 seitwaerts). Die Index-Klasse laeuft im Track Record klar negativ (avg_R -0,58, 4 SL, kein Gewinner), daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

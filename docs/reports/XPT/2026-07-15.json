@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1689.5,
+    "change_pct": 3.555,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1689.5,
+    "change_pct": 3.555010726325467,
+    "sma20": 1640.1,
+    "sma50": 1809.528,
+    "sma200": 1910.7285,
+    "rsi14": 62.02,
+    "macd": {
+      "macd": -46.2166,
+      "signal": -63.4797,
+      "hist": 17.2631
+    },
+    "atr14": 40.5286,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -40.77,
+    "pct_from_low": 31.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1812.1
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1689.5
+    },
+    "volume_ratio": 31.86
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Starker Widerspruch: Ein kraftiger +3,55%-Tag auf extremem Volumen (Ratio 31,9), RSI 62, expandierendes MACD-Histogramm (+17,3) und Rueckeroberung der SMA20 signalisieren einen kurzfristigen Bounce, doch Kurs unter SMA50/SMA200 und ein seit 53 Wochen fallender Wochentrend bleiben strukturell bearisch. Gegen den klaren Wochenabwaerts, ein schwaches Metall-Makro (Gold abwaerts, USD-Staerke) und negative Metall-Bilanz (avg_R -0,25) ist ein Long counter-trend und ein Short ins Momentum schlecht getimt – FLAT ist diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

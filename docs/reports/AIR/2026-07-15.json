@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 195.38,
+    "change_pct": -0.2858,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 195.3800048828125,
+    "change_pct": -0.28580052649596716,
+    "sma20": 196.585,
+    "sma50": 183.8432,
+    "sma200": 190.0517,
+    "rsi14": 50.39,
+    "macd": {
+      "macd": 3.9539,
+      "signal": 5.1963,
+      "hist": -1.2424
+    },
+    "atr14": 4.8664,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -11.27,
+    "pct_from_low": 22.74,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 189.42
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 195.3800048828125
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Tagestrend seitwaerts mit neutralem Bias, neutralem RSI (50,4), negativem MACD-Histogramm (-1,24) und unterdurchschnittlichem Volumen (0,75) stehen dem aufwaertsgerichteten Wochentrend und der Lage ueber SMA50/200 entgegen. Der Kurs notiert knapp unter der SMA20, sodass weder ein stimmig bullisches noch bearisches Setup vorliegt. Angesichts dieser Unklarheit und des negativ laufenden Konviktion-3-Segments im Track Record ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

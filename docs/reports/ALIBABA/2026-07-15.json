@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 117.7,
+    "change_pct": 4.78988,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 117.7,
+    "change_pct": 4.789886039886049,
+    "sma20": 103.9625,
+    "sma50": 119.0996,
+    "sma200": 144.7733,
+    "rsi14": 78.29,
+    "macd": {
+      "macd": -1.2673,
+      "signal": -4.2978,
+      "hist": 3.0305
+    },
+    "atr14": 4.1643,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -37.84,
+    "pct_from_low": 24.14,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 117.7
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 117.7
+    },
+    "volume_ratio": 2.42
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der Tagesschluss bei 117.70 (+4.79 %) auf ueberdurchschnittlichem Volumen (2.42) und drehendem MACD-Histogramm (+3.03) laeuft direkt in den Widerstand bei 117.70 und das bei stark ueberkauftem RSI 78.3 - ein klassischer Chasing-Einstieg ohne Reserve. Zugleich notiert der Kurs weiter unter SMA50 (119.10) und deutlich unter SMA200 (144.77), Tages- und Wochentrend 'side', Bias 'neutral', also keine tragfaehige bullische Ausrichtung; ein Short gegen das Momentum des Kaufstages ist ebenfalls nicht sauber begruendbar. Bei schwacher Trefferquote (Konviktion 3: avg_R -0.33) ist Zurueckhaltung geboten - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

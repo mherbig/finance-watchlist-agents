@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 416.4,
+    "change_pct": -1.0926,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 416.3999938964844,
+    "change_pct": -1.0926380293386284,
+    "sma20": 413.555,
+    "sma50": 394.206,
+    "sma200": 376.211,
+    "rsi14": 65.25,
+    "macd": {
+      "macd": 7.9395,
+      "signal": 8.5878,
+      "hist": -0.6483
+    },
+    "atr14": 5.0429,
+    "high_52w": 422.79998779296875,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": -1.51,
+    "pct_from_low": 24.63,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 422.8
+      },
+      {
+        "type": "support",
+        "price": 400.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 416.3999938964844
+    },
+    "volume_ratio": 0.89
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Aufwaerts- und Wochentrend sind intakt mit sauber gestapelten SMAs (20>50>200), doch der Kurs rollt an einem Minus-Tag (-1.09%) knapp unter Widerstand und 52-Wochen-Hoch (422.8) ab, waehrend das MACD-Histogramm mit -0.65 negativ dreht und sich verschlechtert. Das volume_ratio von 0.89 (< 1) bestaetigt keinen Ausbruch, sodass ein Market-Einstieg zum Schluss direkt unter dem Hoch ein ausgereiztes Chance-Risiko-Verhaeltnis waere. Gegen den klaren Aufwaertstrend aber auch kein Short - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8382.43,
+    "change_pct": 0.1862,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8382.4296875,
+    "change_pct": 0.1862120015584196,
+    "sma20": 8393.5871,
+    "sma50": 8258.2458,
+    "sma200": 8164.8889,
+    "rsi14": 46.6,
+    "macd": {
+      "macd": 23.4593,
+      "signal": 37.7014,
+      "hist": -14.2421
+    },
+    "atr14": 93.5714,
+    "high_52w": 8620.9296875,
+    "low_52w": 7546.16015625,
+    "pct_from_high": -2.77,
+    "pct_from_low": 11.08,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8508.0703
+      },
+      {
+        "type": "support",
+        "price": 8252.6602
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8382.4296875
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Gemischtes Bild ohne klares Setup: Wochentrend aufwaerts und Kurs ueber SMA50/SMA200, aber Tagestrend seitwaerts, RSI 46.6 neutral, MACD-Histogramm negativ (-14.2) und Kurs knapp unter der SMA20. Das Volumen ist mit 0.7 unterdurchschnittlich, ein Ausbruch waere wenig vertrauenswuerdig. Die Index-Klasse laeuft in der Trefferbilanz klar negativ (avg_R -0.58), und das konstruktive Makro-Bild rechtfertigt keinen Short - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

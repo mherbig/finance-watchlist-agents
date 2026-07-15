@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 73.67,
+    "change_pct": 0.19039765,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 73.67,
+    "change_pct": 0.19039847681218627,
+    "sma20": 74.4995,
+    "sma50": 81.2738,
+    "sma200": 94.2301,
+    "rsi14": 55.08,
+    "macd": {
+      "macd": -2.1056,
+      "signal": -2.4975,
+      "hist": 0.3919
+    },
+    "atr14": 2.5186,
+    "high_52w": 127.417,
+    "low_52w": 70.9,
+    "pct_from_high": -42.18,
+    "pct_from_low": 3.91,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 78.72
+      },
+      {
+        "type": "support",
+        "price": 70.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 73.67
+    },
+    "volume_ratio": 1.01
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts (Kurs 73,67 unter SMA20<50<200, Bias bearish, 53-Wochen-Abwaertstrend), doch der Preis klebt nur 3,9% ueber dem 52W-Tief-Support bei 70,9, waehrend das MACD-Histogramm mit +0,39 dreht, der RSI mit 55 neutral ist und das Volumen mit Ratio 1,01 nur durchschnittlich. Ein frischer Short liefe dem Support ohne Volumenbestaetigung nach und gegen die eher aufwaerts laufenden Leitindizes (S&P500 up, GER40 Wochentrend up), ein Long hat in der bearischen Struktur keine Basis. Widerspruechliches Bild ohne Edge, dazu negativ kalibrierte Konviktion 3 in der Aktienklasse (avg_R -0,33) -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

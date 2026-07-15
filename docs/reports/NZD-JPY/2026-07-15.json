@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.84913,
+    "change_pct": -0.036075873,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.84913,
+    "change_pct": -0.03607587252390068,
+    "sma20": 92.724,
+    "sma50": 93.04,
+    "sma200": 92.7379,
+    "rsi14": 83.32,
+    "macd": {
+      "macd": 0.495,
+      "signal": 0.1806,
+      "hist": 0.3144
+    },
+    "atr14": 0.6057,
+    "high_52w": 95.37972,
+    "low_52w": 86.312,
+    "pct_from_high": -0.56,
+    "pct_from_low": 9.89,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 94.8834
+      },
+      {
+        "type": "support",
+        "price": 91.2592
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 94.84913
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 83",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen aufwaerts und MACD (Hist +0,31) klar bullisch ueber allen SMAs, doch der Kurs klebt bei 94,85 praktisch am Widerstand 94,88 und nur -0,56% unter dem 52-Wochen-Hoch, waehrend RSI 83,3 extrem ueberkauft, der Tagestrend seitwaerts und der Bias neutral ist. Ein Long direkt am Widerstand ohne Volumenbestaetigung (volume_ratio fehlt) bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short widerspraeche dem klaren Aufwaertstrend. Angesichts der negativen Forex- (avg_R -0,40) und Konviktions-3-Bilanz (avg_R -0,36) ist FLAT diszipliniert; Ausbruch mit Volumen oder Ruecksetzer zur Unterstuetzung abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

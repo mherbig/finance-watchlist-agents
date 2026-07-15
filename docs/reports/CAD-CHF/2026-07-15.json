@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57346,
+    "change_pct": -0.015691744,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57315,
+    "change_pct": -0.06974108621741015,
+    "sma20": 0.57,
+    "sma50": 0.5697,
+    "sma200": 0.5712,
+    "rsi14": 70.24,
+    "macd": {
+      "macd": 0.0012,
+      "signal": 0.0005,
+      "hist": 0.0006
+    },
+    "atr14": 0.0025,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -1.6,
+    "pct_from_low": 1.99,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5756
+      },
+      {
+        "type": "support",
+        "price": 0.5654
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.57315
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur ist bullisch (Tages- und Wochentrend auf, Kurs ueber SMA20/50/200, MACD-Histogramm positiv), doch bei RSI14 70,2 klebt der Preis 0,5732 direkt unter dem Widerstand 0,5756 — ein Long waere ein ueberkaufter Kauf in den Widerstand hinein, zumal die Volumenbestaetigung fehlt (volume_ratio null) und der Bias neutral ist. Die negative Forex-Statistik (avg_R -0,40) und die schwache Konviktion-3-Bilanz (avg_R -0,33) mahnen zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

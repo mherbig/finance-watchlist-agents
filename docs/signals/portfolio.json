@@ -1,21 +1,21 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 94330.9358,
-    "return_pct": -5.6691,
-    "open_count": 9,
+    "current_equity": 94152.8945,
+    "return_pct": -5.8471,
+    "open_count": 7,
     "no_fill_count": 0,
-    "closed_count": 18,
+    "closed_count": 20,
     "wins": 3,
-    "losses": 15,
-    "win_rate": 0.1667,
-    "total_pnl": -5669.0642,
-    "total_costs": 200.9835,
+    "losses": 17,
+    "win_rate": 0.15,
+    "total_pnl": -5847.1055,
+    "total_costs": 217.1529,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": -159.6813,
-    "marked_equity": 94171.2545,
-    "marked_return_pct": -5.8287,
-    "skipped_count": 27,
+    "unrealized_pnl": 575.2691,
+    "marked_equity": 94728.1636,
+    "marked_return_pct": -5.2718,
+    "skipped_count": 33,
     "ruleset_frozen_since": "2026-07-08"
   },
   "equity_curve": [
@@ -94,6 +94,14 @@
     {
       "date": "2026-07-12",
       "equity": 94330.9358
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 94247.3534
+    },
+    {
+      "date": "2026-07-15",
+      "equity": 94152.8945
     }
   ],
   "closed": [
@@ -420,6 +428,42 @@
       "pnl": 34.1726,
       "win": true,
       "status": "flip"
+    },
+    {
+      "symbol": "AUD/CAD",
+      "display": "AUD/CAD",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.9796,
+      "stop_loss": 0.9868,
+      "take_profit": 0.9688,
+      "exit_date": "2026-07-15",
+      "exit_price": 0.98068,
+      "realized_R": -0.15,
+      "risk_amount": 471.6547,
+      "cost": 12.8342,
+      "pnl": -83.5824,
+      "win": false,
+      "status": "flip"
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 57.98,
+      "stop_loss": 62.0797,
+      "take_profit": 51.8305,
+      "exit_date": "2026-07-15",
+      "exit_price": 58.77199935913086,
+      "realized_R": -0.1932,
+      "risk_amount": 471.6547,
+      "cost": 3.3352,
+      "pnl": -94.4589,
+      "win": false,
+      "status": "flip"
     }
   ],
   "open": [
@@ -437,9 +481,9 @@
       "units": 7.515,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 548.13,
-      "unrealized_pct": 5.7635,
-      "unrealized_pnl": 224.4731
+      "current_price": 528.78998,
+      "unrealized_pct": 2.0318,
+      "unrealized_pnl": 79.1328
     },
     {
       "symbol": "AAPL",
@@ -455,27 +499,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 314.85999,
-      "unrealized_pct": 2.1543,
-      "unrealized_pnl": 206.2726
-    },
-    {
-      "symbol": "AUD/CAD",
-      "display": "AUD/CAD",
-      "date": "2026-07-13",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 0.9796,
-      "stop_loss": 0.9868,
-      "take_profit": 0.9688,
-      "rr": 1.5,
-      "risk_amount": 471.6547,
-      "units": 65507.5972,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 0.98045,
-      "unrealized_pct": -0.0868,
-      "unrealized_pnl": -55.6815
+      "current_price": 327.57001,
+      "unrealized_pct": 6.278,
+      "unrealized_pnl": 601.1119
     },
     {
       "symbol": "AUD/JPY",
@@ -491,9 +517,9 @@
       "units": 456.0575,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 113.13267,
-      "unrealized_pct": -0.0775,
-      "unrealized_pnl": -40.0099
+      "current_price": 113.60718,
+      "unrealized_pct": 0.3416,
+      "unrealized_pnl": 176.3939
     },
     {
       "symbol": "EUR/JPY",
@@ -509,9 +535,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.29019,
-      "unrealized_pct": -0.0039,
-      "unrealized_pnl": -2.8717
+      "current_price": 185.90515,
+      "unrealized_pct": 0.3279,
+      "unrealized_pnl": 238.7148
     },
     {
       "symbol": "RACE",
@@ -527,9 +553,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 369.16,
-      "unrealized_pct": -4.1068,
-      "unrealized_pnl": -411.9074
+      "current_price": 375.89999,
+      "unrealized_pct": -2.356,
+      "unrealized_pnl": -236.3064
     },
     {
       "symbol": "TSLA",
@@ -545,9 +571,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 396.17999,
-      "unrealized_pct": -0.3623,
-      "unrealized_pnl": -20.7277
+      "current_price": 394.19,
+      "unrealized_pct": 0.1419,
+      "unrealized_pnl": 8.1172
     },
     {
       "symbol": "USD/CHF",
@@ -563,27 +589,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80937,
-      "unrealized_pct": 0.0952,
-      "unrealized_pnl": 60.4192
-    },
-    {
-      "symbol": "XAG/USD",
-      "display": "XAG",
-      "date": "2026-07-13",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 57.98,
-      "stop_loss": 62.0797,
-      "take_profit": 51.8305,
-      "rr": 1.5,
-      "risk_amount": 471.6547,
-      "units": 115.0461,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 59.02000045776367,
-      "unrealized_pct": -1.7937,
-      "unrealized_pnl": -119.648
+      "current_price": 0.80488,
+      "unrealized_pct": -0.4601,
+      "unrealized_pnl": -291.8951
     }
   ],
   "marked_curve": [
@@ -650,12 +658,17 @@
     {
       "date": "2026-07-14",
       "equity": 94330.9358,
-      "marked_equity": 94188.7348
+      "marked_equity": 94217.2664
     },
     {
       "date": "2026-07-15",
-      "equity": 94330.9358,
-      "marked_equity": 94171.2544
+      "equity": 94152.8945,
+      "marked_equity": 94797.188
+    },
+    {
+      "date": "2026-07-16",
+      "equity": 94152.8945,
+      "marked_equity": 94728.1636
     }
   ],
   "benchmark_curve": [
@@ -709,11 +722,15 @@
     },
     {
       "date": "2026-07-14",
-      "equity": 100966.5231
+      "equity": 100959.2167
     },
     {
       "date": "2026-07-15",
-      "equity": 100964.5526
+      "equity": 101356.2173
+    },
+    {
+      "date": "2026-07-16",
+      "equity": 101346.1725
     }
   ],
   "skipped": [
@@ -738,6 +755,14 @@
       "display": "CAD/JPY",
       "date": "2026-07-02",
       "direction": "SHORT",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "CHF/JPY",
+      "display": "CHF/JPY",
+      "date": "2026-07-15",
+      "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"
     },
@@ -790,6 +815,14 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "GBP/AUD",
+      "display": "GBP/AUD",
+      "date": "2026-07-15",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "GBP/CAD",
       "display": "GBP/CAD",
       "date": "2026-07-02",
@@ -822,9 +855,25 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "GOOGL",
+      "display": "GOOGLE",
+      "date": "2026-07-15",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "JPM",
       "display": "JPM",
       "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "MC",
+      "display": "LVMH",
+      "date": "2026-07-15",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"
@@ -894,6 +943,14 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "USD/CAD",
+      "display": "USD/CAD",
+      "date": "2026-07-15",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "USD/JPY",
       "display": "USD/JPY",
       "date": "2026-07-06",
@@ -913,6 +970,14 @@
       "symbol": "V",
       "display": "VISA",
       "date": "2026-07-09",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "V",
+      "display": "VISA",
+      "date": "2026-07-15",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"

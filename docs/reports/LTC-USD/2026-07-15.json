@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 45.1,
+    "change_pct": -0.68266902,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 45.1,
+    "change_pct": -0.682669015635312,
+    "sma20": 43.861,
+    "sma50": 44.8102,
+    "sma200": 55.9403,
+    "rsi14": 62.26,
+    "macd": {
+      "macd": -0.0115,
+      "signal": -0.2738,
+      "hist": 0.2622
+    },
+    "atr14": 1.5307,
+    "high_52w": 110.31,
+    "low_52w": 40.92,
+    "pct_from_high": -59.12,
+    "pct_from_low": 10.22,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 45.82
+      },
+      {
+        "type": "support",
+        "price": 41.91
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 45.1
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristiger Bounce (Preis 45,10 ueber SMA20/50, MACD-Histogramm +0,26, RSI 62) laeuft direkt in den Widerstand 45,82 und wird nicht von Volumen bestaetigt (volume_ratio null), waehrend der Wochentrend seit 37 Wochen abwaerts zeigt und der Preis 59% unter dem 52W-Hoch liegt. Fuer LONG fehlt der Ausbruch ueber den Widerstand, fuer SHORT die Bestaetigung gegen die laufende Aufwaertsdynamik. Bei schwachem Krypto-Makro (BTC Wochentrend down) und klar negativer Krypto-Trefferbilanz (avg_R -0,45) daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/CAD",
+  "display": "USD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.40385,
+    "change_pct": -0.021365239,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.40385,
+    "change_pct": -0.021365238756540752,
+    "sma20": 1.4166,
+    "sma50": 1.4066,
+    "sma200": 1.3812,
+    "rsi14": 16.08,
+    "macd": {
+      "macd": -0.0003,
+      "signal": 0.0024,
+      "hist": -0.0027
+    },
+    "atr14": 0.0042,
+    "high_52w": 1.42339,
+    "low_52w": 1.34967,
+    "pct_from_high": -1.37,
+    "pct_from_low": 4.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.4216
+      },
+      {
+        "type": "support",
+        "price": 1.4039
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.40385
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 16",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen aufwaerts und die SMAs sind bullisch gestaffelt (20>50>200), gestuetzt durch breite USD-Staerke im Makro-Bild (EUR/USD, BTC/USD und XAU woechentlich down). Der schwache Tag mit RSI 16 direkt auf Support 1.4039 ist ein tief ueberverkaufter Pullback im intakten Aufwaertstrend, kein Trendbruch, und favorisiert auf Tages-/Wochenhorizont eher eine Gegenbewegung. Wegen negativer Forex- und Konviktion-3-Bilanz im Track Record, neutralem Tagestrend und fehlendem Volumensignal bleibt die Konviktion moderat bei 3.",
+    "entry": 1.4039,
+    "stop_loss": 1.3963,
+    "take_profit": 1.4152,
+    "take_profit_2": 1.4216,
+    "rr": 1.5
+  }
+}

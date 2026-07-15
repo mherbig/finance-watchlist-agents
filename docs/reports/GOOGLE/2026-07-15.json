@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 370.92001,
+    "change_pct": 3.17377,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 370.92001,
+    "change_pct": 3.1737642020037127,
+    "sma20": 357.6915,
+    "sma50": 371.996,
+    "sma200": 320.6028,
+    "rsi14": 67.54,
+    "macd": {
+      "macd": -0.7822,
+      "signal": -2.258,
+      "hist": 1.4758
+    },
+    "atr14": 10.3393,
+    "high_52w": 402.62,
+    "low_52w": 183.58,
+    "pct_from_high": -7.87,
+    "pct_from_low": 102.05,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 373.25
+      },
+      {
+        "type": "support",
+        "price": 337.39
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 370.92001
+    },
+    "volume_ratio": 1.34
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Starker +3,17%-Tag mit ueberdurchschnittlichem Volumen (Ratio 1,34) bestaetigt die Aufwaertsbewegung; der Kurs haelt klar ueber SMA20 und SMA200, das MACD-Histogramm dreht deutlich positiv (+1,48) und der Wochentrend ist nicht mehr abwaerts, sondern seitwaerts. Gegenwind bleibt der gestapelte Widerstand bei SMA50 (~372) und 373,25 sowie die schon erhoehte RSI (67,5), weshalb die Konviktion moderat bleibt. Rueckenwind gibt die Aktien-Assetklasse als einzige positive Klasse im Track Record (avg_R +0,06) und ein per Saldo freundliches Makro (S&P500 aufwaerts).",
+    "entry": 370.92,
+    "stop_loss": 352.3093,
+    "take_profit": 398.8361,
+    "take_profit_2": 373.25,
+    "rr": 1.5
+  }
+}

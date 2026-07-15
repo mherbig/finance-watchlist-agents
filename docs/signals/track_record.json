@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:38:57.047975+00:00",
+  "generated_at": "2026-07-15T21:43:54.325062+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -178,6 +178,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "ADA/USD",
+      "display": "ADA/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AIR",
       "display": "AIR",
@@ -269,9 +285,9 @@
       "take_profit": 210.4347,
       "horizon_days": 14,
       "outcome": "flip",
-      "exit_price": 195.27999877929688,
+      "exit_price": 195.94000244140625,
       "exit_date": "2026-07-14",
-      "realized_R": -0.1337
+      "realized_R": -0.0625
     },
     {
       "date": "2026-07-10",
@@ -339,6 +355,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "AIR",
+      "display": "AIR",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "AIR",
       "display": "AIR",
       "asset_class": "stock",
@@ -530,6 +562,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "BABA",
+      "display": "ALIBABA",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "ALV",
       "display": "ALLI",
@@ -706,6 +754,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "ALV",
+      "display": "ALLI",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AMZN",
       "display": "AMAZON",
@@ -867,6 +931,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "AMZN",
+      "display": "AMAZON",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "AMZN",
       "display": "AMAZON",
       "asset_class": "stock",
@@ -1058,6 +1138,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "AMD",
+      "display": "AMD",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AAPL",
       "display": "APPLE",
@@ -1234,6 +1330,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "AAPL",
+      "display": "APPLE",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 327.57,
+      "stop_loss": 310.5008,
+      "take_profit": 353.1738,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AS51",
       "display": "ASX200",
@@ -1395,6 +1507,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "AS51",
+      "display": "ASX200",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "AS51",
       "display": "ASX200",
       "asset_class": "index",
@@ -1586,6 +1714,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "T",
+      "display": "ATNT",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AUD/CAD",
       "display": "AUD/CAD",
@@ -1740,13 +1884,29 @@
       "stop_loss": 0.9868,
       "take_profit": 0.9688,
       "horizon_days": 14,
+      "outcome": "flip",
+      "exit_price": 0.98068,
+      "exit_date": "2026-07-15",
+      "realized_R": -0.15
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "AUD/CAD",
+      "display": "AUD/CAD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
       "exit_date": null,
       "realized_R": null
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "symbol": "AUD/CAD",
       "display": "AUD/CAD",
       "asset_class": "forex",
@@ -1923,6 +2083,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "AUD/CHF",
+      "display": "AUD/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "AUD/CHF",
       "display": "AUD/CHF",
       "asset_class": "forex",
@@ -2114,6 +2290,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "AUD/JPY",
+      "display": "AUD/JPY",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "AUD/NZD",
       "display": "AUD/NZD",
@@ -2275,6 +2467,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "AUD/NZD",
+      "display": "AUD/NZD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "AUD/NZD",
       "display": "AUD/NZD",
       "asset_class": "forex",
@@ -2466,6 +2674,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "AUD/USD",
+      "display": "AUD/USD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "BAYN",
       "display": "BAYER",
@@ -2627,6 +2851,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "BAYN",
+      "display": "BAYER",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "BAYN",
       "display": "BAYER",
       "asset_class": "stock",
@@ -2818,6 +3058,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "BNB/USD",
+      "display": "BNB/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "BAC",
       "display": "BOA",
@@ -2994,6 +3250,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "BAC",
+      "display": "BOA",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 61.625,
+      "stop_loss": 59.3325,
+      "take_profit": 65.0637,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "BRENT",
       "display": "BRENT",
@@ -3155,6 +3427,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "BRENT",
+      "display": "BRENT",
+      "asset_class": "energy",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "BRENT",
       "display": "BRENT",
       "asset_class": "energy",
@@ -3346,6 +3634,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "BTC/USD",
+      "display": "BTC/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "CAD/CHF",
       "display": "CAD/CHF",
@@ -3507,6 +3811,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "CAD/CHF",
+      "display": "CAD/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "CAD/CHF",
       "display": "CAD/CHF",
       "asset_class": "forex",
@@ -3698,6 +4018,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "CAD/JPY",
+      "display": "CAD/JPY",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "CHF/JPY",
       "display": "CHF/JPY",
@@ -3874,6 +4210,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "CHF/JPY",
+      "display": "CHF/JPY",
+      "asset_class": "forex",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 201.5696,
+      "stop_loss": 199.9278,
+      "take_profit": 204.0323,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "DASH/USD",
       "display": "DASH/USD",
@@ -4035,6 +4387,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "DASH/USD",
+      "display": "DASH/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "DASH/USD",
       "display": "DASH/USD",
       "asset_class": "crypto",
@@ -4226,6 +4594,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "DOGE/USD",
+      "display": "DOGE/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "ETH/USD",
       "display": "ETH/USD",
@@ -4387,6 +4771,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "ETH/USD",
+      "display": "ETH/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "ETH/USD",
       "display": "ETH/USD",
       "asset_class": "crypto",
@@ -4578,6 +4978,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "EUR/AUD",
+      "display": "EUR/AUD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "EUR/CAD",
       "display": "EUR/CAD",
@@ -4754,6 +5170,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "EUR/CAD",
+      "display": "EUR/CAD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "EUR/CHF",
       "display": "EUR/CHF",
@@ -4915,6 +5347,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "EUR/CHF",
+      "display": "EUR/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "EUR/CHF",
       "display": "EUR/CHF",
       "asset_class": "forex",
@@ -5106,6 +5554,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "EUR/GBP",
+      "display": "EUR/GBP",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 12,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "EUR/JPY",
       "display": "EUR/JPY",
@@ -5282,6 +5746,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "EUR/JPY",
+      "display": "EUR/JPY",
+      "asset_class": "forex",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 185.9277,
+      "stop_loss": 184.5148,
+      "take_profit": 188.0469,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "EUR/NZD",
       "display": "EUR/NZD",
@@ -5443,6 +5923,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "EUR/NZD",
+      "display": "EUR/NZD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "EUR/NZD",
       "display": "EUR/NZD",
       "asset_class": "forex",
@@ -5634,6 +6130,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "EUR/USD",
+      "display": "EUR/USD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "RACE",
       "display": "FERRARI",
@@ -5810,6 +6322,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "RACE",
+      "display": "FERRARI",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 375.9,
+      "stop_loss": 359.5862,
+      "take_profit": 400.3706,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "CAC40",
       "display": "FRA40",
@@ -5971,6 +6499,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "CAC40",
+      "display": "FRA40",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "CAC40",
       "display": "FRA40",
       "asset_class": "index",
@@ -6162,6 +6706,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "UKX",
+      "display": "FTSE100",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GBP/AUD",
       "display": "GBP/AUD",
@@ -6338,6 +6898,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "GBP/AUD",
+      "display": "GBP/AUD",
+      "asset_class": "forex",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.9327,
+      "stop_loss": 1.9189,
+      "take_profit": 1.9535,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GBP/CAD",
       "display": "GBP/CAD",
@@ -6349,9 +6925,9 @@
       "take_profit": 1.9127,
       "horizon_days": 14,
       "outcome": "flip",
-      "exit_price": 1.88939,
+      "exit_price": 1.88291,
       "exit_date": "2026-07-14",
-      "realized_R": -0.35
+      "realized_R": -0.8643
     },
     {
       "date": "2026-07-03",
@@ -6499,6 +7075,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "GBP/CAD",
+      "display": "GBP/CAD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "GBP/CAD",
       "display": "GBP/CAD",
       "asset_class": "forex",
@@ -6690,6 +7282,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "GBP/CHF",
+      "display": "GBP/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GBP/JPY",
       "display": "GBP/JPY",
@@ -6866,6 +7474,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "GBP/JPY",
+      "display": "GBP/JPY",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GBP/NZD",
       "display": "GBP/NZD",
@@ -7042,6 +7666,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "GBP/NZD",
+      "display": "GBP/NZD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GBP/USD",
       "display": "GBP/USD",
@@ -7203,6 +7843,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "GBP/USD",
+      "display": "GBP/USD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "GBP/USD",
       "display": "GBP/USD",
       "asset_class": "forex",
@@ -7394,6 +8050,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "DAX",
+      "display": "GER40",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "GOOGL",
       "display": "GOOGLE",
@@ -7563,6 +8235,22 @@
       "entry": null,
       "stop_loss": null,
       "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "GOOGL",
+      "display": "GOOGLE",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 370.92,
+      "stop_loss": 352.3093,
+      "take_profit": 398.8361,
       "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
@@ -7746,6 +8434,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "HSI",
+      "display": "HK50",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "IBE",
       "display": "IBER",
@@ -7922,6 +8626,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "IBE",
+      "display": "IBER",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "INTC",
       "display": "INTEL",
@@ -8083,6 +8803,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "INTC",
+      "display": "INTEL",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "INTC",
       "display": "INTEL",
       "asset_class": "stock",
@@ -8274,6 +9010,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "JPM",
+      "display": "JPM",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 346.98,
+      "stop_loss": 333.0428,
+      "take_profit": 367.8858,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "LTC/USD",
       "display": "LTC/USD",
@@ -8450,6 +9202,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "LTC/USD",
+      "display": "LTC/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "MC",
       "display": "LVMH",
@@ -8619,6 +9387,22 @@
       "entry": null,
       "stop_loss": null,
       "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "MC",
+      "display": "LVMH",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 495.8,
+      "stop_loss": 479.7186,
+      "take_profit": 519.9221,
       "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
@@ -8802,6 +9586,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "META",
+      "display": "META",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 681.275,
+      "stop_loss": 629.4685,
+      "take_profit": 758.9848,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "MU",
       "display": "MICRON",
@@ -8978,6 +9778,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "MU",
+      "display": "MICRON",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "MSFT",
       "display": "MSFT",
@@ -9154,6 +9970,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "MSFT",
+      "display": "MSFT",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NATGAS",
       "display": "NATGAS",
@@ -9330,6 +10162,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "NATGAS",
+      "display": "NATGAS",
+      "asset_class": "energy",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NEO/USD",
       "display": "NEO/USD",
@@ -9506,6 +10354,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "NEO/USD",
+      "display": "NEO/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NFLX",
       "display": "NETFLIX",
@@ -9667,6 +10531,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "NFLX",
+      "display": "NETFLIX",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "NFLX",
       "display": "NETFLIX",
       "asset_class": "stock",
@@ -9858,6 +10738,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "N225",
+      "display": "Nikkei225",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NDX",
       "display": "NQ100",
@@ -10019,6 +10915,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "NDX",
+      "display": "NQ100",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "NDX",
       "display": "NQ100",
       "asset_class": "index",
@@ -10210,6 +11122,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "NVDA",
+      "display": "NVIDIA",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NZD/CAD",
       "display": "NZD/CAD",
@@ -10371,6 +11299,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "NZD/CAD",
+      "display": "NZD/CAD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "NZD/CAD",
       "display": "NZD/CAD",
       "asset_class": "forex",
@@ -10562,6 +11506,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "NZD/CHF",
+      "display": "NZD/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "NZD/JPY",
       "display": "NZD/JPY",
@@ -10723,6 +11683,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "NZD/JPY",
+      "display": "NZD/JPY",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "NZD/JPY",
       "display": "NZD/JPY",
       "asset_class": "forex",
@@ -10914,6 +11890,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "NZD/USD",
+      "display": "NZD/USD",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "PFE",
       "display": "PFIZER",
@@ -11090,6 +12082,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "PFE",
+      "display": "PFIZER",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "QCOM",
       "display": "QCOM",
@@ -11251,6 +12259,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "QCOM",
+      "display": "QCOM",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "QCOM",
       "display": "QCOM",
       "asset_class": "stock",
@@ -11442,6 +12466,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "SPX",
+      "display": "S&P500",
+      "asset_class": "index",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 7572.4,
+      "stop_loss": 7436.244,
+      "take_profit": 7776.6339,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "SOL/USD",
       "display": "SOL/USD",
@@ -11603,6 +12643,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "SOL/USD",
+      "display": "SOL/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "SOL/USD",
       "display": "SOL/USD",
       "asset_class": "crypto",
@@ -11794,6 +12850,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "TSLA",
+      "display": "TSLA",
+      "asset_class": "stock",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 394.19,
+      "stop_loss": 427.1881,
+      "take_profit": 344.6928,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "USD/CAD",
       "display": "USD/CAD",
@@ -11804,10 +12876,10 @@
       "stop_loss": 1.4103,
       "take_profit": 1.4305,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "sl",
+      "exit_price": 1.4103,
+      "exit_date": "2026-07-14",
+      "realized_R": -1.0
     },
     {
       "date": "2026-07-03",
@@ -11963,6 +13035,22 @@
       "entry": 1.4066,
       "stop_loss": 1.4057,
       "take_profit": 1.4081,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "USD/CAD",
+      "display": "USD/CAD",
+      "asset_class": "forex",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 1.4039,
+      "stop_loss": 1.3963,
+      "take_profit": 1.4152,
       "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
@@ -12146,6 +13234,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "USD/CHF",
+      "display": "USD/CHF",
+      "asset_class": "forex",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "USD/JPY",
       "display": "USD/JPY",
@@ -12322,6 +13426,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "USD/JPY",
+      "display": "USD/JPY",
+      "asset_class": "forex",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 162.1879,
+      "stop_loss": 161.0544,
+      "take_profit": 163.8881,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "V",
       "display": "VISA",
@@ -12413,9 +13533,9 @@
       "take_profit": 371.0713,
       "horizon_days": 14,
       "outcome": "flip",
-      "exit_price": 357.75,
+      "exit_price": 356.019989,
       "exit_date": "2026-07-14",
-      "realized_R": 0.6301
+      "realized_R": 0.5172
     },
     {
       "date": "2026-07-10",
@@ -12491,6 +13611,22 @@
       "entry": null,
       "stop_loss": null,
       "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "V",
+      "display": "VISA",
+      "asset_class": "stock",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 355.22,
+      "stop_loss": 338.723,
+      "take_profit": 379.9655,
       "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
@@ -12659,6 +13795,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "VOW3",
+      "display": "VOWGE",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "VOW3",
       "display": "VOWGE",
       "asset_class": "stock",
@@ -12850,6 +14002,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "DJI",
+      "display": "WS30",
+      "asset_class": "index",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "XAG/USD",
       "display": "XAG",
@@ -13004,13 +14172,29 @@
       "stop_loss": 62.0797,
       "take_profit": 51.8305,
       "horizon_days": 14,
+      "outcome": "flip",
+      "exit_price": 58.77199935913086,
+      "exit_date": "2026-07-15",
+      "realized_R": -0.1932
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "asset_class": "metal",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
       "outcome": "open",
       "exit_price": null,
       "exit_date": null,
       "realized_R": null
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "symbol": "XAG/USD",
       "display": "XAG",
       "asset_class": "metal",
@@ -13202,6 +14386,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "XAU/USD",
+      "display": "XAU",
+      "asset_class": "metal",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "XMR/USD",
       "display": "XMR/USD",
@@ -13378,6 +14578,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "XMR/USD",
+      "display": "XMR/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "XPD/USD",
       "display": "XPD",
@@ -13554,6 +14770,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "XPD/USD",
+      "display": "XPD",
+      "asset_class": "metal",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "XPT/USD",
       "display": "XPT",
@@ -13715,6 +14947,22 @@
     },
     {
       "date": "2026-07-14",
+      "symbol": "XPT/USD",
+      "display": "XPT",
+      "asset_class": "metal",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
       "symbol": "XPT/USD",
       "display": "XPT",
       "asset_class": "metal",
@@ -13906,6 +15154,22 @@
       "realized_R": null
     },
     {
+      "date": "2026-07-15",
+      "symbol": "XRP/USD",
+      "display": "XRP/USD",
+      "asset_class": "crypto",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
+    },
+    {
       "date": "2026-07-02",
       "symbol": "ZM",
       "display": "ZM",
@@ -14080,36 +15344,52 @@
       "exit_price": null,
       "exit_date": null,
       "realized_R": null
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "ZM",
+      "display": "ZM",
+      "asset_class": "stock",
+      "direction": "FLAT",
+      "conviction": 2,
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "horizon_days": 14,
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
     }
   ],
   "aggregates": {
-    "total": 880,
-    "open": 842,
-    "resolved": 38,
+    "total": 960,
+    "open": 919,
+    "resolved": 41,
     "tp": 2,
-    "sl": 14,
+    "sl": 15,
     "expired": 0,
-    "flip": 22,
-    "hit_rate": 0.0526,
-    "avg_R": -0.3481,
+    "flip": 24,
+    "hit_rate": 0.0488,
+    "avg_R": -0.3689,
     "by_conviction": {
       "2": {
-        "total": 643,
+        "total": 708,
         "tp": 0,
         "sl": 0,
         "expired": 0,
         "flip": 0,
-        "open": 643,
+        "open": 708,
         "avg_R": null
       },
       "3": {
-        "total": 233,
+        "total": 248,
         "tp": 2,
-        "sl": 13,
+        "sl": 14,
         "expired": 0,
-        "flip": 22,
-        "open": 196,
-        "avg_R": -0.3304
+        "flip": 24,
+        "open": 208,
+        "avg_R": -0.3531
       },
       "1": {
         "total": 1,
@@ -14132,58 +15412,58 @@
     },
     "by_asset_class": {
       "crypto": {
-        "total": 121,
+        "total": 132,
         "tp": 0,
         "sl": 2,
         "expired": 0,
         "flip": 2,
-        "open": 117,
+        "open": 128,
         "avg_R": -0.4538
       },
       "stock": {
-        "total": 286,
+        "total": 312,
         "tp": 0,
         "sl": 0,
         "expired": 0,
         "flip": 7,
-        "open": 279,
-        "avg_R": 0.0646
+        "open": 305,
+        "avg_R": 0.0587
       },
       "index": {
-        "total": 99,
+        "total": 108,
         "tp": 0,
         "sl": 4,
         "expired": 0,
         "flip": 4,
-        "open": 91,
+        "open": 100,
         "avg_R": -0.5755
       },
       "forex": {
-        "total": 308,
+        "total": 336,
         "tp": 2,
-        "sl": 8,
+        "sl": 9,
         "expired": 0,
-        "flip": 7,
-        "open": 291,
-        "avg_R": -0.3979
+        "flip": 8,
+        "open": 317,
+        "avg_R": -0.4436
       },
       "energy": {
-        "total": 22,
+        "total": 24,
         "tp": 0,
         "sl": 0,
         "expired": 0,
         "flip": 0,
-        "open": 22,
+        "open": 24,
         "avg_R": null
       },
       "metal": {
-        "total": 44,
+        "total": 48,
         "tp": 0,
         "sl": 0,
         "expired": 0,
-        "flip": 2,
-        "open": 42,
-        "avg_R": -0.2482
+        "flip": 3,
+        "open": 45,
+        "avg_R": -0.2299
       }
     }
   }

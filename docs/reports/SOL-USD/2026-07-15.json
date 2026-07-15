@@ -1,0 +1,67 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 77.38,
+    "change_pct": -0.62925388,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 77.38,
+    "change_pct": -0.6292538846796059,
+    "sma20": 77.351,
+    "sma50": 73.9646,
+    "sma200": 91.1084,
+    "rsi14": 49.77,
+    "macd": {
+      "macd": 0.9144,
+      "signal": 1.2144,
+      "hist": -0.3
+    },
+    "atr14": 3.1529,
+    "high_52w": 167.31,
+    "low_52w": 62.2,
+    "pct_from_high": -53.75,
+    "pct_from_low": 24.41,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 82.34
+      },
+      {
+        "type": "support",
+        "price": 70.5
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 77.38
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist zwar leicht bullisch (Trend 'up', Bias bullisch, Kurs 77,38 ueber SMA20 77,35 und SMA50 73,96), doch das Momentum widerspricht: MACD unter Signal (Hist -0,30), RSI neutral bei 49,8, Wochentrend nur 'side' und keine Volumenbestaetigung (volume_ratio null). Der Kurs notiert zudem weit unter der SMA200 (91,11) bei -54% vom Hoch, der Krypto-Leitmarkt BTC ist wochenabwaerts und die Krypto-Trackrecord-Klasse klar negativ (avg_R -0,45). Angesichts dieses Widerspruchs ueberwiegt Zurueckhaltung - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/CHF",
+  "display": "GBP/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.0894,
+    "change_pct": -0.091709464,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.0894,
+    "change_pct": -0.09170946441673807,
+    "sma20": 1.0785,
+    "sma50": 1.0697,
+    "sma200": 1.0602,
+    "rsi14": 77.86,
+    "macd": {
+      "macd": 0.0055,
+      "signal": 0.0046,
+      "hist": 0.0008
+    },
+    "atr14": 0.0043,
+    "high_52w": 1.0904,
+    "low_52w": 1.03222,
+    "pct_from_high": -0.09,
+    "pct_from_low": 5.54,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.0904
+      },
+      {
+        "type": "support",
+        "price": 1.0685
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.0894
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (38 Wochen) klar aufwaerts und Kurs sauber ueber SMA20/50/200, doch der Kurs steht praktisch am 52W-Hoch (1.0894 vs. Widerstand 1.0904, -0.09%) bei RSI 78 und flacher MACD-Dynamik (hist nur +0.0008) direkt am Widerstand. Ein frischer LONG waere ein Nachlaufen ohne Luft nach oben, ein SHORT liefe gegen den intakten Aufwaertstrend; zudem fehlt Volumenbestaetigung (volume_ratio null) und die Forex-Klasse laeuft historisch negativ (avg_R -0.40). Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

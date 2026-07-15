@@ -1,0 +1,67 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T21:31:50.032012+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7572.4,
+    "change_pct": 0.3819,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7572.39990234375,
+    "change_pct": 0.38191443583878903,
+    "sma20": 7476.0311,
+    "sma50": 7454.2484,
+    "sma200": 6978.7968,
+    "rsi14": 72.11,
+    "macd": {
+      "macd": 37.6099,
+      "signal": 30.5129,
+      "hist": 7.097
+    },
+    "atr14": 75.6422,
+    "high_52w": 7609.77978515625,
+    "low_52w": 6238.009765625,
+    "pct_from_high": -0.49,
+    "pct_from_low": 21.39,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7575.3901
+      },
+      {
+        "type": "support",
+        "price": 7354.02
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 7572.39990234375
+    },
+    "volume_ratio": 0.54
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 72",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-15T21:43:52.463119+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar aufwaerts (53 Wochen), der Kurs notiert ueber SMA20/50/200 und der MACD ist positiv mit steigendem Histogramm (+7.1), zudem stuetzt das Makro-Bild (S&P500 und GER40 up). Da RSI mit 72 ueberkauft ist, der Kurs direkt am Widerstand 7575 nur ~0.5% unter dem 52-Wochen-Hoch steht, das Volumen mit ratio 0.54 klar unterdurchschnittlich ist und die Index-Klasse im Track Record negativ laeuft (avg_R -0.58), bleibt die Konviktion moderat bei 3.",
+    "entry": 7572.4,
+    "stop_loss": 7436.244,
+    "take_profit": 7776.6339,
+    "take_profit_2": 7575.3901,
+    "rr": 1.5
+  }
+}

@@ -12,9 +12,9 @@
     "total_pnl": -5604.499,
     "total_costs": 231.3746,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 958.1266,
-    "marked_equity": 95353.6276,
-    "marked_return_pct": -4.6464,
+    "unrealized_pnl": 959.2548,
+    "marked_equity": 95354.7558,
+    "marked_return_pct": -4.6452,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -525,9 +525,9 @@
       "units": 31.0652,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 333.26999,
-      "unrealized_pct": 8.1273,
-      "unrealized_pnl": 778.1829
+      "current_price": 333.26001,
+      "unrealized_pct": 8.1241,
+      "unrealized_pnl": 777.8729
     },
     {
       "symbol": "AS51",
@@ -561,9 +561,9 @@
       "units": 75912.7903,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.9824,
-      "unrealized_pct": -0.0,
-      "unrealized_pnl": -0.0
+      "current_price": 0.98252,
+      "unrealized_pct": -0.0122,
+      "unrealized_pnl": -9.1095
     },
     {
       "symbol": "EUR/JPY",
@@ -579,9 +579,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.80817,
-      "unrealized_pct": 0.2756,
-      "unrealized_pnl": 200.6163
+      "current_price": 185.81091,
+      "unrealized_pct": 0.2771,
+      "unrealized_pnl": 201.6927
     },
     {
       "symbol": "RACE",
@@ -597,9 +597,9 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 382.57001,
-      "unrealized_pct": -0.6234,
-      "unrealized_pnl": -62.5284
+      "current_price": 382.57999,
+      "unrealized_pct": -0.6208,
+      "unrealized_pnl": -62.2684
     },
     {
       "symbol": "TSLA",
@@ -615,9 +615,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 391.10001,
-      "unrealized_pct": 0.9246,
-      "unrealized_pnl": 52.9066
+      "current_price": 391.059998,
+      "unrealized_pct": 0.9348,
+      "unrealized_pnl": 53.4866
     },
     {
       "symbol": "USD/CHF",
@@ -633,9 +633,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80844,
-      "unrealized_pct": -0.0198,
-      "unrealized_pnl": -12.5546
+      "current_price": 0.80855,
+      "unrealized_pct": -0.0062,
+      "unrealized_pnl": -3.9233
     }
   ],
   "marked_curve": [
@@ -712,12 +712,12 @@
     {
       "date": "2026-07-16",
       "equity": 94395.501,
-      "marked_equity": 95354.6205
+      "marked_equity": 95355.1505
     },
     {
       "date": "2026-07-17",
       "equity": 94395.501,
-      "marked_equity": 95353.6276
+      "marked_equity": 95354.7558
     }
   ],
   "benchmark_curve": [
@@ -779,11 +779,11 @@
     },
     {
       "date": "2026-07-16",
-      "equity": 100731.6089
+      "equity": 100604.212
     },
     {
       "date": "2026-07-17",
-      "equity": 100724.8082
+      "equity": 100600.0563
     }
   ],
   "skipped": [

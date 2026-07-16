@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 115.65225,
+    "change_pct": 0.010255932,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 115.65225,
+    "change_pct": 0.01025593220500091,
+    "sma20": 114.4322,
+    "sma50": 114.5331,
+    "sma200": 114.733,
+    "rsi14": 82.51,
+    "macd": {
+      "macd": 0.3008,
+      "signal": 0.0988,
+      "hist": 0.202
+    },
+    "atr14": 0.4943,
+    "high_52w": 117.24469,
+    "low_52w": 108.521,
+    "pct_from_high": -1.36,
+    "pct_from_low": 6.57,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 115.6522
+      },
+      {
+        "type": "support",
+        "price": 113.6195
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 115.65225
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 83",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bullisch (Kurs 115,65 ueber allen SMAs, Wochentrend 'up' seit 38 Wochen, positives MACD-Histogramm), doch RSI 82,5 ist extrem ueberkauft und der Kurs klemmt exakt am Widerstand 115,65 - kein sauberer Ausbruch, Tagestrend 'side' bei neutralem Bias und mangels Forex-Volumen keine Bestaetigung. Das Makro liefert keinen klaren JPY-Impuls (EUR/USD seitwaerts, kein JPY-Anker). Da Forex (avg_R -0,44) und Konviktionsstufe 3 (avg_R -0,35) klar negativ laufen, ist FLAT mit niedriger Konviktion die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 333.26999,
+    "change_pct": 1.76183,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 333.26999,
+    "change_pct": 1.76182900763359,
+    "sma20": 303.629,
+    "sma50": 301.6574,
+    "sma200": 273.819,
+    "rsi14": 89.86,
+    "macd": {
+      "macd": 7.8733,
+      "signal": 4.6442,
+      "hist": 3.2291
+    },
+    "atr14": 8.6657,
+    "high_52w": 333.26999,
+    "low_52w": 202.38,
+    "pct_from_high": 0.0,
+    "pct_from_low": 64.68,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 333.27
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 333.26999
+    },
+    "volume_ratio": 0.79
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 90",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar aufwaerts und vom Makrobild (S&P500 taeglich und woechentlich up) gestuetzt, doch der Einstieg ist qualitativ schwach: RSI14 bei ~90 (extrem ueberkauft) direkt am 52W-Hoch/Widerstand (pct_from_high 0.0) und der Ausbruch ist mit volume_ratio 0.79 nicht durch ueberdurchschnittliches Volumen bestaetigt. Die Konviktionsstufe 3 laeuft im Track Record klar negativ (avg_R -0.35), sodass keine belastbare Ueberzeugung >=3 zustande kommt - deshalb FLAT statt einem ausgereizten Long nachzujagen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

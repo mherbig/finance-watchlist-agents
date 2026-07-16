@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 218.92034,
+    "change_pct": 0.016227713,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 218.91545,
+    "change_pct": 0.013993661141052247,
+    "sma20": 216.5946,
+    "sma50": 215.1258,
+    "sma200": 212.9821,
+    "rsi14": 71.04,
+    "macd": {
+      "macd": 1.1003,
+      "signal": 0.8653,
+      "hist": 0.235
+    },
+    "atr14": 1.0759,
+    "high_52w": 219.60676,
+    "low_52w": 199.94701,
+    "pct_from_high": -0.31,
+    "pct_from_low": 9.49,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 219.6068
+      },
+      {
+        "type": "support",
+        "price": 213.6286
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 218.91545
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur klar bullisch (Kurs ueber SMA20/50/200, Tages- und Wochentrend seit 38 Wochen aufwaerts, MACD positiv und expandierend), doch RSI 71 ist ueberkauft und der Schlusskurs 218.92 steht praktisch am 52W-Hoch/Widerstand 219.61 (-0.31%) - ein Market-Einstieg zum Tagesschluss kauft direkt in die Widerstandszone mit schlechtem CRV. Ohne Volumenbestaetigung (volume_ratio null), bei neutralem Makro-Bild und klar negativ laufendem Forex-Track (avg_R -0.44) bleibe ich diszipliniert FLAT, statt den Ausbruch am Hoch zu jagen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

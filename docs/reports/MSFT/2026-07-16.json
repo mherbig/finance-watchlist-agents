@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 401.12,
+    "change_pct": 1.38766,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 401.12,
+    "change_pct": 1.387660187548975,
+    "sma20": 380.413,
+    "sma50": 401.8632,
+    "sma200": 439.9525,
+    "rsi14": 77.53,
+    "macd": {
+      "macd": -1.5564,
+      "signal": -5.071,
+      "hist": 3.5146
+    },
+    "atr14": 12.3228,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -26.0,
+    "pct_from_low": 13.69,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 401.12
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 401.12
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT prallt mit +1,39% exakt am Widerstand 401,12 nach oben, ist mit RSI 77,5 klar ueberkauft und notiert weiterhin unter SMA50/SMA200 in einem seit 53 Wochen abwaertsgerichteten Wochentrend. Der Rebound erfolgt jedoch auf unterdurchschnittlichem Volumen (0,62), sodass trotz drehendem MACD-Histogramm (+3,51) weder ein stimmiges Long-Setup (Gegentrend an Widerstand, ueberkauft) noch ein sauberes Short-Signal (Momentum dreht hoch) vorliegt. Die negative Trefferbilanz auf Konviktionsstufe 3 mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

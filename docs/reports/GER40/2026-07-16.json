@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24915.49,
+    "change_pct": -0.3362,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 24915.490234375,
+    "change_pct": -0.3361625793110636,
+    "sma20": 25099.546,
+    "sma50": 24851.0185,
+    "sma200": 24347.4744,
+    "rsi14": 54.46,
+    "macd": {
+      "macd": 72.6886,
+      "signal": 122.8298,
+      "hist": -50.1412
+    },
+    "atr14": 327.5762,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -3.5,
+    "pct_from_low": 11.72,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 24915.490234375
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Kurs ueber SMA50/200 und Wochentrend up, doch Tagestrend seitwaerts, Kurs unter SMA20 und das Momentum bremst deutlich (MACD 72,7 unter Signal 122,8, Histogramm -50,1, RSI 54 neutral). Das Volumen ist mit 0,75 unterdurchschnittlich, sodass kein tragfaehiger Ausbruch Richtung 52W-Hoch bestaetigt ist. Da die Index-Klasse im Track Record klar negativ laeuft (avg_R -0,58) und das Makro-Bild gemischt ist, bleibe ich ohne stimmiges Setup FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

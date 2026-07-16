@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 113.62057,
+    "change_pct": -0.0085804563,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 113.62057,
+    "change_pct": -0.008580456342987344,
+    "sma20": 112.4567,
+    "sma50": 112.8195,
+    "sma200": 111.0975,
+    "rsi14": 75.18,
+    "macd": {
+      "macd": 0.2251,
+      "signal": 0.0272,
+      "hist": 0.1978
+    },
+    "atr14": 0.5394,
+    "high_52w": 114.83705,
+    "low_52w": 99.289,
+    "pct_from_high": -1.06,
+    "pct_from_low": 14.43,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.6505
+      },
+      {
+        "type": "support",
+        "price": 111.3774
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 113.62057
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bleibt bullisch (Kurs 113.62 ueber SMA20/50/200, Wochentrend up seit 38 Wochen, MACD-Hist +0.20), doch RSI 75 ist stark ueberkauft und der Kurs steht exakt am Widerstand 113.65 ohne Volumenbestaetigung (volume_ratio null). Ein Market-Einstieg waere ein Nachlaufen ins Ueberkaufte, waehrend das Makro-Bild leicht risk-off ist (NQ100/BTC/XAU Wochentrend down) und die Forex- (avg_R -0.44) sowie Conviction-3-Bilanz (avg_R -0.35) klar negativ mahnen. Gegen den starken Wochentrend zu shorten ist ebenfalls nicht gerechtfertigt, daher FLAT und Ruecksetzer abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

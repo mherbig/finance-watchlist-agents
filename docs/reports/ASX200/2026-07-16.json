@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8840.7,
+    "change_pct": 0.3656,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8841.099609375,
+    "change_pct": 0.37009263069762166,
+    "sma20": 8800.2351,
+    "sma50": 8740.32,
+    "sma200": 8781.2575,
+    "rsi14": 60.1,
+    "macd": {
+      "macd": 15.8498,
+      "signal": 15.5125,
+      "hist": 0.3374
+    },
+    "atr14": 72.7214,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -3.89,
+    "pct_from_low": 5.68,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8911.0996
+      },
+      {
+        "type": "support",
+        "price": 8722.9004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8841.099609375
+    },
+    "volume_ratio": 0.73
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur stimmig bullisch: Kurs 8841 ueber SMA20/50/200, Tages- und Wochentrend auf, und das Momentum bestaetigt jetzt (MACD 15,85 ueber Signal 15,51 mit positivem Histogramm, RSI14 60 gesund) - eine Verbesserung gegenueber dem zuvor negativen Histogramm. Bremsend wirken das unterdurchschnittliche Volumen (0,73), das gemischte Makro-Bild (S&P up aber ueberkauft, NQ100/GER40/BTC seitwaerts, XAU down) und die im Track Record klar negative Index-Klasse (avg_R -0,58), weshalb die Konviktion bei 3 bleibt. Trendfolge-LONG mit Ziel Richtung Widerstand 8911 und Puffer bis Support 8723.",
+    "entry": 8840.7,
+    "stop_loss": 8715.6283,
+    "take_profit": 9028.3076,
+    "take_profit_2": 8911.0996,
+    "rr": 1.5
+  }
+}

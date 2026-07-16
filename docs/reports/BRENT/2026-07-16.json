@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 84.86,
+    "change_pct": -0.1059,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 84.86000061035156,
+    "change_pct": -0.1059403662432824,
+    "sma20": 76.9565,
+    "sma50": 89.8782,
+    "sma200": 79.2258,
+    "rsi14": 70.43,
+    "macd": {
+      "macd": -1.5955,
+      "signal": -3.8413,
+      "hist": 2.2458
+    },
+    "atr14": 3.39,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -28.3,
+    "pct_from_low": 44.03,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 84.95
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 84.86000061035156
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (84,86) steht praktisch exakt am Widerstand (84,95) mit ueberkauftem RSI 70,4, unter dem SMA50 (89,88) und in einem seit 53 Wochen laufenden Wochen-Abwaertstrend bei nur 'side'/neutralem Tagestrend. Das positive MACD-Histogramm (+2,25 bei noch negativem MACD) liefert zwar kurzfristiges Momentum, doch das Volumen liegt mit 0,83 unter dem Schnitt, sodass ein Long die ausgedehnte Kerze gegen den Wochentrend in den Widerstand kauft, waehrend ein frischer Short gegen den Momentum-Schub laeuft. Beide Seiten bleiben unter Konviktion 3, zumal der Konviktions-3-Track negativ ist (avg_R -0,35) - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

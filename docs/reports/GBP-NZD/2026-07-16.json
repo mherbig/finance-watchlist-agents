@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.3094,
+    "change_pct": 0.10229558,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.3094,
+    "change_pct": 0.10229558221790334,
+    "sma20": 2.3316,
+    "sma50": 2.3123,
+    "sma200": 2.2964,
+    "rsi14": 33.79,
+    "macd": {
+      "macd": -0.0021,
+      "signal": 0.0029,
+      "hist": -0.005
+    },
+    "atr14": 0.0123,
+    "high_52w": 2.35279,
+    "low_52w": 2.24234,
+    "pct_from_high": -1.84,
+    "pct_from_low": 2.99,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3528
+      },
+      {
+        "type": "support",
+        "price": 2.3044
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 2.3094
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist widerspruechlich: Momentum bearish (MACD-Histogramm -0.005, Kurs 2.3094 unter SMA20 2.3316 und knapp unter SMA50 2.3123), doch RSI14 33.79 naehert sich ueberverkauft und der Kurs haelt sich ueber SMA200 2.2964 sowie oberhalb Support 2.3044 - ein Short jagt zudem gegen den klaren Wochentrend up (38 Wochen). Ein Long ist unbestaetigt (Trend seitwaerts, Bias neutral, keine Volumenbestaetigung), und der Forex-Track-Record laeuft klar negativ (avg_R -0.44). FLAT ist hier das disziplinierte Urteil.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

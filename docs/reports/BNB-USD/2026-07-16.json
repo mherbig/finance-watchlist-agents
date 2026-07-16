@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 576.18,
+    "change_pct": -0.75273448,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 576.19,
+    "change_pct": -0.7510119714064077,
+    "sma20": 569.653,
+    "sma50": 593.189,
+    "sma200": 668.6755,
+    "rsi14": 59.91,
+    "macd": {
+      "macd": -3.0938,
+      "signal": -5.733,
+      "hist": 2.6391
+    },
+    "atr14": 15.0543,
+    "high_52w": 996.63,
+    "low_52w": 546.52,
+    "pct_from_high": -42.19,
+    "pct_from_low": 5.43,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 589.87
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 576.19
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der Tageschart stabilisiert sich (Kurs 576,18 ueber SMA20 569,65, MACD-Histogramm positiv und drehend +2,64, RSI 60), doch der Wochentrend ist seit 37 Wochen abwaerts, der Kurs bleibt klar unter SMA50 593,19 und SMA200 668,68 und liegt -42% unter dem 52W-Hoch. Ein LONG lehnt sich gegen den Wochentrend ohne Volumenbeleg (volume_ratio null), ein SHORT setzt direkt am mehrjaehrigen Support 546,52 an; schwaches Krypto-Makro (BTC seitwaerts, Wochentrend abwaerts) und negativer Track Record der Klasse (avg_R -0,45, 0 TP / 2 SL) mahnen zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

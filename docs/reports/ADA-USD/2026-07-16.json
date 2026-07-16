@@ -1,0 +1,67 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.1629,
+    "change_pct": -1.33253,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.1629,
+    "change_pct": -1.3325257419745655,
+    "sma20": 0.1647,
+    "sma50": 0.1729,
+    "sma200": 0.258,
+    "rsi14": 50.92,
+    "macd": {
+      "macd": -0.0022,
+      "signal": -0.0026,
+      "hist": 0.0004
+    },
+    "atr14": 0.0108,
+    "high_52w": 0.5928,
+    "low_52w": 0.1438,
+    "pct_from_high": -72.52,
+    "pct_from_low": 13.28,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.1922
+      },
+      {
+        "type": "support",
+        "price": 0.1438
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.1629
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (37 Wochen), Kurs unter SMA20/50/200 und nur ~13% ueber dem 52W-Tief (0.1438) - fuer ein stimmiges Long fehlt jede Bestaetigung (RSI 51 neutral, MACD-Hist nur minimal positiv, volume_ratio null). Ein Short direkt in die Unterstuetzung nahe dem 52W-Tief ist ohne bearisches Momentum unattraktiv, zumal BTC woechentlich abwaerts laeuft und die Krypto-Klasse negativ tickt (avg_R -0.45). Daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

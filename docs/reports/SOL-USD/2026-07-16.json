@@ -1,0 +1,67 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 75.98,
+    "change_pct": -1.69492,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 75.98,
+    "change_pct": -1.694915254237291,
+    "sma20": 77.5505,
+    "sma50": 73.8336,
+    "sma200": 90.8616,
+    "rsi14": 34.43,
+    "macd": {
+      "macd": 0.7268,
+      "signal": 1.1157,
+      "hist": -0.3889
+    },
+    "atr14": 2.8936,
+    "high_52w": 167.31,
+    "low_52w": 62.2,
+    "pct_from_high": -54.59,
+    "pct_from_low": 22.15,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 82.34
+      },
+      {
+        "type": "support",
+        "price": 70.5
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 75.98
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist ueberwiegend bearisch bis widerspruechlich: Wochentrend 'down' (37 Wochen), Tagestrend 'side', MACD unter Signal (Hist -0,39), Kurs 75,98 unter SMA20 (77,55) und weit unter SMA200 (90,86, -54,6% vom Hoch), ohne Volumenbestaetigung (volume_ratio null). RSI 34 ist zwar tief, aber kein klares Umkehrsignal; zudem ist der Krypto-Leitmarkt BTC wochenabwaerts und die Krypto-Trackrecord-Klasse klar negativ (avg_R -0,45). Angesichts fehlender stimmiger Long- oder Short-Kante ueberwiegt Zurueckhaltung - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

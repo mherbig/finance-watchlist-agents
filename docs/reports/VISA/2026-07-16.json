@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 364.89999,
+    "change_pct": 2.74821,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 364.89999,
+    "change_pct": 2.748206263777484,
+    "sma20": 344.8795,
+    "sma50": 332.367,
+    "sma200": 329.5346,
+    "rsi14": 74.99,
+    "macd": {
+      "macd": 8.4261,
+      "signal": 7.3826,
+      "hist": 1.0435
+    },
+    "atr14": 9.155,
+    "high_52w": 364.89999,
+    "low_52w": 295.51999,
+    "pct_from_high": 0.0,
+    "pct_from_low": 23.48,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 364.9
+      },
+      {
+        "type": "support",
+        "price": 326.6
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 364.89999
+    },
+    "volume_ratio": 0.51
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen zwar aufwaerts (Kurs ueber SMA20/50/200, MACD positiv), doch der Schlusskurs steht exakt am 52-Wochen-Hoch und Widerstand 364.9 bei RSI14 ~75 (ueberkauft). Der +2.75%-Ausbruch auf neues Hoch erfolgte ohne Volumenbestaetigung (volume_ratio 0.51 < 1), und die Konviktionsstufe 3 laeuft im Track Record klar negativ. Trend bullisch, aber Einstieg hier waere ein ueberkauftes Nachlaufen in den Widerstand ohne Volumen — disziplinkonform FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

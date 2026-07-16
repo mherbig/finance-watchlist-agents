@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 503.1,
+    "change_pct": 1.4724,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 503.1000061035156,
+    "change_pct": 1.472371619661101,
+    "sma20": 491.34,
+    "sma50": 483.411,
+    "sma200": 541.0298,
+    "rsi14": 53.87,
+    "macd": {
+      "macd": 1.9842,
+      "signal": 1.9573,
+      "hist": 0.0269
+    },
+    "atr14": 12.8714,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -22.85,
+    "pct_from_low": 13.07,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 503.1
+      },
+      {
+        "type": "support",
+        "price": 481.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 503.1000061035156
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'up' bei bullischem Bias, der Kurs steht nach +1,47% wieder klar ueber SMA20 (491) und SMA50 (483), und der MACD ist mit positivem Histogramm gerade ins Bullische gedreht. Dagegen sprechen das unterdurchschnittliche Volumen (0,75), der Kurs direkt am Widerstand (503) sowie deutlich unter der SMA200 (-23% vom 52W-Hoch), weshalb ich die Konviktion bei 3 begrenze. Das Makro-Bild (GER40 seitwaerts, Wochentrend up; S&P500 up) steht dem Long nicht entgegen, und die Aktien-Klasse laeuft im Track Record leicht positiv.",
+    "entry": 503.1,
+    "stop_loss": 479.9315,
+    "take_profit": 537.8528,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.995,
+    "change_pct": 2.63649,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.995,
+    "change_pct": 2.636490900606632,
+    "sma20": 21.5833,
+    "sma50": 23.2263,
+    "sma200": 25.3859,
+    "rsi14": 45.53,
+    "macd": {
+      "macd": -0.5377,
+      "signal": -0.7119,
+      "hist": 0.1742
+    },
+    "atr14": 0.71,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -25.74,
+    "pct_from_low": 7.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 22.81
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 21.995
+    },
+    "volume_ratio": 1.01
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts, Wochentrend klar abwaerts (Kurs unter SMA50/200), waehrend der Preis mit +2,6% nur knapp ueber dem 52-Wochen-Tief/Support 20,48 abprallt - RSI 45 ist neutral (nicht ueberverkauft) und das Volumen (1,01) bestaetigt keinen Ausbruch. Ein Long widerspraeche dem Abwaerts-Wochentrend ohne bullisches Signal, ein Short gegen den Support-Halt bei freundlichem Aktien-Makro; dieser Widerspruch traegt kein Setup. Konviktionsstufe 3 laeuft im Track Record klar negativ, daher bleibt es bei FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

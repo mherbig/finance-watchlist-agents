@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 64180.56,
+    "change_pct": -0.88905663,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 64180.56,
+    "change_pct": -0.8890566289478044,
+    "sma20": 62522.7135,
+    "sma50": 63972.985,
+    "sma200": 73439.8895,
+    "rsi14": 61.39,
+    "macd": {
+      "macd": 93.697,
+      "signal": -328.5719,
+      "hist": 422.2689
+    },
+    "atr14": 1734.1679,
+    "high_52w": 106011.13,
+    "low_52w": 58624.71,
+    "pct_from_high": -39.46,
+    "pct_from_low": 9.48,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 65043.98
+      },
+      {
+        "type": "support",
+        "price": 58624.71
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 64180.56
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und Bias neutral: Kurs 64181 klemmt direkt unter Widerstand 65044 und liegt klar unter der SMA200 (73440), waehrend der Wochentrend seit 37 Wochen abwaerts zeigt - kein stimmiges gerichtetes Setup. Einziges bullisches Signal ist das drehende MACD-Histogramm (+422), doch die MACD-Linie bleibt bei 94 kaum positiv, Volumenbestaetigung fehlt (volume_ratio null) und RSI 61 ist bereits erhoeht. Da die Krypto-Klasse im Track Record klar negativ laeuft (avg_R -0,45) und BTC makro seitwaerts/wochenschwach ist, FLAT bei niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

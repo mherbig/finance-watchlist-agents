@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.80061,
+    "change_pct": -0.083221288,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.80061,
+    "change_pct": -0.08322128778618519,
+    "sma20": 92.9026,
+    "sma50": 93.0465,
+    "sma200": 92.7557,
+    "rsi14": 80.98,
+    "macd": {
+      "macd": 0.5595,
+      "signal": 0.2567,
+      "hist": 0.3028
+    },
+    "atr14": 0.5902,
+    "high_52w": 95.37972,
+    "low_52w": 86.312,
+    "pct_from_high": -0.61,
+    "pct_from_low": 9.83,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 94.8834
+      },
+      {
+        "type": "support",
+        "price": 91.2793
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 94.80061
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 81",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen aufwaerts und MACD (Hist +0,30) bleibt ueber allen SMAs bullisch, doch der Kurs klebt bei 94,80 direkt am Widerstand 94,88 und nur -0,61% unter dem 52-Wochen-Hoch, waehrend RSI 81 extrem ueberkauft, der Tagestrend seitwaerts und der Bias neutral ist. Ein Long unmittelbar am Widerstand ohne Volumenbestaetigung (volume_ratio fehlt) bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short widerspraeche dem klaren Aufwaertstrend, und das Makro-Bild ist fuer die Risk-on-Carry-Waehrung eher durchwachsen (NQ/BTC/EURUSD schwach). Angesichts der negativen Forex- (avg_R -0,44) und Konviktions-3-Bilanz (avg_R -0,35) ist FLAT diszipliniert; Ausbruch mit Volumen oder Ruecksetzer zur Unterstuetzung abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 343.079987,
+    "change_pct": -1.10404,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 343.079987,
+    "change_pct": -1.1040364936150608,
+    "sma20": 334.7045,
+    "sma50": 317.5762,
+    "sma200": 309.639,
+    "rsi14": 57.52,
+    "macd": {
+      "macd": 6.8377,
+      "signal": 6.5838,
+      "hist": 0.2539
+    },
+    "atr14": 7.6164,
+    "high_52w": 346.91,
+    "low_52w": 282.84,
+    "pct_from_high": -1.1,
+    "pct_from_low": 21.3,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 346.91
+      },
+      {
+        "type": "support",
+        "price": 325.22
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 343.079987
+    },
+    "volume_ratio": 0.53
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend aufwaerts (53 Wochen), Kurs 343.08 klar ueber SMA20/50/200, RSI 57.5 gesund und MACD-Histogramm positiv; der heutige Ruecksetzer von -1.1% erfolgt auf unterdurchschnittlichem Volumen (0.53) knapp unter dem 52W-Hoch und wirkt eher als Pullback denn als Distribution, gestuetzt vom aufwaerts gerichteten S&P500 (Tages- und Wochentrend up). Begrenzt wird die Konviktion durch die Naehe zum Widerstand 346.91 sowie den negativen Track Record der Konviktionsstufe 3 (avg_R -0.35), daher moderate Konviktion 3.",
+    "entry": 343.08,
+    "stop_loss": 329.3705,
+    "take_profit": 363.6443,
+    "take_profit_2": 346.91,
+    "rr": 1.5
+  }
+}

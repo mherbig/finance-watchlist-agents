@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 337.19431,
+    "change_pct": 1.4597,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 337.19431,
+    "change_pct": 1.4596962759360195,
+    "sma20": 321.8221,
+    "sma50": 329.9296,
+    "sma200": 375.7125,
+    "rsi14": 66.59,
+    "macd": {
+      "macd": 0.14,
+      "signal": -2.548,
+      "hist": 2.688
+    },
+    "atr14": 8.1502,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -52.56,
+    "pct_from_low": 15.06,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 337.1943
+      },
+      {
+        "type": "support",
+        "price": 306.1605
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 337.19431
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend seit 37 Wochen klar abwaerts und Kurs deutlich unter SMA200 (375,7), waehrend der Preis (337,19) mit RSI 66,6 direkt am Widerstand (337,19) und nahe der Ueberkauft-Zone anlaeuft - ein Long gegen den Wochentrend an der Resistance ist nicht stimmig. Gleichzeitig verbietet der frische MACD-Histogramm-Flip (+2,69) und der Kurs ueber SMA20/50 einen sauberen Short. Fehlende Volumenbestaetigung (volume_ratio null), schwaches Krypto-Makro (BTC weekly down) und klar negative Krypto-Trefferbilanz (avg_R -0,45) mahnen zusaetzlich -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

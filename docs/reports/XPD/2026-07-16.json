@@ -1,0 +1,67 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1253.0,
+    "change_pct": -2.3535,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1253.0,
+    "change_pct": -2.353487556190683,
+    "sma20": 1243.955,
+    "sma50": 1324.624,
+    "sma200": 1519.27,
+    "rsi14": 60.42,
+    "macd": {
+      "macd": -13.2298,
+      "signal": -24.2594,
+      "hist": 11.0295
+    },
+    "atr14": 28.4429,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -42.26,
+    "pct_from_low": 15.8,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1349.1
+      },
+      {
+        "type": "support",
+        "price": 1161.3
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1253.0
+    },
+    "volume_ratio": 17.35
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "XPD notiert bei 1253 mit -2,35% auf extremem Volumen (17,35x), ueber SMA20 (1244), aber klar unter SMA50 (1325) und weit unter SMA200 (1519); Tagestrend seitwaerts, Bias neutral, Wochentrend seit 53 Wochen abwaerts. MACD noch negativ, aber Histogramm dreht positiv (+11) und RSI 60 ist neutral - kein stimmig bullisches Long-Setup gegen Wochentrend und schwaches Metall-Makro (XAU abwaerts) und zugleich kein sauberes Short-Setup ueber SMA20. Bei diesem Widerspruch und negativem Track Record (Metall avg_R -0,23, Konviktion 3 avg_R -0,35) bleibt FLAT mit niedriger Konviktion diszipliniert; ein Tagesschluss ueber Resistance 1349/SMA50 waere das Long-Trigger.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

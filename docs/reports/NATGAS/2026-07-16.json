@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T21:23:09.654822+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.892,
+    "change_pct": -1.0944,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2.8919999599456787,
+    "change_pct": -1.0943934534368274,
+    "sma20": 3.1368,
+    "sma50": 3.0803,
+    "sma200": 3.4643,
+    "rsi14": 22.86,
+    "macd": {
+      "macd": -0.0536,
+      "signal": -0.008,
+      "hist": -0.0456
+    },
+    "atr14": 0.1359,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -61.23,
+    "pct_from_low": 14.63,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 2.892
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 2.8919999599456787
+    },
+    "volume_ratio": 0.91
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 23",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-16T21:31:54.248400+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts bei neutralem Bias; der Kurs (2,892) liegt unter allen gleitenden Durchschnitten mit bearischem MACD (Histogramm -0,046), sitzt jedoch direkt auf der Unterstuetzung 2,892 nahe den 52-Wochen-Tiefs bei extrem ueberverkauftem RSI 23. Ein Short in die Unterstuetzung hinein bei diesem RSI und unterdurchschnittlichem Volumen (0,91) ist kein sauberes Setup, ein bullisches Umkehrbild fehlt ebenso. Bei diesem Widerspruch und schwacher Trefferbilanz lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

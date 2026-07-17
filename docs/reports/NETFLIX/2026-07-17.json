@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 68.8599,
+    "change_pct": -7.38413,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 68.8599,
+    "change_pct": -7.384129119031606,
+    "sma20": 73.8765,
+    "sma50": 80.56,
+    "sma200": 93.7377,
+    "rsi14": 37.83,
+    "macd": {
+      "macd": -2.278,
+      "signal": -2.3689,
+      "hist": 0.0909
+    },
+    "atr14": 2.8464,
+    "high_52w": 126.325,
+    "low_52w": 68.8599,
+    "pct_from_high": -45.49,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 77.65
+      },
+      {
+        "type": "support",
+        "price": 68.8599
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 68.8599
+    },
+    "volume_ratio": 2.64
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Volumenbestaetigter Abwaerts-Ausbruch: -7,38% auf frisches 52W-Tief (68,86) bei Volume-Ratio 2,64, Kurs unter SMA20/50/200, Tages- und Wochentrend (52 Wochen) klar abwaerts, MACD tief negativ. Die Leitmaerkte laufen neutral bis abwaerts (NQ100 down, S&P500 -1,0%), ein Short handelt also mit der Struktur statt gegen ein bullisches Makro. Konviktion moderat auf 3 gedeckelt, da RSI 37,8 nicht ueberverkauft ist und der Einstieg direkt am neuen Tief Rueckprall-Risiko traegt und Stufe 3 negativ kalibriert (avg_R -0,33).",
+    "entry": 68.8599,
+    "stop_loss": 73.9834,
+    "take_profit": 61.1746,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

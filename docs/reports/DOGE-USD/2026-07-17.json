@@ -1,0 +1,67 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.07281,
+    "change_pct": 0.62189055,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.07281,
+    "change_pct": 0.6218905472636899,
+    "sma20": 0.074,
+    "sma50": 0.0813,
+    "sma200": 0.0998,
+    "rsi14": 33.83,
+    "macd": {
+      "macd": -0.0024,
+      "signal": -0.0029,
+      "hist": 0.0005
+    },
+    "atr14": 0.0027,
+    "high_52w": 0.18179,
+    "low_52w": 0.07197,
+    "pct_from_high": -59.95,
+    "pct_from_low": 1.17,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.0779
+      },
+      {
+        "type": "support",
+        "price": 0.072
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 0.07281
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur klar bearisch (Wochentrend seit 36 Wochen abwaerts, Kurs unter SMA20/50/200, Bias bearish, -60% vom 52W-Hoch), doch der Kurs klebt nur 1,17% ueber dem 52-Wochen-Tief 0,072 direkt am Support, waehrend RSI14 mit 33,8 Richtung ueberverkauft dreht und das MACD-Histogramm mit +0,0005 leicht positiv ist. Ein frischer Short in den Support-Test am Jahrestief ist ruecklaufgefaehrdet, ein Long gegen den Wochentrend ohne Volumen-Bestaetigung (volume_ratio fehlt), bei schwachem Krypto-Makro (BTC Wochentrend abwaerts) und klar negativer Krypto-Trefferbilanz (avg_R -0,45) unbegruendet. Daher FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

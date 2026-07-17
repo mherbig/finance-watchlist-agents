@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57594,
+    "change_pct": 0.0052091473,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57594,
+    "change_pct": 0.005209147262588684,
+    "sma20": 0.5706,
+    "sma50": 0.5701,
+    "sma200": 0.5712,
+    "rsi14": 81.07,
+    "macd": {
+      "macd": 0.0017,
+      "signal": 0.001,
+      "hist": 0.0008
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -1.12,
+    "pct_from_low": 2.48,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5759
+      },
+      {
+        "type": "support",
+        "price": 0.5654
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.57594
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 81",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bullisch (Tages- und Wochentrend auf ueber 38 Wochen, Kurs 0,57594 ueber SMA20/50/200, MACD-Histogramm positiv), doch RSI14 81,07 ist extrem ueberkauft und der Preis klebt direkt am Widerstand 0,5759 — ein Market-Long zum Schluss waere ein ueberkaufter Kauf unmittelbar in den Widerstand hinein, ohne Volumenbestaetigung (volume_ratio null) und bei neutralem Bias. Die negative Forex-Bilanz (avg_R -0,42) und die schwache Konviktion-3-Statistik (avg_R -0,33) mahnen zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

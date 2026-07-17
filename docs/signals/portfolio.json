@@ -1,20 +1,20 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 94395.501,
-    "return_pct": -5.6045,
+    "current_equity": 94914.876,
+    "return_pct": -5.0851,
     "open_count": 7,
     "no_fill_count": 0,
-    "closed_count": 22,
+    "closed_count": 23,
     "wins": 6,
-    "losses": 16,
-    "win_rate": 0.2727,
-    "total_pnl": -5604.499,
-    "total_costs": 231.3746,
+    "losses": 17,
+    "win_rate": 0.2609,
+    "total_pnl": -5085.124,
+    "total_costs": 240.9495,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 959.2548,
-    "marked_equity": 95354.7558,
-    "marked_return_pct": -4.6452,
+    "unrealized_pnl": 365.7071,
+    "marked_equity": 95280.5831,
+    "marked_return_pct": -4.7194,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -105,11 +105,15 @@
     },
     {
       "date": "2026-07-16",
-      "equity": 94209.714
+      "equity": 93997.814
     },
     {
       "date": "2026-07-16",
-      "equity": 94395.501
+      "equity": 94738.2391
+    },
+    {
+      "date": "2026-07-16",
+      "equity": 94914.876
     }
   ],
   "closed": [
@@ -483,13 +487,31 @@
       "stop_loss": 451.7268,
       "take_profit": 618.0598,
       "exit_date": "2026-07-16",
-      "exit_price": 529.14001,
-      "realized_R": 0.1635,
+      "exit_price": 500.94,
+      "realized_R": -0.2603,
       "risk_amount": 500.0,
       "cost": 3.8947,
-      "pnl": 77.8553,
-      "win": true,
+      "pnl": -134.0447,
+      "win": false,
       "status": "flip"
+    },
+    {
+      "symbol": "AAPL",
+      "display": "APPLE",
+      "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 308.22,
+      "stop_loss": 292.1248,
+      "take_profit": 332.3629,
+      "exit_date": "2026-07-16",
+      "exit_price": 332.3629,
+      "realized_R": 1.5,
+      "risk_amount": 500.0,
+      "cost": 9.5749,
+      "pnl": 740.4251,
+      "win": true,
+      "status": "tp"
     },
     {
       "symbol": "AUD/JPY",
@@ -501,34 +523,16 @@
       "stop_loss": 112.1862,
       "take_profit": 114.7719,
       "exit_date": "2026-07-16",
-      "exit_price": 113.65046,
-      "realized_R": 0.4158,
+      "exit_price": 113.63032,
+      "realized_R": 0.3964,
       "risk_amount": 471.6547,
       "cost": 10.327,
-      "pnl": 185.787,
+      "pnl": 176.6369,
       "win": true,
       "status": "flip"
     }
   ],
   "open": [
-    {
-      "symbol": "AAPL",
-      "display": "APPLE",
-      "date": "2026-07-02",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 308.22,
-      "stop_loss": 292.1248,
-      "take_profit": 332.3629,
-      "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 31.0652,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 333.26001,
-      "unrealized_pct": 8.1241,
-      "unrealized_pnl": 777.8729
-    },
     {
       "symbol": "AS51",
       "display": "ASX200",
@@ -543,9 +547,9 @@
       "units": 3.7631,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 8841.099609375,
-      "unrealized_pct": 0.0045,
-      "unrealized_pnl": 1.5038
+      "current_price": 8840.7001953125,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0007
     },
     {
       "symbol": "AUD/CAD",
@@ -561,9 +565,9 @@
       "units": 75912.7903,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.98252,
-      "unrealized_pct": -0.0122,
-      "unrealized_pnl": -9.1095
+      "current_price": 0.97919,
+      "unrealized_pct": 0.3268,
+      "unrealized_pnl": 243.6801
     },
     {
       "symbol": "EUR/JPY",
@@ -579,9 +583,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.81091,
-      "unrealized_pct": 0.2771,
-      "unrealized_pnl": 201.6927
+      "current_price": 185.81694,
+      "unrealized_pct": 0.2803,
+      "unrealized_pnl": 204.0616
     },
     {
       "symbol": "RACE",
@@ -597,9 +601,27 @@
       "units": 26.0536,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 382.57999,
-      "unrealized_pct": -0.6208,
-      "unrealized_pnl": -62.2684
+      "current_price": 376.82999,
+      "unrealized_pct": -2.1145,
+      "unrealized_pnl": -212.0766
+    },
+    {
+      "symbol": "NFLX",
+      "display": "NETFLIX",
+      "date": "2026-07-17",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 68.8599,
+      "stop_loss": 73.9834,
+      "take_profit": 61.1746,
+      "rr": 1.5,
+      "risk_amount": 474.5744,
+      "units": 92.627,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 68.8599,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0
     },
     {
       "symbol": "TSLA",
@@ -615,9 +637,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 391.059998,
-      "unrealized_pct": 0.9348,
-      "unrealized_pnl": 53.4866
+      "current_price": 380.69,
+      "unrealized_pct": 3.5617,
+      "unrealized_pnl": 203.7997
     },
     {
       "symbol": "USD/CHF",
@@ -633,9 +655,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80855,
-      "unrealized_pct": -0.0062,
-      "unrealized_pnl": -3.9233
+      "current_price": 0.80766,
+      "unrealized_pct": -0.1163,
+      "unrealized_pnl": -73.7584
     }
   ],
   "marked_curve": [
@@ -711,13 +733,18 @@
     },
     {
       "date": "2026-07-16",
-      "equity": 94395.501,
-      "marked_equity": 95355.1505
+      "equity": 94914.876,
+      "marked_equity": 95095.1495
     },
     {
       "date": "2026-07-17",
-      "equity": 94395.501,
-      "marked_equity": 95354.7558
+      "equity": 94914.876,
+      "marked_equity": 95267.1686
+    },
+    {
+      "date": "2026-07-18",
+      "equity": 94914.876,
+      "marked_equity": 95280.5831
     }
   ],
   "benchmark_curve": [
@@ -779,11 +806,15 @@
     },
     {
       "date": "2026-07-16",
-      "equity": 100604.212
+      "equity": 100594.3286
     },
     {
       "date": "2026-07-17",
-      "equity": 100600.0563
+      "equity": 100218.7387
+    },
+    {
+      "date": "2026-07-18",
+      "equity": 100221.3131
     }
   ],
   "skipped": [

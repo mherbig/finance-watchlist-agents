@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 61.285,
+    "change_pct": -0.33339051,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 61.285,
+    "change_pct": -0.333387542689877,
+    "sma20": 58.9347,
+    "sma50": 55.1225,
+    "sma200": 52.9915,
+    "rsi14": 68.2,
+    "macd": {
+      "macd": 1.6739,
+      "signal": 1.5752,
+      "hist": 0.0987
+    },
+    "atr14": 1.2596,
+    "high_52w": 61.59,
+    "low_52w": 44.92,
+    "pct_from_high": -0.5,
+    "pct_from_low": 36.43,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.59
+      },
+      {
+        "type": "support",
+        "price": 56.2
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 61.285
+    },
+    "volume_ratio": 1.0
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend seit 52 Wochen aufwaerts, Kurs ueber SMA20/50/200 mit positivem MACD-Hist (+0.10), kein klarer Makro-Gegenwind fuer einen US-Finanzwert (S&P500 seitwaerts). Konviktion nur 3, da der Einstieg direkt am 52W-Hoch/Widerstand (61.59) Chase-Risiko birgt, RSI ~68 gestreckt ist und das Volumen mit Ratio 1.0 keine Ausbruchsbestaetigung liefert. Zudem laeuft Konviktionsstufe 3 im Track Record negativ (avg_R -0.33), was gegen eine hoehere Ueberzeugung spricht.",
+    "entry": 61.285,
+    "stop_loss": 59.0177,
+    "take_profit": 64.6859,
+    "take_profit_2": 61.59,
+    "rr": 1.5
+  }
+}

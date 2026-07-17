@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 495.1,
+    "change_pct": -1.5901,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 495.1000061035156,
+    "change_pct": -1.5901411057335497,
+    "sma20": 491.1325,
+    "sma50": 483.859,
+    "sma200": 540.7907,
+    "rsi14": 51.41,
+    "macd": {
+      "macd": 2.0139,
+      "signal": 1.9686,
+      "hist": 0.0453
+    },
+    "atr14": 13.1268,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -24.08,
+    "pct_from_low": 11.27,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 503.1
+      },
+      {
+        "type": "support",
+        "price": 481.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 495.1000061035156
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'up' bei bullischem Bias, der Kurs (495,1) haelt sich ueber SMA20 (491) und SMA50 (484) und der MACD liegt knapp ueber der Signallinie. Dagegen sprechen der heutige Ruecksetzer von -1,6% auf unterdurchschnittlichem Volumen (0,78), der nahe Widerstand bei 503, die neutrale RSI (51) sowie der Kurs deutlich unter SMA200 (-24% vom 52W-Hoch), weshalb ich die Konviktion bei 3 begrenze. Das Makro-Bild ist neutral (GER40/S&P500 seitwaerts) und steht dem Long nicht klar entgegen, die Aktien-Klasse laeuft im Track Record etwa neutral (avg_R +0,01).",
+    "entry": 495.1,
+    "stop_loss": 479.6873,
+    "take_profit": 518.219,
+    "take_profit_2": 503.1,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 393.76999,
+    "change_pct": -1.82748,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 393.76999,
+    "change_pct": -1.8274793860015088,
+    "sma20": 381.155,
+    "sma50": 401.5106,
+    "sma200": 439.3483,
+    "rsi14": 63.89,
+    "macd": {
+      "macd": -1.025,
+      "signal": -4.2621,
+      "hist": 3.2371
+    },
+    "atr14": 11.4607,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -27.36,
+    "pct_from_low": 11.6,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 401.1
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 393.76999
+    },
+    "volume_ratio": 0.56
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT faellt -1,83% auf unterdurchschnittlichem Volumen (0,56) und notiert unter SMA50 (401,5) und SMA200 (439,3) in einem seit 52 Wochen abwaertsgerichteten Wochentrend, nur ueber SMA20. RSI 63,9 ist neutral und das MACD-Histogramm dreht zwar hoch (+3,24), doch der MACD bleibt unter null: weder ein stimmiges Long (Struktur unter Schluessel-SMAs, weiche Makrolage mit NQ100 down) noch ein sauberes Short (Tagestrend side, Momentum dreht) liegt vor. Die negative Trefferbilanz auf Konviktionsstufe 3 mahnt zusaetzlich zur Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81923,
+    "change_pct": 0.0061036646,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81923,
+    "change_pct": 0.006103664640249334,
+    "sma20": 0.8127,
+    "sma50": 0.8122,
+    "sma200": 0.8086,
+    "rsi14": 66.5,
+    "macd": {
+      "macd": 0.0028,
+      "signal": 0.0018,
+      "hist": 0.001
+    },
+    "atr14": 0.0046,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -0.84,
+    "pct_from_low": 4.22,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8214
+      },
+      {
+        "type": "support",
+        "price": 0.8031
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.81923
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 0,81923 laeuft zwar im intakten Aufwaertstrend (ueber allen SMAs, MACD positiv, Wochentrend up seit 38 Wochen, RSI14 66,5), steht aber nur ~0,26% unter dem Widerstand 0,8214 und -0,84% unter dem 52W-Hoch, sodass ein Long ohne bestaetigten Ausbruchsschluss direkt in die Widerstandszone laeuft und mangels Volumendaten (volume_ratio null) unbestaetigt bleibt. Ein Short gegen den klaren Wochentrend ist unbegruendet, und da Forex (avg_R -0,42) sowie Konviktion 3 (avg_R -0,33) im Track Record negativ laufen, ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

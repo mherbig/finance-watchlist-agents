@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.97906,
+    "change_pct": 0.016344877,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.97919,
+    "change_pct": 0.029625089386046834,
+    "sma20": 0.9827,
+    "sma50": 0.9848,
+    "sma200": 0.9686,
+    "rsi14": 38.73,
+    "macd": {
+      "macd": -0.0011,
+      "signal": -0.0008,
+      "hist": -0.0003
+    },
+    "atr14": 0.0041,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.58,
+    "pct_from_low": 7.77,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9788
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.97919
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bearisches Bild: Tagestrend abwaerts, Bias bearish, Wochentrend seit 38 Wochen down, Kurs 0.97906 unter SMA20 (0.9827) und SMA50 (0.9848) — Short handelt mit dem uebergeordneten Trend. Momentum ist jedoch schwach (RSI 38.7 naeht sich ueberverkauft, MACD-Hist ~-0.0003), der Kurs klemmt direkt auf Support 0.9788 ohne Volumenbestaetigung, und Forex- (avg_R -0.42) wie Conviction-3-Klasse (avg_R -0.33) laufen negativ, daher bewusst moderate Konviktion.",
+    "entry": 0.9791,
+    "stop_loss": 0.9864,
+    "take_profit": 0.968,
+    "take_profit_2": 0.9788,
+    "rr": 1.5
+  }
+}

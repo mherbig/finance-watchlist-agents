@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 48.46,
+    "change_pct": 1.5507,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 48.459999084472656,
+    "change_pct": 1.5507079732606674,
+    "sma20": 47.796,
+    "sma50": 41.325,
+    "sma200": 37.7394,
+    "rsi14": 57.67,
+    "macd": {
+      "macd": 2.3995,
+      "signal": 2.9283,
+      "hist": -0.5287
+    },
+    "atr14": 1.8457,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -9.18,
+    "pct_from_low": 94.03,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 38.18
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 48.459999084472656
+    },
+    "volume_ratio": 0.64
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs steht ueber allen SMAs nahe dem 52W-Hoch, doch das MACD-Histogramm ist negativ (-0,53) und der starke Tag (+1,55%) kam auf unterdurchschnittlichem Volumen (Ratio 0,64), womit der Ausbruch unbestaetigt bleibt. Das Makro-Bild ist mit seitwaertigem GER40 und fallendem NQ100 kein Rueckenwind, und die Trefferquote auf Konviktionsstufe 3 laeuft klar negativ. Bei diesem Widerspruch zwischen intaktem Trend und kippender Kurzfrist-Dynamik bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

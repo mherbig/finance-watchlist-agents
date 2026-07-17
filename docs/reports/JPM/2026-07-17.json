@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 341.19,
+    "change_pct": -0.5711763,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 341.19,
+    "change_pct": -0.5711758872556005,
+    "sma20": 335.0945,
+    "sma50": 318.2134,
+    "sma200": 309.7668,
+    "rsi14": 62.44,
+    "macd": {
+      "macd": 6.6298,
+      "signal": 6.5939,
+      "hist": 0.036
+    },
+    "atr14": 7.7706,
+    "high_52w": 346.91,
+    "low_52w": 282.84,
+    "pct_from_high": -1.65,
+    "pct_from_low": 20.63,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 346.91
+      },
+      {
+        "type": "support",
+        "price": 325.22
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 341.19
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend aufwaerts, Kurs 341.19 klar ueber SMA20/50/200, RSI 62.4 gesund und MACD-Histogramm noch positiv; der leichte Ruecksetzer erfolgt auf unterdurchschnittlichem Volumen (0.63) und wirkt eher als Pullback denn als Distribution. Begrenzt wird die Konviktion durch die Naehe zum Widerstand 346.91 (nur -1.65% unter 52W-Hoch), das nur schwach positive MACD-Momentum, das gemischte Makrobild (S&P500 seitwaerts, NQ100 abwaerts) sowie den negativen Track Record der Konviktionsstufe 3 (avg_R -0.33), daher moderate Konviktion 3.",
+    "entry": 341.19,
+    "stop_loss": 327.2029,
+    "take_profit": 362.1706,
+    "take_profit_2": 346.91,
+    "rr": 1.5
+  }
+}

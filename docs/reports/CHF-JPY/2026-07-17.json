@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 201.14004,
+    "change_pct": 0.0038283252,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 201.13311,
+    "change_pct": 0.00038283251713206,
+    "sma20": 200.7235,
+    "sma50": 200.9327,
+    "sma200": 200.9024,
+    "rsi14": 51.02,
+    "macd": {
+      "macd": 0.0336,
+      "signal": -0.0681,
+      "hist": 0.1017
+    },
+    "atr14": 0.9491,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.47,
+    "pct_from_low": 6.11,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.3999
+      },
+      {
+        "type": "support",
+        "price": 199.3915
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 201.13311
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend seitwaerts, Bias neutral und RSI 51 ohne Richtung, waehrend der Wochentrend seit 38 Wochen abwaerts zeigt - ein Long liefe klar gegen diesen Wochentrend. Der Kurs 201.14 klemmt direkt unter dem Widerstand 201.40 ohne Volumenbestaetigung (volume_ratio null), einzig das leicht positive MACD-Histogramm (+0.10) spricht schwach bullisch. Angesichts der negativen Forex-Bilanz (avg_R -0.42) und schwacher Konviktion-3-Trefferquote bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

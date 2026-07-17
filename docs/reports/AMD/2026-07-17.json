@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 495.5,
+    "change_pct": -1.085959,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 495.5,
+    "change_pct": -1.0859583982113623,
+    "sma20": 533.006,
+    "sma50": 499.0788,
+    "sma200": 296.6849,
+    "rsi14": 45.98,
+    "macd": {
+      "macd": 7.3584,
+      "signal": 15.2944,
+      "hist": -7.936
+    },
+    "atr14": 40.6964,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -14.7,
+    "pct_from_low": 227.84,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 495.5
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 495.5
+    },
+    "volume_ratio": 0.97
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet intakt (Kurs klar ueber SMA200), doch aktuell unter SMA20 und knapp unter SMA50, MACD-Histogramm negativ (-7,94), Tages- und Wochentrend 'side', Bias neutral, RSI 46 - kein stimmig bullisches Bild fuer einen frischen Long am Schluss eines -1,1%-Tages. Ein Short ist bei unterdurchschnittlichem Volumen (0,97) und intaktem Langfrist-Aufbau ebenfalls nicht gerechtfertigt, auch wenn NQ100 (Wochentrend down) leicht risk-off stuetzt. Konviktionsstufe 3 laeuft im Track Record klar negativ, daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

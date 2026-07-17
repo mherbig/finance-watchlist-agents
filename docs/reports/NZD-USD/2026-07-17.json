@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.58429,
+    "change_pct": 0.011981788,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.58429,
+    "change_pct": 0.011981787682724744,
+    "sma20": 0.5745,
+    "sma50": 0.5771,
+    "sma200": 0.5854,
+    "rsi14": 77.74,
+    "macd": {
+      "macd": 0.0026,
+      "signal": 0.0008,
+      "hist": 0.0018
+    },
+    "atr14": 0.0037,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -3.67,
+    "pct_from_low": 4.44,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.585
+      },
+      {
+        "type": "support",
+        "price": 0.5651
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.58429
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-17T21:34:48.480176+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend beide 'side' bei neutraler Bias, waehrend RSI14 mit 77.74 extrem ueberkauft ist und der Preis (0.58429) direkt an der Resistance 0.585 sowie am SMA200 (0.5854) klebt - ueberkaufte Erschoepfung ohne tragenden Trend rechtfertigt keinen frischen LONG, das leicht positive MACD-Momentum keinen SHORT. Das Makro-Bild (USD-Staerke via EUR/USD-Wochentrend abwaerts, risk-off bei Gold und NQ100) ist Gegenwind fuer die Risikowaehrung NZD, zudem fehlt jede Volumenbestaetigung (volume_ratio null). Forex (avg_R -0.42) und Konviktionsstufe 3 (avg_R -0.33) laufen im Track-Record klar negativ, daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

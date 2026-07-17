@@ -4,30 +4,30 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T21:23:10.453722+00:00",
+  "generated_at": "2026-07-17T23:29:59.424768+00:00",
   "available": true,
   "snapshot": {
     "price": 10600.37,
-    "change_pct": 0.2665,
+    "change_pct": 0.8033,
     "currency": "GBP"
   },
   "technical": {
-    "last_close": 10600.3701171875,
-    "change_pct": 0.2664527851779611,
-    "sma20": 10532.5236,
-    "sma50": 10434.8134,
-    "sma200": 10150.6963,
-    "rsi14": 59.34,
+    "last_close": 10572.2001953125,
+    "change_pct": 0.5353778810770372,
+    "sma20": 10520.6701,
+    "sma50": 10428.346,
+    "sma200": 10144.9265,
+    "rsi14": 55.2,
     "macd": {
-      "macd": 34.0885,
-      "signal": 36.8548,
-      "hist": -2.7663
+      "macd": 30.9287,
+      "signal": 37.5464,
+      "hist": -6.6177
     },
-    "atr14": 120.46,
+    "atr14": 117.1,
     "high_52w": 10910.599609375,
-    "low_52w": 9061.5,
-    "pct_from_high": -2.84,
-    "pct_from_low": 16.98,
+    "low_52w": 9023.7998046875,
+    "pct_from_high": -3.1,
+    "pct_from_low": 17.16,
     "trend": "up",
     "bias": "bullish",
     "levels": [
@@ -37,18 +37,18 @@
       },
       {
         "type": "support",
-        "price": 10428.9004
+        "price": 10363.2998
       }
     ],
     "weekly": {
       "trend": "up",
       "weeks": 52,
-      "last_close": 10600.3701171875
+      "last_close": 10572.2001953125
     },
     "volume_ratio": 0.93
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 59",
+  "headline": "Trend up, RSI 55",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-17T21:34:48.480176+00:00",

@@ -4,36 +4,36 @@
   "asset_class": "crypto",
   "track": "technical",
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "generated_at": "2026-07-18T23:31:22.902989+00:00",
   "available": true,
   "snapshot": {
-    "price": 47.07,
-    "change_pct": 4.20633,
+    "price": 47.1,
+    "change_pct": 4.27275,
     "currency": null
   },
   "technical": {
-    "last_close": 47.07,
-    "change_pct": 4.206331636041617,
-    "sma20": 44.3935,
-    "sma50": 44.4448,
-    "sma200": 55.4469,
-    "rsi14": 61.17,
+    "last_close": 47.1,
+    "change_pct": 4.272747398715961,
+    "sma20": 44.395,
+    "sma50": 44.4454,
+    "sma200": 55.447,
+    "rsi14": 61.29,
     "macd": {
-      "macd": 0.2845,
-      "signal": -0.0628,
-      "hist": 0.3472
+      "macd": 0.2868,
+      "signal": -0.0623,
+      "hist": 0.3491
     },
     "atr14": 1.5457,
     "high_52w": 101.71,
     "low_52w": 40.92,
-    "pct_from_high": -53.72,
-    "pct_from_low": 15.03,
+    "pct_from_high": -53.69,
+    "pct_from_low": 15.1,
     "trend": "side",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 47.07
+        "price": 47.1
       },
       {
         "type": "support",
@@ -43,7 +43,7 @@
     "weekly": {
       "trend": "down",
       "weeks": 36,
-      "last_close": 47.07
+      "last_close": 47.1
     },
     "volume_ratio": null
   },

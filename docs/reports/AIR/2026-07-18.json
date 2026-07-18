@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 194.32,
+    "change_pct": -0.6646,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 194.32000732421875,
+    "change_pct": -0.6645475030249252,
+    "sma20": 197.014,
+    "sma50": 184.3756,
+    "sma200": 189.9958,
+    "rsi14": 53.79,
+    "macd": {
+      "macd": 3.1008,
+      "signal": 4.5149,
+      "hist": -1.414
+    },
+    "atr14": 4.7693,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -11.75,
+    "pct_from_low": 22.08,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 189.52
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 194.32000732421875
+    },
+    "volume_ratio": 0.9
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Tagestrend seitwaerts mit neutralem Bias und RSI 53,8, waehrend das MACD-Histogramm negativ ist (-1,41) und die MACD-Linie unter dem Signal liegt - bearisches Momentum gegen den aufwaertsgerichteten Wochentrend und die Lage ueber SMA50 und SMA200. Der Kurs schloss knapp unter der SMA20 (197,01) bei unterdurchschnittlichem Volumen (0,9), sodass weder ein stimmig bullisches noch ein stimmig bearisches Setup vorliegt. Bei leicht risk-off geneigtem Makro (NQ100 down, S&P500 und GER40 seitwaerts, Gold schwach) und klar negativem avg_R im Konviktion-3-Segment des Track Records ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

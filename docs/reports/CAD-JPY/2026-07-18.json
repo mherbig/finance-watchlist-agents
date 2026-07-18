@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 115.89229,
+    "change_pct": -0.0094130274,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 115.89229,
+    "change_pct": -0.009413027422880072,
+    "sma20": 114.6357,
+    "sma50": 114.5549,
+    "sma200": 114.7514,
+    "rsi14": 83.46,
+    "macd": {
+      "macd": 0.406,
+      "signal": 0.2053,
+      "hist": 0.2007
+    },
+    "atr14": 0.4885,
+    "high_52w": 117.24469,
+    "low_52w": 108.521,
+    "pct_from_high": -1.15,
+    "pct_from_low": 6.79,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 115.9032
+      },
+      {
+        "type": "support",
+        "price": 113.6195
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 115.89229
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 83",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bullisch: Kurs 115,89 ueber SMA20/50/200, Wochentrend seit 37 Wochen 'up', MACD-Histogramm positiv (+0,20). Dagegen steht ein extrem ueberkaufter RSI von 83,5 bei einem Kurs, der exakt am Widerstand 115,903 klebt (-1,15% zum 52W-Hoch) - ein Ausbruch ist nicht bestaetigt, der Tagesbias bleibt neutral und Forex liefert kein Volumensignal. Da die Assetklasse Forex mit avg_R -0,43 klar negativ laeuft und das Makro (EUR/USD seitwaerts, Risk-off in NQ100/XAU) keinen JPY-Impuls gibt, ist Abwarten statt Kauf auf Hoechstkursen die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -12,9 +12,9 @@
     "total_pnl": -5085.124,
     "total_costs": 240.9495,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 362.3528,
-    "marked_equity": 95277.2288,
-    "marked_return_pct": -4.7228,
+    "unrealized_pnl": 223.5512,
+    "marked_equity": 95138.4272,
+    "marked_return_pct": -4.8616,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -547,9 +547,9 @@
       "units": 3.7631,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 8840.7001953125,
-      "unrealized_pct": 0.0,
-      "unrealized_pnl": 0.0007
+      "current_price": 8796.7001953125,
+      "unrealized_pct": -0.4977,
+      "unrealized_pnl": -165.5757
     },
     {
       "symbol": "AUD/CAD",
@@ -565,9 +565,9 @@
       "units": 75912.7903,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.97904,
-      "unrealized_pct": 0.342,
-      "unrealized_pnl": 255.067
+      "current_price": 0.97838,
+      "unrealized_pct": 0.4092,
+      "unrealized_pnl": 305.1694
     },
     {
       "symbol": "EUR/JPY",
@@ -583,9 +583,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.8022,
-      "unrealized_pct": 0.2724,
-      "unrealized_pnl": 198.271
+      "current_price": 185.77278,
+      "unrealized_pct": 0.2565,
+      "unrealized_pnl": 186.7134
     },
     {
       "symbol": "RACE",
@@ -655,9 +655,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80768,
-      "unrealized_pct": -0.1138,
-      "unrealized_pnl": -72.1891
+      "current_price": 0.80753,
+      "unrealized_pct": -0.1323,
+      "unrealized_pnl": -83.9591
     }
   ],
   "marked_curve": [
@@ -739,12 +739,17 @@
     {
       "date": "2026-07-17",
       "equity": 94914.876,
-      "marked_equity": 95256.6486
+      "marked_equity": 95091.0722
     },
     {
       "date": "2026-07-18",
       "equity": 94914.876,
-      "marked_equity": 95277.2288
+      "marked_equity": 95157.0918
+    },
+    {
+      "date": "2026-07-19",
+      "equity": 94914.876,
+      "marked_equity": 95138.4272
     }
   ],
   "benchmark_curve": [
@@ -810,11 +815,15 @@
     },
     {
       "date": "2026-07-17",
-      "equity": 100188.3492
+      "equity": 100126.195
     },
     {
       "date": "2026-07-18",
-      "equity": 100190.3951
+      "equity": 100275.1091
+    },
+    {
+      "date": "2026-07-19",
+      "equity": 100272.0455
     }
   ],
   "skipped": [

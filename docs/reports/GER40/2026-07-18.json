@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24830.98,
+    "change_pct": -0.3392,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 24830.98046875,
+    "change_pct": -0.3391856424659264,
+    "sma20": 25091.804,
+    "sma50": 24860.8655,
+    "sma200": 24352.2257,
+    "rsi14": 53.67,
+    "macd": {
+      "macd": 45.9363,
+      "signal": 107.4511,
+      "hist": -61.5148
+    },
+    "atr14": 331.7683,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -3.82,
+    "pct_from_low": 11.35,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 24830.98046875
+    },
+    "volume_ratio": 0.98
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts, der Kurs notiert unter SMA20 (25091,8) und SMA50 (24860,9) und nur ueber SMA200, waehrend das Momentum bremst (MACD 45,9 unter Signal 107,5, Histogramm -61,5) und RSI 53,7 neutral bleibt. Das Volumen liegt mit 0,98 unter dem Durchschnitt, also fehlt jede Ausbruchsbestaetigung, und das Makro-Bild ist risk-off geneigt (NQ100 down, S&P500 -1,01 %, XAU down). Da die Index-Klasse im Track Record klar negativ laeuft (avg_R -0,58), bleibe ich ohne stimmiges Setup FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

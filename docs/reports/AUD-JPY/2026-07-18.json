@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 113.38453,
+    "change_pct": -0.013977025,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 113.38453,
+    "change_pct": -0.013977025473812667,
+    "sma20": 112.6387,
+    "sma50": 112.7731,
+    "sma200": 111.1837,
+    "rsi14": 70.15,
+    "macd": {
+      "macd": 0.2462,
+      "signal": 0.1011,
+      "hist": 0.1451
+    },
+    "atr14": 0.4927,
+    "high_52w": 114.83705,
+    "low_52w": 99.289,
+    "pct_from_high": -1.26,
+    "pct_from_low": 14.2,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.6505
+      },
+      {
+        "type": "support",
+        "price": 111.5399
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 113.38453
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die uebergeordnete Struktur bleibt bullisch (Kurs 113.38 ueber SMA20/50/200, Wochentrend up seit 37 Wochen, MACD-Hist +0.145), doch der Tagestrend ist 'side' bei neutralem Bias und RSI 70.2 im ueberkauften Bereich, direkt unter dem Widerstand 113.65 und nur 1.3 Prozent unter dem 52W-Hoch. Ein Market-Long zum Schlusskurs waere ein Nachlaufen an die Kante ohne Volumenbestaetigung (volume_ratio nicht verfuegbar), waehrend das Makro-Bild leicht risk-off ist (NQ100 und XAU im Wochentrend down, JPY als Safe Haven) und die Forex-Bilanz mit avg_R -0.43 zur Zurueckhaltung mahnt. Ein Short gegen den intakten Wochentrend ist nicht gerechtfertigt, daher FLAT und Ruecksetzer zur SMA20-Zone abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

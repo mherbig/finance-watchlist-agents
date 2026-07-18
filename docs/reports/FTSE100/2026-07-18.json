@@ -1,0 +1,67 @@
+{
+  "symbol": "UKX",
+  "display": "FTSE100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 10600.37,
+    "change_pct": 0.2665,
+    "currency": "GBP"
+  },
+  "technical": {
+    "last_close": 10600.400390625,
+    "change_pct": 0.26673913463162946,
+    "sma20": 10532.5251,
+    "sma50": 10434.814,
+    "sma200": 10150.6965,
+    "rsi14": 59.34,
+    "macd": {
+      "macd": 34.0909,
+      "signal": 36.8553,
+      "hist": -2.7643
+    },
+    "atr14": 120.4572,
+    "high_52w": 10910.599609375,
+    "low_52w": 9061.5,
+    "pct_from_high": -2.84,
+    "pct_from_low": 16.98,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 10679.0
+      },
+      {
+        "type": "support",
+        "price": 10428.9004
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 10600.400390625
+    },
+    "volume_ratio": 0.94
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt formal bullisch (Kurs 10600 ueber SMA20/50/200, Tages- und Wochentrend up, RSI 59), doch das MACD-Histogramm ist mit -2.76 weiterhin negativ und das Volume-Ratio von 0.94 bestaetigt keinen Impuls Richtung Resistance 10679. Das Aktien-Makro ist schwach (S&P500 -1.0 Prozent, NQ100 -1.5 Prozent und im Abwaertstrend), und die Asset-Klasse Index laeuft im Track Record klar negativ (avg_R -0.58 bei 4 SL). Ohne bestaetigten Ausbruch mit ueberdurchschnittlichem Volumen bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

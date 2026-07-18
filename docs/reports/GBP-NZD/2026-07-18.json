@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.30201,
+    "change_pct": -0.0099902703,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.30201,
+    "change_pct": -0.009990270345391029,
+    "sma20": 2.3271,
+    "sma50": 2.3144,
+    "sma200": 2.2961,
+    "rsi14": 29.24,
+    "macd": {
+      "macd": -0.0048,
+      "signal": 0.0002,
+      "hist": -0.005
+    },
+    "atr14": 0.0121,
+    "high_52w": 2.35279,
+    "low_52w": 2.24234,
+    "pct_from_high": -2.16,
+    "pct_from_low": 2.66,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3528
+      },
+      {
+        "type": "support",
+        "price": 2.302
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 2.30201
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 29",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist in sich widerspruechlich: Momentum klar bearish (MACD-Histogramm -0.0050, Kurs 2.30201 unter SMA20 2.3271 und SMA50 2.3144), aber RSI14 29.24 ist ueberverkauft und der Kurs sitzt exakt auf dem Support 2.302 sowie deutlich ueber der SMA200 2.2961. Tages- und Wochentrend sind beide seitwaerts, es gibt also keinen Rueckenwind, und eine Volumenbestaetigung fehlt (volume_ratio n/a), was einen Short auf dem Support besonders unattraktiv macht. Das Makro-Bild ist gemischt-schwach ohne symbolspezifischen Treiber, und die Forex-Klasse laeuft im Track Record klar negativ (avg_R -0.43) - daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

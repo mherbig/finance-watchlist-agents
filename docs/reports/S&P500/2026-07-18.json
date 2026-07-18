@@ -1,0 +1,67 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7457.69,
+    "change_pct": -1.0099,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7457.68994140625,
+    "change_pct": -1.0098540030789749,
+    "sma20": 7479.0315,
+    "sma50": 7464.8782,
+    "sma200": 6987.2295,
+    "rsi14": 58.71,
+    "macd": {
+      "macd": 28.7901,
+      "signal": 31.0942,
+      "hist": -2.3041
+    },
+    "atr14": 73.9665,
+    "high_52w": 7609.77978515625,
+    "low_52w": 6238.009765625,
+    "pct_from_high": -2.0,
+    "pct_from_low": 19.55,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7575.3901
+      },
+      {
+        "type": "support",
+        "price": 7354.02
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 7457.68994140625
+    },
+    "volume_ratio": 0.93
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide seitwaerts, der Kurs faellt -1.01% und schliesst mit 7457.69 unter SMA20 (7479) und SMA50 (7465), waehrend das MACD-Histogramm mit -2.30 bereits negativ dreht und RSI 58.7 ohne Momentum-Bestaetigung bleibt. Das Volumen liegt mit ratio 0.93 unterdurchschnittlich, und das Makro-Bild stuetzt nicht: NQ100 taeglich und woechentlich abwaerts, XAU abwaerts, keine bullische Leitmarkt-Fuehrung. Die Index-Klasse laeuft im Track Record klar negativ (avg_R -0.58 bei 126 Signalen), daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 91.13,
+    "change_pct": -1.92639,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 91.13,
+    "change_pct": -1.9263882910030201,
+    "sma20": 87.953,
+    "sma50": 95.6202,
+    "sma200": 87.5712,
+    "rsi14": 61.1,
+    "macd": {
+      "macd": -0.5787,
+      "signal": -1.5974,
+      "hist": 1.0187
+    },
+    "atr14": 3.1345,
+    "high_52w": 111.88,
+    "low_52w": 69.77,
+    "pct_from_high": -18.55,
+    "pct_from_low": 30.61,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 92.92
+      },
+      {
+        "type": "support",
+        "price": 82.88
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 91.13
+    },
+    "volume_ratio": 0.73
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Der Kurs (91,13) notiert nach einem -1,9%-Tag klar unter der SMA50 (95,62) und direkt unter dem Widerstand bei 92,92, waehrend der Wochentrend seit 52 Wochen abwaerts zeigt. RSI 61 und das positiv gedrehte MACD-Histogramm (+1,02) bei weiterhin negativem MACD reichen als Long-Grund nicht aus, zumal das Volumen mit 0,73 unterdurchschnittlich bleibt und keinen Ausbruch bestaetigt. Das schwache Tech-Makro (NQ100 Tages- und Wochentrend abwaerts) sowie die negative Trefferbilanz der Konviktionsstufe 3 sprechen fuer Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

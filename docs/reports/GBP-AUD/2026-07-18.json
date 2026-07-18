@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.92645,
+    "change_pct": -0.0077857365,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.92645,
+    "change_pct": -0.007785736530680707,
+    "sma20": 1.9265,
+    "sma50": 1.909,
+    "sma200": 1.9171,
+    "rsi14": 53.24,
+    "macd": {
+      "macd": 0.0051,
+      "signal": 0.0065,
+      "hist": -0.0014
+    },
+    "atr14": 0.0072,
+    "high_52w": 2.04069,
+    "low_52w": 1.85611,
+    "pct_from_high": -5.6,
+    "pct_from_low": 3.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9323
+      },
+      {
+        "type": "support",
+        "price": 1.9164
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 1.92645
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts bei neutralem Bias, der Kurs 1.92645 klebt exakt an der SMA20 (1.9265) und das MACD-Histogramm ist mit -0.0014 bereits negativ - trotz aufwaertsgerichtetem Wochentrend fehlt damit ein stimmiges Signal in beide Richtungen. Die enge Spanne zwischen Support 1.9164 und Widerstand 1.9323 entspricht nur rund zwei ATR14 (0.0072), was einen Swing-Einstieg ohne Ausbruchsbestaetigung unattraktiv macht; ein Volumenfilter steht im Forex ohnehin nicht zur Verfuegung. Das schwache Makrobild (NQ100 abwaerts, EUR/USD wochenweise abwaerts) und die negative Forex-Bilanz im Track Record (avg_R -0.43) sprechen zusaetzlich fuer Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

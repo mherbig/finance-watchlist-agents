@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1612.5,
+    "change_pct": -1.4184,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1605.800048828125,
+    "change_pct": -1.8279576472646233,
+    "sma20": 1619.135,
+    "sma50": 1795.046,
+    "sma200": 1910.686,
+    "rsi14": 46.69,
+    "macd": {
+      "macd": -44.5643,
+      "signal": -57.537,
+      "hist": 12.9728
+    },
+    "atr14": 36.0,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -43.7,
+    "pct_from_low": 24.83,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1705.2
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 1605.800048828125
+    },
+    "volume_ratio": 0.05
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bleibt klar bearisch: Kurs 1605,8 unter SMA20/50/200, Tages- und Wochentrend abwaerts, Metall-Makro schwach (XAU abwaerts, RSI 32). Dagegen steht ein sich drehendes MACD-Histogramm (+12,97) bei neutralem RSI 46,7 knapp ueber Support 1550, und das Volumenverhaeltnis von 0,05 macht die juengste Abwaertsbewegung wenig belastbar. Widerspruch zwischen Trend und nachlassendem Momentum plus negative Bilanz im Metall-Segment (avg_R -0,09) rechtfertigen keine neue Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

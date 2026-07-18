@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.34496,
+    "change_pct": -0.008178013,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.34496,
+    "change_pct": -0.008178013040217572,
+    "sma20": 1.339,
+    "sma50": 1.3349,
+    "sma200": 1.344,
+    "rsi14": 60.93,
+    "macd": {
+      "macd": 0.0039,
+      "signal": 0.003,
+      "hist": 0.0009
+    },
+    "atr14": 0.0061,
+    "high_52w": 1.37954,
+    "low_52w": 1.30152,
+    "pct_from_high": -2.51,
+    "pct_from_low": 3.34,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3539
+      },
+      {
+        "type": "support",
+        "price": 1.3261
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 1.34496
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist aufwaerts (1,34496 ueber SMA20/50/200, MACD-Histogramm leicht positiv, RSI14 61), doch der Wochentrend steht seit 37 Wochen seitwaerts und der Kurs klebt knapp unter dem Widerstand 1,3539 ohne Volumenbestaetigung (volume_ratio null). Das Makro stuetzt keine GBP-Staerke: EUR/USD woechentlich abwaerts signalisiert einen festen USD, Gold und NQ100 laufen ebenfalls abwaerts. Der Forex-Track-Record ist mit avg_R -0,43 klar negativ, daher ist FLAT ohne stimmigen Ausbruch die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

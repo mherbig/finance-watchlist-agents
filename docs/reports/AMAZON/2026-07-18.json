@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 247.23,
+    "change_pct": -1.06447,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 247.23,
+    "change_pct": -1.0644683660810743,
+    "sma20": 242.0565,
+    "sma50": 252.133,
+    "sma200": 234.0625,
+    "rsi14": 67.43,
+    "macd": {
+      "macd": 0.5921,
+      "signal": -0.9836,
+      "hist": 1.5757
+    },
+    "atr14": 7.55,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -10.09,
+    "pct_from_low": 24.37,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 254.96
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 247.23
+    },
+    "volume_ratio": 0.71
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Tagestrend 'side' mit neutralem Bias, Wochentrend 'down', der Schluss bei 247,23 liegt nach -1,06% weiter unter der SMA50 (252,13), waehrend RSI 67 bereits erhoeht ist. Der positive MACD-Cross (hist 1,58) wird durch ein Volumen-Verhaeltnis von nur 0,71 kaum bestaetigt, und das Makro-Umfeld ist tech-seitig schwach (NQ100 down, S&P500 -1,01%). Da weder ein stimmig bullisches noch bearisches Setup vorliegt und die Konviktionsstufe 3 im Track Record klar negativ laeuft (avg_R -0,30), bleibt es bei FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24562.24,
+    "change_pct": -1.7848,
+    "currency": "HKD"
+  },
+  "technical": {
+    "last_close": 24562.240234375,
+    "change_pct": -1.7848235485871538,
+    "sma20": 23741.3839,
+    "sma50": 24766.4297,
+    "sma200": 25797.63,
+    "rsi14": 75.88,
+    "macd": {
+      "macd": 14.8413,
+      "signal": -205.1746,
+      "hist": 220.016
+    },
+    "atr14": 509.0292,
+    "high_52w": 27968.08984375,
+    "low_52w": 22671.859375,
+    "pct_from_high": -12.18,
+    "pct_from_low": 8.34,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25008.5996
+      },
+      {
+        "type": "support",
+        "price": 22671.8594
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 24562.240234375
+    },
+    "volume_ratio": 1.0
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 76",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend seitwaerts, der Kurs (24562) liegt unter SMA50 (24766) und SMA200 (25798) - kein stimmig bullisches Bild, zumal der Tag mit -1,78 Prozent direkt unter der Resistance 25009 abverkauft wurde, waehrend RSI 75,9 ueberkauft und das Volumen nur durchschnittlich (Ratio 1,0) ist. Ein SHORT scheidet aus, weil das MACD-Histogramm mit +220 klar positiv bleibt und der Kurs 8,3 Prozent ueber dem 52W-Tief steht. Risk-off-Makro (NQ100 down, S&P -1,0 Prozent) und die deutlich negative Index-Trefferquote (avg_R -0,58) sprechen zusaetzlich fuer Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

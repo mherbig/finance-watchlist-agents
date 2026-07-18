@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.4718,
+    "change_pct": -0.023309529,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.4718,
+    "change_pct": -0.023309529359411538,
+    "sma20": 0.4646,
+    "sma50": 0.4631,
+    "sma200": 0.4619,
+    "rsi14": 92.26,
+    "macd": {
+      "macd": 0.0031,
+      "signal": 0.0021,
+      "hist": 0.001
+    },
+    "atr14": 0.0024,
+    "high_52w": 0.47254,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.16,
+    "pct_from_low": 5.26,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4725
+      },
+      {
+        "type": "support",
+        "price": 0.4579
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.4718
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 92",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bullisch (Wochentrend seit 37 Wochen aufwaerts, Kurs ueber SMA20/50/200, MACD-Histogramm positiv), aber der RSI14 von 92 ist extrem ueberkauft und der Kurs von 0.4718 klebt unmittelbar am Widerstand 0.4725 bzw. am 52W-Hoch 0.47254. Ein Long am Ausbruchspunkt ohne Volumenbestaetigung (volume_ratio nicht verfuegbar) hat ein schlechtes Chance-Risiko-Verhaeltnis, ein Short gegen den intakten Wochentrend ist nicht zu rechtfertigen. Bei diesem Widerspruch und der negativen Forex-Bilanz (avg_R -0.43) bleibe ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

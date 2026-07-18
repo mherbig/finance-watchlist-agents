@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 47.07,
+    "change_pct": 4.20633,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 47.07,
+    "change_pct": 4.206331636041617,
+    "sma20": 44.3935,
+    "sma50": 44.4448,
+    "sma200": 55.4469,
+    "rsi14": 61.17,
+    "macd": {
+      "macd": 0.2845,
+      "signal": -0.0628,
+      "hist": 0.3472
+    },
+    "atr14": 1.5457,
+    "high_52w": 101.71,
+    "low_52w": 40.92,
+    "pct_from_high": -53.72,
+    "pct_from_low": 15.03,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.07
+      },
+      {
+        "type": "support",
+        "price": 41.93
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 47.07
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagesschub von +4,2% auf 47,07 hebt den Kurs zwar ueber SMA20/50 (44,39/44,44) mit RSI 61 und frischem positivem MACD-Histogramm (+0,35), doch der Schlusskurs steht exakt am Widerstand 47,07 und es fehlt jede Volumenbestaetigung (volume_ratio null). Dem steht ein seit 36 Wochen abwaertsgerichteter Wochentrend, ein Abstand von -53,7% zum 52W-Hoch und eine weit entfernte SMA200 bei 55,45 entgegen; auch das Krypto-Makro ist mit BTC-Wochentrend down nicht stuetzend. Bei klar negativer Krypto-Trefferbilanz (avg_R -0,45) reicht der Ausbruchsversuch nicht fuer LONG, waehrend die laufende kurzfristige Aufwaertsdynamik ein SHORT verbietet.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

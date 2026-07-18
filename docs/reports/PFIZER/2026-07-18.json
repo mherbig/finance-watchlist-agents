@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25.049999,
+    "change_pct": -0.35799584,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 25.049999,
+    "change_pct": -0.35799920445505523,
+    "sma20": 24.383,
+    "sma50": 25.2718,
+    "sma200": 25.8873,
+    "rsi14": 60.05,
+    "macd": {
+      "macd": -0.1753,
+      "signal": -0.3433,
+      "hist": 0.1679
+    },
+    "atr14": 0.5264,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -12.26,
+    "pct_from_low": 7.56,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25.21
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 25.049999
+    },
+    "volume_ratio": 0.87
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristiges Momentum dreht nach oben (MACD-Hist +0.17 bei steigendem Signal, Kurs ueber SMA20 24.38, RSI 60), doch der Wochentrend bleibt abwaerts und der Kurs notiert unter SMA50 (25.27) und SMA200 (25.89) direkt am Widerstand 25.21. Der Anstieg kommt ohne Volumenbestaetigung (volume_ratio 0.87) und das Makro-Bild ist risk-off (NQ100 abwaerts, S&P500 -1.0 Prozent, XAU schwach). Weder ein stimmiges Long (gegen Wochentrend, unter den Langfrist-Durchschnitten) noch ein stimmiges Short (Momentum dreht gerade) - daher FLAT; der negative Track Record auf Konviktionsstufe 3 (avg_R -0.30) stuetzt die Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

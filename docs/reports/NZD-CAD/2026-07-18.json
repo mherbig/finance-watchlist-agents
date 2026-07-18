@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81898,
+    "change_pct": 0.023204973,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81893,
+    "change_pct": 0.01709840129948204,
+    "sma20": 0.8135,
+    "sma50": 0.8121,
+    "sma200": 0.8087,
+    "rsi14": 65.85,
+    "macd": {
+      "macd": 0.0027,
+      "signal": 0.002,
+      "hist": 0.0008
+    },
+    "atr14": 0.0046,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -0.88,
+    "pct_from_low": 4.18,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8214
+      },
+      {
+        "type": "support",
+        "price": 0.8059
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.81893
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist zwar intakt bullisch (Kurs 0,81898 ueber SMA20/50/200, MACD-Hist positiv, Wochentrend up seit 37 Wochen), doch der Kurs steht nur ~0,30% unter dem Widerstand 0,8214 und -0,88% unter dem 52W-Hoch, sodass ein neuer Long ohne Ausbruchsschlusskurs direkt in die Widerstandszone laeuft. Volumendaten fehlen (volume_ratio null), womit ein moeglicher Ausbruch unbestaetigt bliebe, und ein Short gegen den klaren Wochen- und Tagestrend ist unbegruendet. Da Forex im Track Record mit avg_R -0,43 klar negativ laeuft, ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

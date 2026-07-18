@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 358.56,
+    "change_pct": -1.80205,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 358.56,
+    "change_pct": -1.8020512186544595,
+    "sma20": 346.3005,
+    "sma50": 333.1024,
+    "sma200": 329.6278,
+    "rsi14": 65.97,
+    "macd": {
+      "macd": 8.3323,
+      "signal": 7.5756,
+      "hist": 0.7567
+    },
+    "atr14": 9.0986,
+    "high_52w": 365.14001,
+    "low_52w": 295.51999,
+    "pct_from_high": -1.8,
+    "pct_from_low": 21.33,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 365.14
+      },
+      {
+        "type": "support",
+        "price": 326.6
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 358.56
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt intakt bullisch (Kurs ueber SMA20/50/200, MACD positiv, Tages- und Wochentrend aufwaerts), doch der Abverkauf von -1.80% direkt unter dem 52-Wochen-Hoch und Widerstand 365.14 erfolgt bei unterdurchschnittlichem Volumen (volume_ratio 0.75) und RSI 66 ohne bullischen Trigger. Das Makro-Bild ist defensiv (NQ100 down/weekly down, S&P500 -1.01%), was ein Long an der Widerstandskante zusaetzlich belastet. Widerspruechliches Bild und Track Record der Stufe 3 negativ (avg_R -0.30) - disziplinkonform FLAT statt Ausbruchswette.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

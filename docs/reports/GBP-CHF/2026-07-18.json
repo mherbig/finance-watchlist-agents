@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/CHF",
+  "display": "GBP/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.08606,
+    "change_pct": -0.034056497,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.08606,
+    "change_pct": -0.034056496967129174,
+    "sma20": 1.081,
+    "sma50": 1.0718,
+    "sma200": 1.0605,
+    "rsi14": 70.96,
+    "macd": {
+      "macd": 0.0049,
+      "signal": 0.0049,
+      "hist": 0.0
+    },
+    "atr14": 0.0045,
+    "high_52w": 1.0904,
+    "low_52w": 1.03222,
+    "pct_from_high": -0.4,
+    "pct_from_low": 5.22,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.0904
+      },
+      {
+        "type": "support",
+        "price": 1.072
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 1.08606
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (37 Wochen) sind aufwaerts und der Kurs 1.08606 liegt ueber SMA20/50/200, doch die Dynamik ist erschoepft: RSI 70.96 ueberkauft, MACD-Histogramm exakt 0.0 (Linie und Signal bei 0.0049 gekreuzt) und nur 0.4% unter dem 52W-Hoch/Widerstand 1.0904 als naechster Deckel. Ein LONG waere ein Kauf direkt in den Widerstand ohne Volumenbestaetigung (volume_ratio null), ein SHORT liefe gegen den intakten Aufwaertstrend. Bei einer historisch klar negativen Forex-Klasse (avg_R -0.43) rechtfertigt dieses Bild kein neues Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

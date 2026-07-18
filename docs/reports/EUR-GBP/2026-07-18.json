@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.8505,
+    "change_pct": 0.01058313,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.85049,
+    "change_pct": 0.009407227102217634,
+    "sma20": 0.8534,
+    "sma50": 0.8598,
+    "sma200": 0.8661,
+    "rsi14": 29.87,
+    "macd": {
+      "macd": -0.0031,
+      "signal": -0.0031,
+      "hist": 0.0
+    },
+    "atr14": 0.0028,
+    "high_52w": 0.88308001,
+    "low_52w": 0.84671,
+    "pct_from_high": -3.69,
+    "pct_from_low": 0.45,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8613
+      },
+      {
+        "type": "support",
+        "price": 0.8467
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.85049
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 12,
+    "rationale": "Das Bild bleibt strukturell bearisch: Tages- und Wochentrend (37 Wochen) abwaerts, Kurs unter SMA20/50/200 und MACD negativ, gestuetzt durch den schwachen EUR/USD-Wochentrend. Gegen einen frischen Short spricht jedoch RSI14 bei 29.9 und die Notierung praktisch auf dem 52W-Tief (0.84671) bzw. der Unterstuetzung 0.8467 - dort ist das CRV schlecht, waehrend der MACD-Hist bei 0.0 nur eine Stabilisierung ohne Long-Bestaetigung zeigt. Bei negativer Forex-Bilanz (avg_R -0.43) bleibe ich flach statt eine Wette am Extrem einzugehen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

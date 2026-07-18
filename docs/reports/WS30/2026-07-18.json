@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52146.42,
+    "change_pct": -0.7736,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52146.421875,
+    "change_pct": -0.7735944984078563,
+    "sma20": 52305.7969,
+    "sma50": 51220.1247,
+    "sma200": 48764.1286,
+    "rsi14": 54.48,
+    "macd": {
+      "macd": 384.5682,
+      "signal": 481.7322,
+      "hist": -97.164
+    },
+    "atr14": 526.8463,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -1.71,
+    "pct_from_low": 19.63,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 51564.6992
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 52146.421875
+    },
+    "volume_ratio": 0.95
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend bleibt aufwaerts und SMA20/50/200 sind gestapelt, doch der Tagestrend ist side, der Kurs faellt -0,77% und steht nur 1,7% unter 52W-Hoch/Widerstand 53056, waehrend der MACD-Hist mit -97 weiter ins Negative dreht und das Volumen mit 0,95 unterdurchschnittlich bleibt. Das Makrobild stuetzt keinen Long: NQ100 taeglich und woechentlich down, S&P500 -1,01%, GER40 -0,34%, alle Leitmaerkte rot. Die Index-Klasse laeuft im Track Record klar negativ (avg_R -0,58, 4 SL, kein einziger TP), daher diszipliniert FLAT statt Market-Einstieg direkt unter der Range-Obergrenze.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

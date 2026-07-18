@@ -1,0 +1,67 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.25,
+    "change_pct": 1.3352,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 21.25,
+    "change_pct": 1.3352441383590925,
+    "sma20": 21.284,
+    "sma50": 20.4201,
+    "sma200": 19.1289,
+    "rsi14": 39.71,
+    "macd": {
+      "macd": 0.165,
+      "signal": 0.2389,
+      "hist": -0.0739
+    },
+    "atr14": 0.3607,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.1899995803833,
+    "pct_from_high": -2.7,
+    "pct_from_low": 39.89,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 20.9
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 21.25
+    },
+    "volume_ratio": 0.72
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Wochentrend up und Kurs 21.25 ueber SMA50 (20.42) und SMA200 (19.13) nur -2.7% unter dem 52W-Hoch, aber der Tagestrend ist seitwaerts und das Momentum traegt nicht - RSI14 bei 39.7, MACD-Histogramm negativ (-0.07, Signal ueber MACD) und Kurs unter SMA20. Das Volumen bestaetigt nichts (volume_ratio 0.72, unterdurchschnittlich), der Abstand zum Support 20.90 ist duenn, und das Makro-Bild ist weich (NQ100 down, S&P500/GER40 side). Track Record der Konviktionsstufe 3 laeuft mit avg_R -0.30 negativ, daher kein tragfaehiges Setup in eine Richtung: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

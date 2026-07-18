@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 341.10001,
+    "change_pct": -0.59740284,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 341.10001,
+    "change_pct": -0.5974005711030342,
+    "sma20": 335.09,
+    "sma50": 318.2116,
+    "sma200": 309.7664,
+    "rsi14": 62.33,
+    "macd": {
+      "macd": 6.6227,
+      "signal": 6.5924,
+      "hist": 0.0302
+    },
+    "atr14": 7.7721,
+    "high_52w": 346.91,
+    "low_52w": 282.84,
+    "pct_from_high": -1.67,
+    "pct_from_low": 20.6,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 346.91
+      },
+      {
+        "type": "support",
+        "price": 325.22
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 341.10001
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Der uebergeordnete Aufwaertstrend ist intakt (Tages- und Wochentrend auf, Kurs ueber SMA20/50/200, RSI 62.3), doch das Momentum laeuft aus: Das MACD-Histogramm ist auf +0.03 zusammengeschmolzen und der Kurs steht nur 1.67% unter dem Widerstand bei 346.91 (52W-Hoch), also mit minimalem Spielraum nach oben. Zusaetzlich fehlt die Bestaetigung durch Volumen (volume_ratio 0.82) und das Makrobild ist schwach (NQ100 Tages- und Wochentrend abwaerts, S&P500 -1.01%). In Kombination mit dem negativen Track Record der Konviktionsstufe 3 (avg_R -0.30) rechtfertigt das keinen neuen Einstieg direkt unter dem Widerstand.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 201.12387,
+    "change_pct": 0.014634915,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 201.12387,
+    "change_pct": 0.014634914819136303,
+    "sma20": 200.7512,
+    "sma50": 200.8752,
+    "sma200": 200.9195,
+    "rsi14": 51.96,
+    "macd": {
+      "macd": 0.0601,
+      "signal": -0.043,
+      "hist": 0.1031
+    },
+    "atr14": 0.8801,
+    "high_52w": 204.14273,
+    "low_52w": 189.55299,
+    "pct_from_high": -1.48,
+    "pct_from_low": 6.1,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.3999
+      },
+      {
+        "type": "support",
+        "price": 199.3915
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 201.12387
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kein stimmiges Bild: Tagestrend seitwaerts, Bias neutral, RSI 51.96 richtungslos und SMA20/50/200 liegen mit 200.75/200.88/200.92 praktisch aufeinander - eine klassische Kompression ohne Vorzeichen. Der Kurs 201.12 klemmt direkt unter dem Widerstand 201.40, waehrend der Wochentrend seit 37 Wochen abwaerts zeigt; ein Long liefe damit gegen den Wochentrend, und eine Volumenbestaetigung fehlt komplett (volume_ratio null). Bei negativer Forex-Bilanz (avg_R -0.43) und ebenfalls negativer Konviktion-3-Statistik (avg_R -0.30) rechtfertigt allein das leicht positive MACD-Histogramm (+0.1031) keine Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

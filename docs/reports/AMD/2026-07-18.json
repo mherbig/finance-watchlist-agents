@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T21:23:14.144295+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 495.76001,
+    "change_pct": -1.034055,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 495.76001,
+    "change_pct": -1.0340539785203768,
+    "sma20": 533.019,
+    "sma50": 499.084,
+    "sma200": 296.6862,
+    "rsi14": 46.02,
+    "macd": {
+      "macd": 7.3791,
+      "signal": 15.2985,
+      "hist": -7.9194
+    },
+    "atr14": 40.6964,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -14.66,
+    "pct_from_low": 228.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 495.76
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 495.76001
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-18T21:31:34.270112+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs 495,76 liegt klar unter SMA20 (533,02) und knapp unter SMA50 (499,08), das MACD-Histogramm ist negativ (-7,92), Tages- und Wochentrend beide 'side', RSI 46 und Bias neutral - fuer einen frischen Long am Ende eines -1,03%-Tages fehlt das stimmig bullische Bild. Ein Short verbietet sich ebenso, da der Langfrist-Aufbau ueber SMA200 (296,69) intakt ist und das Volumen mit 1,1 keinen ueberzeugenden Abwaertsschub zeigt. Makro stuetzt mit NQ100 (Trend und Wochentrend down) nur leicht die Bearseite, und Konviktionsstufe 3 laeuft im Track Record mit avg_R -0,30 negativ - daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

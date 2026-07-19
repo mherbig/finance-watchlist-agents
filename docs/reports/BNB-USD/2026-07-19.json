@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 569.74,
+    "change_pct": -0.15946727,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 569.74,
+    "change_pct": -0.15946727416103884,
+    "sma20": 571.5005,
+    "sma50": 587.2822,
+    "sma200": 664.3072,
+    "rsi14": 35.1,
+    "macd": {
+      "macd": -3.5968,
+      "signal": -4.7282,
+      "hist": 1.1314
+    },
+    "atr14": 13.6971,
+    "high_52w": 952.86,
+    "low_52w": 546.52,
+    "pct_from_high": -40.21,
+    "pct_from_low": 4.25,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 589.87
+      },
+      {
+        "type": "support",
+        "price": 546.52
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 569.74
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend zeigt seit 36 Wochen abwaerts und der Kurs 569,74 notiert unter SMA20 (571,50), SMA50 (587,28) und SMA200 (664,31) bei RSI 35,1 - ein klar bearisches Bild, das jedoch nur 4,3% ueber dem mehrjaehrigen Support 546,52 steht und einem SHORT ein schlechtes Chance-Risiko-Verhaeltnis gibt. Gegen einen LONG sprechen der intakte Abwaertstrend und die fehlende Volumenbestaetigung (volume_ratio nicht verfuegbar), auch wenn das MACD-Histogramm mit +1,13 leicht ins Positive dreht. Schwaches Krypto-Makro (BTC-Wochentrend abwaerts) und der negative Track Record der Klasse Crypto (avg_R -0,45, 0 TP bei 2 SL) untermauern die Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

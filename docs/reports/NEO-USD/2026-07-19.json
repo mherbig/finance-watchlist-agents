@@ -1,0 +1,67 @@
+{
+  "symbol": "NEO/USD",
+  "display": "NEO/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.077,
+    "change_pct": 3.69446,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.077,
+    "change_pct": 3.694458312531195,
+    "sma20": 1.9617,
+    "sma50": 2.103,
+    "sma200": 2.7705,
+    "rsi14": 59.13,
+    "macd": {
+      "macd": -0.0324,
+      "signal": -0.0583,
+      "hist": 0.0259
+    },
+    "atr14": 0.0756,
+    "high_52w": 4.999,
+    "low_52w": 1.882,
+    "pct_from_high": -58.45,
+    "pct_from_low": 10.36,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.077
+      },
+      {
+        "type": "support",
+        "price": 1.882
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 2.077
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 36 Wochen abwaerts und der Kurs (2,077) notiert weiter unter SMA50 (2,103) und klar unter SMA200 (2,771), rund 58% unter dem 52W-Hoch; der Tagestrend ist seitwaerts, RSI 59 neutral-freundlich und der MACD trotz positivem Histogramm noch negativ. Das Tagesplus von 3,7% endet exakt am ausgewiesenen Widerstand 2,077, und volume_ratio fehlt, sodass ein Ausbruch unbestaetigt bleibt. Makro stuetzt nicht (BTC/USD Wochentrend abwaerts, NQ100 abwaerts), und Krypto laeuft im Track Record mit avg_R -0,45 klar negativ — daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 64542.0,
+    "change_pct": -0.45071877,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 64542.0,
+    "change_pct": -0.45071877166101665,
+    "sma20": 63177.279,
+    "sma50": 63412.8822,
+    "sma200": 73087.8229,
+    "rsi14": 54.03,
+    "macd": {
+      "macd": 228.7545,
+      "signal": -84.3866,
+      "hist": 313.1411
+    },
+    "atr14": 1675.4829,
+    "high_52w": 101654.37,
+    "low_52w": 58624.71,
+    "pct_from_high": -36.51,
+    "pct_from_low": 10.09,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 65043.98
+      },
+      {
+        "type": "support",
+        "price": 58624.71
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 64542.0
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 64542 prallt direkt am Widerstand 65044 ab, liegt 36,5% unter dem 52W-Hoch und deutlich unter der SMA200 (73088), waehrend der Wochentrend seit 36 Wochen abwaerts zeigt. Bullisch ist nur das positive MACD-Histogramm (+313) bei neutralem RSI 54 und Tagestrend seitwaerts, eine Volumenbestaetigung fehlt vollstaendig (volume_ratio null). Das Makro-Bild ist risk-off (NQ100 abwaerts, S&P500 -1,0%, Gold RSI 32) und die Krypto-Klasse laeuft im Track Record klar negativ (avg_R -0,45) - kein Einstieg gegen den Wochentrend.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

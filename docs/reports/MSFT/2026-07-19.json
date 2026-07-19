@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 393.82001,
+    "change_pct": -1.81501,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 393.82001,
+    "change_pct": -1.8150086807527062,
+    "sma20": 381.1575,
+    "sma50": 401.5116,
+    "sma200": 439.3485,
+    "rsi14": 63.93,
+    "macd": {
+      "macd": -1.021,
+      "signal": -4.2613,
+      "hist": 3.2402
+    },
+    "atr14": 11.4607,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -27.35,
+    "pct_from_low": 11.62,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 401.1
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 393.82001
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT schliesst bei 393,82 mit -1,82% unter SMA50 (401,5) und deutlich unter SMA200 (439,3), der Wochentrend ist abwaerts und der Tagestrend nur seitwaerts. Das drehende MACD-Histogramm (+3,24) und RSI 63,9 zeigen zwar Erholungsansaetze, doch der Widerstand bei 401,1 liegt unmittelbar darueber und das schwache Volumen (Ratio 0,70) traegt keinen Ausbruch. Makro stuetzt kein Long (NQ100 abwaerts, S&P500 seitwaerts, beide negativ am Tag), daher kein stimmiges Setup in eine Richtung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

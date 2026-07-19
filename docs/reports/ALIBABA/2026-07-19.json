@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.97,
+    "change_pct": -2.14486,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 114.97,
+    "change_pct": -2.1448633926291567,
+    "sma20": 104.6645,
+    "sma50": 118.438,
+    "sma200": 144.1765,
+    "rsi14": 84.33,
+    "macd": {
+      "macd": -0.007,
+      "signal": -2.8243,
+      "hist": 2.8172
+    },
+    "atr14": 3.9679,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -39.28,
+    "pct_from_low": 21.26,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 117.69
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 114.97
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 84",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: RSI14 bei 84.3 ist extrem ueberkauft, der Kurs prallt mit -2.14% auf unterdurchschnittlichem Volumen (Ratio 0.75) direkt unter dem Widerstand 117.69 ab und notiert weiterhin unter SMA50 (118.44) und weit unter SMA200 (144.18) - ein Long waere reines Chasing. Ein Short verbietet sich zugleich, da das MACD-Histogramm mit +2.82 klar positiv ist und der Kurs deutlich ueber SMA20 (104.66) liegt, waehrend Tages- und Wochentrend 'side' sowie der Bias 'neutral' sind. Bei defensivem Makro (NQ100 Tages- und Wochentrend 'down', S&P500 -1.01%) und negativem avg_R der Konviktionsstufe 3 (-0.30) ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

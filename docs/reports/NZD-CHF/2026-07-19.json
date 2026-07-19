@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47112,
+    "change_pct": -0.15047793,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47112,
+    "change_pct": -0.15047792637179574,
+    "sma20": 0.4652,
+    "sma50": 0.4632,
+    "sma200": 0.4619,
+    "rsi14": 88.07,
+    "macd": {
+      "macd": 0.003,
+      "signal": 0.0023,
+      "hist": 0.0008
+    },
+    "atr14": 0.0025,
+    "high_52w": 0.47254,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.3,
+    "pct_from_low": 5.11,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4725
+      },
+      {
+        "type": "support",
+        "price": 0.4579
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.47112
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 88",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell bleibt das Bild bullisch: Wochentrend seit 38 Wochen aufwaerts, Kurs ueber SMA20/50/200, MACD-Histogramm positiv. Dem steht ein extrem ueberkaufter RSI14 von 88 gegenueber, wobei der Kurs mit 0.47112 direkt unter dem Widerstand 0.4725 bzw. dem 52W-Hoch 0.47254 stockt und der Tag leicht negativ schloss. Ein Long genau am unbestaetigten Ausbruchspunkt ohne Volumenbestaetigung ist bei negativer Forex-Bilanz (avg_R -0.42) kein gutes Chance-Risiko-Verhaeltnis, ein Short gegen den intakten Wochentrend nicht begruendbar.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

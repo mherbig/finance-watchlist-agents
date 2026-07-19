@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.93128,
+    "change_pct": 0.10781671,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.93128,
+    "change_pct": 0.10781671159030073,
+    "sma20": 1.9274,
+    "sma50": 1.9102,
+    "sma200": 1.9167,
+    "rsi14": 56.93,
+    "macd": {
+      "macd": 0.0053,
+      "signal": 0.0063,
+      "hist": -0.001
+    },
+    "atr14": 0.0073,
+    "high_52w": 2.04069,
+    "low_52w": 1.85611,
+    "pct_from_high": -5.36,
+    "pct_from_low": 4.05,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9323
+      },
+      {
+        "type": "support",
+        "price": 1.9202
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.93128
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen beide aufwaerts, der Kurs 1.93128 notiert ueber SMA20 (1.9274), SMA50 (1.9102) und SMA200 (1.9167) und RSI 56.9 laesst nach oben Luft. Das leicht negative MACD-Histogramm (-0.001) ist gegenueber ATR14 0.0073 Rauschen, dennoch liegt der Widerstand 1.9323 unmittelbar ueber dem Kurs, was das Aufwaertspotenzial kurzfristig deckelt. Das schwache Makrobild (NQ100 und XAU abwaerts) und die negative Forex-Bilanz im Track Record (avg_R -0.42) begrenzen die Konviktion auf 3.",
+    "entry": 1.9313,
+    "stop_loss": 1.9195,
+    "take_profit": 1.949,
+    "take_profit_2": 1.9323,
+    "rr": 1.5
+  }
+}

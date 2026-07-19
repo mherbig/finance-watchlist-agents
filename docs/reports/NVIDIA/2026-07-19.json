@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 202.81,
+    "change_pct": -2.21311,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 202.81,
+    "change_pct": -2.21311003920492,
+    "sma20": 202.125,
+    "sma50": 209.9148,
+    "sma200": 192.395,
+    "rsi14": 58.91,
+    "macd": {
+      "macd": 0.1241,
+      "signal": -1.0539,
+      "hist": 1.178
+    },
+    "atr14": 7.3471,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -13.97,
+    "pct_from_low": 22.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 212.5
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 202.81
+    },
+    "volume_ratio": 1.0
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Der Kurs (202,81) liegt unter der SMA50 (209,91), der Tagestrend ist 'side' bei neutralem Bias, und der Wochentrend zeigt klar 'down' - dazu ein scharfer Abgabetag von -2,21%. Bullisch sind lediglich das positive MACD-Histogramm (+1,18) und RSI 59 ueber der SMA200, doch das Volumenverhaeltnis von exakt 1,0 liefert keinerlei Bestaetigung. Das Tech-Makro stuetzt nicht (NQ100 Tages- und Wochentrend down, S&P500 -1,01%), und die Trefferquote bei Konviktion 3 ist negativ (avg_R -0,30), daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

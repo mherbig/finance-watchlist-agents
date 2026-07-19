@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1866.33,
+    "change_pct": 0.19971975,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1866.33,
+    "change_pct": 0.19971974809541598,
+    "sma20": 1783.932,
+    "sma50": 1736.5292,
+    "sma200": 2184.9983,
+    "rsi14": 59.61,
+    "macd": {
+      "macd": 37.7324,
+      "signal": 25.0773,
+      "hist": 12.6551
+    },
+    "atr14": 66.3543,
+    "high_52w": 3413.53003,
+    "low_52w": 1567.5,
+    "pct_from_high": -45.33,
+    "pct_from_low": 19.06,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1917.86
+      },
+      {
+        "type": "support",
+        "price": 1572.01
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 1866.33
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tageschart ist konstruktiv (Trend up, RSI 59,6, MACD-Hist +12,7, Kurs 1866 ueber SMA20/50), doch der Wochentrend ist seitwaerts und der Kurs notiert rund 45% unter dem 52W-Hoch sowie klar unter der SMA200 (2185), mit dem Widerstand bei 1917,86 direkt darueber. Eine Volumenbestaetigung fehlt (volume_ratio null) und das Makrobild stuetzt keinen frischen Krypto-Long: BTC/USD im Wochentrend abwaerts, NQ100 down, XAU down. Die Krypto-Klasse laeuft im Track Record deutlich negativ (avg_R -0,45), daher kein Einstieg in ein nicht-trendiges Bild.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

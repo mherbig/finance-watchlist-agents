@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/USD",
+  "display": "EUR/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.14307,
+    "change_pct": -0.0078729137,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.14307,
+    "change_pct": -0.00787291367786867,
+    "sma20": 1.1426,
+    "sma50": 1.1472,
+    "sma200": 1.1638,
+    "rsi14": 47.61,
+    "macd": {
+      "macd": -0.0008,
+      "signal": -0.0015,
+      "hist": 0.0006
+    },
+    "atr14": 0.0041,
+    "high_52w": 1.19773,
+    "low_52w": 1.13586,
+    "pct_from_high": -4.56,
+    "pct_from_low": 0.63,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1463
+      },
+      {
+        "type": "support",
+        "price": 1.1379
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.14307
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (1,14307) klebt an der SMA20 (1,1426), liegt aber klar unter SMA50 (1,1472) und SMA200 (1,1638); Tagestrend seitwaerts, Bias neutral, RSI 47,6 und ein negativer MACD (-0,0008) trotz leicht positivem Histogramm ergeben kein stimmiges Richtungsbild. Der Wochentrend ist seit 38 Wochen abwaerts gerichtet, was einen Long verbietet, waehrend die Naehe zum 52-Wochen-Tief (+0,63 Prozent) ohne Volumenbestaetigung (volume_ratio null) auch keinen belastbaren Short-Ausbruch hergibt. Da Forex im Track Record mit avg_R -0,42 deutlich negativ laeuft, ist Abwarten in der Range zwischen Support 1,1379 und Widerstand 1,1463 die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 47.47,
+    "change_pct": 0.97851521,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 47.47,
+    "change_pct": 0.978515209529889,
+    "sma20": 44.604,
+    "sma50": 44.344,
+    "sma200": 55.2997,
+    "rsi14": 58.84,
+    "macd": {
+      "macd": 0.4598,
+      "signal": 0.041,
+      "hist": 0.4188
+    },
+    "atr14": 1.4729,
+    "high_52w": 101.71,
+    "low_52w": 40.92,
+    "pct_from_high": -53.33,
+    "pct_from_low": 16.01,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.47
+      },
+      {
+        "type": "support",
+        "price": 41.93
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 47.47
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristig ist das Bild freundlich: Schluss 47,47 ueber SMA20/50 (44,60/44,34), RSI 58,8 und positives MACD-Histogramm (+0,42) bei Tagestrend up. Der Schlusskurs klebt jedoch exakt am ausgewiesenen Widerstand 47,47, eine Volumenbestaetigung fehlt vollstaendig (volume_ratio null), der Wochentrend ist lediglich seitwaerts und die SMA200 bei 55,30 sowie -53,3% zum 52W-Hoch belegen den intakten uebergeordneten Abwaertsdruck. Mit BTC-Wochentrend down und klar negativer Krypto-Bilanz (avg_R -0,45) reicht der Ausbruchsversuch nicht fuer LONG, waehrend die laufende Aufwaertsdynamik ein SHORT ausschliesst.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 56.326,
+    "change_pct": 0.7657,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 56.32600021362305,
+    "change_pct": 0.7656828740234725,
+    "sma20": 59.737,
+    "sma50": 68.8497,
+    "sma200": 69.3629,
+    "rsi14": 41.94,
+    "macd": {
+      "macd": -3.1499,
+      "signal": -3.2376,
+      "hist": 0.0877
+    },
+    "atr14": 2.2599,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -51.05,
+    "pct_from_low": 54.1,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 66.255
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 56.32600021362305
+    },
+    "volume_ratio": 8.12
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 42",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das uebergeordnete Bild bleibt bearisch: Kurs 56,33 notiert unter SMA20 (59,74), SMA50 (68,85) und SMA200 (69,36), Tages- und Wochentrend zeigen abwaerts, und das Makro-Umfeld der Edelmetalle ist schwach (XAU Trend down, RSI 33). Ein neuer Short scheitert jedoch am Chance-Risiko direkt auf der Unterstuetzung 55,90, wo der MACD mit positivem Histogramm (+0,09) ueber die Signallinie dreht und ein extremes Volumen (Ratio 8,12) auf eine Kapitulations- bzw. Reversal-Kerze hindeutet; ein Long liefe zugleich klar gegen den dominanten Wochentrend. Bei diesem Widerspruch und dem negativen Track Record (Metall avg_R -0,09, Konviktion 3 avg_R -0,30) bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 218.52058,
+    "change_pct": 0.010091601,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 218.52058,
+    "change_pct": 0.010091601073932732,
+    "sma20": 217.1498,
+    "sma50": 215.3646,
+    "sma200": 213.0954,
+    "rsi14": 60.66,
+    "macd": {
+      "macd": 1.039,
+      "signal": 0.9528,
+      "hist": 0.0861
+    },
+    "atr14": 0.9256,
+    "high_52w": 219.60676,
+    "low_52w": 199.94701,
+    "pct_from_high": -0.49,
+    "pct_from_low": 9.29,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 219.6068
+      },
+      {
+        "type": "support",
+        "price": 215.0609
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 218.52058
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell bleibt das Bild bullisch: Kurs ueber SMA20/50/200, Tages- und Wochentrend seit 38 Wochen aufwaerts, MACD ueber Signal. Ein Market-Einstieg zum Tagesschluss bei 218.52 kauft jedoch direkt in die Widerstandszone 219.61 (nur -0.49% bzw. gut eine ATR entfernt), waehrend das MACD-Histogramm auf 0.0861 abflacht und der RSI bei praktisch unveraendertem Kurs von 67.8 auf 60.66 nachgibt - Momentum laesst nach, Volumenbestaetigung fehlt komplett. Bei risk-off-lastigem Makro (NQ100 abwaerts, XAU schwach) und klar negativem Forex-Track-Record (avg_R -0.42 ueber 420 Signale) bleibe ich FLAT statt den Ausbruch am 52W-Hoch zu jagen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.68897,
+    "change_pct": -0.11013428,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.68897,
+    "change_pct": -0.1101342847078844,
+    "sma20": 93.3724,
+    "sma50": 93.0157,
+    "sma200": 92.82,
+    "rsi14": 78.08,
+    "macd": {
+      "macd": 0.6397,
+      "signal": 0.4408,
+      "hist": 0.1989
+    },
+    "atr14": 0.5589,
+    "high_52w": 95.37972,
+    "low_52w": 86.312,
+    "pct_from_high": -0.72,
+    "pct_from_low": 9.71,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 94.9001
+      },
+      {
+        "type": "support",
+        "price": 91.8227
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 94.68897
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend ist intakt (Wochentrend seit 38 Wochen up, Kurs ueber SMA20/50/200, MACD-Hist +0,20), doch der Kurs steht mit 94,69 unmittelbar unter dem Widerstand 94,90 und nur -0,72% unter dem 52-Wochen-Hoch, waehrend RSI 78,1 stark ueberkauft ist, der Bias neutral bleibt und keine Volumenbestaetigung vorliegt. Das Makro-Bild ist fuer die Carry-/Risk-on-Waehrung NZD/JPY eher risk-off (NQ100 down, S&P500 -1,01% und GER40 seitwaerts, XAU down), sodass ein Long direkt am Widerstand ein schlechtes Chance-Risiko-Verhaeltnis bietet und ein Short dem Trend widerspraeche. Die negative Forex-Bilanz (avg_R -0,42) stuetzt die Zurueckhaltung; abzuwarten ist ein bestaetigter Ausbruch ueber 94,90 oder ein Ruecksetzer Richtung 91,82.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

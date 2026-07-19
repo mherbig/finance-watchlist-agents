@@ -1,0 +1,67 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 91.13,
+    "change_pct": -1.92639,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 91.13,
+    "change_pct": -1.9263882910030201,
+    "sma20": 87.953,
+    "sma50": 95.6202,
+    "sma200": 87.5712,
+    "rsi14": 61.1,
+    "macd": {
+      "macd": -0.5787,
+      "signal": -1.5974,
+      "hist": 1.0187
+    },
+    "atr14": 3.1345,
+    "high_52w": 111.88,
+    "low_52w": 69.77,
+    "pct_from_high": -18.55,
+    "pct_from_low": 30.61,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 92.92
+      },
+      {
+        "type": "support",
+        "price": 82.88
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 91.13
+    },
+    "volume_ratio": 0.73
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (91,13) haelt sich zwar ueber SMA20 (87,95) und SMA200 (87,57), scheitert aber klar unter der SMA50 (95,62) und stoesst direkt an den Widerstand bei 92,92 - bei einem Tagesverlust von -1,9% und weiterhin abwaertsgerichtetem Wochentrend. RSI 61 und das positiv gedrehte MACD-Histogramm (+1,02) bei negativem MACD ergeben kein tragfaehiges Long-Setup, zumal das Volumenverhaeltnis von 0,73 jeden Ausbruchsversuch entkraeftet. Das schwache Tech-Makro (NQ100 Tages- und Wochentrend abwaerts, S&P500 -1,0%) und die negative Bilanz hoeherer Konviktionsstufen sprechen fuer Abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

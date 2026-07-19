@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 376.82999,
+    "change_pct": -1.50295,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 376.82999,
+    "change_pct": -1.5029536698978951,
+    "sma20": 370.3725,
+    "sma50": 354.3892,
+    "sma200": 367.7226,
+    "rsi14": 56.12,
+    "macd": {
+      "macd": 6.4926,
+      "signal": 7.0797,
+      "hist": -0.5871
+    },
+    "atr14": 8.2807,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -27.2,
+    "pct_from_low": 19.77,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 376.82999
+    },
+    "volume_ratio": 0.69
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend stehen zwar auf up und der Kurs (376.83) haelt sich ueber SMA20/50/200, doch das Momentum kippt: MACD-Histogramm negativ (-0.59), Tagesverlust -1.5% und ein Volumen-Ratio von 0.69 ohne Kaeuferdruck. Das Makro-Bild stuetzt nicht — NQ100 abwaerts, S&P500 und GER40 seitwaerts, alle Wochentrends side oder down — und der Kurs notiert weiter 27% unter dem 52-Wochen-Hoch. Da die Konviktionsstufe 3 im Track Record klar negativ laeuft (avg_R -0.30) und die stock-Klasse nur neutral (+0.01), ist der Widerspruch zwischen intaktem Trend und schwachem Momentum kein Setup: kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

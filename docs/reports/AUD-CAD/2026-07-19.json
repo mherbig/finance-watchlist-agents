@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.9771,
+    "change_pct": -0.026602276,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.9771,
+    "change_pct": -0.026602275517725097,
+    "sma20": 0.9823,
+    "sma50": 0.9842,
+    "sma200": 0.9692,
+    "rsi14": 27.32,
+    "macd": {
+      "macd": -0.0016,
+      "signal": -0.001,
+      "hist": -0.0006
+    },
+    "atr14": 0.0039,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.79,
+    "pct_from_low": 7.54,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9771
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.9771
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 27",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind klar down (38 Wochen), Kurs 0.9771 unter SMA20 (0.9823) und SMA50 (0.9842), MACD negativ mit fallendem Histogramm — das spricht grundsaetzlich fuer die Short-Seite. Dagegen steht ein Short-Einstieg genau am Support 0.9771 bei RSI 27.3 (ueberverkauft) und noch klar ueber der SMA200 (0.9692), also an der ungeeignetsten Stelle fuer neue Abwaertspositionen. Track Record laeuft in Forex (avg_R -0.42) und auf Konviktionsstufe 3 (avg_R -0.30) negativ, daher kein Nachlaufen des Impulses, sondern FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

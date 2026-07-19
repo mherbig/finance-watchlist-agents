@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:23:13.390015+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 346.76999,
+    "change_pct": -2.1695,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 346.76999,
+    "change_pct": -2.1694973246486855,
+    "sma20": 355.901,
+    "sma50": 370.587,
+    "sma200": 321.656,
+    "rsi14": 55.25,
+    "macd": {
+      "macd": -2.105,
+      "signal": -2.0561,
+      "hist": -0.0489
+    },
+    "atr14": 11.0664,
+    "high_52w": 402.62,
+    "low_52w": 189.13,
+    "pct_from_high": -13.87,
+    "pct_from_low": 83.35,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 370.92
+      },
+      {
+        "type": "support",
+        "price": 337.39
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 346.76999
+    },
+    "volume_ratio": 0.85
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-19T21:30:44.434149+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts mit bearischem Bias, der Kurs (346,77) liegt unter SMA20 (355,9) und SMA50 (370,6), aber klar ueber SMA200 (321,7); RSI 55 ist neutral und das MACD-Histogramm mit -0,05 praktisch flach. Der -2,2%-Tag lief auf unterdurchschnittlichem Volumen (Ratio 0,85) und stoppte direkt ueber der Unterstuetzung 337,39 — kein belastbares Short-Momentum, aber auch kein Long-Setup gegen den Wochentrend. Das schwache Makrobild (NQ100 taeglich und woechentlich abwaerts) neigt zur Short-Seite, reicht ohne Fundamental-/Analystenlage und bei negativem Track Record der Konviktionsstufe 3 (avg_R -0,30) jedoch nicht fuer eine Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

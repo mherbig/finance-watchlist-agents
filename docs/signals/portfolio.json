@@ -12,9 +12,9 @@
     "total_pnl": -5264.0093,
     "total_costs": 254.2569,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 510.5646,
-    "marked_equity": 95246.5553,
-    "marked_return_pct": -4.7534,
+    "unrealized_pnl": 474.1798,
+    "marked_equity": 95210.1705,
+    "marked_return_pct": -4.7898,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -569,9 +569,9 @@
       "units": 75912.7903,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.9771,
-      "unrealized_pct": 0.5395,
-      "unrealized_pnl": 402.3378
+      "current_price": 0.97809,
+      "unrealized_pct": 0.4387,
+      "unrealized_pnl": 327.1841
     },
     {
       "symbol": "EUR/JPY",
@@ -587,9 +587,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.68875,
-      "unrealized_pct": 0.2111,
-      "unrealized_pnl": 153.7022
+      "current_price": 185.69356,
+      "unrealized_pct": 0.2137,
+      "unrealized_pnl": 155.5919
     },
     {
       "symbol": "RACE",
@@ -659,9 +659,9 @@
       "units": 78466.4333,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.80826,
-      "unrealized_pct": -0.042,
-      "unrealized_pnl": -26.6786
+      "current_price": 0.80873,
+      "unrealized_pct": 0.0161,
+      "unrealized_pnl": 10.2006
     }
   ],
   "marked_curve": [
@@ -758,7 +758,7 @@
     {
       "date": "2026-07-20",
       "equity": 94735.9907,
-      "marked_equity": 95246.5553
+      "marked_equity": 95210.1705
     }
   ],
   "benchmark_curve": [
@@ -824,19 +824,19 @@
     },
     {
       "date": "2026-07-17",
-      "equity": 100146.0291
+      "equity": 100126.195
     },
     {
       "date": "2026-07-18",
-      "equity": 100305.1993
+      "equity": 100285.3652
     },
     {
       "date": "2026-07-19",
-      "equity": 100347.4659
+      "equity": 100358.8861
     },
     {
       "date": "2026-07-20",
-      "equity": 100343.0766
+      "equity": 100355.3228
     }
   ],
   "skipped": [

@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 97.090202,
+    "change_pct": 2.1572,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 97.090202,
+    "change_pct": 2.157197999187733,
+    "sma20": 117.6485,
+    "sma50": 116.9472,
+    "sma200": 64.4897,
+    "rsi14": 25.99,
+    "macd": {
+      "macd": -5.4102,
+      "signal": -2.0688,
+      "hist": -3.3414
+    },
+    "atr14": 8.7057,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -31.11,
+    "pct_from_low": 402.8,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 140.94
+      },
+      {
+        "type": "support",
+        "price": 95.04
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 97.090202
+    },
+    "volume_ratio": 0.68
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 26",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend abwaerts (53 Wochen) und stark negativer MACD (Hist -3,34) bei Kurs klar unter SMA20 (117,65)/SMA50 (116,95) liefern keinen Long-Case. Gegen einen frischen Short sprechen RSI 25,99 im tief ueberverkauften Bereich, der Kurs direkt am Support 95,04 mit heutigem +2,16%-Tag und ein unterdurchschnittliches Volumen (0,68) ohne Momentum-Nachschub in die ausgestreckte Abwaertsbewegung. Ohne qualitative Analyse-Sektion und bei uneinheitlichem Aktien-Makro (NQ100 down, S&P500/GER40 side) ueberwiegt der Widerspruch: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.9801,
+    "change_pct": 0.77992283,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 21.9801,
+    "change_pct": 0.7799174690509009,
+    "sma20": 21.5495,
+    "sma50": 23.0724,
+    "sma200": 25.3232,
+    "rsi14": 52.06,
+    "macd": {
+      "macd": -0.4014,
+      "signal": -0.6117,
+      "hist": 0.2102
+    },
+    "atr14": 0.6936,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -25.79,
+    "pct_from_low": 7.32,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 22.81
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 21.9801
+    },
+    "volume_ratio": 1.02
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts und RSI 52 neutral, Kurs 21,98 zwar ueber SMA20 (21,55), aber klar unter SMA50 (23,07) und SMA200 (25,32) bei weiterhin abwaertsgerichtetem Wochentrend (53 Wochen) - kein stimmig bullisches Bild fuer Long. Das MACD-Histogramm dreht nur leicht ins Plus (+0,21) und das Volumenverhaeltnis von 1,02 bestaetigt keinen Ausbruch, waehrend das Makro (S&P500 seitwaerts, NQ100 abwaerts) keine Rueckendeckung gibt. Ein Short direkt auf dem haltenden Support 20,48 knapp ueber dem Jahrestief ist unsauber, und da Konviktion 3 im Track Record negativ laeuft (avg_R -0,28), bleibt es bei FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

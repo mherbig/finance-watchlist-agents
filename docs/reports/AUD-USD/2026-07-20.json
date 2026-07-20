@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69999,
+    "change_pct": 0.010001143,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69999,
+    "change_pct": 0.010001142987772101,
+    "sma20": 0.6959,
+    "sma50": 0.6986,
+    "sma200": 0.7016,
+    "rsi14": 66.57,
+    "macd": {
+      "macd": 0.0005,
+      "signal": -0.0004,
+      "hist": 0.0009
+    },
+    "atr14": 0.0031,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -3.56,
+    "pct_from_low": 8.44,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7007
+      },
+      {
+        "type": "support",
+        "price": 0.6918
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69999
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 0.69999 drueckt gegen die Widerstands-Konfluenz aus 0.7007 und SMA200 (0.7016), waehrend RSI 66.6 bereits ueberhitzt und der Wochentrend seit 38 Wochen abwaerts laeuft. Das positive MACD-Histogramm (+0.0009) ist ein reiner Kurzfrist-Push gegen diesen Wochentrend, ohne Volumenbestaetigung (volume_ratio n/a) und gegen einen festen USD (EUR/USD Trend abwaerts). Bei klar negativer Forex-Bilanz (avg_R -0.41) ist Abwarten an dieser Zone die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

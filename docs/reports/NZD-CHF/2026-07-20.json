@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47289,
+    "change_pct": -0.046500814,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47289,
+    "change_pct": -0.046500813764240444,
+    "sma20": 0.466,
+    "sma50": 0.4634,
+    "sma200": 0.462,
+    "rsi14": 91.88,
+    "macd": {
+      "macd": 0.0033,
+      "signal": 0.0025,
+      "hist": 0.0008
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.47311,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.05,
+    "pct_from_low": 5.51,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4731
+      },
+      {
+        "type": "support",
+        "price": 0.4579
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.47289
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 92",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0.47289) klebt direkt am 52W-Hoch 0.47311 bzw. Widerstand 0.4731 bei einem extrem ueberkauften RSI14 von 91.88, ohne Volumenbestaetigung (volume_ratio null) und mit leicht negativem Tagesschluss. Ein Long am unbestaetigten Ausbruch ist bei negativer Forex-Bilanz (avg_R -0.41) ein schlechtes Chance-Risiko-Verhaeltnis, ein Short gegen den seit 38 Wochen intakten Aufwaertstrend nicht begruendbar. Das leicht risk-off geneigte Makro-Bild (NQ/XAU/EUR-USD down) stuetzt zwar den Franken, reicht aber nicht fuer eine Gegenposition gegen den Wochentrend.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

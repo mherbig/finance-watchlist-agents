@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 326.70001,
+    "change_pct": -2.10942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 326.70001,
+    "change_pct": -2.109420570186976,
+    "sma20": 306.9525,
+    "sma50": 303.4322,
+    "sma200": 274.5759,
+    "rsi14": 82.23,
+    "macd": {
+      "macd": 8.8922,
+      "signal": 6.1611,
+      "hist": 2.7311
+    },
+    "atr14": 8.3643,
+    "high_52w": 333.73999,
+    "low_52w": 202.38,
+    "pct_from_high": -2.11,
+    "pct_from_low": 61.43,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 333.74
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 326.70001
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 82",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts, doch das Setup fuer einen Neueinstieg ist schlecht: RSI14 bei 82,2 (extrem ueberkauft) und der Kurs faellt heute -2,1% vom 52W-Hoch zurueck, wobei die Bewegung mit volume_ratio 0,65 nicht durch ueberdurchschnittliches Volumen getragen ist. Das Makrobild stuetzt Tech nicht (NQ100 taeglich und woechentlich down, S&P500 seitwaerts), und der Track Record zeigt fuer Konviktion >=3 ein negatives avg_R von -0,28. Einem ausgereizten Long wird nicht hinterhergejagt - abwarten auf Konsolidierung Richtung SMA20 (307).",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

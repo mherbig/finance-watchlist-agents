@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98551,
+    "change_pct": 0.071079701,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98551,
+    "change_pct": 0.07107970065292127,
+    "sma20": 0.983,
+    "sma50": 0.9842,
+    "sma200": 0.9696,
+    "rsi14": 52.75,
+    "macd": {
+      "macd": -0.0006,
+      "signal": -0.0009,
+      "hist": 0.0002
+    },
+    "atr14": 0.0042,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -0.94,
+    "pct_from_low": 8.46,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9774
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.98551
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Die Struktur ist zwar aufwaertsgeneigt — Kurs 0.98551 ueber SMA20/50/200, nur -0.94% unter dem 52W-Hoch und Wochentrend seit 38 Wochen up. Dem steht aber ein neutrales Tagesbild gegenueber: Trend 'side', RSI 52.75 flach, MACD noch leicht negativ und keine Volumenbestaetigung (volume_ratio null). Bei diesem Widerspruch und negativem Track Record in Forex (avg_R -0.42) sowie auf Konviktionsstufe 3 kein neuer Long am Hoch ohne Trigger — FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

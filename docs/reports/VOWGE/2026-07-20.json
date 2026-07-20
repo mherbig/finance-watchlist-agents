@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 72.54,
+    "change_pct": -0.7932,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 72.54000091552734,
+    "change_pct": -0.7932191045791496,
+    "sma20": 73.331,
+    "sma50": 82.212,
+    "sma200": 92.3681,
+    "rsi14": 57.57,
+    "macd": {
+      "macd": -2.7186,
+      "signal": -3.2437,
+      "hist": 0.5251
+    },
+    "atr14": 1.9286,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -33.2,
+    "pct_from_low": 3.72,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 77.92
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 72.54000091552734
+    },
+    "volume_ratio": 0.43
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "VOWGE (72,54 EUR) handelt unter SMA20/50/200 (73,33 / 82,21 / 92,37), Tages- und Wochentrend zeigen seit 53 Wochen klar nach unten und das 52-Wochen-Tief bei 69,94 liegt nur 3,7% entfernt. Der drehende MACD (Hist +0,52) und RSI 58 deuten zwar eine Stabilisierung an, doch das Volumenverhaeltnis von 0,43 nimmt dieser Erholung jede Bestaetigung. Long gegen den intakten Wochentrend ist nicht begruendbar, Short direkt an der Unterstuetzung kein sauberes Setup - bei schwachem Makro (NQ100/XAU/EUR-USD down) daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

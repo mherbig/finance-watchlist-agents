@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 115.41555,
+    "change_pct": -0.07188833,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 115.41555,
+    "change_pct": -0.07188832970934181,
+    "sma20": 114.7356,
+    "sma50": 114.5564,
+    "sma200": 114.7625,
+    "rsi14": 68.84,
+    "macd": {
+      "macd": 0.3821,
+      "signal": 0.2716,
+      "hist": 0.1106
+    },
+    "atr14": 0.474,
+    "high_52w": 117.24469,
+    "low_52w": 108.521,
+    "pct_from_high": -1.56,
+    "pct_from_low": 6.35,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 115.9032
+      },
+      {
+        "type": "support",
+        "price": 113.6195
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 115.41555
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 69",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagesbias ist strukturell bullisch: Kurs 115,42 ueber SMA20/50/200 und MACD-Histogramm positiv (+0,11), doch der Wochentrend ist nur 'side', der RSI mit 68,8 weiterhin erhoeht und der Kurs klebt unter dem Widerstand 115,90 ohne bestaetigten Ausbruch. Das Makro ist risk-off (NQ100, XAU und EUR/USD down), was den sicheren Hafen JPY stuetzt und gegen einen Kauf des Rohstoff-Cross auf Jahreshoechstniveau spricht. Zudem laeuft die Assetklasse Forex mit avg_R -0,41 klar negativ, daher Abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

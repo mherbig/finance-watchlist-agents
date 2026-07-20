@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 113.76818,
+    "change_pct": 0.022911477,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 113.76818,
+    "change_pct": 0.022911477296186394,
+    "sma20": 112.7779,
+    "sma50": 112.7462,
+    "sma200": 111.274,
+    "rsi14": 74.11,
+    "macd": {
+      "macd": 0.3068,
+      "signal": 0.169,
+      "hist": 0.1377
+    },
+    "atr14": 0.4897,
+    "high_52w": 114.83705,
+    "low_52w": 99.289,
+    "pct_from_high": -0.93,
+    "pct_from_low": 14.58,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 113.7682
+      },
+      {
+        "type": "support",
+        "price": 111.5399
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 113.76818
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 74",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend stehen zwar auf 'up' mit positivem MACD-Hist (+0.138), doch RSI 74.11 ist klar ueberkauft und der Kurs 113.77 klemmt exakt am Widerstand nur -0.93% unter dem 52W-Hoch - ein Long an dieser Kante ohne Volumenbestaetigung (volume_ratio fehlt) ist unattraktiv. Das Makro-Bild ist risk-off (NQ100, XAU und EUR/USD im Down-Trend, BTC Wochentrend down), was den JPY als Safe Haven stuetzt und das risk-on-Paar AUD/JPY zusaetzlich bremst. Bei negativer Forex-Bilanz (avg_R -0.41) und Ueberzeugung < 3 daher FLAT statt Positionsaufbau am ausgereizten Hoch.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

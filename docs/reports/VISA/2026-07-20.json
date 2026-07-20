@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 361.12,
+    "change_pct": 0.7139663,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 361.12,
+    "change_pct": 0.7139669790272206,
+    "sma20": 347.9945,
+    "sma50": 333.9488,
+    "sma200": 329.7265,
+    "rsi14": 64.52,
+    "macd": {
+      "macd": 8.3531,
+      "signal": 7.7311,
+      "hist": 0.622
+    },
+    "atr14": 8.8836,
+    "high_52w": 365.14001,
+    "low_52w": 295.51999,
+    "pct_from_high": -1.1,
+    "pct_from_low": 22.2,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 365.14
+      },
+      {
+        "type": "support",
+        "price": 326.6
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 361.12
+    },
+    "volume_ratio": 0.55
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die uebergeordnete Struktur ist klar bullisch (Kurs ueber SMA20/50/200, MACD-Histogramm positiv, Tages- und Wochentrend seit 53 Wochen aufwaerts), doch bei 361.12 steht der Kurs direkt unter dem 52-Wochen-Hoch/Widerstand 365.14 und der Vorstoss erfolgt bei deutlich unterdurchschnittlichem Volumen (volume_ratio 0.55) sowie RSI 64.5. Das Makro-Bild ist defensiv/gemischt (NQ100 Tages- und Wochentrend down, S&P500 side, XAU down), was einen frischen Long an der Widerstandskante nicht stuetzt. Ein Ausbruch ohne Volumenbestaetigung ist bei negativem Track Record der Konviktionsstufe 3 (avg_R -0.28) kein Setup - disziplinkonform FLAT statt Ausbruchswette.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

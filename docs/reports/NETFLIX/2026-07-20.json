@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 67.575,
+    "change_pct": -1.9942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 67.575,
+    "change_pct": -1.9941986947063088,
+    "sma20": 73.3907,
+    "sma50": 80.1479,
+    "sma200": 93.4766,
+    "rsi14": 35.63,
+    "macd": {
+      "macd": -2.5912,
+      "signal": -2.4122,
+      "hist": -0.1789
+    },
+    "atr14": 2.8436,
+    "high_52w": 126.325,
+    "low_52w": 67.575,
+    "pct_from_high": -46.51,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 77.65
+      },
+      {
+        "type": "support",
+        "price": 67.575
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 67.575
+    },
+    "volume_ratio": 1.0
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bearisches Bild: Tages- und Wochentrend abwaerts (53 Wochen), Kurs unter SMA20/50/200, Bias bearisch, MACD negativ und frisches 52-Wochen-Tief bei 67,58 - der Short handelt mit der Struktur. Makro stuetzt (NQ100 abwaerts, S&P500 seitwaerts, kein bullischer Gegenwind). Konviktion bleibt bei 3, weil der Kurs exakt auf Support/52W-Tief sitzt, RSI 35,6 sich der Ueberverkauft-Zone naehert, Volume-Ratio mit 1,0 keinen Ausbruch bestaetigt und Konviktionsstufe 3 im Track Record negativ kalibriert ist (avg_R -0,28).",
+    "entry": 67.575,
+    "stop_loss": 72.6935,
+    "take_profit": 59.8973,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

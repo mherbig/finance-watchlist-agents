@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 371.42001,
+    "change_pct": -1.43565,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 371.42001,
+    "change_pct": -1.4356553733953126,
+    "sma20": 370.837,
+    "sma50": 355.0926,
+    "sma200": 367.1536,
+    "rsi14": 52.06,
+    "macd": {
+      "macd": 5.727,
+      "signal": 6.8092,
+      "hist": -1.0822
+    },
+    "atr14": 8.2939,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -28.25,
+    "pct_from_low": 18.05,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 344.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 371.42001
+    },
+    "volume_ratio": 0.6
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend stehen auf up und der Kurs (371.42) haelt ueber SMA20/50/200, doch das Momentum widerspricht: MACD-Histogramm negativ (-1.08), Tagesverlust -1.4% und Volumen-Ratio 0.6 zeigen fehlenden Kaeuferdruck. Das Makro-Bild stuetzt nicht (NQ100 abwaerts, S&P500 und GER40 seitwaerts) und der Titel notiert 28% unter dem 52-Wochen-Hoch. Bei diesem Widerspruch aus intaktem Trend und schwachem Momentum - und einer im Track Record negativ laufenden Konviktionsstufe 3 - ist kein Einstieg gerechtfertigt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

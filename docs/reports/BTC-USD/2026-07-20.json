@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 65334.0,
+    "change_pct": 0.94474043,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 65334.0,
+    "change_pct": 0.9447404258238307,
+    "sma20": 63521.7705,
+    "sma50": 63249.6852,
+    "sma200": 72971.2004,
+    "rsi14": 55.82,
+    "macd": {
+      "macd": 336.5146,
+      "signal": 2.098,
+      "hist": 334.4166
+    },
+    "atr14": 1625.9,
+    "high_52w": 99692.02,
+    "low_52w": 58624.71,
+    "pct_from_high": -34.46,
+    "pct_from_low": 11.44,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 65334.0
+      },
+      {
+        "type": "support",
+        "price": 60024.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 65334.0
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 65334 sitzt exakt am Widerstand, liegt 34,5% unter dem 52W-Hoch und klar unter der SMA200 (72971), waehrend der Wochentrend seit 37 Wochen abwaerts zeigt. Bullisch sind nur Tagestrend up und das positive MACD-Histogramm (+334) bei neutralem RSI 56, doch eine Volumenbestaetigung fehlt komplett (volume_ratio null) und das Makro-Bild ist eher risk-off (NQ100 abwaerts, S&P500/EUR-USD/Gold schwach). Die Krypto-Klasse laeuft im Track Record klar negativ (avg_R -0,45) - kein Einstieg gegen den intakten Wochenabwaertstrend.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

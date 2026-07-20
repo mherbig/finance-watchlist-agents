@@ -1,20 +1,20 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 94735.9907,
-    "return_pct": -5.264,
-    "open_count": 6,
+    "current_equity": 94863.3465,
+    "return_pct": -5.1367,
+    "open_count": 3,
     "no_fill_count": 0,
-    "closed_count": 24,
-    "wins": 6,
-    "losses": 18,
-    "win_rate": 0.25,
-    "total_pnl": -5264.0093,
-    "total_costs": 254.2569,
+    "closed_count": 27,
+    "wins": 7,
+    "losses": 20,
+    "win_rate": 0.2593,
+    "total_pnl": -5136.6535,
+    "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 474.1798,
-    "marked_equity": 95210.1705,
-    "marked_return_pct": -4.7898,
+    "unrealized_pnl": 576.3562,
+    "marked_equity": 95439.7027,
+    "marked_return_pct": -4.5603,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -118,6 +118,18 @@
     {
       "date": "2026-07-19",
       "equity": 94735.9907
+    },
+    {
+      "date": "2026-07-20",
+      "equity": 95103.6743
+    },
+    {
+      "date": "2026-07-20",
+      "equity": 94881.5444
+    },
+    {
+      "date": "2026-07-20",
+      "equity": 94863.3465
     }
   ],
   "closed": [
@@ -552,9 +564,7 @@
       "pnl": -178.8853,
       "win": false,
       "status": "flip"
-    }
-  ],
-  "open": [
+    },
     {
       "symbol": "AUD/CAD",
       "display": "AUD/CAD",
@@ -564,15 +574,53 @@
       "entry": 0.9824,
       "stop_loss": 0.9886,
       "take_profit": 0.9731,
-      "rr": 1.5,
+      "exit_date": "2026-07-20",
+      "exit_price": 0.97736,
+      "realized_R": 0.8129,
       "risk_amount": 470.6593,
-      "units": 75912.7903,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 0.97809,
-      "unrealized_pct": 0.4387,
-      "unrealized_pnl": 327.1841
+      "cost": 14.9153,
+      "pnl": 367.6836,
+      "win": true,
+      "status": "flip"
     },
+    {
+      "symbol": "RACE",
+      "display": "FERRARI",
+      "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 384.97,
+      "stop_loss": 365.7788,
+      "take_profit": 413.7569,
+      "exit_date": "2026-07-20",
+      "exit_price": 376.82999,
+      "realized_R": -0.4242,
+      "risk_amount": 500.0,
+      "cost": 10.0299,
+      "pnl": -222.1299,
+      "win": false,
+      "status": "flip"
+    },
+    {
+      "symbol": "USD/CHF",
+      "display": "USD/CHF",
+      "date": "2026-07-10",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 0.8086,
+      "stop_loss": 0.8026,
+      "take_profit": 0.8176,
+      "exit_date": "2026-07-20",
+      "exit_price": 0.80853,
+      "realized_R": -0.0117,
+      "risk_amount": 470.7986,
+      "cost": 12.6896,
+      "pnl": -18.1979,
+      "win": false,
+      "status": "flip"
+    }
+  ],
+  "open": [
     {
       "symbol": "EUR/JPY",
       "display": "EUR/JPY",
@@ -587,27 +635,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.69356,
-      "unrealized_pct": 0.2137,
-      "unrealized_pnl": 155.5919
-    },
-    {
-      "symbol": "RACE",
-      "display": "FERRARI",
-      "date": "2026-07-02",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 384.97,
-      "stop_loss": 365.7788,
-      "take_profit": 413.7569,
-      "rr": 1.5,
-      "risk_amount": 500.0,
-      "units": 26.0536,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 376.82999,
-      "unrealized_pct": -2.1145,
-      "unrealized_pnl": -212.0766
+      "current_price": 185.53333,
+      "unrealized_pct": 0.1273,
+      "unrealized_pnl": 92.6456
     },
     {
       "symbol": "NFLX",
@@ -623,9 +653,9 @@
       "units": 92.627,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 68.95,
-      "unrealized_pct": -0.1308,
-      "unrealized_pnl": -8.3457
+      "current_price": 67.575,
+      "unrealized_pct": 1.866,
+      "unrealized_pnl": 119.0164
     },
     {
       "symbol": "TSLA",
@@ -641,27 +671,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 380.84,
-      "unrealized_pct": 3.5237,
-      "unrealized_pnl": 201.6255
-    },
-    {
-      "symbol": "USD/CHF",
-      "display": "USD/CHF",
-      "date": "2026-07-10",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 0.8086,
-      "stop_loss": 0.8026,
-      "take_profit": 0.8176,
-      "rr": 1.5,
-      "risk_amount": 470.7986,
-      "units": 78466.4333,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 0.80873,
-      "unrealized_pct": 0.0161,
-      "unrealized_pnl": 10.2006
+      "current_price": 369.59,
+      "unrealized_pct": 6.3737,
+      "unrealized_pnl": 364.6942
     }
   ],
   "marked_curve": [
@@ -757,8 +769,13 @@
     },
     {
       "date": "2026-07-20",
-      "equity": 94735.9907,
-      "marked_equity": 95210.1705
+      "equity": 94863.3465,
+      "marked_equity": 95424.8766
+    },
+    {
+      "date": "2026-07-21",
+      "equity": 94863.3465,
+      "marked_equity": 95439.7028
     }
   ],
   "benchmark_curve": [
@@ -832,11 +849,15 @@
     },
     {
       "date": "2026-07-19",
-      "equity": 100358.8861
+      "equity": 100344.349
     },
     {
       "date": "2026-07-20",
-      "equity": 100355.3228
+      "equity": 100423.586
+    },
+    {
+      "date": "2026-07-21",
+      "equity": 100425.6472
     }
   ],
   "skipped": [

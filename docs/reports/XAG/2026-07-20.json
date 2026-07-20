@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 56.665,
+    "change_pct": 1.1189,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 56.665000915527344,
+    "change_pct": 1.1188884974668185,
+    "sma20": 59.2431,
+    "sma50": 68.4411,
+    "sma200": 69.4135,
+    "rsi14": 45.62,
+    "macd": {
+      "macd": -3.0951,
+      "signal": -3.2127,
+      "hist": 0.1176
+    },
+    "atr14": 2.067,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -50.76,
+    "pct_from_low": 55.03,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 65.527
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 56.665000915527344
+    },
+    "volume_ratio": 15.82
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das uebergeordnete Bild bleibt klar bearisch: Kurs 56,67 notiert unter SMA20 (59,24), SMA50 (68,44) und SMA200 (69,41), Tages- und Wochentrend (53 Wochen) zeigen abwaerts, und das Makro-Umfeld der Edelmetalle ist schwach (XAU Trend down, RSI 37). Ein neuer Short scheitert jedoch am Chance-Risiko direkt auf der Unterstuetzung 55,90, wo der MACD mit positivem Histogramm (+0,12) ueber die Signallinie dreht und extremes Volumen (Ratio 15,82) auf eine Kapitulations- bzw. Reversal-Kerze hindeutet; ein Long liefe zugleich klar gegen den dominanten Wochentrend. Bei diesem Widerspruch und dem negativen Track Record (Metall avg_R -0,09, Konviktion 3 avg_R -0,28) bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

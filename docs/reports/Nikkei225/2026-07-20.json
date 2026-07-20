@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 64141.12,
+    "change_pct": -4.0314,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 64141.12109375,
+    "change_pct": -4.031415032398207,
+    "sma20": 68867.8408,
+    "sma50": 66662.7662,
+    "sma200": 56119.9724,
+    "rsi14": 33.2,
+    "macd": {
+      "macd": -147.1782,
+      "signal": 491.9986,
+      "hist": -639.1768
+    },
+    "atr14": 1924.5508,
+    "high_52w": 72366.34375,
+    "low_52w": 39774.921875,
+    "pct_from_high": -11.37,
+    "pct_from_low": 61.26,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 64141.1211
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 64141.12109375
+    },
+    "volume_ratio": 1.22
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Nach dem Abgabetag von -4,0% notiert der Kurs bei 64.141 unter SMA20 (68.868) und SMA50 (66.663), das MACD-Histogramm ist mit -639 tief negativ und das Volumen (1,22) bestaetigt den Bruch - kurzfristig klar bearisches Momentum. Dagegen stehen RSI14 bei 33 am Rand der Ueberverkauftheit, ein Tages- und Wochentrend beide 'side' sowie der Kurs exakt auf der eigenen Unterstuetzung, was ein spaetes SHORT mit hohem Rueckprallrisiko belastet. Da die Index-Klasse im Track-Record deutlich negativ laeuft (avg_R -0,51) und das Makro-Bild nur weich negativ ist, bleibe ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

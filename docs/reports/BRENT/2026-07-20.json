@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 88.92,
+    "change_pct": 0.9308,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 88.91999816894531,
+    "change_pct": 0.9307601691560634,
+    "sma20": 77.806,
+    "sma50": 89.1832,
+    "sma200": 79.4328,
+    "rsi14": 82.33,
+    "macd": {
+      "macd": -0.2033,
+      "signal": -2.6462,
+      "hist": 2.4429
+    },
+    "atr14": 3.7064,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -24.87,
+    "pct_from_low": 50.92,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 88.92
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 88.91999816894531
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 82",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 88,92 sitzt exakt am Widerstand bei extrem überkauftem RSI 82,3, während Tages- und Wochentrend 'side' und der Bias neutral sind — kein stimmig bullisches Bild trotz +0,93%-Kerze. Ein Short liefe direkt gegen den frischen Momentumschub (MACD-Histogramm +2,44), und das Volumenverhältnis von nur 1,1 bestätigt keinen tragfähigen Ausbruch. Das Makrobild bietet ohne Rückenwind (NQ100/XAU/EUR/USD abwärts, S&P500/GER40 seitwärts) keinen Grund gegen die Unklarheit zu handeln — FLAT ist diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 120.365,
+    "change_pct": 4.69253,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 120.365,
+    "change_pct": 4.692528485691916,
+    "sma20": 105.3277,
+    "sma50": 118.0165,
+    "sma200": 143.8847,
+    "rsi14": 86.49,
+    "macd": {
+      "macd": 0.7714,
+      "signal": -2.1051,
+      "hist": 2.8765
+    },
+    "atr14": 4.2404,
+    "high_52w": 189.34,
+    "low_52w": 94.81,
+    "pct_from_high": -36.43,
+    "pct_from_low": 26.95,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 120.365
+      },
+      {
+        "type": "support",
+        "price": 94.81
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 120.365
+    },
+    "volume_ratio": 0.93
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 86",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der RSI14 bei 86.5 ist extrem ueberkauft und der Kurs prallt mit +4.69% genau an den Widerstand 120.37, wobei der Ausbruch auf unterdurchschnittlichem Volumen (Ratio 0.93) laeuft und weit unter SMA200 (143.88) notiert - ein Long waere ausgereiztes Chasing. Ein Short verbietet sich zugleich, da MACD-Histogramm (+2.88) klar positiv ist und der Kurs frisch ueber SMA50 (118.02) und SMA20 (105.33) gestiegen ist, waehrend Tages- und Wochentrend 'side' sowie Bias 'neutral' sind. Ohne gerichteten Edge und bei negativem avg_R der Konviktionsstufe 3 (-0.28) ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

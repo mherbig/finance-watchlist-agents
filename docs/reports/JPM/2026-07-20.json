@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 338.91,
+    "change_pct": -0.64204116,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 338.91,
+    "change_pct": -0.6420433702127339,
+    "sma20": 335.7745,
+    "sma50": 318.6918,
+    "sma200": 309.8838,
+    "rsi14": 59.38,
+    "macd": {
+      "macd": 6.1997,
+      "signal": 6.5139,
+      "hist": -0.3142
+    },
+    "atr14": 7.8936,
+    "high_52w": 346.91,
+    "low_52w": 282.84,
+    "pct_from_high": -2.31,
+    "pct_from_low": 19.82,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 346.91
+      },
+      {
+        "type": "support",
+        "price": 327.33
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 338.91
+    },
+    "volume_ratio": 0.49
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar intakt (Kurs ueber SMA20/50/200, Wochentrend seit 53 Wochen auf), doch das Momentum ist erschoepft: Das MACD-Histogramm ist mit -0.31 negativ und der Kurs klebt nur 2.31% unter dem 52W-Hoch/Widerstand bei 346.91, also praktisch ohne Luft nach oben. Das Volumen bestaetigt nicht (volume_ratio 0.49, deutlich unterdurchschnittlich) und das Makrobild ist schwach (NQ100 Tages- und Wochentrend abwaerts, S&P500 seitwaerts). Ein Neueinstieg direkt unter dem Widerstand ohne Volumenbestaetigung ist nicht gerechtfertigt.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

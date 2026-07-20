@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 645.85999,
+    "change_pct": -0.023223234,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 645.85999,
+    "change_pct": -0.02322255037502078,
+    "sma20": 608.6855,
+    "sma50": 605.1946,
+    "sma200": 640.0629,
+    "rsi14": 65.77,
+    "macd": {
+      "macd": 18.5338,
+      "signal": 12.5258,
+      "hist": 6.008
+    },
+    "atr14": 30.4228,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -18.25,
+    "pct_from_low": 22.85,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 681.31
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 645.85999
+    },
+    "volume_ratio": 0.39
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Kurs ueber SMA20/50/200, Tages- und Wochentrend up (53 Wochen), MACD klar ueber Signal (Histogramm +6,0). Gegen hoehere Konviktion sprechen das unterdurchschnittliche Volumen (volume_ratio 0,39), der bereits erhoehte RSI von 66 sowie das schwache Tech-Makro (NQ100 Tages- und Wochentrend down, S&P500 seitwaerts). Aktien sind im Track-Record die einzige Klasse mit positivem avg_R, ein Earnings-Termin ist nicht ausgewiesen.",
+    "entry": 645.86,
+    "stop_loss": 591.099,
+    "take_profit": 728.0015,
+    "take_profit_2": 681.31,
+    "rr": 1.5
+  }
+}

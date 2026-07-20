@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 402.51001,
+    "change_pct": 2.20659,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 402.51001,
+    "change_pct": 2.206591787959174,
+    "sma20": 382.313,
+    "sma50": 401.2826,
+    "sma200": 438.7713,
+    "rsi14": 71.45,
+    "macd": {
+      "macd": 0.1045,
+      "signal": -3.3881,
+      "hist": 3.4926
+    },
+    "atr14": 10.95,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -25.75,
+    "pct_from_low": 14.08,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 402.51
+      },
+      {
+        "type": "support",
+        "price": 352.83
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 402.51001
+    },
+    "volume_ratio": 0.48
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "MSFT springt zwar +2,21% auf 402,51 und knapp ueber die SMA50 (401,3), doch der Tages-Schlusskurs steht exakt am Widerstand (402,51), RSI 71,5 ist ueberkauft und das Volumen (Ratio 0,48) traegt den Move klar nicht. Tages- und Wochentrend sind seitwaerts, der Kurs bleibt tief unter der SMA200 (438,8), und makro stuetzt kein Tech-Long (NQ100 abwaerts). Ohne stimmiges Setup und bei negativ laufender Conviction-3-Statistik bleibt es diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/USD",
+  "display": "EUR/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.14164,
+    "change_pct": 0.015769278,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.14164,
+    "change_pct": 0.015769277942290487,
+    "sma20": 1.1427,
+    "sma50": 1.1467,
+    "sma200": 1.1637,
+    "rsi14": 51.03,
+    "macd": {
+      "macd": -0.001,
+      "signal": -0.0014,
+      "hist": 0.0004
+    },
+    "atr14": 0.004,
+    "high_52w": 1.19773,
+    "low_52w": 1.13586,
+    "pct_from_high": -4.68,
+    "pct_from_low": 0.51,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1463
+      },
+      {
+        "type": "support",
+        "price": 1.1381
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 1.14164
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-20T21:31:36.096553+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend abwaerts und Kurs (1,14164) unter SMA20/50/200 sowie ein seit 38 Wochen fallender Wochentrend zeichnen zwar ein bearisches Bild, doch RSI 51 ist neutral und der MACD bleibt negativ (Histogramm nur minimal positiv) - kein stimmiges Momentum. Der Kurs klebt nur +0,51 Prozent ueber dem 52-Wochen-Tief am Support 1,1381, ein Short-Ausbruch ohne Volumenbestaetigung (volume_ratio null) ist daher nicht belastbar, waehrend ein Long gegen den klaren Wochenabwaertstrend ausscheidet. Da Forex im Track Record mit avg_R -0,41 deutlich negativ laeuft, ist Abwarten in der Range Support 1,1381 / Widerstand 1,1463 die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

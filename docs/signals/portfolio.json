@@ -12,9 +12,9 @@
     "total_pnl": -5136.6535,
     "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 576.3562,
-    "marked_equity": 95439.7027,
-    "marked_return_pct": -4.5603,
+    "unrealized_pnl": 553.7883,
+    "marked_equity": 95417.1348,
+    "marked_return_pct": -4.5829,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -635,9 +635,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.53333,
-      "unrealized_pct": 0.1273,
-      "unrealized_pnl": 92.6456
+      "current_price": 185.48104,
+      "unrealized_pct": 0.0991,
+      "unrealized_pnl": 72.1035
     },
     {
       "symbol": "NFLX",
@@ -653,9 +653,9 @@
       "units": 92.627,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 67.575,
-      "unrealized_pct": 1.866,
-      "unrealized_pnl": 119.0164
+      "current_price": 67.6,
+      "unrealized_pct": 1.8297,
+      "unrealized_pnl": 116.7008
     },
     {
       "symbol": "TSLA",
@@ -671,9 +671,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 369.59,
-      "unrealized_pct": 6.3737,
-      "unrealized_pnl": 364.6942
+      "current_price": 369.57001,
+      "unrealized_pct": 6.3787,
+      "unrealized_pnl": 364.984
     }
   ],
   "marked_curve": [
@@ -770,12 +770,12 @@
     {
       "date": "2026-07-20",
       "equity": 94863.3465,
-      "marked_equity": 95424.8766
+      "marked_equity": 95422.8507
     },
     {
       "date": "2026-07-21",
       "equity": 94863.3465,
-      "marked_equity": 95439.7028
+      "marked_equity": 95417.1348
     }
   ],
   "benchmark_curve": [
@@ -853,11 +853,11 @@
     },
     {
       "date": "2026-07-20",
-      "equity": 100423.586
+      "equity": 100478.3954
     },
     {
       "date": "2026-07-21",
-      "equity": 100425.6472
+      "equity": 100480.142
     }
   ],
   "skipped": [

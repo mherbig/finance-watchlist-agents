@@ -4,30 +4,30 @@
   "asset_class": "forex",
   "track": "technical",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "generated_at": "2026-07-20T23:44:28.177626+00:00",
   "available": true,
   "snapshot": {
-    "price": 218.28246,
-    "change_pct": 0.0062675019,
+    "price": 218.21579,
+    "change_pct": -0.024277407,
     "currency": null
   },
   "technical": {
-    "last_close": 218.28246,
-    "change_pct": 0.006267501930415196,
-    "sma20": 217.2573,
-    "sma50": 215.4282,
-    "sma200": 213.131,
-    "rsi14": 62.76,
+    "last_close": 218.21579,
+    "change_pct": -0.024277406965849214,
+    "sma20": 217.254,
+    "sma50": 215.4269,
+    "sma200": 213.1307,
+    "rsi14": 62.19,
     "macd": {
-      "macd": 0.9787,
-      "signal": 0.9548,
-      "hist": 0.0239
+      "macd": 0.9734,
+      "signal": 0.9537,
+      "hist": 0.0196
     },
-    "atr14": 0.9254,
+    "atr14": 0.9326,
     "high_52w": 219.60676,
     "low_52w": 201.033005,
-    "pct_from_high": -0.6,
-    "pct_from_low": 8.58,
+    "pct_from_high": -0.63,
+    "pct_from_low": 8.55,
     "trend": "up",
     "bias": "bullish",
     "levels": [
@@ -43,12 +43,12 @@
     "weekly": {
       "trend": "up",
       "weeks": 38,
-      "last_close": 218.28246
+      "last_close": 218.21579
     },
     "volume_ratio": null
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 63",
+  "headline": "Trend up, RSI 62",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-20T21:31:36.096553+00:00",

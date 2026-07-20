@@ -4,24 +4,24 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T21:23:30.993871+00:00",
+  "generated_at": "2026-07-20T23:44:28.177626+00:00",
   "available": true,
   "snapshot": {
-    "price": 645.85999,
-    "change_pct": -0.023223234,
+    "price": 645.84998,
+    "change_pct": -0.024772709,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 645.85999,
-    "change_pct": -0.02322255037502078,
-    "sma20": 608.6855,
-    "sma50": 605.1946,
+    "last_close": 645.84998,
+    "change_pct": -0.024772061968514406,
+    "sma20": 608.685,
+    "sma50": 605.1944,
     "sma200": 640.0629,
-    "rsi14": 65.77,
+    "rsi14": 65.76,
     "macd": {
-      "macd": 18.5338,
-      "signal": 12.5258,
-      "hist": 6.008
+      "macd": 18.533,
+      "signal": 12.5257,
+      "hist": 6.0073
     },
     "atr14": 30.4228,
     "high_52w": 790.0,
@@ -43,9 +43,9 @@
     "weekly": {
       "trend": "up",
       "weeks": 53,
-      "last_close": 645.85999
+      "last_close": 645.84998
     },
-    "volume_ratio": 0.39
+    "volume_ratio": 0.47
   },
   "fundamental": null,
   "headline": "Trend up, RSI 66",

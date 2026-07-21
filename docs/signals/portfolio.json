@@ -12,9 +12,9 @@
     "total_pnl": -5702.3654,
     "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 533.4453,
-    "marked_equity": 94831.0799,
-    "marked_return_pct": -5.1689,
+    "unrealized_pnl": 347.9869,
+    "marked_equity": 94645.6215,
+    "marked_return_pct": -5.3544,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -635,9 +635,9 @@
       "units": 582.7317,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 115.6653,
-      "unrealized_pct": 0.0,
-      "unrealized_pnl": 0.0
+      "current_price": 115.67171,
+      "unrealized_pct": 0.0055,
+      "unrealized_pnl": 3.7353
     },
     {
       "symbol": "EUR/JPY",
@@ -653,9 +653,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 186.02417,
-      "unrealized_pct": 0.3922,
-      "unrealized_pnl": 285.4717
+      "current_price": 186.06017,
+      "unrealized_pct": 0.4116,
+      "unrealized_pnl": 299.6143
     },
     {
       "symbol": "UKX",
@@ -671,9 +671,9 @@
       "units": 3.461,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10585.91015625,
-      "unrealized_pct": 0.0,
-      "unrealized_pnl": 0.0005
+      "current_price": 10524.7998046875,
+      "unrealized_pct": -0.5773,
+      "unrealized_pnl": -211.5024
     },
     {
       "symbol": "NFLX",
@@ -725,9 +725,9 @@
       "units": 489.6035,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 163.18609,
-      "unrealized_pct": 0.0013,
-      "unrealized_pnl": 1.0722
+      "current_price": 163.20277,
+      "unrealized_pct": 0.0116,
+      "unrealized_pnl": 9.2388
     }
   ],
   "marked_curve": [
@@ -829,12 +829,12 @@
     {
       "date": "2026-07-21",
       "equity": 94297.6346,
-      "marked_equity": 94840.4326
+      "marked_equity": 94628.9296
     },
     {
       "date": "2026-07-22",
       "equity": 94297.6346,
-      "marked_equity": 94831.08
+      "marked_equity": 94645.6216
     }
   ],
   "benchmark_curve": [
@@ -916,11 +916,11 @@
     },
     {
       "date": "2026-07-21",
-      "equity": 101321.5934
+      "equity": 101282.7322
     },
     {
       "date": "2026-07-22",
-      "equity": 101323.7116
+      "equity": 101285.436
     }
   ],
   "skipped": [

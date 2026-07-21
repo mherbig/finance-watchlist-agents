@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 327.73999,
+    "change_pct": 0.35212159,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 327.73999,
+    "change_pct": 0.3521203956030505,
+    "sma20": 308.4835,
+    "sma50": 304.236,
+    "sma200": 274.9368,
+    "rsi14": 80.28,
+    "macd": {
+      "macd": 8.9271,
+      "signal": 6.7129,
+      "hist": 2.2143
+    },
+    "atr14": 8.2328,
+    "high_52w": 333.73999,
+    "low_52w": 202.38,
+    "pct_from_high": -1.8,
+    "pct_from_low": 61.94,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 333.74
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 327.73999
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 80",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar aufwaerts (Kurs 327,74 dicht unter dem 52W-Hoch, ueber allen SMAs, MACD-Histogramm positiv), doch fuer einen Neueinstieg per Market zum Schluss ist das Setup ausgereizt: RSI14 bei 80,3 (extrem ueberkauft) und die Bewegung wird mit volume_ratio 0,62 nicht durch ueberdurchschnittliches Volumen getragen. Das Makrobild stuetzt Tech nur begrenzt (NQ100 taeglich down, RSI 38,6), und der Track Record ist fuer Konviktion >=3 klar negativ (avg_R -0,26); einem ueberdehnten Long wird nicht hinterhergejagt - abwarten auf Konsolidierung Richtung SMA20 (308).",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

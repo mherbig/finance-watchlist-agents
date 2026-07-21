@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 47.62,
+    "change_pct": 0.6552,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 47.619998931884766,
+    "change_pct": 0.6552474098399835,
+    "sma20": 48.7035,
+    "sma50": 41.7132,
+    "sma200": 37.9203,
+    "rsi14": 45.19,
+    "macd": {
+      "macd": 1.9132,
+      "signal": 2.597,
+      "hist": -0.6838
+    },
+    "atr14": 1.685,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -10.76,
+    "pct_from_low": 90.67,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 39.59
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 47.619998931884766
+    },
+    "volume_ratio": 0.38
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der uebergeordnete Aufwaertstrend bleibt intakt (Kurs 47,62 klar ueber SMA50/200, Wochentrend seit 53 Wochen aufwaerts), doch die Kurzfrist-Dynamik kippt - Kurs unter SMA20, MACD-Histogramm negativ (-0,68) und Trend/Bias/RSI (45) neutral. Der Ruecksetzer entstand auf sehr duennem Volumen (Ratio 0,38) und ist damit unbestaetigt, waehrend das Makro-Umfeld (NQ100 abwaerts, GER40 seitwaerts) keinen Rueckenwind gibt; ohne stimmiges Setup ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

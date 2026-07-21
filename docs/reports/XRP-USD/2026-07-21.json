@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.1473,
+    "change_pct": 3.13736,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.1473,
+    "change_pct": 3.1373606616324996,
+    "sma20": 1.1092,
+    "sma50": 1.1196,
+    "sma200": 1.4167,
+    "rsi14": 58.64,
+    "macd": {
+      "macd": -0.0045,
+      "signal": -0.0114,
+      "hist": 0.0069
+    },
+    "atr14": 0.0329,
+    "high_52w": 2.3478,
+    "low_52w": 1.0401,
+    "pct_from_high": -51.13,
+    "pct_from_low": 10.31,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1574
+      },
+      {
+        "type": "support",
+        "price": 1.0675
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 1.1473
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurzfristig hat sich das Bild leicht aufgehellt: Der Kurs 1,1473 (+3,1%) hat SMA20 (1,1092) und SMA50 (1,1196) zurueckerobert, RSI 58,6 und ein positives MACD-Histogramm (+0,0069) sowie ein konstruktives BTC-Umfeld (Trend up) stuetzen die Long-Seite. Dem stehen jedoch der seit 37 Wochen intakte Wochen-Abwaertstrend, der Kurs weit unter SMA200 (1,4167), die unmittelbar darueber liegende Resistance 1,1574 sowie eine fehlende Volumenbestaetigung (volume_ratio null) entgegen. Zusammen mit der klar negativen Krypto-Bilanz im Track Record (avg_R -0,45) fehlt fuer einen gegen den Wochentrend gerichteten Long ein belastbares Setup, fuer Short liefert die Tagesstruktur keinen Anlass: FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

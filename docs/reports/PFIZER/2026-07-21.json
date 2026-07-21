@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 24.94,
+    "change_pct": 0.76767893,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 24.94,
+    "change_pct": 0.7676767676767728,
+    "sma20": 24.353,
+    "sma50": 25.2054,
+    "sma200": 25.8723,
+    "rsi14": 61.03,
+    "macd": {
+      "macd": -0.1122,
+      "signal": -0.266,
+      "hist": 0.1538
+    },
+    "atr14": 0.5064,
+    "high_52w": 28.55,
+    "low_52w": 23.29,
+    "pct_from_high": -12.64,
+    "pct_from_low": 7.08,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25.14
+      },
+      {
+        "type": "support",
+        "price": 23.67
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 24.94
+    },
+    "volume_ratio": 0.41
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.94) liegt unter SMA50 (25.21) und SMA200 (25.87), der Wochentrend zeigt seit 53 Wochen abwaerts, Tagestrend seitwaerts und Bias neutral - kein stimmiges Long. Das kurzfristige Momentum dreht zwar leicht nach oben (Kurs ueber SMA20, MACD-Hist +0.15, RSI 61), doch ohne Volumenbestaetigung (volume_ratio 0.41) und gegen den klaren Wochenabwaertstrend ist der Ausbruch nicht vertrauenswuerdig. Widerspruechliches Bild plus negativ laufende Konviktionsstufe 3 im Track Record (avg_R -0.26) - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

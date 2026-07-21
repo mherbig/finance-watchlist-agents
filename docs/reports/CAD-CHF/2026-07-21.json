@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57589,
+    "change_pct": -0.029510815,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57597,
+    "change_pct": -0.015623372565363763,
+    "sma20": 0.5722,
+    "sma50": 0.5708,
+    "sma200": 0.5711,
+    "rsi14": 69.76,
+    "macd": {
+      "macd": 0.0019,
+      "signal": 0.0015,
+      "hist": 0.0004
+    },
+    "atr14": 0.0025,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -1.11,
+    "pct_from_low": 2.49,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5768
+      },
+      {
+        "type": "support",
+        "price": 0.5654
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.57597
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt bullisch (Tages- und Wochentrend up, 38 Wochen; Kurs ueber SMA20/50/200, MACD-Histogramm +0,0004), doch der Trend ist reif: RSI14 bei 69,8 nahe ueberkauft, Kurs direkt unter Widerstand 0,5768 und nur -1,11% vom 52W-Hoch, ohne Volumenbestaetigung (volume_ratio null). Zudem fehlt makroseitiger Rueckenwind und die Forex-Bilanz im Track Record ist mit avg_R -0,34 klar negativ. Ein reifer Trend-Kauf ohne frisches Momentum rechtfertigt kein neues Risiko.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

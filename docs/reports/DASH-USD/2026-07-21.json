@@ -1,0 +1,67 @@
+{
+  "symbol": "DASH/USD",
+  "display": "DASH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 34.79,
+    "change_pct": 1.7549,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 34.79,
+    "change_pct": 1.7548990933021393,
+    "sma20": 34.544,
+    "sma50": 34.9278,
+    "sma200": 39.6648,
+    "rsi14": 47.28,
+    "macd": {
+      "macd": -0.2916,
+      "signal": -0.4345,
+      "hist": 0.1429
+    },
+    "atr14": 1.605,
+    "high_52w": 97.86,
+    "low_52w": 29.87,
+    "pct_from_high": -64.45,
+    "pct_from_low": 16.47,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 35.86
+      },
+      {
+        "type": "support",
+        "price": 32.9
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 34.79
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell bearisch: Wochentrend seit 37 Wochen abwaerts, Kurs 34.79 unter SMA50 (34.93) und deutlich unter SMA200 (39.66), rund 64% unter dem 52W-Hoch. Fuer einen frischen Short fehlt der Trigger - Kurs klebt knapp ueber Support 32.90 nahe dem 52W-Tief, RSI 47 neutral, MACD-Histogramm dreht positiv (+0.14) und volume_ratio ist null. Ein Long widerspricht dem Wochentrend, und die Krypto-Klasse laeuft im Track Record klar negativ (avg_R -0.45) -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

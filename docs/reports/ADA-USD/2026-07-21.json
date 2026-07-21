@@ -1,0 +1,67 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.1734,
+    "change_pct": 2.12014,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.1734,
+    "change_pct": 2.120141342756179,
+    "sma20": 0.1701,
+    "sma50": 0.1663,
+    "sma200": 0.2533,
+    "rsi14": 48.61,
+    "macd": {
+      "macd": -0.0005,
+      "signal": -0.0017,
+      "hist": 0.0012
+    },
+    "atr14": 0.0079,
+    "high_52w": 0.5036,
+    "low_52w": 0.1438,
+    "pct_from_high": -65.57,
+    "pct_from_low": 20.58,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.1922
+      },
+      {
+        "type": "support",
+        "price": 0.1576
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.1734
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar aufwaerts (Kurs ueber SMA20/50, MACD-Histogramm mit +0.0012 leicht positiv), doch der Wochentrend zeigt seit 37 Wochen abwaerts, der Kurs liegt ~66% unter dem 52W-Hoch und klar unter der SMA200 - ein Long liefe gegen den uebergeordneten Trend, zumal die Volumenbestaetigung fehlt (volume_ratio null). Ein Short ist ebenso unattraktiv, da der Kurs nur ~21% ueber dem 52W-Tief nahe der Unterstuetzung 0.1576 steht, RSI mit 48.6 neutral ist und kurzfristig nach oben dreht. Die Krypto-Klasse laeuft im Track Record klar negativ (avg_R -0.45) - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

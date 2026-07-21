@@ -1,20 +1,20 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 94863.3465,
-    "return_pct": -5.1367,
-    "open_count": 3,
+    "current_equity": 94297.6346,
+    "return_pct": -5.7024,
+    "open_count": 6,
     "no_fill_count": 0,
     "closed_count": 27,
     "wins": 7,
     "losses": 20,
     "win_rate": 0.2593,
-    "total_pnl": -5136.6535,
+    "total_pnl": -5702.3654,
     "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 553.7883,
-    "marked_equity": 95417.1348,
-    "marked_return_pct": -4.5829,
+    "unrealized_pnl": 533.4453,
+    "marked_equity": 94831.0799,
+    "marked_return_pct": -5.1689,
     "skipped_count": 34,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -121,15 +121,15 @@
     },
     {
       "date": "2026-07-20",
-      "equity": 95103.6743
+      "equity": 94538.1301
     },
     {
       "date": "2026-07-20",
-      "equity": 94881.5444
+      "equity": 94177.7002
     },
     {
       "date": "2026-07-20",
-      "equity": 94863.3465
+      "equity": 94297.6346
     }
   ],
   "closed": [
@@ -575,12 +575,12 @@
       "stop_loss": 0.9886,
       "take_profit": 0.9731,
       "exit_date": "2026-07-20",
-      "exit_price": 0.97736,
-      "realized_R": 0.8129,
+      "exit_price": 0.98481,
+      "realized_R": -0.3887,
       "risk_amount": 470.6593,
       "cost": 14.9153,
-      "pnl": 367.6836,
-      "win": true,
+      "pnl": -197.8606,
+      "win": false,
       "status": "flip"
     },
     {
@@ -593,11 +593,11 @@
       "stop_loss": 365.7788,
       "take_profit": 413.7569,
       "exit_date": "2026-07-20",
-      "exit_price": 376.82999,
-      "realized_R": -0.4242,
+      "exit_price": 371.51999,
+      "realized_R": -0.7008,
       "risk_amount": 500.0,
       "cost": 10.0299,
-      "pnl": -222.1299,
+      "pnl": -360.4299,
       "win": false,
       "status": "flip"
     },
@@ -611,16 +611,34 @@
       "stop_loss": 0.8026,
       "take_profit": 0.8176,
       "exit_date": "2026-07-20",
-      "exit_price": 0.80853,
-      "realized_R": -0.0117,
+      "exit_price": 0.81029,
+      "realized_R": 0.2817,
       "risk_amount": 470.7986,
       "cost": 12.6896,
-      "pnl": -18.1979,
-      "win": false,
+      "pnl": 119.9344,
+      "win": true,
       "status": "flip"
     }
   ],
   "open": [
+    {
+      "symbol": "CAD/JPY",
+      "display": "CAD/JPY",
+      "date": "2026-07-21",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 115.6653,
+      "stop_loss": 114.8562,
+      "take_profit": 116.879,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 582.7317,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 115.6653,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0
+    },
     {
       "symbol": "EUR/JPY",
       "display": "EUR/JPY",
@@ -635,9 +653,27 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 185.48104,
-      "unrealized_pct": 0.0991,
-      "unrealized_pnl": 72.1035
+      "current_price": 186.02417,
+      "unrealized_pct": 0.3922,
+      "unrealized_pnl": 285.4717
+    },
+    {
+      "symbol": "UKX",
+      "display": "FTSE100",
+      "date": "2026-07-21",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 10585.91,
+      "stop_loss": 10449.6827,
+      "take_profit": 10790.251,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 3.461,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 10585.91015625,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0005
     },
     {
       "symbol": "NFLX",
@@ -653,9 +689,9 @@
       "units": 92.627,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 67.6,
-      "unrealized_pct": 1.8297,
-      "unrealized_pnl": 116.7008
+      "current_price": 68.67,
+      "unrealized_pct": 0.2758,
+      "unrealized_pnl": 17.5899
     },
     {
       "symbol": "TSLA",
@@ -671,9 +707,27 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 369.57001,
-      "unrealized_pct": 6.3787,
-      "unrealized_pnl": 364.984
+      "current_price": 378.92999,
+      "unrealized_pct": 4.0076,
+      "unrealized_pnl": 229.311
+    },
+    {
+      "symbol": "USD/JPY",
+      "display": "USD/JPY",
+      "date": "2026-07-21",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 163.1839,
+      "stop_loss": 162.2209,
+      "take_profit": 164.6284,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 489.6035,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 163.18609,
+      "unrealized_pct": 0.0013,
+      "unrealized_pnl": 1.0722
     }
   ],
   "marked_curve": [
@@ -769,13 +823,18 @@
     },
     {
       "date": "2026-07-20",
-      "equity": 94863.3465,
-      "marked_equity": 95422.8507
+      "equity": 94297.6346,
+      "marked_equity": 94857.1388
     },
     {
       "date": "2026-07-21",
-      "equity": 94863.3465,
-      "marked_equity": 95417.1348
+      "equity": 94297.6346,
+      "marked_equity": 94840.4326
+    },
+    {
+      "date": "2026-07-22",
+      "equity": 94297.6346,
+      "marked_equity": 94831.08
     }
   ],
   "benchmark_curve": [
@@ -853,11 +912,15 @@
     },
     {
       "date": "2026-07-20",
-      "equity": 100478.3954
+      "equity": 100441.9688
     },
     {
       "date": "2026-07-21",
-      "equity": 100480.142
+      "equity": 101321.5934
+    },
+    {
+      "date": "2026-07-22",
+      "equity": 101323.7116
     }
   ],
   "skipped": [

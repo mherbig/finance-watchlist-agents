@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47359,
+    "change_pct": -0.019000169,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47359,
+    "change_pct": -0.0190001688903857,
+    "sma20": 0.4668,
+    "sma50": 0.4635,
+    "sma200": 0.4621,
+    "rsi14": 92.01,
+    "macd": {
+      "macd": 0.0034,
+      "signal": 0.0027,
+      "hist": 0.0007
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.47368,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.02,
+    "pct_from_low": 5.66,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4737
+      },
+      {
+        "type": "support",
+        "price": 0.4584
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.47359
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 92",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0.47359) klebt praktisch am 52W-Hoch (0.47368) bzw. Widerstand 0.4737 bei einem extrem ueberkauften RSI14 von 92 und ohne Volumenbestaetigung (volume_ratio null), dazu ein leicht negativer Tagesschluss. Ein Long am unbestaetigten Ausbruch ist bei negativer Forex-Bilanz (avg_R -0.34) ein schlechtes Chance-Risiko-Verhaeltnis, ein Short gegen den seit 38 Wochen intakten Aufwaertstrend nicht begruendbar. Das leicht risk-off geneigte Makro (NQ/XAU/EUR-USD down) stuetzt zwar den Franken, reicht aber nicht fuer eine Gegenposition gegen den Wochentrend.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

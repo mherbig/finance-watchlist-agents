@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 194.6,
+    "change_pct": 1.4704,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 194.60000610351562,
+    "change_pct": 1.470438701725123,
+    "sma20": 197.194,
+    "sma50": 185.1432,
+    "sma200": 189.9044,
+    "rsi14": 44.81,
+    "macd": {
+      "macd": 2.2362,
+      "signal": 3.7377,
+      "hist": -1.5015
+    },
+    "atr14": 4.7436,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -11.63,
+    "pct_from_low": 22.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 191.58
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 194.60000610351562
+    },
+    "volume_ratio": 0.84
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Der Wochentrend ist aufwaerts und der Kurs (194,60) haelt sich klar ueber SMA50 (185,14) und SMA200 (189,90), doch der Tagestrend ist seitwaerts mit neutralem Bias, RSI 44,8 unter 50, bearischem MACD (Linie 2,24 unter Signal 3,74, Hist -1,50) und einem Schluss unter der SMA20 (197,19). Das Volumen ist mit ratio 0,84 unterdurchschnittlich und das Makro gemischt (S&P/BTC hoch, NQ100/Gold runter), sodass trotz des heutigen +1,5%-Tages weder Long noch Short stimmig begruendbar ist. Bei negativem avg_R der Konviktionsstufe 3 ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

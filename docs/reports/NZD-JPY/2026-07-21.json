@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 95.09054,
+    "change_pct": -0.015509127,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 95.09054,
+    "change_pct": -0.015509126779375017,
+    "sma20": 93.6896,
+    "sma50": 93.0333,
+    "sma200": 92.8691,
+    "rsi14": 86.89,
+    "macd": {
+      "macd": 0.6892,
+      "signal": 0.5306,
+      "hist": 0.1586
+    },
+    "atr14": 0.5469,
+    "high_52w": 95.37972,
+    "low_52w": 86.312,
+    "pct_from_high": -0.3,
+    "pct_from_low": 10.17,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 95.1053
+      },
+      {
+        "type": "support",
+        "price": 92.0505
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 95.09054
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 87",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist zwar intakt (Wochentrend seit 38 Wochen up, Kurs ueber SMA20/50/200, MACD-Hist +0,16 positiv), doch RSI 86,9 ist extrem ueberkauft, der Kurs steht direkt am Widerstand 95,11 und nur -0,3% unter dem 52-Wochen-Hoch, waehrend der Bias neutral bleibt und keine Volumenbestaetigung vorliegt. Ein Long unmittelbar am Widerstand bei RSI 87 bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short widerspraeche dem klaren Aufwaertstrend, und die negative Forex-Bilanz (avg_R -0,34) stuetzt die Zurueckhaltung. Abzuwarten ist ein bestaetigter Ausbruch ueber 95,11 mit Volumen oder ein Ruecksetzer Richtung SMA20 (93,69).",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

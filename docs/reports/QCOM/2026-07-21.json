@@ -1,0 +1,67 @@
+{
+  "symbol": "QCOM",
+  "display": "QCOM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 173.5,
+    "change_pct": 1.86707,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 173.5,
+    "change_pct": 1.8670677626193208,
+    "sma20": 184.503,
+    "sma50": 206.0974,
+    "sma200": 169.1065,
+    "rsi14": 40.05,
+    "macd": {
+      "macd": -8.6943,
+      "signal": -7.5584,
+      "hist": -1.1359
+    },
+    "atr14": 8.475,
+    "high_52w": 251.020004,
+    "low_52w": 124.07,
+    "pct_from_high": -30.88,
+    "pct_from_low": 39.84,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 204.9
+      },
+      {
+        "type": "support",
+        "price": 170.32
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 173.5
+    },
+    "volume_ratio": 0.72
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend abwaerts (53 Wochen), Kurs 173,50 klar unter SMA20 (184,50) und SMA50 (206,10), MACD negativ mit fallendem Histogramm (-1,14) und schwacher NQ100 als bearischer Tech-Backdrop. Dagegen sitzt der Kurs direkt auf der Unterstuetzung 170,32 im Verbund mit der SMA200 (169,11), heute +1,87% Gegenbewegung und Volumen mit 0,72 unterdurchschnittlich - ein Short traegt hohes Bounce-Risiko, fuer Long fehlt jede Momentum-Wende. Widerspruch ohne Edge, zudem laeuft Konviktionsstufe 3 im Track Record negativ (avg_R -0,26) -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

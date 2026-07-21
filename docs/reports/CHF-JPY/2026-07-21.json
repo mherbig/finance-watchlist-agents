@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 200.81428,
+    "change_pct": 0.022433715,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 200.81428,
+    "change_pct": 0.022433715443660688,
+    "sma20": 200.7219,
+    "sma50": 200.7123,
+    "sma200": 200.9622,
+    "rsi14": 47.11,
+    "macd": {
+      "macd": 0.0313,
+      "signal": -0.01,
+      "hist": 0.0413
+    },
+    "atr14": 0.8514,
+    "high_52w": 204.14273,
+    "low_52w": 189.83701,
+    "pct_from_high": -1.63,
+    "pct_from_low": 5.78,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 201.3999
+      },
+      {
+        "type": "support",
+        "price": 199.3915
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 200.81428
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend up steht gegen den seit 38 Wochen intakten Wochentrend down, waehrend RSI 47 richtungslos ist und das MACD-Histogramm mit nur +0.0413 kaum Momentum liefert. Kurs 200.81 klebt mittig zwischen Support 199.39 und Widerstand 201.40, SMA20/50/200 (200.72/200.71/200.96) liegen komprimiert aufeinander und eine Volumenbestaetigung fehlt (volume_ratio null). Bei negativer Forex-Bilanz (avg_R -0.34) rechtfertigt diese richtungslose Kompression keine Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

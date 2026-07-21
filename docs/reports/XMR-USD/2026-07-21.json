@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 352.29111,
+    "change_pct": 5.81934,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 352.29111,
+    "change_pct": 5.8193394513854235,
+    "sma20": 328.1419,
+    "sma50": 327.0089,
+    "sma200": 373.3673,
+    "rsi14": 66.07,
+    "macd": {
+      "macd": 3.3513,
+      "signal": 0.4305,
+      "hist": 2.9208
+    },
+    "atr14": 8.1949,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -50.43,
+    "pct_from_low": 20.21,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 352.2911
+      },
+      {
+        "type": "support",
+        "price": 315.7463
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 352.29111
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tageschart ist zwar bullisch (Trend up, MACD-Histogramm +2,92, Kurs ueber SMA20/50, +5,82% am Tag) und BTC/USD stuetzt kurzfristig, doch der Schlusskurs 352,29 klebt exakt am Widerstand, eine Volumenbestaetigung fehlt komplett (volume_ratio null) und der RSI 66 zeigt einen bereits gejagten Spike. Zugleich bleibt der Wochentrend nur 'side', der Kurs steht rund 50% unter dem 52W-Hoch und klar unter der SMA200 (373,37), waehrend die eigene Krypto-Bilanz klar negativ laeuft (avg_R -0,45). Wegen dieses Widerspruchs zwischen Tagesmomentum und schwacher Struktur ohne Volumen: FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

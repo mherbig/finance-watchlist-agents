@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 61.22,
+    "change_pct": 1.32407,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 61.22,
+    "change_pct": 1.324064879179075,
+    "sma20": 59.3375,
+    "sma50": 55.428,
+    "sma200": 53.0883,
+    "rsi14": 70.95,
+    "macd": {
+      "macd": 1.5675,
+      "signal": 1.5755,
+      "hist": -0.008
+    },
+    "atr14": 1.3179,
+    "high_52w": 61.59,
+    "low_52w": 44.92,
+    "pct_from_high": -0.6,
+    "pct_from_low": 36.29,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.59
+      },
+      {
+        "type": "support",
+        "price": 56.98
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 61.22
+    },
+    "volume_ratio": 0.91
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Trend bleibt bullisch (Tages- und Wochentrend aufwaerts, Kurs ueber SMA20/50/200), doch der Markteinstieg zum Schlusskurs erfolgt direkt am 52W-Hoch bzw. Widerstand (61.59 vs. 61.22) bei ueberkauftem RSI (71) und einem gerade negativ gedrehten MACD-Histogramm (-0.008), waehrend das Volumen mit Ratio 0.91 unterdurchschnittlich bleibt. Zusammen mit dem gemischten Makro-Bild (NQ100 abwaerts) und der klar negativ laufenden Konviktionsstufe 3 (avg_R -0.26) ist die Qualitaet fuer einen frischen Long an dieser Stelle nicht ausreichend, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

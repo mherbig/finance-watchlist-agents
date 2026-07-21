@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98779,
+    "change_pct": 0.024302567,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98779,
+    "change_pct": 0.024302566958625583,
+    "sma20": 0.9834,
+    "sma50": 0.9842,
+    "sma200": 0.9699,
+    "rsi14": 59.31,
+    "macd": {
+      "macd": -0.0,
+      "signal": -0.0007,
+      "hist": 0.0007
+    },
+    "atr14": 0.0039,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -0.71,
+    "pct_from_low": 8.72,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9774
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.98779
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Struktur bleibt aufwaerts geneigt — Kurs 0.98779 ueber SMA20/50/200, nur -0.71% unter dem 52W-Hoch, Wochentrend seit 38 Wochen up, und die Momentumlage hat sich verbessert (RSI 59.31, MACD-Histogramm nun leicht positiv). Dem steht aber ein neutrales Tagesbild ('side', bias neutral) gegenueber: der Kurs steht exakt am Widerstand 0.9882 ohne Volumenbestaetigung (volume_ratio null), also ein unbestaetigter Ausbruch am Hoch. Bei diesem Widerspruch und negativem Forex-Track-Record (avg_R -0.34) kein neuer Long ohne Trigger — FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.60847,
+    "change_pct": 0.0031086408,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.60847,
+    "change_pct": 0.003108640777912829,
+    "sma20": 1.6135,
+    "sma50": 1.6156,
+    "sma200": 1.608,
+    "rsi14": 35.15,
+    "macd": {
+      "macd": -0.0033,
+      "signal": -0.0026,
+      "hist": -0.0007
+    },
+    "atr14": 0.0054,
+    "high_52w": 1.63281,
+    "low_52w": 1.56678,
+    "pct_from_high": -1.49,
+    "pct_from_low": 2.66,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6254
+      },
+      {
+        "type": "support",
+        "price": 1.6024
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 1.60847
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist abwaerts (Kurs 1,60847 unter SMA20/50, MACD negativ), doch der Wochentrend liegt seit 38 Wochen seitwaerts, sodass ein Short die uebergeordnete Bestaetigung fehlt. RSI 35 direkt ueber der Unterstuetzung 1,6024 signalisiert Ueberverkauftheit mit hohem Bounce-Risiko, Volumendaten fehlen. Bei klar negativer Forex-Bilanz (avg_R -0,34) fehlt das stimmige gerichtete Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

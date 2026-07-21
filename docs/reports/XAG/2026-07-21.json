@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 59.07,
+    "change_pct": 3.9928,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 59.06999969482422,
+    "change_pct": 3.992820025220441,
+    "sma20": 58.9271,
+    "sma50": 68.0312,
+    "sma200": 69.4731,
+    "rsi14": 48.89,
+    "macd": {
+      "macd": -2.7987,
+      "signal": -3.1282,
+      "hist": 0.3295
+    },
+    "atr14": 2.0141,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -48.67,
+    "pct_from_low": 61.61,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 62.02
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 59.06999969482422
+    },
+    "volume_ratio": 19.78
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tag zeigt eine +3,99%-Kerze auf Extremvolumen (Ratio 19,78), die den SMA20 (58,93) zurueckerobert und den MACD mit positivem Histogramm (+0,33) ueber die Signallinie dreht - ein moegliches Reversal von der Unterstuetzung 55,90. Dem steht jedoch ein klar bearisches Bild entgegen: Kurs tief unter SMA50 (68,03) und SMA200 (69,47), 53-woechiger Wochentrend abwaerts und ein schwaches Edelmetall-Makro (XAU Trend und Wochentrend down). Ein Long liefe gegen Wochentrend und Makro und stiesse rasch auf Widerstand 62,02, ein Short widerspricht dem Momentum; bei diesem Widerspruch und negativem Track Record (Metall avg_R -0,09, Konviktion 3 -0,26) bleibe ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

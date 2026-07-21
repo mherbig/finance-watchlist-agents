@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 355.82001,
+    "change_pct": -1.31736,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 355.82001,
+    "change_pct": -1.3173585900835179,
+    "sma20": 349.428,
+    "sma50": 334.6286,
+    "sma200": 329.7637,
+    "rsi14": 59.12,
+    "macd": {
+      "macd": 7.8175,
+      "signal": 7.7414,
+      "hist": 0.0761
+    },
+    "atr14": 8.9314,
+    "high_52w": 365.14001,
+    "low_52w": 295.51999,
+    "pct_from_high": -2.55,
+    "pct_from_low": 20.4,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 365.14
+      },
+      {
+        "type": "support",
+        "price": 328.48
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 355.82001
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur klar bullisch (Kurs ueber SMA20/50/200, Wochentrend seit 53 Wochen auf), doch der Kurs steht nur 2,55% unter dem 52-Wochen-Hoch/Widerstand 365.14 und faellt heute -1,3% bei deutlich unterdurchschnittlichem Volumen (volume_ratio 0.63); MACD-Histogramm nahezu flach (+0.08) und RSI 59 zeigen nachlassende Dynamik. Das Makro-Bild ist gemischt/defensiv (NQ100 und XAU down, nur S&P500 stuetzend), und die Konviktionsstufe 3 laeuft im Track Record negativ (avg_R -0.26) - ein frischer Long an der Widerstandskante ohne Volumenbestaetigung ist kein Setup, fuer einen Short ist der Aufwaertstrend zu intakt. Disziplinkonform FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XAU/USD",
+  "display": "XAU",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4078.05703,
+    "change_pct": 0.0056230919,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 4078.05703,
+    "change_pct": 0.005623091880832507,
+    "sma20": 4081.6561,
+    "sma50": 4147.8423,
+    "sma200": 4621.0741,
+    "rsi14": 50.09,
+    "macd": {
+      "macd": -34.2475,
+      "signal": -41.5383,
+      "hist": 7.2908
+    },
+    "atr14": 55.0439,
+    "high_52w": 5330.94854,
+    "low_52w": 3976.78276,
+    "pct_from_high": -23.5,
+    "pct_from_low": 2.55,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4175.0111
+      },
+      {
+        "type": "support",
+        "price": 3976.7828
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 4078.05703
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bearisch: Tages- und Wochentrend down (37 Wochen), Kurs 4078 unter SMA20/50/200 und MACD negativ; das Makro-Bild (XAU down, EUR/USD schwach) stuetzt keinen Gold-Long. Fuer einen frischen SHORT fehlt jedoch der Edge, da RSI14 neutral bei 50,1 steht, das MACD-Histogramm mit +7,3 leicht dreht und der Kurs nur 2,55% ueber der Unterstuetzung 3976,78 (zugleich 52W-Tief) liegt - ohne Volumenbestaetigung (volume_ratio null). Ein LONG gegen den ungebrochenen Wochentrend waere undiszipliniert, die Metall-Klasse laeuft leicht negativ (avg_R -0,09), daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

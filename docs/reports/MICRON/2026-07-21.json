@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 970.82001,
+    "change_pct": 12.17387,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 970.82001,
+    "change_pct": 12.173871416960433,
+    "sma20": 997.964,
+    "sma50": 944.15,
+    "sma200": 490.5198,
+    "rsi14": 35.76,
+    "macd": {
+      "macd": -18.393,
+      "signal": 0.7611,
+      "hist": -19.1542
+    },
+    "atr14": 81.3807,
+    "high_52w": 1213.56006,
+    "low_52w": 104.88,
+    "pct_from_high": -20.0,
+    "pct_from_low": 825.65,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1213.5601
+      },
+      {
+        "type": "support",
+        "price": 848.95
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 970.82001
+    },
+    "volume_ratio": 0.92
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Trotz Tages-Sprung von +12,2 % auf 970,82 liegt der Kurs weiter unter SMA20 (997,96), das MACD-Histogramm bei -19,15 zeigt anhaltend baerisches Momentum und RSI 35,8 ist schwach, waehrend Tagestrend 'side' und der Ausbruch mit Volumenverhaeltnis 0,92 unterdurchschnittlich getragen ist. Ein Long ohne Rueckeroberung von SMA20 bliebe unbestaetigt, ein Short liefe der oversold-Gegenbewegung nach, und das Makro (NQ100 down) gibt dem Chip-Titel keinen Rueckenwind. Die negative Bilanz auf Konviktionsstufe 3 (avg_R -0,26) mahnt zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

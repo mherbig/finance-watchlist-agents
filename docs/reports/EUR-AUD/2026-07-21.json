@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/AUD",
+  "display": "EUR/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.62841,
+    "change_pct": -0.01964721,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.62841,
+    "change_pct": -0.019647209789228293,
+    "sma20": 1.6408,
+    "sma50": 1.6416,
+    "sma200": 1.6585,
+    "rsi14": 23.0,
+    "macd": {
+      "macd": -0.0033,
+      "signal": -0.0015,
+      "hist": -0.0018
+    },
+    "atr14": 0.0067,
+    "high_52w": 1.78922,
+    "low_52w": 1.61394,
+    "pct_from_high": -8.99,
+    "pct_from_low": 0.9,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6499
+      },
+      {
+        "type": "support",
+        "price": 1.6284
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 1.62841
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 23",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell baerisch: Kurs 1.62841 unter SMA20/50/200 bei negativem MACD-Histogramm (-0.0018) und Tagestrend 'down', doch RSI14 mit 23 klar ueberverkauft und der Kurs sitzt exakt auf Support 1.6284 knapp ueber dem 52W-Tief (1.61394, +0.9%), was Rueckpralrisiko schafft. Wochentrend 'side', Volumen fehlt (volume_ratio null) und Forex laeuft im Track Record klar negativ (avg_R -0.34 bei 476 Signalen). Widerspruch aus baerischer Struktur und ueberverkaufter Lage an Schluesselunterstuetzung ohne Bestaetigung -> diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

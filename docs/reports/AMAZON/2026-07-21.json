@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 247.55,
+    "change_pct": -0.97604,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 247.55,
+    "change_pct": -0.9760430026783874,
+    "sma20": 243.0745,
+    "sma50": 251.1606,
+    "sma200": 234.3492,
+    "rsi14": 62.22,
+    "macd": {
+      "macd": 0.8011,
+      "signal": -0.3375,
+      "hist": 1.1386
+    },
+    "atr14": 6.66,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -9.98,
+    "pct_from_low": 24.53,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 254.96
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 247.55
+    },
+    "volume_ratio": 0.43
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Tagestrend 'side' bei neutralem Bias und klar abwaertsgerichtetem Wochentrend, wobei der Kurs (247,55) unter der SMA50 (251,16) notiert, waehrend RSI 62 bereits erhoeht ist. Der positive MACD-Cross (hist 1,14) wird durch ein Volumen-Verhaeltnis von nur 0,43 nicht bestaetigt, und das Tech-Makro ist schwach (NQ100 down). Da weder ein stimmig bullisches noch bearisches Setup vorliegt und Konviktionsstufe 3 im Track Record negativ laeuft (avg_R -0,26), bleibt es bei FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T21:22:38.032598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1282.0,
+    "change_pct": 1.6653,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1282.0,
+    "change_pct": 1.6653449643140366,
+    "sma20": 1239.795,
+    "sma50": 1309.156,
+    "sma200": 1519.359,
+    "rsi14": 61.52,
+    "macd": {
+      "macd": -8.4562,
+      "signal": -17.4489,
+      "hist": 8.9927
+    },
+    "atr14": 26.9143,
+    "high_52w": 2169.89990234375,
+    "low_52w": 1082.0,
+    "pct_from_high": -40.92,
+    "pct_from_low": 18.48,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1298.6
+      },
+      {
+        "type": "support",
+        "price": 1161.3
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 1282.0
+    },
+    "volume_ratio": 15.74
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-21T21:30:48.443786+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "XPD notiert bei 1282 (+1,67%) knapp ueber der SMA20 (1240), aber klar unter SMA50 (1309) und weit unter SMA200 (1519); Tagestrend seitwaerts, Bias neutral, RSI 61 und positives MACD-Histogramm (+9,0) bei noch negativem MACD (-8,5) ergeben kein stimmiges Richtungsbild, zumal der Kurs direkt an der Resistance 1298,6 haengt. Der Wochentrend ist seitwaerts und das Metall-Makro bleibt schwach (XAU Tages- und Wochentrend down), sodass ein Long ohne klaren Ausloeser nicht begruendbar ist, waehrend das extreme Volumenverhaeltnis (15,7) auch keinen sauberen Short hergibt. Der negative Track Record in Metallen (avg_R -0,09) und bei Konviktion 3 (avg_R -0,26) stuetzt Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

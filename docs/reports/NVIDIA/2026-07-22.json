@@ -4,16 +4,16 @@
   "asset_class": "stock",
   "track": "fundamental",
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "generated_at": "2026-07-22T23:44:30.600394+00:00",
   "available": true,
   "snapshot": {
-    "price": 212.059906,
-    "change_pct": 2.30108,
+    "price": 212.059998,
+    "change_pct": 2.30113,
     "currency": "USD"
   },
   "technical": {
-    "last_close": 212.059906,
-    "change_pct": 2.3010836172069977,
+    "last_close": 212.059998,
+    "change_pct": 2.3011279994755265,
     "sma20": 202.2875,
     "sma50": 209.6768,
     "sma200": 192.6946,
@@ -26,7 +26,7 @@
     "atr14": 7.4607,
     "high_52w": 235.74001,
     "low_52w": 165.17,
-    "pct_from_high": -10.05,
+    "pct_from_high": -10.04,
     "pct_from_low": 28.39,
     "trend": "side",
     "bias": "neutral",
@@ -43,9 +43,9 @@
     "weekly": {
       "trend": "side",
       "weeks": 53,
-      "last_close": 212.059906
+      "last_close": 212.059998
     },
-    "volume_ratio": 1.63
+    "volume_ratio": 0.94
   },
   "fundamental": null,
   "headline": "Trend side, RSI 63",

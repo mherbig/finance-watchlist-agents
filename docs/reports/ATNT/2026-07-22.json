@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 23.045,
+    "change_pct": 3.5265,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 23.045,
+    "change_pct": 3.5265049415992817,
+    "sma20": 21.5678,
+    "sma50": 22.9695,
+    "sma200": 25.2768,
+    "rsi14": 85.58,
+    "macd": {
+      "macd": -0.1894,
+      "signal": -0.481,
+      "hist": 0.2916
+    },
+    "atr14": 0.7457,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -22.2,
+    "pct_from_low": 12.52,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.045
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 23.045
+    },
+    "volume_ratio": 3.98
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 86",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagesschub von +3,5% auf 23,05 mit Volumenverhaeltnis 3,98 und positivem MACD-Histogramm (+0,29) hebt den Kurs zwar ueber SMA20 (21,57) und SMA50 (22,97), doch RSI 85,58 ist extrem ueberkauft und der Schlusskurs steht exakt am ausgewiesenen Widerstand, waehrend Tages- und Wochentrend seit 53 Wochen nur 'side' sind und der Kurs 22% unter dem 52W-Hoch sowie klar unter SMA200 (25,28) liegt. Ein Long direkt in eine so ueberdehnte Tageskerze hinein bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short gegen den frischen Volumenimpuls ist ebenso unsauber. Mit gemischtem Makro (S&P500 aufwaerts, NQ100 abwaerts) und negativem Track Record bei Konviktion 3 (avg_R -0,28) bleibt es diszipliniert bei FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

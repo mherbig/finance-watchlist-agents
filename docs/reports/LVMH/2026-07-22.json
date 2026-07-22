@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 474.0,
+    "change_pct": -0.9508,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 474.0,
+    "change_pct": -0.9507863147072474,
+    "sma20": 490.2,
+    "sma50": 485.5,
+    "sma200": 539.7202,
+    "rsi14": 37.03,
+    "macd": {
+      "macd": -1.1364,
+      "signal": 0.9803,
+      "hist": -2.1167
+    },
+    "atr14": 11.8232,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -27.31,
+    "pct_from_low": 6.53,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 503.1
+      },
+      {
+        "type": "support",
+        "price": 474.0
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 474.0
+    },
+    "volume_ratio": 1.37
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend seitwaerts, Bias neutral: Kurs 474,00 liegt unter SMA20/50/200 und -27,3% unter dem 52W-Hoch, aber nur +6,5% ueber dem 52W-Tief und exakt auf dem Support 474,00. MACD-Histogramm negativ (-2,12) und RSI 37 stuetzen zwar die Schwaeche, doch ein Short direkt auf Support ohne Bruch ist kein sauberes Setup, und der Abgabetag mit Volumen 1,37 kann ebenso Kapitulation wie Fortsetzung sein; eine qualitative Agenten-Analyse fehlt. Makro ist gemischt (GER40/S&P500 aufwaerts, NQ100 abwaerts) und Konviktionsstufe 3 laeuft im Track Record klar negativ (avg_R -0,28), daher Abwarten bis der Support bricht oder eine Umkehr bestaetigt ist.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

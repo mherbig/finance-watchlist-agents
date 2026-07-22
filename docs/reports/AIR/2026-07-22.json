@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 208.3,
+    "change_pct": 7.0401,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 208.3000030517578,
+    "change_pct": 7.040080430909444,
+    "sma20": 197.854,
+    "sma50": 185.8404,
+    "sma200": 189.9337,
+    "rsi14": 55.13,
+    "macd": {
+      "macd": 3.0922,
+      "signal": 3.6086,
+      "hist": -0.5164
+    },
+    "atr14": 5.235,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -5.4,
+    "pct_from_low": 30.86,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 191.58
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 208.3000030517578
+    },
+    "volume_ratio": 2.31
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "AIR springt +7,0% auf 208,30 und damit ueber SMA20 (197,85), SMA50 (185,84) und SMA200 (189,93), getragen von deutlich ueberdurchschnittlichem Volumen (ratio 2,31) - ein glaubwuerdiger Ausbruch, Tages- und Wochentrend zeigen beide aufwaerts, RSI 55,1 laesst noch Luft bis zum 52W-Hoch (220,20). Das Makro stuetzt mit aufwaertsgerichtetem GER40 und S&P500, der noch leicht negative MACD-Hist (-0,52) ist nach dem Gap ein nachlaufendes Relikt. Weil der Kurs unmittelbar am Widerstand 209,40 steht und die Konviktionsstufe 3 historisch negatives avg_R zeigt, bleibt die Konviktion bei 3.",
+    "entry": 208.3,
+    "stop_loss": 198.877,
+    "take_profit": 222.4345,
+    "take_profit_2": 209.4,
+    "rr": 1.5
+  }
+}

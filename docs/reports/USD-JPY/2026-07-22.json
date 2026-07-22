@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/JPY",
+  "display": "USD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 163.12914,
+    "change_pct": -0.019741195,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 163.13209,
+    "change_pct": -0.017933168608860878,
+    "sma20": 162.2837,
+    "sma50": 161.5383,
+    "sma200": 158.6705,
+    "rsi14": 62.88,
+    "macd": {
+      "macd": 0.4239,
+      "signal": 0.3683,
+      "hist": 0.0556
+    },
+    "atr14": 0.5396,
+    "high_52w": 163.20868,
+    "low_52w": 152.70238,
+    "pct_from_high": -0.05,
+    "pct_from_low": 6.83,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 163.2087
+      },
+      {
+        "type": "support",
+        "price": 161.3393
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 163.13209
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt stimmig bullisch: Wochentrend seit 38 Wochen aufwaerts, Kurs ueber SMA20/50/200, RSI 62.9 noch ohne Extremwert und MACD-Histogramm positiv (0.056), dazu USD-Rueckenwind aus dem klar abwaertsgerichteten EUR/USD-Trend. Bremsend ist die Notierung unmittelbar am 52W-Hoch/Widerstand 163.21 ohne bestaetigten Ausbruch und ohne Volumenbestaetigung (volume_ratio fehlt). Wegen des negativen avg_R in Forex (-0.37) und auf Konviktionsstufe 3 (-0.28) bleibt es bei moderater Konviktion 3.",
+    "entry": 163.1291,
+    "stop_loss": 162.1579,
+    "take_profit": 164.5861,
+    "take_profit_2": 163.2087,
+    "rr": 1.5
+  }
+}

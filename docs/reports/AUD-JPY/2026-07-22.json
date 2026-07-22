@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 114.12721,
+    "change_pct": -0.044920891,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 114.12721,
+    "change_pct": -0.04492089141125037,
+    "sma20": 113.042,
+    "sma50": 112.7425,
+    "sma200": 111.3681,
+    "rsi14": 72.33,
+    "macd": {
+      "macd": 0.4142,
+      "signal": 0.2576,
+      "hist": 0.1566
+    },
+    "atr14": 0.5253,
+    "high_52w": 114.83705,
+    "low_52w": 99.546,
+    "pct_from_high": -0.62,
+    "pct_from_low": 14.65,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.2183
+      },
+      {
+        "type": "support",
+        "price": 111.9389
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 114.12721
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 72",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar 'up' und der MACD-Hist bleibt mit +0.157 positiv, doch der RSI14 von 72.3 ist ueberkauft und der Kurs 114.13 steht direkt unter dem Widerstand 114.22 sowie nur -0.62% unter dem 52W-Hoch - ein Long-Einstieg genau an dieser ausgereizten Kante ohne Volumenbestaetigung (volume_ratio fehlt) hat ein schlechtes Chance-Risiko-Profil. Das Makro-Bild ist risk-off-lastig (NQ100 down, EUR/USD down, XAU und BTC im Wochentrend down), was den JPY als Safe Haven stuetzt und das risk-on-Paar AUD/JPY bremst; ein Short gegen den intakten Aufwaertstrend ist gleichzeitig nicht begruendbar. Bei klar negativer Forex-Bilanz (avg_R -0.37) und Ueberzeugung < 3 daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

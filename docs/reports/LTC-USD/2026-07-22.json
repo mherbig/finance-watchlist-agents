@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 47.33,
+    "change_pct": 0.98143802,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 47.33,
+    "change_pct": 0.9814380200554744,
+    "sma20": 45.2535,
+    "sma50": 44.172,
+    "sma200": 54.7856,
+    "rsi14": 72.85,
+    "macd": {
+      "macd": 0.6991,
+      "signal": 0.3293,
+      "hist": 0.3698
+    },
+    "atr14": 1.435,
+    "high_52w": 101.71,
+    "low_52w": 40.92,
+    "pct_from_high": -53.47,
+    "pct_from_low": 15.66,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.37
+      },
+      {
+        "type": "support",
+        "price": 43.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 47.33
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist up und MACD-Histogramm positiv (+0,37), doch der Kurs steht mit 47,33 exakt am Widerstand 47,37 bei einem ueberkauften RSI von 72,9 und ohne Volumenbestaetigung (volume_ratio null). Der Wochentrend laeuft nur seitwaerts, die SMA200 bei 54,79 liegt weit darueber (-53,5% zum 52W-Hoch), und BTC gab am Tag 0,94% ab bei abwaerts gerichtetem Wochentrend. Bei klar negativer Krypto-Bilanz (avg_R -0,45) rechtfertigt dieser volumenlose Ausbruchsversuch kein LONG, waehrend die intakte kurzfristige Aufwaertsdynamik ein SHORT ausschliesst.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

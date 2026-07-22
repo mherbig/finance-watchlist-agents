@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.94,
+    "change_pct": 2.6178,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2.940000057220459,
+    "change_pct": 2.617802702759606,
+    "sma20": 3.075,
+    "sma50": 3.0903,
+    "sma200": 3.4546,
+    "rsi14": 31.03,
+    "macd": {
+      "macd": -0.0699,
+      "signal": -0.0442,
+      "hist": -0.0257
+    },
+    "atr14": 0.1128,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -60.59,
+    "pct_from_low": 16.53,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 2.858
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 2.940000057220459
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (Kurs 2,94 unter SMA20/50/200), MACD-Histogramm bleibt negativ - ein Long widerspraeche dem uebergeordneten Bild. Gleichzeitig ist RSI 31 nahe ueberverkauft und der Kurs prallt mit +2,6% direkt von der Unterstuetzung 2,858 knapp ueber dem 52-Wochen-Tief ab, was einen sauberen Short verbietet. Das Volumenverhaeltnis von 0,83 bestaetigt weder Richtung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

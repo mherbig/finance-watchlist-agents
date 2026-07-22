@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 46.97,
+    "change_pct": -1.365,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 46.970001220703125,
+    "change_pct": -1.3649679247397544,
+    "sma20": 49.0725,
+    "sma50": 41.8932,
+    "sma200": 38.0109,
+    "rsi14": 19.94,
+    "macd": {
+      "macd": 1.6724,
+      "signal": 2.4121,
+      "hist": -0.7397
+    },
+    "atr14": 1.4586,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -11.98,
+    "pct_from_low": 88.07,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 46.03
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 46.970001220703125
+    },
+    "volume_ratio": 0.49
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 20",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widersprüchliches Bild: Der übergeordnete Aufwärtstrend bleibt intakt (46,97 klar über SMA50 41,89 und SMA200 38,01, Wochentrend aufwärts), doch kurzfristig kippt die Dynamik - Kurs unter SMA20 49,07, MACD-Histogramm negativ (-0,74), Trend seitwärts und Bias neutral. Der RSI von 19,94 ist extrem überverkauft, aber die Abgabe läuft auf sehr dünnem Volumen (Ratio 0,49) und der Kurs steht direkt auf der Unterstützung 46,03 - ein Long ohne Stabilisierungssignal wäre ein reiner Fallmesser-Griff, ein Short gegen den Wochentrend unbegründet. Da zudem die eigene Trefferquote in der Aktienklasse leicht negativ ist, ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

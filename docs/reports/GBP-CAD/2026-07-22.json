@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/CAD",
+  "display": "GBP/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.88432,
+    "change_pct": -0.0068985646,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.88432,
+    "change_pct": -0.006898564567909124,
+    "sma20": 1.8924,
+    "sma50": 1.8813,
+    "sma200": 1.8576,
+    "rsi14": 37.53,
+    "macd": {
+      "macd": 0.0009,
+      "signal": 0.0028,
+      "hist": -0.0019
+    },
+    "atr14": 0.0079,
+    "high_52w": 1.90211,
+    "low_52w": 1.81558,
+    "pct_from_high": -0.94,
+    "pct_from_low": 3.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9021
+      },
+      {
+        "type": "support",
+        "price": 1.8829
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.88432
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen aufwaerts und der Kurs liegt ueber SMA50 (1,8813) und SMA200 (1,8576), doch das Tagesbild widerspricht klar: Trend seitwaerts, Kurs unter SMA20 (1,88432 vs. 1,8924), RSI 37,5 und MACD-Histogramm negativ (-0,0019). Der Kurs klebt knapp ueber der Unterstuetzung 1,8829, eine Volumenbestaetigung fehlt (volume_ratio nicht verfuegbar). Ein Short gegen den intakten Wochentrend ist ebenso unbegruendet wie ein Long gegen fallendes Tagesmomentum, und die negative Forex-Bilanz (avg_R -0,37) mahnt zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

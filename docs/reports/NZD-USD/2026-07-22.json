@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.5816,
+    "change_pct": -0.0085962348,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.5816,
+    "change_pct": -0.008596234849135131,
+    "sma20": 0.5781,
+    "sma50": 0.5761,
+    "sma200": 0.5856,
+    "rsi14": 68.5,
+    "macd": {
+      "macd": 0.0025,
+      "signal": 0.0021,
+      "hist": 0.0005
+    },
+    "atr14": 0.0033,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -4.12,
+    "pct_from_low": 3.96,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.585
+      },
+      {
+        "type": "support",
+        "price": 0.5678
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.5816
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar 'up' mit positivem MACD-Hist (+0.0005), doch der Kurs (0.5816) prallt an der Resistance 0.585 ab und bleibt unter dem SMA200 (0.5856), waehrend RSI14 mit 68.5 bereits ueberkauft ist und der Wochentrend nur 'side' zeigt. Eine Volumenbestaetigung fehlt komplett (volume_ratio null), und das Makro-Bild mit klarer USD-Staerke (EUR/USD Tages- und Wochentrend abwaerts, XAU wochentrend abwaerts, NQ100 down) belastet die Risikowaehrung NZD. Bei negativem Track Record in Forex (avg_R -0.37) rechtfertigt weder die ueberkaufte Lage an der Resistance einen LONG noch das intakte Aufwaertsmomentum einen SHORT - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 186.14007,
+    "change_pct": -0.040437049,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 186.14007,
+    "change_pct": -0.040437048778518433,
+    "sma20": 185.3961,
+    "sma50": 185.096,
+    "sma200": 184.5546,
+    "rsi14": 56.76,
+    "macd": {
+      "macd": 0.3043,
+      "signal": 0.2129,
+      "hist": 0.0914
+    },
+    "atr14": 0.6635,
+    "high_52w": 187.58855,
+    "low_52w": 177.416,
+    "pct_from_high": -0.77,
+    "pct_from_low": 4.92,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 186.2154
+      },
+      {
+        "type": "support",
+        "price": 184.568
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 186.14007
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt stimmig bullisch: Wochentrend seit 38 Wochen up, Kurs 186.14 ueber SMA20/50/200, MACD-Histogramm mit +0.091 weiter expandierend und RSI 56.8 ohne Ueberhitzung. Bremsend wirken der unmittelbar anliegende Widerstand bei 186.22 und nur 0.77% Abstand zum 52W-Hoch, dazu der abwaertsgerichtete EUR/USD-Wochentrend, sodass der Impuls JPY-seitig getragen sein muss. Die negative Forex-Bilanz im Track Record (avg_R -0.37) deckelt die Konviktion bei 3.",
+    "entry": 186.1401,
+    "stop_loss": 184.9458,
+    "take_profit": 187.9315,
+    "take_profit_2": 186.2154,
+    "rr": 1.5
+  }
+}

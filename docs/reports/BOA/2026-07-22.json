@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 61.65,
+    "change_pct": 0.70238533,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 61.65,
+    "change_pct": 0.7023848415550469,
+    "sma20": 59.5245,
+    "sma50": 55.6348,
+    "sma200": 53.1441,
+    "rsi14": 67.94,
+    "macd": {
+      "macd": 1.5678,
+      "signal": 1.574,
+      "hist": -0.0062
+    },
+    "atr14": 1.2546,
+    "high_52w": 61.65,
+    "low_52w": 44.92,
+    "pct_from_high": 0.0,
+    "pct_from_low": 37.24,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.65
+      },
+      {
+        "type": "support",
+        "price": 56.98
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 61.65
+    },
+    "volume_ratio": 1.97
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts, der Kurs liegt ueber SMA20/50/200 und schliesst mit 61.65 auf einem neuen 52-Wochen-Hoch - diesmal getragen von deutlich ueberdurchschnittlichem Volumen (Ratio 1.97), was den Ausbruch im Gegensatz zum Vortag (0.91) bestaetigt. RSI 67.94 ist erhoeht, aber nicht extrem, und das nur marginal negative MACD-Histogramm (-0.0062) reicht als Gegenargument nicht aus, waehrend das Makro-Bild mit steigendem S&P500 und GER40 stuetzt. Konviktion bleibt bei 3, da Stufe 3 im Track Record negativ laeuft (avg_R -0.28) und der Einstieg direkt am Widerstand erfolgt; Stop-Referenz ist die Unterstuetzung bei 56.98 bei ATR 1.25.",
+    "entry": 61.65,
+    "stop_loss": 59.3917,
+    "take_profit": 65.0374,
+    "take_profit_2": null,
+    "rr": 1.5
+  }
+}

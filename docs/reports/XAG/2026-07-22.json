@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 60.035,
+    "change_pct": 2.0396,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 60.03499984741211,
+    "change_pct": 2.0396036060382117,
+    "sma20": 58.8161,
+    "sma50": 67.6193,
+    "sma200": 69.5421,
+    "rsi14": 49.87,
+    "macd": {
+      "macd": -2.4806,
+      "signal": -3.0017,
+      "hist": 0.5211
+    },
+    "atr14": 1.9327,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -47.83,
+    "pct_from_low": 64.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.92
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 60.03499984741211
+    },
+    "volume_ratio": 16.93
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der zweite Tag mit starkem Anstieg (+2,04%) auf Extremvolumen (Ratio 16,93) haelt den Kurs ueber dem SMA20 (58,82) und das MACD-Histogramm dreht weiter ins Positive (+0,52), was ein Reversal von der Unterstuetzung 55,90 andeutet. Dagegen steht ein unveraendert bearisches Uebergeordnetes: Kurs 11% unter SMA50 (67,62) und 14% unter SMA200 (69,54), 53-woechiger Wochentrend abwaerts, RSI neutral bei 49,9 und ein schwaches Edelmetall-Makro (XAU side, Wochentrend down). Ein Long liefe gegen Wochentrend und Makro direkt in den Widerstand 61,92, ein Short gegen das laufende Momentum - bei diesem Widerspruch und negativem Track Record (metal avg_R -0,09, gesamt -0,29) bleibe ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

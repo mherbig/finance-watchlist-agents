@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 342.070007,
+    "change_pct": -1.46334,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 342.070007,
+    "change_pct": -1.463339520764505,
+    "sma20": 354.7695,
+    "sma50": 367.4746,
+    "sma200": 323.1936,
+    "rsi14": 38.13,
+    "macd": {
+      "macd": -3.7842,
+      "signal": -2.5883,
+      "hist": -1.1958
+    },
+    "atr14": 10.6657,
+    "high_52w": 402.62,
+    "low_52w": 189.13,
+    "pct_from_high": -15.04,
+    "pct_from_low": 80.87,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 370.92
+      },
+      {
+        "type": "support",
+        "price": 337.39
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 342.070007
+    },
+    "volume_ratio": 1.46
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts, der Kurs (342,07) liegt klar unter SMA20 (354,77) und SMA50 (367,47), der Bias ist bearisch und das MACD-Histogramm vertieft sich auf -1,20 bei RSI 38 ohne ueberverkaufte Extremzone. Anders als am Vortag laeuft der -1,46%-Tag nun auf ueberdurchschnittlichem Volumen (Ratio 1,46) und drueckt direkt auf die Unterstuetzung 337,39 — das gibt dem Abwaertsimpuls Bestaetigung. Makro ist gemischt (S&P500 aufwaerts, NQ100 abwaerts) und der Track Record der Stufe 3 ist schwach, daher nur moderate Konviktion; Puffer zur SMA200 (323,19) begrenzt zudem das Ziel.",
+    "entry": 342.07,
+    "stop_loss": 361.2683,
+    "take_profit": 313.2726,
+    "take_profit_2": 337.39,
+    "rr": 1.5
+  }
+}

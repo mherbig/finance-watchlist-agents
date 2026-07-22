@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 93.88,
+    "change_pct": 3.1535,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 93.87999725341797,
+    "change_pct": 3.1534941762680986,
+    "sma20": 79.3165,
+    "sma50": 88.86,
+    "sma200": 79.7115,
+    "rsi14": 90.17,
+    "macd": {
+      "macd": 1.2799,
+      "signal": -1.3523,
+      "hist": 2.6322
+    },
+    "atr14": 4.2207,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -20.68,
+    "pct_from_low": 59.33,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 93.88
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 93.87999725341797
+    },
+    "volume_ratio": 1.18
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 90",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Schlusskurs 93,88 liegt exakt auf dem ausgewiesenen Widerstand, und RSI 14 von 90,2 ist ein extrem überkaufter Wert, der nach einem +3,15%-Tag ein schlechtes Chance-Risiko-Verhältnis für einen Nachkauf liefert. Tages- und Wochentrend bleiben 'side' bei neutralem Bias, das Volumenverhältnis von 1,18 ist nur leicht überdurchschnittlich und bestätigt den Ausbruch nicht überzeugend. Ein Short wiederum liefe frontal gegen den starken Momentumschub (MACD-Histogramm +2,63) — bei widersprüchlichem Bild und ohne Makro-Rückenwind für Energie ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

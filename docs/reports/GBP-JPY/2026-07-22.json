@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 218.22375,
+    "change_pct": -0.011757191,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 218.22375,
+    "change_pct": -0.011757191004555854,
+    "sma20": 217.5567,
+    "sma50": 215.5547,
+    "sma200": 213.2025,
+    "rsi14": 54.21,
+    "macd": {
+      "macd": 0.885,
+      "signal": 0.9373,
+      "hist": -0.0523
+    },
+    "atr14": 0.9072,
+    "high_52w": 219.60676,
+    "low_52w": 201.94099,
+    "pct_from_high": -0.63,
+    "pct_from_low": 8.06,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 219.6068
+      },
+      {
+        "type": "support",
+        "price": 215.372
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 218.22375
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Strukturbild bleibt bullisch: Kurs ueber SMA20/50/200, Tages- und Wochentrend seit 38 Wochen aufwaerts, RSI 54. Ein Market-Einstieg zum Schlusskurs 218.22 kauft aber direkt unter das 52W-Hoch bei 219.61 (nur -0.63%, rund 1.5 ATR), waehrend das Momentum abflacht: MACD 0.885 unter Signal 0.937, Histogramm negativ, Volumenbestaetigung fehlt (volume_ratio null). Bei gemischtem Makro (NQ100 abwaerts, XAU seitwaerts mit fallendem Wochentrend) und klar negativem Forex-Track-Record (avg_R -0.37) bleibe ich FLAT, statt den Ausbruch am Hoch zu jagen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

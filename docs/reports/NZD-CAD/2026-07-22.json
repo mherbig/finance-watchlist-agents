@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81926,
+    "change_pct": -0.017085672,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81926,
+    "change_pct": -0.0170856724432547,
+    "sma20": 0.816,
+    "sma50": 0.8121,
+    "sma200": 0.8093,
+    "rsi14": 59.11,
+    "macd": {
+      "macd": 0.0028,
+      "signal": 0.0025,
+      "hist": 0.0003
+    },
+    "atr14": 0.0043,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -0.84,
+    "pct_from_low": 4.22,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8223
+      },
+      {
+        "type": "support",
+        "price": 0.8063
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.81926
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt bullisch (0,81926 ueber SMA20/50/200, Tages- und Wochentrend up seit 38 Wochen, RSI14 auf 59 abgekuehlt), doch der MACD-Histogramm schrumpft auf +0,0003 und der Kurs steht unmittelbar unter dem Widerstand 0,8223 bzw. nur -0,84% unter dem 52W-Hoch. Ein Long vor diesem Deckel ist ohne Ausbruchsschlusskurs und ohne Volumenbestaetigung (volume_ratio null) schlecht gepolstert, ein Short gegen den intakten Wochentrend nicht begruendbar. Der Track Record in Forex laeuft mit avg_R -0,37 klar negativ, daher diszipliniertes Abwarten bis zum Tagesschluss ueber 0,8223.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

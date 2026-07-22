@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 66115.6,
+    "change_pct": 3.0783,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 66232.1875,
+    "change_pct": 3.2601026776467688,
+    "sma20": 68561.7521,
+    "sma50": 66739.0523,
+    "sma200": 56223.665,
+    "rsi14": 38.96,
+    "macd": {
+      "macd": -244.4393,
+      "signal": 344.711,
+      "hist": -589.1503
+    },
+    "atr14": 1976.4261,
+    "high_52w": 72366.34375,
+    "low_52w": 39774.921875,
+    "pct_from_high": -8.48,
+    "pct_from_low": 66.52,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 72366.3438
+      },
+      {
+        "type": "support",
+        "price": 64141.1211
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 66232.1875
+    },
+    "volume_ratio": 1.04
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Nach dem Abpraller von der Unterstuetzung (+3,26% auf 66.232) steht der Kurs zwar wieder knapp ueber SMA50 (66.739 nur hauchduenn verfehlt), bleibt aber klar unter SMA20 (68.562), waehrend das MACD-Histogramm mit -589 tief negativ ist und RSI14 bei 39 kein Momentum bestaetigt. Tages- und Wochentrend sind beide 'side', das Volumen (1,04) traegt den Gegenschlag nur durchschnittlich - ein LONG waere reines Rebound-Raten, ein SHORT kaeme direkt nach einem 3%-Tag zu spaet. Da die Index-Klasse im Track-Record mit avg_R -0,51 die schwaechste ist und das Makro-Bild (S&P500/GER40 up, NQ100 down) uneinheitlich bleibt, halte ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

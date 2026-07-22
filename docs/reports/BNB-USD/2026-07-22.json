@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 571.02,
+    "change_pct": -0.51049743,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 571.02,
+    "change_pct": -0.5104974300897401,
+    "sma20": 574.5825,
+    "sma50": 580.5466,
+    "sma200": 659.7737,
+    "rsi14": 52.28,
+    "macd": {
+      "macd": -2.9001,
+      "signal": -3.8964,
+      "hist": 0.9963
+    },
+    "atr14": 12.0186,
+    "high_52w": 948.47,
+    "low_52w": 546.52,
+    "pct_from_high": -39.8,
+    "pct_from_low": 4.48,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 589.87
+      },
+      {
+        "type": "support",
+        "price": 567.49
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 571.02
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts (37 Wochen), der Kurs 571,02 liegt unter SMA20/50/200 und 39,8% unter dem 52W-Hoch - fuer LONG fehlt jede Bestaetigung. Ein SHORT verbietet sich dennoch: RSI 52 ist neutral, das MACD-Histogramm dreht positiv (+1,00) und der Support 567,49 bzw. das 52W-Tief 546,52 liegen nur rund 0,6% bzw. 4,3% entfernt, was bei ATR 12,0 ein schlechtes CRV ergibt. Ohne Volumenbestaetigung (volume_ratio null), bei nur leicht abwaerts gerichtetem Krypto-Makro (BTC weekly down) und negativem Track Record der Klasse Crypto (avg_R -0,45) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

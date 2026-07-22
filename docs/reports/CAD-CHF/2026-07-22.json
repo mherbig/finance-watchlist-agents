@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/CHF",
+  "display": "CAD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57837,
+    "change_pct": 0.048435365,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57826,
+    "change_pct": 0.02940718573232602,
+    "sma20": 0.5729,
+    "sma50": 0.571,
+    "sma200": 0.5711,
+    "rsi14": 78.17,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0017,
+      "hist": 0.0005
+    },
+    "atr14": 0.0025,
+    "high_52w": 0.58246,
+    "low_52w": 0.56198,
+    "pct_from_high": -0.72,
+    "pct_from_low": 2.9,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5783
+      },
+      {
+        "type": "support",
+        "price": 0.5654
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.57826
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind up und der Kurs liegt ueber SMA20/50/200 mit positivem MACD-Histogramm (+0,0005), doch RSI14 bei 78,2 ist klar ueberkauft und der Preis 0,57837 steht exakt am Widerstand 0,5783 sowie nur -0,72% unter dem 52W-Hoch. Eine Volumenbestaetigung fehlt (volume_ratio null) und das Makrobild liefert keinen CAD-Rueckenwind. Bei negativer Forex-Bilanz im Track Record (avg_R -0,37) rechtfertigt ein derart gestreckter Trend keinen Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

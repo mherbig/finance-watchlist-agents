@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56996,
+    "change_pct": 0.0087733151,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56996,
+    "change_pct": 0.00877331508483699,
+    "sma20": 0.5633,
+    "sma50": 0.5619,
+    "sma200": 0.5541,
+    "rsi14": 80.22,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0013,
+      "hist": 0.0008
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.56996,
+    "low_52w": 0.51634002,
+    "pct_from_high": 0.0,
+    "pct_from_low": 10.38,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.57
+      },
+      {
+        "type": "support",
+        "price": 0.557
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.56996
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 80",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts (0,56996 ueber SMA20/50/200, MACD positiv), doch RSI 80,2 ist extrem ueberkauft und der Kurs steht exakt auf dem 52-Wochen-Hoch direkt am Widerstand 0,57 bei nur neutralem Bias und fehlender Volumenbestaetigung. Ein Long genau am Top ohne Ausbruchsbestaetigung ist schlecht bezahlt, ein Short liefe klar gegen den 38-Wochen-Aufwaertstrend. Risk-off-Makro (NQ100 und XAU schwach, EUR/USD down) stuetzt den Safe-Haven CHF, und der Forex-Track-Record (avg_R -0,37) mahnt zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

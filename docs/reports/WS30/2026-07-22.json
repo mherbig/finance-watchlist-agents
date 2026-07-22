@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 52218.58,
+    "change_pct": -0.0116,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 52218.578125,
+    "change_pct": -0.011608504965178974,
+    "sma20": 52372.7084,
+    "sma50": 51363.4399,
+    "sma200": 48848.7475,
+    "rsi14": 48.67,
+    "macd": {
+      "macd": 251.2094,
+      "signal": 381.2685,
+      "hist": -130.0591
+    },
+    "atr14": 528.1225,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -1.58,
+    "pct_from_low": 19.8,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 51839.2617
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 52218.578125
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist zwar weiter aufwaerts, doch der Tagestrend bleibt side und das Momentum ist negativ gedreht: RSI 48,7 neutral, MACD-Histogramm -130 unter der Signallinie, Kurs unter der SMA20 (52373) und Volumenverhaeltnis 0,82 unterdurchschnittlich. Das Makrobild ist gemischt (S&P500 und GER40 up, NQ100 taeglich wie woechentlich down), sodass kein stimmig bullisches Bild fuer einen Long am 52W-Hoch-Bereich (-1,6%) entsteht. Zusaetzlich laeuft die Index-Klasse im Track Record klar negativ (avg_R -0,51, 4 SL, kein TP) - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

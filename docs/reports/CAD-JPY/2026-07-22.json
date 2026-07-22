@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 115.80218,
+    "change_pct": -0.012416186,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 115.80218,
+    "change_pct": -0.012416186424453043,
+    "sma20": 114.9664,
+    "sma50": 114.5786,
+    "sma200": 114.7796,
+    "rsi14": 70.5,
+    "macd": {
+      "macd": 0.4141,
+      "signal": 0.3251,
+      "hist": 0.089
+    },
+    "atr14": 0.4401,
+    "high_52w": 117.24469,
+    "low_52w": 109.22,
+    "pct_from_high": -1.23,
+    "pct_from_low": 6.03,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 115.9032
+      },
+      {
+        "type": "support",
+        "price": 113.6365
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 115.80218
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt stimmig bullisch: Kurs 115,80 ueber SMA20/50/200, Tages- und Wochentrend 'up' (38 Wochen) und positives MACD-Histogramm (+0,089). Das Makro ist eher risk-on (S&P500 und GER40 up, Gold seitwaerts/Wochentrend down), was die JPY-Safe-Haven-Nachfrage daempft und den Rohstoff-Cross stuetzt. Konviktion nur 3, weil RSI 70,5 bereits ueberkauft ist, der Kurs unmittelbar unter dem Widerstand 115,90 ohne bestaetigten Ausbruch klebt und die Assetklasse Forex im Track Record mit avg_R -0,37 negativ laeuft.",
+    "entry": 115.8022,
+    "stop_loss": 115.01,
+    "take_profit": 116.9905,
+    "take_profit_2": 115.9032,
+    "rr": 1.5
+  }
+}

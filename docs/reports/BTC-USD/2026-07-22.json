@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 65930.0,
+    "change_pct": -0.94079947,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 65930.0,
+    "change_pct": -0.9407994692001512,
+    "sma20": 64062.954,
+    "sma50": 63134.444,
+    "sma200": 72730.123,
+    "rsi14": 66.25,
+    "macd": {
+      "macd": 574.657,
+      "signal": 195.23,
+      "hist": 379.4269
+    },
+    "atr14": 1564.0129,
+    "high_52w": 96951.78,
+    "low_52w": 58624.71,
+    "pct_from_high": -32.0,
+    "pct_from_low": 12.46,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 66556.16
+      },
+      {
+        "type": "support",
+        "price": 62290.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 65930.0
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar up mit RSI 66, positivem MACD-Histogramm (+379) und Kurs ueber SMA20/50, doch der Wochentrend laeuft weiter abwaerts und der Kurs 65930 bleibt rund 32% unter dem 52W-Hoch sowie klar unter der SMA200 (72730). Der Abpraller vom Widerstand 66556 (-0,94% am Tag) ohne jede Volumenbestaetigung (volume_ratio null) und ein gemischtes Makro-Bild (NQ100 abwaerts, EUR/USD und Gold schwach) liefern kein stimmiges Setup. Da die Krypto-Klasse im Track Record deutlich negativ ist (avg_R -0,45), bleibt die Position flach.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

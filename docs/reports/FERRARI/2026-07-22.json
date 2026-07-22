@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 371.63,
+    "change_pct": 0.44868602,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 371.63,
+    "change_pct": 0.44868502851581693,
+    "sma20": 373.2575,
+    "sma50": 356.3836,
+    "sma200": 365.8904,
+    "rsi14": 47.88,
+    "macd": {
+      "macd": 4.4152,
+      "signal": 6.0343,
+      "hist": -1.6191
+    },
+    "atr14": 7.6646,
+    "high_52w": 517.65002,
+    "low_52w": 314.63,
+    "pct_from_high": -28.21,
+    "pct_from_low": 18.12,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 391.86
+      },
+      {
+        "type": "support",
+        "price": 348.75
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 371.63
+    },
+    "volume_ratio": 0.81
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Trotz aufwaertsgerichtetem Wochentrend ist das Tagesbild widerspruechlich: Trend seitwaerts, RSI 47.9 neutral, MACD-Histogramm negativ (-1.62) und der Kurs notiert unter der SMA20 (373.26) bei nur 0.81 Volumen-Ratio. Das Makro-Bild ist gemischt (S&P500 up, NQ100 down) und liefert keinen Rueckenwind fuer einen Auto-Luxuswert, der 28% unter dem 52-Wochen-Hoch steht. Der Track Record der Konviktionsstufe 3 laeuft mit avg_R -0.28 klar negativ, daher kein Einstieg ohne stimmiges Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

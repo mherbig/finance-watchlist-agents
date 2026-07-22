@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/USD",
+  "display": "GBP/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.33762,
+    "change_pct": 0.00074760207,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.33762,
+    "change_pct": 0.0007476020663770092,
+    "sma20": 1.3406,
+    "sma50": 1.3344,
+    "sma200": 1.3438,
+    "rsi14": 46.12,
+    "macd": {
+      "macd": 0.002,
+      "signal": 0.0027,
+      "hist": -0.0008
+    },
+    "atr14": 0.0059,
+    "high_52w": 1.37954,
+    "low_52w": 1.30451,
+    "pct_from_high": -3.04,
+    "pct_from_low": 2.54,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.3539
+      },
+      {
+        "type": "support",
+        "price": 1.3346
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.33762
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist neutral bis leicht schwach: Trend 'side', RSI 46,1, MACD-Histogramm negativ (-0,0008) und der Kurs 1,33762 liegt unter SMA20 (1,3406) und SMA200 (1,3438), nur knapp ueber der Unterstuetzung 1,3346. Der aufwaertsgerichtete Wochentrend steht im Widerspruch zum Makro-Bild mit fallendem EUR/USD (Tag und Woche) und schwachem Gold, was einen festen USD signalisiert; eine Volumenbestaetigung fehlt (volume_ratio nicht verfuegbar). Bei klar negativem Forex-Track-Record (avg_R -0,37) und diesem Widerspruch ist FLAT bis zu einem bestaetigten Ausbruch ueber 1,3539 oder Bruch unter 1,3346 die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

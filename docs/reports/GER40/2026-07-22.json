@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25155.41,
+    "change_pct": 0.576,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25155.41015625,
+    "change_pct": 0.5759807012613258,
+    "sma20": 25103.795,
+    "sma50": 24912.2941,
+    "sma200": 24362.7181,
+    "rsi14": 40.1,
+    "macd": {
+      "macd": 31.5757,
+      "signal": 68.2523,
+      "hist": -36.6766
+    },
+    "atr14": 291.5725,
+    "high_52w": 25817.890625,
+    "low_52w": 22300.75,
+    "pct_from_high": -2.57,
+    "pct_from_low": 12.8,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25817.8906
+      },
+      {
+        "type": "support",
+        "price": 24626.8906
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 25155.41015625
+    },
+    "volume_ratio": 0.81
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts und der Kurs (25155) liegt ueber SMA20/50/200, doch das Momentum widerspricht klar: RSI 40,1 im schwachen Bereich, MACD 31,6 unter Signal 68,3 mit Histogramm -36,7. Der +0,58%-Tag kommt ohne Volumenbestaetigung (Ratio 0,81) und knapp unter dem 52W-Hoch (-2,6%), das Makro-Bild ist gemischt (NQ100 down, XAU/BTC Wochentrend down). Da die Asset-Klasse Index im Track Record am schlechtesten laeuft (avg_R -0,51, 0 TP bei 4 SL), bleibe ich ohne stimmiges Setup an der Seitenlinie.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

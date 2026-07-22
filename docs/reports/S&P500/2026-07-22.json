@@ -1,0 +1,67 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7498.96,
+    "change_pct": -0.1364,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7498.9599609375,
+    "change_pct": -0.13636917526039996,
+    "sma20": 7484.662,
+    "sma50": 7471.8838,
+    "sma200": 6998.9117,
+    "rsi14": 51.5,
+    "macd": {
+      "macd": 19.0338,
+      "signal": 25.7781,
+      "hist": -6.7442
+    },
+    "atr14": 70.1772,
+    "high_52w": 7609.77978515625,
+    "low_52w": 6238.009765625,
+    "pct_from_high": -1.46,
+    "pct_from_low": 20.21,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7575.3901
+      },
+      {
+        "type": "support",
+        "price": 7354.02
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 7498.9599609375
+    },
+    "volume_ratio": 0.55
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs (7498.96) notiert ueber SMA20/50/200 nur 1.5% unter dem 52W-Hoch, doch das Momentum bestaetigt nicht: RSI 51.5 ist neutral und das MACD-Histogramm bleibt mit -6.74 negativ. Das Volumen liegt mit volume_ratio 0.55 klar unter dem Schnitt, und das Makrobild ist gemischt (NQ100 taeglich und woechentlich abwaerts). Bei einem Track Record der Klasse Index von avg_R -0.51 rechtfertigt dieses uneinheitliche Bild keinen Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

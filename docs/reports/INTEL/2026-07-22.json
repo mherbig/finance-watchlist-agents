@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 102.57,
+    "change_pct": -2.73115,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 102.57,
+    "change_pct": -2.7311522048364245,
+    "sma20": 114.387,
+    "sma50": 116.4162,
+    "sma200": 65.1634,
+    "rsi14": 30.55,
+    "macd": {
+      "macd": -5.0382,
+      "signal": -3.149,
+      "hist": -1.8892
+    },
+    "atr14": 8.0536,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -27.22,
+    "pct_from_low": 431.18,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 139.63
+      },
+      {
+        "type": "support",
+        "price": 95.04
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 102.57
+    },
+    "volume_ratio": 1.24
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bleibt klar bearisch: Wochentrend seit 53 Wochen abwaerts, Kurs deutlich unter SMA20/50 (114,4/116,4), MACD negativ mit fallendem Histogramm (-1,89) und der heutige -2,7%-Tag laeuft auf ueberdurchschnittlichem Volumen (1,24). Gegen einen frischen Short spricht jedoch RSI 30,6 im ueberverkauften Bereich plus der Support bei 95,04, der nur rund 0,9 ATR entfernt liegt - das Chance-Risiko-Verhaeltnis fuer einen Neueinstieg short ist damit unattraktiv. Ohne qualitative Analyse-Sektion und bei gemischtem Aktien-Makro (S&P500 up, NQ100 down) bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

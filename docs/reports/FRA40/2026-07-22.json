@@ -1,0 +1,67 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T21:23:00.056462+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8437.89,
+    "change_pct": 0.8938,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8437.8896484375,
+    "change_pct": 0.8938030828406133,
+    "sma20": 8385.7061,
+    "sma50": 8288.2236,
+    "sma200": 8173.9192,
+    "rsi14": 46.71,
+    "macd": {
+      "macd": 17.6018,
+      "signal": 23.2727,
+      "hist": -5.6709
+    },
+    "atr14": 94.5758,
+    "high_52w": 8620.9296875,
+    "low_52w": 7546.16015625,
+    "pct_from_high": -2.12,
+    "pct_from_low": 11.82,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8508.0703
+      },
+      {
+        "type": "support",
+        "price": 8252.6602
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8437.8896484375
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-22T21:28:07.946386+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen zwar aufwaerts und der Kurs liegt ueber SMA20 (8386), SMA50 (8288) und SMA200 (8174), doch die Momentum-Indikatoren widersprechen: RSI 46.7 ist neutral-schwach und das MACD-Histogramm bleibt negativ (-5.67, Signallinie ueber MACD). Der Tagesanstieg von +0.89% erfolgte mit unterdurchschnittlichem Volumen (volume_ratio 0.88) und der Kurs steht mittig zwischen Support 8253 und Resistance 8508 ohne belastbare Kante. Das Makro ist gemischt (S&P500 und GER40 auf, NQ100 abwaerts) und die Index-Klasse laeuft im Track Record mit avg_R -0.51 klar negativ, daher kein neuer Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

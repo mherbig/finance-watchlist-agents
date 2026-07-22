@@ -3,7 +3,7 @@
     "start_equity": 100000.0,
     "current_equity": 94297.6346,
     "return_pct": -5.7024,
-    "open_count": 6,
+    "open_count": 9,
     "no_fill_count": 0,
     "closed_count": 27,
     "wins": 7,
@@ -12,10 +12,10 @@
     "total_pnl": -5702.3654,
     "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 347.9869,
-    "marked_equity": 94645.6215,
-    "marked_return_pct": -5.3544,
-    "skipped_count": 34,
+    "unrealized_pnl": 1172.9091,
+    "marked_equity": 95470.5437,
+    "marked_return_pct": -4.5295,
+    "skipped_count": 38,
     "ruleset_frozen_since": "2026-07-08"
   },
   "equity_curve": [
@@ -622,6 +622,42 @@
   ],
   "open": [
     {
+      "symbol": "AIR",
+      "display": "AIR",
+      "date": "2026-07-22",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 208.3,
+      "stop_loss": 198.877,
+      "take_profit": 222.4345,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 50.0359,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 208.3000030517578,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0002
+    },
+    {
+      "symbol": "ALV",
+      "display": "ALLI",
+      "date": "2026-07-22",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 426.1,
+      "stop_loss": 416.5085,
+      "take_profit": 440.4872,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 49.1569,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 426.1000061035156,
+      "unrealized_pct": 0.0,
+      "unrealized_pnl": 0.0003
+    },
+    {
       "symbol": "CAD/JPY",
       "display": "CAD/JPY",
       "date": "2026-07-21",
@@ -635,9 +671,9 @@
       "units": 582.7317,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 115.67171,
-      "unrealized_pct": 0.0055,
-      "unrealized_pnl": 3.7353
+      "current_price": 115.80218,
+      "unrealized_pct": 0.1183,
+      "unrealized_pnl": 79.7643
     },
     {
       "symbol": "EUR/JPY",
@@ -653,9 +689,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 186.06017,
-      "unrealized_pct": 0.4116,
-      "unrealized_pnl": 299.6143
+      "current_price": 186.14007,
+      "unrealized_pct": 0.4547,
+      "unrealized_pnl": 331.003
     },
     {
       "symbol": "UKX",
@@ -671,9 +707,9 @@
       "units": 3.461,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10524.7998046875,
-      "unrealized_pct": -0.5773,
-      "unrealized_pnl": -211.5024
+      "current_price": 10716.9697265625,
+      "unrealized_pct": 1.2381,
+      "unrealized_pnl": 453.5977
     },
     {
       "symbol": "NFLX",
@@ -689,9 +725,9 @@
       "units": 92.627,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 68.67,
-      "unrealized_pct": 0.2758,
-      "unrealized_pnl": 17.5899
+      "current_price": 68.53,
+      "unrealized_pct": 0.4791,
+      "unrealized_pnl": 30.5576
     },
     {
       "symbol": "TSLA",
@@ -707,9 +743,27 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 378.92999,
-      "unrealized_pct": 4.0076,
-      "unrealized_pnl": 229.311
+      "current_price": 374.050995,
+      "unrealized_pct": 5.2436,
+      "unrealized_pnl": 300.0321
+    },
+    {
+      "symbol": "USD/CHF",
+      "display": "USD/CHF",
+      "date": "2026-07-22",
+      "direction": "LONG",
+      "conviction": 3,
+      "entry": 0.8145,
+      "stop_loss": 0.8074,
+      "take_profit": 0.8254,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 66406.7887,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 0.81455,
+      "unrealized_pct": 0.0061,
+      "unrealized_pnl": 3.3203
     },
     {
       "symbol": "USD/JPY",
@@ -725,9 +779,9 @@
       "units": 489.6035,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 163.20277,
-      "unrealized_pct": 0.0116,
-      "unrealized_pnl": 9.2388
+      "current_price": 163.13209,
+      "unrealized_pct": -0.0317,
+      "unrealized_pnl": -25.3664
     }
   ],
   "marked_curve": [
@@ -829,12 +883,17 @@
     {
       "date": "2026-07-21",
       "equity": 94297.6346,
-      "marked_equity": 94628.9296
+      "marked_equity": 94840.3988
     },
     {
       "date": "2026-07-22",
       "equity": 94297.6346,
-      "marked_equity": 94645.6216
+      "marked_equity": 95513.5338
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 94297.6346,
+      "marked_equity": 95470.5437
     }
   ],
   "benchmark_curve": [
@@ -916,11 +975,15 @@
     },
     {
       "date": "2026-07-21",
-      "equity": 101282.7322
+      "equity": 101358.2015
     },
     {
       "date": "2026-07-22",
-      "equity": 101285.436
+      "equity": 101406.2707
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 101402.6914
     }
   ],
   "skipped": [
@@ -936,6 +999,14 @@
       "symbol": "BAC",
       "display": "BOA",
       "date": "2026-07-14",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "BAC",
+      "display": "BOA",
+      "date": "2026-07-22",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"
@@ -1061,9 +1132,25 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "GOOGL",
+      "display": "GOOGLE",
+      "date": "2026-07-22",
+      "direction": "SHORT",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "JPM",
       "display": "JPM",
       "date": "2026-07-02",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "JPM",
+      "display": "JPM",
+      "date": "2026-07-22",
       "direction": "LONG",
       "conviction": 3,
       "skip_reason": "class"
@@ -1192,6 +1279,14 @@
       "symbol": "ZM",
       "display": "ZM",
       "date": "2026-07-05",
+      "direction": "SHORT",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "ZM",
+      "display": "ZM",
+      "date": "2026-07-22",
       "direction": "SHORT",
       "conviction": 3,
       "skip_reason": "class"

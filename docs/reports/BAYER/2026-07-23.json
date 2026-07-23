@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 46.2,
+    "change_pct": -1.6393,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 46.20000076293945,
+    "change_pct": -1.639345194277483,
+    "sma20": 49.0325,
+    "sma50": 42.0536,
+    "sma200": 38.1001,
+    "rsi14": 18.6,
+    "macd": {
+      "macd": 1.4032,
+      "signal": 2.2103,
+      "hist": -0.8071
+    },
+    "atr14": 1.4493,
+    "high_52w": 53.36000061035156,
+    "low_52w": 24.975000381469727,
+    "pct_from_high": -13.42,
+    "pct_from_low": 84.98,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53.36
+      },
+      {
+        "type": "support",
+        "price": 46.03
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 46.20000076293945
+    },
+    "volume_ratio": 0.63
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 19",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der uebergeordnete Aufwaertstrend bleibt intakt (Kurs 46,20 klar ueber SMA50 42,05 und SMA200 38,10, Wochentrend aufwaerts), doch kurzfristig kippt die Dynamik - Kurs unter SMA20 49,03, MACD-Histogramm negativ (-0,81), Trend seitwaerts und Bias neutral. Der RSI von 18,6 ist extrem ueberverkauft, aber die Abgabe laeuft auf duennem Volumen (Ratio 0,63) und der Kurs steht direkt auf der Unterstuetzung 46,03 - ein Long ohne Stabilisierungssignal waere ein Fallmesser-Griff, ein Short gegen den Wochentrend unbegruendet. Bei schwachem Makro-Bild und flacher eigener Trefferquote in der Aktienklasse ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 28454.809,
+    "change_pct": -1.8735,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 28454.80859375,
+    "change_pct": -1.873540069671861,
+    "sma20": 29330.3698,
+    "sma50": 29538.6009,
+    "sma200": 26416.3393,
+    "rsi14": 40.67,
+    "macd": {
+      "macd": -184.2326,
+      "signal": -74.4992,
+      "hist": -109.7334
+    },
+    "atr14": 545.9152,
+    "high_52w": 30660.599609375,
+    "low_52w": 22763.310546875,
+    "pct_from_high": -7.19,
+    "pct_from_low": 25.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30276.3496
+      },
+      {
+        "type": "support",
+        "price": 28454.8086
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 28454.80859375
+    },
+    "volume_ratio": 0.16
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist zwar bearisch: Kurs unter SMA20/50, Tages- und Wochentrend abwaerts, MACD-Histogramm weitet sich negativ aus (-110) bei RSI 41. Gegen einen Short spricht jedoch das extrem duenne Volumen (ratio 0,16), das den Abwaertsschub unglaubwuerdig macht, sowie der Kurs direkt auf der Unterstuetzung 28.455 bei stark ueberverkauftem GER40 (RSI 28). Da die Asset-Klasse Index im Track Record mit avg_R -0,51 klar negativ laeuft, bleibe ich bei diesem Widerspruch diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

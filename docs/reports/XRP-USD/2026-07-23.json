@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.1112,
+    "change_pct": -2.70554,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.1112,
+    "change_pct": -2.7055424218544726,
+    "sma20": 1.1106,
+    "sma50": 1.1164,
+    "sma200": 1.4074,
+    "rsi14": 54.3,
+    "macd": {
+      "macd": -0.0015,
+      "signal": -0.0079,
+      "hist": 0.0064
+    },
+    "atr14": 0.0333,
+    "high_52w": 2.3478,
+    "low_52w": 1.0401,
+    "pct_from_high": -52.67,
+    "pct_from_low": 6.84,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1574
+      },
+      {
+        "type": "support",
+        "price": 1.0675
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 1.1112
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts (Kurs 1,1112 knapp ueber SMA20 1,1106, aber unter SMA50 1,1164 und rund 53% unter dem 52w-Hoch bzw. weit unter SMA200 1,4074), waehrend der Wochentrend seit 37 Wochen abwaerts laeuft; RSI 54 und ein nur leicht positives MACD-Histogramm liefern kein stimmiges Bild. Fuer einen Long fehlt es gegen den Wochentrend an Volumenbestaetigung (volume_ratio null) und die Resistance 1,1574 liegt unmittelbar darueber, fuer einen Short fehlt bei neutraler Kurzfrist-Lage nahe Support 1,0675 das Momentum. Bei klar negativer Krypto-Bilanz im Track Record (avg_R -0,45) und schwachem Risk-off-Makro reicht das weder fuer Long noch Short: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 233.56,
+    "change_pct": -4.61099,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 233.56,
+    "change_pct": -4.610990213968133,
+    "sma20": 243.576,
+    "sma50": 249.8954,
+    "sma200": 234.5317,
+    "rsi14": 40.38,
+    "macd": {
+      "macd": -0.5378,
+      "signal": -0.2341,
+      "hist": -0.3037
+    },
+    "atr14": 7.505,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -15.07,
+    "pct_from_low": 17.49,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 254.96
+      },
+      {
+        "type": "support",
+        "price": 227.01
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 233.56
+    },
+    "volume_ratio": 0.7
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist zwar strukturell bearisch (Tages- und Wochentrend 'down', Bias bearish, Kurs unter SMA20/50/200, MACD negativ und ausweitend, RSI 40), doch der heutige -4,6%-Abverkauf erfolgte auf unterdurchschnittlichem Volumen (volume_ratio 0,7) und der Kurs (233,56) sitzt nur knapp ueber der Unterstuetzung bei 227,01. Ein Market-Short zum Schluss nach einem solchen Flush direkt an der Unterstuetzung ist ein schlechtes Chance-Risiko-Setup mit hoher Bounce-Gefahr, waehrend das schwache Tech-Makro keinen Long stuetzt. Bei negativem avg_R der Konviktionsstufe 3 bleibt es diszipliniert bei FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

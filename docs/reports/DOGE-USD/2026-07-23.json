@@ -1,0 +1,67 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.06951,
+    "change_pct": -4.76778,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.06951,
+    "change_pct": -4.767776407727082,
+    "sma20": 0.0735,
+    "sma50": 0.0782,
+    "sma200": 0.098,
+    "rsi14": 37.57,
+    "macd": {
+      "macd": -0.002,
+      "signal": -0.0023,
+      "hist": 0.0003
+    },
+    "atr14": 0.0023,
+    "high_52w": 0.16173,
+    "low_52w": 0.06951,
+    "pct_from_high": -57.02,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.0779
+      },
+      {
+        "type": "support",
+        "price": 0.0695
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.06951
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das uebergeordnete Bild bleibt klar bearisch: Wochentrend seit 37 Wochen abwaerts, Kurs unter SMA20/50/200 und ~57% unter dem 52W-Hoch - ein Long liefe frontal gegen den Trend. Ein neuer Short ist aber ebenso unattraktiv, da der Kurs mit 0.06951 exakt auf dem 52W-Tief und der Unterstuetzung 0.0695 klebt, RSI14 mit 37.6 nicht extrem ist, das MACD-Histogramm mit +0.0003 leicht nach oben dreht und mangels volume_ratio jede Volumenbestaetigung fuer einen Bruch fehlt. Angesichts dieses Widerspruchs und der klar negativen Krypto-Klasse im Track Record (avg_R -0.45) lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

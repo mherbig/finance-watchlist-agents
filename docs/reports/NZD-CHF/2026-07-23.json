@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47192,
+    "change_pct": 0.097569253,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47174,
+    "change_pct": 0.059389980061935785,
+    "sma20": 0.4681,
+    "sma50": 0.4638,
+    "sma200": 0.4623,
+    "rsi14": 73.06,
+    "macd": {
+      "macd": 0.003,
+      "signal": 0.0028,
+      "hist": 0.0002
+    },
+    "atr14": 0.0024,
+    "high_52w": 0.4737,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.41,
+    "pct_from_low": 5.25,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4737
+      },
+      {
+        "type": "support",
+        "price": 0.4587
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.47174
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0.47192) stockt direkt am 52-Wochen-Hoch und Widerstand 0.4737, RSI14 ist mit 73 ueberkauft, der MACD-Hist nur marginal positiv (0.0002), der Bias neutral und eine Volumenbestaetigung fehlt (volume_ratio null). Ein Long-Ausbruch ohne Volumen bietet bei ATR14 0.0024 ein schwaches Chance-Risiko-Verhaeltnis, zumal das Makro risk-off geneigt ist (NQ100, EUR/USD, XAU down) und damit den sicheren Hafen CHF gegen die Risk-on-Waehrung NZD stuetzt. Ein Short gegen den seit 38 Wochen intakten Wochen-Aufwaertstrend ist nicht begruendbar, und die negative Forex-Bilanz (avg_R -0.37) zwingt zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

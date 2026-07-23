@@ -1,0 +1,67 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8299.09,
+    "change_pct": -1.645,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8299.08984375,
+    "change_pct": -1.6449587571129527,
+    "sma20": 8379.08,
+    "sma50": 8292.56,
+    "sma200": 8175.114,
+    "rsi14": 34.33,
+    "macd": {
+      "macd": 10.1727,
+      "signal": 20.6527,
+      "hist": -10.48
+    },
+    "atr14": 101.3714,
+    "high_52w": 8620.9296875,
+    "low_52w": 7546.16015625,
+    "pct_from_high": -3.73,
+    "pct_from_low": 9.98,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8508.0703
+      },
+      {
+        "type": "support",
+        "price": 8252.6602
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 8299.08984375
+    },
+    "volume_ratio": 0.98
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'side' und der Kurs steckt mittig zwischen Support 8253 und Resistance 8508, ohne belastbare Kante. Das Momentum ist schwach-bearisch (RSI 34, MACD 10.2 unter Signal 20.7, Histogramm -10.5) und der Ruecksetzer von -1.65% lief bei unterdurchschnittlichem Volumen (0.98) an einem klar risk-off gepraegten Makro-Tag (GER40, NQ100, S&P500 alle schwach). Da die Index-Klasse im Track Record mit avg_R -0.51 deutlich negativ laeuft, kein neuer Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

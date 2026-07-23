@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.60918,
+    "change_pct": 0.040350627,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.60918,
+    "change_pct": 0.04035062749665875,
+    "sma20": 93.9242,
+    "sma50": 93.0593,
+    "sma200": 92.9092,
+    "rsi14": 75.77,
+    "macd": {
+      "macd": 0.6021,
+      "signal": 0.5599,
+      "hist": 0.0422
+    },
+    "atr14": 0.5072,
+    "high_52w": 95.37972,
+    "low_52w": 86.323,
+    "pct_from_high": -0.81,
+    "pct_from_low": 9.6,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 95.1053
+      },
+      {
+        "type": "support",
+        "price": 92.0505
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 94.60918
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 76",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend ist intakt (Wochentrend seit 38 Wochen up, Kurs ueber SMA20/50/200, MACD-Hist +0,04), doch mit RSI 75,8 ist das Paar ueberkauft und steht direkt unter dem Widerstand 95,11 sowie nur -0,81% unter dem 52-Wochen-Hoch, bei neutralem Bias und ohne Volumenbestaetigung. Das Makro-Bild ist klar risk-off (Indizes down/side, NQ100 down, EUR/USD und XAU down), was die risikosensitive NZD belastet, und die negative Forex-Bilanz (avg_R -0,37) mahnt zur Zurueckhaltung. Ein Long an dieser Kante bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short liefe gegen den starken Wochentrend, daher FLAT bis ein Tagesschluss ueber 95,11 oder ein Ruecksetzer Richtung SMA20 (93,92) ein sauberes Setup schafft.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

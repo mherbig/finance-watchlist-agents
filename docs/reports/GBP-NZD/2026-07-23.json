@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.30685,
+    "change_pct": -0.013003056,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.30685,
+    "change_pct": -0.013003055718101945,
+    "sma20": 2.318,
+    "sma50": 2.3172,
+    "sma200": 2.2953,
+    "rsi14": 36.63,
+    "macd": {
+      "macd": -0.006,
+      "signal": -0.0041,
+      "hist": -0.0019
+    },
+    "atr14": 0.0109,
+    "high_52w": 2.35279,
+    "low_52w": 2.24234,
+    "pct_from_high": -1.95,
+    "pct_from_low": 2.88,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3528
+      },
+      {
+        "type": "support",
+        "price": 2.295
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 2.30685
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild bleibt widerspruechlich: Tagestrend seitwaerts, MACD-Histogramm negativ (-0.0019) und der Kurs 2.30685 liegt unter SMA20 (2.318) und SMA50 (2.3172), zugleich aber ueber SMA200 (2.2953) und im intakten Wochenaufwaertstrend (38 Wochen). RSI14 mit 36.6 ist nur leicht schwach, kein Umkehrsignal, und ein Setup ohne Volumenbestaetigung (volume_ratio nicht verfuegbar) ist nicht ueberzeugend. Das Makro-Bild ist gemischt/risk-off ohne GBP- oder NZD-spezifischen Treiber und die Forex-Klasse laeuft im Track Record klar negativ (avg_R -0.37), daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

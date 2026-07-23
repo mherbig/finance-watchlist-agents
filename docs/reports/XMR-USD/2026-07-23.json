@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 355.45651,
+    "change_pct": 1.29075,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 355.45651,
+    "change_pct": 1.2907531086743844,
+    "sma20": 331.6012,
+    "sma50": 327.4998,
+    "sma200": 372.6655,
+    "rsi14": 75.45,
+    "macd": {
+      "macd": 5.9672,
+      "signal": 2.291,
+      "hist": 3.6762
+    },
+    "atr14": 8.3515,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -49.99,
+    "pct_from_low": 21.29,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 357.262
+      },
+      {
+        "type": "support",
+        "price": 315.7463
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 355.45651
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar 'up' mit positivem MACD-Histogramm (+3,68), doch der RSI steht bei 75,45 deutlich ueberkauft und der Kurs prallt direkt unter dem Widerstand 357,26 ab, ohne Volumenbestaetigung (volume_ratio null). Struktur bleibt schwach: Wochentrend nur 'side', Kurs rund 50% unter dem 52W-Hoch und klar unter der SMA200 (372,67), waehrend das Makro-Bild risk-off ist (BTC/USD Wochentrend down, Indizes schwach). Da die eigene Krypto-Bilanz klar negativ laeuft (avg_R -0,45), rechtfertigt der ueberkaufte Spike gegen Widerstand keine Position: FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

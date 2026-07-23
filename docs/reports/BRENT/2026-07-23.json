@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 100.55,
+    "change_pct": 6.8885,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 100.55000305175781,
+    "change_pct": 6.888490887589667,
+    "sma20": 80.6665,
+    "sma50": 88.7906,
+    "sma200": 79.8926,
+    "rsi14": 92.02,
+    "macd": {
+      "macd": 2.4094,
+      "signal": -0.5976,
+      "hist": 3.0069
+    },
+    "atr14": 4.4793,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -15.04,
+    "pct_from_low": 70.66,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 100.55
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 100.55000305175781
+    },
+    "volume_ratio": 1.04
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 92",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Schlusskurs 100,55 liegt exakt auf dem ausgewiesenen Widerstand und der RSI14 von 92,0 ist nach einem +6,89%-Tag extrem ueberkauft, was ein miserables Chance-Risiko-Verhaeltnis fuer einen Nachkauf liefert. Tages- und Wochentrend sind beide 'side' bei neutralem Bias, und das Volumenverhaeltnis von 1,04 bestaetigt den Ausbruch kaum. Ein Short liefe frontal gegen den starken Momentumschub (MACD-Histogramm +3,01) ohne Makro-Rueckenwind fuer Energie, daher ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

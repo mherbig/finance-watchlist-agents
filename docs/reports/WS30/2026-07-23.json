@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 51711.65,
+    "change_pct": -0.9708,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 51711.6484375,
+    "change_pct": -0.9707841647593694,
+    "sma20": 52365.8459,
+    "sma50": 51403.5835,
+    "sma200": 48873.5143,
+    "rsi14": 31.24,
+    "macd": {
+      "macd": 185.9847,
+      "signal": 342.2118,
+      "hist": -156.227
+    },
+    "atr14": 533.6872,
+    "high_52w": 53055.91015625,
+    "low_52w": 43588.578125,
+    "pct_from_high": -2.53,
+    "pct_from_low": 18.64,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 53055.9102
+      },
+      {
+        "type": "support",
+        "price": 51711.6484
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 51711.6484375
+    },
+    "volume_ratio": 0.92
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist zwar weiter aufwaerts, doch der Tagestrend bleibt side mit negativem Momentum: MACD-Histogramm -156 unter der Signallinie, Kurs unter der SMA20 (52366) und Volumenverhaeltnis 0,92 unterdurchschnittlich; RSI 31 ist zwar naeher am ueberverkauften Bereich, aber ohne bestaetigenden Volumen- oder Momentumimpuls. Das Makrobild ist risk-off (NQ100 taeglich wie woechentlich down, S&P500 woechentlich down, EUR/USD und XAU down), sodass kein stimmig bullisches Bild nahe dem 52W-Hoch (-2,5%) entsteht. Zusaetzlich laeuft die Index-Klasse im Track Record klar negativ (avg_R -0,51, 4 SL, kein TP) - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

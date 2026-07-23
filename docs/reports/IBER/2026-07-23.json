@@ -1,0 +1,67 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 21.06,
+    "change_pct": -0.9873,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 21.059999465942383,
+    "change_pct": -0.9873107066372323,
+    "sma20": 21.2815,
+    "sma50": 20.555,
+    "sma200": 19.2276,
+    "rsi14": 35.04,
+    "macd": {
+      "macd": 0.135,
+      "signal": 0.1878,
+      "hist": -0.0528
+    },
+    "atr14": 0.3571,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.265000343322754,
+    "pct_from_high": -3.57,
+    "pct_from_low": 37.96,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 21.84
+      },
+      {
+        "type": "support",
+        "price": 20.9
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 21.059999465942383
+    },
+    "volume_ratio": 0.68
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 35",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet konstruktiv (Wochentrend up, Kurs 21.06 klar ueber SMA50 20.56 und SMA200 19.23, nur -3.6% unter dem 52W-Hoch), doch kurzfristig schwaechelt das Momentum: Tagestrend side, RSI14 35.0, MACD-Histogramm negativ (-0.053) und Schlusskurs unter SMA20 21.28, dazu unterdurchschnittliches Volumen (volume_ratio 0.68) ohne jede Bestaetigung. Ein Long ist ohne Momentum-/Volumenbestaetigung nicht sauber, ein Short verbietet sich gegen den intakten Wochenaufwaertstrend; bei weichem europaeischem Makro-Bild und negativer Trefferbilanz der Konviktionsstufe 3 daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

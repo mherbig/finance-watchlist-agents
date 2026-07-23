@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98155,
+    "change_pct": 0.012227056,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98155,
+    "change_pct": 0.012227056438055592,
+    "sma20": 0.9829,
+    "sma50": 0.9837,
+    "sma200": 0.9705,
+    "rsi14": 45.68,
+    "macd": {
+      "macd": -0.0004,
+      "signal": -0.0006,
+      "hist": 0.0002
+    },
+    "atr14": 0.0044,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.34,
+    "pct_from_low": 8.03,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9882
+      },
+      {
+        "type": "support",
+        "price": 0.9774
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.98155
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Trend und Momentum widersprechen sich: Tages- und Wochentrend sind down (38 Wochen), Bias bearish und der Kurs 0.98155 liegt unter SMA20/50 — das spricht fuer Short. Gleichzeitig dreht das MACD nach oben (macd -0.0004 ueber Signal -0.0006, Hist +0.0002), RSI 45.68 ist neutral-erholend und der Preis steht mittig zwischen Support 0.9774 und Widerstand 0.9882 ohne Bruch und ohne Volumenbestaetigung (volume_ratio null). Bei diesem Widerspruch und schwachem Forex-Track-Record (avg_R -0.37) kein neuer Einstieg — FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

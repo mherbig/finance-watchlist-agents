@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 57.895,
+    "change_pct": -3.5389,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 57.89500045776367,
+    "change_pct": -3.5388802107283506,
+    "sma20": 58.8075,
+    "sma50": 67.0672,
+    "sma200": 69.5935,
+    "rsi14": 43.21,
+    "macd": {
+      "macd": -2.3601,
+      "signal": -2.8736,
+      "hist": 0.5135
+    },
+    "atr14": 1.9084,
+    "high_52w": 115.08000183105469,
+    "low_52w": 36.551998138427734,
+    "pct_from_high": -49.69,
+    "pct_from_low": 58.39,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.92
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 57.89500045776367
+    },
+    "volume_ratio": 18.01
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der gestrige Reversal-Versuch ist heute mit -3,54% auf Extremvolumen (Ratio 18,0) klar gescheitert; der Kurs bleibt unter allen SMAs (SMA20 58,81, SMA50 67,07, SMA200 69,59) und im 53-woechigen Wochen-Abwaertstrend, flankiert von schwachem Edelmetall-Makro (XAU Trend und Wochentrend down). Damit loest sich der Widerspruch von gestern bearisch auf, die Momentum-Rejection auf hohem Volumen ueberwiegt das noch leicht positive MACD-Histogramm (+0,51). SHORT mit moderater Konviktion 3, gedaempft durch die nahe Unterstuetzung 55,90 (rund 1 ATR) und den schwach negativen Track Record (metal avg_R -0,09).",
+    "entry": 57.895,
+    "stop_loss": 61.3301,
+    "take_profit": 52.7423,
+    "take_profit_2": 55.898,
+    "rr": 1.5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 22.94,
+    "change_pct": -0.43402942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 22.94,
+    "change_pct": -0.43403209921735203,
+    "sma20": 21.596,
+    "sma50": 22.9308,
+    "sma200": 25.2562,
+    "rsi14": 82.78,
+    "macd": {
+      "macd": -0.0929,
+      "signal": -0.4034,
+      "hist": 0.3105
+    },
+    "atr14": 0.6782,
+    "high_52w": 29.62,
+    "low_52w": 20.48,
+    "pct_from_high": -22.55,
+    "pct_from_low": 12.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 23.04
+      },
+      {
+        "type": "support",
+        "price": 20.48
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 22.94
+    },
+    "volume_ratio": 1.05
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 83",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "RSI14 von 82,78 ist extrem ueberkauft und der Schlusskurs 22,94 steht praktisch am ausgewiesenen Widerstand 23,04, waehrend Tages- und Wochentrend seit 53 Wochen nur 'side' sind und der Kurs klar unter SMA200 (25,26) liegt. Ein Long in diese ueberdehnte Lage bei nur durchschnittlichem Volumen (1,05) bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short gegen das noch positive MACD-Histogramm (+0,31) und den Halt ueber SMA20/SMA50 ist ebenso unsauber. Bei risk-off-lastigem Makro (NQ100 und Indizes schwach) und negativem Track Record auf Konviktion 3 (avg_R -0,27) bleibt es diszipliniert bei FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

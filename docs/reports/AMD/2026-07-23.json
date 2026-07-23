@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 539.79999,
+    "change_pct": -2.26858,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 539.79999,
+    "change_pct": -2.2685766745034086,
+    "sma20": 533.596,
+    "sma50": 507.01,
+    "sma200": 304.0859,
+    "rsi14": 54.06,
+    "macd": {
+      "macd": 8.3865,
+      "signal": 10.6072,
+      "hist": -2.2207
+    },
+    "atr14": 38.0611,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -7.08,
+    "pct_from_low": 257.15,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 495.76
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 539.79999
+    },
+    "volume_ratio": 0.81
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt (539,80 ueber SMA20/50/200, Wochentrend up, nur -7,1% vom 52W-Hoch), sodass sich ein Short verbietet. Fuer einen frischen Long fehlt aber die Bestaetigung: MACD liegt unter der Signallinie (Histogramm -2,22), RSI 54 ist neutral und der -2,27%-Tag lief mit unterdurchschnittlichem Volumen (0,81), waehrend der Tech-Leitmarkt NQ100 tages- und wochenweise abwaerts dreht. Kein stimmiges Setup - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 208.7,
+    "change_pct": -1.58446,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 208.7,
+    "change_pct": -1.584456300900285,
+    "sma20": 202.7725,
+    "sma50": 209.462,
+    "sma200": 192.8,
+    "rsi14": 62.06,
+    "macd": {
+      "macd": 0.8818,
+      "signal": -0.1153,
+      "hist": 0.9971
+    },
+    "atr14": 7.3457,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -11.47,
+    "pct_from_low": 26.35,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 212.5
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 208.7
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA faellt -1,58% auf 208,70 und wird am Widerstand 212,50 abgewiesen, zurueck unter die SMA50 (209,46) - und das bei unterdurchschnittlichem Volumen (0,65), also kein bestaetigter Ausbruch. Tages- wie Wochentrend bleiben 'side' bei neutralem Bias; der MACD ist zwar positiv (Hist +1,00), doch das Momentum stockt genau an der Kante. Der Tech-Leitmarkt NQ100 ist auf Tages- und Wochenbasis abwaerts gerichtet (RSI 41), was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 62 keinen SHORT rechtfertigen - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

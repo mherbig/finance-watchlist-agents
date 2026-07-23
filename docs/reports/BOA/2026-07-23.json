@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 61.295,
+    "change_pct": -0.52742741,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 61.295,
+    "change_pct": -0.5274261603375459,
+    "sma20": 59.7013,
+    "sma50": 55.8491,
+    "sma200": 53.1973,
+    "rsi14": 64.1,
+    "macd": {
+      "macd": 1.52,
+      "signal": 1.5628,
+      "hist": -0.0428
+    },
+    "atr14": 1.2425,
+    "high_52w": 61.62,
+    "low_52w": 44.92,
+    "pct_from_high": -0.53,
+    "pct_from_low": 36.45,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 61.62
+      },
+      {
+        "type": "support",
+        "price": 56.98
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 61.295
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts und der Kurs liegt ueber SMA20/50/200, doch der Einstieg erfolgt direkt am 52-Wochen-Hoch nach einem -0.53%-Tag, wobei das MACD-Histogramm negativ dreht (-0.043) und das Volumen mit Ratio 0.62 klar unterdurchschnittlich ist - ein schwacher Ausbruch an der Widerstandszone. Das Makro-Bild ist risk-off (S&P500 Wochentrend abwaerts, NQ100 abwaerts, EUR/USD und XAU schwach), und Konviktionsstufe 3 laeuft im Track Record negativ (avg_R -0.28). Der Widerspruch aus intaktem Aufwaertstrend und kurzfristiger Erschoepfung bei duennem Volumen reicht nicht fuer einen frischen Long, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -3,7 +3,7 @@
     "start_equity": 100000.0,
     "current_equity": 94297.6346,
     "return_pct": -5.7024,
-    "open_count": 9,
+    "open_count": 10,
     "no_fill_count": 0,
     "closed_count": 27,
     "wins": 7,
@@ -12,10 +12,10 @@
     "total_pnl": -5702.3654,
     "total_costs": 291.8917,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": -160.4008,
-    "marked_equity": 94137.2338,
-    "marked_return_pct": -5.8628,
-    "skipped_count": 38,
+    "unrealized_pnl": 2285.8853,
+    "marked_equity": 96583.5199,
+    "marked_return_pct": -3.4165,
+    "skipped_count": 39,
     "ruleset_frozen_since": "2026-07-08"
   },
   "equity_curve": [
@@ -635,9 +635,9 @@
       "units": 50.0359,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 194.60000610351562,
-      "unrealized_pct": -6.577,
-      "unrealized_pnl": -685.4915
+      "current_price": 204.5,
+      "unrealized_pct": -1.8243,
+      "unrealized_pnl": -190.1364
     },
     {
       "symbol": "ALV",
@@ -653,9 +653,9 @@
       "units": 49.1569,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 422.79998779296875,
-      "unrealized_pct": -0.7745,
-      "unrealized_pnl": -162.2184
+      "current_price": 424.3999938964844,
+      "unrealized_pct": -0.399,
+      "unrealized_pnl": -83.567
     },
     {
       "symbol": "CAD/JPY",
@@ -671,9 +671,9 @@
       "units": 582.7317,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 115.79018,
-      "unrealized_pct": 0.108,
-      "unrealized_pnl": 72.7715
+      "current_price": 116.3191,
+      "unrealized_pct": 0.5653,
+      "unrealized_pnl": 380.99
     },
     {
       "symbol": "EUR/JPY",
@@ -689,9 +689,9 @@
       "units": 392.8492,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 186.11801,
-      "unrealized_pct": 0.4428,
-      "unrealized_pnl": 322.3367
+      "current_price": 186.3791,
+      "unrealized_pct": 0.5837,
+      "unrealized_pnl": 424.9057
     },
     {
       "symbol": "UKX",
@@ -707,9 +707,9 @@
       "units": 3.461,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10585.900390625,
-      "unrealized_pct": -0.0001,
-      "unrealized_pnl": -0.0333
+      "current_price": 10639.169921875,
+      "unrealized_pct": 0.5031,
+      "unrealized_pnl": 184.3326
     },
     {
       "symbol": "NFLX",
@@ -725,9 +725,9 @@
       "units": 92.627,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 68.53,
-      "unrealized_pct": 0.4791,
-      "unrealized_pnl": 30.5576
+      "current_price": 68.86,
+      "unrealized_pct": -0.0001,
+      "unrealized_pnl": -0.0093
     },
     {
       "symbol": "TSLA",
@@ -743,9 +743,9 @@
       "units": 14.495,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 374.01001,
-      "unrealized_pct": 5.254,
-      "unrealized_pnl": 300.6262
+      "current_price": 319.45999,
+      "unrealized_pct": 19.0728,
+      "unrealized_pnl": 1091.3287
     },
     {
       "symbol": "USD/CHF",
@@ -761,9 +761,9 @@
       "units": 66406.7887,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.8144,
-      "unrealized_pct": -0.0123,
-      "unrealized_pnl": -6.6407
+      "current_price": 0.81681,
+      "unrealized_pct": 0.2836,
+      "unrealized_pnl": 153.3997
     },
     {
       "symbol": "USD/JPY",
@@ -779,9 +779,27 @@
       "units": 489.6035,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 163.11791,
-      "unrealized_pct": -0.0404,
-      "unrealized_pnl": -32.3089
+      "current_price": 163.84697,
+      "unrealized_pct": 0.4063,
+      "unrealized_pnl": 324.6414
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-07-23",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 57.895,
+      "stop_loss": 61.3301,
+      "take_profit": 52.7423,
+      "rr": 1.5,
+      "risk_amount": 471.4882,
+      "units": 137.256,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": 57.89500045776367,
+      "unrealized_pct": -0.0,
+      "unrealized_pnl": -0.0001
     }
   ],
   "marked_curve": [
@@ -888,12 +906,17 @@
     {
       "date": "2026-07-22",
       "equity": 94297.6346,
-      "marked_equity": 94212.7866
+      "marked_equity": 95514.2327
     },
     {
       "date": "2026-07-23",
       "equity": 94297.6346,
-      "marked_equity": 94137.2339
+      "marked_equity": 96643.9561
+    },
+    {
+      "date": "2026-07-24",
+      "equity": 94297.6346,
+      "marked_equity": 96583.5199
     }
   ],
   "benchmark_curve": [
@@ -979,11 +1002,15 @@
     },
     {
       "date": "2026-07-22",
-      "equity": 101286.7287
+      "equity": 101403.4124
     },
     {
       "date": "2026-07-23",
-      "equity": 101272.8891
+      "equity": 100354.9431
+    },
+    {
+      "date": "2026-07-24",
+      "equity": 100355.5601
     }
   ],
   "skipped": [
@@ -1112,6 +1139,14 @@
       "display": "GBP/JPY",
       "date": "2026-07-02",
       "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
+      "symbol": "GBP/USD",
+      "display": "GBP/USD",
+      "date": "2026-07-23",
+      "direction": "SHORT",
       "conviction": 3,
       "skip_reason": "class"
     },

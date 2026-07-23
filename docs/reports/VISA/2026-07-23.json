@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 351.53,
+    "change_pct": -0.53477861,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 351.53,
+    "change_pct": -0.5347773036393775,
+    "sma20": 351.64,
+    "sma50": 335.8746,
+    "sma200": 329.8095,
+    "rsi14": 40.37,
+    "macd": {
+      "macd": 6.3978,
+      "signal": 7.3783,
+      "hist": -0.9805
+    },
+    "atr14": 7.9829,
+    "high_52w": 365.14001,
+    "low_52w": 295.51999,
+    "pct_from_high": -3.73,
+    "pct_from_low": 18.95,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 365.14
+      },
+      {
+        "type": "support",
+        "price": 330.52
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 351.53
+    },
+    "volume_ratio": 0.35
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die uebergeordnete Struktur bleibt bullisch (Kurs ueber SMA50/200, Wochentrend seit 53 Wochen auf), doch die Dynamik kippt: RSI faellt auf 40, das MACD-Histogramm ist mit -0.98 klar negativ und der Kurs ist an den SMA20 zurueckgefallen, Tagestrend seit. Das alles bei sehr duennem Volumen (volume_ratio 0.35) und einem risk-off Makro-Bild (NQ100 down, S&P500 schwach) - ein Long ohne Momentum und Volumen ist kein Setup, ein Short gegen den intakten Wochentrend erst recht nicht. FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

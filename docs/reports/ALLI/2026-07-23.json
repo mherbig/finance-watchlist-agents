@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 424.4,
+    "change_pct": -0.399,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 424.3999938964844,
+    "change_pct": -0.3989702376625297,
+    "sma20": 419.295,
+    "sma50": 399.972,
+    "sma200": 378.0845,
+    "rsi14": 57.82,
+    "macd": {
+      "macd": 6.7613,
+      "signal": 7.4534,
+      "hist": -0.6922
+    },
+    "atr14": 5.4214,
+    "high_52w": 426.1000061035156,
+    "low_52w": 334.1000061035156,
+    "pct_from_high": -0.4,
+    "pct_from_low": 27.03,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 426.1
+      },
+      {
+        "type": "support",
+        "price": 407.9
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 424.3999938964844
+    },
+    "volume_ratio": 1.17
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt aufwaerts (Tages- und Wochentrend up, SMAs sauber gestapelt 419 > 400 > 378, RSI 58, Volumen 1.17), doch der Kurs stockt bei 424.4 direkt unter dem 52-Wochen-Hoch/Widerstand 426.1 und das MACD-Histogramm ist negativ (-0.69) - der Ausbruch bestaetigt sich nicht. Gleichzeitig ist der Leitmarkt GER40 daily wie weekly auf 'side' gedreht und hatte einen scharfen Risk-off-Tag (-1.56%, RSI 28). Diese Widersprueche zwischen bullischer Einzelwert-Struktur und abkuehlendem Makro rechtfertigen kein neues Long am Widerstand; FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

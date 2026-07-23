@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 116.3191,
+    "change_pct": -0.02251058,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 116.3191,
+    "change_pct": -0.022510580359548473,
+    "sma20": 115.1277,
+    "sma50": 114.615,
+    "sma200": 114.7961,
+    "rsi14": 84.77,
+    "macd": {
+      "macd": 0.4857,
+      "signal": 0.3641,
+      "hist": 0.1216
+    },
+    "atr14": 0.4434,
+    "high_52w": 117.24469,
+    "low_52w": 109.22,
+    "pct_from_high": -0.79,
+    "pct_from_low": 6.5,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 116.3453
+      },
+      {
+        "type": "support",
+        "price": 113.6459
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 116.3191
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 85",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Trendstruktur ist zwar intakt (Kurs ueber SMA20/50/200, Tages- und Wochentrend 'up' seit 38 Wochen, positives MACD-Histogramm +0,12), doch der RSI14 von 84,8 ist extrem ueberkauft und der Kurs klebt bei 116,32 unmittelbar am Widerstand 116,35 bzw. am 52-Wochen-Hoch ohne bestaetigten Ausbruch. Ein fehlendes Volumen-Signal (volume_ratio null), ein eher risk-off gemischtes Makro (NQ100/S&P500 schwach, Gold Wochentrend down) mit latentem JPY-Safe-Haven-Risiko sowie die im Track Record negativ laufende Assetklasse Forex (avg_R -0,37) sprechen gegen ein Nachkaufen auf diesem Niveau. Kein sauberes Setup zum Schlusskurs-Einstieg → FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

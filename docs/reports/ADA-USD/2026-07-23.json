@@ -1,0 +1,67 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.1693,
+    "change_pct": -2.97994,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.1693,
+    "change_pct": -2.979942693409732,
+    "sma20": 0.1702,
+    "sma50": 0.1649,
+    "sma200": 0.251,
+    "rsi14": 53.25,
+    "macd": {
+      "macd": 0.0002,
+      "signal": -0.001,
+      "hist": 0.0012
+    },
+    "atr14": 0.0081,
+    "high_52w": 0.4845,
+    "low_52w": 0.1438,
+    "pct_from_high": -65.06,
+    "pct_from_low": 17.73,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.1922
+      },
+      {
+        "type": "support",
+        "price": 0.1576
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.1693
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts (Kurs -2.98%, unter SMA20, aber ueber SMA50; RSI 53, MACD-Histogramm nur leicht positiv +0.0012), waehrend der Wochentrend seit 37 Wochen abwaerts zeigt und der Kurs rund 65% unter dem 52W-Hoch sowie klar unter der SMA200 (0.251) liegt - ein Long liefe gegen das uebergeordnete Bild und Volumenbestaetigung fehlt (volume_ratio null). Fuer einen Short ist die kurzfristige Dynamik zu unentschieden und der Abstand zur Unterstuetzung 0.1576 zu gering. Das Makro-Bild ist risk-off (BTC Wochentrend abwaerts, Indizes schwach) und die Krypto-Klasse laeuft im Track Record mit avg_R -0.45 klar negativ - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

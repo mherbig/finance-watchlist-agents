@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 47.49,
+    "change_pct": 0.74246924,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 47.49,
+    "change_pct": 0.7424692405600369,
+    "sma20": 45.3775,
+    "sma50": 44.1752,
+    "sma200": 54.6108,
+    "rsi14": 72.92,
+    "macd": {
+      "macd": 0.752,
+      "signal": 0.4114,
+      "hist": 0.3406
+    },
+    "atr14": 1.4879,
+    "high_52w": 95.79,
+    "low_52w": 40.92,
+    "pct_from_high": -50.42,
+    "pct_from_low": 16.06,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.49
+      },
+      {
+        "type": "support",
+        "price": 43.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 47.49
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar up mit positivem MACD-Histogramm (+0,34), doch der Kurs steht mit 47,49 exakt am Widerstand bei ueberkauftem RSI von 72,9 und ohne Volumenbestaetigung (volume_ratio null). Der Wochentrend laeuft nur seitwaerts, die SMA200 (54,61) liegt weit darueber (-50% zum 52W-Hoch), und das Makro-Bild ist risk-off (BTC -1,6% bei abwaerts gerichtetem Wochentrend, schwache Aktienindizes). Bei klar negativer Krypto-Bilanz (avg_R -0,45) rechtfertigt dieser volumenlose Ausbruchsversuch kein LONG, waehrend die intakte kurzfristige Aufwaertsdynamik ein SHORT ausschliesst.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

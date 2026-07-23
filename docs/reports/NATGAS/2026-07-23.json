@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.913,
+    "change_pct": -0.4103,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2.9130001068115234,
+    "change_pct": -0.4102511350558539,
+    "sma20": 3.0589,
+    "sma50": 3.0901,
+    "sma200": 3.4524,
+    "rsi14": 30.1,
+    "macd": {
+      "macd": -0.0696,
+      "signal": -0.0495,
+      "hist": -0.0201
+    },
+    "atr14": 0.1125,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -60.95,
+    "pct_from_low": 15.46,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.343
+      },
+      {
+        "type": "support",
+        "price": 2.858
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 2.9130001068115234
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (Kurs 2,913 unter SMA20/50/200, MACD-Histogramm negativ), was einen Long ausschliesst. Ein sauberer Short verbietet sich jedoch: RSI 30 ist ueberverkauft, der Kurs sitzt direkt auf der Unterstuetzung 2,858 knapp ueber dem 52-Wochen-Tief, und das Volumenverhaeltnis von 0,88 bestaetigt keine Richtung. Ohne Bestaetigung und mit schlechtem Chance-Risiko-Verhaeltnis auf beiden Seiten bleibt FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

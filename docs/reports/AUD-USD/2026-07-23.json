@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69652,
+    "change_pct": -0.041618232,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69652,
+    "change_pct": -0.04161823165568985,
+    "sma20": 0.6966,
+    "sma50": 0.6976,
+    "sma200": 0.702,
+    "rsi14": 52.55,
+    "macd": {
+      "macd": 0.0004,
+      "signal": 0.0,
+      "hist": 0.0003
+    },
+    "atr14": 0.0033,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -4.04,
+    "pct_from_low": 7.9,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7007
+      },
+      {
+        "type": "support",
+        "price": 0.6918
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.69652
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend und Bias sind abwaerts und der Wochentrend zeigt seit 38 Wochen nach unten, gestuetzt durch einen festen USD (EUR/USD Trend und Wochentrend abwaerts, XAU schwach). Der Kurs 0.69652 steht jedoch mittig zwischen Support 0.6918 und Widerstand 0.7007, RSI 52 ist neutral und das leicht positive MACD-Histogramm signalisiert einen Kurzfrist-Push gegen den Trend ohne Volumenbestaetigung. Bei diesem Mid-Range-Bild und klar negativer Forex-Bilanz (avg_R -0.37) ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 100.23,
+    "change_pct": -2.32898,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 100.23,
+    "change_pct": -2.3289807055154945,
+    "sma20": 112.8185,
+    "sma50": 115.833,
+    "sma200": 65.4807,
+    "rsi14": 32.81,
+    "macd": {
+      "macd": -5.1108,
+      "signal": -3.5407,
+      "hist": -1.5701
+    },
+    "atr14": 7.4704,
+    "high_52w": 140.94,
+    "low_52w": 19.31,
+    "pct_from_high": -28.88,
+    "pct_from_low": 419.06,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 139.63
+      },
+      {
+        "type": "support",
+        "price": 95.04
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 100.23
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt klar bearisch: Wochentrend seit 53 Wochen abwaerts, Kurs deutlich unter SMA20/50 (112,8/115,8), MACD negativ mit fallendem Histogramm (-1,57) und heute -2,3%. Gegen einen frischen Short spricht jedoch RSI 32,8 im ueberverkauften Bereich, der nahe Support bei 95,04 (nur ~0,7 ATR entfernt) und das unterdurchschnittliche Volumen (0,83), das den Abverkauf wenig vertrauenswuerdig macht. Bei schwachem Aktien-Makro (S&P500 side/Woche down, NQ100 down) und negativer Konviktion-3-Bilanz im Track Record bleibt das Chance-Risiko-Verhaeltnis unattraktiv - Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "UKX",
+  "display": "FTSE100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 10639.17,
+    "change_pct": -0.7262,
+    "currency": "GBP"
+  },
+  "technical": {
+    "last_close": 10639.169921875,
+    "change_pct": -0.7262300842119996,
+    "sma20": 10562.9536,
+    "sma50": 10462.2874,
+    "sma200": 10173.6223,
+    "rsi14": 47.29,
+    "macd": {
+      "macd": 44.9198,
+      "signal": 38.062,
+      "hist": 6.8578
+    },
+    "atr14": 115.568,
+    "high_52w": 10910.599609375,
+    "low_52w": 9068.599609375,
+    "pct_from_high": -2.49,
+    "pct_from_low": 17.32,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 10717.0
+      },
+      {
+        "type": "support",
+        "price": 10472.5
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 10639.169921875
+    },
+    "volume_ratio": 0.96
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt zwar bullisch (Tages- und Wochentrend up, Kurs sauber ueber SMA20/50/200, MACD-Histogramm +6.9), doch RSI 47 nach einem -0.73%-Tag mit unterdurchschnittlichem Volumen (0.96) liefert keinen frischen Trigger. Das Makro ist klar risk-off: alle sechs Leitmaerkte heute negativ, Wochentrends von NQ100/S&P/GER40 down bzw. side. Zusammen mit der im Track Record klar negativen Index-Klasse (avg_R -0.51) ueberwiegt die Disziplin: kein sauber stimmiges Long-Bild, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

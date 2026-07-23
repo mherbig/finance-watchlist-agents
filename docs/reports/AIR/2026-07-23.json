@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 204.5,
+    "change_pct": -1.8243,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 204.5,
+    "change_pct": -1.8242933250527116,
+    "sma20": 198.325,
+    "sma50": 186.4756,
+    "sma200": 189.9297,
+    "rsi14": 48.14,
+    "macd": {
+      "macd": 3.4246,
+      "signal": 3.5718,
+      "hist": -0.1472
+    },
+    "atr14": 5.2796,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -7.13,
+    "pct_from_low": 28.47,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 209.4
+      },
+      {
+        "type": "support",
+        "price": 191.58
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 204.5
+    },
+    "volume_ratio": 1.12
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "AIR ist strukturell bullisch (Tages- und Wochentrend aufwaerts, Kurs 204,50 ueber SMA20/50/200), doch das Momentum stockt: RSI 48 neutral, MACD-Hist -0,15 unter der Signallinie und ein Abgabetag -1,8% direkt unter dem Widerstand 209,40 bei nur leicht ueberdurchschnittlichem Volumen (1,12). Das Makro stuetzt nicht (GER40 seitwaerts, S&P500 seitwaerts/Woche abwaerts, NQ100 abwaerts), und die Konviktionsstufe 3 laeuft im Track-Record klar negativ (avg_R -0,27). Ohne frischen bullischen Trigger und mit mehreren weichen Gegenwinden fehlt die Ueberzeugung fuer eine Neupositionierung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

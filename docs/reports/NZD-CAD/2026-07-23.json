@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81334,
+    "change_pct": 0.056588918,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81334,
+    "change_pct": 0.05658891841353028,
+    "sma20": 0.8158,
+    "sma50": 0.8119,
+    "sma200": 0.8094,
+    "rsi14": 45.35,
+    "macd": {
+      "macd": 0.0018,
+      "signal": 0.0023,
+      "hist": -0.0005
+    },
+    "atr14": 0.0045,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -1.55,
+    "pct_from_low": 3.47,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8223
+      },
+      {
+        "type": "support",
+        "price": 0.8063
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.81334
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend bleibt zwar up (38 Wochen), doch die Tagesstruktur ist widerspruechlich: Kurs 0,81334 unter der SMA20, RSI14 mit 45 unter der Mittellinie und ein negatives MACD-Histogramm (-0,0005) zeigen nachlassendes Momentum unter dem Widerstand 0,8223. Ohne Ausbruchsschlusskurs und ohne Volumenbestaetigung (volume_ratio null) traegt weder ein Long noch ein Short gegen den Wochentrend; das breit risk-off gestimmte Makrobild liefert fuer den Risiko-Cross keinen symbolspezifischen Long-Grund. Bei klar negativem Forex-Track-Record (avg_R -0,37) ist diszipliniertes Abwarten die bessere Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

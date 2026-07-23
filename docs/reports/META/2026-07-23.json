@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 605.96997,
+    "change_pct": -3.38027,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 605.96997,
+    "change_pct": -3.3802654266073167,
+    "sma20": 618.3465,
+    "sma50": 606.2274,
+    "sma200": 638.6729,
+    "rsi14": 55.16,
+    "macd": {
+      "macd": 11.6724,
+      "signal": 13.4492,
+      "hist": -1.7769
+    },
+    "atr14": 27.2827,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -23.29,
+    "pct_from_low": 15.26,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 681.31
+      },
+      {
+        "type": "support",
+        "price": 542.87
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 605.96997
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 55",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist widerspruechlich: Tages- und Wochentrend sind seitwaerts, der RSI mit 55 neutral, und der MACD dreht mit negativem Histogramm (-1,78) unter die Signallinie. Der Kurs faellt -3,38 Prozent unter SMA20 und SMA200, doch der Abverkauf laeuft bei klar unterdurchschnittlichem Volumen (volume_ratio 0,65) und ist damit wenig belastbar, waehrend das schwache Tech-Makro (NQ100 Tages- und Wochentrend down) gegen ein Long spricht. Fuer einen Short fehlt bei intakter Struktur ueber dem 52-Wochen-Tief die Bestaetigung - daher kein neues Engagement.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

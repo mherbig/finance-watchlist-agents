@@ -1,0 +1,67 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 84.099998,
+    "change_pct": -1.99277,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 84.099998,
+    "change_pct": -1.992777065610072,
+    "sma20": 88.3517,
+    "sma50": 94.0356,
+    "sma200": 87.6892,
+    "rsi14": 42.63,
+    "macd": {
+      "macd": -1.1984,
+      "signal": -1.139,
+      "hist": -0.0594
+    },
+    "atr14": 3.0252,
+    "high_52w": 111.88,
+    "low_52w": 69.77,
+    "pct_from_high": -24.83,
+    "pct_from_low": 20.54,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 92.92
+      },
+      {
+        "type": "support",
+        "price": 82.88
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 84.099998
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "SHORT",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "ZM notiert bei 84,10 unter SMA20 (88,35), SMA50 (94,04) und SMA200 (87,69); Tagestrend und Wochentrend (seit 53 Wochen) abwaerts, Bias bearish, dazu ein schwaches Tech-Makro (NQ100 Tages- und Wochentrend abwaerts). RSI 43 und leicht negatives MACD-Histogramm lassen weiter Raum nach unten, waehrend der Widerstand bei 92,92 jede Erholung deckelt. Konviktion bleibt bei 3, weil das Volumen unterdurchschnittlich (0,78) ist und die Unterstuetzung bei 82,88 nur rund 0,4 ATR entfernt liegt.",
+    "entry": 84.1,
+    "stop_loss": 89.5454,
+    "take_profit": 75.932,
+    "take_profit_2": 82.88,
+    "rr": 1.5
+  }
+}

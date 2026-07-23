@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 319.45999,
+    "change_pct": -14.58518,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 319.45999,
+    "change_pct": -14.585176476961143,
+    "sma20": 391.8165,
+    "sma50": 404.9618,
+    "sma200": 415.408,
+    "rsi14": 28.93,
+    "macd": {
+      "macd": -11.8852,
+      "signal": -5.6496,
+      "hist": -6.2356
+    },
+    "atr14": 17.7118,
+    "high_52w": 489.88,
+    "low_52w": 302.63,
+    "pct_from_high": -34.79,
+    "pct_from_low": 5.56,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 425.3
+      },
+      {
+        "type": "support",
+        "price": 319.46
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 319.45999
+    },
+    "volume_ratio": 2.72
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 29",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind klar abwaerts und der Kurs liegt unter allen SMAs, doch heute fiel TSLA -14,6% auf 319,46 bei extremem Volumen (2,72x) direkt auf die Unterstuetzung 319,46 und nur 5,6% ueber dem 52W-Tief. Der RSI von 28,9 signalisiert eine ausgereizte Kapitulationsbewegung, sodass ein neuer Short hier dem Move hinterherlaeuft und ein Long gegen den Wochentrend unbegruendet waere. Zusammen mit dem negativen Track Record der Konviktionsstufe 3 (avg_R -0,27) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

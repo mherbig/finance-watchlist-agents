@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 321.60999,
+    "change_pct": -1.31334,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 321.60999,
+    "change_pct": -1.313332679329457,
+    "sma20": 311.4895,
+    "sma50": 305.466,
+    "sma200": 275.5985,
+    "rsi14": 62.92,
+    "macd": {
+      "macd": 8.1029,
+      "signal": 7.3107,
+      "hist": 0.7921
+    },
+    "atr14": 7.4521,
+    "high_52w": 333.73999,
+    "low_52w": 202.38,
+    "pct_from_high": -3.63,
+    "pct_from_low": 58.91,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 333.74
+      },
+      {
+        "type": "support",
+        "price": 275.15
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 321.60999
+    },
+    "volume_ratio": 0.45
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar aufwaerts (321,61 ueber SMA20/50/200, RSI14 62,9, MACD-Histogramm +0,79), doch fuer einen Neueinstieg per Market zum Schluss fehlt die Bestaetigung: volume_ratio 0,45 belegt unterdurchschnittliche Beteiligung, der Tag schliesst -1,31% direkt unter dem Widerstand 333,74. Das Makrobild ist risk-off fuer Tech (NQ100 taeglich und woechentlich down, S&P500 woechentlich down) und der Track Record laeuft bei Konviktion 3+ mit avg_R -0,27 negativ - kein Nachlaufen ins Hoch, abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

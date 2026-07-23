@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 72.94,
+    "change_pct": -0.0274,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 72.94000244140625,
+    "change_pct": -0.027407679985376993,
+    "sma20": 72.756,
+    "sma50": 81.3392,
+    "sma200": 92.0627,
+    "rsi14": 42.64,
+    "macd": {
+      "macd": -2.2542,
+      "signal": -2.828,
+      "hist": 0.5738
+    },
+    "atr14": 1.78,
+    "high_52w": 108.5999984741211,
+    "low_52w": 69.94000244140625,
+    "pct_from_high": -32.84,
+    "pct_from_low": 4.29,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 75.8
+      },
+      {
+        "type": "support",
+        "price": 69.94
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 72.94000244140625
+    },
+    "volume_ratio": 0.82
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "VOWGE (72,94 EUR) notiert nur knapp ueber der SMA20, aber klar unter SMA50 (81,34) und SMA200 (92,06); der Wochentrend zeigt seit 52 Wochen nach unten und der Kurs sitzt nur 4,3% ueber dem 52-Wochen-Tief (69,94). Der drehende MACD (Hist +0,57) signalisiert nur Stabilisierung, doch das unterdurchschnittliche Volumen (0,82) und das risk-off-Makrobild (NQ100/S&P schwach) entziehen jeder Erholung die Bestaetigung. Long gegen den intakten Wochentrend ist nicht begruendbar, Short direkt an der Unterstuetzung kein sauberes Setup - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

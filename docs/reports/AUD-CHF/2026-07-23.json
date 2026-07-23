@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.56912,
+    "change_pct": -0.01932435,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.56912,
+    "change_pct": -0.019324350438320977,
+    "sma20": 0.5639,
+    "sma50": 0.562,
+    "sma200": 0.5543,
+    "rsi14": 73.3,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0015,
+      "hist": 0.0007
+    },
+    "atr14": 0.0026,
+    "high_52w": 0.56991,
+    "low_52w": 0.51634002,
+    "pct_from_high": -0.14,
+    "pct_from_low": 10.22,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5699
+      },
+      {
+        "type": "support",
+        "price": 0.5573
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.56912
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts (Kurs 0,56912 ueber SMA20/50/200, MACD positiv, 38 Wochen im Aufwaertstrend), doch RSI 73,3 ist ueberkauft und der Kurs steht praktisch am 52-Wochen-Hoch direkt am Widerstand 0,5699 bei nur neutralem Bias und fehlender Volumenbestaetigung. Ein Long genau am Top ohne Ausbruchsbestaetigung ist schlecht bezahlt, ein Short liefe klar gegen den starken Wochentrend. Das Risk-off-Makro (NQ100, S&P500, XAU, EUR/USD schwach) stuetzt den Safe-Haven CHF gegen die Risikowaehrung AUD, und der negative Forex-Track-Record (avg_R -0,37) mahnt zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

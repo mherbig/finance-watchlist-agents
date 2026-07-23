@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1603.7,
+    "change_pct": -2.4038,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1603.699951171875,
+    "change_pct": -2.4038462252770834,
+    "sma20": 1611.545,
+    "sma50": 1759.16,
+    "sma200": 1911.324,
+    "rsi14": 48.08,
+    "macd": {
+      "macd": -34.1787,
+      "signal": -45.637,
+      "hist": 11.4583
+    },
+    "atr14": 31.6143,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -43.78,
+    "pct_from_low": 24.67,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1651.2
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1603.699951171875
+    },
+    "volume_ratio": 25.34
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -2,4-%-Tag drueckt den Kurs (1603,7) knapp unter die SMA20 (1611,5) und tief unter SMA50 (1759) und SMA200 (1911); Tages- und Wochentrend zeigen bearish (53 Wochen abwaerts). Ein sauberer SHORT scheitert aber am neutralen RSI (48) und dem positiven MACD-Histogramm (+11,5), und das extreme Volumenverhaeltnis (25,34) macht die Tagesbewegung als Squeeze-/Rollover-Artefakt unzuverlaessig. Ohne LONG-Stuetze aus dem Metall-Makro (XAU Tages- und Wochentrend abwaerts) und bei leicht negativer Metall-Bilanz (avg_R -0,09) gibt es kein belastbares Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

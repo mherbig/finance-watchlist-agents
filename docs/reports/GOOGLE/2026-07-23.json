@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T21:23:07.602305+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 317.64999,
+    "change_pct": -7.14432,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 317.64999,
+    "change_pct": -7.144320583990414,
+    "sma20": 353.3885,
+    "sma50": 366.0552,
+    "sma200": 323.5552,
+    "rsi14": 29.64,
+    "macd": {
+      "macd": -6.3331,
+      "signal": -3.337,
+      "hist": -2.9961
+    },
+    "atr14": 11.8364,
+    "high_52w": 402.62,
+    "low_52w": 189.13,
+    "pct_from_high": -21.1,
+    "pct_from_low": 67.95,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 370.92
+      },
+      {
+        "type": "support",
+        "price": 317.65
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 317.64999
+    },
+    "volume_ratio": 1.9
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-23T21:30:35.241653+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts und der Kurs (317,65) ist unter SMA20/50/200 gerutscht, doch der heutige -7,14%-Absturz auf hohem Volumen (Ratio 1,9) endet exakt auf der Unterstuetzung 317,65 bei RSI 29,6 (ueberverkauft). Ein frischer Market-Short zum Schluss in diese Kapitulation direkt an der Unterstuetzung hat schlechte Asymmetrie (Bounce-Risiko), waehrend ein Long gegen den bearischen Tages- und Wochentrend laeuft. Bei diesem Widerspruch und schwachem Track Record der Stufe 3 (avg_R -0,27) ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

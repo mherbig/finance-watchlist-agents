@@ -12,9 +12,9 @@
     "total_pnl": -4174.5198,
     "total_costs": 379.3785,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 691.6014,
-    "marked_equity": 96517.0816,
-    "marked_return_pct": -3.4829,
+    "unrealized_pnl": 356.4437,
+    "marked_equity": 96181.9239,
+    "marked_return_pct": -3.8181,
     "skipped_count": 39,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -789,9 +789,9 @@
       "units": 3.461,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 10736.23046875,
-      "unrealized_pct": 1.42,
-      "unrealized_pnl": 520.2591
+      "current_price": 10639.2001953125,
+      "unrealized_pct": 0.5034,
+      "unrealized_pnl": 184.4374
     },
     {
       "symbol": "USD/CHF",
@@ -807,9 +807,9 @@
       "units": 66406.7887,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.81831,
-      "unrealized_pct": 0.4678,
-      "unrealized_pnl": 253.0099
+      "current_price": 0.81832,
+      "unrealized_pct": 0.469,
+      "unrealized_pnl": 253.6739
     },
     {
       "symbol": "XAG/USD",
@@ -944,12 +944,12 @@
     {
       "date": "2026-07-24",
       "equity": 95825.4803,
-      "marked_equity": 96511.1051
+      "marked_equity": 96175.2834
     },
     {
       "date": "2026-07-25",
       "equity": 95825.4803,
-      "marked_equity": 96517.0818
+      "marked_equity": 96181.924
     }
   ],
   "benchmark_curve": [
@@ -1043,11 +1043,11 @@
     },
     {
       "date": "2026-07-24",
-      "equity": 100075.4102
+      "equity": 100023.3921
     },
     {
       "date": "2026-07-25",
-      "equity": 100073.0053
+      "equity": 100020.9812
     }
   ],
   "skipped": [

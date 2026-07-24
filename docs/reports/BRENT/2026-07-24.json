@@ -1,0 +1,67 @@
+{
+  "symbol": "BRENT",
+  "display": "BRENT",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 98.38,
+    "change_pct": -2.2942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 98.37999725341797,
+    "change_pct": -2.294175322254585,
+    "sma20": 81.8295,
+    "sma50": 88.6056,
+    "sma200": 80.0578,
+    "rsi14": 86.18,
+    "macd": {
+      "macd": 3.0905,
+      "signal": 0.1418,
+      "hist": 2.9486
+    },
+    "atr14": 4.7979,
+    "high_52w": 118.3499984741211,
+    "low_52w": 58.91999816894531,
+    "pct_from_high": -16.87,
+    "pct_from_low": 66.97,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 100.69
+      },
+      {
+        "type": "support",
+        "price": 71.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 98.37999725341797
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 86",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der RSI14 von 86,2 ist nach der Rally extrem ueberkauft und der Kurs 98,38 klebt direkt unter dem Widerstand 100,69, waehrend der heutige -2,29%-Tag bei schwachem Volumenverhaeltnis von 0,62 den Ausbruch kaum bestaetigt - miserables Chance-Risiko fuer einen Nachkauf. Tages- und Wochentrend sind beide 'side' bei neutralem Bias, und ein Short liefe frontal gegen das starke Momentum (MACD-Histogramm +2,95) ohne Makro-Rueckenwind fuer Energie. Bei diesem Widerspruch und Kurs weit ueber allen SMAs ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "XRP/USD",
+  "display": "XRP/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.0893,
+    "change_pct": -1.6611,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.0893,
+    "change_pct": -1.6610995756973885,
+    "sma20": 1.107,
+    "sma50": 1.1147,
+    "sma200": 1.4011,
+    "rsi14": 46.52,
+    "macd": {
+      "macd": -0.0034,
+      "signal": -0.007,
+      "hist": 0.0037
+    },
+    "atr14": 0.0339,
+    "high_52w": 2.3478,
+    "low_52w": 1.0401,
+    "pct_from_high": -53.6,
+    "pct_from_low": 4.73,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1572
+      },
+      {
+        "type": "support",
+        "price": 1.0675
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 1.0893
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell klar baerisch (Kurs 1,0893 unter SMA20 1,107, SMA50 1,1147 und weit unter SMA200 1,4011, Wochentrend seit 36 Wochen abwaerts, rund 54% unter dem 52w-Hoch), doch der Kurs sitzt nur 4,7% ueber dem 52w-Tief direkt am Support 1,0675 mit drehendem MACD-Histogramm (+0,0037) und RSI 47 - ein frischer Short liefe ins Support, ein Long gegen den Wochentrend ohne Volumenbestaetigung (volume_ratio null). Bei Risk-off-Makro (BTC seitwaerts/Wochentrend abwaerts, NQ und Gold schwach) und klar negativer Krypto-Bilanz im Track Record (avg_R -0,45) fehlt fuer beide Richtungen die Stimmigkeit: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

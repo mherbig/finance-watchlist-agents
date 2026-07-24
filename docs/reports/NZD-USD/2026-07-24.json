@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.57879,
+    "change_pct": -0.032816332,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.57881,
+    "change_pct": -0.029361981415593538,
+    "sma20": 0.5787,
+    "sma50": 0.5758,
+    "sma200": 0.5855,
+    "rsi14": 55.72,
+    "macd": {
+      "macd": 0.0017,
+      "signal": 0.0019,
+      "hist": -0.0003
+    },
+    "atr14": 0.0036,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -4.58,
+    "pct_from_low": 3.46,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.585
+      },
+      {
+        "type": "support",
+        "price": 0.5678
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.57881
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend 'up' mit bullischer Bias und RSI14 bei 55.7, aber der Kurs (0.5788) liegt klar unter der SMA200 (0.5855), der MACD-Hist ist negativ (-0.0003) und der Wochentrend zeigt seit 37 Wochen abwaerts. Das Makro-Bild mit breiter USD-Staerke (EUR/USD Tages- und Wochentrend abwaerts, XAU und NQ100 down, risk-off) belastet die Risikowaehrung NZD, waehrend fuer einen sauberen SHORT der noch positive Tagestrend und jegliche Volumenbestaetigung (volume_ratio null) fehlen. Bei negativem Forex-Track-Record (avg_R -0.37) ist diszipliniertes FLAT die vertretbare Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

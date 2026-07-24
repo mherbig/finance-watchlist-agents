@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 232.070007,
+    "change_pct": -0.68047433,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 232.070007,
+    "change_pct": -0.6804729093554707,
+    "sma20": 243.834,
+    "sma50": 249.2224,
+    "sma200": 234.588,
+    "rsi14": 37.23,
+    "macd": {
+      "macd": -1.5037,
+      "signal": -0.4868,
+      "hist": -1.0169
+    },
+    "atr14": 6.7957,
+    "high_52w": 274.98999,
+    "low_52w": 198.78999,
+    "pct_from_high": -15.61,
+    "pct_from_low": 16.74,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 254.96
+      },
+      {
+        "type": "support",
+        "price": 232.07
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 232.070007
+    },
+    "volume_ratio": 1.03
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bearisch (Tages- und Wochentrend 'down', Bias bearish, Kurs unter SMA20/50/200, MACD negativ und ausweitend), doch der Kurs sitzt bei 232,07 exakt auf der Unterstuetzung und RSI 37 naehert sich dem ueberverkauften Bereich - ein Market-Short zum Schluss direkt auf Support hat schlechtes Chance-Risiko mit hoher Bounce-Gefahr. Ein Long wird vom schwachen Tech-Makro (NQ100 down/down) und dem Abwaertstrend nicht gestuetzt. Bei negativem avg_R der Konviktionsstufe 3 bleibt es diszipliniert FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

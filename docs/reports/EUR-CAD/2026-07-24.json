@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.60334,
+    "change_pct": 0.031818721,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.60334,
+    "change_pct": 0.031818720637872416,
+    "sma20": 1.6103,
+    "sma50": 1.6151,
+    "sma200": 1.6079,
+    "rsi14": 30.78,
+    "macd": {
+      "macd": -0.0037,
+      "signal": -0.0031,
+      "hist": -0.0006
+    },
+    "atr14": 0.0054,
+    "high_52w": 1.63281,
+    "low_52w": 1.56678,
+    "pct_from_high": -1.8,
+    "pct_from_low": 2.33,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.6254
+      },
+      {
+        "type": "support",
+        "price": 1.6024
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 1.60334
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar abwaerts (Kurs 1,60334 unter SMA20/50/200, MACD-Histogramm minimal negativ), doch RSI 30,8 sitzt ueberverkauft direkt auf der Unterstuetzung 1,6024 — hohes Bounce-Risiko, und der Wochentrend laeuft seit 37 Wochen seitwaerts. Makro ist mit schwachem EUR/USD nur leicht euro-negativ und nicht CAD-spezifisch, Volumendaten fehlen. Bei klar negativer Forex-Bilanz (avg_R -0,37) fehlt ein stimmiges gerichtetes Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

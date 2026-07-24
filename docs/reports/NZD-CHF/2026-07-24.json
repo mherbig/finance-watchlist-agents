@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47363,
+    "change_pct": 0.0021113973,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47363,
+    "change_pct": 0.002111397322750306,
+    "sma20": 0.4689,
+    "sma50": 0.4641,
+    "sma200": 0.4623,
+    "rsi14": 77.3,
+    "macd": {
+      "macd": 0.0032,
+      "signal": 0.0029,
+      "hist": 0.0002
+    },
+    "atr14": 0.0025,
+    "high_52w": 0.4737,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.01,
+    "pct_from_low": 5.67,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4737
+      },
+      {
+        "type": "support",
+        "price": 0.4591
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.47363
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 77",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0.47363) klebt direkt am 52-Wochen-Hoch und Widerstand 0.4737 (pct_from_high -0.01), waehrend RSI14 mit 77.3 klar ueberkauft ist, der MACD-Hist nur marginal positiv (0.0002) und die Volumenbestaetigung fehlt (volume_ratio null) — ein Long-Ausbruch bietet hier bei ATR14 0.0025 ein schwaches CRV, zumal das Makro risk-off geneigt ist (NQ100, EUR/USD, BTC, XAU down) und damit den sicheren Hafen CHF gegen die Risk-on-Waehrung NZD stuetzt. Ein Short gegen den seit 37 Wochen intakten Wochen-Aufwaertstrend ist nicht begruendbar, und die negative Forex-Bilanz (avg_R -0.37) zwingt zusaetzlich zur Zurueckhaltung. Somit bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

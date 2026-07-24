@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 522.030029,
+    "change_pct": -3.27224,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 522.030029,
+    "change_pct": -3.2722435101632494,
+    "sma20": 533.0635,
+    "sma50": 508.4826,
+    "sma200": 305.6769,
+    "rsi14": 44.1,
+    "macd": {
+      "macd": 7.0318,
+      "signal": 9.8907,
+      "hist": -2.8589
+    },
+    "atr14": 36.2693,
+    "high_52w": 580.90997,
+    "low_52w": 151.14,
+    "pct_from_high": -10.14,
+    "pct_from_low": 245.4,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 580.91
+      },
+      {
+        "type": "support",
+        "price": 495.76
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 522.030029
+    },
+    "volume_ratio": 1.7
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der uebergeordnete Aufwaertstrend bleibt intakt (Kurs 522 ueber SMA50/200, Wochentrend up, nur -10% vom 52W-Hoch), sodass ein Short gegen den Wochentrend nahe der Unterstuetzung 495,76 nicht diszipliniert waere. Fuer einen frischen Long fehlt jedoch die Bestaetigung: MACD unter der Signallinie (Histogramm -2,86), RSI 44 schwach, der -3,27%-Tag lief mit ueberdurchschnittlichem Volumen (1,7 = Distribution) unter den SMA20, und der Tech-Leitmarkt NQ100 dreht tages- und wochenweise abwaerts. Widerspruechliches Bild plus schwache Trefferquote der Klasse - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

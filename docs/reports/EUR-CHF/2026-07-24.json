@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T21:23:19.448604+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.93088,
+    "change_pct": 0.036537924,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.93088,
+    "change_pct": 0.03653792421604734,
+    "sma20": 0.9251,
+    "sma50": 0.923,
+    "sma200": 0.9184,
+    "rsi14": 68.38,
+    "macd": {
+      "macd": 0.0021,
+      "signal": 0.0015,
+      "hist": 0.0007
+    },
+    "atr14": 0.0033,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -0.86,
+    "pct_from_low": 3.26,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9309
+      },
+      {
+        "type": "support",
+        "price": 0.9213
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.93088
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-24T21:30:33.044982+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts, der Kurs 0.93088 notiert klar ueber SMA20/50/200 und das MACD-Histogramm ist positiv (+0.0007) - ein stimmig bullisches Bild. Konviktion bleibt bei 3, weil RSI 68 bereits gedehnt ist, der Kurs unmittelbar am Widerstand 0.9309 und nur 0.86% unter dem 52W-Hoch steht und eine Volumenbestaetigung fehlt (volume_ratio null). Zudem mahnen der negative Forex-Track-Record (avg_R -0.37) sowie das risk-off-Makrobild, das den sicheren Hafen CHF stuetzen koennte, zur Zurueckhaltung.",
+    "entry": 0.9309,
+    "stop_loss": 0.9249,
+    "take_profit": 0.9398,
+    "take_profit_2": 0.9309,
+    "rr": 1.5
+  }
+}

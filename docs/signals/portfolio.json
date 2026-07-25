@@ -1,20 +1,20 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 95825.4802,
-    "return_pct": -4.1745,
-    "open_count": 3,
+    "current_equity": 95718.1268,
+    "return_pct": -4.2819,
+    "open_count": 2,
     "no_fill_count": 0,
-    "closed_count": 34,
-    "wins": 11,
+    "closed_count": 35,
+    "wins": 12,
     "losses": 23,
-    "win_rate": 0.3235,
-    "total_pnl": -4174.5198,
-    "total_costs": 379.3785,
+    "win_rate": 0.3429,
+    "total_pnl": -4281.8732,
+    "total_costs": 383.3517,
     "max_drawdown": -6142.4639,
-    "unrealized_pnl": 356.4437,
-    "marked_equity": 96181.9239,
-    "marked_return_pct": -3.8181,
+    "unrealized_pnl": 424.83,
+    "marked_equity": 96142.9568,
+    "marked_return_pct": -3.857,
     "skipped_count": 39,
     "ruleset_frozen_since": "2026-07-08"
   },
@@ -137,27 +137,31 @@
     },
     {
       "date": "2026-07-24",
-      "equity": 94798.821
+      "equity": 94876.3808
     },
     {
       "date": "2026-07-24",
-      "equity": 94694.3275
+      "equity": 94904.6112
     },
     {
       "date": "2026-07-24",
-      "equity": 95077.0858
+      "equity": 95238.3819
     },
     {
       "date": "2026-07-24",
-      "equity": 95514.5137
+      "equity": 95634.7758
     },
     {
       "date": "2026-07-24",
-      "equity": 95505.3354
+      "equity": 95514.4522
     },
     {
       "date": "2026-07-24",
-      "equity": 95825.4802
+      "equity": 95826.5346
+    },
+    {
+      "date": "2026-07-25",
+      "equity": 95718.1268
     }
   ],
   "closed": [
@@ -675,11 +679,11 @@
       "stop_loss": 198.877,
       "take_profit": 222.4345,
       "exit_date": "2026-07-24",
-      "exit_price": 204.5,
-      "realized_R": -0.4033,
+      "exit_price": 206.0500030517578,
+      "realized_R": -0.2388,
       "risk_amount": 471.4882,
       "cost": 10.4225,
-      "pnl": -200.5737,
+      "pnl": -123.0139,
       "win": false,
       "status": "flip"
     },
@@ -693,12 +697,12 @@
       "stop_loss": 416.5085,
       "take_profit": 440.4872,
       "exit_date": "2026-07-24",
-      "exit_price": 424.3999938964844,
-      "realized_R": -0.1772,
+      "exit_price": 427.1000061035156,
+      "realized_R": 0.1043,
       "risk_amount": 471.4882,
       "cost": 20.9458,
-      "pnl": -104.4935,
-      "win": false,
+      "pnl": 28.2304,
+      "win": true,
       "status": "flip"
     },
     {
@@ -711,11 +715,11 @@
       "stop_loss": 114.8562,
       "take_profit": 116.879,
       "exit_date": "2026-07-24",
-      "exit_price": 116.34529,
-      "realized_R": 0.8404,
+      "exit_price": 116.26121,
+      "realized_R": 0.7365,
       "risk_amount": 471.4882,
       "cost": 13.4804,
-      "pnl": 382.7583,
+      "pnl": 333.7707,
       "win": true,
       "status": "flip"
     },
@@ -729,11 +733,11 @@
       "stop_loss": 184.0969,
       "take_profit": 187.0983,
       "exit_date": "2026-07-24",
-      "exit_price": 186.448,
-      "realized_R": 0.9583,
+      "exit_price": 186.34358,
+      "realized_R": 0.8713,
       "risk_amount": 471.6547,
       "cost": 14.5588,
-      "pnl": 437.4279,
+      "pnl": 396.3939,
       "win": true,
       "status": "flip"
     },
@@ -747,11 +751,11 @@
       "stop_loss": 73.9834,
       "take_profit": 61.1746,
       "exit_date": "2026-07-24",
-      "exit_price": 68.89,
-      "realized_R": -0.0059,
+      "exit_price": 70.089996,
+      "realized_R": -0.2401,
       "risk_amount": 474.5744,
       "cost": 6.3783,
-      "pnl": -9.1783,
+      "pnl": -120.3236,
       "win": false,
       "status": "flip"
     },
@@ -765,12 +769,30 @@
       "stop_loss": 162.2209,
       "take_profit": 164.6284,
       "exit_date": "2026-07-24",
-      "exit_price": 163.87039,
-      "realized_R": 0.7129,
+      "exit_price": 163.85393,
+      "realized_R": 0.6958,
       "risk_amount": 471.4882,
       "cost": 15.9791,
-      "pnl": 320.1448,
+      "pnl": 312.0824,
       "win": true,
+      "status": "flip"
+    },
+    {
+      "symbol": "XAG/USD",
+      "display": "XAG",
+      "date": "2026-07-23",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 57.895,
+      "stop_loss": 61.3301,
+      "take_profit": 52.7423,
+      "exit_date": "2026-07-25",
+      "exit_price": 58.65599822998047,
+      "realized_R": -0.2215,
+      "risk_amount": 471.4882,
+      "cost": 3.9732,
+      "pnl": -108.4078,
+      "win": false,
       "status": "flip"
     }
   ],
@@ -807,27 +829,9 @@
       "units": 66406.7887,
       "horizon_days": 14,
       "pending": false,
-      "current_price": 0.81832,
-      "unrealized_pct": 0.469,
-      "unrealized_pnl": 253.6739
-    },
-    {
-      "symbol": "XAG/USD",
-      "display": "XAG",
-      "date": "2026-07-23",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 57.895,
-      "stop_loss": 61.3301,
-      "take_profit": 52.7423,
-      "rr": 1.5,
-      "risk_amount": 471.4882,
-      "units": 137.256,
-      "horizon_days": 14,
-      "pending": false,
-      "current_price": 58.4900016784668,
-      "unrealized_pct": -1.0277,
-      "unrealized_pnl": -81.6676
+      "current_price": 0.81812,
+      "unrealized_pct": 0.4444,
+      "unrealized_pnl": 240.3926
     }
   ],
   "marked_curve": [
@@ -943,13 +947,18 @@
     },
     {
       "date": "2026-07-24",
-      "equity": 95825.4803,
-      "marked_equity": 96175.2834
+      "equity": 95826.5347,
+      "marked_equity": 96153.5537
     },
     {
       "date": "2026-07-25",
-      "equity": 95825.4803,
-      "marked_equity": 96181.924
+      "equity": 95718.1269,
+      "marked_equity": 96151.5897
+    },
+    {
+      "date": "2026-07-26",
+      "equity": 95718.1269,
+      "marked_equity": 96142.9568
     }
   ],
   "benchmark_curve": [
@@ -1043,11 +1052,15 @@
     },
     {
       "date": "2026-07-24",
-      "equity": 100023.3921
+      "equity": 100014.0921
     },
     {
       "date": "2026-07-25",
-      "equity": 100020.9812
+      "equity": 100109.7378
+    },
+    {
+      "date": "2026-07-26",
+      "equity": 100109.3182
     }
   ],
   "skipped": [

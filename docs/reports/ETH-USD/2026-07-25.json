@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1870.37,
+    "change_pct": 0.47973612,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1870.37,
+    "change_pct": 0.47973611827401563,
+    "sma20": 1842.8595,
+    "sma50": 1743.1164,
+    "sma200": 2147.3124,
+    "rsi14": 59.38,
+    "macd": {
+      "macd": 38.8234,
+      "signal": 38.2619,
+      "hist": 0.5614
+    },
+    "atr14": 62.7457,
+    "high_52w": 3354.78003,
+    "low_52w": 1567.5,
+    "pct_from_high": -44.25,
+    "pct_from_low": 19.32,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1934.25
+      },
+      {
+        "type": "support",
+        "price": 1743.54
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 1870.37
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Zwar Tagestrend up und Kurs (1870) ueber SMA20/50 mit bullischem Bias, doch das Momentum ist duenn: MACD-Hist nur +0,56 und flach, RSI 59, waehrend der Kurs rund 44% unter dem 52W-Hoch und klar unter der SMA200 (2147) notiert und der Wochentrend seitwaerts laeuft. Ohne Volumenbestaetigung (volume_ratio null), bei weichem Makrobild (BTC/USD seitwaerts mit negativem Wochentrend, Risk-Assets schwach) und klar negativer Krypto-Klasse im Track Record (avg_R -0,45) fehlt die Kante, daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CAD",
+  "display": "AUD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.98424,
+    "change_pct": 0.0,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.98424,
+    "change_pct": 0.0,
+    "sma20": 0.9828,
+    "sma50": 0.9839,
+    "sma200": 0.9711,
+    "rsi14": 50.73,
+    "macd": {
+      "macd": 0.0001,
+      "signal": -0.0003,
+      "hist": 0.0004
+    },
+    "atr14": 0.0045,
+    "high_52w": 0.99488,
+    "low_52w": 0.90859997,
+    "pct_from_high": -1.07,
+    "pct_from_low": 8.32,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9876
+      },
+      {
+        "type": "support",
+        "price": 0.9774
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 0.98424
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'side', Bias neutral und RSI 50.7 ohne Richtung; der Kurs 0.98424 steht mittig zwischen Support 0.9774 und Widerstand 0.9876 ohne Bruch. Das MACD-Histogramm (+0.0004) ist zu schwach fuer ein Setup, Volumenbestaetigung fehlt (volume_ratio null) und der Forex-Track-Record ist negativ (avg_R -0.24). Kein stimmiges Bild fuer LONG oder SHORT — FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

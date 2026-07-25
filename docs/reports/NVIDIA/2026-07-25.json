@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 206.84,
+    "change_pct": -0.91971557,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 206.84,
+    "change_pct": -0.9197116746364973,
+    "sma20": 203.3305,
+    "sma50": 209.1844,
+    "sma200": 192.9068,
+    "rsi14": 59.62,
+    "macd": {
+      "macd": 0.8433,
+      "signal": 0.0772,
+      "hist": 0.7661
+    },
+    "atr14": 7.5986,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -12.26,
+    "pct_from_low": 25.23,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 212.5
+      },
+      {
+        "type": "support",
+        "price": 192.53
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 206.84
+    },
+    "volume_ratio": 0.86
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA notiert bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, gefangen unter der SMA50 (209,18) und dem Widerstand 212,50 - trotz positivem MACD (Hist +0,77) fehlt ein bestaetigter Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 keinen SHORT rechtfertigen. Bei diesem widerspruechlichen Bild und negativer Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

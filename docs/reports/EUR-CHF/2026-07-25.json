@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.93052,
+    "change_pct": -0.019340282,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.93052,
+    "change_pct": -0.019340281508537442,
+    "sma20": 0.9255,
+    "sma50": 0.9232,
+    "sma200": 0.9184,
+    "rsi14": 70.42,
+    "macd": {
+      "macd": 0.0022,
+      "signal": 0.0016,
+      "hist": 0.0006
+    },
+    "atr14": 0.0032,
+    "high_52w": 0.93897,
+    "low_52w": 0.90152,
+    "pct_from_high": -0.9,
+    "pct_from_low": 3.22,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9307
+      },
+      {
+        "type": "support",
+        "price": 0.9221
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.93052
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 70",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen zwar aufwaerts und der Kurs 0.93052 notiert ueber SMA20/50/200, doch das Bild ist widerspruechlich: RSI 70.4 ist gedehnt, der Kurs klebt direkt am Widerstand 0.9307 und nur 0.9% unter dem 52W-Hoch, eine Volumenbestaetigung fehlt (volume_ratio null). Das risk-off-Makrobild (NQ/S&P schwach, EUR/USD abwaerts) stuetzt den sicheren Hafen CHF und wirkt gegen einen EUR/CHF-Long. Zusammen mit dem negativen Forex-Track-Record (avg_R -0.24) reicht die Ueberzeugung nicht fuer eine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

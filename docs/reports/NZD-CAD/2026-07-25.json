@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CAD",
+  "display": "NZD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.81599,
+    "change_pct": 0.0049022612,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.81599,
+    "change_pct": 0.004902261167968627,
+    "sma20": 0.8165,
+    "sma50": 0.8123,
+    "sma200": 0.8096,
+    "rsi14": 50.3,
+    "macd": {
+      "macd": 0.0015,
+      "signal": 0.0021,
+      "hist": -0.0005
+    },
+    "atr14": 0.0046,
+    "high_52w": 0.82616,
+    "low_52w": 0.78605998,
+    "pct_from_high": -1.23,
+    "pct_from_low": 3.81,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8223
+      },
+      {
+        "type": "support",
+        "price": 0.8063
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.81599
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist zwar up (37 Wochen), doch die Tagesstruktur bleibt widerspruechlich: Kurs 0,81599 knapp unter der SMA20, RSI14 mit 50,3 exakt an der Mittellinie und ein leicht negatives MACD-Histogramm (-0,0005) zeigen fehlendes Momentum unterhalb des Widerstands 0,8223. Ohne Ausbruchsschluss und ohne Volumenbestaetigung (volume_ratio null) traegt weder Long noch Short; das breit risk-off gestimmte Makrobild (NQ, S&P, XAU, EUR/USD schwach) liefert dem Risiko-Cross keinen symbolspezifischen Long-Grund. Beim klar negativen Forex-Track-Record (avg_R -0,24) ist diszipliniertes Abwarten die bessere Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

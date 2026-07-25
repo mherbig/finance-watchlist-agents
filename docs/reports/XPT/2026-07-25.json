@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1604.1,
+    "change_pct": 0.3127,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1593.4000244140625,
+    "change_pct": -0.35644745537479233,
+    "sma20": 1610.9,
+    "sma50": 1748.736,
+    "sma200": 1911.0935,
+    "rsi14": 44.22,
+    "macd": {
+      "macd": -34.1017,
+      "signal": -43.3886,
+      "hist": 9.2869
+    },
+    "atr14": 26.5071,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1286.4000244140625,
+    "pct_from_high": -44.14,
+    "pct_from_low": 23.87,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1651.2
+      },
+      {
+        "type": "support",
+        "price": 1550.2
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 1593.4000244140625
+    },
+    "volume_ratio": 0.0
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts (52 Wochen), der Kurs (1604,1) liegt unter SMA20 (1610,9) und tief unter SMA50 (1748,7)/SMA200 (1911) — bearisches Bild, doch ein sauberer SHORT scheitert am neutralen RSI (44,2) und dem positiven MACD-Histogramm (+9,29), das die Abwaertsdynamik abflachen laesst, waehrend das Volumenverhaeltnis 0,0 keine Bestaetigung liefert. Eine LONG-Stuetze fehlt komplett, da das Metall-Makro (XAU Tages- und Wochentrend abwaerts) und der eigene Wochentrend dagegen sprechen. Bei leicht negativer Metall-Bilanz (avg_R -0,09) und negativer Konviktion-3-Historie (avg_R -0,17) ist FLAT ohne belastbares Setup diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

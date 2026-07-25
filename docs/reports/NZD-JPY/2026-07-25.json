@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.86632,
+    "change_pct": 0.012218684,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.86632,
+    "change_pct": 0.012218684297555021,
+    "sma20": 94.196,
+    "sma50": 93.142,
+    "sma200": 92.9535,
+    "rsi14": 77.93,
+    "macd": {
+      "macd": 0.5835,
+      "signal": 0.5743,
+      "hist": 0.0091
+    },
+    "atr14": 0.4893,
+    "high_52w": 95.37972,
+    "low_52w": 87.17,
+    "pct_from_high": -0.54,
+    "pct_from_low": 8.83,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 95.1053
+      },
+      {
+        "type": "support",
+        "price": 92.0505
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 94.86632
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 78",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Aufwaertstrend bleibt intakt (Wochentrend seit 37 Wochen up, Kurs ueber SMA20/50/200), doch mit RSI 77,9 ist das Paar stark ueberkauft, klebt direkt unter dem Widerstand 95,11 und nur -0,54% unter dem 52-Wochen-Hoch bei neutralem Bias und fehlender Volumenbestaetigung. Das Makro-Bild ist klar risk-off (NQ100 und EUR/USD, XAU sowie BTC schwach), was die risikosensitive NZD belastet, und die negative Forex-Bilanz (avg_R -0,24) mahnt zur Zurueckhaltung. Ein Long an dieser Kante bietet ein schlechtes Chance-Risiko-Verhaeltnis, ein Short liefe gegen den starken Wochentrend, daher FLAT bis ein Tagesschluss ueber 95,11 oder ein Ruecksetzer Richtung SMA20 (94,20) ein sauberes Setup schafft.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

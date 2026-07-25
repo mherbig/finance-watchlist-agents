@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T21:23:36.635534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.69839,
+    "change_pct": 0.014320698,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.69839,
+    "change_pct": 0.014320697704390583,
+    "sma20": 0.697,
+    "sma50": 0.6974,
+    "sma200": 0.7023,
+    "rsi14": 57.52,
+    "macd": {
+      "macd": 0.0005,
+      "signal": 0.0002,
+      "hist": 0.0003
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.72584,
+    "low_52w": 0.64551,
+    "pct_from_high": -3.78,
+    "pct_from_low": 8.19,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7007
+      },
+      {
+        "type": "support",
+        "price": 0.6918
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.69839
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-25T21:31:07.752791+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs 0.69839 liegt mittig zwischen Support 0.6918 und Widerstand 0.7007, Tagestrend seitwaerts und RSI 58 neutral, waehrend der Wochentrend seit 37 Wochen klar abwaerts zeigt. Das Makro-Bild stuetzt einen festen USD (EUR/USD Tages- und Wochentrend abwaerts, XAU und NQ schwach, S&P Wochentrend abwaerts), was den risikosensitiven AUD belastet, und das leicht positive MACD-Histogramm ist ohne Volumenbestaetigung kein tragfaehiges Long-Setup. Bei diesem Mid-Range-Bild und negativer Forex-Bilanz (avg_R -0.24) ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

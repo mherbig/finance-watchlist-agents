@@ -1,0 +1,67 @@
+{
+  "symbol": "NATGAS",
+  "display": "NATGAS",
+  "asset_class": "energy",
+  "track": "technical",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T21:22:48.170471+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.888,
+    "change_pct": -0.9602,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 2.888000011444092,
+    "change_pct": -0.9602153289416129,
+    "sma20": 3.0363,
+    "sma50": 3.091,
+    "sma200": 3.4501,
+    "rsi14": 24.02,
+    "macd": {
+      "macd": -0.0695,
+      "signal": -0.0535,
+      "hist": -0.016
+    },
+    "atr14": 0.1143,
+    "high_52w": 7.460000038146973,
+    "low_52w": 2.5230000019073486,
+    "pct_from_high": -61.29,
+    "pct_from_low": 14.47,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 3.275
+      },
+      {
+        "type": "support",
+        "price": 2.858
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 2.888000011444092
+    },
+    "volume_ratio": 0.84
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 24",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (Kurs 2,888 unter SMA20/50/200, MACD-Histogramm negativ), ein Long ist damit ausgeschlossen. Ein Short ueberzeugt aber ebenso wenig: RSI 24 ist stark ueberverkauft, der Kurs sitzt direkt auf der Unterstuetzung 2,858 knapp ueber dem 52-Wochen-Tief, und das Volumenverhaeltnis 0,84 bestaetigt keinen Ausbruch nach unten. Schlechtes Chance-Risiko-Verhaeltnis auf beiden Seiten, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

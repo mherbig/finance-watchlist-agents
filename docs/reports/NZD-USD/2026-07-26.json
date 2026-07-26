@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/USD",
+  "display": "NZD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T21:22:48.170471+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.58016,
+    "change_pct": 0.096618357,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.58016,
+    "change_pct": 0.09661835748792356,
+    "sma20": 0.5798,
+    "sma50": 0.5758,
+    "sma200": 0.5856,
+    "rsi14": 61.87,
+    "macd": {
+      "macd": 0.0014,
+      "signal": 0.0018,
+      "hist": -0.0003
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.60657,
+    "low_52w": 0.55947185,
+    "pct_from_high": -4.35,
+    "pct_from_low": 3.7,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.585
+      },
+      {
+        "type": "support",
+        "price": 0.57
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 38,
+      "last_close": 0.58016
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Gemischtes Bild: Tagestrend 'up' mit bullischer Bias, RSI14 bei 62 und Kurs ueber SMA20/50 sprechen fuer Staerke, doch MACD-Hist ist negativ (-0.0003), der Kurs (0.58016) liegt unter SMA200 (0.5856) und praktisch an der Resistance 0.585, waehrend der Wochentrend 'side' ist. Das Makro-Bild mit breiter USD-Staerke und Risk-off (EUR/USD, NQ100, S&P500, XAU down) belastet die Risikowaehrung NZD und untergraebt ein sauberes LONG, ohne dass fuer ein SHORT der Tagestrend passt. Bei fehlender Volumenbestaetigung (volume_ratio null) und negativem Forex-Track-Record (avg_R -0.25) ist diszipliniertes FLAT die vertretbare Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/CHF",
+  "display": "GBP/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T23:47:44.877754+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.08869,
+    "change_pct": -0.010102866,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.08869,
+    "change_pct": -0.010102865540049091,
+    "sma20": 1.0871,
+    "sma50": 1.0769,
+    "sma200": 1.0613,
+    "rsi14": 60.55,
+    "macd": {
+      "macd": 0.0037,
+      "signal": 0.0042,
+      "hist": -0.0006
+    },
+    "atr14": 0.004,
+    "high_52w": 1.0904,
+    "low_52w": 1.03222,
+    "pct_from_high": -0.16,
+    "pct_from_low": 5.47,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.0904
+      },
+      {
+        "type": "support",
+        "price": 1.0822
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 1.08869
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts (38 Wochen) und der Kurs 1.08866 liegt ueber SMA20/50/200, doch mit nur 0.16% Abstand zum 52W-Hoch bzw. Widerstand 1.0904 waere ein LONG ein Kauf direkt in den Deckel, waehrend das MACD-Histogramm negativ ist (-0.0005, Linie unter Signal) und eine Volumenbestaetigung fehlt (volume_ratio null). Das risk-off gepraegte Makro-Bild (NQ100, S&P500, EUR/USD und XAU schwach) stuetzt den sicheren Hafen CHF gegen den Cross, und die Forex-Historie laeuft negativ (avg_R -0.25). Dieses widerspruechliche Bild rechtfertigt kein neues Setup.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

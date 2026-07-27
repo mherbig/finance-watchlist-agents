@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T23:47:44.877754+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 64931.19,
+    "change_pct": -2.2453,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 64611.1484375,
+    "change_pct": -2.7271637701445988,
+    "sma20": 67852.735,
+    "sma50": 66908.6648,
+    "sma200": 56525.7106,
+    "rsi14": 34.37,
+    "macd": {
+      "macd": -532.7675,
+      "signal": -30.1363,
+      "hist": -502.6311
+    },
+    "atr14": 1896.9741,
+    "high_52w": 72366.34375,
+    "low_52w": 40290.69921875,
+    "pct_from_high": -10.72,
+    "pct_from_low": 60.36,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 70474.9609
+      },
+      {
+        "type": "support",
+        "price": 64141.1211
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 64611.1484375
+    },
+    "volume_ratio": 0.86
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (66.423 Close) liegt unter SMA20 (68.240) und SMA50 (66.870), das MACD-Histogramm ist mit -459 klar negativ und RSI14 von 43 zeigt kein Momentum, sodass ein LONG gegen den Abwaertsdruck laeuft. Ein SHORT ist jedoch spaet: Tages- und Wochentrend sind beide 'side', das Volumen (0,85) liegt unter dem Schnitt und der Kurs sitzt direkt auf der Unterstuetzung 64.141 bei ohnehin risikoscheuem Makro (NQ100 down, S&P/XAU/EUR-USD schwach). Da die Index-Klasse im Track-Record mit avg_R -0,51 die schwaechste ist, bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

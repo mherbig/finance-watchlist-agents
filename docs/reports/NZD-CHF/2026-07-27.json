@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/CHF",
+  "display": "NZD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T23:47:44.877754+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.47267,
+    "change_pct": -0.097224864,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.47268,
+    "change_pct": -0.09511128019783273,
+    "sma20": 0.4709,
+    "sma50": 0.4648,
+    "sma200": 0.4625,
+    "rsi14": 61.18,
+    "macd": {
+      "macd": 0.0028,
+      "signal": 0.0029,
+      "hist": -0.0001
+    },
+    "atr14": 0.0023,
+    "high_52w": 0.4737,
+    "low_52w": 0.44821,
+    "pct_from_high": -0.22,
+    "pct_from_low": 5.46,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.4737
+      },
+      {
+        "type": "support",
+        "price": 0.4646
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 38,
+      "last_close": 0.47268
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (0.47364) klebt am 52-Wochen-Hoch bzw. Widerstand 0.4737 (pct_from_high -0.01), waehrend RSI14 mit 70.5 ueberkauft, der MACD-Hist bei 0.0 neutral und keine Volumenbestaetigung vorhanden ist (volume_ratio null) — ein Long-Ausbruch bietet hier ein schwaches CRV. Das Makro ist klar risk-off (NQ100/S&P/EUR-USD/XAU schwach), was den sicheren Hafen CHF gegen die Risk-on-Waehrung NZD stuetzt, und die negative Forex-Bilanz (avg_R -0.25) mahnt zur Zurueckhaltung. Ein Short gegen den seit 38 Wochen intakten Wochen-Aufwaertstrend ist ohne Bruch nicht begruendbar, daher bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

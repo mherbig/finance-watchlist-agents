@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T23:44:29.071127+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 556.71002,
+    "change_pct": 3.27996,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 556.71002,
+    "change_pct": 3.2799640184795664,
+    "sma20": 620.803,
+    "sma50": 602.1842,
+    "sma200": 634.4872,
+    "rsi14": 22.9,
+    "macd": {
+      "macd": -9.5531,
+      "signal": 1.5908,
+      "hist": -11.1439
+    },
+    "atr14": 24.1357,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -29.53,
+    "pct_from_low": 5.89,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 681.31
+      },
+      {
+        "type": "support",
+        "price": 539.03
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 556.71002
+    },
+    "volume_ratio": 1.28
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 23",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "META notiert bei 595,19 unter SMA20/50/200, der MACD liegt mit negativem Histogramm (-4,50) unter der Signallinie und der Wochentrend ist down - dazu ein schwaches Tech-Makro (NQ100 Tages- und Wochentrend down), was jedes Long verbietet. Fuer einen Short fehlt jedoch die Bestaetigung: Tagestrend seitwaerts, RSI 48,8 neutral, der Abverkauf laeuft bei klar unterdurchschnittlichem Volumen (0,58) und die Struktur haelt ueber Support 550,25 und dem 52-Wochen-Tief 525,72. Widerspruechliches Bild ohne belastbares Setup - kein neues Engagement.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

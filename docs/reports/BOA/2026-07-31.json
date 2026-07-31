@@ -1,0 +1,67 @@
+{
+  "symbol": "BAC",
+  "display": "BOA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T23:44:29.071127+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 61.95,
+    "change_pct": 0.35639271,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 61.95,
+    "change_pct": 0.35639073384092984,
+    "sma20": 60.877,
+    "sma50": 57.2472,
+    "sma200": 53.5658,
+    "rsi14": 64.29,
+    "macd": {
+      "macd": 1.3016,
+      "signal": 1.4488,
+      "hist": -0.1472
+    },
+    "atr14": 1.2079,
+    "high_52w": 62.62,
+    "low_52w": 44.92,
+    "pct_from_high": -1.07,
+    "pct_from_low": 37.91,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 62.62
+      },
+      {
+        "type": "support",
+        "price": 58.3
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 61.95
+    },
+    "volume_ratio": 0.47
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind aufwaerts und der Kurs steht ueber SMA20/50/200, doch der Market-Einstieg zum Schluss liegt exakt am 52-Wochen-Hoch bzw. Widerstand (62.05), waehrend das MACD-Histogramm negativ dreht (-0.029, MACD unter Signal) und das Volumen mit Ratio 0.82 unterdurchschnittlich ist - ein Ausbruch ohne Momentum- und Volumenbestaetigung. Das Makro-Bild ist klar risk-off (S&P500 Wochentrend abwaerts, NQ100 abwaerts, EUR/USD und XAU schwach). Ein frischer Long an der Widerstandszone bei nicht bestaetigendem Momentum ist kein stimmiges Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

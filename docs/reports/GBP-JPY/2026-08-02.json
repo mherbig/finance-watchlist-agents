@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/JPY",
+  "display": "GBP/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T23:41:38.486070+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 212.92147,
+    "change_pct": 0.4588653,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 212.82864,
+    "change_pct": 0.4150670083653627,
+    "sma20": 216.9974,
+    "sma50": 215.8496,
+    "sma200": 213.4076,
+    "rsi14": 21.72,
+    "macd": {
+      "macd": -0.9365,
+      "signal": -0.1275,
+      "hist": -0.809
+    },
+    "atr14": 1.5244,
+    "high_52w": 219.60676,
+    "low_52w": 204.783,
+    "pct_from_high": -3.09,
+    "pct_from_low": 3.93,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 219.6068
+      },
+      {
+        "type": "support",
+        "price": 211.9489
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 212.82864
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 22",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell bullisch (Kurs ueber SMA20/50/200, Tages- und Wochentrend seit 38 Wochen aufwaerts), doch der Market-Einstieg zum Schluss 218.24 kauft unmittelbar unter das 52W-Hoch/Widerstand 219.61 (nur -0.62%) bei nachlassendem Momentum (MACD 0.70 unter Signal 0.83, Histogramm negativ) und ohne Volumenbestaetigung (volume_ratio null). Bei risikoscheuem Makro (NQ100/S&P/EUR/USD/XAU schwach, JPY tendenziell gesucht) und negativem Forex-Track-Record (avg_R -0.25) jage ich den Ausbruch am Hoch nicht und bleibe FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

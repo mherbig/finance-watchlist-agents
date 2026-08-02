@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T23:41:38.486070+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8976.8,
+    "change_pct": 0.1015,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8976.7998046875,
+    "change_pct": 0.10147093654799533,
+    "sma20": 8846.3899,
+    "sma50": 8791.568,
+    "sma200": 8777.5895,
+    "rsi14": 65.49,
+    "macd": {
+      "macd": 48.3052,
+      "signal": 29.9463,
+      "hist": 18.3589
+    },
+    "atr14": 81.4715,
+    "high_52w": 9198.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -2.41,
+    "pct_from_low": 7.3,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 9038.5996
+      },
+      {
+        "type": "support",
+        "price": 8762.5
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 8976.7998046875
+    },
+    "volume_ratio": 1.23
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts, doch der Kurs (8772, -0,57%) notiert unter SMA20 (8799) und SMA200 (8778) und klemmt mittig zwischen Widerstand 8844 und Support 8723; RSI 49 neutral, MACD-Histogramm leicht negativ und Volumenverhaeltnis 1,0 tragen keinen Ausbruch. Das Makro-Bild ist klar risk-off (NQ100 down/down, S&P und GER40 schwach, XAU und EUR down), und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0,51). Kein sauberes Long-Setup und gegen die Aufwaertstrends kein Short, daher FLAT bis zum Bruch von 8844 oder 8723.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

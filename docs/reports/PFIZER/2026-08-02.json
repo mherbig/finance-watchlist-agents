@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T23:41:38.486070+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25.01,
+    "change_pct": 0.40144674,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 25.01,
+    "change_pct": 0.4014452027298331,
+    "sma20": 24.6525,
+    "sma50": 25.0848,
+    "sma200": 25.8312,
+    "rsi14": 57.3,
+    "macd": {
+      "macd": 0.0274,
+      "signal": -0.0542,
+      "hist": 0.0816
+    },
+    "atr14": 0.4921,
+    "high_52w": 28.55,
+    "low_52w": 23.53,
+    "pct_from_high": -12.4,
+    "pct_from_low": 6.29,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 25.25
+      },
+      {
+        "type": "support",
+        "price": 23.72
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 25.01
+    },
+    "volume_ratio": 1.13
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.54) liegt unter SMA50 (25.15) und SMA200 (25.84), der Wochentrend ist seit 52 Wochen abwaerts und der Tag schloss -1.88% bei seitwaertsgerichtetem Tagestrend und neutralem Bias, mit Widerstand direkt darueber bei 25.14. Das leicht positive Momentum (RSI 62, MACD-Hist +0.10) wird durch unterdurchschnittliches Volumen (ratio 0.66) nicht bestaetigt und trifft auf ein risk-off-Makrobild (NQ abwaerts, S&P und Gold im Wochentrend abwaerts). Gegen den klaren Wochenabwaertstrend und bei negativ laufender Konviktionsstufe 3 (avg_R -0.17) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

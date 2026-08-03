@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T23:48:50.944611+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 58.3,
+    "change_pct": 1.2311,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 58.29999923706055,
+    "change_pct": 1.2310945089912755,
+    "sma20": 58.259,
+    "sma50": 63.9282,
+    "sma200": 69.9373,
+    "rsi14": 48.41,
+    "macd": {
+      "macd": -1.4996,
+      "signal": -1.9798,
+      "hist": 0.4802
+    },
+    "atr14": 1.3694,
+    "high_52w": 115.08000183105469,
+    "low_52w": 37.26100158691406,
+    "pct_from_high": -49.34,
+    "pct_from_low": 56.46,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 60.931
+      },
+      {
+        "type": "support",
+        "price": 55.898
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 58.29999923706055
+    },
+    "volume_ratio": 1.19
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bleibt das Bild bearisch: Kurs 58,9 unter SMA50/200, Wochentrend down und schwaches Metall-Makro (XAU Trend und Wochentrend down) bei breitem Risk-off. Dem steht ein frischer Bounce (+1,9% auf hohem Volumen, Ratio 13,69, steigendes MACD-Histogramm) entgegen, doch der Kurs steckt mittig in der Range zwischen Support 55,90 und Widerstand 61,92, RSI neutral bei 42,5 und Trend seitwaerts. Dieser Widerspruch plus negativer Track Record (metal avg_R -0,13, Konviktion-3 avg_R -0,17) rechtfertigt keine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

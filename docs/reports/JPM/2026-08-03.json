@@ -1,0 +1,67 @@
+{
+  "symbol": "JPM",
+  "display": "JPM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T23:48:50.944611+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 352.64001,
+    "change_pct": 0.24162315,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 352.64001,
+    "change_pct": 0.2416214150026667,
+    "sma20": 344.964,
+    "sma50": 328.6994,
+    "sma200": 312.1056,
+    "rsi14": 59.55,
+    "macd": {
+      "macd": 6.6213,
+      "signal": 6.9416,
+      "hist": -0.3204
+    },
+    "atr14": 7.1793,
+    "high_52w": 357.31,
+    "low_52w": 282.84,
+    "pct_from_high": -1.31,
+    "pct_from_low": 24.68,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 357.31
+      },
+      {
+        "type": "support",
+        "price": 330.62
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 352.64001
+    },
+    "volume_ratio": 0.45
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "JPM druckt bei 353.21 ein neues 52-Wochen-Hoch klar ueber SMA20/50/200, mit intaktem Tages- und Wochentrend (52 Wochen auf), positivem MACD-Histogramm (+0.51) und gesundem RSI 64.7 ohne Ueberhitzung — ein ueber mehrere Zeitebenen stimmig bullisches Bild, das durch die Aktien-Klasse als einzige positiv laufende Gruppe im Track Record gestuetzt wird. Der Ausbruch erfolgt jedoch auf unterdurchschnittlichem Volumen (volume_ratio 0.71) bei weichem Gesamtmarkt (S&P500 seitwaerts, NQ100 abwaerts), weshalb die Konviktion bei 3 bleibt.",
+    "entry": 353.21,
+    "stop_loss": 339.593,
+    "take_profit": 373.6355,
+    "take_profit_2": 353.21,
+    "rr": 1.5
+  }
+}

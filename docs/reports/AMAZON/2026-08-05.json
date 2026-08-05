@@ -1,0 +1,67 @@
+{
+  "symbol": "AMZN",
+  "display": "AMAZON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T23:43:27.967720+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 272.64999,
+    "change_pct": -1.71942,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 272.64999,
+    "change_pct": -1.7194217533190879,
+    "sma20": 248.8745,
+    "sma50": 247.315,
+    "sma200": 235.9505,
+    "rsi14": 61.67,
+    "macd": {
+      "macd": 5.9988,
+      "signal": 1.3796,
+      "hist": 4.6192
+    },
+    "atr14": 10.1164,
+    "high_52w": 284.019989,
+    "low_52w": 198.78999,
+    "pct_from_high": -4.0,
+    "pct_from_low": 37.15,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 284.02
+      },
+      {
+        "type": "support",
+        "price": 226.65
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 272.64999
+    },
+    "volume_ratio": 0.86
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist strukturell bearisch (Tages- und Wochentrend 'down', Bias bearish, Kurs unter SMA20/50/200, MACD negativ und ausweitend), doch der Kurs sitzt bei 232,11 exakt auf der Unterstuetzung mit RSI 37 nahe ueberverkauft und schwachem Volumen (0,64) - ein Market-Short zum Schluss direkt auf Support hat schlechtes Chance-Risiko mit hoher Bounce-Gefahr. Ein Long wird vom Abwaertstrend und dem schwachen Tech-Makro (NQ100 down/down) nicht gestuetzt. Bei negativem avg_R der Konviktionsstufe 3 bleibt es diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

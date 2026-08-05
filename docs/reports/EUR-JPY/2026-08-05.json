@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/JPY",
+  "display": "EUR/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T23:43:27.967720+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 182.17366,
+    "change_pct": -0.06445184,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 182.17366,
+    "change_pct": -0.06445183981777242,
+    "sma20": 184.5322,
+    "sma50": 184.7353,
+    "sma200": 184.5717,
+    "rsi14": 28.81,
+    "macd": {
+      "macd": -0.9746,
+      "signal": -0.5781,
+      "hist": -0.3964
+    },
+    "atr14": 1.5051,
+    "high_52w": 187.58855,
+    "low_52w": 180.49534,
+    "pct_from_high": -2.89,
+    "pct_from_low": 0.93,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 187.4154
+      },
+      {
+        "type": "support",
+        "price": 180.9236
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 182.17366
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 29",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend seit 38 Wochen up und Kurs ueber allen SMAs, doch RSI14 bleibt mit 71.6 ueberkauft, der Preis klebt am Widerstand 186.448 und nur 0.77% unter dem 52W-Hoch - ein Market-Einstieg zum Schlusskurs in diese Ueberhitzung ist Chasing mit schlechtem Chance-Risiko, zumal EUR makro schwach ist (EUR/USD Trend und Wochentrend down) und das Umfeld risk-off. Gegen den intakten Wochentrend kein SHORT, und die negative Forex-Bilanz (avg_R -0.25) wie auch die Konviktion-3-Bilanz (avg_R -0.17) mahnen zur Zurueckhaltung: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

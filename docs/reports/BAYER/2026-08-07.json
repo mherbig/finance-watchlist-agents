@@ -1,0 +1,67 @@
+{
+  "symbol": "BAYN",
+  "display": "BAYER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T01:51:49.208615+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 49.4,
+    "change_pct": 2.3834,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 49.220001220703125,
+    "change_pct": 2.0103652242551817,
+    "sma20": 48.047,
+    "sma50": 43.7342,
+    "sma200": 39.0075,
+    "rsi14": 57.53,
+    "macd": {
+      "macd": 0.8392,
+      "signal": 1.0456,
+      "hist": -0.2064
+    },
+    "atr14": 1.3507,
+    "high_52w": 53.36000061035156,
+    "low_52w": 25.709999084472656,
+    "pct_from_high": -7.76,
+    "pct_from_low": 91.44,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 50.7
+      },
+      {
+        "type": "support",
+        "price": 46.06
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 49.220001220703125
+    },
+    "volume_ratio": 1.24
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Uebergeordneter Aufwaertstrend intakt (Kurs 46,06 ueber SMA50 42,22 und SMA200 38,19, Wochentrend aufwaerts), doch kurzfristig dominiert Schwaeche - Kurs unter SMA20 48,99, MACD-Histogramm negativ (-0,84), Trend seitwaerts, Bias neutral. Der RSI von 22,7 ist extrem ueberverkauft, aber die Abgabe laeuft auf duennem Volumen (Ratio 0,45) und der Kurs klebt exakt auf der Unterstuetzung 46,03: ohne Stabilisierung waere ein Long ein Fallmesser-Griff, ein Short gegen den Wochentrend unbegruendet. Bei risikoaversem Makro (NQ100 abwaerts, S&P Wochentrend abwaerts, GER40 schwach) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

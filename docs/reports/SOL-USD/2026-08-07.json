@@ -1,0 +1,67 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T01:51:49.208615+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 72.66,
+    "change_pct": -0.055020633,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 72.66,
+    "change_pct": -0.05502063273728507,
+    "sma20": 74.641,
+    "sma50": 75.1708,
+    "sma200": 84.0821,
+    "rsi14": 44.95,
+    "macd": {
+      "macd": -0.8314,
+      "signal": -0.6783,
+      "hist": -0.1531
+    },
+    "atr14": 2.0857,
+    "high_52w": 146.69,
+    "low_52w": 62.2,
+    "pct_from_high": -50.47,
+    "pct_from_low": 16.82,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 78.12
+      },
+      {
+        "type": "support",
+        "price": 71.95
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 72.66
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, waehrend der Wochentrend seit 36 Wochen 'down' laeuft, der MACD-Hist mit -0,38 unter der Signallinie liegt und der Kurs (75,45) unter SMA20 (76,72) sowie weit unter SMA200 (88,09) notiert. Der Kurs sitzt knapp ueber der Unterstuetzung 73,96, doch ohne Volumenbestaetigung (volume_ratio null) und mit RSI 46 fehlt ein tragfaehiger Trigger fuer einen Long gegen den Wochentrend. Makro ist risk-off (NQ100 down, BTC/USD Wochentrend down) und die Krypto-Klasse laeuft im Track Record mit avg_R -0,45 klar negativ, daher keine neue Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

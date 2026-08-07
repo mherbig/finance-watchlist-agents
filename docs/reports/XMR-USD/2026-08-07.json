@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T01:51:49.208615+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 370.0,
+    "change_pct": 0.27858286,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 370.0,
+    "change_pct": 0.2785820315795721,
+    "sma20": 355.8133,
+    "sma50": 334.9936,
+    "sma200": 357.8249,
+    "rsi14": 54.38,
+    "macd": {
+      "macd": 8.3518,
+      "signal": 7.6622,
+      "hist": 0.6896
+    },
+    "atr14": 10.086,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -47.94,
+    "pct_from_low": 26.25,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 370.0
+      },
+      {
+        "type": "support",
+        "price": 332.9175
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 36,
+      "last_close": 370.0
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 54",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar 'up' mit positivem MACD-Histogramm (+3,42) und Kurs ueber SMA20/50, doch der RSI steht mit 68,8 hoch und der Kurs sitzt dicht unter dem Widerstand 363,48 ohne Volumenbestaetigung (volume_ratio null). Die Struktur bleibt schwach: Wochentrend nur 'side', Kurs rund 50% unter dem 52W-Hoch und weiter unter der SMA200 (371,51), waehrend das Makro-Bild risk-off ist (BTC/USD Wochentrend down, Indizes schwach). Da die eigene Krypto-Bilanz klar negativ laeuft (avg_R -0,45), rechtfertigt der ueberkaufte Stand am Widerstand keine Position: FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

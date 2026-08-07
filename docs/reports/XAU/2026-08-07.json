@@ -4,36 +4,36 @@
   "asset_class": "metal",
   "track": "technical",
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T01:51:49.208615+00:00",
+  "generated_at": "2026-08-07T23:17:47.610293+00:00",
   "available": true,
   "snapshot": {
-    "price": 4254.91086,
-    "change_pct": 0.33227681,
+    "price": 4342.24647,
+    "change_pct": -0.0089116432,
     "currency": null
   },
   "technical": {
-    "last_close": 4254.91086,
-    "change_pct": 0.3322768080019284,
-    "sma20": 4086.2094,
-    "sma50": 4088.2434,
-    "sma200": 4585.838,
-    "rsi14": 73.31,
+    "last_close": 4342.24647,
+    "change_pct": -0.008911643192390269,
+    "sma20": 4107.1775,
+    "sma50": 4093.7106,
+    "sma200": 4584.1839,
+    "rsi14": 77.65,
     "macd": {
-      "macd": 26.9286,
-      "signal": 0.2433,
-      "hist": 26.6853
+      "macd": 46.9768,
+      "signal": 10.7096,
+      "hist": 36.2671
     },
-    "atr14": 65.6082,
+    "atr14": 73.7232,
     "high_52w": 5330.94854,
     "low_52w": 3976.78276,
-    "pct_from_high": -20.18,
-    "pct_from_low": 6.99,
-    "trend": "side",
+    "pct_from_high": -18.55,
+    "pct_from_low": 9.19,
+    "trend": "up",
     "bias": "neutral",
     "levels": [
       {
         "type": "resistance",
-        "price": 4254.9109
+        "price": 4342.6335
       },
       {
         "type": "support",
@@ -43,12 +43,12 @@
     "weekly": {
       "trend": "side",
       "weeks": 36,
-      "last_close": 4254.91086
+      "last_close": 4342.24647
     },
     "volume_ratio": null
   },
   "fundamental": null,
-  "headline": "Trend side, RSI 73",
+  "headline": "Trend up, RSI 78",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-26T21:30:35.129063+00:00",

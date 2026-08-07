@@ -4,30 +4,30 @@
   "asset_class": "index",
   "track": "technical",
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T01:51:49.208615+00:00",
+  "generated_at": "2026-08-07T23:17:47.610293+00:00",
   "available": true,
   "snapshot": {
-    "price": 9251.9,
-    "change_pct": -0.2125,
+    "price": 9263.6,
+    "change_pct": 0.388,
     "currency": "AUD"
   },
   "technical": {
-    "last_close": 9251.900390625,
-    "change_pct": -0.21246839358853553,
-    "sma20": 8942.7849,
-    "sma50": 8843.548,
-    "sma200": 8781.07,
-    "rsi14": 79.71,
+    "last_close": 9271.599609375,
+    "change_pct": 0.4746505734254307,
+    "sma20": 8920.4899,
+    "sma50": 8830.368,
+    "sma200": 8779.9605,
+    "rsi14": 81.21,
     "macd": {
-      "macd": 110.8264,
-      "signal": 70.5823,
-      "hist": 40.2441
+      "macd": 101.2076,
+      "signal": 60.5213,
+      "hist": 40.6863
     },
-    "atr14": 90.8713,
+    "atr14": 90.1571,
     "high_52w": 9271.599609375,
     "low_52w": 8365.900390625,
-    "pct_from_high": -0.21,
-    "pct_from_low": 10.59,
+    "pct_from_high": 0.0,
+    "pct_from_low": 10.83,
     "trend": "up",
     "bias": "neutral",
     "levels": [
@@ -43,12 +43,12 @@
     "weekly": {
       "trend": "up",
       "weeks": 52,
-      "last_close": 9251.900390625
+      "last_close": 9271.599609375
     },
     "volume_ratio": 1.12
   },
   "fundamental": null,
-  "headline": "Trend up, RSI 80",
+  "headline": "Trend up, RSI 81",
   "flags": [],
   "signal": {
     "generated_at": "2026-07-26T21:30:35.129063+00:00",

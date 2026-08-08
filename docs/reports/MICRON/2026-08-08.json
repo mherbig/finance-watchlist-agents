@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T23:09:39.152732+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 877.57001,
+    "change_pct": -0.4424386,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 877.57001,
+    "change_pct": -0.44243821488325513,
+    "sma20": 888.2645,
+    "sma50": 970.9456,
+    "sma200": 535.0213,
+    "rsi14": 50.9,
+    "macd": {
+      "macd": -25.6216,
+      "signal": -27.6087,
+      "hist": 1.9871
+    },
+    "atr14": 84.6743,
+    "high_52w": 1213.56006,
+    "low_52w": 115.79,
+    "pct_from_high": -27.69,
+    "pct_from_low": 657.9,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 990.21
+      },
+      {
+        "type": "support",
+        "price": 739.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 877.57001
+    },
+    "volume_ratio": 0.76
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 51",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T23:09:39.152732+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 45.97,
+    "change_pct": 0.94422486,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 45.97,
+    "change_pct": 0.9442248572683349,
+    "sma20": 45.854,
+    "sma50": 44.7282,
+    "sma200": 52.0747,
+    "rsi14": 46.29,
+    "macd": {
+      "macd": -0.0082,
+      "signal": 0.0218,
+      "hist": -0.03
+    },
+    "atr14": 1.1793,
+    "high_52w": 85.83,
+    "low_52w": 40.92,
+    "pct_from_high": -46.44,
+    "pct_from_low": 12.34,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.84
+      },
+      {
+        "type": "support",
+        "price": 44.25
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 45.97
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 46",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist up und der Kurs liegt ueber SMA20/50 mit positivem MACD (Hist +0,17), doch RSI14 steht bei 72,6 (ueberkauft) und der Kurs stockt exakt am Widerstand 47,61 ohne Volumenbestaetigung (volume_ratio null), waehrend der Wochentrend nur seitwaerts ist und der Kurs klar unter der SMA200 (54,07) bleibt. Das Makro-Bild ist risk-off (Indizes und XAU abwaerts, BTC-Wochentrend down) und die Krypto-Bilanz laeuft deutlich negativ (avg_R -0,45), was ein neues LONG nicht rechtfertigt. Die intakte kurzfristige Aufwaertsdynamik ueber steigenden SMAs schliesst zugleich ein SHORT aus, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

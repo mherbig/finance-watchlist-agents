@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T23:09:39.152732+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 592.099976,
+    "change_pct": 0.37293627,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 592.099976,
+    "change_pct": 0.3729370953403136,
+    "sma20": 612.2665,
+    "sma50": 599.7572,
+    "sma200": 631.2951,
+    "rsi14": 33.66,
+    "macd": {
+      "macd": -7.5407,
+      "signal": -5.0652,
+      "hist": -2.4755
+    },
+    "atr14": 22.2943,
+    "high_52w": 790.0,
+    "low_52w": 525.71997,
+    "pct_from_high": -25.05,
+    "pct_from_low": 12.63,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 681.31
+      },
+      {
+        "type": "support",
+        "price": 539.03
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 592.099976
+    },
+    "volume_ratio": 0.6
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "META notiert bei 595,19 unter SMA20/50/200, der MACD liegt mit negativem Histogramm (-4,50) unter der Signallinie und der Wochentrend ist down - dazu ein schwaches Tech-Makro (NQ100 Tages- und Wochentrend down), was jedes Long verbietet. Fuer einen Short fehlt jedoch die Bestaetigung: Tagestrend seitwaerts, RSI 48,8 neutral, der Abverkauf laeuft bei klar unterdurchschnittlichem Volumen (0,58) und die Struktur haelt ueber Support 550,25 und dem 52-Wochen-Tief 525,72. Widerspruechliches Bild ohne belastbares Setup - kein neues Engagement.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

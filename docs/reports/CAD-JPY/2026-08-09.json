@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T23:12:30.111333+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 113.25632,
+    "change_pct": 0.12635108,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 113.25632,
+    "change_pct": 0.12635107776797772,
+    "sma20": 114.1304,
+    "sma50": 114.356,
+    "sma200": 114.7867,
+    "rsi14": 29.39,
+    "macd": {
+      "macd": -0.5668,
+      "signal": -0.5095,
+      "hist": -0.0573
+    },
+    "atr14": 1.0476,
+    "high_52w": 117.24469,
+    "low_52w": 111.07748,
+    "pct_from_high": -3.4,
+    "pct_from_low": 1.96,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 116.3453
+      },
+      {
+        "type": "support",
+        "price": 111.9206
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 113.25632
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 29",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist intakt (Kurs ueber SMA20/50/200, Tages- und Wochentrend 'up' seit 38 Wochen, MACD-Histogramm leicht positiv +0,059), doch RSI14 76,93 ist extrem ueberkauft und der Kurs klebt bei 116,18 direkt unter Widerstand 116,35 und nur 0,91% unter dem 52-Wochen-Hoch, ohne bestaetigten Ausbruch und ohne Volumen-Signal (volume_ratio null). Ein risk-off Makro (NQ100/S&P/Gold down) mit JPY-Safe-Haven-Risiko und die negativ laufende Assetklasse Forex (avg_R -0,25) sprechen gegen einen Long-Nachkauf auf diesem Niveau; kein sauberes Setup zum Schlusskurs, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

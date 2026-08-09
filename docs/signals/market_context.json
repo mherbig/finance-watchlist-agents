@@ -20,26 +20,26 @@
     },
     "EUR/USD": {
       "trend": "up",
-      "weekly_trend": "side",
-      "change_pct": 0.0,
-      "rsi14": 76.07
+      "weekly_trend": "up",
+      "change_pct": -0.03,
+      "rsi14": 80.82
     },
     "BTC/USD": {
       "trend": "up",
       "weekly_trend": "side",
-      "change_pct": 0.04,
-      "rsi14": 53.34
+      "change_pct": 0.16,
+      "rsi14": 47.83
     },
     "XAU": {
       "trend": "up",
-      "weekly_trend": "side",
-      "change_pct": 0.0,
-      "rsi14": 77.65
+      "weekly_trend": "up",
+      "change_pct": 0.12,
+      "rsi14": 76.94
     }
   },
   "vol_regime": {
     "symbols": 80,
     "median_atr_pct": 1.885
   },
-  "generated_at": "2026-08-08T23:09:39.412410+00:00"
+  "generated_at": "2026-08-09T23:12:30.413419+00:00"
 }

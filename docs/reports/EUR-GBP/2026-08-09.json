@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/GBP",
+  "display": "EUR/GBP",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T23:12:30.111333+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.85666,
+    "change_pct": 0.023351937,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.85667,
+    "change_pct": 0.024519533895341696,
+    "sma20": 0.8559,
+    "sma50": 0.8557,
+    "sma200": 0.8646,
+    "rsi14": 56.9,
+    "macd": {
+      "macd": 0.0005,
+      "signal": 0.0004,
+      "hist": 0.0002
+    },
+    "atr14": 0.0029,
+    "high_52w": 0.8798,
+    "low_52w": 0.84671,
+    "pct_from_high": -2.63,
+    "pct_from_low": 1.18,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8578
+      },
+      {
+        "type": "support",
+        "price": 0.8532
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 0.85667
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 12,
+    "rationale": "Der Tageschart ist seitwaerts (Trend side, Bias neutral, RSI 51.9, MACD-Hist nur +0.0008), waehrend der Wochentrend seit 38 Wochen abwaerts laeuft und der Kurs unter SMA50/200 nur 0.79% ueber dem 52W-Tief bzw. der Unterstuetzung 0.8467 klebt. Fuer Long deckelt der Widerstand 0.8545 unmittelbar und es fehlt jede Volumenbestaetigung (volume_ratio null); fuer Short direkt am Tief ist das Chance-Risiko-Verhaeltnis schlecht. Bei schwachem EUR/USD als Makro-Gegenwind und negativer Forex-Bilanz (avg_R -0.25) bleibe ich flach.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

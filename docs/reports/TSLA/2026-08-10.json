@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T23:19:32.037388+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 330.88,
+    "change_pct": 0.69998734,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 330.88,
+    "change_pct": 0.6999848043089861,
+    "sma20": 340.139,
+    "sma50": 378.2166,
+    "sma200": 408.2372,
+    "rsi14": 31.35,
+    "macd": {
+      "macd": -18.0682,
+      "signal": -20.2396,
+      "hist": 2.1715
+    },
+    "atr14": 14.3279,
+    "high_52w": 489.88,
+    "low_52w": 298.32001,
+    "pct_from_high": -32.46,
+    "pct_from_low": 10.91,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 396.18
+      },
+      {
+        "type": "support",
+        "price": 298.32
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 330.88
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts, der Kurs (313,0) liegt unter allen SMAs und MACD bleibt negativ, doch RSI14 von 15,7 signalisiert bei erhoehtem Volumen (1,46x) eine ausgereizte Kapitulation exakt auf der Unterstuetzung 313,0 und nur 3,4% ueber dem 52W-Tief. Ein neuer Short laeuft dieser Ueberdehnung hinterher, ein Long gegen den Wochentrend waere ohne Umkehrbestaetigung unbegruendet. Zusammen mit dem risikoscheuen Makro-Bild (NQ100 down, S&P500 schwach) und dem negativen Track Record der Konviktionsstufe 3 (avg_R -0,17) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T23:26:02.373729+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 478.8,
+    "change_pct": -0.25,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 482.45001220703125,
+    "change_pct": 0.5104192097981771,
+    "sma20": 479.8475,
+    "sma50": 486.488,
+    "sma200": 533.0027,
+    "rsi14": 47.39,
+    "macd": {
+      "macd": -1.7689,
+      "signal": -2.923,
+      "hist": 1.154
+    },
+    "atr14": 14.05,
+    "high_52w": 652.0999755859375,
+    "low_52w": 444.95001220703125,
+    "pct_from_high": -26.02,
+    "pct_from_low": 8.43,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 503.1
+      },
+      {
+        "type": "support",
+        "price": 453.55
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 482.45001220703125
+    },
+    "volume_ratio": 0.6
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs unter SMA20/50/200 mit bearischem MACD (Hist -4,14), RSI 37 und seitwaertsem Wochentrend spricht strukturell bearisch, doch der +1,8%-Tag mit ueberdurchschnittlichem Volumen (1,38) direkt am ungebrochenen Support 453,55 knapp ueber dem 52W-Tief laesst Stabilisierung wie Bear-Rally gleichermassen offen. Fuer den Short fehlt der Support-Bruch, fuer den Long die bestaetigte Umkehr, dazu ist das Makro-Bild breit risk-off und Konviktion 3 laeuft im Track Record negativ. Daher FLAT bis Support bricht oder eine Umkehr bestaetigt ist.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

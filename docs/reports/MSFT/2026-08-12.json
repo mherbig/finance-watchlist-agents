@@ -1,0 +1,67 @@
+{
+  "symbol": "MSFT",
+  "display": "MSFT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T23:24:20.423028+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 492.42999,
+    "change_pct": -2.25879,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 492.42999,
+    "change_pct": -2.258790020047245,
+    "sma20": 440.373,
+    "sma50": 410.303,
+    "sma200": 432.7947,
+    "rsi14": 85.89,
+    "macd": {
+      "macd": 29.7579,
+      "signal": 22.8862,
+      "hist": 6.8717
+    },
+    "atr14": 17.3657,
+    "high_52w": 542.070007,
+    "low_52w": 352.82999,
+    "pct_from_high": -9.16,
+    "pct_from_low": 39.57,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 506.06
+      },
+      {
+        "type": "support",
+        "price": 381.58
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 492.42999
+    },
+    "volume_ratio": 0.69
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 86",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur klar bearisch: Tages- und Wochentrend abwaerts, Kurs unter SMA20/50/200, Bias bearish, und der NQ100 (Trend abwaerts) liefert keinen Tech-Rueckenwind. Ein Short ist dennoch unsauber, da RSI mit ~47 neutral ist, das MACD-Histogramm positiv dreht (+0,45), das Volumen unterdurchschnittlich bleibt (0,64) und der Kurs nur ~8% ueber dem 52W-Tief direkt an der Unterstuetzung 368,57 sitzt. Ein Long gegen den Abwaertstrend hat keine Basis, daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

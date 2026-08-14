@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/NZD",
+  "display": "GBP/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T23:02:19.086477+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.29652,
+    "change_pct": -0.039174378,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.29652,
+    "change_pct": -0.039174378215549574,
+    "sma20": 2.2939,
+    "sma50": 2.3111,
+    "sma200": 2.2926,
+    "rsi14": 53.39,
+    "macd": {
+      "macd": -0.002,
+      "signal": -0.004,
+      "hist": 0.002
+    },
+    "atr14": 0.0104,
+    "high_52w": 2.35279,
+    "low_52w": 2.24234,
+    "pct_from_high": -2.39,
+    "pct_from_low": 2.42,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.3065
+      },
+      {
+        "type": "support",
+        "price": 2.2821
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 2.29652
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 53",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tagestrend abwaerts mit bearischem Bias, Kurs unter SMA20 (2.3107) und SMA50 (2.3169), aber praktisch auf SMA200 (2.2947) und Wochentrend nur seitwaerts. RSI14 mit 34 schwach jedoch nicht ueberverkauft, MACD-Histogramm nur leicht negativ (-0.0012) und Kurs sitzt direkt auf der Unterstuetzung 2.295 ohne Volumenbestaetigung (volume_ratio fehlt). Makro risk-off/gemischt ohne GBP-/NZD-spezifischen Treiber und Forex laeuft im Track Record klar negativ (avg_R -0.25), daher diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

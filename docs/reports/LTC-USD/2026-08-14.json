@@ -1,0 +1,67 @@
+{
+  "symbol": "LTC/USD",
+  "display": "LTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T23:02:19.086477+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 43.64,
+    "change_pct": -2.63275,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 43.63,
+    "change_pct": -2.6550647032574695,
+    "sma20": 45.2655,
+    "sma50": 44.9612,
+    "sma200": 51.3724,
+    "rsi14": 44.06,
+    "macd": {
+      "macd": -0.211,
+      "signal": -0.0605,
+      "hist": -0.1505
+    },
+    "atr14": 0.9121,
+    "high_52w": 85.82,
+    "low_52w": 40.92,
+    "pct_from_high": -49.16,
+    "pct_from_low": 6.62,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 47.84
+      },
+      {
+        "type": "support",
+        "price": 43.63
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 43.63
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist up und der Kurs liegt ueber SMA20/50 mit positivem MACD (Hist +0,17), doch RSI14 steht bei 72,6 (ueberkauft) und der Kurs stockt exakt am Widerstand 47,61 ohne Volumenbestaetigung (volume_ratio null), waehrend der Wochentrend nur seitwaerts ist und der Kurs klar unter der SMA200 (54,07) bleibt. Das Makro-Bild ist risk-off (Indizes und XAU abwaerts, BTC-Wochentrend down) und die Krypto-Bilanz laeuft deutlich negativ (avg_R -0,45), was ein neues LONG nicht rechtfertigt. Die intakte kurzfristige Aufwaertsdynamik ueber steigenden SMAs schliesst zugleich ein SHORT aus, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

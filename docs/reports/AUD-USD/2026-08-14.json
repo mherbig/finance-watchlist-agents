@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T23:02:19.086477+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.70816,
+    "change_pct": -0.03952346,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.70816,
+    "change_pct": -0.03952345999660479,
+    "sma20": 0.7039,
+    "sma50": 0.6987,
+    "sma200": 0.7051,
+    "rsi14": 63.13,
+    "macd": {
+      "macd": 0.0024,
+      "signal": 0.0021,
+      "hist": 0.0002
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.72584,
+    "low_52w": 0.6605,
+    "pct_from_high": -2.44,
+    "pct_from_low": 7.22,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7084
+      },
+      {
+        "type": "support",
+        "price": 0.6955
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.70816
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar aufwaerts mit bullischem MACD, doch RSI 68 laeuft direkt in den Widerstand 0.7007, waehrend der Wochentrend seit 38 Wochen klar abwaerts zeigt und der Kurs unter der SMA200 (0.7024) bleibt. Das Makro-Bild stuetzt einen festen USD (EUR/USD Tages- und Wochentrend abwaerts, XAU und NQ schwach, S&P Wochentrend abwaerts), was den risikosensitiven AUD belastet, und ohne Volumenbestaetigung ist der Long ins Overbought nicht tragfaehig. Bei negativer Forex-Bilanz (avg_R -0.25) und diesem Widerspruch ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

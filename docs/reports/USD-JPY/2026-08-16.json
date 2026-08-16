@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/JPY",
+  "display": "USD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T22:59:16.984141+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 159.24563,
+    "change_pct": -0.046623175,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 159.24563,
+    "change_pct": -0.046623174718079786,
+    "sma20": 158.7307,
+    "sma50": 160.9924,
+    "sma200": 159.03,
+    "rsi14": 74.73,
+    "macd": {
+      "macd": -0.5072,
+      "signal": -0.723,
+      "hist": 0.2158
+    },
+    "atr14": 0.6972,
+    "high_52w": 163.87039,
+    "low_52w": 152.70238,
+    "pct_from_high": -2.82,
+    "pct_from_low": 4.28,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 163.4371
+      },
+      {
+        "type": "support",
+        "price": 157.2007
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 38,
+      "last_close": 159.24563
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Der Aufwaertstrend ist intakt (Wochentrend 38 Wochen auf, Kurs ueber SMA20/50/200, positives MACD, USD-Rueckenwind aus abwaertsgerichtetem EUR/USD), doch mit RSI 75.2 steht der Kurs extrem ueberkauft praktisch am 52W-Hoch/Widerstand 163.87 (-0.16%) ohne bestaetigten Ausbruch und ohne Volumenbestaetigung (volume_ratio fehlt). Ein frischer Long waere reines Nachlaufen mit schlechtem CRV, ein Short widerspricht dem klaren Trend; bei negativem avg_R in Forex (-0.25) und auf Konviktion 3 (-0.17) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AAPL",
+  "display": "APPLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T23:02:50.564789+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 305.59,
+    "change_pct": -0.11113534,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 305.59,
+    "change_pct": -0.11113326941239081,
+    "sma20": 317.3785,
+    "sma50": 309.078,
+    "sma200": 280.6666,
+    "rsi14": 22.04,
+    "macd": {
+      "macd": -2.6758,
+      "signal": -0.3855,
+      "hist": -2.2903
+    },
+    "atr14": 8.4008,
+    "high_52w": 340.079987,
+    "low_52w": 224.89999,
+    "pct_from_high": -10.14,
+    "pct_from_low": 35.88,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 340.08
+      },
+      {
+        "type": "support",
+        "price": 302.25
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 305.59
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 22",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar aufwaerts (333,02 ueber SMA20/50/200, MACD-Hist +0,91), doch der Market-Einstieg zum Schluss liegt praktisch am 52W-Hoch/Widerstand 333,74 (nur -0,22%) nach einem +3,53%-Tag bei RSI 68 - schlechtes Chance/Risiko. Das Volumen bestaetigt den Ausbruch nicht (volume_ratio 0,74 < 1) und das Makrobild ist risk-off fuer Tech (NQ100 taeglich und woechentlich down, S&P500 woechentlich down). Kein Nachlaufen ins Hoch, abwarten.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

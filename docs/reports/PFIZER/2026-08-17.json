@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T23:02:50.564789+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 26.87,
+    "change_pct": 0.29861859,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 26.87,
+    "change_pct": 0.29861888764465044,
+    "sma20": 25.6975,
+    "sma50": 25.1932,
+    "sma200": 25.9264,
+    "rsi14": 71.32,
+    "macd": {
+      "macd": 0.5282,
+      "signal": 0.3899,
+      "hist": 0.1384
+    },
+    "atr14": 0.5671,
+    "high_52w": 28.55,
+    "low_52w": 23.6,
+    "pct_from_high": -5.88,
+    "pct_from_low": 13.86,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 27.05
+      },
+      {
+        "type": "support",
+        "price": 24.54
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 26.87
+    },
+    "volume_ratio": 0.61
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.54) liegt unter SMA50 (25.15) und SMA200 (25.84), der Wochentrend ist seit 52 Wochen abwaerts und der Tag schloss -1.88% bei seitwaertsgerichtetem Tagestrend und neutralem Bias, mit Widerstand direkt darueber bei 25.14. Das leicht positive Momentum (RSI 62, MACD-Hist +0.10) wird durch unterdurchschnittliches Volumen (ratio 0.66) nicht bestaetigt und trifft auf ein risk-off-Makrobild (NQ abwaerts, S&P und Gold im Wochentrend abwaerts). Gegen den klaren Wochenabwaertstrend und bei negativ laufender Konviktionsstufe 3 (avg_R -0.17) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

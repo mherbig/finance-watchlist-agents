@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T23:03:59.929258+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 937.10498,
+    "change_pct": -0.38851878,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 937.10498,
+    "change_pct": -0.3885188529644251,
+    "sma20": 894.7448,
+    "sma50": 962.3243,
+    "sma200": 563.6852,
+    "rsi14": 58.23,
+    "macd": {
+      "macd": 6.2545,
+      "signal": -6.9913,
+      "hist": 13.2458
+    },
+    "atr14": 63.3236,
+    "high_52w": 1213.56006,
+    "low_52w": 115.79,
+    "pct_from_high": -22.78,
+    "pct_from_low": 709.31,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1011.75
+      },
+      {
+        "type": "support",
+        "price": 739.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 937.10498
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T23:07:33.781425+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 94.53296,
+    "change_pct": -0.024599122,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 94.53702,
+    "change_pct": -0.020305380227760676,
+    "sma20": 93.4735,
+    "sma50": 93.71,
+    "sma200": 93.1709,
+    "rsi14": 74.64,
+    "macd": {
+      "macd": 0.1765,
+      "signal": 0.0458,
+      "hist": 0.1307
+    },
+    "atr14": 0.5241,
+    "high_52w": 95.37972,
+    "low_52w": 89.51281,
+    "pct_from_high": -0.88,
+    "pct_from_low": 5.61,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 94.5562
+      },
+      {
+        "type": "support",
+        "price": 92.2946
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 94.53702
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen intakt und der Kurs steht ueber SMA20/50/200, doch mit RSI 76,8 ist das Paar stark ueberkauft, klebt direkt unter dem Widerstand 95,11 (nur -0,45% unter dem 52-Wochen-Hoch) bei neutralem Bias, drehendem MACD-Histogramm und fehlender Volumenbestaetigung. Das Makro-Bild ist klar risk-off (NQ100, S&P500, EUR/USD und XAU schwach), was die risikosensitive NZD belastet, und die negative Forex-Bilanz (avg_R -0,25) mahnt zur Zurueckhaltung. Ein Long an dieser Kante hat ein schlechtes Chance-Risiko-Verhaeltnis, ein Short liefe gegen den starken Wochentrend, daher FLAT bis ein Tagesschluss ueber 95,11 oder ein Ruecksetzer Richtung SMA20 ein sauberes Setup schafft.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

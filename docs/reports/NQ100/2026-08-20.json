@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T23:07:33.781425+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29213.164,
+    "change_pct": -0.7234,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29213.1640625,
+    "change_pct": -0.7233580081191431,
+    "sma20": 29087.1484,
+    "sma50": 29308.8825,
+    "sma200": 26810.1808,
+    "rsi14": 62.37,
+    "macd": {
+      "macd": 160.4066,
+      "signal": 137.4018,
+      "hist": 23.0047
+    },
+    "atr14": 424.7889,
+    "high_52w": 30660.599609375,
+    "low_52w": 22953.380859375,
+    "pct_from_high": -4.72,
+    "pct_from_low": 27.27,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30084.5
+      },
+      {
+        "type": "support",
+        "price": 27192.3105
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 29213.1640625
+    },
+    "volume_ratio": 0.14
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 62",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist klar bearisch: Tages- und Wochentrend abwaerts (53 Wochen), Kurs unter SMA20/50, MACD-Histogramm weitet sich negativ aus (-110). Gegen einen frischen Short spricht der scharfe -3%-Tag bei nur unterdurchschnittlichem Volumen (ratio 0,86) und noch nicht ueberverkauftem RSI (41), was Rueckprallerisiko birgt, zumal S&P nur seitwaerts und GER40 mit RSI 28 stark ueberverkauft ist. Da die Asset-Klasse Index im Track Record klar negativ laeuft (avg_R -0,51), bleibe ich bei diesem Widerspruch diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

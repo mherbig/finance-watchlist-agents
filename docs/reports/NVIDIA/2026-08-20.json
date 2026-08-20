@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T23:07:33.781425+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 216.85001,
+    "change_pct": -0.32634283,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 216.85001,
+    "change_pct": -0.3263421584850178,
+    "sma20": 212.7835,
+    "sma50": 207.291,
+    "sma200": 195.2483,
+    "rsi14": 67.36,
+    "macd": {
+      "macd": 4.247,
+      "signal": 4.1563,
+      "hist": 0.0907
+    },
+    "atr14": 6.2971,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -8.01,
+    "pct_from_low": 31.29,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 225.3
+      },
+      {
+        "type": "support",
+        "price": 190.01
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 216.85001
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 67",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA steht bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, unter der SMA50 (209,18) und dem Widerstand 212,50 gefangen; der leicht positive MACD (Hist +0,77) liefert keinen bestaetigten Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts und S&P500 woechentlich schwach, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 einen SHORT nicht rechtfertigen. Bei diesem widerspruechlichen Bild und schwacher Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

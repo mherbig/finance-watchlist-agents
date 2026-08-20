@@ -1,0 +1,67 @@
+{
+  "symbol": "GOOGL",
+  "display": "GOOGLE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T23:07:33.781425+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 340.67001,
+    "change_pct": -1.17486,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 340.67001,
+    "change_pct": -1.1748636574611384,
+    "sma20": 347.143,
+    "sma50": 352.0004,
+    "sma200": 332.7198,
+    "rsi14": 39.27,
+    "macd": {
+      "macd": -2.3304,
+      "signal": -1.5523,
+      "hist": -0.7781
+    },
+    "atr14": 9.3468,
+    "high_52w": 402.62,
+    "low_52w": 206.089996,
+    "pct_from_high": -15.39,
+    "pct_from_low": 65.3,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 377.65
+      },
+      {
+        "type": "support",
+        "price": 319.74
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 340.67001
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts (319,74 unter SMA20/50/200, MACD-Hist -3,80), doch RSI 26,46 ist extrem ueberverkauft und der Kurs sitzt direkt auf der Unterstuetzung 317,69 - ein frischer Market-Short zum Schluss hat damit schlechte Asymmetrie (Bounce-Risiko), waehrend ein Long gegen den bearischen Wochentrend bei unterdurchschnittlichem Volumen (0,92) nicht gedeckt ist. Bei bearisch-neutralem Tech-Makro (NQ100 down/down) und schwachem Track Record (Konviktion 3 avg_R -0,17) ist FLAT diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

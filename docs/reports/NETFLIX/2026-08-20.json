@@ -1,0 +1,67 @@
+{
+  "symbol": "NFLX",
+  "display": "NETFLIX",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T23:07:33.781425+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 80.14,
+    "change_pct": -0.099728035,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 80.14,
+    "change_pct": -0.09972575417601384,
+    "sma20": 74.808,
+    "sma50": 74.5686,
+    "sma200": 88.5694,
+    "rsi14": 73.15,
+    "macd": {
+      "macd": 1.3455,
+      "signal": 0.521,
+      "hist": 0.8245
+    },
+    "atr14": 2.2811,
+    "high_52w": 126.325,
+    "low_52w": 67.6,
+    "pct_from_high": -36.56,
+    "pct_from_low": 18.55,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 80.22
+      },
+      {
+        "type": "support",
+        "price": 70.09
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 80.14
+    },
+    "volume_ratio": 0.77
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend klar abwaerts (Kurs unter SMA20/50/200, MACD negativ, 52 Wochen down), doch RSI14 bei 29 ist stark ueberverkauft und der Kurs sitzt mit nur +3,7% direkt auf dem 52-Wochen-Tief bzw. Support 67,60 - ein frischer Short traegt hohes Bounce-Risiko, ein Long gegen den intakten Abwaertstrend ist nicht vertretbar. Volume-Ratio 0,73 liefert keinen Ausbruchsimpuls und das Makro-Bild (NQ100 down/down, S&P down) stuetzt nicht, daher ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

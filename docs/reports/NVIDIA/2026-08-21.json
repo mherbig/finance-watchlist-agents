@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T23:03:22.694430+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 214.75,
+    "change_pct": -0.96841413,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 214.75,
+    "change_pct": -0.9684159110714349,
+    "sma20": 213.179,
+    "sma50": 207.5776,
+    "sma200": 195.2877,
+    "rsi14": 59.52,
+    "macd": {
+      "macd": 3.6547,
+      "signal": 4.056,
+      "hist": -0.4013
+    },
+    "atr14": 5.7507,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -8.9,
+    "pct_from_low": 30.02,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 225.3
+      },
+      {
+        "type": "support",
+        "price": 190.01
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 214.75
+    },
+    "volume_ratio": 5.16
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA steht bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, unter der SMA50 (209,18) und dem Widerstand 212,50 gefangen; der leicht positive MACD (Hist +0,77) liefert keinen bestaetigten Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts und S&P500 woechentlich schwach, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 einen SHORT nicht rechtfertigen. Bei diesem widerspruechlichen Bild und schwacher Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

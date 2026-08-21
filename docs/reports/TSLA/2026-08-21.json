@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T23:03:22.694430+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 362.88,
+    "change_pct": 5.14299,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 362.88,
+    "change_pct": 5.142989598122447,
+    "sma20": 328.143,
+    "sma50": 365.858,
+    "sma200": 403.3205,
+    "rsi14": 72.71,
+    "macd": {
+      "macd": -3.3259,
+      "signal": -9.5567,
+      "hist": 6.2307
+    },
+    "atr14": 11.5086,
+    "high_52w": 489.88,
+    "low_52w": 298.32001,
+    "pct_from_high": -25.92,
+    "pct_from_low": 21.64,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 362.88
+      },
+      {
+        "type": "support",
+        "price": 298.32
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 362.88
+    },
+    "volume_ratio": 5.87
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 73",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts, der Kurs (313,0) liegt unter allen SMAs und MACD bleibt negativ, doch RSI14 von 15,7 signalisiert bei erhoehtem Volumen (1,46x) eine ausgereizte Kapitulation exakt auf der Unterstuetzung 313,0 und nur 3,4% ueber dem 52W-Tief. Ein neuer Short laeuft dieser Ueberdehnung hinterher, ein Long gegen den Wochentrend waere ohne Umkehrbestaetigung unbegruendet. Zusammen mit dem risikoscheuen Makro-Bild (NQ100 down, S&P500 schwach) und dem negativen Track Record der Konviktionsstufe 3 (avg_R -0,17) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

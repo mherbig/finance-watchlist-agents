@@ -1,0 +1,67 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T23:00:21.681193+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 95.62,
+    "change_pct": 1.91857,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 95.62,
+    "change_pct": 1.918567469622694,
+    "sma20": 79.263,
+    "sma50": 77.456,
+    "sma200": 81.1906,
+    "rsi14": 89.35,
+    "macd": {
+      "macd": 4.3885,
+      "signal": 2.0962,
+      "hist": 2.2923
+    },
+    "atr14": 4.1293,
+    "high_52w": 146.69,
+    "low_52w": 62.2,
+    "pct_from_high": -34.81,
+    "pct_from_low": 53.73,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 95.62
+      },
+      {
+        "type": "support",
+        "price": 72.7
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 36,
+      "last_close": 95.62
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 89",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, waehrend der Wochentrend seit 36 Wochen 'down' laeuft, der MACD-Hist mit -0,38 unter der Signallinie liegt und der Kurs (75,45) unter SMA20 (76,72) sowie weit unter SMA200 (88,09) notiert. Der Kurs sitzt knapp ueber der Unterstuetzung 73,96, doch ohne Volumenbestaetigung (volume_ratio null) und mit RSI 46 fehlt ein tragfaehiger Trigger fuer einen Long gegen den Wochentrend. Makro ist risk-off (NQ100 down, BTC/USD Wochentrend down) und die Krypto-Klasse laeuft im Track Record mit avg_R -0,45 klar negativ, daher keine neue Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

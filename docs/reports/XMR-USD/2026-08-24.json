@@ -1,0 +1,67 @@
+{
+  "symbol": "XMR/USD",
+  "display": "XMR/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T23:06:13.991263+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 433.95529,
+    "change_pct": 1.69997,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 433.95529,
+    "change_pct": 1.6999658613816497,
+    "sma20": 400.9657,
+    "sma50": 365.4431,
+    "sma200": 354.2206,
+    "rsi14": 68.1,
+    "macd": {
+      "macd": 18.3716,
+      "signal": 16.7261,
+      "hist": 1.6454
+    },
+    "atr14": 15.9943,
+    "high_52w": 710.74011,
+    "low_52w": 293.060394,
+    "pct_from_high": -38.94,
+    "pct_from_low": 48.08,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 433.9553
+      },
+      {
+        "type": "support",
+        "price": 365.5816
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 433.95529
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar 'up' mit positivem MACD-Histogramm (+3,42) und Kurs ueber SMA20/50, doch der RSI steht mit 68,8 hoch und der Kurs sitzt dicht unter dem Widerstand 363,48 ohne Volumenbestaetigung (volume_ratio null). Die Struktur bleibt schwach: Wochentrend nur 'side', Kurs rund 50% unter dem 52W-Hoch und weiter unter der SMA200 (371,51), waehrend das Makro-Bild risk-off ist (BTC/USD Wochentrend down, Indizes schwach). Da die eigene Krypto-Bilanz klar negativ laeuft (avg_R -0,45), rechtfertigt der ueberkaufte Stand am Widerstand keine Position: FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T23:07:38.304034+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2453.78,
+    "change_pct": -1.14933,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2453.78,
+    "change_pct": -1.1493326780297282,
+    "sma20": 2077.8845,
+    "sma50": 1949.0292,
+    "sma200": 2013.3617,
+    "rsi14": 83.9,
+    "macd": {
+      "macd": 157.5844,
+      "signal": 102.9252,
+      "hist": 54.6592
+    },
+    "atr14": 108.6,
+    "high_52w": 3354.78003,
+    "low_52w": 1567.5,
+    "pct_from_high": -26.86,
+    "pct_from_low": 56.54,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2516.3
+      },
+      {
+        "type": "support",
+        "price": 1873.16
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 2453.78
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 84",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend up mit Kurs (1915) ueber SMA20/50, RSI 62 und leicht positivem MACD-Hist (+1,35), Momentum hat sich zum Vortag verbessert. Doch der Kurs notiert ~43% unter dem 52W-Hoch und klar unter der SMA200 (2141), der Wochentrend laeuft seitwaerts und der Kurs steht ohne Volumenbestaetigung (volume_ratio null) direkt am Widerstand 1934. Bei weichem Makrobild (Risk-Assets schwach, BTC/USD mit negativem Wochentrend) und klar negativer Krypto-Klasse im Track Record (avg_R -0,45) fehlt die Kante gegen den seitwaerts laufenden Wochentrend, daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

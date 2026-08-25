@@ -1,0 +1,67 @@
+{
+  "symbol": "DJI",
+  "display": "WS30",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T23:07:38.304034+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 53577.4,
+    "change_pct": 0.3,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 53577.3984375,
+    "change_pct": 0.29997529030238335,
+    "sma20": 53411.5092,
+    "sma50": 52688.163,
+    "sma200": 49617.5071,
+    "rsi14": 37.51,
+    "macd": {
+      "macd": 242.79,
+      "signal": 330.0501,
+      "hist": -87.2601
+    },
+    "atr14": 378.6574,
+    "high_52w": 54349.12109375,
+    "low_52w": 45166.640625,
+    "pct_from_high": -1.42,
+    "pct_from_low": 18.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 54349.1211
+      },
+      {
+        "type": "support",
+        "price": 51594.1406
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 53577.3984375
+    },
+    "volume_ratio": 0.85
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend bleibt aufwaerts, doch der Tagestrend ist side mit klar negativem Momentum: MACD-Histogramm -156 unter der Signallinie, Kurs unter der SMA20 (52366) und Volumenverhaeltnis 0,92 unterdurchschnittlich; RSI 31 naehert sich dem ueberverkauften Bereich, aber ohne bestaetigenden Volumen- oder Momentumimpuls nahe dem 52W-Hoch (-2,5%). Das Makrobild ist risk-off (NQ100 taeglich und woechentlich down, S&P500 woechentlich down, EUR/USD und XAU down), sodass kein stimmig bullisches Setup entsteht und ein Short gegen den Wochentrend nicht sauber begruendbar ist. Zusaetzlich laeuft die Index-Klasse im Track Record klar negativ (avg_R -0,51, 4 SL, kein TP) - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

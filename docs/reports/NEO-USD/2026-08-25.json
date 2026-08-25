@@ -1,0 +1,67 @@
+{
+  "symbol": "NEO/USD",
+  "display": "NEO/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T23:07:38.304034+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2.152,
+    "change_pct": -1.78001,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2.152,
+    "change_pct": -1.7800091282519261,
+    "sma20": 1.8611,
+    "sma50": 1.9069,
+    "sma200": 2.448,
+    "rsi14": 75.16,
+    "macd": {
+      "macd": 0.0701,
+      "signal": 0.0109,
+      "hist": 0.0593
+    },
+    "atr14": 0.1294,
+    "high_52w": 4.051,
+    "low_52w": 1.658,
+    "pct_from_high": -46.88,
+    "pct_from_low": 29.79,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2.191
+      },
+      {
+        "type": "support",
+        "price": 1.658
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 2.152
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 75",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend zeigt seit 36 Wochen abwaerts, der Kurs notiert unter SMA20/50/200, rund 57% unter dem 52W-Hoch und nur knapp 5% ueber dem 52W-Tief. Die leicht konstruktive Tagesdynamik (MACD-Histogramm positiv, RSI 54 neutral) reicht ohne Volumenbestaetigung (volume_ratio fehlt) nicht gegen das bearische Bild und das risk-off Makro-Umfeld (BTC-Wochentrend abwaerts, schwache Indizes). Da Krypto im Track Record mit avg_R -0,45 klar negativ laeuft, FLAT mit niedriger Konviktion.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

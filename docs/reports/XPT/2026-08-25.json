@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T23:07:38.304034+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1872.8,
+    "change_pct": -0.3883,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1872.800048828125,
+    "change_pct": -0.38827332868495257,
+    "sma20": 1749.12,
+    "sma50": 1680.494,
+    "sma200": 1925.5645,
+    "rsi14": 68.08,
+    "macd": {
+      "macd": 51.6829,
+      "signal": 35.512,
+      "hist": 16.1709
+    },
+    "atr14": 27.1429,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1341.4000244140625,
+    "pct_from_high": -34.34,
+    "pct_from_low": 39.62,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1887.3
+      },
+      {
+        "type": "support",
+        "price": 1590.1
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 1872.800048828125
+    },
+    "volume_ratio": 0.15
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts (52 Wochen) und der Kurs (1604,1) liegt unter SMA20 (1611)/SMA50 (1749)/SMA200 (1911) — strukturell bearisch, doch ein sauberer SHORT scheitert am neutralen RSI (45,8) und dem positiven MACD-Histogramm (+9,97), das die Abwaertsdynamik abflachen laesst, direkt ueber der Unterstuetzung 1550,2. Das extreme Volumenverhaeltnis (26,19) ist eher Kapitulations- als Ausbruchssignal und liefert keine belastbare Short-Bestaetigung, waehrend eine LONG-Stuetze angesichts des schwachen Metall-Makros (XAU Tages- und Wochentrend abwaerts) fehlt. Bei negativer Metall-Bilanz (avg_R -0,13) und negativer Konviktion-3-Historie (avg_R -0,17) ist FLAT ohne belastbares Setup diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

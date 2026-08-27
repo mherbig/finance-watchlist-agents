@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T03:40:38.461268+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.89202,
+    "change_pct": -0.18359272,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.89202,
+    "change_pct": -0.18359271959904655,
+    "sma20": 1.9074,
+    "sma50": 1.9137,
+    "sma200": 1.9023,
+    "rsi14": 30.41,
+    "macd": {
+      "macd": -0.004,
+      "signal": -0.0025,
+      "hist": -0.0014
+    },
+    "atr14": 0.0075,
+    "high_52w": 2.02377,
+    "low_52w": 1.85611,
+    "pct_from_high": -6.51,
+    "pct_from_low": 1.93,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9161
+      },
+      {
+        "type": "support",
+        "price": 1.892
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 1.89202
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tages- und Wochentrend seitwaerts, Bias neutral, Kurs 1.90588 klebt auf der Unterstuetzung 1.9059 und notiert unter SMA20 (1.9209), SMA50/200 (1.9131), MACD-Histogramm negativ (-0.003). Der RSI von 28.7 ist zwar ueberverkauft, doch ohne Stabilisierung oder Volumenbestaetigung (volume_ratio nicht verfuegbar) ist ein Long nicht stimmig, waehrend das bearische Momentum allein keinen Short traegt. Risk-off-Makro ohne symbolspezifischen Treiber und negative Forex-Bilanz im Track Record (avg_R -0.25) gebieten Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

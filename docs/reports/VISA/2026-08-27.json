@@ -1,0 +1,67 @@
+{
+  "symbol": "V",
+  "display": "VISA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T03:40:38.461268+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 383.89999,
+    "change_pct": -0.062482622,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 383.89999,
+    "change_pct": -0.06248242665480625,
+    "sma20": 367.909,
+    "sma50": 356.4538,
+    "sma200": 332.5452,
+    "rsi14": 62.86,
+    "macd": {
+      "macd": 6.2307,
+      "signal": 4.7108,
+      "hist": 1.5199
+    },
+    "atr14": 6.29,
+    "high_52w": 384.14001,
+    "low_52w": 295.51999,
+    "pct_from_high": -0.06,
+    "pct_from_low": 29.91,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 384.14
+      },
+      {
+        "type": "support",
+        "price": 358.84
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 383.89999
+    },
+    "volume_ratio": 0.84
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 63",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bullische Struktur: Kurs ueber SMA20/50/200, Wochentrend seit 52 Wochen auf und nur -2.6% unter dem 52W-Hoch. Fuer einen frischen Long fehlt aber die Momentum-Bestaetigung - RSI neutral (48.6), MACD-Histogramm negativ (-1.04) und Volumen mit 0.52 klar unterdurchschnittlich -, waehrend das Makro-Bild risk-off ist (NQ100 down/down, S&P schwach, Gold/EURUSD down). Ein Short gegen den intakten Wochenaufwaertstrend ist nicht gerechtfertigt: FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

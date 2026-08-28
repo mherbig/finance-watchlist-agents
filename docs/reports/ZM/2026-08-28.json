@@ -1,0 +1,67 @@
+{
+  "symbol": "ZM",
+  "display": "ZM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T06:28:12.318671+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 100.27,
+    "change_pct": 6.86347,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 100.27,
+    "change_pct": 6.863476500053285,
+    "sma20": 103.4195,
+    "sma50": 94.4172,
+    "sma200": 90.0167,
+    "rsi14": 44.67,
+    "macd": {
+      "macd": 1.6947,
+      "signal": 2.9889,
+      "hist": -1.2942
+    },
+    "atr14": 4.1893,
+    "high_52w": 111.88,
+    "low_52w": 72.72,
+    "pct_from_high": -10.38,
+    "pct_from_low": 37.89,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 109.84
+      },
+      {
+        "type": "support",
+        "price": 93.83
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 100.27
+    },
+    "volume_ratio": 1.33
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 45",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt bearisch (Tages- und Wochentrend abwaerts, Bias bearish, Kurs unter SMA20 88,61 und SMA50 93,74), doch der heutige Sprung +4,61% auf ueberdurchschnittlichem Volumen (1,25) mit zurueckerobertem SMA200 87,72, neutralem RSI 57 und flachem MACD-Histogramm spricht gegen einen frischen Short. Das schwache, tech-lastig abwaertsgerichtete Makro-Bild (NQ100 down, S&P woechentlich down) stuetzt keinen Long. Bei widerspruechlicher Lage und negativ laufender Konviktions-3-Statistik bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

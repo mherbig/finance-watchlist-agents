@@ -1,0 +1,67 @@
+{
+  "symbol": "XPT/USD",
+  "display": "XPT",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T04:02:21.696581+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1833.5,
+    "change_pct": -0.6395,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1833.5,
+    "change_pct": -0.6394650471948305,
+    "sma20": 1779.22,
+    "sma50": 1682.924,
+    "sma200": 1929.7425,
+    "rsi14": 61.19,
+    "macd": {
+      "macd": 46.9777,
+      "signal": 41.5279,
+      "hist": 5.4499
+    },
+    "atr14": 33.3714,
+    "high_52w": 2852.39990234375,
+    "low_52w": 1367.300048828125,
+    "pct_from_high": -35.72,
+    "pct_from_low": 34.1,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1887.3
+      },
+      {
+        "type": "support",
+        "price": 1618.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 1833.5
+    },
+    "volume_ratio": 56.77
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen abwaerts (52 Wochen) und der Kurs (1604,1) liegt unter SMA20 (1611)/SMA50 (1749)/SMA200 (1911) — strukturell bearisch, doch ein sauberer SHORT scheitert am neutralen RSI (45,8) und dem positiven MACD-Histogramm (+9,97), das die Abwaertsdynamik abflachen laesst, direkt ueber der Unterstuetzung 1550,2. Das extreme Volumenverhaeltnis (26,19) ist eher Kapitulations- als Ausbruchssignal und liefert keine belastbare Short-Bestaetigung, waehrend eine LONG-Stuetze angesichts des schwachen Metall-Makros (XAU Tages- und Wochentrend abwaerts) fehlt. Bei negativer Metall-Bilanz (avg_R -0,13) und negativer Konviktion-3-Historie (avg_R -0,17) ist FLAT ohne belastbares Setup diszipliniert.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

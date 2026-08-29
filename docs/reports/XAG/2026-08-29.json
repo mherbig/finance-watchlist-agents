@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T04:02:21.696581+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 67.09,
+    "change_pct": -3.3689,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 67.08999633789062,
+    "change_pct": -3.368915709306545,
+    "sma20": 65.2429,
+    "sma50": 61.6292,
+    "sma200": 71.5523,
+    "rsi14": 56.12,
+    "macd": {
+      "macd": 1.9742,
+      "signal": 1.7019,
+      "hist": 0.2723
+    },
+    "atr14": 1.844,
+    "high_52w": 115.08000183105469,
+    "low_52w": 40.87799835205078,
+    "pct_from_high": -41.7,
+    "pct_from_low": 64.12,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 69.466
+      },
+      {
+        "type": "support",
+        "price": 57.667
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 67.08999633789062
+    },
+    "volume_ratio": 1296.07
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bleibt das Bild bearisch: Kurs 58,9 unter SMA50/200, Wochentrend down und schwaches Metall-Makro (XAU Trend und Wochentrend down) bei breitem Risk-off. Dem steht ein frischer Bounce (+1,9% auf hohem Volumen, Ratio 13,69, steigendes MACD-Histogramm) entgegen, doch der Kurs steckt mittig in der Range zwischen Support 55,90 und Widerstand 61,92, RSI neutral bei 42,5 und Trend seitwaerts. Dieser Widerspruch plus negativer Track Record (metal avg_R -0,13, Konviktion-3 avg_R -0,17) rechtfertigt keine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

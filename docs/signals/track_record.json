@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T04:02:22.080973+00:00",
+  "generated_at": "2026-08-30T00:45:02.088834+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -2220,10 +2220,10 @@
       "stop_loss": 292.1248,
       "take_profit": 332.3629,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "tp",
+      "exit_price": 332.3629,
+      "exit_date": "2026-07-16",
+      "realized_R": 1.5
     },
     {
       "date": "2026-07-03",
@@ -5900,10 +5900,10 @@
       "stop_loss": 56.5203,
       "take_profit": 61.9446,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 59.67,
+      "exit_date": "2026-07-11",
+      "realized_R": 0.4517
     },
     {
       "date": "2026-07-03",
@@ -6060,10 +6060,10 @@
       "stop_loss": 58.388,
       "take_profit": 63.968,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 61.22,
+      "exit_date": "2026-07-21",
+      "realized_R": 0.2688
     },
     {
       "date": "2026-07-15",
@@ -6188,10 +6188,10 @@
       "stop_loss": 59.3917,
       "take_profit": 65.0374,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 62.049999,
+      "exit_date": "2026-07-24",
+      "realized_R": 0.1771
     },
     {
       "date": "2026-07-23",
@@ -15468,10 +15468,10 @@
       "stop_loss": 337.48,
       "take_profit": 392.655,
       "horizon_days": 21,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 366.45999,
+      "exit_date": "2026-07-06",
+      "realized_R": 0.3131
     },
     {
       "date": "2026-07-03",
@@ -15644,10 +15644,10 @@
       "stop_loss": 352.3093,
       "take_profit": 398.8361,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "sl",
+      "exit_price": 352.3093,
+      "exit_date": "2026-07-16",
+      "realized_R": -1.0
     },
     {
       "date": "2026-07-16",
@@ -15756,10 +15756,10 @@
       "stop_loss": 361.2683,
       "take_profit": 313.2726,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 319.73999,
+      "exit_date": "2026-07-24",
+      "realized_R": 1.1631
     },
     {
       "date": "2026-07-23",
@@ -29444,14 +29444,14 @@
   ],
   "aggregates": {
     "total": 1840,
-    "open": 1771,
-    "resolved": 69,
-    "tp": 3,
-    "sl": 18,
+    "open": 1764,
+    "resolved": 76,
+    "tp": 4,
+    "sl": 19,
     "expired": 2,
-    "flip": 46,
-    "hit_rate": 0.0435,
-    "avg_R": -0.2192,
+    "flip": 51,
+    "hit_rate": 0.0526,
+    "avg_R": -0.1612,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29464,12 +29464,12 @@
       },
       "3": {
         "total": 341,
-        "tp": 3,
-        "sl": 17,
+        "tp": 4,
+        "sl": 18,
         "expired": 2,
-        "flip": 46,
-        "open": 273,
-        "avg_R": -0.2077
+        "flip": 51,
+        "open": 266,
+        "avg_R": -0.15
       },
       "1": {
         "total": 1,
@@ -29502,12 +29502,12 @@
       },
       "stock": {
         "total": 598,
-        "tp": 1,
-        "sl": 0,
+        "tp": 2,
+        "sl": 1,
         "expired": 1,
-        "flip": 16,
-        "open": 580,
-        "avg_R": -0.0191
+        "flip": 21,
+        "open": 573,
+        "avg_R": 0.1012
       },
       "index": {
         "total": 207,

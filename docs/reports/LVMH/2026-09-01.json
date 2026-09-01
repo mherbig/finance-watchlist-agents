@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T01:36:15.216174+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 453.3,
+    "change_pct": 1.3187,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 458.1499938964844,
+    "change_pct": 2.4027716018447784,
+    "sma20": 463.62,
+    "sma50": 476.064,
+    "sma200": 520.971,
+    "rsi14": 38.37,
+    "macd": {
+      "macd": -7.29,
+      "signal": -7.3693,
+      "hist": 0.0793
+    },
+    "atr14": 10.3179,
+    "high_52w": 652.0999755859375,
+    "low_52w": 443.1000061035156,
+    "pct_from_high": -29.74,
+    "pct_from_low": 3.4,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 486.9
+      },
+      {
+        "type": "support",
+        "price": 443.1
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 458.1499938964844
+    },
+    "volume_ratio": 1.08
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 38",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs unter SMA20/50/200 mit bearischem MACD (Hist -4,14), RSI 37 und seitwaertsem Wochentrend spricht strukturell bearisch, doch der +1,8%-Tag mit ueberdurchschnittlichem Volumen (1,38) direkt am ungebrochenen Support 453,55 knapp ueber dem 52W-Tief laesst Stabilisierung wie Bear-Rally gleichermassen offen. Fuer den Short fehlt der Support-Bruch, fuer den Long die bestaetigte Umkehr, dazu ist das Makro-Bild breit risk-off und Konviktion 3 laeuft im Track Record negativ. Daher FLAT bis Support bricht oder eine Umkehr bestaetigt ist.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

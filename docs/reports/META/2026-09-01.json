@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T01:36:15.216174+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 572.34003,
+    "change_pct": -0.98266366,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 572.34003,
+    "change_pct": -0.9826631956450381,
+    "sma20": 574.8745,
+    "sma50": 592.0466,
+    "sma200": 622.4477,
+    "rsi14": 40.31,
+    "macd": {
+      "macd": -7.5698,
+      "signal": -9.7297,
+      "hist": 2.1599
+    },
+    "atr14": 18.0062,
+    "high_52w": 780.25,
+    "low_52w": 525.71997,
+    "pct_from_high": -26.65,
+    "pct_from_low": 8.87,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 599.12
+      },
+      {
+        "type": "support",
+        "price": 543.67
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 572.34003
+    },
+    "volume_ratio": 0.83
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "META notiert bei 595,19 unter SMA20/50/200, der MACD liegt mit negativem Histogramm (-4,50) unter der Signallinie und der Wochentrend ist down - dazu ein schwaches Tech-Makro (NQ100 Tages- und Wochentrend down), was jedes Long verbietet. Fuer einen Short fehlt jedoch die Bestaetigung: Tagestrend seitwaerts, RSI 48,8 neutral, der Abverkauf laeuft bei klar unterdurchschnittlichem Volumen (0,58) und die Struktur haelt ueber Support 550,25 und dem 52-Wochen-Tief 525,72. Widerspruechliches Bild ohne belastbares Setup - kein neues Engagement.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

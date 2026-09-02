@@ -1,0 +1,67 @@
+{
+  "symbol": "QCOM",
+  "display": "QCOM",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T00:37:47.619001+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 166.61,
+    "change_pct": -2.27006,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 166.61,
+    "change_pct": -2.270061004223355,
+    "sma20": 162.946,
+    "sma50": 171.2948,
+    "sma200": 167.8679,
+    "rsi14": 55.81,
+    "macd": {
+      "macd": -1.3528,
+      "signal": -3.0397,
+      "hist": 1.6869
+    },
+    "atr14": 5.0286,
+    "high_52w": 251.020004,
+    "low_52w": 124.07,
+    "pct_from_high": -33.63,
+    "pct_from_low": 34.29,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 170.48
+      },
+      {
+        "type": "support",
+        "price": 157.53
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 166.61
+    },
+    "volume_ratio": 0.92
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend abwaerts, Kurs 166,97 unter SMA20 (179,87) und SMA50 (203,03), MACD negativ - klar gegen Long. Fuer einen Short fehlt der Edge: RSI 29,99 tief ueberverkauft, Kurs sitzt exakt auf Support 166,97 direkt am SMA200 (169,14), Volumen mit 0,61 unterdurchschnittlich - ein Bruch waere unglaubwuerdig. Widerspruechliches Bild plus schwacher Track Record (Konviktion 3 avg_R -0,17) - kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

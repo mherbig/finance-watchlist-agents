@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/NZD",
+  "display": "EUR/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T00:37:47.619001+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.96742,
+    "change_pct": -0.017786632,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.96742,
+    "change_pct": -0.01778663156771739,
+    "sma20": 1.961,
+    "sma50": 1.9619,
+    "sma200": 1.9809,
+    "rsi14": 50.08,
+    "macd": {
+      "macd": -0.0003,
+      "signal": -0.0017,
+      "hist": 0.0013
+    },
+    "atr14": 0.0088,
+    "high_52w": 2.0424,
+    "low_52w": 1.94714,
+    "pct_from_high": -3.67,
+    "pct_from_low": 1.04,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9708
+      },
+      {
+        "type": "support",
+        "price": 1.9528
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 37,
+      "last_close": 1.96742
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur klar bearisch: Kurs 1.96038 unter SMA20/50/200, Tages- und Wochentrend seit 38 Wochen down, dazu EUR-Schwaeche im Makro (EUR/USD down). Ein Short ist jedoch direkt an der Unterstuetzung 1.9549 und nur 0.68% ueber dem 52W-Tief schlecht platziert, mit RSI14 32.81 (ueberverkauft) und leicht positivem MACD-Histogramm (+0.0007) als Bounce-Risiko. Fuer einen Long gegen den intakten Wochentrend fehlt jede Umkehr- und Volumenbestaetigung (volume_ratio null); bei negativ laufender Forex-Klasse (avg_R -0.25) ist FLAT die konsistente Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

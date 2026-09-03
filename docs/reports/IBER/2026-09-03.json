@@ -1,0 +1,67 @@
+{
+  "symbol": "IBE",
+  "display": "IBER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T00:40:19.215394+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 19.665,
+    "change_pct": -1.1312,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 19.665000915527344,
+    "change_pct": -1.1312140825815815,
+    "sma20": 20.2262,
+    "sma50": 20.7707,
+    "sma200": 19.6666,
+    "rsi14": 30.58,
+    "macd": {
+      "macd": -0.2196,
+      "signal": -0.1989,
+      "hist": -0.0207
+    },
+    "atr14": 0.2404,
+    "high_52w": 21.84000015258789,
+    "low_52w": 15.460000038146973,
+    "pct_from_high": -9.96,
+    "pct_from_low": 27.2,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 20.72
+      },
+      {
+        "type": "support",
+        "price": 19.665
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 19.665000915527344
+    },
+    "volume_ratio": 1.13
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 31",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet konstruktiv: Wochentrend up, Kurs 21.21 ueber SMA50 (20.60) und SMA200 (19.25), nur -2.9% unter dem 52W-Hoch. Kurzfristig fehlt die Bestaetigung: Tagestrend side, MACD-Histogramm negativ (-0.048), Schluss knapp unter SMA20 (21.26) und schwaches Volumen (volume_ratio 0.44) ohne Ausbruch. Long ohne Momentum-/Volumenbestaetigung nicht sauber, Short verbietet sich gegen den intakten Wochenaufwaertstrend; bei weichem, eher risk-off Makro-Bild daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "SOL/USD",
+  "display": "SOL/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T00:40:19.215394+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 99.68,
+    "change_pct": -0.74678881,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 99.68,
+    "change_pct": -0.7467888081250621,
+    "sma20": 94.025,
+    "sma50": 82.6416,
+    "sma200": 82.1649,
+    "rsi14": 64.28,
+    "macd": {
+      "macd": 6.2852,
+      "signal": 6.4992,
+      "hist": -0.214
+    },
+    "atr14": 6.5136,
+    "high_52w": 146.69,
+    "low_52w": 62.2,
+    "pct_from_high": -32.05,
+    "pct_from_low": 60.26,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 109.14
+      },
+      {
+        "type": "support",
+        "price": 74.61
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 99.68
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend 'side' bei neutralem Bias, waehrend der Wochentrend seit 36 Wochen 'down' laeuft, der MACD-Hist mit -0,38 unter der Signallinie liegt und der Kurs (75,45) unter SMA20 (76,72) sowie weit unter SMA200 (88,09) notiert. Der Kurs sitzt knapp ueber der Unterstuetzung 73,96, doch ohne Volumenbestaetigung (volume_ratio null) und mit RSI 46 fehlt ein tragfaehiger Trigger fuer einen Long gegen den Wochentrend. Makro ist risk-off (NQ100 down, BTC/USD Wochentrend down) und die Krypto-Klasse laeuft im Track Record mit avg_R -0,45 klar negativ, daher keine neue Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

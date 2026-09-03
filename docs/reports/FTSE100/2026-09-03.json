@@ -1,0 +1,67 @@
+{
+  "symbol": "UKX",
+  "display": "FTSE100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T00:40:19.215394+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 10756.45,
+    "change_pct": -0.6268,
+    "currency": "GBP"
+  },
+  "technical": {
+    "last_close": 10789.2998046875,
+    "change_pct": -0.3233465501837184,
+    "sma20": 10819.03,
+    "sma50": 10699.612,
+    "sma200": 10336.285,
+    "rsi14": 43.9,
+    "macd": {
+      "macd": 29.1353,
+      "signal": 38.264,
+      "hist": -9.1287
+    },
+    "atr14": 77.7929,
+    "high_52w": 10910.599609375,
+    "low_52w": 9195.7001953125,
+    "pct_from_high": -1.11,
+    "pct_from_low": 17.33,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 10901.0996
+      },
+      {
+        "type": "support",
+        "price": 10720.2998
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 10789.2998046875
+    },
+    "volume_ratio": 1.13
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt bullisch (Kurs ueber SMA20/50/200, Tages- und Wochentrend up, Volumen 1.14), doch das Momentum kuehlt ab: RSI 47, MACD-Histogramm nur noch +6.9 und der letzte Schluss -0.73%, waehrend der Index unmittelbar am Widerstand 10717 nahe dem 52W-Hoch stockt. Das Makro dreht klar risk-off (S&P, NQ100, GER40 alle -1.2 bis -1.9%) und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0.51). Wegen dieses Widerspruchs aus abgekuehltem Momentum, Widerstands-Deckel und schwachem Makro-/Track-Record-Bild kein Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

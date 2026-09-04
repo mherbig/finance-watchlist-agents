@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T00:28:29.020059+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 67.56,
+    "change_pct": 4.3833,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 67.55999755859375,
+    "change_pct": 4.38329188166075,
+    "sma20": 66.3312,
+    "sma50": 61.8526,
+    "sma200": 71.8294,
+    "rsi14": 56.53,
+    "macd": {
+      "macd": 1.2283,
+      "signal": 1.5031,
+      "hist": -0.2749
+    },
+    "atr14": 2.2325,
+    "high_52w": 115.08000183105469,
+    "low_52w": 40.87799835205078,
+    "pct_from_high": -41.29,
+    "pct_from_low": 65.27,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 69.466
+      },
+      {
+        "type": "support",
+        "price": 63.332
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 67.55999755859375
+    },
+    "volume_ratio": 0.45
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 57",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bleibt das Bild bearisch: Kurs 58,9 unter SMA50/200, Wochentrend down und schwaches Metall-Makro (XAU Trend und Wochentrend down) bei breitem Risk-off. Dem steht ein frischer Bounce (+1,9% auf hohem Volumen, Ratio 13,69, steigendes MACD-Histogramm) entgegen, doch der Kurs steckt mittig in der Range zwischen Support 55,90 und Widerstand 61,92, RSI neutral bei 42,5 und Trend seitwaerts. Dieser Widerspruch plus negativer Track Record (metal avg_R -0,13, Konviktion-3 avg_R -0,17) rechtfertigt keine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

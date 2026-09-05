@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/AUD",
+  "display": "GBP/AUD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T00:29:27.121781+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.87642,
+    "change_pct": 0.0047965976,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.87642,
+    "change_pct": 0.004796597613422131,
+    "sma20": 1.8955,
+    "sma50": 1.9059,
+    "sma200": 1.9005,
+    "rsi14": 18.5,
+    "macd": {
+      "macd": -0.0084,
+      "signal": -0.0065,
+      "hist": -0.0019
+    },
+    "atr14": 0.0076,
+    "high_52w": 2.01673,
+    "low_52w": 1.85611,
+    "pct_from_high": -6.96,
+    "pct_from_low": 1.09,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.9161
+      },
+      {
+        "type": "support",
+        "price": 1.8763
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 1.87642
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 18",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Tages- und Wochentrend seitwaerts, Bias neutral, Kurs 1.90588 klebt auf der Unterstuetzung 1.9059 und notiert unter SMA20 (1.9209), SMA50/200 (1.9131), MACD-Histogramm negativ (-0.003). Der RSI von 28.7 ist zwar ueberverkauft, doch ohne Stabilisierung oder Volumenbestaetigung (volume_ratio nicht verfuegbar) ist ein Long nicht stimmig, waehrend das bearische Momentum allein keinen Short traegt. Risk-off-Makro ohne symbolspezifischen Treiber und negative Forex-Bilanz im Track Record (avg_R -0.25) gebieten Zurueckhaltung, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

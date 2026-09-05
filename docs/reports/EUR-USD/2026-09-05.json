@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/USD",
+  "display": "EUR/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T00:29:27.121781+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.1614,
+    "change_pct": -0.0034440006,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.1614,
+    "change_pct": -0.0034440005510435324,
+    "sma20": 1.163,
+    "sma50": 1.1544,
+    "sma200": 1.1586,
+    "rsi14": 35.96,
+    "macd": {
+      "macd": 0.0014,
+      "signal": 0.0022,
+      "hist": -0.0008
+    },
+    "atr14": 0.0044,
+    "high_52w": 1.19773,
+    "low_52w": 1.13586,
+    "pct_from_high": -3.03,
+    "pct_from_low": 2.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.1679
+      },
+      {
+        "type": "support",
+        "price": 1.1577
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 36,
+      "last_close": 1.1614
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (38 Wochen) zeigen abwaerts, der Kurs 1,13761 liegt unter SMA20/50/200 - ein Long scheidet aus. Fuer einen frischen Short ist die Lage aber ungeeignet: Der Kurs klebt direkt am Support 1,1372 und nur 0,15 Prozent ueber dem 52-Wochen-Tief 1,13586, RSI 49 ist neutral ohne Abwaertsmomentum und die Volumenbestaetigung fehlt (volume_ratio null). Da Forex im Track Record mit avg_R -0,25 und Konviktion 3 mit -0,17 klar negativ laufen, ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

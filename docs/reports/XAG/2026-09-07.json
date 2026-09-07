@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T00:22:02.460534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 66.748,
+    "change_pct": 1.0614,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 66.74800109863281,
+    "change_pct": 1.0613715375644341,
+    "sma20": 66.5197,
+    "sma50": 62.1455,
+    "sma200": 71.985,
+    "rsi14": 58.06,
+    "macd": {
+      "macd": 1.0292,
+      "signal": 1.3333,
+      "hist": -0.3041
+    },
+    "atr14": 2.1134,
+    "high_52w": 115.08000183105469,
+    "low_52w": 41.132999420166016,
+    "pct_from_high": -42.0,
+    "pct_from_low": 62.27,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 69.466
+      },
+      {
+        "type": "support",
+        "price": 63.941
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 66.74800109863281
+    },
+    "volume_ratio": 0.42
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bleibt das Bild bearisch: Kurs 58,9 unter SMA50/200, Wochentrend down und schwaches Metall-Makro (XAU Trend und Wochentrend down) bei breitem Risk-off. Dem steht ein frischer Bounce (+1,9% auf hohem Volumen, Ratio 13,69, steigendes MACD-Histogramm) entgegen, doch der Kurs steckt mittig in der Range zwischen Support 55,90 und Widerstand 61,92, RSI neutral bei 42,5 und Trend seitwaerts. Dieser Widerspruch plus negativer Track Record (metal avg_R -0,13, Konviktion-3 avg_R -0,17) rechtfertigt keine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

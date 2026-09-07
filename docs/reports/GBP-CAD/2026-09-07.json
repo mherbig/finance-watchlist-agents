@@ -1,0 +1,67 @@
+{
+  "symbol": "GBP/CAD",
+  "display": "GBP/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T00:22:02.460534+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.87045,
+    "change_pct": 0.032623112,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.87045,
+    "change_pct": 0.03262311213793691,
+    "sma20": 1.8779,
+    "sma50": 1.8805,
+    "sma200": 1.8618,
+    "rsi14": 27.17,
+    "macd": {
+      "macd": -0.0034,
+      "signal": -0.0023,
+      "hist": -0.0011
+    },
+    "atr14": 0.0065,
+    "high_52w": 1.90211,
+    "low_52w": 1.81558,
+    "pct_from_high": -1.66,
+    "pct_from_low": 3.02,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.8897
+      },
+      {
+        "type": "support",
+        "price": 1.8654
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 1.87045
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 27",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Tagesbild ist schwach (Kurs 1,87817 unter SMA20 1,888 und SMA50 1,8825, RSI 41, MACD-Histogramm negativ mit -0,0021, Trend seitwaerts), waehrend der Wochentrend seit 38 Wochen aufwaerts zeigt und der Kurs ueber der SMA200 (1,8578) knapp ueber der Unterstuetzung 1,8754 steht. Ein Short gegen den intakten Wochentrend ist ebenso wenig begruendet wie ein Long gegen das fallende Tagesmomentum, zumal die Volumenbestaetigung fehlt (volume_ratio null). Die negative Forex-Bilanz (avg_R -0,25) und ein risikoaverses Makro-Umfeld mahnen zusaetzlich zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

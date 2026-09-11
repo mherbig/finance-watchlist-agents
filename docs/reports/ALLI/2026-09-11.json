@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T00:33:56.907297+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 439.5,
+    "change_pct": -1.3247,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 437.1000061035156,
+    "change_pct": -1.8634907738453528,
+    "sma20": 445.03,
+    "sma50": 433.792,
+    "sma200": 391.563,
+    "rsi14": 49.17,
+    "macd": {
+      "macd": 4.1125,
+      "signal": 5.6457,
+      "hist": -1.5332
+    },
+    "atr14": 6.05,
+    "high_52w": 453.29998779296875,
+    "low_52w": 344.20001220703125,
+    "pct_from_high": -3.57,
+    "pct_from_low": 26.99,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 453.3
+      },
+      {
+        "type": "support",
+        "price": 437.1
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 437.1000061035156
+    },
+    "volume_ratio": 1.49
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bleibt bullisch (Tages- und Wochentrend up, SMAs sauber gestapelt 420 > 401 > 378, RSI 61), aber der Kurs steht exakt am 52-Wochen-Hoch/Widerstand 427.1 und der Ausbruch ist unbestaetigt: Volumen nur 0.79 (unterdurchschnittlich) und MACD-Histogramm negativ (-0.58, MACD unter Signal). Zudem kuehlt das Makro breit ab (NQ100 down/down, GER40 side mit RSI 28, S&P side/down), sodass ein neues Market-Long am Widerstand nicht gerechtfertigt ist; FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

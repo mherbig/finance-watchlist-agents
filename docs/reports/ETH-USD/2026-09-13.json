@@ -1,0 +1,67 @@
+{
+  "symbol": "ETH/USD",
+  "display": "ETH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T00:20:49.721705+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 2525.84,
+    "change_pct": -0.0035630441,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 2525.84,
+    "change_pct": -0.0035630441065148595,
+    "sma20": 2473.1925,
+    "sma50": 2187.9664,
+    "sma200": 2059.1123,
+    "rsi14": 60.55,
+    "macd": {
+      "macd": 85.7628,
+      "signal": 100.2927,
+      "hist": -14.5299
+    },
+    "atr14": 87.1814,
+    "high_52w": 3354.78003,
+    "low_52w": 1567.5,
+    "pct_from_high": -24.71,
+    "pct_from_low": 61.14,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 2525.93
+      },
+      {
+        "type": "support",
+        "price": 2391.92
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 36,
+      "last_close": 2525.84
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend up mit Kurs (1915) ueber SMA20/50, RSI 62 und leicht positivem MACD-Hist (+1,35), Momentum hat sich zum Vortag verbessert. Doch der Kurs notiert ~43% unter dem 52W-Hoch und klar unter der SMA200 (2141), der Wochentrend laeuft seitwaerts und der Kurs steht ohne Volumenbestaetigung (volume_ratio null) direkt am Widerstand 1934. Bei weichem Makrobild (Risk-Assets schwach, BTC/USD mit negativem Wochentrend) und klar negativer Krypto-Klasse im Track Record (avg_R -0,45) fehlt die Kante gegen den seitwaerts laufenden Wochentrend, daher kein Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

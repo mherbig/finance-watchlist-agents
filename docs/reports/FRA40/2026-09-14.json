@@ -1,0 +1,67 @@
+{
+  "symbol": "CAC40",
+  "display": "FRA40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T00:34:05.968616+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8179.77,
+    "change_pct": 0.7763,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 8179.77001953125,
+    "change_pct": 0.7762981254305749,
+    "sma20": 8358.176,
+    "sma50": 8433.5408,
+    "sma200": 8240.3777,
+    "rsi14": 30.43,
+    "macd": {
+      "macd": -84.23,
+      "signal": -59.2515,
+      "hist": -24.9786
+    },
+    "atr14": 85.5322,
+    "high_52w": 8726.0302734375,
+    "low_52w": 7665.6201171875,
+    "pct_from_high": -6.26,
+    "pct_from_low": 6.71,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8579.5996
+      },
+      {
+        "type": "support",
+        "price": 8116.7598
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 8179.77001953125
+    },
+    "volume_ratio": 0.89
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind beide 'side' und der Kurs (8372) steckt neutral zwischen Support 8253 und Resistance 8508 knapp unter der SMA20 (8379) ohne belastbare Kante. Das Momentum ist schwach-bearisch (RSI 34, MACD 10.2 unter Signal 20.7, Histogramm -10.5) bei risk-off-Makro, doch das nahezu ueberverkaufte RSI macht einen Short unattraktiv. Da die Index-Klasse im Track Record mit avg_R -0.51 klar negativ laeuft, kein neuer Einstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

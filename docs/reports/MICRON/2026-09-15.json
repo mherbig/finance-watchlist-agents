@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T01:00:36.744873+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 924.030029,
+    "change_pct": -5.25296,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 924.030029,
+    "change_pct": -5.252956183448961,
+    "sma20": 960.4255,
+    "sma50": 927.5794,
+    "sma200": 625.5678,
+    "rsi14": 52.16,
+    "macd": {
+      "macd": 13.1704,
+      "signal": 14.2771,
+      "hist": -1.1067
+    },
+    "atr14": 43.6843,
+    "high_52w": 1213.56006,
+    "low_52w": 156.83,
+    "pct_from_high": -23.86,
+    "pct_from_low": 489.19,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1027.77
+      },
+      {
+        "type": "support",
+        "price": 910.43
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 924.030029
+    },
+    "volume_ratio": 1.03
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

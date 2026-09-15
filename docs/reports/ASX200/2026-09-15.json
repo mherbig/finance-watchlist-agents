@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T01:00:36.744873+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8711.0,
+    "change_pct": -0.3455,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8711.0,
+    "change_pct": -0.3454925483653259,
+    "sma20": 9002.715,
+    "sma50": 8982.974,
+    "sma200": 8818.8825,
+    "rsi14": 15.38,
+    "macd": {
+      "macd": -64.2702,
+      "signal": -20.3916,
+      "hist": -43.8785
+    },
+    "atr14": 83.7217,
+    "high_52w": 9271.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -6.05,
+    "pct_from_low": 4.13,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 9164.5996
+      },
+      {
+        "type": "support",
+        "price": 8711.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 8711.0
+    },
+    "volume_ratio": 0.85
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 15",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts, doch der Kurs (8772, -0,57%) notiert unter SMA20 (8799) und SMA200 (8778) und klemmt mittig zwischen Widerstand 8844 und Support 8723; RSI 49 neutral, MACD-Histogramm leicht negativ und Volumenverhaeltnis 1,0 tragen keinen Ausbruch. Das Makro-Bild ist klar risk-off (NQ100 down/down, S&P und GER40 schwach, XAU und EUR down), und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0,51). Kein sauberes Long-Setup und gegen die Aufwaertstrends kein Short, daher FLAT bis zum Bruch von 8844 oder 8723.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

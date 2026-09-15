@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T01:00:36.744873+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 210.96001,
+    "change_pct": -3.35791,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 210.96001,
+    "change_pct": -3.3579093571812333,
+    "sma20": 219.4525,
+    "sma50": 212.9066,
+    "sma200": 197.6148,
+    "rsi14": 51.64,
+    "macd": {
+      "macd": 1.5545,
+      "signal": 2.7937,
+      "hist": -1.2392
+    },
+    "atr14": 7.7657,
+    "high_52w": 235.74001,
+    "low_52w": 165.17,
+    "pct_from_high": -10.51,
+    "pct_from_low": 27.72,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 230.36
+      },
+      {
+        "type": "support",
+        "price": 208.48
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 210.96001
+    },
+    "volume_ratio": 1.03
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA steht bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, unter der SMA50 (209,18) und dem Widerstand 212,50 gefangen; der leicht positive MACD (Hist +0,77) liefert keinen bestaetigten Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts und S&P500 woechentlich schwach, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 einen SHORT nicht rechtfertigen. Bei diesem widerspruechlichen Bild und schwacher Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

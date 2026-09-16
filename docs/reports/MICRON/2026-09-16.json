@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T00:50:49.605105+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 927.59998,
+    "change_pct": 0.38634527,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 927.59998,
+    "change_pct": 0.3863457775136815,
+    "sma20": 956.218,
+    "sma50": 926.4364,
+    "sma200": 629.0831,
+    "rsi14": 49.09,
+    "macd": {
+      "macd": 9.1797,
+      "signal": 13.2576,
+      "hist": -4.0779
+    },
+    "atr14": 42.8643,
+    "high_52w": 1213.56006,
+    "low_52w": 156.83,
+    "pct_from_high": -23.56,
+    "pct_from_low": 491.47,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1027.77
+      },
+      {
+        "type": "support",
+        "price": 910.43
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 927.59998
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "CHF/JPY",
+  "display": "CHF/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T00:58:11.392257+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 189.09074,
+    "change_pct": -0.092795144,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 189.09074,
+    "change_pct": -0.09279514369086488,
+    "sma20": 191.9415,
+    "sma50": 194.7324,
+    "sma200": 199.7712,
+    "rsi14": 25.24,
+    "macd": {
+      "macd": -2.1399,
+      "signal": -2.036,
+      "hist": -0.104
+    },
+    "atr14": 1.3502,
+    "high_52w": 204.14273,
+    "low_52w": 188.03458,
+    "pct_from_high": -7.37,
+    "pct_from_low": 0.56,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 197.9966
+      },
+      {
+        "type": "support",
+        "price": 188.0346
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 189.09074
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs 200.49 klebt eingekeilt zwischen den eng verdichteten SMA20/50/200 (200.58/200.57/201.04) mittig zwischen Support 199.39 und Widerstand 201.40; Trend side, Bias neutral. RSI 61 leicht bullisch, doch der unter sein Signal gekippte MACD (Hist -0.0227) und der seit 38 Wochen intakte Wochentrend down widersprechen einem Long, waehrend ohne Supportbruch und ohne Volumenbestaetigung (volume_ratio null) kein Short traegt. Bei klar negativer Forex-Bilanz (avg_R -0.25) rechtfertigt diese Kompression keine neue Position.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

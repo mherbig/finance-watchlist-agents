@@ -1,0 +1,67 @@
+{
+  "symbol": "BNB/USD",
+  "display": "BNB/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T00:58:11.392257+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 725.39,
+    "change_pct": -0.0730108,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 725.39,
+    "change_pct": -0.07301080008816023,
+    "sma20": 719.231,
+    "sma50": 664.6694,
+    "sma200": 627.4905,
+    "rsi14": 50.05,
+    "macd": {
+      "macd": 15.4656,
+      "signal": 20.2497,
+      "hist": -4.7841
+    },
+    "atr14": 25.2043,
+    "high_52w": 948.47,
+    "low_52w": 546.52,
+    "pct_from_high": -23.52,
+    "pct_from_low": 32.73,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 766.53
+      },
+      {
+        "type": "support",
+        "price": 683.0
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 725.39
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Wochentrend seit 36 Wochen klar abwaerts, Kurs 572,92 unter SMA50/200 und rund 40% unter dem 52W-Hoch - fuer LONG fehlt jede Bestaetigung. Ein SHORT verbietet sich jedoch: der Kurs sitzt direkt auf Support 564,9, nur 4,8% ueber dem 52W-Tief, RSI 49 ist neutral und das MACD-Histogramm dreht positiv (+0,60), ohne Volumenbestaetigung (volume_ratio null). Bei negativem Track Record der Klasse Crypto (avg_R -0,45) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

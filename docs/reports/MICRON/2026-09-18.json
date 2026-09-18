@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T00:47:27.423396+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 977.5,
+    "change_pct": 5.4989,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 977.5,
+    "change_pct": 5.498894884236092,
+    "sma20": 957.527,
+    "sma50": 926.7738,
+    "sma200": 636.2697,
+    "rsi14": 56.19,
+    "macd": {
+      "macd": 7.2651,
+      "signal": 10.8763,
+      "hist": -3.6111
+    },
+    "atr14": 42.885,
+    "high_52w": 1213.56006,
+    "low_52w": 156.83,
+    "pct_from_high": -19.45,
+    "pct_from_low": 523.29,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1027.77
+      },
+      {
+        "type": "support",
+        "price": 910.43
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 977.5
+    },
+    "volume_ratio": 0.89
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

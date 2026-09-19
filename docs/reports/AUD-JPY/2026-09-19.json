@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/JPY",
+  "display": "AUD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T00:42:30.568273+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 111.80538,
+    "change_pct": 0.0064133406,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 111.80538,
+    "change_pct": 0.006413340607154729,
+    "sma20": 111.6335,
+    "sma50": 112.3248,
+    "sma200": 112.6395,
+    "rsi14": 41.72,
+    "macd": {
+      "macd": -0.5345,
+      "signal": -0.632,
+      "hist": 0.0975
+    },
+    "atr14": 0.7517,
+    "high_52w": 114.83705,
+    "low_52w": 105.24207,
+    "pct_from_high": -2.64,
+    "pct_from_low": 6.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 114.4891
+      },
+      {
+        "type": "support",
+        "price": 110.0117
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 111.80538
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 42",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind zwar 'up' (38 Wochen), doch RSI14 von 84.66 ist extrem ueberkauft, der Kurs 114.47 klebt exakt am Widerstand 114.47 und liegt nur -0.32% unter dem 52W-Hoch - ein Long an dieser ausgereizten Kante ohne Volumenbestaetigung (volume_ratio fehlt) hat ein schlechtes Chance-Risiko-Profil. Das Makro-Bild ist risk-off (NQ100/S&P/XAU/EUR/USD schwach), was den JPY als Safe Haven stuetzt und das risk-on-Paar AUD/JPY bremst; ein Short gegen den intakten Aufwaertstrend ist nicht begruendbar. Bei klar negativer Forex-Bilanz (avg_R -0.25) und Ueberzeugung < 3 daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

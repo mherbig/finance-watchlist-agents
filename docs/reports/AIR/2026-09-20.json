@@ -1,0 +1,67 @@
+{
+  "symbol": "AIR",
+  "display": "AIR",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T00:27:46.424598+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 193.38,
+    "change_pct": -1.4775,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 193.3800048828125,
+    "change_pct": -1.4774780489708559,
+    "sma20": 198.9935,
+    "sma50": 203.3,
+    "sma200": 189.741,
+    "rsi14": 33.62,
+    "macd": {
+      "macd": -2.6835,
+      "signal": -2.2125,
+      "hist": -0.471
+    },
+    "atr14": 4.3136,
+    "high_52w": 220.1999969482422,
+    "low_52w": 159.17999267578125,
+    "pct_from_high": -12.18,
+    "pct_from_low": 21.49,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 205.85
+      },
+      {
+        "type": "support",
+        "price": 193.38
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 193.3800048828125
+    },
+    "volume_ratio": 3.18
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 34",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "AIR ist strukturell bullisch (Kurs 206,05 ueber SMA20/50/200, Tages- und Wochentrend aufwaerts), doch das Momentum bleibt lau: RSI 46 neutral, MACD-Hist nur knapp positiv (+0,16) und der Anstieg erfolgt bei unterdurchschnittlichem Volumen (0,85) direkt unter dem Widerstand 209,40. Das Makro stuetzt nicht (NQ100 abwaerts, S&P500/GER40 seitwaerts mit Wochentrend abwaerts). Ohne volumengestuetzten Ausbruchstrigger fehlt die Ueberzeugung fuer eine Neupositionierung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

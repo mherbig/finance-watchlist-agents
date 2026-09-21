@@ -1,0 +1,67 @@
+{
+  "symbol": "RACE",
+  "display": "FERRARI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T00:36:20.008084+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 406.69,
+    "change_pct": -1.7657,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 406.69,
+    "change_pct": -1.765700483091788,
+    "sma20": 414.194,
+    "sma50": 401.6562,
+    "sma200": 365.9092,
+    "rsi14": 40.17,
+    "macd": {
+      "macd": 1.1514,
+      "signal": 2.6872,
+      "hist": -1.5358
+    },
+    "atr14": 7.7329,
+    "high_52w": 504.089996,
+    "low_52w": 314.63,
+    "pct_from_high": -19.32,
+    "pct_from_low": 29.26,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 436.54
+      },
+      {
+        "type": "support",
+        "price": 402.33
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 406.69
+    },
+    "volume_ratio": 1.61
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 40",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Tagesbild: RSI 26.4 ist stark ueberverkauft direkt am Support 359.44 (Bounce-Argument), doch das MACD-Histogramm bleibt klar negativ (-2.85, MACD unter Signal), der Kurs notiert unter SMA20 und SMA200, und Tages- wie Wochentrend sind nur seitwaerts. Das Volumen ist mit Ratio 0.61 unterdurchschnittlich und das Risk-off-Makro (NQ100 down, S&P500 Wochentrend down) liefert keinen Rueckenwind fuer einen Luxus-Autowert 29% unter dem 52-Wochen-Hoch. Kein stimmiges LONG- oder SHORT-Setup, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

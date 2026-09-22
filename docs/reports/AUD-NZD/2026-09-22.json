@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/NZD",
+  "display": "AUD/NZD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T01:13:29.159999+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.24719,
+    "change_pct": 0.12202269,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.24719,
+    "change_pct": 0.12202268658633231,
+    "sma20": 1.2357,
+    "sma50": 1.2165,
+    "sma200": 1.2121,
+    "rsi14": 75.71,
+    "macd": {
+      "macd": 0.0087,
+      "signal": 0.0084,
+      "hist": 0.0004
+    },
+    "atr14": 0.0066,
+    "high_52w": 1.24719,
+    "low_52w": 1.15483,
+    "pct_from_high": 0.0,
+    "pct_from_low": 8.0,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.2472
+      },
+      {
+        "type": "support",
+        "price": 1.2243
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 1.24719
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 76",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagesbild seitwaerts und neutral (RSI 55, bias neutral, Kurs zwischen SMA20 1.2029 und SMA50 1.2111), waehrend der Wochentrend seit 38 Wochen intakt abwaerts zeigt - ein Long liefe gegen das uebergeordnete Bild. Fuer einen frischen Short fehlt das Timing: MACD-Histogramm dreht leicht positiv (+0.0012) und der Support 1.195 ist nur ~0.9% entfernt. Ohne Volumenbestaetigung (volume_ratio null) und bei negativ kalibrierter Forex-Bilanz (avg_R -0.25) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T01:13:29.159999+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 405.5,
+    "change_pct": -1.6493,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 402.79998779296875,
+    "change_pct": -2.3041475336570483,
+    "sma20": 430.38,
+    "sma50": 455.744,
+    "sma200": 505.6815,
+    "rsi14": 21.4,
+    "macd": {
+      "macd": -14.6932,
+      "signal": -13.4597,
+      "hist": -1.2335
+    },
+    "atr14": 10.3857,
+    "high_52w": 652.0999755859375,
+    "low_52w": 402.79998779296875,
+    "pct_from_high": -38.23,
+    "pct_from_low": 0.0,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 459.35
+      },
+      {
+        "type": "support",
+        "price": 402.8
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 402.79998779296875
+    },
+    "volume_ratio": 2.34
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 21",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs unter SMA20/50/200 mit bearischem MACD (Hist -4,14), RSI 37 und seitwaertsem Wochentrend spricht strukturell bearisch, doch der +1,8%-Tag mit ueberdurchschnittlichem Volumen (1,38) direkt am ungebrochenen Support 453,55 knapp ueber dem 52W-Tief laesst Stabilisierung wie Bear-Rally gleichermassen offen. Fuer den Short fehlt der Support-Bruch, fuer den Long die bestaetigte Umkehr, dazu ist das Makro-Bild breit risk-off und Konviktion 3 laeuft im Track Record negativ. Daher FLAT bis Support bricht oder eine Umkehr bestaetigt ist.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

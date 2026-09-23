@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T01:02:16.408371+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8786.0,
+    "change_pct": 0.6196,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8786.0,
+    "change_pct": 0.6195628323140747,
+    "sma20": 8895.4751,
+    "sma50": 8975.272,
+    "sma200": 8822.7935,
+    "rsi14": 31.94,
+    "macd": {
+      "macd": -84.2282,
+      "signal": -68.7078,
+      "hist": -15.5204
+    },
+    "atr14": 74.8288,
+    "high_52w": 9271.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -5.24,
+    "pct_from_low": 5.02,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 9127.7998
+      },
+      {
+        "type": "support",
+        "price": 8672.5
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 8786.0
+    },
+    "volume_ratio": 0.62
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts, doch der Kurs (8772, -0,57%) notiert unter SMA20 (8799) und SMA200 (8778) und klemmt mittig zwischen Widerstand 8844 und Support 8723; RSI 49 neutral, MACD-Histogramm leicht negativ und Volumenverhaeltnis 1,0 tragen keinen Ausbruch. Das Makro-Bild ist klar risk-off (NQ100 down/down, S&P und GER40 schwach, XAU und EUR down), und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0,51). Kein sauberes Long-Setup und gegen die Aufwaertstrends kein Short, daher FLAT bis zum Bruch von 8844 oder 8723.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

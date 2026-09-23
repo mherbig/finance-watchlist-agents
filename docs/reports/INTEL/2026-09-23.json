@@ -1,0 +1,67 @@
+{
+  "symbol": "INTC",
+  "display": "INTEL",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T01:02:16.408371+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 123.86,
+    "change_pct": 1.708,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 123.86,
+    "change_pct": 1.707998029233042,
+    "sma20": 99.2835,
+    "sma50": 97.7472,
+    "sma200": 77.948,
+    "rsi14": 79.7,
+    "macd": {
+      "macd": 4.9813,
+      "signal": 1.8995,
+      "hist": 3.0817
+    },
+    "atr14": 6.5582,
+    "high_52w": 140.94,
+    "low_52w": 31.22,
+    "pct_from_high": -12.12,
+    "pct_from_low": 296.73,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 123.86
+      },
+      {
+        "type": "support",
+        "price": 87.48
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 123.86
+    },
+    "volume_ratio": 1.05
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 80",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur ist klar bearisch: Wochentrend seit 52 Wochen abwaerts, Kurs weit unter SMA20/50 (110,8/115,3), MACD negativ mit expandierendem Histogramm (-1,76) und heute -7,9% auf 1,68-fachem Volumen. Gegen einen frischen Short spricht jedoch das stark ueberverkaufte RSI14 (26,87) und der Schlusskurs exakt am Support (92,32), was ein schlechtes Chance-Risiko fuer einen Nachverkauf ergibt; fuer einen Long fehlt jedes bullische Signal. Bei diesem Widerspruch und schwachem Aktien-Makro (NQ100 down, S&P weekly down) bleibt das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

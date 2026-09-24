@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T00:54:06.961978+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 66012.85,
+    "change_pct": 1.5286,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 66012.8515625,
+    "change_pct": 1.5286348913546899,
+    "sma20": 65145.3422,
+    "sma50": 65622.168,
+    "sma200": 59802.8904,
+    "rsi14": 48.98,
+    "macd": {
+      "macd": -375.9132,
+      "signal": -443.6481,
+      "hist": 67.7349
+    },
+    "atr14": 1229.4841,
+    "high_52w": 72366.34375,
+    "low_52w": 44550.8515625,
+    "pct_from_high": -8.78,
+    "pct_from_low": 48.17,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 66405.5625
+      },
+      {
+        "type": "support",
+        "price": 63484.1016
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 66012.8515625
+    },
+    "volume_ratio": 1.34
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 49",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (66.423 Close) liegt unter SMA20 (68.240) und SMA50 (66.870), das MACD-Histogramm ist mit -459 klar negativ und RSI14 von 43 zeigt kein Momentum, sodass ein LONG gegen den Abwaertsdruck laeuft. Ein SHORT ist jedoch spaet: Tages- und Wochentrend sind beide 'side', das Volumen (0,85) liegt unter dem Schnitt und der Kurs sitzt direkt auf der Unterstuetzung 64.141 bei ohnehin risikoscheuem Makro (NQ100 down, S&P/XAU/EUR-USD schwach). Da die Index-Klasse im Track-Record mit avg_R -0,51 die schwaechste ist, bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

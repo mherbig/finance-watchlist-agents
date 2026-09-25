@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T00:54:32.581398+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 84598.86,
+    "change_pct": 0.2234563,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 84598.86,
+    "change_pct": 0.2234563010364564,
+    "sma20": 80006.753,
+    "sma50": 75358.8714,
+    "sma200": 70967.8488,
+    "rsi14": 70.57,
+    "macd": {
+      "macd": 2518.4565,
+      "signal": 2093.594,
+      "hist": 424.8625
+    },
+    "atr14": 2317.835,
+    "high_52w": 92631.0,
+    "low_52w": 58624.71,
+    "pct_from_high": -8.67,
+    "pct_from_low": 44.31,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 86620.0
+      },
+      {
+        "type": "support",
+        "price": 75644.48
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 36,
+      "last_close": 84598.86
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 71",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar aufwaerts (Preis ueber SMA20/50, MACD-Histogramm leicht positiv, RSI 54 neutral), doch dem steht ein seit 36 Wochen abwaertsgerichteter Wochentrend gegenueber, wobei der Kurs rund 33% unter dem 52W-Hoch und klar unter der SMA200 (72170) notiert. Der Anstieg erfolgt ohne Volumenbestaetigung (volume_ratio null) und in einem risk-off Makro-Umfeld (NQ100 abwaerts, Gold und EUR/USD schwach). Da die Krypto-Klasse im Track Record deutlich negativ laeuft (avg_R -0,45), ueberwiegt der Widerspruch und die Position bleibt flach.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

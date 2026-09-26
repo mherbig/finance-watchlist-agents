@@ -1,0 +1,67 @@
+{
+  "symbol": "CAD/JPY",
+  "display": "CAD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T00:59:04.254992+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 111.22757,
+    "change_pct": -0.0044501374,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 111.22385,
+    "change_pct": -0.0077944831241754395,
+    "sma20": 111.5924,
+    "sma50": 113.3615,
+    "sma200": 114.6472,
+    "rsi14": 56.42,
+    "macd": {
+      "macd": -0.4364,
+      "signal": -0.5194,
+      "hist": 0.083
+    },
+    "atr14": 0.7226,
+    "high_52w": 117.24469,
+    "low_52w": 110.67426,
+    "pct_from_high": -5.14,
+    "pct_from_low": 0.5,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 112.3628
+      },
+      {
+        "type": "support",
+        "price": 110.6743
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 111.22385
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 56",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Trend ist intakt (Kurs ueber SMA20/50/200, Tages- und Wochentrend 'up' seit 38 Wochen, MACD-Histogramm leicht positiv +0,059), doch RSI14 76,93 ist extrem ueberkauft und der Kurs klebt bei 116,18 direkt unter Widerstand 116,35 und nur 0,91% unter dem 52-Wochen-Hoch, ohne bestaetigten Ausbruch und ohne Volumen-Signal (volume_ratio null). Ein risk-off Makro (NQ100/S&P/Gold down) mit JPY-Safe-Haven-Risiko und die negativ laufende Assetklasse Forex (avg_R -0,25) sprechen gegen einen Long-Nachkauf auf diesem Niveau; kein sauberes Setup zum Schlusskurs, daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

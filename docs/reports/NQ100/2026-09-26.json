@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T00:59:04.254992+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 30608.135,
+    "change_pct": 0.4241,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 30608.134765625,
+    "change_pct": 0.4241477314962676,
+    "sma20": 29620.5933,
+    "sma50": 29287.3432,
+    "sma200": 27353.8206,
+    "rsi14": 65.97,
+    "macd": {
+      "macd": 310.7245,
+      "signal": 164.9032,
+      "hist": 145.8212
+    },
+    "atr14": 389.2031,
+    "high_52w": 30732.400390625,
+    "low_52w": 22953.380859375,
+    "pct_from_high": -0.4,
+    "pct_from_low": 33.35,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30732.4004
+      },
+      {
+        "type": "support",
+        "price": 28937.8398
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 30608.134765625
+    },
+    "volume_ratio": 0.13
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 66",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist klar bearisch: Tages- und Wochentrend abwaerts (53 Wochen), Kurs unter SMA20/50, MACD-Histogramm weitet sich negativ aus (-110). Gegen einen frischen Short spricht der scharfe -3%-Tag bei nur unterdurchschnittlichem Volumen (ratio 0,86) und noch nicht ueberverkauftem RSI (41), was Rueckprallerisiko birgt, zumal S&P nur seitwaerts und GER40 mit RSI 28 stark ueberverkauft ist. Da die Asset-Klasse Index im Track Record klar negativ laeuft (avg_R -0,51), bleibe ich bei diesem Widerspruch diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

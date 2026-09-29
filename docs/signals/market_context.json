@@ -3,43 +3,43 @@
     "GER40": {
       "trend": "down",
       "weekly_trend": "side",
-      "change_pct": 0.56,
-      "rsi14": 37.93
+      "change_pct": -0.13,
+      "rsi14": 37.39
     },
     "NQ100": {
       "trend": "up",
       "weekly_trend": "up",
-      "change_pct": 0.42,
-      "rsi14": 65.97
+      "change_pct": -1.08,
+      "rsi14": 60.61
     },
     "S&P500": {
       "trend": "up",
-      "weekly_trend": "up",
-      "change_pct": 0.51,
-      "rsi14": 52.03
+      "weekly_trend": "side",
+      "change_pct": -0.77,
+      "rsi14": 50.81
     },
     "EUR/USD": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 0.02,
-      "rsi14": 14.93
+      "change_pct": -0.03,
+      "rsi14": 13.65
     },
     "BTC/USD": {
       "trend": "up",
       "weekly_trend": "up",
-      "change_pct": -0.4,
-      "rsi14": 67.58
+      "change_pct": -0.57,
+      "rsi14": 73.83
     },
     "XAU": {
       "trend": "down",
       "weekly_trend": "side",
-      "change_pct": -1.48,
-      "rsi14": 39.45
+      "change_pct": 0.43,
+      "rsi14": 33.18
     }
   },
   "vol_regime": {
     "symbols": 80,
-    "median_atr_pct": 1.598
+    "median_atr_pct": 1.618
   },
-  "generated_at": "2026-09-28T01:13:41.517220+00:00"
+  "generated_at": "2026-09-29T02:22:10.953810+00:00"
 }

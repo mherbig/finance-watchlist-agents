@@ -1,0 +1,67 @@
+{
+  "symbol": "AMD",
+  "display": "AMD",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T01:37:51.750291+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 607.57001,
+    "change_pct": -0.04935065,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 607.57001,
+    "change_pct": -0.0493510125520226,
+    "sma20": 542.061,
+    "sma50": 509.0352,
+    "sma200": 368.6156,
+    "rsi14": 68.69,
+    "macd": {
+      "macd": 35.8323,
+      "signal": 27.2446,
+      "hist": 8.5878
+    },
+    "atr14": 26.0414,
+    "high_52w": 630.63,
+    "low_52w": 164.0099945,
+    "pct_from_high": -3.66,
+    "pct_from_low": 270.45,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 630.63
+      },
+      {
+        "type": "support",
+        "price": 456.16
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 607.57001
+    },
+    "volume_ratio": 0.74
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 69",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Der uebergeordnete Aufwaertstrend bleibt intakt (Kurs 522 ueber SMA50/200, Wochentrend up), doch fuer einen frischen Long fehlt die Bestaetigung - MACD unter Signal (Hist -2,86), RSI 44, Tagestrend side und heute -3,29% unter die SMA20. Ein Short gegen den Wochentrend nahe der Unterstuetzung 495,76 auf nur unterdurchschnittlichem Volumen (0,96) waere undiszipliniert, zumal die Tech-Leitmaerkte (NQ100 down, S&P schwach) belasten - diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

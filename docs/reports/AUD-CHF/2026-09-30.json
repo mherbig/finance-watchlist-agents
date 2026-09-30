@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/CHF",
+  "display": "AUD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T01:37:51.750291+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.58361,
+    "change_pct": 0.18367837,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.58361,
+    "change_pct": 0.18367837401723752,
+    "sma20": 0.5839,
+    "sma50": 0.5804,
+    "sma200": 0.566,
+    "rsi14": 44.39,
+    "macd": {
+      "macd": 0.0005,
+      "signal": 0.0009,
+      "hist": -0.0004
+    },
+    "atr14": 0.0029,
+    "high_52w": 0.58636,
+    "low_52w": 0.5351,
+    "pct_from_high": -0.47,
+    "pct_from_low": 9.07,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.5864
+      },
+      {
+        "type": "support",
+        "price": 0.5805
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.58361
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts (38 Wochen Aufwaertstrend, Kurs 0,5708 ueber SMA20/50/200, MACD positiv), doch RSI14 74 ist stark ueberkauft und der Kurs steht praktisch am 52-Wochen-Hoch direkt am Widerstand 0,5714 bei nur neutralem Bias und ohne Volumenbestaetigung. Ein Long am Top ohne Ausbruchsbestaetigung ist schlecht bezahlt, ein Short liefe gegen den starken Wochentrend; das Risk-off-Makro (NQ100, S&P500, XAU, EUR/USD schwach) stuetzt zudem den Safe-Haven CHF gegen die Risikowaehrung AUD, und der negative Forex-Track-Record (avg_R -0,25) mahnt zur Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

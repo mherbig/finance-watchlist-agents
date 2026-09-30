@@ -1,0 +1,67 @@
+{
+  "symbol": "UKX",
+  "display": "FTSE100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T01:37:51.750291+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 10636.71,
+    "change_pct": -0.5478,
+    "currency": "GBP"
+  },
+  "technical": {
+    "last_close": 10684.900390625,
+    "change_pct": -0.09723349744662772,
+    "sma20": 10725.1899,
+    "sma50": 10769.65,
+    "sma200": 10439.0165,
+    "rsi14": 42.18,
+    "macd": {
+      "macd": -20.1919,
+      "signal": -16.6546,
+      "hist": -3.5373
+    },
+    "atr14": 102.6856,
+    "high_52w": 10910.599609375,
+    "low_52w": 9354.599609375,
+    "pct_from_high": -2.07,
+    "pct_from_low": 14.22,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 10831.5
+      },
+      {
+        "type": "support",
+        "price": 10608.9004
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 10684.900390625
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 42",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Die Struktur bleibt bullisch (Kurs ueber SMA20/50/200, Tages- und Wochentrend up, Volumen 1.14), doch das Momentum kuehlt ab: RSI 47, MACD-Histogramm nur noch +6.9 und der letzte Schluss -0.73%, waehrend der Index unmittelbar am Widerstand 10717 nahe dem 52W-Hoch stockt. Das Makro dreht klar risk-off (S&P, NQ100, GER40 alle -1.2 bis -1.9%) und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0.51). Wegen dieses Widerspruchs aus abgekuehltem Momentum, Widerstands-Deckel und schwachem Makro-/Track-Record-Bild kein Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

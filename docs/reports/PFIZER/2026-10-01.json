@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T01:38:24.920717+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 28.52,
+    "change_pct": -0.69637486,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 28.52,
+    "change_pct": -0.696378830083563,
+    "sma20": 28.107,
+    "sma50": 27.2066,
+    "sma200": 26.3813,
+    "rsi14": 74.3,
+    "macd": {
+      "macd": 0.3323,
+      "signal": 0.306,
+      "hist": 0.0263
+    },
+    "atr14": 0.4489,
+    "high_52w": 29.02,
+    "low_52w": 23.67,
+    "pct_from_high": -1.72,
+    "pct_from_low": 20.49,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 29.02
+      },
+      {
+        "type": "support",
+        "price": 27.46
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 28.52
+    },
+    "volume_ratio": 0.98
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 74",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.54) liegt unter SMA50 (25.15) und SMA200 (25.84), der Wochentrend ist seit 52 Wochen abwaerts und der Tag schloss -1.88% bei seitwaertsgerichtetem Tagestrend und neutralem Bias, mit Widerstand direkt darueber bei 25.14. Das leicht positive Momentum (RSI 62, MACD-Hist +0.10) wird durch unterdurchschnittliches Volumen (ratio 0.66) nicht bestaetigt und trifft auf ein risk-off-Makrobild (NQ abwaerts, S&P und Gold im Wochentrend abwaerts). Gegen den klaren Wochenabwaertstrend und bei negativ laufender Konviktionsstufe 3 (avg_R -0.17) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

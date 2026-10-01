@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T01:38:24.920717+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 67828.47,
+    "change_pct": 3.5845,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 67828.46875,
+    "change_pct": 3.5845352962037986,
+    "sma20": 65165.1707,
+    "sma50": 65477.3127,
+    "sma200": 60133.0151,
+    "rsi14": 57.7,
+    "macd": {
+      "macd": 87.7219,
+      "signal": -236.7352,
+      "hist": 324.4571
+    },
+    "atr14": 1243.5432,
+    "high_52w": 72366.34375,
+    "low_52w": 44550.8515625,
+    "pct_from_high": -6.27,
+    "pct_from_low": 52.25,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 67828.4688
+      },
+      {
+        "type": "support",
+        "price": 63484.1016
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 67828.46875
+    },
+    "volume_ratio": 1.1
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 58",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (66.423 Close) liegt unter SMA20 (68.240) und SMA50 (66.870), das MACD-Histogramm ist mit -459 klar negativ und RSI14 von 43 zeigt kein Momentum, sodass ein LONG gegen den Abwaertsdruck laeuft. Ein SHORT ist jedoch spaet: Tages- und Wochentrend sind beide 'side', das Volumen (0,85) liegt unter dem Schnitt und der Kurs sitzt direkt auf der Unterstuetzung 64.141 bei ohnehin risikoscheuem Makro (NQ100 down, S&P/XAU/EUR-USD schwach). Da die Index-Klasse im Track-Record mit avg_R -0,51 die schwaechste ist, bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

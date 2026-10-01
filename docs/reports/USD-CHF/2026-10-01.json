@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/CHF",
+  "display": "USD/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T01:38:24.920717+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.83491,
+    "change_pct": -0.10767998,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.83491,
+    "change_pct": -0.10767997511396273,
+    "sma20": 0.8252,
+    "sma50": 0.815,
+    "sma200": 0.801,
+    "rsi14": 73.75,
+    "macd": {
+      "macd": 0.0056,
+      "signal": 0.0047,
+      "hist": 0.0008
+    },
+    "atr14": 0.0034,
+    "high_52w": 0.83581,
+    "low_52w": 0.76602,
+    "pct_from_high": -0.11,
+    "pct_from_low": 8.99,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.8358
+      },
+      {
+        "type": "support",
+        "price": 0.8165
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 37,
+      "last_close": 0.83491
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 74",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "LONG",
+    "conviction": 3,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Stimmig bullisches Bild: Tages- und Wochentrend up (38 Wochen), Kurs 0,81638 ueber SMA20/50/200, Bias bullish, MACD-Histogramm positiv (+0,0005); RSI 52,95 ist von zuvor ueberhitzten Werten gesund abgekuehlt und laesst Luft nach oben. Makro gestuetzt durch USD-Staerke (EUR/USD Trend und Wochentrend down). Wegen Kurs direkt am 52-Wochen-Hoch/Widerstand (0,8183), fehlender Volumenbestaetigung und negativem Forex-Track-Record (avg_R -0,25) bleibt die Konviktion bei 3.",
+    "entry": 0.8164,
+    "stop_loss": 0.8097,
+    "take_profit": 0.8264,
+    "take_profit_2": 0.8183,
+    "rr": 1.5
+  }
+}

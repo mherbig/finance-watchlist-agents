@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T02:38:05.449972+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 238.89999,
+    "change_pct": 2.11584,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 238.89999,
+    "change_pct": 2.1158324428296704,
+    "sma20": 224.213,
+    "sma50": 218.9194,
+    "sma200": 201.0205,
+    "rsi14": 84.62,
+    "macd": {
+      "macd": 4.1727,
+      "signal": 2.9637,
+      "hist": 1.2091
+    },
+    "atr14": 5.3763,
+    "high_52w": 238.89999,
+    "low_52w": 165.17,
+    "pct_from_high": 0.0,
+    "pct_from_low": 44.64,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 238.9
+      },
+      {
+        "type": "support",
+        "price": 210.96
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 238.89999
+    },
+    "volume_ratio": 1.15
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 85",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA steht bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, unter der SMA50 (209,18) und dem Widerstand 212,50 gefangen; der leicht positive MACD (Hist +0,77) liefert keinen bestaetigten Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts und S&P500 woechentlich schwach, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 einen SHORT nicht rechtfertigen. Bei diesem widerspruechlichen Bild und schwacher Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

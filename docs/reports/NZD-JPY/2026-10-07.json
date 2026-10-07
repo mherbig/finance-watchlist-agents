@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T01:56:59.256510+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 88.93798,
+    "change_pct": -0.028584786,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 88.93798,
+    "change_pct": -0.028584785587692813,
+    "sma20": 89.136,
+    "sma50": 90.9987,
+    "sma200": 92.6288,
+    "rsi14": 30.42,
+    "macd": {
+      "macd": -0.5504,
+      "signal": -0.6657,
+      "hist": 0.1153
+    },
+    "atr14": 0.6184,
+    "high_52w": 95.37972,
+    "low_52w": 88.42979,
+    "pct_from_high": -6.75,
+    "pct_from_low": 0.57,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.176
+      },
+      {
+        "type": "support",
+        "price": 88.4298
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 88.93798
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen intakt und der Kurs steht ueber SMA20/50/200, doch mit RSI 76,8 ist das Paar stark ueberkauft, klebt direkt unter dem Widerstand 95,11 (nur -0,45% unter dem 52-Wochen-Hoch) bei neutralem Bias, drehendem MACD-Histogramm und fehlender Volumenbestaetigung. Das Makro-Bild ist klar risk-off (NQ100, S&P500, EUR/USD und XAU schwach), was die risikosensitive NZD belastet, und die negative Forex-Bilanz (avg_R -0,25) mahnt zur Zurueckhaltung. Ein Long an dieser Kante hat ein schlechtes Chance-Risiko-Verhaeltnis, ein Short liefe gegen den starken Wochentrend, daher FLAT bis ein Tagesschluss ueber 95,11 oder ein Ruecksetzer Richtung SMA20 ein sauberes Setup schafft.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

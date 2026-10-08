@@ -1,0 +1,67 @@
+{
+  "symbol": "NVDA",
+  "display": "NVIDIA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T02:22:12.103179+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 237.47,
+    "change_pct": -0.7398446,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 237.47,
+    "change_pct": -0.7398469846243584,
+    "sma20": 225.5785,
+    "sma50": 220.5832,
+    "sma200": 201.6787,
+    "rsi14": 77.02,
+    "macd": {
+      "macd": 4.8976,
+      "signal": 3.6264,
+      "hist": 1.2712
+    },
+    "atr14": 5.1429,
+    "high_52w": 239.24001,
+    "low_52w": 165.17,
+    "pct_from_high": -0.74,
+    "pct_from_low": 43.77,
+    "trend": "up",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 239.24
+      },
+      {
+        "type": "support",
+        "price": 210.96
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 237.47
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 77",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "NVDA steht bei 206,84 mit Tages- und Wochentrend 'side' und neutralem Bias, unter der SMA50 (209,18) und dem Widerstand 212,50 gefangen; der leicht positive MACD (Hist +0,77) liefert keinen bestaetigten Ausbruch, zumal das Volumen mit Ratio 0,86 unterdurchschnittlich ist. Der Tech-Leitmarkt NQ100 ist auf Tages- wie Wochenbasis klar abwaerts und S&P500 woechentlich schwach, was gegen einen frischen LONG spricht, waehrend Kurs ueber SMA200 und RSI 60 einen SHORT nicht rechtfertigen. Bei diesem widerspruechlichen Bild und schwacher Trefferbilanz der Konviktionsstufe 3 lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

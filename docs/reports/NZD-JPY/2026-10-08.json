@@ -1,0 +1,67 @@
+{
+  "symbol": "NZD/JPY",
+  "display": "NZD/JPY",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T02:22:12.103179+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 88.48904,
+    "change_pct": -0.032479347,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 88.48904,
+    "change_pct": -0.032479346807011644,
+    "sma20": 89.0506,
+    "sma50": 90.8689,
+    "sma200": 92.6046,
+    "rsi14": 35.75,
+    "macd": {
+      "macd": -0.5665,
+      "signal": -0.6512,
+      "hist": 0.0847
+    },
+    "atr14": 0.5928,
+    "high_52w": 95.37972,
+    "low_52w": 88.42979,
+    "pct_from_high": -7.22,
+    "pct_from_low": 0.07,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 90.176
+      },
+      {
+        "type": "support",
+        "price": 88.4298
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 88.48904
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 36",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend ist seit 38 Wochen intakt und der Kurs steht ueber SMA20/50/200, doch mit RSI 76,8 ist das Paar stark ueberkauft, klebt direkt unter dem Widerstand 95,11 (nur -0,45% unter dem 52-Wochen-Hoch) bei neutralem Bias, drehendem MACD-Histogramm und fehlender Volumenbestaetigung. Das Makro-Bild ist klar risk-off (NQ100, S&P500, EUR/USD und XAU schwach), was die risikosensitive NZD belastet, und die negative Forex-Bilanz (avg_R -0,25) mahnt zur Zurueckhaltung. Ein Long an dieser Kante hat ein schlechtes Chance-Risiko-Verhaeltnis, ein Short liefe gegen den starken Wochentrend, daher FLAT bis ein Tagesschluss ueber 95,11 oder ein Ruecksetzer Richtung SMA20 ein sauberes Setup schafft.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:22:12.708507+00:00",
+  "generated_at": "2026-10-09T02:36:33.735523+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -13996,10 +13996,10 @@
       "stop_loss": 213.3479,
       "take_profit": 217.6747,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "tp",
+      "exit_price": 217.6747,
+      "exit_date": "2026-07-08",
+      "realized_R": 1.5
     },
     {
       "date": "2026-07-03",
@@ -29444,14 +29444,14 @@
   ],
   "aggregates": {
     "total": 1840,
-    "open": 1765,
-    "resolved": 75,
-    "tp": 3,
+    "open": 1764,
+    "resolved": 76,
+    "tp": 4,
     "sl": 19,
     "expired": 2,
     "flip": 51,
-    "hit_rate": 0.04,
-    "avg_R": -0.1834,
+    "hit_rate": 0.0526,
+    "avg_R": -0.1612,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29464,12 +29464,12 @@
       },
       "3": {
         "total": 341,
-        "tp": 3,
+        "tp": 4,
         "sl": 18,
         "expired": 2,
         "flip": 51,
-        "open": 267,
-        "avg_R": -0.1723
+        "open": 266,
+        "avg_R": -0.15
       },
       "1": {
         "total": 1,
@@ -29520,12 +29520,12 @@
       },
       "forex": {
         "total": 644,
-        "tp": 1,
+        "tp": 2,
         "sl": 12,
         "expired": 1,
         "flip": 17,
-        "open": 613,
-        "avg_R": -0.3214
+        "open": 612,
+        "avg_R": -0.2644
       },
       "energy": {
         "total": 46,

@@ -1,0 +1,67 @@
+{
+  "symbol": "META",
+  "display": "META",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T02:36:33.134141+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 720.89001,
+    "change_pct": -0.058225023,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 720.89001,
+    "change_pct": -0.058226005462281724,
+    "sma20": 715.651,
+    "sma50": 636.1376,
+    "sma200": 629.8481,
+    "rsi14": 60.7,
+    "macd": {
+      "macd": 27.4406,
+      "signal": 32.2555,
+      "hist": -4.8149
+    },
+    "atr14": 27.3929,
+    "high_52w": 777.59003,
+    "low_52w": 525.71997,
+    "pct_from_high": -7.29,
+    "pct_from_low": 37.12,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 777.59
+      },
+      {
+        "type": "support",
+        "price": 648.03
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 720.89001
+    },
+    "volume_ratio": 0.72
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 61",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "META notiert bei 595,19 unter SMA20/50/200, der MACD liegt mit negativem Histogramm (-4,50) unter der Signallinie und der Wochentrend ist down - dazu ein schwaches Tech-Makro (NQ100 Tages- und Wochentrend down), was jedes Long verbietet. Fuer einen Short fehlt jedoch die Bestaetigung: Tagestrend seitwaerts, RSI 48,8 neutral, der Abverkauf laeuft bei klar unterdurchschnittlichem Volumen (0,58) und die Struktur haelt ueber Support 550,25 und dem 52-Wochen-Tief 525,72. Widerspruechliches Bild ohne belastbares Setup - kein neues Engagement.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

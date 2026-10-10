@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T02:05:55.522400+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1029.0,
+    "change_pct": -0.66033036,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1029.0,
+    "change_pct": -0.660330765185668,
+    "sma20": 1038.255,
+    "sma50": 976.1862,
+    "sma200": 701.6807,
+    "rsi14": 47.6,
+    "macd": {
+      "macd": 22.3586,
+      "signal": 28.6814,
+      "hist": -6.3229
+    },
+    "atr14": 43.9725,
+    "high_52w": 1213.56006,
+    "low_52w": 187.059998,
+    "pct_from_high": -15.21,
+    "pct_from_low": 450.09,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1097.39
+      },
+      {
+        "type": "support",
+        "price": 924.03
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 52,
+      "last_close": 1029.0
+    },
+    "volume_ratio": 0.77
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

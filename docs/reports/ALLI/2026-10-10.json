@@ -1,0 +1,67 @@
+{
+  "symbol": "ALV",
+  "display": "ALLI",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T02:05:55.522400+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 417.0,
+    "change_pct": -0.0719,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 413.3999938964844,
+    "change_pct": -0.9345780039704299,
+    "sma20": 428.475,
+    "sma50": 436.826,
+    "sma200": 397.5325,
+    "rsi14": 30.25,
+    "macd": {
+      "macd": -6.7675,
+      "signal": -5.618,
+      "hist": -1.1495
+    },
+    "atr14": 7.7,
+    "high_52w": 453.29998779296875,
+    "low_52w": 344.20001220703125,
+    "pct_from_high": -8.8,
+    "pct_from_low": 20.1,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 451.1
+      },
+      {
+        "type": "support",
+        "price": 412.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 413.3999938964844
+    },
+    "volume_ratio": 0.67
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Struktur bleibt bullisch (Tages- und Wochentrend up, SMAs sauber gestapelt 420 > 401 > 378, RSI 61), aber der Kurs steht exakt am 52-Wochen-Hoch/Widerstand 427.1 und der Ausbruch ist unbestaetigt: Volumen nur 0.79 (unterdurchschnittlich) und MACD-Histogramm negativ (-0.58, MACD unter Signal). Zudem kuehlt das Makro breit ab (NQ100 down/down, GER40 side mit RSI 28, S&P side/down), sodass ein neues Market-Long am Widerstand nicht gerechtfertigt ist; FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

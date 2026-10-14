@@ -9,37 +9,37 @@
     "NQ100": {
       "trend": "up",
       "weekly_trend": "up",
-      "change_pct": -0.71,
-      "rsi14": 48.67
+      "change_pct": -0.31,
+      "rsi14": 52.08
     },
     "S&P500": {
       "trend": "up",
       "weekly_trend": "up",
-      "change_pct": -0.06,
-      "rsi14": 54.6
+      "change_pct": -0.02,
+      "rsi14": 62.24
     },
     "EUR/USD": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 0.18,
-      "rsi14": 27.71
+      "change_pct": 0.05,
+      "rsi14": 43.23
     },
     "BTC/USD": {
       "trend": "side",
       "weekly_trend": "up",
-      "change_pct": 1.25,
-      "rsi14": 47.06
+      "change_pct": 0.27,
+      "rsi14": 49.17
     },
     "XAU": {
-      "trend": "side",
+      "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 0.21,
-      "rsi14": 53.69
+      "change_pct": -0.06,
+      "rsi14": 47.1
     }
   },
   "vol_regime": {
     "symbols": 80,
-    "median_atr_pct": 1.664
+    "median_atr_pct": 1.67
   },
-  "generated_at": "2026-10-13T03:21:33.098702+00:00"
+  "generated_at": "2026-10-14T01:34:15.749414+00:00"
 }

@@ -1,0 +1,67 @@
+{
+  "symbol": "SPX",
+  "display": "S&P500",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T00:46:58.702138+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 7744.06,
+    "change_pct": 0.3254,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 7744.06005859375,
+    "change_pct": 0.32543480553268267,
+    "sma20": 7738.7946,
+    "sma50": 7707.4266,
+    "sma200": 7267.6198,
+    "rsi14": 50.07,
+    "macd": {
+      "macd": 27.9967,
+      "signal": 28.7722,
+      "hist": -0.7755
+    },
+    "atr14": 65.95,
+    "high_52w": 7818.93017578125,
+    "low_52w": 6343.72021484375,
+    "pct_from_high": -0.96,
+    "pct_from_low": 22.07,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 7818.9302
+      },
+      {
+        "type": "support",
+        "price": 7650.5
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 7744.06005859375
+    },
+    "volume_ratio": 0.65
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tagestrend seitwaerts (bias neutral), aber Wochentrend klar abwaerts (53 Wochen) und der Kurs (7412) notiert unter SMA20/50 bei negativem MACD-Histogramm (-12.4) und nur neutral-schwachem RSI 43.9. Das Makrobild ist risk-off (NQ100 taeglich und woechentlich abwaerts, EUR/USD und XAU schwach), doch ohne saubere bearische Aufloesung und mit nur durchschnittlichem Volumen (1.02). Bei einem Index-Track-Record von avg_R -0.51 rechtfertigt dieses uneinheitliche Bild keinen Neueinstieg.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

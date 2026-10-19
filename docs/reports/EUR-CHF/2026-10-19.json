@@ -1,0 +1,67 @@
+{
+  "symbol": "EUR/CHF",
+  "display": "EUR/CHF",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T00:32:57.489096+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.92492,
+    "change_pct": 0.14075053,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.92492,
+    "change_pct": 0.14075052510772482,
+    "sma20": 0.9308,
+    "sma50": 0.9383,
+    "sma200": 0.9274,
+    "rsi14": 36.97,
+    "macd": {
+      "macd": -0.0037,
+      "signal": -0.0032,
+      "hist": -0.0006
+    },
+    "atr14": 0.0045,
+    "high_52w": 0.94702,
+    "low_52w": 0.90152,
+    "pct_from_high": -2.33,
+    "pct_from_low": 2.6,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.9364
+      },
+      {
+        "type": "support",
+        "price": 0.9236
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.92492
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen aufwaerts und der Kurs 0.92878 notiert ueber SMA20/50/200, doch RSI 54 hat sich abgekuehlt, der Schlusskurs war heute leicht negativ und eine Volumenbestaetigung fehlt (volume_ratio null), waehrend der Kurs nur ~1% unter dem 52W-Hoch am Widerstand 0.9307 klemmt. Das klare risk-off-Makrobild (NQ/S&P schwach, EUR/USD abwaerts auf Tages- und Wochenbasis) stuetzt den sicheren Hafen CHF und trifft zugleich die EUR-Seite, was gegen einen EUR/CHF-Long wirkt. Zusammen mit dem negativen Forex-Track-Record (avg_R -0.25) reicht die Ueberzeugung nicht fuer eine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

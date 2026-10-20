@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T01:23:39.815806+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 29529.344,
+    "change_pct": 1.171,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 29529.34375,
+    "change_pct": 1.1710231232199408,
+    "sma20": 30476.5628,
+    "sma50": 29864.1366,
+    "sma200": 27759.3787,
+    "rsi14": 38.68,
+    "macd": {
+      "macd": 2.3308,
+      "signal": 205.3824,
+      "hist": -203.0515
+    },
+    "atr14": 443.0873,
+    "high_52w": 31224.470703125,
+    "low_52w": 22953.380859375,
+    "pct_from_high": -5.43,
+    "pct_from_low": 28.65,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 31224.4707
+      },
+      {
+        "type": "support",
+        "price": 29187.5508
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 29529.34375
+    },
+    "volume_ratio": 0.15
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 39",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist klar bearisch: Tages- und Wochentrend abwaerts (53 Wochen), Kurs unter SMA20/50, MACD-Histogramm weitet sich negativ aus (-110). Gegen einen frischen Short spricht der scharfe -3%-Tag bei nur unterdurchschnittlichem Volumen (ratio 0,86) und noch nicht ueberverkauftem RSI (41), was Rueckprallerisiko birgt, zumal S&P nur seitwaerts und GER40 mit RSI 28 stark ueberverkauft ist. Da die Asset-Klasse Index im Track Record klar negativ laeuft (avg_R -0,51), bleibe ich bei diesem Widerspruch diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T00:58:29.021869+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 30.11,
+    "change_pct": 2.27582,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 30.11,
+    "change_pct": 2.275815217391298,
+    "sma20": 28.535,
+    "sma50": 28.0838,
+    "sma200": 26.6118,
+    "rsi14": 67.63,
+    "macd": {
+      "macd": 0.4724,
+      "signal": 0.2985,
+      "hist": 0.174
+    },
+    "atr14": 0.5975,
+    "high_52w": 30.11,
+    "low_52w": 23.67,
+    "pct_from_high": 0.0,
+    "pct_from_low": 27.21,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30.11
+      },
+      {
+        "type": "support",
+        "price": 27.41
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 30.11
+    },
+    "volume_ratio": 1.13
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 68",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.54) liegt unter SMA50 (25.15) und SMA200 (25.84), der Wochentrend ist seit 52 Wochen abwaerts und der Tag schloss -1.88% bei seitwaertsgerichtetem Tagestrend und neutralem Bias, mit Widerstand direkt darueber bei 25.14. Das leicht positive Momentum (RSI 62, MACD-Hist +0.10) wird durch unterdurchschnittliches Volumen (ratio 0.66) nicht bestaetigt und trifft auf ein risk-off-Makrobild (NQ abwaerts, S&P und Gold im Wochentrend abwaerts). Gegen den klaren Wochenabwaertstrend und bei negativ laufender Konviktionsstufe 3 (avg_R -0.17) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

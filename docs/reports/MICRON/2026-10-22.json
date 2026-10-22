@@ -1,0 +1,67 @@
+{
+  "symbol": "MU",
+  "display": "MICRON",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T01:02:11.931146+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 913.66998,
+    "change_pct": 1.96413,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 913.66998,
+    "change_pct": 1.96412923795138,
+    "sma20": 1008.135,
+    "sma50": 985.2688,
+    "sma200": 726.8475,
+    "rsi14": 26.45,
+    "macd": {
+      "macd": -27.7407,
+      "signal": -9.3049,
+      "hist": -18.4358
+    },
+    "atr14": 47.1507,
+    "high_52w": 1213.56006,
+    "low_52w": 201.37,
+    "pct_from_high": -24.71,
+    "pct_from_low": 353.73,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1097.39
+      },
+      {
+        "type": "support",
+        "price": 878.84
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 913.66998
+    },
+    "volume_ratio": 0.78
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 26",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der -7,0%-Tag drueckte MU (920,95) unter SMA20 (975,8) und SMA50 (955,4), und das negative MACD-Histogramm (-6,38) samt schwachem Tech-Makro (NQ100 down) deutet bearisch. Dem stehen jedoch der als 'side' klassifizierte Tages- und Wochentrend, ein neutrales RSI (44), unterdurchschnittliches Volumen (0,83) sowie die nahe Unterstuetzung bei 848,95 gegenueber, sodass ein Short direkt in die Schlusskerze eines Kapitulationstages hohes Rueckpraller-Risiko traegt. Angesichts dieses Widerspruchs und der negativen Bilanz auf Konviktionsstufe 3 bleibt die disziplinierte Wahl FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

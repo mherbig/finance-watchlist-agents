@@ -1,0 +1,28 @@
+{
+  "symbol": "EUR/CAD",
+  "display": "EUR/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T01:01:01.031608+00:00",
+  "available": false,
+  "snapshot": null,
+  "technical": null,
+  "fundamental": null,
+  "headline": "Daten nicht verfügbar.",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist abwaerts (Kurs 1,60355 unter SMA20/50/200), doch das Bild ist richtungslos: RSI 40,5 ohne Momentum-Edge, MACD-Histogramm quasi flach (-0,0001) und der Wochentrend seit 38 Wochen seitwaerts, wobei der Kurs direkt auf der Unterstuetzung 1,6024 mit Bounce-Risiko sitzt. Makro ist nur leicht euro-negativ (EUR/USD schwach) und nicht CAD-spezifisch, Volumendaten fehlen, und die Forex-Bilanz ist klar negativ (avg_R -0,25). Ohne stimmiges gerichtetes Setup daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

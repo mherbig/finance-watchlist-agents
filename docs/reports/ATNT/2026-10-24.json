@@ -1,0 +1,67 @@
+{
+  "symbol": "T",
+  "display": "ATNT",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T01:07:54.630407+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 20.93,
+    "change_pct": -7.95954,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 20.93,
+    "change_pct": -7.959542656112571,
+    "sma20": 23.505,
+    "sma50": 24.7506,
+    "sma200": 25.0555,
+    "rsi14": 32.22,
+    "macd": {
+      "macd": -0.7497,
+      "signal": -0.5659,
+      "hist": -0.1837
+    },
+    "atr14": 0.9021,
+    "high_52w": 29.1,
+    "low_52w": 20.48,
+    "pct_from_high": -28.08,
+    "pct_from_low": 2.2,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 24.9
+      },
+      {
+        "type": "support",
+        "price": 20.93
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 20.93
+    },
+    "volume_ratio": 2.08
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Schlusskurs 24,13 (+5,1%) prallt exakt an den Widerstand 24,13, waehrend RSI14 mit 87,4 extrem ueberkauft ist und der Ausbruch nur auf unterdurchschnittlichem Volumen (0,88) sowie weiter unter der SMA200 (25,25) bei 'side'-Tagestrend laeuft. Ein Long jagt damit eine ueberdehnte Bewegung in den Widerstand, ein Short gegen frisch bullischen MACD (Hist +0,39) und Wochentrend 'up' waere ebenso unsauber. Bei risk-off-lastigem Makro (NQ100 down, S&P500 down) und negativem Track Record auf Konviktion 3 (avg_R -0,17) bleibt es diszipliniert bei FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

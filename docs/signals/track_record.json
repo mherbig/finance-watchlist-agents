@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:01:01.619863+00:00",
+  "generated_at": "2026-10-24T01:07:55.100200+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -4796,10 +4796,10 @@
       "stop_loss": 0.6981,
       "take_profit": 0.6819,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 0.69539,
+      "exit_date": "2026-07-10",
+      "realized_R": -0.5831
     },
     {
       "date": "2026-07-03",
@@ -7916,10 +7916,10 @@
       "stop_loss": 199.9278,
       "take_profit": 204.0323,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 201.13234,
+      "exit_date": "2026-07-17",
+      "realized_R": -0.2663
     },
     {
       "date": "2026-07-16",
@@ -9580,10 +9580,10 @@
       "stop_loss": 1.6141,
       "take_profit": 1.6335,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "sl",
+      "exit_price": 1.6141,
+      "exit_date": "2026-07-12",
+      "realized_R": -1.0
     },
     {
       "date": "2026-07-03",
@@ -29444,14 +29444,14 @@
   ],
   "aggregates": {
     "total": 1840,
-    "open": 1767,
-    "resolved": 73,
+    "open": 1764,
+    "resolved": 76,
     "tp": 4,
-    "sl": 18,
+    "sl": 19,
     "expired": 2,
-    "flip": 49,
-    "hit_rate": 0.0548,
-    "avg_R": -0.1425,
+    "flip": 51,
+    "hit_rate": 0.0526,
+    "avg_R": -0.1612,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29465,11 +29465,11 @@
       "3": {
         "total": 341,
         "tp": 4,
-        "sl": 17,
+        "sl": 18,
         "expired": 2,
-        "flip": 49,
-        "open": 269,
-        "avg_R": -0.1306
+        "flip": 51,
+        "open": 266,
+        "avg_R": -0.15
       },
       "1": {
         "total": 1,
@@ -29521,11 +29521,11 @@
       "forex": {
         "total": 644,
         "tp": 2,
-        "sl": 11,
+        "sl": 12,
         "expired": 1,
-        "flip": 15,
-        "open": 615,
-        "avg_R": -0.228
+        "flip": 17,
+        "open": 612,
+        "avg_R": -0.2644
       },
       "energy": {
         "total": 46,

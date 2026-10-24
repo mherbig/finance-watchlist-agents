@@ -1,0 +1,67 @@
+{
+  "symbol": "BTC/USD",
+  "display": "BTC/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T01:07:54.630407+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 80688.01,
+    "change_pct": -0.61759271,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 80688.01,
+    "change_pct": -0.6175927088045801,
+    "sma20": 82615.6605,
+    "sma50": 81843.1028,
+    "sma200": 72941.3542,
+    "rsi14": 41.28,
+    "macd": {
+      "macd": -179.0955,
+      "signal": 122.1821,
+      "hist": -301.2776
+    },
+    "atr14": 2062.0179,
+    "high_52w": 86620.0,
+    "low_52w": 58624.71,
+    "pct_from_high": -6.85,
+    "pct_from_low": 37.63,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 85766.87
+      },
+      {
+        "type": "support",
+        "price": 80688.01
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 80688.01
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 41",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar aufwaerts (Preis ueber SMA20/50, MACD-Histogramm leicht positiv, RSI 54 neutral), doch dem steht ein seit 36 Wochen abwaertsgerichteter Wochentrend gegenueber, wobei der Kurs rund 33% unter dem 52W-Hoch und klar unter der SMA200 (72170) notiert. Der Anstieg erfolgt ohne Volumenbestaetigung (volume_ratio null) und in einem risk-off Makro-Umfeld (NQ100 abwaerts, Gold und EUR/USD schwach). Da die Krypto-Klasse im Track Record deutlich negativ laeuft (avg_R -0,45), ueberwiegt der Widerspruch und die Position bleibt flach.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

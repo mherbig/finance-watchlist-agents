@@ -1,0 +1,67 @@
+{
+  "symbol": "VOW3",
+  "display": "VOWGE",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T00:40:07.266741+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 69.1,
+    "change_pct": -0.4036,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 69.0999984741211,
+    "change_pct": -0.40357277368309635,
+    "sma20": 68.808,
+    "sma50": 73.54,
+    "sma200": 84.1545,
+    "rsi14": 52.22,
+    "macd": {
+      "macd": -1.3433,
+      "signal": -1.756,
+      "hist": 0.4128
+    },
+    "atr14": 2.0429,
+    "high_52w": 108.5999984741211,
+    "low_52w": 66.5999984741211,
+    "pct_from_high": -36.37,
+    "pct_from_low": 3.75,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 71.04
+      },
+      {
+        "type": "support",
+        "price": 66.6
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 52,
+      "last_close": 69.0999984741211
+    },
+    "volume_ratio": 1.15
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 52",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "VOWGE (71,46 EUR) bleibt in einem intakten Abwaertstrend: Kurs unter SMA20/50/200, Wochentrend seit 52 Wochen abwaerts und nur 2,2% ueber dem 52-Wochen-Tief bzw. der Unterstuetzung bei 69,94. RSI 33,6 und der drehende MACD (Hist +0,48) zeigen nur Stabilisierung, waehrend das risk-off-Makrobild (NQ100 abwaerts, S&P/GER40 seitwaerts mit Wochentrend abwaerts) eine Erholung nicht bestaetigt. Long gegen den klaren Wochentrend ist nicht begruendbar, Short direkt an der Unterstuetzung kein sauberes Setup - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

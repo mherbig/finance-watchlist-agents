@@ -1,0 +1,67 @@
+{
+  "symbol": "HSI",
+  "display": "HK50",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T01:46:01.480140+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 23041.32,
+    "change_pct": -0.2254,
+    "currency": "HKD"
+  },
+  "technical": {
+    "last_close": 23211.810546875,
+    "change_pct": 0.5128805828580563,
+    "sma20": 24032.4938,
+    "sma50": 24758.8586,
+    "sma200": 25413.9897,
+    "rsi14": 37.18,
+    "macd": {
+      "macd": -406.8934,
+      "signal": -316.9831,
+      "hist": -89.9103
+    },
+    "atr14": 386.1789,
+    "high_52w": 27968.08984375,
+    "low_52w": 22671.859375,
+    "pct_from_high": -17.01,
+    "pct_from_low": 2.38,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 24642.5098
+      },
+      {
+        "type": "support",
+        "price": 22934.6797
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 23211.810546875
+    },
+    "volume_ratio": 1.02
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 37",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend sind seitwaerts, der RSI von 74 ist klar ueberkauft und der Ausbruch ueber 25211 erfolgt bei unterdurchschnittlichem Volumen (Ratio 0,75), waehrend der Kurs weiter unter der SMA200 (25772) notiert. Das starke MACD-Momentum verbietet ein SHORT, rechtfertigt aber angesichts des Risk-off-Makrobildes (NQ100 und S&P schwach) kein LONG. Die klar negative Index-Klasse im Track Record (avg_R -0,51) untermauert die Zurueckhaltung.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

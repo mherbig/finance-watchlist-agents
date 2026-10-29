@@ -1,0 +1,67 @@
+{
+  "symbol": "USD/CAD",
+  "display": "USD/CAD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T02:09:10.358233+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1.39732,
+    "change_pct": -0.14292656,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 1.39732,
+    "change_pct": -0.14292656433124673,
+    "sma20": 1.4108,
+    "sma50": 1.4107,
+    "sma200": 1.396,
+    "rsi14": 17.18,
+    "macd": {
+      "macd": -0.0042,
+      "signal": -0.0026,
+      "hist": -0.0017
+    },
+    "atr14": 0.0048,
+    "high_52w": 1.42845,
+    "low_52w": 1.35766,
+    "pct_from_high": -2.18,
+    "pct_from_low": 2.92,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1.4284
+      },
+      {
+        "type": "support",
+        "price": 1.3973
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 36,
+      "last_close": 1.39732
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 17",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Widerspruechliches Bild: Tagestrend abwaerts mit bearischem Bias, Kurs unter SMA20 (1.4094) und SMA50 (1.4112), aber ueber SMA200 (1.383) und Wochentrend seit 38 Wochen klar aufwaerts. RSI 37.7 ist schwach, jedoch nicht ueberverkauft, MACD faktisch flach (Hist 0.0), und ein Volumenbeleg fehlt (volume_ratio null). Die Klasse Forex laeuft mit avg_R -0.25 negativ, daher kein stimmig begruendbarer Einstieg in beide Richtungen.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

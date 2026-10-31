@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:18:58.203274+00:00",
+  "generated_at": "2026-10-31T01:57:44.781045+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -27245,9 +27245,9 @@
       "take_profit": 3927.8472,
       "horizon_days": 14,
       "outcome": "flip",
-      "exit_price": 4174.94111,
+      "exit_price": 4175.7002,
       "exit_date": "2026-07-04",
-      "realized_R": -0.3892
+      "realized_R": -0.395
     },
     {
       "date": "2026-07-03",
@@ -29451,7 +29451,7 @@
     "expired": 2,
     "flip": 51,
     "hit_rate": 0.0526,
-    "avg_R": -0.1612,
+    "avg_R": -0.1613,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29469,7 +29469,7 @@
         "expired": 2,
         "flip": 51,
         "open": 266,
-        "avg_R": -0.15
+        "avg_R": -0.1501
       },
       "1": {
         "total": 1,
@@ -29543,7 +29543,7 @@
         "expired": 0,
         "flip": 4,
         "open": 88,
-        "avg_R": -0.1265
+        "avg_R": -0.1279
       }
     }
   }

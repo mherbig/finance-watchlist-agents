@@ -1,0 +1,67 @@
+{
+  "symbol": "ADA/USD",
+  "display": "ADA/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T01:34:36.340932+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.1929,
+    "change_pct": -0.051813472,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.1929,
+    "change_pct": -0.051813471502599344,
+    "sma20": 0.2128,
+    "sma50": 0.2286,
+    "sma200": 0.2093,
+    "rsi14": 25.31,
+    "macd": {
+      "macd": -0.0109,
+      "signal": -0.0088,
+      "hist": -0.0021
+    },
+    "atr14": 0.0101,
+    "high_52w": 0.2971,
+    "low_52w": 0.1438,
+    "pct_from_high": -35.07,
+    "pct_from_low": 34.14,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.236
+      },
+      {
+        "type": "support",
+        "price": 0.1904
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 0.1929
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist seitwaerts (Kurs 0.1644 unter SMA20 0.1666 und knapp unter SMA50 0.1648; RSI 52.7 neutral, MACD-Histogramm nur minimal positiv +0.0001), waehrend der Wochentrend seit 36 Wochen abwaerts zeigt und der Kurs rund 65% unter dem 52W-Hoch sowie klar unter der SMA200 (0.2473) liegt - ein Long liefe gegen das uebergeordnete Bild ohne Volumenbestaetigung (volume_ratio null). Fuer einen Short ist die kurzfristige Dynamik zu unentschieden und der Abstand zur Unterstuetzung 0.1576 mit gut 4% zu gering. Das Makro-Bild ist risk-off (BTC- und Indizes-Wochentrend abwaerts) und die Krypto-Klasse laeuft im Track Record mit avg_R -0.45 klar negativ - daher FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

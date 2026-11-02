@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T01:53:56.777472+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8868.6,
+    "change_pct": -0.4434,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8868.599609375,
+    "change_pct": -0.4434166851752498,
+    "sma20": 8796.0201,
+    "sma50": 8825.1961,
+    "sma200": 8830.358,
+    "rsi14": 59.81,
+    "macd": {
+      "macd": 23.9654,
+      "signal": 7.6699,
+      "hist": 16.2955
+    },
+    "atr14": 75.7858,
+    "high_52w": 9271.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.35,
+    "pct_from_low": 6.01,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8908.0996
+      },
+      {
+        "type": "support",
+        "price": 8660.9004
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 8868.599609375
+    },
+    "volume_ratio": 1.22
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 60",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts, doch der Kurs (8772, -0,57%) notiert unter SMA20 (8799) und SMA200 (8778) und klemmt mittig zwischen Widerstand 8844 und Support 8723; RSI 49 neutral, MACD-Histogramm leicht negativ und Volumenverhaeltnis 1,0 tragen keinen Ausbruch. Das Makro-Bild ist klar risk-off (NQ100 down/down, S&P und GER40 schwach, XAU und EUR down), und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0,51). Kein sauberes Long-Setup und gegen die Aufwaertstrends kein Short, daher FLAT bis zum Bruch von 8844 oder 8723.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

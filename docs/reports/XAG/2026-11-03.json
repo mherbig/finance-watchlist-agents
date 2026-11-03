@@ -1,0 +1,67 @@
+{
+  "symbol": "XAG/USD",
+  "display": "XAG",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T03:48:02.414639+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 49.895,
+    "change_pct": -1.6266,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 49.89500045776367,
+    "change_pct": -1.6265787521367419,
+    "sma20": 55.6327,
+    "sma50": 60.9799,
+    "sma200": 70.4851,
+    "rsi14": 30.39,
+    "macd": {
+      "macd": -2.9556,
+      "signal": -2.4855,
+      "hist": -0.4702
+    },
+    "atr14": 1.2112,
+    "high_52w": 115.08000183105469,
+    "low_52w": 47.79399871826172,
+    "pct_from_high": -56.64,
+    "pct_from_low": 4.4,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 60.67
+      },
+      {
+        "type": "support",
+        "price": 49.097
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 49.89500045776367
+    },
+    "volume_ratio": 42.23
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 30",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Uebergeordnet bleibt das Bild bearisch: Kurs 58,9 unter SMA50/200, Wochentrend down und schwaches Metall-Makro (XAU Trend und Wochentrend down) bei breitem Risk-off. Dem steht ein frischer Bounce (+1,9% auf hohem Volumen, Ratio 13,69, steigendes MACD-Histogramm) entgegen, doch der Kurs steckt mittig in der Range zwischen Support 55,90 und Widerstand 61,92, RSI neutral bei 42,5 und Trend seitwaerts. Dieser Widerspruch plus negativer Track Record (metal avg_R -0,13, Konviktion-3 avg_R -0,17) rechtfertigt keine neue Position -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

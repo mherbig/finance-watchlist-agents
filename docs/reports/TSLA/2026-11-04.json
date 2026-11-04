@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T02:45:43.460602+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 398.5,
+    "change_pct": -1.31742,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 398.5,
+    "change_pct": -1.3174210956014847,
+    "sma20": 382.843,
+    "sma50": 371.4128,
+    "sma200": 384.9298,
+    "rsi14": 64.16,
+    "macd": {
+      "macd": 9.4606,
+      "signal": 7.3054,
+      "hist": 2.1552
+    },
+    "atr14": 14.9864,
+    "high_52w": 489.88,
+    "low_52w": 298.32001,
+    "pct_from_high": -18.65,
+    "pct_from_low": 33.58,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 407.46
+      },
+      {
+        "type": "support",
+        "price": 354.72
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 398.5
+    },
+    "volume_ratio": 0.72
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts, der Kurs (313,0) liegt unter allen SMAs und MACD bleibt negativ, doch RSI14 von 15,7 signalisiert bei erhoehtem Volumen (1,46x) eine ausgereizte Kapitulation exakt auf der Unterstuetzung 313,0 und nur 3,4% ueber dem 52W-Tief. Ein neuer Short laeuft dieser Ueberdehnung hinterher, ein Long gegen den Wochentrend waere ohne Umkehrbestaetigung unbegruendet. Zusammen mit dem risikoscheuen Makro-Bild (NQ100 down, S&P500 schwach) und dem negativen Track Record der Konviktionsstufe 3 (avg_R -0,17) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

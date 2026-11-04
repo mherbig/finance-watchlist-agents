@@ -1,0 +1,67 @@
+{
+  "symbol": "AS51",
+  "display": "ASX200",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T02:45:43.460602+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 8847.3,
+    "change_pct": -0.4445,
+    "currency": "AUD"
+  },
+  "technical": {
+    "last_close": 8847.2998046875,
+    "change_pct": -0.44447946244006786,
+    "sma20": 8808.95,
+    "sma50": 8813.7881,
+    "sma200": 8830.81,
+    "rsi14": 64.2,
+    "macd": {
+      "macd": 23.8652,
+      "signal": 13.6245,
+      "hist": 10.2406
+    },
+    "atr14": 73.7928,
+    "high_52w": 9271.599609375,
+    "low_52w": 8365.900390625,
+    "pct_from_high": -4.58,
+    "pct_from_low": 5.75,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 8908.0996
+      },
+      {
+        "type": "support",
+        "price": 8660.9004
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 8847.2998046875
+    },
+    "volume_ratio": 0.9
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 64",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 10,
+    "rationale": "Tages- und Wochentrend sind zwar aufwaerts, doch der Kurs (8772, -0,57%) notiert unter SMA20 (8799) und SMA200 (8778) und klemmt mittig zwischen Widerstand 8844 und Support 8723; RSI 49 neutral, MACD-Histogramm leicht negativ und Volumenverhaeltnis 1,0 tragen keinen Ausbruch. Das Makro-Bild ist klar risk-off (NQ100 down/down, S&P und GER40 schwach, XAU und EUR down), und die Asset-Klasse Index laeuft im Track Record deutlich negativ (avg_R -0,51). Kein sauberes Long-Setup und gegen die Aufwaertstrends kein Short, daher FLAT bis zum Bruch von 8844 oder 8723.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

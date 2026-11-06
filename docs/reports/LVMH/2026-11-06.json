@@ -1,0 +1,67 @@
+{
+  "symbol": "MC",
+  "display": "LVMH",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T02:53:52.974812+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 418.65,
+    "change_pct": 4.2715,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 416.25,
+    "change_pct": 3.6737235367372354,
+    "sma20": 389.5675,
+    "sma50": 402.596,
+    "sma200": 466.8927,
+    "rsi14": 64.7,
+    "macd": {
+      "macd": -0.4786,
+      "signal": -4.3884,
+      "hist": 3.9098
+    },
+    "atr14": 9.7304,
+    "high_52w": 652.0999755859375,
+    "low_52w": 378.54998779296875,
+    "pct_from_high": -36.17,
+    "pct_from_low": 9.96,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 416.25
+      },
+      {
+        "type": "support",
+        "price": 380.0
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 52,
+      "last_close": 416.25
+    },
+    "volume_ratio": 1.37
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 65",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Kurs unter SMA20/50/200 mit bearischem MACD (Hist -4,14), RSI 37 und seitwaertsem Wochentrend spricht strukturell bearisch, doch der +1,8%-Tag mit ueberdurchschnittlichem Volumen (1,38) direkt am ungebrochenen Support 453,55 knapp ueber dem 52W-Tief laesst Stabilisierung wie Bear-Rally gleichermassen offen. Fuer den Short fehlt der Support-Bruch, fuer den Long die bestaetigte Umkehr, dazu ist das Makro-Bild breit risk-off und Konviktion 3 laeuft im Track Record negativ. Daher FLAT bis Support bricht oder eine Umkehr bestaetigt ist.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

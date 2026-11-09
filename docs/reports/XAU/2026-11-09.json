@@ -1,0 +1,67 @@
+{
+  "symbol": "XAU/USD",
+  "display": "XAU",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T02:03:52.474960+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 4125.93995,
+    "change_pct": 1.47343,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 4125.93995,
+    "change_pct": 1.4734341535844335,
+    "sma20": 4015.4425,
+    "sma50": 4133.1942,
+    "sma200": 4420.5865,
+    "rsi14": 58.6,
+    "macd": {
+      "macd": -16.6146,
+      "signal": -41.2492,
+      "hist": 24.6346
+    },
+    "atr14": 69.0188,
+    "high_52w": 5400.25,
+    "low_52w": 3875.43043,
+    "pct_from_high": -23.6,
+    "pct_from_low": 6.46,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 4134.5421
+      },
+      {
+        "type": "support",
+        "price": 3875.4304
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 50,
+      "last_close": 4125.93995
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 59",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend (37 Wochen) sind abwaerts, der Kurs 4055,98 liegt unter SMA20/50/200 - strukturell bearisch. Fuer einen SHORT fehlt der Ausloeser: Der Kurs sitzt nur 1,99% ueber dem 52W-Tief bei 3976,78 (starke Auffangzone), das MACD-Histogramm dreht mit +8,05 nach oben und RSI14 (57) bestaetigt keine Schwaeche. Ein LONG widerspricht dem Wochenabwaertstrend ohne Volumenbestaetigung (volume_ratio null); bei negativem Track Record in Metall und Konviktion 3 rechtfertigt dieser Widerspruch FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

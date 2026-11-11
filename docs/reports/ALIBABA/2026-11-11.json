@@ -1,0 +1,67 @@
+{
+  "symbol": "BABA",
+  "display": "ALIBABA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T02:16:49.468931+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 102.72,
+    "change_pct": -2.52419,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 102.72,
+    "change_pct": -2.5241981400645255,
+    "sma20": 104.313,
+    "sma50": 107.7968,
+    "sma200": 123.9554,
+    "rsi14": 47.13,
+    "macd": {
+      "macd": -1.1505,
+      "signal": -1.8331,
+      "hist": 0.6826
+    },
+    "atr14": 3.3272,
+    "high_52w": 177.17999,
+    "low_52w": 94.81,
+    "pct_from_high": -42.03,
+    "pct_from_low": 8.34,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 111.17
+      },
+      {
+        "type": "support",
+        "price": 98.04
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 102.72
+    },
+    "volume_ratio": 0.88
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 47",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: Kurs 112.14 ueber SMA20 (108.24), aber unter SMA50 (116.17) und ~21% unter SMA200 (142.45), Wochentrend 'down', Tagestrend 'side/neutral'. Ein Long waere Chasing Richtung Widerstand 120.34 bei RSI ~70 und schwachem Volumen (ratio 0.49), ein Short widerspricht dem positiven MACD-Histogramm (+1.23). Bei risk-off geneigtem Makrobild und negativer Trefferbilanz der Konviktionsstufe 3 (avg_R -0.17) ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

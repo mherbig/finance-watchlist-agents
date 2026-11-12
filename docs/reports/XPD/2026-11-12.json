@@ -1,0 +1,67 @@
+{
+  "symbol": "XPD/USD",
+  "display": "XPD",
+  "asset_class": "metal",
+  "track": "technical",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T03:26:15.685422+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 1037.5,
+    "change_pct": -0.594,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 1037.5,
+    "change_pct": -0.5940357824979912,
+    "sma20": 1032.325,
+    "sma50": 1155.052,
+    "sma200": 1372.2695,
+    "rsi14": 48.45,
+    "macd": {
+      "macd": -35.7385,
+      "signal": -47.6737,
+      "hist": 11.9352
+    },
+    "atr14": 22.6929,
+    "high_52w": 2169.89990234375,
+    "low_52w": 930.0,
+    "pct_from_high": -52.19,
+    "pct_from_low": 11.56,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 1116.1
+      },
+      {
+        "type": "support",
+        "price": 930.0
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 1037.5
+    },
+    "volume_ratio": 4.45
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 48",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "XPD/USD notiert bei 1253 direkt an der SMA20, aber unter SMA50/200 mit Tagestrend seitwaerts, neutralem Bias und RSI 49 - fuer einen Long fehlt bei klar abwaertsgerichtetem Wochentrend und schwachem Metall-Makro (XAU Tages- und Wochentrend down) die Grundlage. Fuer einen frischen Short spricht wenig: das MACD-Histogramm dreht positiv (+5,8, nachlassende Abwaertsdynamik) und der Kurs sitzt naeher an der Unterstuetzung 1200 als an der Resistance 1302,9 - ein schlechter Verkaufseinstieg. Zusammen mit dem leicht negativen Metall-Track-Record und der widerspruechlichen Lage ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

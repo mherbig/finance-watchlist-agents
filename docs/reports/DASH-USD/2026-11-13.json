@@ -1,0 +1,67 @@
+{
+  "symbol": "DASH/USD",
+  "display": "DASH/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T02:59:43.843941+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 40.41,
+    "change_pct": -2.34413,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 40.41,
+    "change_pct": -2.344127597873383,
+    "sma20": 47.286,
+    "sma50": 52.0202,
+    "sma200": 43.1748,
+    "rsi14": 31.75,
+    "macd": {
+      "macd": -2.6766,
+      "signal": -2.1061,
+      "hist": -0.5705
+    },
+    "atr14": 3.4136,
+    "high_52w": 71.84,
+    "low_52w": 29.68,
+    "pct_from_high": -43.75,
+    "pct_from_low": 36.15,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 54.97
+      },
+      {
+        "type": "support",
+        "price": 40.41
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 40.41
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 32",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Strukturell klar bearisch: Wochentrend seit 36 Wochen abwaerts, Kurs 32.53 unter SMA20 (33.88), SMA50 (34.69) und weit unter SMA200 (39.40), rund 62% unter dem 52W-Hoch, MACD negativ. Fuer einen frischen Short fehlt der Trigger, denn der Kurs sitzt direkt auf Support 32.14 nahe dem 52W-Tief (29.87), RSI 40 ist neutral (nicht ueberverkauft) und die Volumenbestaetigung fehlt (volume_ratio null). Ein Long widerspricht dem Wochentrend und dem risk-off Makrobild (BTC/USD Wochentrend down, NQ100 down); zudem laeuft die Krypto-Klasse im Track Record klar negativ (avg_R -0.45) -> FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "AUD/USD",
+  "display": "AUD/USD",
+  "asset_class": "forex",
+  "track": "technical",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T02:59:43.843941+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.68106,
+    "change_pct": 0.11318702,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.68106,
+    "change_pct": 0.11318702318129745,
+    "sma20": 0.6952,
+    "sma50": 0.697,
+    "sma200": 0.7054,
+    "rsi14": 25.1,
+    "macd": {
+      "macd": -0.0048,
+      "signal": -0.003,
+      "hist": -0.0017
+    },
+    "atr14": 0.0052,
+    "high_52w": 0.72584,
+    "low_52w": 0.68029,
+    "pct_from_high": -6.17,
+    "pct_from_low": 0.11,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.7056
+      },
+      {
+        "type": "support",
+        "price": 0.6803
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 36,
+      "last_close": 0.68106
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 25",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Tagestrend ist zwar aufwaerts mit bullischem MACD, doch RSI 68 laeuft direkt in den Widerstand 0.7007, waehrend der Wochentrend seit 38 Wochen klar abwaerts zeigt und der Kurs unter der SMA200 (0.7024) bleibt. Das Makro-Bild stuetzt einen festen USD (EUR/USD Tages- und Wochentrend abwaerts, XAU und NQ schwach, S&P Wochentrend abwaerts), was den risikosensitiven AUD belastet, und ohne Volumenbestaetigung ist der Long ins Overbought nicht tragfaehig. Bei negativer Forex-Bilanz (avg_R -0.25) und diesem Widerspruch ist Abwarten die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

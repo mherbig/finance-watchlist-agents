@@ -1,0 +1,67 @@
+{
+  "symbol": "N225",
+  "display": "Nikkei225",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T02:32:27.361892+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 60069.92,
+    "change_pct": -1.754,
+    "currency": "JPY"
+  },
+  "technical": {
+    "last_close": 60069.921875,
+    "change_pct": -1.7539882914116531,
+    "sma20": 62143.7303,
+    "sma50": 64601.383,
+    "sma200": 62164.1621,
+    "rsi14": 43.09,
+    "macd": {
+      "macd": -1449.4386,
+      "signal": -1375.0592,
+      "hist": -74.3793
+    },
+    "atr14": 1738.6621,
+    "high_52w": 72366.34375,
+    "low_52w": 48537.69921875,
+    "pct_from_high": -16.99,
+    "pct_from_low": 23.76,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 64916.6992
+      },
+      {
+        "type": "support",
+        "price": 57434.7695
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 60069.921875
+    },
+    "volume_ratio": 0.75
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 43",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (66.423 Close) liegt unter SMA20 (68.240) und SMA50 (66.870), das MACD-Histogramm ist mit -459 klar negativ und RSI14 von 43 zeigt kein Momentum, sodass ein LONG gegen den Abwaertsdruck laeuft. Ein SHORT ist jedoch spaet: Tages- und Wochentrend sind beide 'side', das Volumen (0,85) liegt unter dem Schnitt und der Kurs sitzt direkt auf der Unterstuetzung 64.141 bei ohnehin risikoscheuem Makro (NQ100 down, S&P/XAU/EUR-USD schwach). Da die Index-Klasse im Track-Record mit avg_R -0,51 die schwaechste ist, bleibe ich diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

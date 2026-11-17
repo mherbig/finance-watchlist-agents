@@ -1,0 +1,67 @@
+{
+  "symbol": "DOGE/USD",
+  "display": "DOGE/USD",
+  "asset_class": "crypto",
+  "track": "technical",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T04:55:34.500502+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 0.05926,
+    "change_pct": 0.55998642,
+    "currency": null
+  },
+  "technical": {
+    "last_close": 0.05926,
+    "change_pct": 0.5599864245715204,
+    "sma20": 0.0693,
+    "sma50": 0.0786,
+    "sma200": 0.0838,
+    "rsi14": 23.5,
+    "macd": {
+      "macd": -0.0054,
+      "signal": -0.0045,
+      "hist": -0.0009
+    },
+    "atr14": 0.004,
+    "high_52w": 0.11546,
+    "low_52w": 0.05737,
+    "pct_from_high": -48.67,
+    "pct_from_low": 3.29,
+    "trend": "down",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 0.0771
+      },
+      {
+        "type": "support",
+        "price": 0.0574
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 37,
+      "last_close": 0.05926
+    },
+    "volume_ratio": null
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 24",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Wochentrend zeigt seit 36 Wochen abwaerts und der Kurs (0.07261) notiert unter SMA50/200 - ein Long liefe frontal gegen den uebergeordneten Trend. Ein neuer Short ist jedoch ebenso schwach begruendet: Der Kurs klebt nur ~5% ueber Support 0.0692/52W-Tief, RSI14 ist mit 49.6 neutral, das MACD-Histogramm dreht mit +0.0003 leicht nach oben und mangels volume_ratio fehlt jede Volumenbestaetigung. Angesichts dieses Widerspruchs und der klar negativen Krypto-Klasse im Track Record (avg_R -0.45) lautet das Urteil FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

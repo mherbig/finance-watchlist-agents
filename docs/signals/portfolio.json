@@ -1,21 +1,21 @@
 {
   "summary": {
     "start_equity": 100000.0,
-    "current_equity": 95738.3841,
-    "return_pct": -4.2616,
-    "open_count": 0,
+    "current_equity": 95646.2645,
+    "return_pct": -4.3537,
+    "open_count": 1,
     "no_fill_count": 0,
-    "closed_count": 37,
-    "wins": 13,
-    "losses": 24,
-    "win_rate": 0.3514,
-    "total_pnl": -4261.6159,
-    "total_costs": 408.817,
-    "max_drawdown": -6145.3491,
+    "closed_count": 35,
+    "wins": 12,
+    "losses": 23,
+    "win_rate": 0.3429,
+    "total_pnl": -4353.7355,
+    "total_costs": 384.1212,
+    "max_drawdown": -5843.1591,
     "unrealized_pnl": 0,
-    "marked_equity": 95738.3841,
-    "marked_return_pct": -4.2616,
-    "skipped_count": 39,
+    "marked_equity": 95646.2645,
+    "marked_return_pct": -4.3537,
+    "skipped_count": 38,
     "ruleset_frozen_since": "2026-07-08"
   },
   "equity_curve": [
@@ -76,100 +76,92 @@
       "equity": 94156.8409
     },
     {
-      "date": "2026-07-10",
-      "equity": 93854.6509
+      "date": "2026-07-11",
+      "equity": 94369.166
     },
     {
       "date": "2026-07-11",
-      "equity": 94066.976
+      "equity": 94651.686
     },
     {
       "date": "2026-07-11",
-      "equity": 94349.496
-    },
-    {
-      "date": "2026-07-11",
-      "equity": 94293.8713
+      "equity": 94596.0613
     },
     {
       "date": "2026-07-12",
-      "equity": 94328.0439
+      "equity": 94630.2339
     },
     {
       "date": "2026-07-15",
-      "equity": 94032.2259
+      "equity": 94333.4682
     },
     {
       "date": "2026-07-15",
-      "equity": 94128.9729
+      "equity": 94430.5251
     },
     {
       "date": "2026-07-16",
-      "equity": 93994.9282
+      "equity": 94296.4804
     },
     {
       "date": "2026-07-16",
-      "equity": 94735.3533
+      "equity": 95036.9055
     },
     {
       "date": "2026-07-16",
-      "equity": 94911.9848
+      "equity": 95214.1028
     },
     {
       "date": "2026-07-19",
-      "equity": 94733.1049
+      "equity": 95034.6497
     },
     {
       "date": "2026-07-20",
-      "equity": 94535.2503
+      "equity": 94836.1613
     },
     {
       "date": "2026-07-20",
-      "equity": 94174.8204
+      "equity": 94475.7314
     },
     {
       "date": "2026-07-20",
-      "equity": 94294.7511
+      "equity": 94595.6621
     },
     {
       "date": "2026-07-23",
-      "equity": 94996.4897
+      "equity": 95299.6488
     },
     {
       "date": "2026-07-24",
-      "equity": 94873.4796
+      "equity": 95176.2462
     },
     {
       "date": "2026-07-24",
-      "equity": 94901.7092
+      "equity": 95204.5659
     },
     {
       "date": "2026-07-24",
-      "equity": 95235.4697
+      "equity": 95539.3914
     },
     {
       "date": "2026-07-24",
-      "equity": 95631.8515
+      "equity": 95418.6885
     },
     {
       "date": "2026-07-24",
-      "equity": 95511.5316
-    },
-    {
-      "date": "2026-07-24",
-      "equity": 95823.6045
+      "equity": 95731.7572
     },
     {
       "date": "2026-07-25",
-      "equity": 95715.2
+      "equity": 95623.0067
     },
     {
       "date": "2026-07-26",
-      "equity": 96220.6752
+      "equity": 96130.0947
     },
     {
       "date": "2026-07-30",
-      "equity": 95738.3841
+      "equity": 95646.2645
     }
   ],
   "closed": [
@@ -408,24 +400,6 @@
       "status": "sl"
     },
     {
-      "symbol": "AUD/USD",
-      "display": "AUD/USD",
-      "date": "2026-07-02",
-      "direction": "SHORT",
-      "conviction": 3,
-      "entry": 0.6916,
-      "stop_loss": 0.6981,
-      "take_profit": 0.6819,
-      "exit_date": "2026-07-10",
-      "exit_price": 0.69539,
-      "realized_R": -0.5831,
-      "risk_amount": 500.0,
-      "cost": 10.64,
-      "pnl": -302.19,
-      "win": false,
-      "status": "flip"
-    },
-    {
       "symbol": "BAC",
       "display": "BOA",
       "date": "2026-07-02",
@@ -509,9 +483,9 @@
       "exit_date": "2026-07-15",
       "exit_price": 0.98392,
       "realized_R": -0.6,
-      "risk_amount": 471.6402,
-      "cost": 12.8339,
-      "pnl": -295.818,
+      "risk_amount": 473.1512,
+      "cost": 12.875,
+      "pnl": -296.7657,
       "win": false,
       "status": "flip"
     },
@@ -527,9 +501,9 @@
       "exit_date": "2026-07-15",
       "exit_price": 57.11000061035156,
       "realized_R": 0.2122,
-      "risk_amount": 471.6402,
-      "cost": 3.3351,
-      "pnl": 96.747,
+      "risk_amount": 473.1512,
+      "cost": 3.3458,
+      "pnl": 97.0569,
       "win": true,
       "status": "flip"
     },
@@ -581,9 +555,9 @@
       "exit_date": "2026-07-16",
       "exit_price": 113.63032,
       "realized_R": 0.3964,
-      "risk_amount": 471.6402,
-      "cost": 10.3267,
-      "pnl": 176.6315,
+      "risk_amount": 473.1512,
+      "cost": 10.3598,
+      "pnl": 177.1973,
       "win": true,
       "status": "flip"
     },
@@ -599,9 +573,9 @@
       "exit_date": "2026-07-19",
       "exit_price": 8796.7001953125,
       "realized_R": -0.3518,
-      "risk_amount": 470.6449,
-      "cost": 13.307,
-      "pnl": -178.8799,
+      "risk_amount": 472.1526,
+      "cost": 13.3498,
+      "pnl": -179.4531,
       "win": false,
       "status": "flip"
     },
@@ -617,9 +591,9 @@
       "exit_date": "2026-07-20",
       "exit_price": 0.98481,
       "realized_R": -0.3887,
-      "risk_amount": 470.6449,
-      "cost": 14.9149,
-      "pnl": -197.8546,
+      "risk_amount": 472.1526,
+      "cost": 14.9627,
+      "pnl": -198.4884,
       "win": false,
       "status": "flip"
     },
@@ -671,9 +645,9 @@
       "exit_date": "2026-07-23",
       "exit_price": 345.9414,
       "realized_R": 1.5,
-      "risk_amount": 471.6402,
-      "cost": 5.7217,
-      "pnl": 701.7386,
+      "risk_amount": 473.1512,
+      "cost": 5.7401,
+      "pnl": 703.9867,
       "win": true,
       "status": "tp"
     },
@@ -689,9 +663,9 @@
       "exit_date": "2026-07-24",
       "exit_price": 206.0500030517578,
       "realized_R": -0.2388,
-      "risk_amount": 471.4738,
-      "cost": 10.4222,
-      "pnl": -123.0101,
+      "risk_amount": 472.9783,
+      "cost": 10.4554,
+      "pnl": -123.4026,
       "win": false,
       "status": "flip"
     },
@@ -707,9 +681,9 @@
       "exit_date": "2026-07-24",
       "exit_price": 427.1000061035156,
       "realized_R": 0.1043,
-      "risk_amount": 471.4738,
-      "cost": 20.9451,
-      "pnl": 28.2296,
+      "risk_amount": 472.9783,
+      "cost": 21.0119,
+      "pnl": 28.3197,
       "win": true,
       "status": "flip"
     },
@@ -725,27 +699,9 @@
       "exit_date": "2026-07-24",
       "exit_price": 116.26121,
       "realized_R": 0.7365,
-      "risk_amount": 471.4738,
-      "cost": 13.48,
-      "pnl": 333.7605,
-      "win": true,
-      "status": "flip"
-    },
-    {
-      "symbol": "EUR/JPY",
-      "display": "EUR/JPY",
-      "date": "2026-07-14",
-      "direction": "LONG",
-      "conviction": 3,
-      "entry": 185.2975,
-      "stop_loss": 184.0969,
-      "take_profit": 187.0983,
-      "exit_date": "2026-07-24",
-      "exit_price": 186.34358,
-      "realized_R": 0.8713,
-      "risk_amount": 471.6402,
-      "cost": 14.5583,
-      "pnl": 396.3818,
+      "risk_amount": 472.9783,
+      "cost": 13.523,
+      "pnl": 334.8255,
       "win": true,
       "status": "flip"
     },
@@ -761,9 +717,9 @@
       "exit_date": "2026-07-24",
       "exit_price": 70.089996,
       "realized_R": -0.2401,
-      "risk_amount": 474.5599,
-      "cost": 6.3781,
-      "pnl": -120.3199,
+      "risk_amount": 476.0705,
+      "cost": 6.3984,
+      "pnl": -120.7029,
       "win": false,
       "status": "flip"
     },
@@ -779,9 +735,9 @@
       "exit_date": "2026-07-24",
       "exit_price": 163.85393,
       "realized_R": 0.6958,
-      "risk_amount": 471.4738,
-      "cost": 15.9786,
-      "pnl": 312.0729,
+      "risk_amount": 472.9783,
+      "cost": 16.0296,
+      "pnl": 313.0687,
       "win": true,
       "status": "flip"
     },
@@ -797,9 +753,9 @@
       "exit_date": "2026-07-25",
       "exit_price": 58.65599822998047,
       "realized_R": -0.2215,
-      "risk_amount": 471.4738,
-      "cost": 3.9731,
-      "pnl": -108.4045,
+      "risk_amount": 472.9783,
+      "cost": 3.9858,
+      "pnl": -108.7505,
       "win": false,
       "status": "flip"
     },
@@ -815,9 +771,9 @@
       "exit_date": "2026-07-26",
       "exit_price": 10736.2001953125,
       "realized_R": 1.1032,
-      "risk_amount": 471.4738,
-      "cost": 14.6547,
-      "pnl": 505.4752,
+      "risk_amount": 472.9783,
+      "cost": 14.7017,
+      "pnl": 507.088,
       "win": true,
       "status": "flip"
     },
@@ -833,709 +789,733 @@
       "exit_date": "2026-07-30",
       "exit_price": 0.8074,
       "realized_R": -1.0,
-      "risk_amount": 471.4738,
-      "cost": 10.8173,
-      "pnl": -482.2911,
+      "risk_amount": 472.9783,
+      "cost": 10.8519,
+      "pnl": -483.8302,
       "win": false,
       "status": "sl"
     }
   ],
-  "open": [],
+  "open": [
+    {
+      "symbol": "AUD/USD",
+      "display": "AUD/USD",
+      "date": "2026-07-02",
+      "direction": "SHORT",
+      "conviction": 3,
+      "entry": 0.6916,
+      "stop_loss": 0.6981,
+      "take_profit": 0.6819,
+      "rr": 1.5,
+      "risk_amount": 500.0,
+      "units": 76923.0769,
+      "horizon_days": 14,
+      "pending": false,
+      "current_price": null,
+      "unrealized_pct": null,
+      "unrealized_pnl": null
+    }
+  ],
   "marked_curve": [
     {
       "date": "2026-07-02",
       "equity": 100000.0,
-      "marked_equity": 99857.8517
+      "marked_equity": 99909.3901
     },
     {
       "date": "2026-07-03",
       "equity": 100000.0,
-      "marked_equity": 98781.0114
+      "marked_equity": 98964.0883
     },
     {
       "date": "2026-07-04",
       "equity": 99061.2943,
-      "marked_equity": 98587.1461
+      "marked_equity": 98751.7615
     },
     {
       "date": "2026-07-05",
       "equity": 98287.1559,
-      "marked_equity": 98246.7928
+      "marked_equity": 98408.3313
     },
     {
       "date": "2026-07-06",
       "equity": 97719.9019,
-      "marked_equity": 98013.005
+      "marked_equity": 98325.3127
     },
     {
       "date": "2026-07-07",
       "equity": 97719.9019,
-      "marked_equity": 97469.7555
+      "marked_equity": 97571.294
     },
     {
       "date": "2026-07-08",
       "equity": 95678.4889,
-      "marked_equity": 94828.211
+      "marked_equity": 94943.5956
     },
     {
       "date": "2026-07-09",
       "equity": 94156.8409,
-      "marked_equity": 94595.7339
+      "marked_equity": 94796.5031
     },
     {
       "date": "2026-07-10",
-      "equity": 93854.6509,
-      "marked_equity": 94595.4837
+      "equity": 94156.8409,
+      "marked_equity": 94897.6737
     },
     {
       "date": "2026-07-11",
-      "equity": 94293.8713,
-      "marked_equity": 94615.307
+      "equity": 94596.0613,
+      "marked_equity": 94917.497
     },
     {
       "date": "2026-07-12",
-      "equity": 94328.0439,
-      "marked_equity": 94590.1684
+      "equity": 94630.2339,
+      "marked_equity": 94892.3584
     },
     {
       "date": "2026-07-13",
-      "equity": 94328.0439,
-      "marked_equity": 94967.5403
+      "equity": 94630.2339,
+      "marked_equity": 95269.9308
     },
     {
       "date": "2026-07-14",
-      "equity": 94328.0439,
-      "marked_equity": 94214.3785
+      "equity": 94630.2339,
+      "marked_equity": 94502.0447
     },
     {
       "date": "2026-07-15",
-      "equity": 94128.9729,
-      "marked_equity": 94765.6339
+      "equity": 94430.5251,
+      "marked_equity": 94819.0677
     },
     {
       "date": "2026-07-16",
-      "equity": 94911.9848,
-      "marked_equity": 95092.251
+      "equity": 95214.1028,
+      "marked_equity": 95194.3226
     },
     {
       "date": "2026-07-17",
-      "equity": 94911.9848,
-      "marked_equity": 95088.169
+      "equity": 95214.1028,
+      "marked_equity": 95209.2586
     },
     {
       "date": "2026-07-18",
-      "equity": 94911.9848,
-      "marked_equity": 95154.1866
+      "equity": 95214.1028,
+      "marked_equity": 95262.3591
     },
     {
       "date": "2026-07-19",
-      "equity": 94733.1049,
-      "marked_equity": 95282.7736
+      "equity": 95034.6497,
+      "marked_equity": 95394.7883
     },
     {
       "date": "2026-07-20",
-      "equity": 94294.7511,
-      "marked_equity": 94854.2393
+      "equity": 94595.6621,
+      "marked_equity": 95078.873
     },
     {
       "date": "2026-07-21",
-      "equity": 94294.7511,
-      "marked_equity": 94837.4993
+      "equity": 94595.6621,
+      "marked_equity": 94853.9636
     },
     {
       "date": "2026-07-22",
-      "equity": 94294.7511,
-      "marked_equity": 95511.3136
+      "equity": 94595.6621,
+      "marked_equity": 95454.3928
     },
     {
       "date": "2026-07-23",
-      "equity": 94996.4897,
-      "marked_equity": 96262.0838
+      "equity": 95299.6488,
+      "marked_equity": 96115.8835
     },
     {
       "date": "2026-07-24",
-      "equity": 95823.6045,
-      "marked_equity": 96486.3212
+      "equity": 95731.7572,
+      "marked_equity": 96396.597
     },
     {
       "date": "2026-07-25",
-      "equity": 95715.2,
-      "marked_equity": 96484.3572
+      "equity": 95623.0067,
+      "marked_equity": 96394.6267
     },
     {
       "date": "2026-07-26",
-      "equity": 96220.6752,
-      "marked_equity": 96333.5633
+      "equity": 96130.0947,
+      "marked_equity": 96243.343
     },
     {
       "date": "2026-07-27",
-      "equity": 96220.6752,
-      "marked_equity": 96540.7461
+      "equity": 96130.0947,
+      "marked_equity": 96451.187
     },
     {
       "date": "2026-07-28",
-      "equity": 96220.6752,
-      "marked_equity": 96544.7304
+      "equity": 96130.0947,
+      "marked_equity": 96455.184
     },
     {
       "date": "2026-07-29",
-      "equity": 96220.6752,
-      "marked_equity": 96160.2469
+      "equity": 96130.0947,
+      "marked_equity": 96069.4735
     },
     {
       "date": "2026-07-30",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-07-31",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-01",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-02",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-03",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-04",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-05",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-06",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-07",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-08",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-09",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-10",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-11",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-12",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-13",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-14",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-15",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-16",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-17",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-18",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-19",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-20",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-21",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-22",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-23",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-24",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-25",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-26",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-27",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-28",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-29",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-30",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-08-31",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-01",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-02",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-03",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-04",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-05",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-06",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-07",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-08",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-09",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-10",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-11",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-12",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-13",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-14",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-15",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-16",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-17",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-18",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-19",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-20",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-21",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-22",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-23",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-24",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-25",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-26",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-27",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-28",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-29",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-09-30",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-01",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-02",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-03",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-04",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-05",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-06",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-07",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-08",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-09",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-10",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-11",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-12",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-13",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-14",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-15",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-16",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-17",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-18",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-19",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-20",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-21",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-22",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-23",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-24",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-25",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-26",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-27",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-28",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-29",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-30",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-10-31",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-01",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-02",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-03",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-04",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-05",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-06",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-07",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-08",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-09",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-10",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-11",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-12",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-13",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-14",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-15",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-16",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     },
     {
       "date": "2026-11-17",
-      "equity": 95738.3841,
-      "marked_equity": 95738.3841
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
+    },
+    {
+      "date": "2026-11-18",
+      "equity": 95646.2645,
+      "marked_equity": 95646.2645
     }
   ],
   "benchmark_curve": [
@@ -1545,555 +1525,559 @@
     },
     {
       "date": "2026-07-03",
-      "equity": 100692.0427
+      "equity": 100706.6205
     },
     {
       "date": "2026-07-04",
-      "equity": 100846.4057
+      "equity": 100865.386
     },
     {
       "date": "2026-07-05",
-      "equity": 100901.4793
+      "equity": 100921.9459
     },
     {
       "date": "2026-07-06",
-      "equity": 101199.3518
+      "equity": 101200.4943
     },
     {
       "date": "2026-07-07",
-      "equity": 100557.78
+      "equity": 100545.5158
     },
     {
       "date": "2026-07-08",
-      "equity": 99945.1888
+      "equity": 99935.0863
     },
     {
       "date": "2026-07-09",
-      "equity": 100510.0058
+      "equity": 100523.1234
     },
     {
       "date": "2026-07-10",
-      "equity": 100744.7174
+      "equity": 100767.7593
     },
     {
       "date": "2026-07-11",
-      "equity": 100636.5598
+      "equity": 100656.958
     },
     {
       "date": "2026-07-12",
-      "equity": 100590.4746
+      "equity": 100610.4505
     },
     {
       "date": "2026-07-13",
-      "equity": 100080.5982
+      "equity": 100109.9691
     },
     {
       "date": "2026-07-14",
-      "equity": 100960.0044
+      "equity": 100976.4701
     },
     {
       "date": "2026-07-15",
-      "equity": 101271.0016
+      "equity": 101248.7787
     },
     {
       "date": "2026-07-16",
-      "equity": 100593.1343
+      "equity": 100613.7929
     },
     {
       "date": "2026-07-17",
-      "equity": 100126.3545
+      "equity": 100165.5855
     },
     {
       "date": "2026-07-18",
-      "equity": 100287.4545
+      "equity": 100330.6867
     },
     {
       "date": "2026-07-19",
-      "equity": 100346.4392
+      "equity": 100392.8877
     },
     {
       "date": "2026-07-20",
-      "equity": 100441.3348
+      "equity": 100466.6959
     },
     {
       "date": "2026-07-21",
-      "equity": 101358.1992
+      "equity": 101424.514
     },
     {
       "date": "2026-07-22",
-      "equity": 101403.4575
+      "equity": 101489.0129
     },
     {
       "date": "2026-07-23",
-      "equity": 100341.7009
+      "equity": 100492.4483
     },
     {
       "date": "2026-07-24",
-      "equity": 99988.9046
+      "equity": 100120.4331
     },
     {
       "date": "2026-07-25",
-      "equity": 100083.8066
+      "equity": 100217.8981
     },
     {
       "date": "2026-07-26",
-      "equity": 100291.2871
+      "equity": 100428.9763
     },
     {
       "date": "2026-07-27",
-      "equity": 99882.7009
+      "equity": 99986.0642
     },
     {
       "date": "2026-07-28",
-      "equity": 99732.3534
+      "equity": 99809.3183
     },
     {
       "date": "2026-07-29",
-      "equity": 99201.4881
+      "equity": 99257.6734
     },
     {
       "date": "2026-07-30",
-      "equity": 100079.6303
+      "equity": 100155.344
     },
     {
       "date": "2026-07-31",
-      "equity": 100076.8622
+      "equity": 100072.7969
     },
     {
       "date": "2026-08-01",
-      "equity": 100084.2357
+      "equity": 100081.5632
     },
     {
       "date": "2026-08-02",
-      "equity": 100376.1315
+      "equity": 100377.4433
     },
     {
       "date": "2026-08-03",
-      "equity": 100924.2219
+      "equity": 100884.9925
     },
     {
       "date": "2026-08-04",
-      "equity": 101871.2863
+      "equity": 101833.1299
     },
     {
       "date": "2026-08-05",
-      "equity": 101928.4518
+      "equity": 101943.9584
     },
     {
       "date": "2026-08-06",
-      "equity": 102015.9474
+      "equity": 102055.0537
     },
     {
       "date": "2026-08-07",
-      "equity": 102430.7756
+      "equity": 102486.2706
     },
     {
       "date": "2026-08-08",
-      "equity": 102566.2472
+      "equity": 102625.2714
     },
     {
       "date": "2026-08-09",
-      "equity": 102495.86
+      "equity": 102553.1349
     },
     {
       "date": "2026-08-10",
-      "equity": 102645.1035
+      "equity": 102697.124
     },
     {
       "date": "2026-08-11",
-      "equity": 102462.2775
+      "equity": 102556.9828
     },
     {
       "date": "2026-08-12",
-      "equity": 102241.3209
+      "equity": 102331.083
     },
     {
       "date": "2026-08-13",
-      "equity": 102442.9769
+      "equity": 102528.4757
     },
     {
       "date": "2026-08-14",
-      "equity": 102531.435
+      "equity": 102616.3032
     },
     {
       "date": "2026-08-15",
-      "equity": 102530.5817
+      "equity": 102615.6132
     },
     {
       "date": "2026-08-16",
-      "equity": 102457.4233
+      "equity": 102539.9493
     },
     {
       "date": "2026-08-17",
-      "equity": 102498.8219
+      "equity": 102585.955
     },
     {
       "date": "2026-08-18",
-      "equity": 102097.2385
+      "equity": 102176.7142
     },
     {
       "date": "2026-08-19",
-      "equity": 103513.0302
+      "equity": 103619.6778
     },
     {
       "date": "2026-08-20",
-      "equity": 104144.5246
+      "equity": 104283.9393
     },
     {
       "date": "2026-08-21",
-      "equity": 105914.1045
+      "equity": 106073.554
     },
     {
       "date": "2026-08-22",
-      "equity": 105948.1051
+      "equity": 106108.5375
     },
     {
       "date": "2026-08-23",
-      "equity": 106208.1603
+      "equity": 106375.9275
     },
     {
       "date": "2026-08-24",
-      "equity": 105975.4869
+      "equity": 106128.7655
     },
     {
       "date": "2026-08-25",
-      "equity": 105536.9099
+      "equity": 105680.2315
     },
     {
       "date": "2026-08-26",
-      "equity": 105782.1386
+      "equity": 105947.62
     },
     {
       "date": "2026-08-27",
-      "equity": 106265.7135
+      "equity": 106444.4955
     },
     {
       "date": "2026-08-28",
-      "equity": 105915.6193
+      "equity": 106070.4324
     },
     {
       "date": "2026-08-29",
-      "equity": 106016.7102
+      "equity": 106173.856
     },
     {
       "date": "2026-08-30",
-      "equity": 105738.9147
+      "equity": 105890.0303
     },
     {
       "date": "2026-08-31",
-      "equity": 105990.374
+      "equity": 106171.9863
     },
     {
       "date": "2026-09-01",
-      "equity": 105252.153
+      "equity": 105434.3536
     },
     {
       "date": "2026-09-02",
-      "equity": 105301.8956
+      "equity": 105473.2056
     },
     {
       "date": "2026-09-03",
-      "equity": 106807.6383
+      "equity": 106992.797
     },
     {
       "date": "2026-09-04",
-      "equity": 107062.5462
+      "equity": 107267.9127
     },
     {
       "date": "2026-09-05",
-      "equity": 107768.9686
+      "equity": 107992.7633
     },
     {
       "date": "2026-09-06",
-      "equity": 108053.7149
+      "equity": 108285.2182
     },
     {
       "date": "2026-09-07",
-      "equity": 107402.8838
+      "equity": 107614.1805
     },
     {
       "date": "2026-09-08",
-      "equity": 107215.7387
+      "equity": 107423.0189
     },
     {
       "date": "2026-09-09",
-      "equity": 106758.0173
+      "equity": 106980.7474
     },
     {
       "date": "2026-09-10",
-      "equity": 105742.2566
+      "equity": 105943.4774
     },
     {
       "date": "2026-09-11",
-      "equity": 106513.7439
+      "equity": 106711.026
     },
     {
       "date": "2026-09-12",
-      "equity": 106609.7321
+      "equity": 106809.4754
     },
     {
       "date": "2026-09-13",
-      "equity": 106305.65
+      "equity": 106499.0964
     },
     {
       "date": "2026-09-14",
-      "equity": 106280.6349
+      "equity": 106438.815
     },
     {
       "date": "2026-09-15",
-      "equity": 105331.1416
+      "equity": 105482.37
     },
     {
       "date": "2026-09-16",
-      "equity": 105535.4538
+      "equity": 105707.5858
     },
     {
       "date": "2026-09-17",
-      "equity": 106597.5494
+      "equity": 106776.805
     },
     {
       "date": "2026-09-18",
-      "equity": 107781.8527
+      "equity": 107980.6951
     },
     {
       "date": "2026-09-19",
-      "equity": 107575.8103
+      "equity": 107769.0362
     },
     {
       "date": "2026-09-20",
-      "equity": 107667.0432
+      "equity": 107863.7381
     },
     {
       "date": "2026-09-21",
-      "equity": 109762.1453
+      "equity": 109993.6073
     },
     {
       "date": "2026-09-22",
-      "equity": 109971.3102
+      "equity": 110222.485
     },
     {
       "date": "2026-09-23",
-      "equity": 108506.1533
+      "equity": 108781.1515
     },
     {
       "date": "2026-09-24",
-      "equity": 109735.1547
+      "equity": 110030.7148
     },
     {
       "date": "2026-09-25",
-      "equity": 110003.4568
+      "equity": 110297.8392
     },
     {
       "date": "2026-09-26",
-      "equity": 110136.8026
+      "equity": 110434.493
     },
     {
       "date": "2026-09-27",
-      "equity": 109980.3565
+      "equity": 110275.9801
     },
     {
       "date": "2026-09-28",
-      "equity": 108570.6841
+      "equity": 108834.0336
     },
     {
       "date": "2026-09-29",
-      "equity": 108024.0348
+      "equity": 108285.5163
     },
     {
       "date": "2026-09-30",
-      "equity": 108086.1411
+      "equity": 108345.7555
     },
     {
       "date": "2026-10-01",
-      "equity": 107722.5834
+      "equity": 107996.2344
     },
     {
       "date": "2026-10-02",
-      "equity": 107799.3104
+      "equity": 108051.6916
     },
     {
       "date": "2026-10-03",
-      "equity": 107986.1097
+      "equity": 108243.9288
     },
     {
       "date": "2026-10-04",
-      "equity": 108331.9746
+      "equity": 108597.6805
     },
     {
       "date": "2026-10-05",
-      "equity": 108503.0984
+      "equity": 108760.0938
     },
     {
       "date": "2026-10-06",
-      "equity": 108526.0919
+      "equity": 108777.0889
     },
     {
       "date": "2026-10-07",
-      "equity": 107522.5352
+      "equity": 107741.4216
     },
     {
       "date": "2026-10-08",
-      "equity": 106236.7742
+      "equity": 106431.3239
     },
     {
       "date": "2026-10-09",
-      "equity": 106828.9034
+      "equity": 107021.2979
     },
     {
       "date": "2026-10-10",
-      "equity": 107016.5771
+      "equity": 107214.1912
     },
     {
       "date": "2026-10-11",
-      "equity": 107331.2268
+      "equity": 107537.7052
     },
     {
       "date": "2026-10-12",
-      "equity": 106412.7693
+      "equity": 106596.4589
     },
     {
       "date": "2026-10-13",
-      "equity": 106734.859
+      "equity": 106918.2719
     },
     {
       "date": "2026-10-14",
-      "equity": 105619.0609
+      "equity": 105797.7352
     },
     {
       "date": "2026-10-15",
-      "equity": 105997.7742
+      "equity": 106190.3463
     },
     {
       "date": "2026-10-16",
-      "equity": 105461.0094
+      "equity": 105665.5779
     },
     {
       "date": "2026-10-17",
-      "equity": 105260.527
+      "equity": 105459.5846
     },
     {
       "date": "2026-10-18",
-      "equity": 105408.2489
+      "equity": 105606.9273
     },
     {
       "date": "2026-10-19",
-      "equity": 105624.9187
+      "equity": 105814.7164
     },
     {
       "date": "2026-10-20",
-      "equity": 105855.0295
+      "equity": 106060.5271
     },
     {
       "date": "2026-10-21",
-      "equity": 106138.9761
+      "equity": 106365.8429
     },
     {
       "date": "2026-10-22",
-      "equity": 104578.711
+      "equity": 104805.4495
     },
     {
       "date": "2026-10-23",
-      "equity": 104085.6623
+      "equity": 104310.6908
     },
     {
       "date": "2026-10-24",
-      "equity": 104130.9456
+      "equity": 104357.8944
     },
     {
       "date": "2026-10-25",
-      "equity": 103920.8744
+      "equity": 104141.6404
     },
     {
       "date": "2026-10-26",
-      "equity": 104319.642
+      "equity": 104566.1133
     },
     {
       "date": "2026-10-27",
-      "equity": 104784.1
+      "equity": 105027.1451
     },
     {
       "date": "2026-10-28",
-      "equity": 105115.1687
+      "equity": 105346.3681
     },
     {
       "date": "2026-10-29",
-      "equity": 103958.9844
+      "equity": 104311.1133
     },
     {
       "date": "2026-10-30",
-      "equity": 102862.5035
+      "equity": 103200.6763
     },
     {
       "date": "2026-10-31",
-      "equity": 102771.6766
+      "equity": 103107.7798
     },
     {
       "date": "2026-11-01",
-      "equity": 102825.0542
+      "equity": 103162.8965
     },
     {
       "date": "2026-11-02",
-      "equity": 102188.6989
+      "equity": 102518.5489
     },
     {
       "date": "2026-11-03",
-      "equity": 102520.986
+      "equity": 102862.5222
     },
     {
       "date": "2026-11-04",
-      "equity": 104217.841
+      "equity": 104562.8865
     },
     {
       "date": "2026-11-05",
-      "equity": 101778.5944
+      "equity": 102095.5657
     },
     {
       "date": "2026-11-06",
-      "equity": 101875.1691
+      "equity": 102201.523
     },
     {
       "date": "2026-11-07",
-      "equity": 101718.1903
+      "equity": 102040.2413
     },
     {
       "date": "2026-11-08",
-      "equity": 101247.1984
+      "equity": 101556.969
     },
     {
       "date": "2026-11-09",
-      "equity": 102320.7505
+      "equity": 102635.4875
     },
     {
       "date": "2026-11-10",
-      "equity": 101557.4985
+      "equity": 101866.038
     },
     {
       "date": "2026-11-11",
-      "equity": 102215.2034
+      "equity": 102522.0406
     },
     {
       "date": "2026-11-12",
-      "equity": 101534.4144
+      "equity": 101813.9836
     },
     {
       "date": "2026-11-13",
-      "equity": 100834.0618
+      "equity": 101111.1847
     },
     {
       "date": "2026-11-14",
-      "equity": 99250.1396
+      "equity": 99486.7973
     },
     {
       "date": "2026-11-15",
-      "equity": 99886.1348
+      "equity": 100138.1741
     },
     {
       "date": "2026-11-16",
-      "equity": 98726.4428
+      "equity": 98925.1597
     },
     {
       "date": "2026-11-17",
-      "equity": 98785.3819
+      "equity": 98736.4178
+    },
+    {
+      "date": "2026-11-18",
+      "equity": 98496.3074
     }
   ],
   "skipped": [
@@ -2178,6 +2162,14 @@
       "skip_reason": "class"
     },
     {
+      "symbol": "EUR/JPY",
+      "display": "EUR/JPY",
+      "date": "2026-07-14",
+      "direction": "LONG",
+      "conviction": 3,
+      "skip_reason": "class"
+    },
+    {
       "symbol": "EUR/NZD",
       "display": "EUR/NZD",
       "date": "2026-07-02",
@@ -2238,22 +2230,6 @@
       "display": "GOOGLE",
       "date": "2026-07-02",
       "direction": "LONG",
-      "conviction": 3,
-      "skip_reason": "class"
-    },
-    {
-      "symbol": "GOOGL",
-      "display": "GOOGLE",
-      "date": "2026-07-15",
-      "direction": "LONG",
-      "conviction": 3,
-      "skip_reason": "class"
-    },
-    {
-      "symbol": "GOOGL",
-      "display": "GOOGLE",
-      "date": "2026-07-22",
-      "direction": "SHORT",
       "conviction": 3,
       "skip_reason": "class"
     },

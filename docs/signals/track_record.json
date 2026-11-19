@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:01:22.658678+00:00",
+  "generated_at": "2026-11-19T03:59:13.166127+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -4796,10 +4796,10 @@
       "stop_loss": 0.6981,
       "take_profit": 0.6819,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 0.69539,
+      "exit_date": "2026-07-10",
+      "realized_R": -0.5831
     },
     {
       "date": "2026-07-03",
@@ -15468,10 +15468,10 @@
       "stop_loss": 337.48,
       "take_profit": 392.655,
       "horizon_days": 21,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 366.45999,
+      "exit_date": "2026-07-06",
+      "realized_R": 0.3131
     },
     {
       "date": "2026-07-03",
@@ -15644,10 +15644,10 @@
       "stop_loss": 352.3093,
       "take_profit": 398.8361,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "sl",
+      "exit_price": 352.3093,
+      "exit_date": "2026-07-16",
+      "realized_R": -1.0
     },
     {
       "date": "2026-07-16",
@@ -15756,10 +15756,10 @@
       "stop_loss": 361.2683,
       "take_profit": 313.2726,
       "horizon_days": 14,
-      "outcome": "open",
-      "exit_price": null,
-      "exit_date": null,
-      "realized_R": null
+      "outcome": "flip",
+      "exit_price": 319.73999,
+      "exit_date": "2026-07-24",
+      "realized_R": 1.1631
     },
     {
       "date": "2026-07-23",
@@ -29444,14 +29444,14 @@
   ],
   "aggregates": {
     "total": 1840,
-    "open": 1768,
-    "resolved": 72,
+    "open": 1764,
+    "resolved": 76,
     "tp": 4,
-    "sl": 18,
+    "sl": 19,
     "expired": 2,
-    "flip": 48,
-    "hit_rate": 0.0556,
-    "avg_R": -0.1688,
+    "flip": 51,
+    "hit_rate": 0.0526,
+    "avg_R": -0.1613,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29465,11 +29465,11 @@
       "3": {
         "total": 341,
         "tp": 4,
-        "sl": 17,
+        "sl": 18,
         "expired": 2,
-        "flip": 48,
-        "open": 270,
-        "avg_R": -0.1571
+        "flip": 51,
+        "open": 266,
+        "avg_R": -0.1501
       },
       "1": {
         "total": 1,
@@ -29503,11 +29503,11 @@
       "stock": {
         "total": 598,
         "tp": 2,
-        "sl": 0,
+        "sl": 1,
         "expired": 1,
-        "flip": 19,
-        "open": 576,
-        "avg_R": 0.0934
+        "flip": 21,
+        "open": 573,
+        "avg_R": 0.1012
       },
       "index": {
         "total": 207,
@@ -29523,9 +29523,9 @@
         "tp": 2,
         "sl": 12,
         "expired": 1,
-        "flip": 16,
-        "open": 613,
-        "avg_R": -0.2542
+        "flip": 17,
+        "open": 612,
+        "avg_R": -0.2644
       },
       "energy": {
         "total": 46,

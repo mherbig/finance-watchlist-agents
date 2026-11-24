@@ -2,44 +2,44 @@
   "anchors": {
     "GER40": {
       "trend": "side",
-      "weekly_trend": "down",
-      "change_pct": -2.6,
-      "rsi14": 36.06
+      "weekly_trend": "side",
+      "change_pct": 2.15,
+      "rsi14": 44.32
     },
     "NQ100": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": -5.61,
-      "rsi14": 31.28
+      "change_pct": 6.86,
+      "rsi14": 42.4
     },
     "S&P500": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": -3.7,
-      "rsi14": 29.17
+      "change_pct": 4.73,
+      "rsi14": 40.86
     },
     "EUR/USD": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 0.13,
-      "rsi14": 10.09
+      "change_pct": 0.06,
+      "rsi14": 7.47
     },
     "BTC/USD": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": -1.05,
-      "rsi14": 17.02
+      "change_pct": -1.28,
+      "rsi14": 18.19
     },
     "XAU": {
       "trend": "down",
       "weekly_trend": "down",
-      "change_pct": 1.71,
-      "rsi14": 11.62
+      "change_pct": -0.46,
+      "rsi14": 19.79
     }
   },
   "vol_regime": {
-    "symbols": 80,
-    "median_atr_pct": 2.497
+    "symbols": 79,
+    "median_atr_pct": 2.488
   },
-  "generated_at": "2026-11-23T03:11:28.637332+00:00"
+  "generated_at": "2026-11-24T06:26:57.325149+00:00"
 }

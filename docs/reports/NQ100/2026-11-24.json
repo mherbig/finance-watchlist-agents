@@ -1,0 +1,67 @@
+{
+  "symbol": "NDX",
+  "display": "NQ100",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:26:57.074208+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 26746.096,
+    "change_pct": 6.8605,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 26746.099609375,
+    "change_pct": 6.860523714775013,
+    "sma20": 27767.0965,
+    "sma50": 29176.6402,
+    "sma200": 28081.6521,
+    "rsi14": 42.4,
+    "macd": {
+      "macd": -805.1106,
+      "signal": -670.7457,
+      "hist": -134.3649
+    },
+    "atr14": 974.4229,
+    "high_52w": 31224.470703125,
+    "low_52w": 22953.380859375,
+    "pct_from_high": -14.34,
+    "pct_from_low": 16.52,
+    "trend": "down",
+    "bias": "bearish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 29813.1602
+      },
+      {
+        "type": "support",
+        "price": 25028.9805
+      }
+    ],
+    "weekly": {
+      "trend": "down",
+      "weeks": 53,
+      "last_close": 26746.099609375
+    },
+    "volume_ratio": 1.2
+  },
+  "fundamental": null,
+  "headline": "Trend down, RSI 42",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Das Bild ist klar bearisch: Tages- und Wochentrend abwaerts (53 Wochen), Kurs unter SMA20/50, MACD-Histogramm weitet sich negativ aus (-110). Gegen einen frischen Short spricht der scharfe -3%-Tag bei nur unterdurchschnittlichem Volumen (ratio 0,86) und noch nicht ueberverkauftem RSI (41), was Rueckprallerisiko birgt, zumal S&P nur seitwaerts und GER40 mit RSI 28 stark ueberverkauft ist. Da die Asset-Klasse Index im Track Record klar negativ laeuft (avg_R -0,51), bleibe ich bei diesem Widerspruch diszipliniert FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

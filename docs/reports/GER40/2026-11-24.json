@@ -1,0 +1,67 @@
+{
+  "symbol": "DAX",
+  "display": "GER40",
+  "asset_class": "index",
+  "track": "technical",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:26:57.074208+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 25337.27,
+    "change_pct": 2.155,
+    "currency": "EUR"
+  },
+  "technical": {
+    "last_close": 25337.26953125,
+    "change_pct": 2.154961054878001,
+    "sma20": 26018.2388,
+    "sma50": 25609.7098,
+    "sma200": 24999.3706,
+    "rsi14": 44.32,
+    "macd": {
+      "macd": -26.9453,
+      "signal": 134.7795,
+      "hist": -161.7248
+    },
+    "atr14": 459.2266,
+    "high_52w": 26771.880859375,
+    "low_52w": 22300.75,
+    "pct_from_high": -5.36,
+    "pct_from_low": 13.62,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 26771.8809
+      },
+      {
+        "type": "support",
+        "price": 24802.7793
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 25337.26953125
+    },
+    "volume_ratio": 1.04
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 44",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Widerspruechliches Bild: RSI 28 signalisiert Ueberverkauftheit nahe der Unterstuetzung 24627, doch MACD bleibt klar bearisch (macd 6,9 unter Signal 56, Histogramm -49) und Tages- wie Wochentrend sind seitwaerts-neutral. Das Makro-Umfeld ist breit risk-off (NQ100, S&P500, EUR/USD, XAU schwach), und die Asset-Klasse Index laeuft im Track Record klar negativ (avg_R -0,51, 0 TP bei 4 SL). Ohne stimmiges Setup und gegen ein negatives Makro-Bild bleibe ich FLAT.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "symbol": "TSLA",
+  "display": "TSLA",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T05:13:15.908276+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 384.67999,
+    "change_pct": -0.20235531,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 384.67999,
+    "change_pct": -0.20235563229273928,
+    "sma20": 383.3515,
+    "sma50": 376.7274,
+    "sma200": 381.3714,
+    "rsi14": 49.87,
+    "macd": {
+      "macd": -0.3544,
+      "signal": 0.8433,
+      "hist": -1.1977
+    },
+    "atr14": 21.4779,
+    "high_52w": 489.88,
+    "low_52w": 298.32001,
+    "pct_from_high": -21.47,
+    "pct_from_low": 28.95,
+    "trend": "up",
+    "bias": "bullish",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 404.22
+      },
+      {
+        "type": "support",
+        "price": 343.69
+      }
+    ],
+    "weekly": {
+      "trend": "up",
+      "weeks": 53,
+      "last_close": 384.67999
+    },
+    "volume_ratio": 0.79
+  },
+  "fundamental": null,
+  "headline": "Trend up, RSI 50",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Tages- und Wochentrend zeigen klar abwaerts, der Kurs (313,0) liegt unter allen SMAs und MACD bleibt negativ, doch RSI14 von 15,7 signalisiert bei erhoehtem Volumen (1,46x) eine ausgereizte Kapitulation exakt auf der Unterstuetzung 313,0 und nur 3,4% ueber dem 52W-Tief. Ein neuer Short laeuft dieser Ueberdehnung hinterher, ein Long gegen den Wochentrend waere ohne Umkehrbestaetigung unbegruendet. Zusammen mit dem risikoscheuen Makro-Bild (NQ100 down, S&P500 schwach) und dem negativen Track Record der Konviktionsstufe 3 (avg_R -0,17) ist FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:26:57.627804+00:00",
+  "generated_at": "2026-11-25T05:13:16.494660+00:00",
   "signals": [
     {
       "date": "2026-07-02",
@@ -25468,10 +25468,10 @@
       "stop_loss": 160.7589,
       "take_profit": 163.4935,
       "horizon_days": 14,
-      "outcome": "expired",
-      "exit_price": 162.50821,
-      "exit_date": "2026-07-20",
-      "realized_R": 0.5993
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
     },
     {
       "date": "2026-07-09",
@@ -25676,10 +25676,10 @@
       "stop_loss": 162.2209,
       "take_profit": 164.6284,
       "horizon_days": 14,
-      "outcome": "flip",
-      "exit_price": 163.85393,
-      "exit_date": "2026-07-24",
-      "realized_R": 0.6958
+      "outcome": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "realized_R": null
     },
     {
       "date": "2026-07-22",
@@ -29444,14 +29444,14 @@
   ],
   "aggregates": {
     "total": 1840,
-    "open": 1764,
-    "resolved": 76,
+    "open": 1766,
+    "resolved": 74,
     "tp": 4,
     "sl": 19,
-    "expired": 2,
-    "flip": 51,
-    "hit_rate": 0.0526,
-    "avg_R": -0.1613,
+    "expired": 1,
+    "flip": 50,
+    "hit_rate": 0.0541,
+    "avg_R": -0.1832,
     "by_conviction": {
       "2": {
         "total": 1495,
@@ -29466,10 +29466,10 @@
         "total": 341,
         "tp": 4,
         "sl": 18,
-        "expired": 2,
-        "flip": 51,
-        "open": 266,
-        "avg_R": -0.1501
+        "expired": 1,
+        "flip": 50,
+        "open": 268,
+        "avg_R": -0.172
       },
       "1": {
         "total": 1,
@@ -29522,10 +29522,10 @@
         "total": 644,
         "tp": 2,
         "sl": 12,
-        "expired": 1,
-        "flip": 17,
-        "open": 612,
-        "avg_R": -0.2644
+        "expired": 0,
+        "flip": 16,
+        "open": 614,
+        "avg_R": -0.3252
       },
       "energy": {
         "total": 46,

@@ -1,0 +1,67 @@
+{
+  "symbol": "PFE",
+  "display": "PFIZER",
+  "asset_class": "stock",
+  "track": "fundamental",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T04:30:05.550787+00:00",
+  "available": true,
+  "snapshot": {
+    "price": 28.46,
+    "change_pct": 0.0,
+    "currency": "USD"
+  },
+  "technical": {
+    "last_close": 28.46,
+    "change_pct": 0.0,
+    "sma20": 29.0805,
+    "sma50": 28.8524,
+    "sma200": 27.038,
+    "rsi14": 32.68,
+    "macd": {
+      "macd": -0.3397,
+      "signal": -0.1903,
+      "hist": -0.1493
+    },
+    "atr14": 0.6679,
+    "high_52w": 30.79,
+    "low_52w": 23.67,
+    "pct_from_high": -7.57,
+    "pct_from_low": 20.24,
+    "trend": "side",
+    "bias": "neutral",
+    "levels": [
+      {
+        "type": "resistance",
+        "price": 30.79
+      },
+      {
+        "type": "support",
+        "price": 27.4
+      }
+    ],
+    "weekly": {
+      "trend": "side",
+      "weeks": 53,
+      "last_close": 28.46
+    },
+    "volume_ratio": 0.71
+  },
+  "fundamental": null,
+  "headline": "Trend side, RSI 33",
+  "flags": [],
+  "signal": {
+    "generated_at": "2026-07-26T21:30:35.129063+00:00",
+    "model": "claude-opus-4-8",
+    "direction": "FLAT",
+    "conviction": 2,
+    "entry_type": "market",
+    "horizon_days": 14,
+    "rationale": "Der Kurs (24.54) liegt unter SMA50 (25.15) und SMA200 (25.84), der Wochentrend ist seit 52 Wochen abwaerts und der Tag schloss -1.88% bei seitwaertsgerichtetem Tagestrend und neutralem Bias, mit Widerstand direkt darueber bei 25.14. Das leicht positive Momentum (RSI 62, MACD-Hist +0.10) wird durch unterdurchschnittliches Volumen (ratio 0.66) nicht bestaetigt und trifft auf ein risk-off-Makrobild (NQ abwaerts, S&P und Gold im Wochentrend abwaerts). Gegen den klaren Wochenabwaertstrend und bei negativ laufender Konviktionsstufe 3 (avg_R -0.17) bleibt FLAT die disziplinierte Wahl.",
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "take_profit_2": null,
+    "rr": null
+  }
+}
